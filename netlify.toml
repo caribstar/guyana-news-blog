@@ -1,20 +1,9 @@
 [build]
   publish = "public"
-  command = "hugo --minify"
+  command = "git submodule update --init --recursive && hugo --minify"
 
 [build.environment]
   HUGO_VERSION = "0.122.0"
 
 [context.production.environment]
   HUGO_ENV = "production"
-
-[context.deploy-preview]
-  command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
