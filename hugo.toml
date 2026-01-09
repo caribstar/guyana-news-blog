@@ -4,20 +4,125 @@ title = "Funny Take On Guyana News"
 theme = "PaperMod"
 
 [pagination]
-pagerSize = 10
+  pagerSize = 10
 
 enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = "Your daily dose of Guyana news with humor"
+  description = "Your daily dose of Guyana news with humor - Satirical commentary on all 4 major newspapers"
   author = "CARIBSTAR"
-  ShowShareButtons = true
+  
+  # Mobile & Performance
+  env = "production"
+  
+  # Home page settings
+  homeInfoParams.Title = "The Daily Laugh 🇬🇾"
+  homeInfoParams.Content = "Satirical commentary on Guyana's four major newspapers. We read them so you don't have to - then we make you laugh about it."
+  
+  # Reading experience
   ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  # Social sharing
+  ShowShareButtons = true
+  
+  # Table of contents
+  ShowToc = true
+  TocOpen = false
+  
+  # Comments (set to false for now)
+  comments = false
+  
+  # Search
+  ShowSearch = true
+  
+  # Profile mode (optional - makes homepage more magazine-like)
+  profileMode.enabled = false
 
+# Menu
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Legal"
+  url = "/legal/"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 4
+
+# Social media links (add yours)
+# [[params.socialIcons]]
+#   name = "twitter"
+#   url = "https://twitter.com/yourusername"
+
+# [[params.socialIcons]]
+#   name = "facebook"
+#   url = "https://facebook.com/yourpage"
+
+# SEO & Analytics
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Privacy & Security
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
