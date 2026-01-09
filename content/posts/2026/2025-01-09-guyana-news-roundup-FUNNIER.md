@@ -1,6 +1,6 @@
-﻿---
-title: "The Daily Laugh: Your Thursday Guyana News Circus 🎪"
-date: 2025-01-09T12:00:00-04:00
+---
+title: "The Daily Laugh: Your Thursday Guyana News Circus ??"
+date: 2026-01-09T12:00:00-04:00
 draft: false
 tags: ["guyana", "satire", "news-roundup", "politics", "comedy"]
 categories: ["news"]
@@ -8,17 +8,17 @@ author: "CARIBSTAR"
 description: "All 4 newspapers walked into a bar. This is what happened."
 ---
 
-# 🇬🇾 THE DAILY LAUGH 🇬🇾
+# ???? THE DAILY LAUGH ????
 **Your 5-Minute Guyana News Digest**  
 *Sponsored by: Strong Coffee & Questionable Life Choices*
 
 ---
 
-## 🎭 **BREAKING: MADURO GETS THE ULTIMATE SURPRISE PARTY**
+## ?? **BREAKING: MADURO GETS THE ULTIMATE SURPRISE PARTY**
 
 Y'all, the Americans just Uber-kidnapped an entire president. Not even DoorDash is that efficient.
 
-**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. "Operation Yo Quiero Taco Bell" (not the real name, but it should be) resulted in Nicolás Maduro getting the express trip to New York he DEFINITELY didn't book on Travelocity.
+**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. "Operation Yo Quiero Taco Bell" (not the real name, but it should be) resulted in Nicol�s Maduro getting the express trip to New York he DEFINITELY didn't book on Travelocity.
 
 **Guyana's Response:** President Ali is doing that Caribbean thing where you're simultaneously thrilled, terrified, and trying not to laugh at the funeral. He "commended Trump" which is like thanking the bouncer for removing your drunk ex from the party. 
 
@@ -33,7 +33,7 @@ Y'all, the Americans just Uber-kidnapped an entire president. Not even DoorDash 
 
 ---
 
-## 💰 **THE MOHAMEDS: AMERICA'S MOST WANTED (Guyanese Edition)**
+## ?? **THE MOHAMEDS: AMERICA'S MOST WANTED (Guyanese Edition)**
 
 These brothers are having the kind of week that makes you reconsider all your life choices.
 
@@ -51,7 +51,7 @@ These brothers are having the kind of week that makes you reconsider all your li
 
 ---
 
-## 🛣️ **HEROES HIGHWAY: A LOVE STORY GONE WRONG**
+## ??? **HEROES HIGHWAY: A LOVE STORY GONE WRONG**
 
 **December 2023:** *Government unveils shiny new concrete highway*  
 "Look at this beauty! State of the art! Will last forever!"
@@ -78,7 +78,7 @@ These brothers are having the kind of week that makes you reconsider all your li
 
 ---
 
-## 📱 **DIGITAL SCHOOL: WHEN ZOOM FINALLY CAME TO GUYANA**
+## ?? **DIGITAL SCHOOL: WHEN ZOOM FINALLY CAME TO GUYANA**
 
 The Ministry of Education is THRILLED to announce that students in Kwakwani, Linden, and Anna Regina successfully... logged into Zoom.
 
@@ -96,7 +96,7 @@ The Ministry of Education is THRILLED to announce that students in Kwakwani, Lin
 
 ---
 
-## 🌾 **RICE FARMERS GET $2.1 BILLION (Finally)**
+## ?? **RICE FARMERS GET $2.1 BILLION (Finally)**
 
 Agriculture Minister Mustapha is touring the country handing out checks like he's Oprah's Guyanese cousin.
 
@@ -114,7 +114,7 @@ Agriculture Minister Mustapha is touring the country handing out checks like he'
 
 ---
 
-## 👨‍⚖️ **IN OTHER NEWS THAT'S ACTUALLY SAD**
+## ????? **IN OTHER NEWS THAT'S ACTUALLY SAD**
 
 Three people charged with murder, including a 17-year-old. A Chinese businessman died. A grandfather was killed by his grandson.
 
@@ -124,7 +124,7 @@ We're a satire blog, not monsters. Some news just hurts. RIP to the victims. Jus
 
 ---
 
-## 🏎️ **MOTORSPORTS: BECAUSE APPARENTLY THAT'S A THING HERE**
+## ??? **MOTORSPORTS: BECAUSE APPARENTLY THAT'S A THING HERE**
 
 The Guyana Motor Racing & Sports Club announced something about South Dakota Circuit and literally all four newspapers covered it.
 
@@ -142,7 +142,7 @@ The Guyana Motor Racing & Sports Club announced something about South Dakota Cir
 
 ---
 
-## 📰 **THE GREAT NEWSPAPER WARS OF 2026**
+## ?? **THE GREAT NEWSPAPER WARS OF 2026**
 
 Let's talk about how our four newspapers are basically different personality types at the same family reunion:
 
@@ -158,7 +158,7 @@ Let's talk about how our four newspapers are basically different personality typ
 
 ---
 
-## 🎪 **ALSO HAPPENING (The Highlights Reel)**
+## ?? **ALSO HAPPENING (The Highlights Reel)**
 
 **GRA Uncovered "Internal Conspiracy":** Someone was stealing. From the tax people. The irony is *chef's kiss*
 
@@ -172,7 +172,7 @@ Let's talk about how our four newspapers are basically different personality typ
 
 ---
 
-## 🎯 **YOUR DAILY RECAP**
+## ?? **YOUR DAILY RECAP**
 
 **What We Learned Today:**
 1. Trump moves faster than Guyana contractors
@@ -197,7 +197,7 @@ Let's talk about how our four newspapers are basically different personality typ
 
 ---
 
-## 💭 **FINAL THOUGHTS**
+## ?? **FINAL THOUGHTS**
 
 Guyana is that friend who keeps saying "you won't BELIEVE what happened today" and you're like "actually, I would, because this is your third crisis this week."
 
@@ -214,7 +214,7 @@ Only in Guyana, baby. Only in Guyana.
 
 ---
 
-## 📱 **TALK TO US**
+## ?? **TALK TO US**
 
 Which story made you laugh hardest? Which newspaper is your favorite mess? Should we start a betting pool on how long until the next Heroes Highway announcement?
 
@@ -235,7 +235,7 @@ We're here for the chaos. Join us.
 **TOMORROW'S PREVIEW:**  
 The Mohameds (obviously), someone promises something, another ministry denies the undeniable, and we'll be here with the popcorn and punchlines.
 
-*Same time, same chaos, more jokes.* 🇬🇾😂
+*Same time, same chaos, more jokes.* ??????
 
 ---
 
@@ -244,5 +244,5 @@ The Mohameds (obviously), someone promises something, another ministry denies th
 
 *This is satirical commentary protected under Guyana's fair use and fair comment provisions. We summarize publicly reported news for purposes of humor, criticism, and social commentary. See our full [Legal Disclaimer](/legal/) for details.*
 
-**© 2026 The Daily Laugh | Not actual news, just actual laughs** 🇬🇾😂
+**� 2026 The Daily Laugh | Not actual news, just actual laughs** ??????
 

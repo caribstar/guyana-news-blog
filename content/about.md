@@ -1,6 +1,6 @@
 ---
 title: "About The Daily Laugh"
-date: 2025-01-09T12:00:00-04:00
+date: 2026-01-09T12:00:00-04:00
 draft: false
 ---
 
