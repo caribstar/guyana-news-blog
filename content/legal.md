@@ -35,7 +35,7 @@ This blog doesn't provide legal, financial, or medical advice. Consult professio
 
 ## Contact
 
-Questions or complaints? Contact us at: [your email]
+Questions or complaints? Contact us at: caribbeandailybrief@gmail.com
 
 ---
 

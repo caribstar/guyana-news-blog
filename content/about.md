@@ -19,4 +19,6 @@ Your editor and chief troublemaker. Strong opinions, questionable judgment, exce
 
 Questions? Complaints? Want to tell us we're hilarious or terrible? Drop us a line.
 
+**Email:** caribbeandailybrief@gmail.com
+
 *This is satire. See our [Legal Disclaimer](/legal/) for details.*
