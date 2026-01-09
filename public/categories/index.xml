@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Funny Take On Guyana News</title><link>https://silly-cajeta-959f3e.netlify.app/categories/</link><description>Recent content in Categories on Funny Take On Guyana News</description><generator>Hugo -- 0.154.3</generator><language>en-us</language><lastBuildDate>Thu, 09 Jan 2025 08:00:00 -0400</lastBuildDate><atom:link href="https://silly-cajeta-959f3e.netlify.app/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcements</title><link>https://silly-cajeta-959f3e.netlify.app/categories/announcements/</link><pubDate>Thu, 09 Jan 2025 08:00:00 -0400</pubDate><guid>https://silly-cajeta-959f3e.netlify.app/categories/announcements/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Funny Take On Guyana News</title>
+    <link>https://guyananewsbrief.netlify.app/categories/</link>
+    <description>Recent content in Categories on Funny Take On Guyana News</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2025 08:00:00 -0400</lastBuildDate>
+    <atom:link href="https://guyananewsbrief.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcements</title>
+      <link>https://guyananewsbrief.netlify.app/categories/announcements/</link>
+      <pubDate>Thu, 09 Jan 2025 08:00:00 -0400</pubDate>
+      <guid>https://guyananewsbrief.netlify.app/categories/announcements/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

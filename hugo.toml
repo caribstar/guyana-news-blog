@@ -17,15 +17,8 @@ buildFuture = false
 [params]
   description = "Your daily dose of Guyana news with humor - Satirical commentary on all 4 major newspapers"
   author = "CARIBSTAR"
-  
-  # Mobile & Performance
   env = "production"
   
-  # Home page settings
-  homeInfoParams.Title = "The Daily Laugh 🇬🇾"
-  homeInfoParams.Content = "Satirical commentary on Guyana's four major newspapers. We read them so you don't have to - then we make you laugh about it."
-  
-  # Reading experience
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -33,24 +26,14 @@ buildFuture = false
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
-  
-  # Social sharing
-  ShowShareButtons = true
-  
-  # Table of contents
   ShowToc = true
   TocOpen = false
-  
-  # Comments (set to false for now)
   comments = false
-  
-  # Search
-  ShowSearch = true
-  
-  # Profile mode (optional - makes homepage more magazine-like)
-  profileMode.enabled = false
 
-# Menu
+[params.homeInfoParams]
+  Title = "The Daily Laugh"
+  Content = "Satirical commentary on Guyana's four major newspapers. We read them so you don't have to - then we make you laugh about it."
+
 [[menu.main]]
   name = "Home"
   url = "/"
@@ -71,16 +54,6 @@ buildFuture = false
   url = "/about/"
   weight = 4
 
-# Social media links (add yours)
-# [[params.socialIcons]]
-#   name = "twitter"
-#   url = "https://twitter.com/yourusername"
-
-# [[params.socialIcons]]
-#   name = "facebook"
-#   url = "https://facebook.com/yourpage"
-
-# SEO & Analytics
 [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
@@ -90,13 +63,10 @@ buildFuture = false
   minMatchCharLength = 0
   keys = ["title", "permalink", "summary", "content"]
 
-# Taxonomies
 [taxonomies]
   category = "categories"
   tag = "tags"
-  series = "series"
 
-# Privacy & Security
 [privacy]
   [privacy.disqus]
     disable = true
@@ -104,25 +74,12 @@ buildFuture = false
     disable = false
     anonymizeIP = true
     respectDoNotTrack = true
-  [privacy.instagram]
-    disable = false
-    simple = true
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = true
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
 
-# Markup settings
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
-    anchorLineNos = false
     codeFences = true
-    guessSyntax = true
     lineNos = true
     style = "monokai"

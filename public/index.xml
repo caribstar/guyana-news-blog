@@ -1,2 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Funny Take On Guyana News</title><link>https://silly-cajeta-959f3e.netlify.app/</link><description>Recent content on Funny Take On Guyana News</description><generator>Hugo -- 0.154.3</generator><language>en-us</language><lastBuildDate>Thu, 09 Jan 2025 08:00:00 -0400</lastBuildDate><atom:link href="https://silly-cajeta-959f3e.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Funny Take on Guyana Daily News!</title><link>https://silly-cajeta-959f3e.netlify.app/posts/welcome/</link><pubDate>Thu, 09 Jan 2025 08:00:00 -0400</pubDate><guid>https://silly-cajeta-959f3e.netlify.app/posts/welcome/</guid><description>&lt;h1 id="welcome-"&gt;Welcome! 🇬🇾😂&lt;/h1&gt;
-&lt;p&gt;Your daily dose of Guyanese news with comedy!&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Funny Take On Guyana News</title>
+    <link>https://guyananewsbrief.netlify.app/</link>
+    <description>Recent content on Funny Take On Guyana News</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://guyananewsbrief.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About The Daily Laugh</title>
+      <link>https://guyananewsbrief.netlify.app/about/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyananewsbrief.netlify.app/about/</guid>
+      <description>&lt;h1 id=&#34;about-the-daily-laugh-&#34;&gt;About The Daily Laugh 🇬🇾&lt;/h1&gt;
+&lt;p&gt;Welcome to &lt;strong&gt;The Daily Laugh&lt;/strong&gt; - your daily satirical roundup of Guyana&amp;rsquo;s four major newspapers.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-do&#34;&gt;What We Do&lt;/h2&gt;
+&lt;p&gt;We read Stabroek News, Kaieteur News, Chronicle, and Guyana Times every day, then write funny commentary about the headlines. We&amp;rsquo;re not real journalists - we&amp;rsquo;re satirists who care about Guyana enough to mock its problems.&lt;/p&gt;
+&lt;h2 id=&#34;meet-caribstar&#34;&gt;Meet CARIBSTAR&lt;/h2&gt;
+&lt;p&gt;Your editor and chief troublemaker. Strong opinions, questionable judgment, excellent coffee tolerance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legal Disclaimer</title>
+      <link>https://guyananewsbrief.netlify.app/legal/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyananewsbrief.netlify.app/legal/</guid>
+      <description>&lt;h1 id=&#34;legal-disclaimer--copyright-policy&#34;&gt;Legal Disclaimer &amp;amp; Copyright Policy&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; January 9, 2026&lt;/p&gt;
+&lt;h2 id=&#34;this-is-satire&#34;&gt;This Is Satire&lt;/h2&gt;
+&lt;p&gt;All content on &lt;strong&gt;The Daily Laugh&lt;/strong&gt; is satirical commentary on Guyana news. We&amp;rsquo;re not journalists - we&amp;rsquo;re satirists.&lt;/p&gt;
+&lt;h2 id=&#34;fair-use--copyright&#34;&gt;Fair Use &amp;amp; Copyright&lt;/h2&gt;
+&lt;p&gt;We summarize news from Guyana&amp;rsquo;s four major newspapers under fair use principles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We don&amp;rsquo;t republish full articles&lt;/li&gt;
+&lt;li&gt;We add substantial original commentary&lt;/li&gt;
+&lt;li&gt;We transform content into satire&lt;/li&gt;
+&lt;li&gt;We attribute sources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;not-defamation&#34;&gt;Not Defamation&lt;/h2&gt;
+&lt;p&gt;Our satire focuses on:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to Funny Take on Guyana Daily News!</title>
+      <link>https://guyananewsbrief.netlify.app/posts/welcome/</link>
+      <pubDate>Thu, 09 Jan 2025 08:00:00 -0400</pubDate>
+      <guid>https://guyananewsbrief.netlify.app/posts/welcome/</guid>
+      <description>&lt;h1 id=&#34;welcome-&#34;&gt;Welcome! 🇬🇾😂&lt;/h1&gt;
+&lt;p&gt;Your daily dose of Guyanese news with comedy!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
