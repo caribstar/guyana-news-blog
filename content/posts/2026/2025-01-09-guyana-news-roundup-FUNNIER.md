@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Daily Laugh: Your Thursday Guyana News Circus 🎪"
 date: 2025-01-09T12:00:00-04:00
 draft: false
@@ -241,3 +241,8 @@ The Mohameds (obviously), someone promises something, another ministry denies th
 
 **CARIBSTAR** | *Professional Troublemaker | Your Daily Dose of Dangerous Truth*  
 *"We read the nonsense so you don't have to"*
+
+*This is satirical commentary protected under Guyana's fair use and fair comment provisions. We summarize publicly reported news for purposes of humor, criticism, and social commentary. See our full [Legal Disclaimer](/legal/) for details.*
+
+**© 2026 The Daily Laugh | Not actual news, just actual laughs** 🇬🇾😂
+
