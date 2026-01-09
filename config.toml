@@ -1,6 +1,6 @@
 baseURL = "https://guyana-news-blog.pages.dev/"
 languageCode = "en-us"
-title = "Funny Take On Guyana Daily News"
+title = "Funny Take On Guyana News"
 theme = "PaperMod"
 
 paginate = 10
