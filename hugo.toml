@@ -1,10 +1,10 @@
 baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
-title = "Funny Take On Guyana News"
+title = "The Daily Laugh - Guyana News"
 theme = "PaperMod"
 
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 
 enableEmoji = true
 enableRobotsTXT = true
@@ -12,74 +12,50 @@ buildDrafts = false
 buildFuture = false
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = "Your daily dose of Guyana news with humor - Satirical commentary on all 4 major newspapers"
-  author = "CARIBSTAR"
-  env = "production"
-  
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  ShowToc = true
-  TocOpen = false
-  comments = false
+description = "Your 5-minute Guyana news digest"
+author = "CARIBSTAR"
+env = "production"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+ShowToc = false
+TocOpen = false
+comments = false
 
 [params.homeInfoParams]
-  Title = "The Daily Laugh"
-  Content = "Satirical commentary on Guyana's four major newspapers. We read them so you don't have to - then we make you laugh about it."
+Title = "The Daily Laugh"
+Content = "Your 5-minute Guyana news digest. Satirical commentary on all 4 major newspapers."
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+name = "Home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 2
+name = "Posts"
+url = "/posts/"
+weight = 2
 
 [[menu.main]]
-  name = "Legal"
-  url = "/legal/"
-  weight = 3
+name = "Legal"
+url = "/legal/"
+weight = 3
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 4
-
-[params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = ["title", "permalink", "summary", "content"]
+name = "About"
+url = "/about/"
+weight = 4
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+category = "categories"
+tag = "tags"
 
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = false
-    anonymizeIP = true
-    respectDoNotTrack = true
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    style = "monokai"
+[markup.goldmark.renderer]
+unsafe = true

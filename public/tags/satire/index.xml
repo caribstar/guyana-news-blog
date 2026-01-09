@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Satire on Funny Take On Guyana News</title>
-    <link>https://guyanadailybrief.com/tags/satire/</link>
-    <description>Recent content in Satire on Funny Take On Guyana News</description>
+    <title>Satire on The Daily Laugh - Guyana News</title>
+    <link>http://localhost:1313/tags/satire/</link>
+    <description>Recent content in Satire on The Daily Laugh - Guyana News</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 10:47:33 -0500</lastBuildDate>
-    <atom:link href="https://guyanadailybrief.com/tags/satire/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jan 2026 14:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/satire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Daily Laugh: Friday&#39;s Guyana News Circus</title>
+      <link>http://localhost:1313/posts/friday-jan-10/</link>
+      <pubDate>Fri, 09 Jan 2026 14:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/friday-jan-10/</guid>
+      <description>&lt;div style=&#34;text-align: center; padding: 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 10px; margin-bottom: 30px;&#34;&gt;
+&lt;h1 style=&#34;color: white; font-size: 36px; margin: 0;&#34;&gt;🇬🇾 THE DAILY LAUGH 🇬🇾&lt;/h1&gt;
+&lt;p style=&#34;color: white; font-size: 18px; margin: 10px 0 0 0;&#34;&gt;&lt;strong&gt;Your 5-Minute Guyana News Digest&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&#34;color: white; font-size: 14px; margin: 5px 0 0 0; font-style: italic;&#34;&gt;Sponsored by: Bridge Repair Funds (Just Kidding, Those Don&#39;t Exist)&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-breaking-guyana-volunteers-as-americas-storage-unit&#34;&gt;🤝 BREAKING: GUYANA VOLUNTEERS AS AMERICA&amp;rsquo;S STORAGE UNIT&lt;/h2&gt;
+&lt;div style=&#34;background: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 5px;&#34;&gt;
+&lt;strong&gt;📊 QUICK STATS:&lt;/strong&gt;&lt;br&gt;
+Countries Involved: 3+ (none of them asked)&lt;br&gt;
+Opposition Anger Level: 🔥🔥🔥🔥🔥&lt;br&gt;
+Kaieteur News Caps Lock: MAXIMUM
+&lt;/div&gt;
+&lt;p&gt;In the wildest plot twist since the 2020 elections, Guyana is in productive discussions with the United States about accepting third country nationals.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Daily Laugh: Thursday&#39;s Guyana News Circus</title>
-      <link>https://guyanadailybrief.com/posts/2026-01-09-daily-laugh/</link>
+      <link>http://localhost:1313/posts/2026-01-09-daily-laugh/</link>
       <pubDate>Fri, 09 Jan 2026 10:47:33 -0500</pubDate>
-      <guid>https://guyanadailybrief.com/posts/2026-01-09-daily-laugh/</guid>
+      <guid>http://localhost:1313/posts/2026-01-09-daily-laugh/</guid>
       <description>&lt;h1 id=&#34;-the-daily-laugh-&#34;&gt;🇬🇾 THE DAILY LAUGH 🇬🇾&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Your 5-Minute Guyana News Digest&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Your 5-Minute Guyana News Digest&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Sponsored by: Strong Coffee &amp;amp; Questionable Life Choices&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-maduro-gets-the-ultimate-surprise-party&#34;&gt;🎭 MADURO GETS THE ULTIMATE SURPRISE PARTY&lt;/h2&gt;
+&lt;h2 id=&#34;-breaking-maduro-gets-the-ultimate-surprise-party&#34;&gt;🎭 BREAKING: MADURO GETS THE ULTIMATE SURPRISE PARTY&lt;/h2&gt;
 &lt;p&gt;Y&amp;rsquo;all, the Americans just Uber-kidnapped an entire president. Not even DoorDash is that efficient.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What Happened:&lt;/strong&gt; Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Nicolás Maduro got the express trip to New York he DEFINITELY didn&amp;rsquo;t book on Travelocity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Guyana&amp;rsquo;s Response:&lt;/strong&gt; President Ali is doing that Caribbean thing where you&amp;rsquo;re simultaneously thrilled, terrified, and trying not to laugh. He &amp;ldquo;commended Trump&amp;rdquo; which is like thanking the bouncer for removing your drunk ex from the party.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;What Happened:&lt;/strong&gt; Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Operation resulted in Nicolás Maduro getting the express trip to New York he DEFINITELY didn&amp;rsquo;t book on Travelocity.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
