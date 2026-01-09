@@ -5,17 +5,17 @@ draft: false
 tags: ["guyana", "satire"]
 ---
 
-# ???? THE DAILY LAUGH ????
+# 🇬🇾 THE DAILY LAUGH 🇬🇾
 
 **Your 5-Minute Guyana News Digest**
 
 ---
 
-## ?? MADURO GETS THE ULTIMATE SURPRISE PARTY
+## 🎭 MADURO GETS THE ULTIMATE SURPRISE PARTY
 
 Y'all, the Americans just Uber-kidnapped an entire president. Not even DoorDash is that efficient.
 
-**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Nicol�s Maduro got the express trip to New York he DEFINITELY didn't book on Travelocity.
+**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Nicolás Maduro got the express trip to New York he DEFINITELY didn't book on Travelocity.
 
 **Guyana's Response:** President Ali is doing that Caribbean thing where you're simultaneously thrilled, terrified, and trying not to laugh. He "commended Trump" which is like thanking the bouncer for removing your drunk ex from the party.
 
@@ -23,7 +23,7 @@ Y'all, the Americans just Uber-kidnapped an entire president. Not even DoorDash 
 
 ---
 
-## ?? THE MOHAMEDS: AMERICA'S MOST WANTED
+## 💰 THE MOHAMEDS: AMERICA'S MOST WANTED
 
 This father-son duo is having the kind of week that makes you reconsider all your life choices.
 
@@ -33,7 +33,7 @@ This father-son duo is having the kind of week that makes you reconsider all you
 
 ---
 
-## ??? HEROES HIGHWAY DISASTER
+## 🛣️ HEROES HIGHWAY DISASTER
 
 **December 2023:** Government unveils shiny new concrete highway  
 **January 2025:** Ministry announces asphalt overlay project
@@ -42,7 +42,7 @@ This father-son duo is having the kind of week that makes you reconsider all you
 
 ---
 
-## ?? DIGITAL SCHOOL SUCCESS
+## 📱 DIGITAL SCHOOL SUCCESS
 
 The Ministry of Education is THRILLED to announce that students successfully... logged into Zoom.
 
@@ -50,7 +50,7 @@ The Ministry of Education is THRILLED to announce that students successfully... 
 
 ---
 
-## ?? RICE FARMERS GET $2.1 BILLION
+## 🌾 RICE FARMERS GET $2.1 BILLION
 
 Minister Mustapha is touring the country handing out checks like Oprah's Guyanese cousin.
 
@@ -74,4 +74,4 @@ Minister Mustapha is touring the country handing out checks like Oprah's Guyanes
 
 *This is satirical commentary protected under Guyana's fair use provisions. See our [Legal Disclaimer](/legal/).*
 
-**� 2026 The Daily Laugh | Not actual news, just actual laughs** ??????
+**© 2026 The Daily Laugh | Not actual news, just actual laughs** 🇬🇾😂
