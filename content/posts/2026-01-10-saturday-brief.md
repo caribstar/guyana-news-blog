@@ -8,262 +8,320 @@ tags: ["guyana", "satire", "news"]
     <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🇬🇾 THE GUYANA BRIEF 🇬🇾</h1>
     <p style="color: white; font-size: 18px; margin: 0; font-weight: 500;">Your 5-Minute Weekend News Circus</p>
     <p style="color: white; font-size: 14px; margin: 10px 0 0 0; opacity: 0.9;">Saturday, January 10, 2026</p>
+    <p style="color: white; font-size: 12px; margin: 5px 0 0 0; opacity: 0.8; font-style: italic;">Sponsored by: Contractors Who Can't See 69,000-Volt Lines</p>
 </div>
 
 ## 📊 WEEKEND QUICK STATS
 
 <div style="background: #FCD116; padding: 20px; border-radius: 10px; border: 3px solid #CE1126; margin: 20px 0;">
-<p style="margin: 5px 0;"><strong>Mohamed Legal Saga:</strong> 🔄 Still Spinning</p>
-<p style="margin: 5px 0;"><strong>Tourists Attacked:</strong> 2 (British vlogger mocked, French vlogger slapped)</p>
-<p style="margin: 5px 0;"><strong>Things Almost Exploding:</strong> 🔥 National Power Grid</p>
-<p style="margin: 5px 0;"><strong>Opposition Volume:</strong> 🔇 Muted (as usual)</p>
+<p style="margin: 5px 0;"><strong>Mohamed Self-Pity Level:</strong> 💯 MAXIMUM</p>
+<p style="margin: 5px 0;"><strong>Vloggers Regretting Guyana Visit:</strong> 2/2</p>
+<p style="margin: 5px 0;"><strong>National Grid Near-Death Experiences:</strong> 🔥 Another One</p>
+<p style="margin: 5px 0;"><strong>Opposition Pulse Check:</strong> ⚰️ Flatline</p>
+<p style="margin: 5px 0;"><strong>Houses To Build Per Day:</strong> 22 😂</p>
 </div>
 
 ---
 
-## 🎭 STORY #1: THE MOHAMEDS - NOW WITH EXTRA VICTIM ENERGY
+## 🎭 STORY #1: THE MOHAMEDS PRESENT: "VICTIM: THE MUSICAL"
 
-**What Happened:** Nazar Mohamed published an op-ed titled "This is oppression and unconstitutional" claiming two years of political persecution while... *checks notes*... prosecutors asked to move his extradition hearing EARLIER.
+**Opening Scene:** Nazar Mohamed, fresh from discovering that being indicted for fraud is "oppression," has penned a heartfelt op-ed. Think Les Misérables, but the convict owns bulletproof cars.
 
 **What The Papers Said:**
 
 <div style="border: 2px dashed #009E60; padding: 20px; margin: 20px 0; background: #f9f9f9;">
-<p><strong style="color: #CE1126;">KAIETEUR:</strong> "THIS IS NOT LAW, THIS IS OPPRESSION" - Nazar Mohamed (their headline gave him the megaphone)</p>
-<p><strong style="color: #009E60;">CHRONICLE:</strong> "Prosecution requests earlier hearing date" (boring but accurate)</p>
-<p><strong>STABROEK:</strong> *Suspiciously quiet*</p>
-<p><strong>GUYANA TIMES:</strong> "Mohameds' extradition case adjourned to February 5"</p>
+<p><strong style="color: #CE1126;">KAIETEUR:</strong> Gave him the entire front page. "THIS IS NOT LAW, THIS IS OPPRESSION!" (Also Kaieteur: sold more papers that day)</p>
+<p><strong style="color: #009E60;">CHRONICLE:</strong> "Prosecution wants earlier date" (translation: Florida is TIRED)</p>
+<p><strong>STABROEK:</strong> Mysteriously silent (lawyers probably said "don't touch this")</p>
+<p><strong>GUYANA TIMES:</strong> "Case adjourned to February 5" (just the facts, ma'am)</p>
 </div>
 
-**The Irony:** Mohamed claims the government is forcing insurance companies to cancel bulletproof vehicle policies and arresting GRA employees who processed his paperwork. Meanwhile, the prosecution is literally asking "Can we do this FASTER please?" and the defense is saying "No, we're busy until February."
+**The Plot Twist:** While Mohamed writes 2,000 words about persecution, the prosecution is literally begging: "Can we PLEASE do this sooner?" and the defense lawyers are like "Sorry, we're washing our hair until February."
 
-**Mohamed Legal-O-Meter Update:**
+**Mohamed's Grievances Include:**
+- Insurance companies won't cover his bulletproof vehicles anymore (the AUDACITY)
+- GRA employees who helped him are being arrested (for helping him commit fraud, but details!)
+- His lands are being "illegally occupied" (by people who probably have actual legal papers)
+- The government is using "political influence" (from the guy indicted for using business influence)
+
+**The Persecution-O-Meter:**
 
 <div style="background: #f0f0f0; padding: 15px; border-left: 5px solid #CE1126; margin: 20px 0;">
-<div style="background: linear-gradient(to right, #CE1126 0%, #CE1126 96%, #ddd 96%, #ddd 100%); height: 30px; border-radius: 5px; position: relative;">
-    <span style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white; font-weight: bold;">96% Complete!</span>
+<div style="background: linear-gradient(to right, #CE1126 0%, #CE1126 98%, #ddd 98%, #ddd 100%); height: 30px; border-radius: 5px; position: relative;">
+    <span style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white; font-weight: bold; font-size: 12px;">98% Victim / 2% Consequences</span>
 </div>
-<p style="margin: 10px 0 0 0;"><strong>Appeals Filed:</strong> ∞ <strong>Florida's Patience:</strong> -5%</p>
-<p style="margin: 5px 0 0 0;"><strong>Op-Eds Written:</strong> 📝 Latest masterpiece claims "persecution"</p>
+<p style="margin: 10px 0 0 0;"><strong>Actual Persecution:</strong> Being asked to answer fraud charges</p>
+<p style="margin: 5px 0 0 0;"><strong>Mohamed's Persecution:</strong> Everything including gravity</p>
+<p style="margin: 5px 0 0 0;"><strong>Next Court Date:</strong> February 5 (unless they file to delay the delay)</p>
 </div>
 
 ---
 
-## ⚡ STORY #2: CONTRACTOR PLAYS CHICKEN WITH 69,000 VOLTS
+## ⚡ STORY #2: CONTRACTOR DISCOVERS ELECTRICITY THE HARD WAY
 
-**What Happened:** RZND Concrete and Delivery Company extended their concrete pump directly over GPL's 69,000-volt transmission line. You know, the thing that keeps tens of thousands of customers from sitting in darkness.
+**Breaking:** RZND Concrete Company decided to play "How Close Can We Get to 69,000 Volts Before Someone Arrests Us?"
 
-**The Technical Details:**
-- **Voltage:** 69,000 volts (enough to make you VERY crispy)
-- **Line Purpose:** Connects Sophia to Good Hope substations
-- **Regions Affected if Failed:** 4 and 5 (just...everyone)
-- **Safety Protocols Followed:** LOL no
+**Spoiler Alert:** Not very close!
 
-**GPL's Response:**
+**The Setup:**
+- GPL has a 69,000-volt transmission line
+- This line connects Sophia to Good Hope (keeps Regions 4 & 5 from becoming candlelit dinner zones)
+- Contractor extends concrete pump DIRECTLY OVER IT
+- GPL: "ARE YOU TRYING TO KILL US ALL?!"
+
+**GPL's Strongly Worded Letter:**
 
 <div style="background: black; color: #00ff00; padding: 20px; font-family: 'Courier New', monospace; border-radius: 5px; margin: 20px 0;">
 <pre>
-╔══════════════════════════════════════╗
-║   RECKLESS BEHAVIOR DETECTED        ║  
-║   THREAT LEVEL: CATASTROPHIC        ║
-║   CONTRACTOR: DETAINED              ║
-║   QUOTE: "This could have triggered ║
-║          a major system failure"    ║
-╚══════════════════════════════════════╝
+╔════════════════════════════════════════╗
+║  ⚠️  NATIONAL EMERGENCY ALERT  ⚠️     ║
+║                                        ║
+║  CONTRACTOR: Actively courting death  ║
+║  VOLTAGE: 69,000 (crispy level)       ║
+║  REGIONS AFFECTED: Everyone            ║
+║  STATUS: Contractor detained           ║
+║                                        ║
+║  "One miscalculation could have        ║
+║   triggered MAJOR SYSTEM FAILURE"      ║
+║                                        ║
+║  TRANSLATION: Y'all almost blacked     ║
+║  out the entire coast because someone  ║
+║  can't see giant power lines           ║
+╚════════════════════════════════════════╝
 </pre>
 </div>
 
-**What's Amazing:** This is the SECOND time in 3 months a contractor has threatened the grid. In November, someone tried to move a mobile police outpost and damaged transmission lines. 
+**Best Part:** This is the SECOND time in THREE MONTHS! Last time, someone tried to move a police station and hit power lines. 
 
-**The Pattern:**
-1. Get hired for construction job ✓
-2. Forget electricity exists ✓
-3. Nearly plunge country into darkness ✓
-4. Act surprised when arrested ✓
+**New Guyana Construction Checklist:**
+- [ ] Get construction permit
+- [ ] Check for underground utilities  
+- [ ] Check for OVERHEAD UTILITIES (we keep forgetting this one!)
+- [ ] Maybe ask "will this plunge 100,000 people into darkness?"
+- [ ] Call GPL at 226-2600 (this number is in the press release for a reason!)
 
 ---
 
-## 📈 STORY #3: 2025: THE YEAR IN TERRIFYING STATISTICS
+## 📈 STORY #3: 2025 STATISTICS - A HORROR STORY
 
-**Murders:** UP 11% (130 vs. 117 in 2024)
+**Murders:** ⬆️ UP 11% (130 people dead)
 
-**Road Deaths:** UP 6% (137 vs. 132 in 2024)
+**Road Deaths:** ⬆️ UP 6% (137 people dead)
 
-**But Wait, There's Good News!**
-- Robberies DOWN
-- Burglaries DOWN  
-- Rape DOWN
-- Kidnapping DOWN
+**Total Accidents:** ⬇️ DOWN 10%
 
-**The Confusing Part:**
+**Wait... WHAT?**
 
-<div style="background: #FCD116; padding: 20px; border-radius: 10px; margin: 20px 0;">
-<p><strong>GPF:</strong> "Total road accidents down 10%!"</p>
-<p><strong>ALSO GPF:</strong> "But road deaths up 6%!"</p>
-<p><strong>Translation:</strong> Fewer crashes, but the ones that happen are REALLY effective</p>
-<p><strong>World Bank:</strong> "Your road death rate of 15 per 100,000 is unacceptably high"</p>
-<p><strong>Government Goal:</strong> Reduce to under 50 deaths by 2030</p>
-<p><strong>Current Pace:</strong> Going the wrong direction chief</p>
+<div style="background: #FCD116; padding: 20px; border-radius: 10px; margin: 20px 0; border: 3px solid #CE1126;">
+<p><strong>GPF:</strong> "Great news! Accidents are DOWN!"</p>
+<p><strong>Also GPF:</strong> "Bad news! Deaths are UP!"</p>
+<p><strong>Us:</strong> "How does that even—"</p>
+<p><strong>GPF:</strong> "We're as confused as you are."</p>
+<p><strong>World Bank:</strong> "Your 15 deaths per 100,000 is UNACCEPTABLY HIGH"</p>
+<p><strong>Government:</strong> "We'll get it to 50 total by 2030!"</p>
+<p><strong>Current Trajectory:</strong> Going from 137 to 50... by adding more each year? Bold strategy!</p>
+</div>
+
+**Translation:** We're having FEWER crashes, but when we crash, we're doing it PROFESSIONALLY. Quality over quantity, apparently.
+
+**Government's Road Safety Plan:**
+- Install cameras ✓
+- Issue e-tickets ✓
+- Hope really hard ✓
+- Actually fix roads ❌
+- Driver education ❌
+
+---
+
+## 🎬 STORY #4: GUYANA TOURISM PRESENTS: "DON'T FILM THIS"
+
+**Act 1: The British Vlogger**
+
+Ellis Riding arrives in Georgetown with a camera. Films garbage dumps, street people, and dangerous areas. Says Guyana is "one of the most Third World places" he's seen.
+
+**Chronicle's Response:** Publishes 1,000-word column calling him a "10th-rate British foot-traveller" with "rotten mentality" who's "probably paid by the opposition."
+
+**Chronicle's Defense:** "It's dangerous in Miami too!" (This is the new national slogan apparently)
+
+**Act 2: The French Vlogger**
+
+Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logical response? SLAP HIM IN THE BACK OF THE HEAD.
+
+**McKay's Court Explanation:** "I was just trying to move the camera!" 
+
+**Judge:** "Sir, that's not how cameras work."
+
+**Bail:** ,000
+
+**Tourism Guyana's New Slogan Ideas:**
+
+<div style="background: #CE1126; color: white; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center;">
+<h3 style="margin: 0 0 15px 0;">🎥 UPDATED TOURISM WARNINGS</h3>
+<p style="margin: 8px 0; font-size: 15px;"><strong>Film something nice:</strong> You're a hero! Come back soon!</p>
+<p style="margin: 8px 0; font-size: 15px;"><strong>Film reality:</strong> Chronicle will question your ancestry</p>
+<p style="margin: 8px 0; font-size: 15px;"><strong>Film a vendor:</strong> That's a slappin'</p>
+<p style="margin: 8px 0; font-size: 15px;"><strong>Complain:</strong> "But Miami though!"</p>
+<p style="margin: 15px 0 0 0; font-style: italic; font-size: 14px;">Guyana: Come for the oil, leave with assault charges!</p>
 </div>
 
 ---
 
-## 🎬 STORY #4: TALE OF TWO VLOGGERS
+## 🏗️ STORY #5: VP ANNOUNCES INFINITY HOUSES
 
-**VLOGGER #1: British Guy (Ellis Riding)**
-- **What He Did:** Filmed garbage dumps, street people, dangerous areas
-- **His Take:** "Brutally honest. Guyana is one of the most Third World places we've ever been to"
-- **Chronicle's Response:** Dedicated an ENTIRE COLUMN to calling him a "10th-rate British foot-traveller" with a "rotten mentality" who is "probably" paid by the opposition
+**The Grand Plan:** Build 40,000 houses in 5 years!
 
-**VLOGGER #2: French Guy (Antony D'Oliveira)**
-- **What Happened:** Vendor Quacy McKay slapped him on the back of the head for filming
-- **Charge:** Assault + using insulting language
-- **Bail:** ,000
-- **McKay's Defense:** "I was trying to move the camera away!"
-- **Magistrate's Wisdom:** "Would you object to bail if the vlogger were Guyanese?"
+**The Math They Should've Done:**
 
-**Tourism Impact Assessment:**
-
-<div style="background: #CE1126; color: white; padding: 15px; border-radius: 5px; margin: 20px 0; text-align: center;">
-<h3 style="margin: 0 0 10px 0;">⚠️ WARNING TO CONTENT CREATORS</h3>
-<p style="margin: 5px 0;">If you visit Guyana with a camera:</p>
-<p>• Film nice things: You're fine</p>
-<p>• Film reality: Chronicle will write about your "rotten mentality"</p>
-<p>• Film vendors: You might get slapped</p>
-<p>• Complain: "It's dangerous in Miami too!"</p>
+<div style="background: #f8f9fa; border: 3px solid #009E60; padding: 20px; margin: 20px 0;">
+<p style="font-size: 18px; margin: 10px 0;"><strong>40,000 houses ÷ 5 years = 8,000/year</strong></p>
+<p style="font-size: 18px; margin: 10px 0;"><strong>8,000 ÷ 365 days = 22 HOUSES PER DAY</strong></p>
+<p style="font-size: 18px; margin: 10px 0;"><strong>22 houses ÷ 24 hours = ONE HOUSE EVERY 65 MINUTES</strong></p>
+<p style="font-size: 16px; margin: 15px 0 0 0; color: #CE1126;"><strong>AROUND THE CLOCK. NO BREAKS. NO WEEKENDS. FOR FIVE YEARS.</strong></p>
 </div>
 
----
+**One Letter Writer's Take:**
 
-## 🏗️ STORY #5: 40,000 HOMES IN 5 YEARS? SURE JAN.
-
-**The Announcement:** VP (not the housing minister) says 40,000 houses in 5 years
-
-**The Math:**
-- 40,000 homes ÷ 5 years = 8,000/year
-- 8,000 ÷ 12 months = 667/month  
-- 667 ÷ 30 days = **22 HOUSES PER DAY**
-
-**One Expert's Take (Stabroek Letter):**
-
-<div style="background: #f8f9fa; border-left: 4px solid #009E60; padding: 20px; margin: 20px 0;">
-<p style="font-style: italic;">"This is both ludicrous and comical... tantamount to putting 10 pounds grocery in a 5-pound bag"</p>
-<p style="margin-top: 15px;"><strong>Problems Identified:</strong></p>
-<p>• No zoning laws</p>
-<p>• No setback measurements</p>
-<p>• No inspection system</p>
-<p>• Houses with the 4 S's: Sliding, Slipping, Sagging, Sinking</p>
-<p>• Poor roads, sporadic garbage, scanty water</p>
-<p>• Land title process "costly and cumbersome"</p>
+<div style="background: #fff; border-left: 4px solid #CE1126; padding: 20px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="font-style: italic; font-size: 17px;">"This is ludicrous and comical... tantamount to putting 10 pounds grocery in a 5-pound bag"</p>
+<p style="margin-top: 15px;"><strong>Problems He Identified:</strong></p>
+<ul style="line-height: 1.8;">
+<li>No zoning laws (houses wherever!)</li>
+<li>No building codes (walls optional!)</li>
+<li>No inspections (safety is a social construct!)</li>
+<li>The dreaded 4 S's: <strong>Sliding, Slipping, Sagging, Sinking</strong></li>
+<li>Land titles take forever and cost a fortune</li>
+<li>Poor roads, garbage everywhere, water scarce</li>
+</ul>
+<p style="margin-top: 15px; font-weight: bold;">His Verdict: "Another colossal failure in the making"</p>
 </div>
 
-**Previous Government Megaprojects:**
-- ❌ Amaila Falls
-- ❌ Surendra Hospital
-- ❌ Skeldon Sugar Factory
-
-**This One's Chances:** 🎲🎲🎲
-
----
-
-## 💡 STORY #6: REMEMBER THAT ELECTRICITY PROMISE?
-
-**Stabroek Editorial Reminder:** President promised 50% electricity cut by end of 2025
-
-**Current Date:** January 10, 2026
-
-**Electricity Bills:** Still unpredictable (one month ,000, next month ,000)
-
-**Explanation Provided:** None
-
-**President's Quote (October 2024):** "50% cut in electricity charges before the end of 2025"
-
-**Also President (May 2025):** Infrastructure transformation "beyond anyone's wildest imagination"
-
-**Citizens:** Still getting wildly different bills with no explanation
-
-**GPL's Response:** *Currently dealing with contractors trying to blow up the grid*
+**Previous Government "Trust Me Bro" Projects:**
+- ❌ Amaila Falls Hydropower (fell through)
+- ❌ Surendra Hospital (still not sure what happened)
+- ❌ Skeldon Sugar Factory (sweet disaster)
+- 🎲 40,000 Houses (place your bets now!)
 
 ---
 
-## 🤫 STORY #7: OPPOSITION? WHAT OPPOSITION?
+## 💡 STORY #6: THE ELECTRICITY PROMISE ENTERS THE WITNESS PROTECTION PROGRAM
 
-**Norton's Statement:** "Halt discussions with U.S. on third-country deportees!"
+**October 2024:** "I promise to cut electricity by 50% before end of 2025!" - President Ali
 
-**Everyone Else:** 🦗🦗🦗
+**January 2026:** *crickets*
 
-**Kaieteur Column Title:** "Calling the opposition, calling the opposition"
+**Current Situation:**
 
-**Key Quote:**
-
-<div style="border: 2px solid #CE1126; padding: 15px; margin: 20px 0;">
-<p style="font-style: italic;">"Where is the blasted opposition? ...It is almost as if the opposition in Guyana is in [the PPP's] fold, under its control"</p>
+<div style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #CE1126;">
+<p><strong>Month 1 Bill:</strong> ,000</p>
+<p><strong>Month 2 Bill (same usage):</strong> ,000</p>
+<p><strong>GPL Explanation:</strong> ¯\_(ツ)_/¯</p>
+<p><strong>Citizens:</strong> "Can you explain the difference?"</p>
+<p><strong>GPL:</strong> *currently dealing with contractors trying to blow up transmission lines*</p>
+<p><strong>President's Promise:</strong> Last seen heading to the airport with a fake mustache</p>
 </div>
 
-**Things The Opposition Should Be Loud About:**
-- Electricity bills still high ✓
-- 40,000 homes promise seems impossible ✓
-- Murders up 11% ✓
-- Road deaths increasing ✓
-- Heroes Highway needs repairs after 2 years ✓
+**May 2025 Quote:** "Infrastructure transformation beyond anyone's wildest imagination!"
 
-**Opposition's Actual Volume:** 📢➡️🔇
+**January 2026 Reality:** Bills still wildly unpredictable, Heroes Highway needs repairs after 2 years, and we almost lost power because someone extended a concrete pump.
+
+**Wildest Imagination Status:** Confirmed.
 
 ---
 
-## 🌟 WEEKEND POSITIVE NOTE: AISHALTON GETS AN AIRSTRIP
+## 🤫 STORY #7: HAS ANYONE SEEN THE OPPOSITION?
 
-**The Good News:**  airstrip commissioned in Region Nine
+**Last Spotted:** Norton gave a press conference about deportees
 
-**Chronicle's Take:** "From isolation to integration" (actually nice headline)
+**Current Status:** MISSING
 
-**What It Means:** Hinterland communities now have better connectivity, lower transport costs, access to healthcare and education
+**Kaieteur's Editorial:** "Calling the opposition, calling the opposition"
 
-**Government's Broader Plan:** More airstrips across hinterland regions
+<div style="background: #000; color: #fff; padding: 20px; border-radius: 10px; margin: 20px 0; font-family: monospace;">
+<p style="text-align: center; margin: 0 0 15px 0;">🚨 MISSING PERSON ALERT 🚨</p>
+<p><strong>NAME:</strong> The Opposition</p>
+<p><strong>LAST SEEN:</strong> Making a statement about something</p>
+<p><strong>DESCRIPTION:</strong> Should be loud and oppositional</p>
+<p><strong>CURRENT BEHAVIOR:</strong> Suspiciously quiet</p>
+<p><strong>IF FOUND:</strong> Please remind them about:</p>
+<ul style="margin: 10px 0;">
+<li>Electricity bills still high</li>
+<li>22 houses per day is impossible</li>
+<li>Murders up 11%</li>
+<li>Road deaths increasing</li>
+<li>Heroes Highway already needs fixing</li>
+</ul>
+<p style="margin-top: 15px;"><strong>REWARD:</strong> A functioning democracy</p>
+</div>
 
-**Jags Aviation:** Already lowering fares to interior locations
+**Kaieteur's Savage Quote:** "It is almost as if the opposition in Guyana is in [the PPP's] fold, under its control"
 
-**Actual Impact:** This is genuinely good! Communities that were cut off now have access!
+**Ouch.**
 
 ---
 
-## 📰 WHAT THE PAPERS TAUGHT US TODAY
+## 🌟 ACTUAL GOOD NEWS: HINTERLAND GETS CONNECTED
+
+**Real Talk:**  Aishalton airstrip commissioned! This is genuinely awesome!
+
+**What It Means:**
+- Communities no longer isolated
+- Lower transport costs
+- Better healthcare access
+- Educational opportunities
+- Economic development
+
+**Jags Aviation:** Already lowering fares!
+
+**Chronicle Headline:** "From isolation to integration" (Actually inspiring! Who wrote this?)
+
+**Government:** Actually delivering on hinterland development.
+
+**Us:** Pleasantly surprised! Do more of this, less of the 22-houses-per-day promises!
+
+---
+
+## 📰 TODAY'S LESSONS
 
 <div style="background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%); padding: 30px; border-radius: 10px; margin: 30px 0;">
-<ol style="line-height: 1.8;">
-<li>The Mohameds case has more appeals than a telemarketer</li>
-<li>Construction contractors view 69,000-volt lines as "suggestions"</li>
-<li>Fewer crashes but deadlier = we're doing math wrong</li>
-<li>Vloggers: film at your own risk</li>
-<li>22 houses/day is totally realistic (if you're delusional)</li>
-<li>Electricity promise has entered the chat... and left</li>
-<li>Opposition has left the chat... permanently</li>
-<li>Hinterland development is actually happening (yay!)</li>
+<ol style="line-height: 2;">
+<li>Being indicted for fraud is "oppression" (write that down)</li>
+<li>69,000 volts < concrete pump placement priority</li>
+<li>Fewer crashes + more deaths = Guyana math</li>
+<li>Tourists with cameras = hostiles</li>
+<li>22 houses/day = totally doable (if you're high)</li>
+<li>Electricity promises have expiration dates</li>
+<li>Opposition.exe has stopped responding</li>
+<li>Hinterland development is actually happening! 🎉</li>
 </ol>
 </div>
 
 ---
 
-## 🔮 TOMORROW'S FORECAST
+## 🔮 MONDAY'S PREDICTIONS
 
-<div style="background: #ffebee; border: 2px solid #CE1126; padding: 20px; border-radius: 10px; margin: 20px 0;">
-<p><strong>Monday Morning Headlines:</strong></p>
-<p>🔹 Mohameds file motion to delay delay of delayed appeal</p>
-<p>🔹 Contractor accidentally builds house on active runway</p>
-<p>🔹 GPL announces mandatory hard hats near all powerlines</p>
-<p>🔹 Opposition leader spotted, immediately goes silent again</p>
-<p>🔹 VP announces 80,000 houses in 2.5 years</p>
+<div style="background: #fff3cd; border: 2px solid #856404; padding: 20px; border-radius: 10px; margin: 20px 0;">
+<p><strong>🔹</strong> Mohameds file 47-page motion explaining how prosecution wanting an earlier date proves persecution</p>
+<p><strong>🔹</strong> Another contractor "forgets" about critical infrastructure (bingo anyone?)</p>
+<p><strong>🔹</strong> GPL updates slogan to "Keeping the lights on DESPITE contractors"</p>
+<p><strong>🔹</strong> Opposition spotted, immediately pretends to be mannequin</p>
+<p><strong>🔹</strong> VP doubles down: "Actually, 80,000 houses in 2.5 years"</p>
+<p><strong>🔹</strong> Chronicle publishes op-ed: "Why Monday is actually the opposition's fault"</p>
 </div>
 
 ---
 
-## 💭 THE WEEKEND THOUGHT
+## 💭 WEEKEND WISDOM
 
-In a country where contractors can nearly black out two regions, a promised electricity discount vanishes into thin air, and building 22 houses a day seems totally reasonable to announce, at least we're commissioning airstrips and keeping the lights on (barely).
+In a country where a man indicted for  fraud writes op-eds about oppression while contractors treat power lines like suggestions and the government promises to build one house every 65 minutes for five straight years...
 
-**Stay safe, Guyana. And contractors? CALL GPL BEFORE YOU BUILD ANYTHING.**
+**At least we're building airstrips and the lights are still on.**
+
+*Barely.*
+
+**Stay safe, Guyana. And contractors? FOR THE LOVE OF GPL, CALL BEFORE YOU BUILD! 📞**
 
 ---
 
-*The Guyana Brief: Making sense of the senseless since 2026* 🇬🇾
+*The Guyana Brief: Your daily dose of "wait, that actually happened?"* 🇬🇾
 
-*All stories real. All outrage justified. All satire necessary.*
+*All stories real. All outrage justified. All satire absolutely necessary.*
