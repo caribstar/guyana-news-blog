@@ -1,6 +1,6 @@
-﻿---
+---
 title: "The Daily Laugh: Thursday's Guyana News Circus"
-date: 2026-01-09T10:47:33-05:00
+date: 2026-01-08T10:47:33-05:00
 draft: false
 tags: ["guyana", "satire"]
 ---
@@ -212,3 +212,4 @@ Agriculture Minister Mustapha is touring the country handing out checks like Opr
 <p style="font-size: 12px; color: #6c757d; margin: 0;"><em>This is satirical commentary protected under Guyana's fair use provisions. See our <a href="/legal/">Legal Disclaimer</a>.</em></p>
 <p style="font-size: 18px; margin: 20px 0 0 0;"><strong>© 2026 The Daily Laugh | Not actual news, just actual laughs</strong> 🇬🇾😂</p>
 </div>
+
