@@ -15,6 +15,8 @@ buildFuture = false
 home = ["HTML", "RSS", "JSON"]
 
 [params]
+favicon = "/favicon.ico"
+
 description = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
 author = "CARIBSTAR"
 env = "production"
@@ -44,14 +46,28 @@ url = "/posts/"
 weight = 2
 
 [[menu.main]]
+name = "Search"
+url = "/search/"
+weight = 3
+
+[[menu.main]]
 name = "Legal"
 url = "/legal/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "About"
 url = "/about/"
-weight = 4
+weight = 5
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
 
 [taxonomies]
 category = "categories"
@@ -59,3 +75,4 @@ tag = "tags"
 
 [markup.goldmark.renderer]
 unsafe = true
+
