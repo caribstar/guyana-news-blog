@@ -192,6 +192,50 @@
     </div>
     
     
+        
+        
+    <!-- Browse by Topic -->
+    <div style="margin: 60px 0; text-align: center;">
+        <h2 style="font-size: 32px; margin: 0 0 30px 0; color: #333;">
+            📑 Browse by Topic
+        </h2>
+        
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 800px; margin: 0 auto;">
+            {{ range .Site.Taxonomies.tags }}
+            <a href="{{ .Page.Permalink }}" style="background: linear-gradient(135deg, #009E60 0%, #FCD116 100%); color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-size: 16px; font-weight: 600; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                {{ .Page.Title }} ({{ .Count }})
+            </a>
+            {{ end }}
+        </div>
+        
+        <p style="color: #666; margin-top: 30px; font-size: 15px;">
+            Click any topic to see all related briefs
+        </p>
+    </div>
+
+    <!-- Most Popular Posts -->
+    <div style="background: #f8f9fa; padding: 50px 40px; border-radius: 15px; margin: 60px 0;">
+        <h2 style="font-size: 32px; margin: 0 0 30px 0; color: #333; text-align: center;">
+            🔥 Most Popular Briefs
+        </h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            {{ range first 3 (where site.RegularPages "Type" "posts") }}
+            <div style="background: white; padding: 25px; border-radius: 10px; border-left: 4px solid #009E60; transition: transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform='translateX(0)'">
+                <h4 style="font-size: 18px; margin: 0 0 10px 0;">
+                    <a href="{{ .Permalink }}" style="color: #333; text-decoration: none;">{{ .Title }}</a>
+                </h4>
+                <p style="color: #666; font-size: 14px; margin: 0 0 10px 0;">
+                    {{ .Date.Format "Jan 2, 2006" }} • {{ .ReadingTime }} min read
+                </p>
+                <p style="color: #666; font-size: 14px; margin: 0;">
+                    {{ .Summary | truncate 80 }}
+                </p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
     <!-- FAQ Section -->
     <div style="margin: 80px 0 60px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
         <h2 style="font-size: 32px; margin: 0 0 40px 0; color: #333; text-align: center;">
@@ -250,6 +294,8 @@
 </style>
 
 {{ end }}
+
+
 
 
 
