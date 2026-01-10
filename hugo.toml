@@ -1,6 +1,6 @@
 baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
-title = "The Daily Laugh - Guyana News"
+title = "The Guyana Brief"
 theme = "PaperMod"
 
 [pagination]
@@ -15,7 +15,7 @@ buildFuture = false
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-description = "Your 5-minute Guyana news digest"
+description = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
 author = "CARIBSTAR"
 env = "production"
 ShowReadingTime = true
@@ -30,8 +30,8 @@ TocOpen = false
 comments = false
 
 [params.homeInfoParams]
-Title = "The Daily Laugh"
-Content = "Your 5-minute Guyana news digest. Satirical commentary on all 4 major newspapers."
+Title = "The Guyana Brief"
+Content = "Your 5-minute news circus. Satirical commentary on all 4 major newspapers, delivered daily by noon."
 
 [[menu.main]]
 name = "Home"
