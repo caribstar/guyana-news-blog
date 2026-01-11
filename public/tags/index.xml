@@ -2,38 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on The Guyana Brief</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://guyanadailybrief.com/tags/</link>
     <description>Recent content in Tags on The Guyana Brief</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://guyanadailybrief.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guyana</title>
-      <link>http://localhost:1313/tags/guyana/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/guyana/</guid>
+      <link>https://guyanadailybrief.com/tags/guyana/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/guyana/</guid>
       <description></description>
     </item>
     <item>
       <title>News</title>
-      <link>http://localhost:1313/tags/news/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/news/</guid>
+      <link>https://guyanadailybrief.com/tags/news/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Satire</title>
-      <link>http://localhost:1313/tags/satire/</link>
+      <link>https://guyanadailybrief.com/tags/satire/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/satire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Government Promises</title>
+      <link>https://guyanadailybrief.com/tags/government-promises/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/satire/</guid>
+      <guid>https://guyanadailybrief.com/tags/government-promises/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure Fails</title>
+      <link>https://guyanadailybrief.com/tags/infrastructure-fails/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/infrastructure-fails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Mohameds Saga</title>
+      <link>https://guyanadailybrief.com/tags/the-mohameds-saga/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/the-mohameds-saga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tourism Troubles</title>
+      <link>https://guyanadailybrief.com/tags/tourism-troubles/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/tourism-troubles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Venezuela Drama</title>
+      <link>https://guyanadailybrief.com/tags/venezuela-drama/</link>
+      <pubDate>Thu, 08 Jan 2026 10:47:33 -0500</pubDate>
+      <guid>https://guyanadailybrief.com/tags/venezuela-drama/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
+      <link>https://guyanadailybrief.com/tags/introduction/</link>
       <pubDate>Thu, 09 Jan 2025 08:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
+      <guid>https://guyanadailybrief.com/tags/introduction/</guid>
       <description></description>
     </item>
   </channel>

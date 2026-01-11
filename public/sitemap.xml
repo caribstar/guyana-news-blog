@@ -2,48 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/guyana/</loc>
+    <loc>https://guyanadailybrief.com/tags/guyana/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/tags/news/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/posts/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/tags/satire/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/tags/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/posts/2026-01-11-sunday-brief/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/tags/government-promises/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/news/</loc>
+    <loc>https://guyanadailybrief.com/tags/infrastructure-fails/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://guyanadailybrief.com/posts/2026-01-10-saturday-brief/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/satire/</loc>
+    <loc>https://guyanadailybrief.com/tags/the-mohameds-saga/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-01-10-saturday-brief/</loc>
+    <loc>https://guyanadailybrief.com/tags/tourism-troubles/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://guyanadailybrief.com/about/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/legal/</loc>
+    <loc>https://guyanadailybrief.com/posts/2026-01-09-friday-brief/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2026-01-09-daily-laugh/</loc>
+    <loc>https://guyanadailybrief.com/legal/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/posts/2026-01-08-thursday-brief/</loc>
     <lastmod>2026-01-08T10:47:33-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/announcements/</loc>
+    <loc>https://guyanadailybrief.com/tags/venezuela-drama/</loc>
+    <lastmod>2026-01-08T10:47:33-05:00</lastmod>
+  </url><url>
+    <loc>https://guyanadailybrief.com/categories/announcements/</loc>
     <lastmod>2025-01-09T08:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://guyanadailybrief.com/categories/</loc>
     <lastmod>2025-01-09T08:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
+    <loc>https://guyanadailybrief.com/tags/introduction/</loc>
     <lastmod>2025-01-09T08:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
+    <loc>https://guyanadailybrief.com/posts/welcome/</loc>
     <lastmod>2025-01-09T08:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://guyanadailybrief.com/search/</loc>
+  </url><url>
+    <loc>https://guyanadailybrief.com/success/</loc>
+  </url><url>
+    <loc>https://guyanadailybrief.com/success1/</loc>
   </url>
 </urlset>
