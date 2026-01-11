@@ -1,4 +1,4 @@
-baseURL = "https://guyanadailybrief.com/"
+﻿baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
 title = "The Guyana Brief"
 theme = "PaperMod"
@@ -15,7 +15,7 @@ buildFuture = false
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-favicon = "/favicon.ico"
+favicon = "/favicon.svg"
 
 description = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
 author = "CARIBSTAR"
