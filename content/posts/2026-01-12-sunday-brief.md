@@ -5,31 +5,31 @@ tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", 
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
-    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🇬🇾 THE GUYANA BRIEF 🇬🇾</h1>
+    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">&#x1F1EC;&#x1F1FE; THE GUYANA BRIEF &#x1F1EC;&#x1F1FE;</h1>
     <p style="color: white; font-size: 18px; margin: 0; font-weight: 500;">Your 5-Minute Sunday News Circus</p>
     <p style="color: white; font-size: 14px; margin: 10px 0 0 0; opacity: 0.9;">Sunday, January 12, 2026</p>
     <p style="color: white; font-size: 12px; margin: 5px 0 0 0; opacity: 0.8; font-style: italic;">Sponsored by: Lawyers Who Bill By The Appeal</p>
 </div>
 
-## 📊 SUNDAY QUICK STATS
+## &#x1F4CA; SUNDAY QUICK STATS
 
 <div style="background: #FCD116; padding: 20px; border-radius: 10px; border: 3px solid #CE1126; margin: 20px 0;">
-<p style="margin: 5px 0;"><strong>Mohamed Victim Complex:</strong> 💯 MAXIMUM OVERDRIVE</p>
+<p style="margin: 5px 0;"><strong>Mohamed Victim Complex:</strong> &#x1F4AF; MAXIMUM OVERDRIVE</p>
 <p style="margin: 5px 0;"><strong>Appeals Filed This Week:</strong> 3 (and counting)</p>
 <p style="margin: 5px 0;"><strong>Opposition Sightings:</strong> 0 (still missing)</p>
-<p style="margin: 5px 0;"><strong>Heroes Highway Lifespan:</strong> ⏱️ 25 months (needs repairs)</p>
-<p style="margin: 5px 0;"><strong>Murder Rate Trajectory:</strong> ⬆️ UP 11% (but crime is "down"!)</p>
+<p style="margin: 5px 0;"><strong>Heroes Highway Lifespan:</strong> &#x23F1;&#xFE0F; 25 months (needs repairs)</p>
+<p style="margin: 5px 0;"><strong>Murder Rate Trajectory:</strong> &#x2B06;&#xFE0F; UP 11% (but crime is "down"!)</p>
 </div>
 
 ---
 
-## 🎭 THE MOHAMEDS PRESENT: "THEY'RE NOT GOING ANYWHERE" (THE MUSICAL)
+## &#x1F3AD; THE MOHAMEDS PRESENT: "THEY'RE NOT GOING ANYWHERE" (THE MUSICAL)
 
 <div style="background: #FFE5E5; border-left: 5px solid #F44336; padding: 15px; margin: 20px 0; border-radius: 5px;">
-<strong>🎬 THIS WEEK'S MOHAMED THEATER:</strong><br>
-Courtroom Drama: ✅ CHECK<br>
-Appeal to Full Court: ✅ CHECK<br>
-Op-Ed About Persecution: ✅ CHECK<br>
+<strong>&#x1F3AC; THIS WEEK'S MOHAMED THEATER:</strong><br>
+Courtroom Drama: &#x2705; CHECK<br>
+Appeal to Full Court: &#x2705; CHECK<br>
+Op-Ed About Persecution: &#x2705; CHECK<br>
 Lawyer Catchphrase: "The Mohameds are NOT going anywhere!"<br>
 </div>
 
@@ -47,12 +47,12 @@ This week, the Mohamed legal saga reached peak absurdity. Let's recap the highli
 **Translation:** "We will appeal until the heat death of the universe."
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 8px; border: 2px dashed #6c757d;">
-<p style="text-align: center; font-size: 20px; margin: 0;"><strong>⚖️ THE MOHAMED APPEAL-O-METER ⚖️</strong></p>
+<p style="text-align: center; font-size: 20px; margin: 0;"><strong>&#x2696;&#xFE0F; THE MOHAMED APPEAL-O-METER &#x2696;&#xFE0F;</strong></p>
 <hr style="margin: 15px 0;">
-<p><strong>📰 Kaieteur News Articles Written:</strong> 4,000+ (literally)</p>
-<p><strong>⚖️ Courts Appealed To:</strong> All of them</p>
-<p><strong>📅 Next Hearing:</strong> February 5 (unless they delay the delay)</p>
-<p><strong>🎪 Legal Strategy:</strong> "Throw everything at the wall and see what sticks"</p>
+<p><strong>&#x1F4F0; Kaieteur News Articles Written:</strong> 4,000+ (literally)</p>
+<p><strong>&#x2696;&#xFE0F; Courts Appealed To:</strong> All of them</p>
+<p><strong>&#x1F4C5; Next Hearing:</strong> February 5 (unless they delay the delay)</p>
+<p><strong>&#x1F3AA; Legal Strategy:</strong> "Throw everything at the wall and see what sticks"</p>
 </div>
 
 **The Grievances (According to Nazar's Op-Ed):**
@@ -64,16 +64,16 @@ This week, the Mohamed legal saga reached peak absurdity. Let's recap the highli
 
 **Kaieteur News Coverage:** Has written more words about the Mohameds than Shakespeare wrote plays. They could publish a 47-volume encyclopedia at this point.
 
-**The Pattern:** Court says no → Lawyers appeal → Court says no again → Lawyers appeal the appeal → Repeat until Florida gives up
+**The Pattern:** Court says no &#x2192; Lawyers appeal &#x2192; Court says no again &#x2192; Lawyers appeal the appeal &#x2192; Repeat until Florida gives up
 
 **Florida's Patience Level:** Approaching absolute zero
 
 ---
 
-## 🏗️ HEROES HIGHWAY: THE SEQUEL NOBODY ASKED FOR
+## &#x1F3D7;&#xFE0F; HEROES HIGHWAY: THE SEQUEL NOBODY ASKED FOR
 
 <div style="background: #FFE5E5; border: 3px solid #FF4444; padding: 20px; margin: 20px 0; border-radius: 10px;">
-<p style="text-align: center; font-size: 28px; margin: 0;"><strong>⚠️ INFRASTRUCTURE HALL OF SHAME ⚠️</strong></p>
+<p style="text-align: center; font-size: 28px; margin: 0;"><strong>&#x26A0;&#xFE0F; INFRASTRUCTURE HALL OF SHAME &#x26A0;&#xFE0F;</strong></p>
 <hr style="border-color: #FF4444; margin: 15px 0;">
 <p><strong>Built:</strong> December 2023 (concrete)</p>
 <p><strong>Lasted:</strong> 25 months</p>
@@ -90,9 +90,9 @@ Remember Heroes Highway? The concrete road commissioned December 2023? It needs 
 **Government:** *crickets*
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-left: 5px solid #28a745;">
-<p><strong>📋 INFRASTRUCTURE LOGIC:</strong></p>
-<p><strong>Elsewhere:</strong> Build road properly → Use 20-30 years ✓</p>
-<p><strong>Guyana:</strong> Build concrete → Realize it's uneven → Cover with asphalt → Spend millions more 💸</p>
+<p><strong>&#x1F4CB; INFRASTRUCTURE LOGIC:</strong></p>
+<p><strong>Elsewhere:</strong> Build road properly &#x2192; Use 20-30 years &#x2705;</p>
+<p><strong>Guyana:</strong> Build concrete &#x2192; Realize it's uneven &#x2192; Cover with asphalt &#x2192; Spend millions more &#x1F4B8;</p>
 </div>
 
 **The Timeline:**
@@ -111,13 +111,13 @@ Remember Heroes Highway? The concrete road commissioned December 2023? It needs 
 
 ---
 
-## 📈 CRIME STATS: THE NUMBERS GAME
+## &#x1F4C8; CRIME STATS: THE NUMBERS GAME
 
 <div style="background: #FFEBEE; border-left: 5px solid #F44336; padding: 15px; margin: 20px 0; border-radius: 5px;">
-<strong>📊 2025 CRIME STATISTICS:</strong><br>
-Murders: ⬆️ UP 11% (130 total)<br>
-Road Deaths: ⬆️ UP 6% (137 total)<br>
-Overall Serious Crimes: ⬇️ DOWN 25.5%<br>
+<strong>&#x1F4CA; 2025 CRIME STATISTICS:</strong><br>
+Murders: &#x2B06;&#xFE0F; UP 11% (130 total)<br>
+Road Deaths: &#x2B06;&#xFE0F; UP 6% (137 total)<br>
+Overall Serious Crimes: &#x2B07;&#xFE0F; DOWN 25.5%<br>
 Government: "Crime is down!"<br>
 Public: "But more people died?"
 </div>
@@ -136,10 +136,10 @@ The Police released 2025 stats. Depending on which metric you pick, Guyana is ei
 
 ---
 
-## 🤷 THE OPPOSITION: STILL MISSING
+## &#x1F937; THE OPPOSITION: STILL MISSING
 
 <div style="background: #FFF3CD; border: 3px solid #FFC107; padding: 20px; margin: 20px 0; border-radius: 10px;">
-<p style="text-align: center; font-size: 24px; margin: 0;"><strong>🚨 MISSING PERSON ALERT 🚨</strong></p>
+<p style="text-align: center; font-size: 24px; margin: 0;"><strong>&#x1F6A8; MISSING PERSON ALERT &#x1F6A8;</strong></p>
 <hr style="margin: 15px 0;">
 <p><strong>NAME:</strong> The Opposition Leader</p>
 <p><strong>LAST SEEN:</strong> Never (Parliament convened November 2025)</p>
@@ -159,7 +159,7 @@ Parliament convened in November. Still no Opposition Leader. Why? Azruddin Moham
 
 ---
 
-## 🏡 SQUATTER GATE: MOHAMED'S LAND DRAMA
+## &#x1F3E1; SQUATTER GATE: MOHAMED'S LAND DRAMA
 
 Nazar Mohamed claims squatters invaded his East Bank Demerara land near Heroes Highway. He alleges government officials encouraged them.
 
@@ -175,16 +175,16 @@ Nazar Mohamed claims squatters invaded his East Bank Demerara land near Heroes H
 
 ---
 
-## ⚡ GPL: CONTRACTORS STILL CAN'T SEE POWER LINES
+## &#x26A1; GPL: CONTRACTORS STILL CAN'T SEE POWER LINES
 
-GPL issued another weekly warning about contractors threatening the grid. The pattern continues: contractor does something dangerous → GPL warns → repeat next week.
+GPL issued another weekly warning about contractors threatening the grid. The pattern continues: contractor does something dangerous &#x2192; GPL warns &#x2192; repeat next week.
 
 ---
 
-## 🏆 YOUR SUNDAY RECAP
+## &#x1F3C6; YOUR SUNDAY RECAP
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; margin: 30px 0; border-radius: 10px;">
-<p style="text-align: center; font-size: 24px; margin: 0 0 20px 0;"><strong>📚 WHAT WE LEARNED:</strong></p>
+<p style="text-align: center; font-size: 24px; margin: 0 0 20px 0;"><strong>&#x1F4DA; WHAT WE LEARNED:</strong></p>
 <ol style="font-size: 16px; line-height: 1.8;">
 <li>The Mohameds are NOT going anywhere (according to their lawyers)</li>
 <li>Heroes Highway's asphalt overlay was "always the plan" (wink wink)</li>
@@ -197,17 +197,17 @@ GPL issued another weekly warning about contractors threatening the grid. The pa
 </div>
 
 <div style="background: #f8d7da; border: 2px solid #721c24; padding: 20px; margin: 20px 0; border-radius: 8px;">
-<p style="text-align: center; margin: 0 0 15px 0;"><strong>🔮 MONDAY'S PREDICTIONS:</strong></p>
-<p>📌 Mohameds file motion challenging the air quality in courtroom</p>
-<p>📌 Heroes Highway contractor announces plan to add diamond overlay on top of asphalt</p>
-<p>📌 Government celebrates crime reduction while families mourn murder victims</p>
-<p>📌 Opposition Leader election postponed to 2027 (pending appeals)</p>
-<p>📌 GPL discovers contractor building house directly on transmission line</p>
+<p style="text-align: center; margin: 0 0 15px 0;"><strong>&#x1F52E; MONDAY'S PREDICTIONS:</strong></p>
+<p>&#x1F4CC; Mohameds file motion challenging the air quality in courtroom</p>
+<p>&#x1F4CC; Heroes Highway contractor announces plan to add diamond overlay on top of asphalt</p>
+<p>&#x1F4CC; Government celebrates crime reduction while families mourn murder victims</p>
+<p>&#x1F4CC; Opposition Leader election postponed to 2027 (pending appeals)</p>
+<p>&#x1F4CC; GPL discovers contractor building house directly on transmission line</p>
 </div>
 
 ---
 
-## 💭 SUNDAY WISDOM
+## &#x1F4AD; SUNDAY WISDOM
 
 In a country where:
 - Legal cases produce more appeals than actual verdicts
@@ -217,10 +217,10 @@ In a country where:
 
 At least we can laugh about it. That's something, right?
 
-**Stay informed, Guyana. And lawyers? Keep those billing hours coming.** ⚖️
+**Stay informed, Guyana. And lawyers? Keep those billing hours coming.** &#x2696;&#xFE0F;
 
 ---
 
-*THE GUYANA BRIEF: Your daily dose of "wait, that actually happened?"* 🇬🇾
+*THE GUYANA BRIEF: Your daily dose of "wait, that actually happened?"* &#x1F1EC;&#x1F1FE;
 
 *All stories real. All outrage justified. All satire absolutely necessary.*
