@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Saturday's Guyana Brief: Weekend News Circus"
 date: 2026-01-10
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Government Promises", "Tourism Troubles"]

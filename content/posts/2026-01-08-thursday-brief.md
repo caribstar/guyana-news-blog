@@ -1,4 +1,4 @@
-﻿---
+---
 title: "THE GUYANA BRIEF: Thursday's Guyana News Circus"
 date: 2026-01-08T10:47:33-05:00
 draft: false

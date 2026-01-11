@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Friday's Guyana Brief: Storage Unit Edition"
 date: 2026-01-09
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Tourism Troubles"]
