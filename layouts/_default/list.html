@@ -3,7 +3,6 @@
     
     <!-- Compact Hero Section with Newsletter Focus -->
     <div style="background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; padding: 50px 40px; margin: 40px 0; text-align: center; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
-        <!-- Removed broken logo image -->
         <h1 style="color: white; font-size: 42px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
             🇬🇾 THE GUYANA BRIEF
         </h1>
@@ -18,16 +17,12 @@
             <div style="color: white; font-size: 16px;">✓ 100% Free</div>
         </div>
         
-        <!-- Newsletter Signup - NETLIFY FORM -->
+        <!-- Newsletter Signup - BUTTONDOWN FORM -->
         <div style="background: white; padding: 25px; border-radius: 10px; max-width: 500px; margin: 0 auto;">
             <p style="color: #333; font-size: 18px; margin: 0 0 15px 0; font-weight: bold;">
                 Join our growing community. Get it in your inbox.
             </p>
-            <form name="newsletter-top" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success">
-                <input type="hidden" name="form-name" value="newsletter-top">
-                <p style="display: none;">
-                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                </p>
+            <form action="https://buttondown.com/api/emails/embed-subscribe/caribstar" method="post" target="popupwindow">
                 <div style="display: flex; gap: 10px;">
                     <input type="email" name="email" placeholder="your@email.com" required
                            style="flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 5px; font-size: 16px;">
@@ -129,7 +124,7 @@
         </div>
     </div>
     
-    <!-- Mid-Page CTA - NETLIFY FORM -->
+    <!-- Mid-Page CTA - BUTTONDOWN FORM -->
     <div style="background: #f8f9fa; padding: 50px 40px; border-radius: 15px; margin: 60px 0; text-align: center; border: 2px solid #e9ecef;">
         <div style="max-width: 600px; margin: 0 auto;">
             <h2 style="font-size: 28px; margin: 0 0 15px 0; color: #333;">
@@ -139,11 +134,7 @@
                 Guyana's news chaos, explained with humor. Every day by noon.
             </p>
             
-            <form name="newsletter-mid" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success">
-                <input type="hidden" name="form-name" value="newsletter-mid">
-                <p style="display: none;">
-                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                </p>
+            <form action="https://buttondown.com/api/emails/embed-subscribe/caribstar" method="post" target="popupwindow">
                 <div style="display: flex; gap: 10px; max-width: 450px; margin: 0 auto;">
                     <input type="email" name="email" placeholder="your@email.com" required
                            style="flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 5px; font-size: 15px;">
