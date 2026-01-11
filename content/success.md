@@ -1,11 +1,10 @@
 ---
-title: "Thanks for Subscribing! 🎉"
-layout: "simple"
+title: "Thanks for Subscribing!"
 ---
 
 <div style="text-align: center; padding: 60px 20px; max-width: 600px; margin: 0 auto;">
     <div style="font-size: 72px; margin-bottom: 20px;">✅</div>
-    <h1 style="font-size: 36px; margin: 0 0 20px 0; color: #009E60;">You're In!</h1>
+    <h1 style="font-size: 36px; margin: 0 0 20px 0; color: #009E60;">You're In! 🎉</h1>
     <p style="font-size: 18px; color: #666; line-height: 1.6; margin: 0 0 30px 0;">
         Thanks for subscribing to The Guyana Brief! You'll get your first satirical digest delivered to your inbox by noon (Guyana time).
     </p>
