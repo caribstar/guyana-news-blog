@@ -113,6 +113,44 @@ GRA uncovered a coordinated internal conspiracy. People at the tax-collecting ag
 
 ---
 
+## 🎬 TOURISM GUYANA: WELCOME (BUT DON'T FILM REALITY)
+
+<div style="background: #FFEBEE; border-left: 5px solid #F44336; padding: 15px; margin: 20px 0; border-radius: 5px;">
+<strong>📹 VLOGGER INCIDENTS:</strong><br>
+French vlogger: SLAPPED<br>
+British vlogger: ROASTED by Chronicle<br>
+Tourism slogan: Needs work
+</div>
+
+Guyana had a rough week with tourists who brought cameras.
+
+**Incident #1: The French Vlogger**
+
+Antony D'Oliveira, a French travel vlogger, was filming in La Penitence when vendor Quacy McKay decided the appropriate response to being filmed was to slap him in the back of the head.
+
+**McKay's Defense:** "I was just trying to move the camera away."
+
+**Judge McGusty:** "Sir, that's not how cameras work."
+
+**Bail:** $20,000
+
+The GPF issued a statement saying acts of violence are "unacceptable" and Guyana remains a "safe and welcoming destination." Nothing says "welcoming" like assault charges.
+
+**Incident #2: The British Vlogger**
+
+Meanwhile, British vlogger Ellis Riding filmed garbage dumps and rough areas, then called Guyana "one of the most Third World places" he'd seen.
+
+**Chronicle's Response:** Published a scathing column calling him a "10th-rate British foot-traveller" with "rotten mentality" who's probably "paid by the opposition."
+
+**Chronicle's Defense of Guyana:** "It's dangerous in Miami too!"
+
+**New Tourism Slogan Ideas:**
+- "Guyana: Film at Your Own Risk"
+- "We're Welcoming! (Terms and Conditions Apply)"
+- "Visit Guyana: Where Cameras Are Considered Aggression"
+
+---
+
 ## 🏆 YOUR FRIDAY RECAP
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; margin: 30px 0; border-radius: 10px;">
@@ -124,6 +162,7 @@ GRA uncovered a coordinated internal conspiracy. People at the tax-collecting ag
 <li>18 schools materialize during election year</li>
 <li>Working internet = national achievement unlocked</li>
 <li>Tax collectors need tax collectors to watch them</li>
+<li>Tourists with cameras = public enemy #1</li>
 </ol>
 </div>
 
@@ -141,5 +180,3 @@ GRA uncovered a coordinated internal conspiracy. People at the tax-collecting ag
 *The Daily Laugh: Your daily dose of "wait, that actually happened?"* 🇬🇾
 
 *All stories real. All outrage justified. All satire absolutely necessary.*
-
-<!-- emoji fix -->
