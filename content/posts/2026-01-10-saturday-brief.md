@@ -1,31 +1,31 @@
----
+﻿---
 title: "Saturday's Guyana Brief: Weekend News Circus"
 date: 2026-01-10
-tags: ["guyana", "satire", "news"]
+tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Government Promises", "Tourism Troubles"]
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
-    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🇬🇾 THE GUYANA BRIEF 🇬🇾</h1>
+    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">ðŸ‡¬ðŸ‡¾ THE GUYANA BRIEF ðŸ‡¬ðŸ‡¾</h1>
     <p style="color: white; font-size: 18px; margin: 0; font-weight: 500;">Your 5-Minute Weekend News Circus</p>
     <p style="color: white; font-size: 14px; margin: 10px 0 0 0; opacity: 0.9;">Saturday, January 10, 2026</p>
     <p style="color: white; font-size: 12px; margin: 5px 0 0 0; opacity: 0.8; font-style: italic;">Sponsored by: Contractors Who Can't See 69,000-Volt Lines</p>
 </div>
 
-## 📊 WEEKEND QUICK STATS
+## ðŸ“Š WEEKEND QUICK STATS
 
 <div style="background: #FCD116; padding: 20px; border-radius: 10px; border: 3px solid #CE1126; margin: 20px 0;">
-<p style="margin: 5px 0;"><strong>Mohamed Self-Pity Level:</strong> 💯 MAXIMUM</p>
+<p style="margin: 5px 0;"><strong>Mohamed Self-Pity Level:</strong> ðŸ’¯ MAXIMUM</p>
 <p style="margin: 5px 0;"><strong>Vloggers Regretting Guyana Visit:</strong> 2/2</p>
-<p style="margin: 5px 0;"><strong>National Grid Near-Death Experiences:</strong> 🔥 Another One</p>
-<p style="margin: 5px 0;"><strong>Opposition Pulse Check:</strong> ⚰️ Flatline</p>
-<p style="margin: 5px 0;"><strong>Houses To Build Per Day:</strong> 22 😂</p>
+<p style="margin: 5px 0;"><strong>National Grid Near-Death Experiences:</strong> ðŸ”¥ Another One</p>
+<p style="margin: 5px 0;"><strong>Opposition Pulse Check:</strong> âš°ï¸ Flatline</p>
+<p style="margin: 5px 0;"><strong>Houses To Build Per Day:</strong> 22 ðŸ˜‚</p>
 </div>
 
 ---
 
-## 🎭 STORY #1: THE MOHAMEDS PRESENT: "VICTIM: THE MUSICAL"
+## ðŸŽ­ STORY #1: THE MOHAMEDS PRESENT: "VICTIM: THE MUSICAL"
 
-**Opening Scene:** Nazar Mohamed, fresh from discovering that being indicted for fraud is "oppression," has penned a heartfelt op-ed. Think Les Misérables, but the convict owns bulletproof cars.
+**Opening Scene:** Nazar Mohamed, fresh from discovering that being indicted for fraud is "oppression," has penned a heartfelt op-ed. Think Les MisÃ©rables, but the convict owns bulletproof cars.
 
 **What The Papers Said:**
 
@@ -57,7 +57,7 @@ tags: ["guyana", "satire", "news"]
 
 ---
 
-## ⚡ STORY #2: CONTRACTOR DISCOVERS ELECTRICITY THE HARD WAY
+## âš¡ STORY #2: CONTRACTOR DISCOVERS ELECTRICITY THE HARD WAY
 
 **Breaking:** RZND Concrete Company decided to play "How Close Can We Get to 69,000 Volts Before Someone Arrests Us?"
 
@@ -73,21 +73,21 @@ tags: ["guyana", "satire", "news"]
 
 <div style="background: black; color: #00ff00; padding: 20px; font-family: 'Courier New', monospace; border-radius: 5px; margin: 20px 0;">
 <pre>
-╔════════════════════════════════════════╗
-║  ⚠️  NATIONAL EMERGENCY ALERT  ⚠️     ║
-║                                        ║
-║  CONTRACTOR: Actively courting death  ║
-║  VOLTAGE: 69,000 (crispy level)       ║
-║  REGIONS AFFECTED: Everyone            ║
-║  STATUS: Contractor detained           ║
-║                                        ║
-║  "One miscalculation could have        ║
-║   triggered MAJOR SYSTEM FAILURE"      ║
-║                                        ║
-║  TRANSLATION: Y'all almost blacked     ║
-║  out the entire coast because someone  ║
-║  can't see giant power lines           ║
-╚════════════════════════════════════════╝
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+â•‘  âš ï¸  NATIONAL EMERGENCY ALERT  âš ï¸     â•‘
+â•‘                                        â•‘
+â•‘  CONTRACTOR: Actively courting death  â•‘
+â•‘  VOLTAGE: 69,000 (crispy level)       â•‘
+â•‘  REGIONS AFFECTED: Everyone            â•‘
+â•‘  STATUS: Contractor detained           â•‘
+â•‘                                        â•‘
+â•‘  "One miscalculation could have        â•‘
+â•‘   triggered MAJOR SYSTEM FAILURE"      â•‘
+â•‘                                        â•‘
+â•‘  TRANSLATION: Y'all almost blacked     â•‘
+â•‘  out the entire coast because someone  â•‘
+â•‘  can't see giant power lines           â•‘
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 </pre>
 </div>
 
@@ -102,20 +102,20 @@ tags: ["guyana", "satire", "news"]
 
 ---
 
-## 📈 STORY #3: 2025 STATISTICS - A HORROR STORY
+## ðŸ“ˆ STORY #3: 2025 STATISTICS - A HORROR STORY
 
-**Murders:** ⬆️ UP 11% (130 people dead)
+**Murders:** â¬†ï¸ UP 11% (130 people dead)
 
-**Road Deaths:** ⬆️ UP 6% (137 people dead)
+**Road Deaths:** â¬†ï¸ UP 6% (137 people dead)
 
-**Total Accidents:** ⬇️ DOWN 10%
+**Total Accidents:** â¬‡ï¸ DOWN 10%
 
 **Wait... WHAT?**
 
 <div style="background: #FCD116; padding: 20px; border-radius: 10px; margin: 20px 0; border: 3px solid #CE1126;">
 <p><strong>GPF:</strong> "Great news! Accidents are DOWN!"</p>
 <p><strong>Also GPF:</strong> "Bad news! Deaths are UP!"</p>
-<p><strong>Us:</strong> "How does that even—"</p>
+<p><strong>Us:</strong> "How does that evenâ€”"</p>
 <p><strong>GPF:</strong> "We're as confused as you are."</p>
 <p><strong>World Bank:</strong> "Your 15 deaths per 100,000 is UNACCEPTABLY HIGH"</p>
 <p><strong>Government:</strong> "We'll get it to 50 total by 2030!"</p>
@@ -125,15 +125,15 @@ tags: ["guyana", "satire", "news"]
 **Translation:** We're having FEWER crashes, but when we crash, we're doing it PROFESSIONALLY. Quality over quantity, apparently.
 
 **Government's Road Safety Plan:**
-- Install cameras ✓
-- Issue e-tickets ✓
-- Hope really hard ✓
-- Actually fix roads ❌
-- Driver education ❌
+- Install cameras âœ“
+- Issue e-tickets âœ“
+- Hope really hard âœ“
+- Actually fix roads âŒ
+- Driver education âŒ
 
 ---
 
-## 🎬 STORY #4: GUYANA TOURISM PRESENTS: "DON'T FILM THIS"
+## ðŸŽ¬ STORY #4: GUYANA TOURISM PRESENTS: "DON'T FILM THIS"
 
 **Act 1: The British Vlogger**
 
@@ -156,7 +156,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 **Tourism Guyana's New Slogan Ideas:**
 
 <div style="background: #CE1126; color: white; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center;">
-<h3 style="margin: 0 0 15px 0;">🎥 UPDATED TOURISM WARNINGS</h3>
+<h3 style="margin: 0 0 15px 0;">ðŸŽ¥ UPDATED TOURISM WARNINGS</h3>
 <p style="margin: 8px 0; font-size: 15px;"><strong>Film something nice:</strong> You're a hero! Come back soon!</p>
 <p style="margin: 8px 0; font-size: 15px;"><strong>Film reality:</strong> Chronicle will question your ancestry</p>
 <p style="margin: 8px 0; font-size: 15px;"><strong>Film a vendor:</strong> That's a slappin'</p>
@@ -166,16 +166,16 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 
 ---
 
-## 🏗️ STORY #5: VP ANNOUNCES INFINITY HOUSES
+## ðŸ—ï¸ STORY #5: VP ANNOUNCES INFINITY HOUSES
 
 **The Grand Plan:** Build 40,000 houses in 5 years!
 
 **The Math They Should've Done:**
 
 <div style="background: #f8f9fa; border: 3px solid #009E60; padding: 20px; margin: 20px 0;">
-<p style="font-size: 18px; margin: 10px 0;"><strong>40,000 houses ÷ 5 years = 8,000/year</strong></p>
-<p style="font-size: 18px; margin: 10px 0;"><strong>8,000 ÷ 365 days = 22 HOUSES PER DAY</strong></p>
-<p style="font-size: 18px; margin: 10px 0;"><strong>22 houses ÷ 24 hours = ONE HOUSE EVERY 65 MINUTES</strong></p>
+<p style="font-size: 18px; margin: 10px 0;"><strong>40,000 houses Ã· 5 years = 8,000/year</strong></p>
+<p style="font-size: 18px; margin: 10px 0;"><strong>8,000 Ã· 365 days = 22 HOUSES PER DAY</strong></p>
+<p style="font-size: 18px; margin: 10px 0;"><strong>22 houses Ã· 24 hours = ONE HOUSE EVERY 65 MINUTES</strong></p>
 <p style="font-size: 16px; margin: 15px 0 0 0; color: #CE1126;"><strong>AROUND THE CLOCK. NO BREAKS. NO WEEKENDS. FOR FIVE YEARS.</strong></p>
 </div>
 
@@ -196,14 +196,14 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 </div>
 
 **Previous Government "Trust Me Bro" Projects:**
-- ❌ Amaila Falls Hydropower (fell through)
-- ❌ Surendra Hospital (still not sure what happened)
-- ❌ Skeldon Sugar Factory (sweet disaster)
-- 🎲 40,000 Houses (place your bets now!)
+- âŒ Amaila Falls Hydropower (fell through)
+- âŒ Surendra Hospital (still not sure what happened)
+- âŒ Skeldon Sugar Factory (sweet disaster)
+- ðŸŽ² 40,000 Houses (place your bets now!)
 
 ---
 
-## 💡 STORY #6: THE ELECTRICITY PROMISE ENTERS THE WITNESS PROTECTION PROGRAM
+## ðŸ’¡ STORY #6: THE ELECTRICITY PROMISE ENTERS THE WITNESS PROTECTION PROGRAM
 
 **October 2024:** "I promise to cut electricity by 50% before end of 2025!" - President Ali
 
@@ -214,7 +214,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 <div style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border: 2px solid #CE1126;">
 <p><strong>Month 1 Bill:</strong> ,000</p>
 <p><strong>Month 2 Bill (same usage):</strong> ,000</p>
-<p><strong>GPL Explanation:</strong> ¯\_(ツ)_/¯</p>
+<p><strong>GPL Explanation:</strong> Â¯\_(ãƒ„)_/Â¯</p>
 <p><strong>Citizens:</strong> "Can you explain the difference?"</p>
 <p><strong>GPL:</strong> *currently dealing with contractors trying to blow up transmission lines*</p>
 <p><strong>President's Promise:</strong> Last seen heading to the airport with a fake mustache</p>
@@ -228,7 +228,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 
 ---
 
-## 🤫 STORY #7: HAS ANYONE SEEN THE OPPOSITION?
+## ðŸ¤« STORY #7: HAS ANYONE SEEN THE OPPOSITION?
 
 **Last Spotted:** Norton gave a press conference about deportees
 
@@ -237,7 +237,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 **Kaieteur's Editorial:** "Calling the opposition, calling the opposition"
 
 <div style="background: #000; color: #fff; padding: 20px; border-radius: 10px; margin: 20px 0; font-family: monospace;">
-<p style="text-align: center; margin: 0 0 15px 0;">🚨 MISSING PERSON ALERT 🚨</p>
+<p style="text-align: center; margin: 0 0 15px 0;">ðŸš¨ MISSING PERSON ALERT ðŸš¨</p>
 <p><strong>NAME:</strong> The Opposition</p>
 <p><strong>LAST SEEN:</strong> Making a statement about something</p>
 <p><strong>DESCRIPTION:</strong> Should be loud and oppositional</p>
@@ -259,7 +259,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 
 ---
 
-## 🌟 ACTUAL GOOD NEWS: HINTERLAND GETS CONNECTED
+## ðŸŒŸ ACTUAL GOOD NEWS: HINTERLAND GETS CONNECTED
 
 **Real Talk:**  Aishalton airstrip commissioned! This is genuinely awesome!
 
@@ -280,7 +280,7 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 
 ---
 
-## 📰 TODAY'S LESSONS
+## ðŸ“° TODAY'S LESSONS
 
 <div style="background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%); padding: 30px; border-radius: 10px; margin: 30px 0;">
 <ol style="line-height: 2;">
@@ -291,26 +291,26 @@ Antony D'Oliveira is filming. Vendor Quacy McKay doesn't want to be filmed. Logi
 <li>22 houses/day = totally doable (if you're high)</li>
 <li>Electricity promises have expiration dates</li>
 <li>Opposition.exe has stopped responding</li>
-<li>Hinterland development is actually happening! 🎉</li>
+<li>Hinterland development is actually happening! ðŸŽ‰</li>
 </ol>
 </div>
 
 ---
 
-## 🔮 MONDAY'S PREDICTIONS
+## ðŸ”® MONDAY'S PREDICTIONS
 
 <div style="background: #fff3cd; border: 2px solid #856404; padding: 20px; border-radius: 10px; margin: 20px 0;">
-<p><strong>🔹</strong> Mohameds file 47-page motion explaining how prosecution wanting an earlier date proves persecution</p>
-<p><strong>🔹</strong> Another contractor "forgets" about critical infrastructure (bingo anyone?)</p>
-<p><strong>🔹</strong> GPL updates slogan to "Keeping the lights on DESPITE contractors"</p>
-<p><strong>🔹</strong> Opposition spotted, immediately pretends to be mannequin</p>
-<p><strong>🔹</strong> VP doubles down: "Actually, 80,000 houses in 2.5 years"</p>
-<p><strong>🔹</strong> Chronicle publishes op-ed: "Why Monday is actually the opposition's fault"</p>
+<p><strong>ðŸ”¹</strong> Mohameds file 47-page motion explaining how prosecution wanting an earlier date proves persecution</p>
+<p><strong>ðŸ”¹</strong> Another contractor "forgets" about critical infrastructure (bingo anyone?)</p>
+<p><strong>ðŸ”¹</strong> GPL updates slogan to "Keeping the lights on DESPITE contractors"</p>
+<p><strong>ðŸ”¹</strong> Opposition spotted, immediately pretends to be mannequin</p>
+<p><strong>ðŸ”¹</strong> VP doubles down: "Actually, 80,000 houses in 2.5 years"</p>
+<p><strong>ðŸ”¹</strong> Chronicle publishes op-ed: "Why Monday is actually the opposition's fault"</p>
 </div>
 
 ---
 
-## 💭 WEEKEND WISDOM
+## ðŸ’­ WEEKEND WISDOM
 
 In a country where a man indicted for  fraud writes op-eds about oppression while contractors treat power lines like suggestions and the government promises to build one house every 65 minutes for five straight years...
 
@@ -318,10 +318,11 @@ In a country where a man indicted for  fraud writes op-eds about oppression whil
 
 *Barely.*
 
-**Stay safe, Guyana. And contractors? FOR THE LOVE OF GPL, CALL BEFORE YOU BUILD! 📞**
+**Stay safe, Guyana. And contractors? FOR THE LOVE OF GPL, CALL BEFORE YOU BUILD! ðŸ“ž**
 
 ---
 
-*The Guyana Brief: Your daily dose of "wait, that actually happened?"* 🇬🇾
+*The Guyana Brief: Your daily dose of "wait, that actually happened?"* ðŸ‡¬ðŸ‡¾
 
 *All stories real. All outrage justified. All satire absolutely necessary.*
+

@@ -1,7 +1,7 @@
 ﻿---
 title: "Friday's Guyana Brief: Storage Unit Edition"
 date: 2026-01-09
-tags: ["guyana", "satire", "news"]
+tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Tourism Troubles"]
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
@@ -180,4 +180,5 @@ Meanwhile, British vlogger Ellis Riding filmed garbage dumps and rough areas, th
 *THE GUYANA BRIEF: Your daily dose of "wait, that actually happened?"* ðŸ‡¬ðŸ‡¾
 
 *All stories real. All outrage justified. All satire absolutely necessary.*
+
 

@@ -2,7 +2,7 @@
 title: "THE GUYANA BRIEF: Thursday's Guyana News Circus"
 date: 2026-01-08T10:47:33-05:00
 draft: false
-tags: ["guyana", "satire"]
+tags: ["guyana", "satire", "Venezuela Drama", "The Mohameds Saga", "Infrastructure Fails"]
 ---
 
 <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 10px; margin-bottom: 30px;">
@@ -212,5 +212,6 @@ Agriculture Minister Mustapha is touring the country handing out checks like Opr
 <p style="font-size: 12px; color: #6c757d; margin: 0;"><em>This is satirical commentary protected under Guyana's fair use provisions. See our <a href="/legal/">Legal Disclaimer</a>.</em></p>
 <p style="font-size: 18px; margin: 20px 0 0 0;"><strong>Â© 2026 THE GUYANA BRIEF | Not actual news, just actual laughs</strong> ðŸ‡¬ðŸ‡¾ðŸ˜‚</p>
 </div>
+
 
 
