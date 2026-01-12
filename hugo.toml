@@ -81,3 +81,7 @@ unsafe = true
   [services.googleAnalytics]
     ID = "G-5F9VH8GM6D"
 
+
+[params.label]
+  icon = "/images/logo.jpg"
+  iconHeight = 35
