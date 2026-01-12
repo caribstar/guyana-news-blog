@@ -1,5 +1,5 @@
 ---
-title: "Monday's Guyana Brief: GuySuCo Gets Yelled At (Again)"
+title: "Monday's Guyana Brief: The Week Starts With a Yelling"
 date: 2026-01-12
 draft: false
 categories: ["News"]
@@ -8,244 +8,258 @@ tags: ["Guyana", "News", "Satire", "The Mohameds Saga", "GuySuCo Chaos"]
 
 Good morning, Guyana! &#x2615;
 
-Welcome to another week of organized chaos, bureaucratic magic, and statistical creativity.
+Welcome to Monday, where last week's problems are this week's problems with a fresh coat of optimistic denial.
 
-If you thought the weekend would bring a break—cute. You must be new here.
+Nothing got fixed over the weekend. Shocked? You shouldn't be.
 
-**Today's Menu:** GuySuCo gets scolded (again), The Mohameds perfect staying put, crime stats get creative, and someone learned why we don't complain about bribery here.
+**Today's menu:** GuySuCo gets scolded (again), The Mohameds perfect the art of not leaving, crime stats achieve Olympic-level creativity, and we learn why complaining about bribery is somehow worse than actual bribery. Just another week in paradise!
 
 ---
 
-## &#x1F4CA; THE NUMBERS
+## &#x1F4CA; TODAY'S NUMBERS
 
 <div style="background-color: #E8F5E9; padding: 15px; border-left: 4px solid #4CAF50; margin: 20px 0;">
 
-**Mohamed Appeal-O-Meter:** 47 appeals filed, 0 relocations
+**Mohamed Appeals:** 47 (their lawyer's yacht fund thanks you)
 
-**Days Since Opposition Leader Appeared:** 71 (consistency!)
+**Opposition Leader Sightings:** Still 0 (Day 71 of Where's Waldo)
 
-**GuySuCo Promises vs Reality Gap:** &#x221E;
+**Projects "On Track":** Every single one (citation needed)
 
-**Crime down, murders up:** Schrödinger's statistics
+**GuySuCo Targets Met:** 0 since records began
 
 </div>
 
 ---
 
-## &#x1F3E2; GUYSUCO: THE GIFT THAT KEEPS ON NOT GIVING
+## &#x1F3E2; GUYSUCO: THE SCOLDING CONTINUES
 
-President Ali held "The Annual Disappointment Summit" with GuySuCo over the weekend, expressing "strong dissatisfaction" with their failure to meet 2025 targets.
+President Ali held his regular "Disappointment Summit" with GuySuCo over the weekend, expressing "strong dissatisfaction" with their spectacular failure to meet 2025 production targets.
 
-**In other news, water is wet.**
+**In other breaking news:** Water is wet. The sun rose this morning. The Mohameds are still here.
+
+This is approximately the 47th time we've heard this speech. At this point, we should print it on business cards. "GuySuCo: Consistently Missing Targets Since [insert any year]."
 
 <div style="background-color: #FFF3E0; padding: 15px; border-left: 4px solid #FF9800; margin: 20px 0;">
 
-**&#x1F4CA; GuySuCo Track Record:**
+**GuySuCo's Greatest Hits:**
 
-- 2023 targets: &#x274C; Missed (weather!)
-- 2024 targets: &#x274C; Missed (equipment!)  
-- 2025 targets: &#x274C; Missed (circumstances!)
-- 2026 targets: &#x2753; *nervous laughter*
+2023: &#x274C; Missed (weather's fault!)
+
+2024: &#x274C; Missed (equipment issues!)
+
+2025: &#x274C; Missed (circumstances!)
+
+2026: &#x1F914; Place your bets now
 
 **Success rate:** 0% (but very consistent!)
 
 </div>
 
-The consequence for missing targets? *Another stern meeting.* Revolutionary.
+Back in December, the President issued his "strongest warning ever" about consequences. The consequence? This meeting. Truly revolutionary accountability.
 
-Next time maybe a VERY stern meeting. Or an EXTREMELY stern meeting. The possibilities are endless!
+Next time we'll escalate to a "VERY stern" discussion. Maybe even an "EXTREMELY disappointed" PowerPoint presentation. The possibilities are endless!
 
-At this rate, GuySuCo will hit targets when The Mohameds voluntarily board a plane—which is to say, never.
+At this rate, GuySuCo will hit a target right when The Mohameds voluntarily board a plane with packed bags—which is to say, never.
 
 ---
 
-## &#x23F3; THE MOHAMEDS: PROFESSIONAL STAYERS
+## &#x23F3; THE MOHAMEDS: PHD IN NOT LEAVING
 
-Their lawyer said they're "NOT going anywhere." Turns out, 100% accurate. Give that man a Nobel Prize in Honesty.
+Their extradition hearing? Adjourned to **February 5th**. Shocked? Their lawyer literally said they're "NOT going anywhere." That man deserves a truth-in-advertising award.
 
-**Update:** Extradition hearing adjourned to **February 5th**.
+The US prosecutors asked to "bring forward" the hearing. How adorable! They must be brand new to Guyana's legal system, where:
+- "Expedited" is a philosophical concept, not a timeline
+- "Urgent" means "this decade, maybe"
+- "Soon" is measured in geological epochs
+- "NOT going anywhere" is legally binding prophecy
 
 <div style="background-color: #E3F2FD; padding: 15px; border-left: 4px solid #2196F3; margin: 20px 0;">
 
-**&#x1F4C5; The Mohamed Calendar™:**
+**What Happens First:**
 
-January: File 3 appeals, adjourn hearing
+1. Venus completes 10 orbits around the sun
+2. GuySuCo meets ALL their targets
+3. Gas-to-Energy finishes on time
+4. The Mohameds board a plane
 
-February: File 4 more appeals, adjourn again
-
-March-December: See January-February, repeat with passion
-
-**Status:** Still here, still filing, still making lawyers wealthy
-
-**Departure date:** When GuySuCo meets targets (never)
+**Answer:** Still Venus. By a landslide.
 
 </div>
 
-US prosecutors asked to "bring forward" the hearing. Adorable. They must be new.
-
-In Guyana's legal system, "expedited" means "eventually," "urgent" means "this decade," and "NOT going anywhere" means exactly that.
-
-**What happens first:**
-1. Venus orbits the sun (224 days)
-2. A sloth finishes a marathon  
-3. The Mohameds board a plane
-
-Spoiler: Venus.
+Appeal #48 should drop this week. Their legal team works harder than Gas-to-Energy construction crews.
 
 ---
 
-## &#x1F4C9; CRIME STATS: CREATIVE MATHEMATICS
+## &#x26FD; GAS-TO-ENERGY: "FIRMLY ON TRACK" (TRANSLATION: PANIC MODE)
 
-The Police Force dropped their 2025 report: **Serious crimes down 25.5%!** &#x1F389;
+The project is "firmly on track" for end-2026 completion, according to officials who definitely aren't sweating bullets.
 
-**The fine print:** *Side effects include increased murders. Do not operate statistics while reading reality.*
+They're working "overtime" now! Nothing screams "everything's going exactly as planned" quite like mandatory overtime six years into a project.
+
+**The evolution of optimism:**
+- 2020: "We're doing this!" &#x1F389;
+- 2021: "Right on schedule!" &#x1F44D;
+- 2022: "Minor hiccups!" &#x1F937;
+- 2023: "Still on track!" &#x1F605;
+- 2024: "Adjustments!" &#x1F613;
+- 2025: "Progressing!" &#x1F610;
+- 2026: "FIRMLY on track!" &#x2190; *You are here*
+
+We're starting to suspect "on track" is government-speak for "please forget we said this."
+
+---
+
+## &#x1F4C9; CRIME STATS: WHEN MATH MEETS WISHFUL THINKING
+
+The Police Force announced serious crimes dropped **25.5%** in 2025! Time to celebrate!
+
+**Plot twist:** Murders are up 11%. Road deaths up 6% (137 people died). But those apparently don't qualify as "serious."
 
 <div style="background-color: #FFEBEE; padding: 15px; border-left: 4px solid #F44336; margin: 20px 0;">
 
-**&#x1F4CA; The ACTUAL Numbers:**
+**The Formula:**
 
-- Murders: UP 11%
-- Road deaths: UP 6% (137 people)
-- "Serious crimes": Down 25.5%! &#x1F389;
+Take crimes that decreased &#x2705;
 
-**Formula:** Crime is down if you don't count the crimes!
+Completely ignore crimes that increased &#x274C;
+
+Declare total victory &#x1F389;
+
+Hope nobody actually reads the report &#x1F91E;
+
+*(We read it. Spoiler: We always read it.)*
 
 </div>
 
-It's like saying your diet's amazing because you lost 5 pounds—just don't mention the 15 you gained first.
+It's like saying your diet is amazing because you ate less cake while not mentioning you added three extra meals. Technically accurate! 
 
-**Things apparently NOT "serious crimes":**
+**Things NOT "serious crimes":**
 - Murder (up 11%)
-- Vehicular manslaughter (up 6%)
-- Filing 47 appeals to avoid extradition
+- Vehicular deaths (up 6%)
+- Filing 47 appeals to avoid justice
 
 **Things that ARE "serious crimes":**
-- Posting videos about gun licenses (see Stanley Basdeo below)
+- Posting videos about bribery (see below)
 
-The GPF expects celebration while murders are rising. It's like celebrating the Titanic's dry ballroom while the ship sank.
+The GPF wants applause while murder rates climb. Bold strategy!
 
 ---
 
-## &#x1F6A4; RIP GOLDEN GLOVES: 70 YEARS WASN'T ENOUGH
+## &#x1F6A4; GOLDEN GLOVES: 70 YEARS WASN'T ENOUGH
 
-After **SEVENTY YEARS** of service, Golden Gloves speedboat was shut down by the GRA for "irregularities."
+After **SEVENTY YEARS** of service, Golden Gloves speedboat was shut down for "irregularities."
 
-**What existed in 1955:**
-- Golden Gloves &#x2705;
-- The Soviet Union &#x2705;
-- Polio vaccine &#x2705;
-
-**What doesn't exist anymore:**
-- All of the above &#x274C;
-
-<div style="background-color: #E0F2F1; padding: 15px; border-left: 4px solid #009688; margin: 20px 0;">
-
-**&#x1F4CA; Survival Guide:**
-
-**What survives:**
-- &#x2705; Mohamed legal defense (IMMORTAL)
-- &#x2705; GuySuCo missing targets (ETERNAL)
-
-**What doesn't:**
-- &#x274C; 70-year businesses (paperwork issues)
-- &#x274C; Heroes Highway (25 months max)
-- &#x274C; Opposition leadership (missing)
-
-</div>
+This service existed since 1955. Before independence. Before most of us were born. Before The Mohameds discovered appeals were infinite.
 
 **Golden Gloves survived:**
-- Independence, multiple governments, economic crises, the Cold War, Y2K, the ENTIRE Mohamed saga
+- Independence, multiple governments, the Cold War, Y2K, smartphones, AND the entire Mohamed legal saga
 
-**What killed it?**
-*Paperwork irregularities.*
+**What finally killed it:** Paperwork irregularities.
 
-After 70 years, NOW is regulation time.
+Meanwhile, The Mohameds have been "regularising" their status for 2+ years with 47 appeals. Nobody's shutting THEM down.
 
-Meanwhile, The Mohameds have been "regularising" for years with 47 appeals. Nobody's stopping THEM.
+Priorities, people!
 
 ---
 
-## &#x1F4B0; STANLEY BASDEO: COMPLAINED TOO LOUDLY
+## &#x1F4B0; STANLEY BASDEO: SPEED-RUN TO CRIMINAL CHARGES
 
-US businessman Stanley Basdeo posted a video about:
-1. Difficulty getting gun licenses
-2. Bribery in Guyana
+US businessman posted a video complaining about gun licenses and bribery. Result? **Cybercrime charges**, $200,000 bail, passport confiscated. **Time elapsed: 24 hours.**
 
-**Government's response:** CYBERCRIME CHARGES.
+**For comparison:**
+- The Mohameds: 47 appeals over 2+ years, still have passports
+- Stanley: 1 video, passport gone instantly
 
 <div style="background-color: #ECEFF1; padding: 15px; border-left: 4px solid #607D8B; margin: 20px 0;">
 
-**&#x1F4CA; Legal Response Times:**
+**Guyana Legal System Speed Test:**
 
-Charging video complaint: &#x26A1; 24 hours
+Charging video complaints: &#x26A1; 24 hours flat
 
-Extraditing actual criminals: &#x1F40C; 847+ days
+Extraditing actual criminals: &#x1F40C; 847+ days and counting
 
-Fixing bribery he mentioned: &#x1F914; *File not found*
+Fixing the bribery he mentioned: &#x1F914; *File not found*
 
 </div>
 
-**The crime:** Making a video about stuff everyone knows.
+Beautiful irony: He complained about bribery and now he's in the legal system where... well, you connect the dots.
 
-**The punishment:** $200,000 bail + surrendered passport.
-
-**For comparison:**
-- The Mohameds: 47 appeals, still have passports
-- Stanley: 1 video, passport confiscated
-
-**The irony:** He complained about bribery and now he's in the legal system where... well, you get it.
-
-**Things you CAN do:**
-- File infinite appeals &#x2705;
-- Miss targets annually &#x2705;
-
-**Things you CANNOT do:**
-- Post videos about bribery &#x274C;
-
-**Lesson:** You can file 47 appeals (fine!), but you cannot post one (1) video about systemic issues (CYBERCRIME!).
+**Official lesson:** You can file 47 appeals (totally fine!), but you cannot post one (1) video about known issues (CYBERCRIME!).
 
 ---
 
-## &#x1F4C5; THE WEEK AHEAD
+## &#x1F1FA;&#x1F1F8; TRUMP DEPORTEE TALKS: *CRICKETS*
 
-**Monday:** Last week's chaos was an aberration. (It wasn't.)
+Government in "productive discussions" about accepting deportees—possibly from **other countries**, not just Guyanese nationals.
 
-**Tuesday:** "On track" update #848. Drinking game optional.
+Opposition demands transparency. President Ali's response? *Strategic silence perfected.*
 
-**Wednesday:** Mohamed appeal #48. Lawyer buys third vacation home.
+---
+
+## &#x1F3E0; HOUSE COLLAPSE: GOVERNMENT RESPONDS QUICKLY (PLOT TWIST!)
+
+La Penitence house collapsed (10 affected). Ministry responded within 24 hours with actual help.
+
+Credit where due—no committees, no "studying it," just assistance. Refreshing when efficiency doesn't involve shutting down 70-year businesses!
+
+---
+
+## &#x1F3E8; MARRIOTT OPENS + FISHERFOLK GRANTS + COSTCO INCOMING
+
+**Good news triple-header:**
+- AC Marriott at Ogle: 250 jobs (98% Guyanese)
+- 570 fisherfolk got $150K grants each
+- FreshGo bringing Kirkland products Feb 5
+
+Actual money for actual people doing actual things! Revolutionary concept.
+
+Costco opens same day as Mohamed hearing. Choices: Bulk shopping or legal proceedings? We're choosing toilet paper—given daily news, we need it.
+
+---
+
+## &#x1F4C5; THE WEEK AHEAD (99% Accuracy Guaranteed)
+
+**Monday:** Everyone pretends last week was an aberration. (It never is.)
+
+**Tuesday:** Another "on track" update drops. Drinking game: shot per "firmly." (Don't actually—you'll die.)
+
+**Wednesday:** Appeal #48 incoming. Lawyer's kids' college fund says thanks.
 
 **Thursday:** GuySuCo misses micro-target. Blames solar flares.
 
-**Friday:** New timeline announced. Immediately obsolete.
+**Friday:** New timeline announced. Outdated upon publication.
 
-**Probability GuySuCo meets target:** 0.1%
-
-**Probability Mohameds board plane:** *Cannot calculate impossibility*
+**Saturday-Sunday:** Brief respite. (Mohamed legal team works weekends though.)
 
 ---
 
 ## &#x1F4DD; THE BOTTOM LINE
 
-Another Monday of delays (sorry, "adjustments"), projects "firmly on track" (hopelessly behind), and crime stats that defy mathematics.
+Another week of delays ("adjustments"), projects "on track" (overtime panic), legal proceedings at tectonic speeds, and math that would make accountants weep.
 
 **The pattern:**
 
-Work 70 years? Paperwork violation.
+Work 70 years? Paperwork violation, shut down.
 
-File appeals for 2+ years? Carry on!
+File appeals 2+ years? Keep going indefinitely!
 
-Meet targets? What's a target? —GuySuCo
+Meet targets? What's a target? —GuySuCo's motto
 
-Post videos? Cybercrime within 24 hours.
+Post complaint videos? Cybercrime in 24 hours.
 
-But hey, at least Costco toilet paper is coming (Feb 5). Given the amount of BS we wade through, we'll need it.
+GuySuCo misses targets with Swiss-watch precision. Mohameds file appeals with Olympic dedication. Projects stay "on track" via sheer optimism.
 
-**Stay chaotic, Guyana.** &#x1F1EC;&#x1F1FE;
+But good news exists: jobs created, grants distributed, bulk toilet paper incoming.
 
-*P.S. - If complaints are cybercrime, this newsletter is toast. See you in court! (In 847 days, after 47 adjournments.)*
+Given what we wade through daily, we'll need it.
+
+**Stay informed, Guyana.** &#x1F1EC;&#x1F1FE;
+
+*P.S. - If complaints are cybercrime, this newsletter's toast. Court date: 847 days from now, after 47 adjournments, once The Mohameds finish their masterclass on legal delay tactics.*
 
 ---
 
-*Your 5-minute Guyana news circus. Subscribe free at [guyanadailybrief.com](https://guyanadailybrief.com)*
+*Your 6-minute Guyana news circus. Subscribe free at [guyanadailybrief.com](https://guyanadailybrief.com)*
 
-*This is satirical news digest. Events are real, commentary makes you laugh (or cry). We read all 4 papers so you don't have to.*
+*Satirical digest. Events real, commentary makes you laugh/cry. We read all 4 papers so you don't have to.*
