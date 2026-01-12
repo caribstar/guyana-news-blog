@@ -15,6 +15,10 @@ buildFuture = false
 home = ["HTML", "RSS", "JSON"]
 
 [params]
+
+[params.label]
+  icon = "/images/logo.jpg"
+  iconHeight = 35
 favicon = "/favicon.svg"
 
 description = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
@@ -82,6 +86,3 @@ unsafe = true
     ID = "G-5F9VH8GM6D"
 
 
-[params.label]
-  icon = "/images/logo.jpg"
-  iconHeight = 35
