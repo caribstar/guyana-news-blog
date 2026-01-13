@@ -50,6 +50,16 @@ url = "/posts/"
 weight = 2
 
 [[menu.main]]
+name = "Magazine"
+url = "/magazine/"
+weight = 3
+
+[[menu.main]]
+name = "Roundup"
+url = "/roundup/"
+weight = 4
+
+[[menu.main]]
 name = "Search"
 url = "/search/"
 weight = 3
