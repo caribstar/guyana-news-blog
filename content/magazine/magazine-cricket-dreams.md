@@ -22,6 +22,13 @@ Final score: Windward Islands 89-5. Guyana wins by 7 runs, defending their title
 
 Back home, a nation erupts. Not just cricket fans—everyone. For once, nobody's arguing about politics.
 
+{{< key-takeaways >}}
+- Guyana Women's cricket team defended their title in dramatic 7-run victory
+- Women's cricket has grown from "afterthought" to front-page news since 2019
+- Girls' cricket programs have quadrupled since 2023 with increased investment
+- Team provides rare source of unified national pride in divided political climate
+{{< /key-takeaways >}}
+
 ## MORE THAN A GAME
 
 To understand why this victory matters so much, you need to understand what cricket means in Guyana.
@@ -83,3 +90,4 @@ Tuesday's dramatic victory will be remembered as a classic match. But it represe
 These women aren't just defending a cricket title. They're defending a vision of Guyana where talent matters more than gender, where excellence is rewarded regardless of tradition, where the next generation has heroes who look like them.
 
 "We play for every Guyanese," Captain Gajnabi said after Tuesday's victory. And for once, every single Guyanese seems to be playing for them too.
+

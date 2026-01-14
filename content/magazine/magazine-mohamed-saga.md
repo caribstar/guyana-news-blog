@@ -16,6 +16,13 @@ But beyond the headlines about extradition hearings, US sanctions, and courtroom
 
 This is that story.
 
+{{< key-takeaways >}}
+- Mohamed family business spans retail, real estate, import/export - built over decades
+- First controversy emerged with 2021 US sanctions targeting "illicit gold trade networks"
+- Extradition battle centers on "dual criminality" requirement in Guyana's law
+- Cybercrime arrest of Stanley Basdeo added free speech dimension to the saga
+{{< /key-takeaways >}}
+
 ## THE EMPIRE BUILDING
 
 The Mohamed business empire didn't emerge overnight. Built over decades, it spans multiple sectors: retail and wholesale operations, real estate holdings across Georgetown, and import/export operations connecting Guyana to global markets.
@@ -53,3 +60,4 @@ The arrest sparked immediate controversy about free speech, selective prosecutio
 What can we learn from this saga? About business, about law, about power, about media, and about justice. The Mohamed saga isn't really about one family—it's about how Guyana handles the intersection of business, politics, international pressure, and free speech in an interconnected era.
 
 The Mohamed family will eventually have their day in court. But the broader questions the saga raises won't be resolved in any courtroom. Those are questions only Guyanese society can answer, through the choices we make about the kind of country we want to be.
+
