@@ -1,0 +1,46 @@
+﻿{{- $page := .Page }}
+{{- $related := $page.Site.RegularPages.Related $page | first 3 }}
+{{- if $related }}
+<div class="related-stories" style="
+    margin: 40px 0;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-top: 3px solid #FCD116;
+">
+    <h3 style="
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #1a1a1a;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    ">
+        <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        📚 Continue Reading
+    </h3>
+    <div style="display: grid; gap: 15px;">
+    {{- range $related }}
+        <a href="{{ .Permalink }}" style="
+            display: block;
+            padding: 15px;
+            background: white;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #1a1a1a;
+            border-left: 3px solid #009E60;
+            transition: transform 0.2s, box-shadow 0.2s;
+        " onmouseover="this.style.transform='translateX(5px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'" 
+           onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='none'">
+            <div style="font-weight: bold; margin-bottom: 5px;">{{ .Title }}</div>
+            <div style="font-size: 0.9rem; color: #666;">
+                {{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read
+            </div>
+        </a>
+    {{- end }}
+    </div>
+</div>
+{{- end }}
