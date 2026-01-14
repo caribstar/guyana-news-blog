@@ -17,10 +17,11 @@ But beyond the headlines about extradition hearings, US sanctions, and courtroom
 This is that story.
 
 {{< key-takeaways >}}
-- Mohamed family business spans retail, real estate, import/export - built over decades
-- First controversy emerged with 2021 US sanctions targeting "illicit gold trade networks"
-- Extradition battle centers on "dual criminality" requirement in Guyana's law
-- Cybercrime arrest of Stanley Basdeo added free speech dimension to the saga
+- The Mohamed family built a multi-sector empire over decades before facing US sanctions in 2021
+- Their case involves complex legal questions about "dual criminality" in extradition law
+- The cybercrime arrest of Stanley Basdeo added free speech and selective prosecution dimensions
+- This saga reveals tensions between business, politics, and international relations in Guyana
+- Ultimately about what kind of country Guyana wants to be in an interconnected world
 {{< /key-takeaways >}}
 
 ## THE EMPIRE BUILDING

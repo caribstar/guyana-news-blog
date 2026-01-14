@@ -14,14 +14,15 @@ For three consecutive weeks, the podium at Freedom House has remained empty on W
 
 The silence is deafening.
 
-{{< key-takeaways >}}
-- Jagdeo hasn't held a press conference in 3 weeks, breaking his 5-year pattern of weekly briefings
-- Multiple concurrent crises may explain the silence: Mohamed extradition saga, gas-to-energy controversy, internal party tensions
-- Creates political vacuum filled by opposition leader Aubrey Norton and rampant social media speculation
-- Could be strategic retreat to let government accomplishments receive more coverage without his controversial statements drawing fire
-{{< /key-takeaways >}}
-
 And in Guyanese politics, silence from Bharrat Jagdeo is more alarming than any statement he could make.
+
+{{< key-takeaways >}}
+- Jagdeo's 3-week silence breaks his 5-year pattern of weekly press conferences
+- Three concurrent crises may explain the media blackout: Mohamed family saga, gas-to-energy controversy, and internal party tensions
+- Creates a political vacuum that opposition leader Aubrey Norton is actively filling
+- Could be either a strategic retreat or a sign of deeper internal issues
+- When he returns, expect an explosive press conference addressing accumulated questions
+{{< /key-takeaways >}}
 
 ## THE PATTERN BREAKS
 
@@ -59,3 +60,6 @@ The answer likely involves elements of all these factors. What's certain is this
 
 Until then, we wait. And in that waiting, we learn something important about power in Guyana: Sometimes silence speaks louder than the most carefully crafted statement.
 
+{{< social-share >}}
+
+{{< related-stories >}}
