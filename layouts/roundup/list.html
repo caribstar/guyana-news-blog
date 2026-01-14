@@ -186,38 +186,16 @@
 </div>
 {{- else }}
 
-{{- $grouped := dict }}
-{{- range $dailyBriefs }}
-    {{- $year := .Date.Format "2006" }}
-    {{- $week := printf "%d" .Date.Week }}
-    {{- $key := printf "%s-W%s" $year $week }}
-    
-    {{- if not (index $grouped $key) }}
-        {{- $grouped = merge $grouped (dict $key (slice .)) }}
-    {{- else }}
-        {{- $existing := index $grouped $key }}
-        {{- $grouped = merge $grouped (dict $key (append $existing .)) }}
-    {{- end }}
-{{- end }}
+{{- $grouped := $dailyBriefs.GroupByDate "January 2006" }}
 
-{{- $weeks := slice }}
-{{- range $key, $posts := $grouped }}
-    {{- $weeks = $weeks | append (dict "key" $key "posts" $posts) }}
-{{- end }}
-{{- $weeks = sort $weeks "key" "desc" }}
-
-{{- range $weeks }}
-    {{- $posts := sort .posts "Date" "desc" }}
-    {{- $firstPost := index $posts 0 }}
-    {{- $lastPost := index (last 1 $posts) 0 }}
-    
+{{- range $grouped }}
 <div class="week-section">
     <div class="week-header">
-        <div class="week-title">Week of {{ $firstPost.Date.Format "January 2" }} - {{ $lastPost.Date.Format "January 2, 2006" }}</div>
-        <div class="week-date-range">{{ len $posts }} daily briefs</div>
+        <div class="week-title">{{ .Key }}</div>
+        <div class="week-date-range">{{ len .Pages }} daily briefs</div>
     </div>
     
-    {{- range $posts }}
+    {{- range .Pages.ByDate.Reverse }}
     <div class="daily-brief-item">
         <div class="brief-date">
             <div class="brief-day">{{ .Date.Format "Mon" }}</div>
