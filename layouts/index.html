@@ -41,6 +41,52 @@
     
   </div>
 
+  <!-- Speedeet & Wilar Section -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FCD116 0%, #ff9500 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 20px; color: #1a1a1a;">
+      🎭 Speedeet & Wilar: Adventures of Two Best Friends
+    </h2>
+    <p style="text-align: center; margin-bottom: 30px; color: #1a1a1a;">Follow de adventures of Speedeet (black boy) and Wilar (Indo-Guyanese boy) - two 12-year-olds getting into all kinda mischief in Guyana!</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+      {{- $speedeetPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
+      {{- range first 2 $speedeetPosts }}
+      <div style="background: white; border-radius: 10px; padding: 20px;">
+        <h3 style="margin-top: 0;">
+          <a href="{{ .Permalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
+        </h3>
+        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" style="color: #ff9500; font-weight: bold; text-decoration: none;">Read De Story →</a>
+      </div>
+      {{- end }}
+    </div>
+    
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="/categories/speedeet-wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All Adventures →</a>
+    </div>
+  </div>
+
+  <!-- Daily Laugh Section -->
+  <div style="margin-bottom: 60px;">
+    <h2 style="border-bottom: 3px solid #ff6b6b; padding-bottom: 10px; margin-bottom: 30px; color: #009E60;">
+      😂 Daily Laugh
+      <a href="/categories/daily-laugh/" style="float: right; font-size: 1rem; color: #009E60; text-decoration: none;">View All →</a>
+    </h2>
+    
+    {{- $dailyLaugh := where .Site.RegularPages "Params.categories" "intersect" (slice "Humor" "Daily Laugh") }}
+    {{- range first 1 $dailyLaugh }}
+    <div style="background: #fff5f5; border-left: 5px solid #ff6b6b; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
+      <h3 style="margin-top: 0;">
+        <a href="{{ .Permalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
+      </h3>
+      <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <p>{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" style="color: #ff6b6b; font-weight: bold; text-decoration: none;">Read & Laugh →</a>
+    </div>
+    {{- end }}
+  </div>
+
   <!-- Magazine Features Section -->
   <div style="margin-bottom: 60px;">
     <h2 style="border-bottom: 3px solid #009E60; padding-bottom: 10px; margin-bottom: 30px; color: #009E60;">
@@ -65,7 +111,7 @@
   <div style="margin-bottom: 60px;">
     <h2 style="border-bottom: 3px solid #FCD116; padding-bottom: 10px; margin-bottom: 30px; color: #009E60;">
       📊 Weekly Roundup
-      <a href="/roundup/" style="float: right; font-size: 1rem; color: #009E60; text-decoration: none;">View All →</a>
+      <a href="/posts/" style="float: right; font-size: 1rem; color: #009E60; text-decoration: none;">View All →</a>
     </h2>
     
     {{- $dailyBriefs := where .Site.RegularPages "Params.categories" "intersect" (slice "News") }}
