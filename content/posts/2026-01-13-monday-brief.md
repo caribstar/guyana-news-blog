@@ -1,5 +1,5 @@
 ﻿---
-title: "Monday Brief: Crime Stats, Search & Rescue Upgrade, and Traffic Chaos"
+title: "🔍 [CRITICAL] Monday Brief: Crime Stats, Search & Rescue Upgrade, and Traffic Chaos"
 date: 2026-01-13
 draft: false
 categories: ["News", "Daily Brief"]
@@ -144,5 +144,6 @@ Most concerning: 3,100 traffic violations in one week and murders up 11% suggest
 **Reading the Other Side:** Some will celebrate the 25% crime reduction, praise the search & rescue investment, and defend traffic enforcement as proof the system works. Read Uncle Ramesh's take for that perspective.
 
 Stay alert, Guyana. 🇬🇾
+
 
 

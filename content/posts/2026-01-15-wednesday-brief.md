@@ -1,5 +1,5 @@
 ﻿---
-title: "Wednesday Brief: Guyanese Takes IICA Helm, Census Controversy, and Cybercrime Crackdown"
+title: "🔍 [CRITICAL] Wednesday Brief: Guyanese Takes IICA Helm, Census Controversy, and Cybercrime Crackdown"
 date: 2026-01-15
 draft: false
 categories: ["News", "Daily Brief"]
@@ -107,5 +107,6 @@ The census data is particularly damning: if you're building houses faster than y
 **Reading the Other Side:** Some will argue the census shows visionary planning, that financial reforms will materialize, and that the cybercrime law is working as intended. Read Uncle Ramesh's take for that perspective.
 
 Stay skeptical, Guyana. 🇬🇾
+
 
 
