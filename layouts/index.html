@@ -6,39 +6,65 @@
 
 <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
   
-  <!-- Today's Dueling Posts -->
+  <!-- Today's Dueling Posts - PRO-GOV FIRST -->
   <h2 style="text-align: center; margin-bottom: 30px; color: #009E60;">📅 Today's Dueling Blogs</h2>
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
     
-    <!-- Critical View (Latest Brief) -->
-    <div style="border: 3px solid #2563eb; border-radius: 10px; padding: 25px; background: white;">
-      <div style="background: #2563eb; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-        🔍 CRITICAL VIEW
-      </div>
-      {{- $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "News" "Daily Brief") }}
-      {{- range first 1 $criticalPosts }}
-      <h3 style="margin-top: 0;"><a href="{{ .Permalink }}" style="color: #1e40af; text-decoration: none;">{{ .Title }}</a></h3>
-      <p style="color: #666; font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
-      <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .Permalink }}" style="display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Analysis →</a>
-      {{- end }}
-    </div>
-    
-    <!-- Pro-Gov View (Latest Uncle Ramesh) -->
+    <!-- Pro-Gov View FIRST (LEFT SIDE) -->
     <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
       <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-        😊 PRO-GOV VIEW
+        😊 GOVERNMENT SUPPORTER VIEW
       </div>
       {{- $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Opinion" "Uncle Ramesh") }}
       {{- range first 1 $proGovPosts }}
       <h3 style="margin-top: 0;"><a href="{{ .Permalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
       <p style="color: #666; font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
       <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .Permalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Take →</a>
+      <a href="{{ .Permalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View →</a>
       {{- end }}
     </div>
     
+    <!-- Critical View SECOND (RIGHT SIDE) -->
+    <div style="border: 3px solid #2563eb; border-radius: 10px; padding: 25px; background: white;">
+      <div style="background: #2563eb; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+        🔍 OPPOSITION WATCH
+      </div>
+      {{- $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "News" "Daily Brief") }}
+      {{- range first 1 $criticalPosts }}
+      <h3 style="margin-top: 0;"><a href="{{ .Permalink }}" style="color: #1e40af; text-decoration: none;">{{ .Title }}</a></h3>
+      <p style="color: #666; font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .Permalink }}" style="display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View →</a>
+      {{- end }}
+    </div>
+    
+  </div>
+
+  <!-- NEW: PPP/C Progress Report Section -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 20px; color: white;">
+      📈 Weekly Progress Report: Government Achievements
+    </h2>
+    <p style="text-align: center; margin-bottom: 30px; color: white;">A factual summary of PPP/C government accomplishments and initiatives</p>
+    
+    {{- $progressPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Progress Report") }}
+    {{- if $progressPosts }}
+    {{- range first 1 $progressPosts }}
+    <div style="background: white; border-radius: 10px; padding: 25px;">
+      <h3 style="margin-top: 0;">
+        <a href="{{ .Permalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a>
+      </h3>
+      <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <p>{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">View Full Report →</a>
+    </div>
+    {{- end }}
+    {{- else }}
+    <div style="background: white; border-radius: 10px; padding: 25px; text-align: center;">
+      <p style="color: #666;">Progress report coming soon!</p>
+    </div>
+    {{- end }}
   </div>
 
   <!-- Speedeet & Wilar Section -->
@@ -67,10 +93,10 @@
     </div>
   </div>
 
-  <!-- Daily Laugh Section -->
+  <!-- Daily Laugh Section - Now Balanced -->
   <div style="margin-bottom: 60px;">
     <h2 style="border-bottom: 3px solid #ff6b6b; padding-bottom: 10px; margin-bottom: 30px; color: #009E60;">
-      😂 Daily Laugh
+      😂 Daily Laugh (Mocking Both Sides!)
       <a href="/categories/daily-laugh/" style="float: right; font-size: 1rem; color: #009E60; text-decoration: none;">View All →</a>
     </h2>
     
