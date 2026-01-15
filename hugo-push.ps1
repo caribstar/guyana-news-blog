@@ -1,28 +1,35 @@
-﻿# ================================
-# Hugo Auto Build & Git Push Script
-# ================================
+﻿# ===============================
+# Automated Hugo Build & Git Push
+# ===============================
 
-# --- Step 0: Git line ending config ---
-git config --global core.autocrlf input
-
-# --- Step 1: Build Hugo site ---
 Write-Host "`n🚀 Building Hugo site..." -ForegroundColor Cyan
-hugo
 
-# --- Step 2: Stage content changes only (ignore public/) ---
-Write-Host "`n📝 Staging content changes..." -ForegroundColor Yellow
-git add -A :!public
-
-# --- Step 3: Commit changes ---
-$commitMessage = Read-Host "Enter commit message"
-if ([string]::IsNullOrWhiteSpace($commitMessage)) {
-    $commitMessage = "Update Hugo content/templates"
+# Build the Hugo site (output goes to public/)
+hugo --gc --minify
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "❌ Hugo build failed!" -ForegroundColor Red
+    exit 1
 }
 
-git commit -m "$commitMessage"
+Write-Host "`n📝 Staging content changes..." -ForegroundColor Yellow
 
-# --- Step 4: Push to remote ---
-Write-Host "`n📤 Pushing to remote repository..." -ForegroundColor Green
-git push
+# Suppress CRLF warnings
+git config core.autocrlf true
+git config advice.addIgnoredFile false
 
-Write-Host "`n✅ Done! Hugo site built and content pushed." -ForegroundColor Cyan
+# Stage all source files (layouts, content, static, etc.)
+git add -u
+git add layouts
+git add content
+git add static
+git add hugo.toml
+
+# Commit with a default message
+$commitMessage = "AUTO: Hugo site updated $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git commit -m $commitMessage 2>$null
+
+# Push to remote
+Write-Host "`n📤 Pushing to remote repository..." -ForegroundColor Yellow
+git push origin main
+
+Write-Host "`n✅ Done! Hugo site built and content pushed." -ForegroundColor Green
