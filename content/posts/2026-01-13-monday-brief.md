@@ -7,6 +7,10 @@ tags: ["news", "crime", "infrastructure", "traffic"]
 summary: "Murders up 11% despite overall crime drop, new $123M search and rescue system launched, over 3,100 traffic offences in one week, and financial system reforms promised."
 ---
 
+*Critical analysis of Guyana's political landscape. For a pro-government perspective, see Uncle Ramesh's take.*
+
+---
+
 ## 📊 The Crime Paradox
 
 **The Numbers:** Police report a 25.5% reduction in overall serious crime for 2025, but murders jumped 11.1%—from 117 in 2024 to 130 in 2025.
@@ -137,4 +141,8 @@ Most concerning: 3,100 traffic violations in one week and murders up 11% suggest
 
 **Tomorrow's Watch:** Will financial reforms actually materialize "in coming weeks"? Will traffic enforcement reduce the speeding epidemic? Will anyone explain WHY murders are rising?
 
+**Reading the Other Side:** Some will celebrate the 25% crime reduction, praise the search & rescue investment, and defend traffic enforcement as proof the system works. Read Uncle Ramesh's take for that perspective.
+
 Stay alert, Guyana. 🇬🇾
+
+

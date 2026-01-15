@@ -9,6 +9,10 @@ summary: "Uncle Ramesh explains why 25% crime reduction is actually amazing, and
 
 *Uncle Ramesh reading the crime statistics with a satisfied nod*
 
+*Uncle Ramesh offers a pro-government perspective with humor. For critical analysis, see the Monday Brief.*
+
+---
+
 ## Bai, Uncle Ramesh Know How to Read Statistics
 
 So police say crime down 25.5%, and immediately de critics start with "But murders up 11%!"
@@ -152,4 +156,8 @@ Is everything perfect? No! But Uncle Ramesh ask: **Show me de perfect country!**
 
 ---
 
-*Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary. But dem crime reduction numbers? Dem REAL. Check de statistics!*
+***Reading the Other Side:** De critics will focus on murders being up and say all de progress ain't real. Read de Monday Brief for dat doom and gloom perspective.
+
+Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary. But dem crime reduction numbers? Dem REAL. Check de statistics!*
+
+

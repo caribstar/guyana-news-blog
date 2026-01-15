@@ -157,4 +157,8 @@ Is everything perfect? No! But show Uncle Ramesh ANY country where everything pe
 
 ---
 
-*Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary and don't represent actual persons. But de progress? De progress REAL.*
+***Reading the Other Side:** De critics will say government overbuilding, cybercrime law being abused, and Parliament dysfunction. Read de Wednesday Brief for dat perspective if you want to be negative all de time.
+
+Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary and don't represent actual persons. But de progress? De progress REAL.*
+
+
