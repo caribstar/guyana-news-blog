@@ -1,82 +1,51 @@
 ﻿{{ define "main" }}
 
-<!-- Newsletter Subscribe Splash -->
-<div style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 25px 20px; text-align: center; margin-bottom: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <h3 style="margin: 0 0 10px 0; font-size: 1.6rem;">📧 Stay Informed!</h3>
-  <p style="margin: 0 0 20px 0; font-size: 1rem;">Get the latest news from both perspectives delivered to your inbox.</p>
+<!-- Newsletter Subscribe Splash - BEEHIIV EMBED with Beautiful Styling -->
+<div style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 40px 20px; text-align: center; margin-bottom: 40px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);">
+  <h2 style="margin: 0 0 10px 0; font-size: 2.2rem; font-weight: bold;">📧 Never Miss a Story!</h2>
+  <p style="margin: 0 0 30px 0; font-size: 1.2rem;">Get both perspectives delivered to your inbox daily</p>
 
-  <form id="beehiiv-subscribe-form" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; align-items: center;">
-    <input type="email" id="email-input" name="email" placeholder="Enter your email" required
-           style="padding: 12px 20px; border: none; border-radius: 6px; font-size: 1rem; min-width: 280px; flex: 1; max-width: 400px;">
-    <button type="submit"
-            style="padding: 12px 30px; background: #009E60; color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s;">
-      Subscribe
-    </button>
-  </form>
+  <!-- BEEHIIV EMBED - REPLACE YOUR_FORM_ID_HERE with your actual form ID -->
+  <div style="max-width: 600px; margin: 0 auto; background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(10px);">
+    <script async src="https://embeds.beehiiv.com/attribution.js"></script>
+    <iframe 
+      src="https://embeds.beehiiv.com/YOUR_FORM_ID_HERE?slim=true" 
+      data-test-id="beehiiv-embed" 
+      height="52" 
+      frameborder="0" 
+      scrolling="no" 
+      style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%;">
+    </iframe>
+  </div>
 
-  <p id="subscribe-message" style="margin: 12px 0 0 0; font-size: 0.9rem; opacity: 0.9;">We respect your privacy. Unsubscribe anytime.</p>
+  <p style="margin: 20px 0 0 0; font-size: 0.95rem; opacity: 0.95;">
+    ✓ Free forever  •  ✓ Unsubscribe anytime  •  ✓ No spam
+  </p>
 </div>
 
-<script>
-document.getElementById('beehiiv-subscribe-form').addEventListener('submit', async function(e) {
-  e.preventDefault();
+<!-- Alternative: If you want the full form with more options, use this instead -->
+<!-- 
+<div style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 40px 20px; text-align: center; margin-bottom: 40px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);">
+  <h2 style="margin: 0 0 10px 0; font-size: 2.2rem; font-weight: bold;">📧 Never Miss a Story!</h2>
+  <p style="margin: 0 0 30px 0; font-size: 1.2rem;">Get both perspectives delivered to your inbox daily</p>
 
-  const email = document.getElementById('email-input').value.trim();
-  const messageEl = document.getElementById('subscribe-message');
-  const submitBtn = e.target.querySelector('button[type="submit"]');
+  <div style="max-width: 600px; margin: 0 auto;">
+    <script async src="https://embeds.beehiiv.com/attribution.js"></script>
+    <iframe 
+      src="https://embeds.beehiiv.com/YOUR_FORM_ID_HERE" 
+      data-test-id="beehiiv-embed" 
+      height="320" 
+      frameborder="0" 
+      scrolling="no" 
+      style="margin: 0; border-radius: 10px !important; background-color: white; width: 100%;">
+    </iframe>
+  </div>
 
-  if (!email) return;
-
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Subscribing...';
-  messageEl.textContent = '';
-
-  try {
-    const response = await fetch("https://magic.beehiiv.com/v1/f9c4ec66-2389-4576-8447-ff24e162f6ff", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-      },
-      body: JSON.stringify({ email })
-    });
-
-    if (response.ok) {
-      messageEl.textContent = "✅ Success! Check your email to confirm subscription.";
-      messageEl.style.color = "#00ff88";
-      document.getElementById("email-input").value = "";
-      submitBtn.textContent = "Subscribed!";
-    } else {
-      const errorData = await response.json();
-      throw new Error(errorData.message || "Subscription failed");
-    }
-  } catch (error) {
-    messageEl.textContent = "❌ Something went wrong. Please try again.";
-    messageEl.style.color = "#ff6b6b";
-    console.error("Beehiiv subscription error:", error);
-    submitBtn.textContent = "Subscribe";
-  } finally {
-    submitBtn.disabled = false;
-  }
-});
-</script>
-
-<style>
-  @media (max-width: 768px) {
-    #beehiiv-subscribe-form {
-      flex-direction: column;
-      gap: 12px;
-    }
-    #beehiiv-subscribe-form input,
-    #beehiiv-subscribe-form button {
-      width: 100%;
-      max-width: none;
-    }
-  }
-  #beehiiv-subscribe-form button:hover {
-    background: #007a4f;
-  }
-</style>
+  <p style="margin: 20px 0 0 0; font-size: 0.95rem; opacity: 0.95;">
+    ✓ Free forever  •  ✓ Unsubscribe anytime  •  ✓ No spam
+  </p>
+</div>
+-->
 
 <div class="dueling-intro" style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 100%); color: white; margin-bottom: 40px;">
   <h1 style="font-size: 2.5rem; margin-bottom: 10px;">GUYANA DAILY BRIEF</h1>
@@ -85,36 +54,99 @@ document.getElementById('beehiiv-subscribe-form').addEventListener('submit', asy
 
 <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
   
-  <h2 style="text-align: center; margin-bottom: 30px; color: #009E60;">📅 Today's Dueling Blogs</h2>
+  <!-- TODAY'S DUELING BLOGS - WITH CLEAR DATE -->
+  <div style="background: linear-gradient(135deg, #FFD700 0%, #009E60 100%); padding: 20px; border-radius: 15px; margin-bottom: 30px; text-align: center;">
+    <h2 style="color: white; margin: 0; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+      📅 Today's Dueling Blogs
+    </h2>
+    <p style="color: white; margin: 10px 0 0 0; font-size: 1.2rem; font-weight: bold;">
+      {{ now.Format "Monday, January 2, 2006" }}
+    </p>
+  </div>
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
     
-    <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
-      <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-        😊 GOVERNMENT SUPPORTER VIEW
+    <!-- DAILY LAUGH -->
+    <div style="border: 4px solid #ff6b6b; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #ff6b6b; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+        😂 DAILY LAUGH (Comedy Version)
       </div>
-      {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
-      {{ range first 1 (sort $proGovPosts "Date" "desc") }}
-      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
-      <p style="color: #666; font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ $dailyLaugh := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Laugh") }}
+      {{ range first 1 (sort $dailyLaugh "Date" "desc") }}
+      <div style="background: #fff5f5; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
+        <span style="color: #ff6b6b; font-weight: bold; font-size: 1rem;">📅 {{ .Date.Format "Monday, January 2, 2006" }}</span>
+      </div>
+      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #ff6b6b; text-decoration: none;">{{ .Title }}</a></h3>
       <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View →</a>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #ff6b6b; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Comedy Version →</a>
       {{ end }}
     </div>
     
-    <div style="border: 3px solid #2563eb; border-radius: 10px; padding: 25px; background: white;">
-      <div style="background: #2563eb; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-        🔍 OPPOSITION WATCH
+    <!-- UNCLE RAMESH RESPONSE -->
+    <div style="border: 4px solid #009E60; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #009E60; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+        📊 UNCLE RAMESH (The Facts)
       </div>
-      {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
-      {{ range first 1 (sort $criticalPosts "Date" "desc") }}
-      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #1e40af; text-decoration: none;">{{ .Title }}</a></h3>
-      <p style="color: #666; font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ $rameshResponse := where .Site.RegularPages "Params.categories" "intersect" (slice "Response") }}
+      {{ range first 1 (sort $rameshResponse "Date" "desc") }}
+      <div style="background: #e6f4ea; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
+        <span style="color: #009E60; font-weight: bold; font-size: 1rem;">📅 {{ .Date.Format "Monday, January 2, 2006" }}</span>
+      </div>
+      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a></h3>
       <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View →</a>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Fact Check →</a>
       {{ end }}
     </div>
     
+  </div>
+
+  <!-- DAILY BRIEF VS UNCLE RAMESH TAKES -->
+  <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
+    <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
+      🔥 The Daily Debate
+    </h2>
+    <p style="text-align: center; margin-bottom: 30px; color: #666; font-size: 1.1rem;">
+      Critical View vs. Pro-Government View
+    </p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+      
+      <!-- DAILY BRIEF (CRITICAL) -->
+      <div style="border: 3px solid #2563eb; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #2563eb; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+          🔍 DAILY BRIEF (Critical View)
+        </div>
+        {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
+        {{ range first 1 (sort $criticalPosts "Date" "desc") }}
+        <div style="background: #eff6ff; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
+          <span style="color: #2563eb; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #1e40af; text-decoration: none;">{{ .Title }}</a></h3>
+        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+        <p>{{ .Summary | truncate 150 }}</p>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View →</a>
+        {{ end }}
+      </div>
+      
+      <!-- UNCLE RAMESH TAKE -->
+      <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+          😊 UNCLE RAMESH (Pro-Gov View)
+        </div>
+        {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+        {{ $filteredProGov := where $proGovPosts "Params.categories" "not in" (slice "Response") }}
+        {{ range first 1 (sort $filteredProGov "Date" "desc") }}
+        <div style="background: #e6f4ea; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
+          <span style="color: #009E60; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
+        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+        <p>{{ .Summary | truncate 150 }}</p>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View →</a>
+        {{ end }}
+      </div>
+      
+    </div>
   </div>
 
   <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #009E60 100%); border-radius: 15px; padding: 35px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
@@ -216,25 +248,6 @@ document.getElementById('beehiiv-subscribe-form').addEventListener('submit', asy
     <div style="text-align: center; margin-top: 20px;">
       <a href="/categories/speedeet-wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All →</a>
     </div>
-  </div>
-
-  <div style="margin-bottom: 60px;">
-    <h2 style="border-bottom: 3px solid #ff6b6b; padding-bottom: 10px; margin-bottom: 30px; color: #009E60;">
-      😂 Daily Laugh
-      <a href="/categories/daily-laugh/" style="float: right; font-size: 1rem; color: #009E60; text-decoration: none;">View All →</a>
-    </h2>
-    
-    {{ $dailyLaugh := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Laugh") }}
-    {{ range first 1 (sort $dailyLaugh "Date" "desc") }}
-    <div style="background: #fff5f5; border-left: 5px solid #ff6b6b; padding: 20px; border-radius: 5px;">
-      <h3 style="margin-top: 0;">
-        <a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
-      </h3>
-      <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
-      <p>{{ .Summary }}</p>
-      <a href="{{ .RelPermalink }}" style="color: #ff6b6b; font-weight: bold; text-decoration: none;">Read →</a>
-    </div>
-    {{ end }}
   </div>
 
   <div style="margin-bottom: 60px; background: #f8f9fa; border-radius: 15px; padding: 30px; border: 2px solid #e9ecef;">
