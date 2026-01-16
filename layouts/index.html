@@ -183,7 +183,7 @@
     {{ $guyanaRisingPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Guyana Rising") }}
     {{ if gt (len $guyanaRisingPosts) 0 }}
     <div style="text-align: center; margin-top: 25px;">
-      <a href="/tags/national-pride/" style="display: inline-block; background: white; color: #009E60; padding: 12px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore All →</a>
+      <a href="/categories/guyana-rising/" style="display: inline-block; background: white; color: #009E60; padding: 12px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore All →</a>
     </div>
     {{ end }}
   </div>
@@ -276,4 +276,5 @@
 
 </div>
 {{ end }}
+
 
