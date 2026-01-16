@@ -110,60 +110,51 @@
     </div>
     {{ end }}
   </div>
-
-  <!-- YESTERDAYS BLOGS -->
-  <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
-    <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
-       Yesterday's Blogs
+  <!-- SPEEDEET & WILAR SECTION - FIXED BUTTON URL -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FCD116 0%, #ff9500 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 20px; color: #1a1a1a;">
+       Speedeet & Wilar
     </h2>
-    <p style="text-align: center; margin-bottom: 30px; color: #666; font-size: 1.1rem;">
-      What you might have missed
-    </p>
+    <p style="text-align: center; margin-bottom: 30px; color: #1a1a1a;">Two 12-year-olds getting into mischief!</p>
     
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-      
-      <!-- UNCLE RAMESH TAKE - ON LEFT IN RED -->
-      <div style="border: 3px solid #dc2626; border-radius: 10px; padding: 25px; background: white;">
-        <div style="background: #dc2626; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-           UNCLE RAMESH<br>(Pro-Gov View)
-        </div>
-        {{ $proGovPosts := where (where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh")) "Params.categories" "intersect" (slice "Opinion") }}
-        {{ $sortedProGov := sort $proGovPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedProGov) }}
-        <div style="background: #fee2e2; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
-          <span style="color: #dc2626; font-weight: bold;"> {{ .Date.Format "Jan 2, 2006" }}</span>
-        </div>
-        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
-        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
-        <p>{{ .Summary | truncate 150 }}</p>
-        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View </a>
-        {{ end }}
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+      {{ $speedeetPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
+      {{ range first 2 (sort $speedeetPosts "Date" "desc") }}
+      <div style="background: white; border-radius: 10px; padding: 20px;">
+        <h3 style="margin-top: 0;">
+          <a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
+        </h3>
+        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .RelPermalink }}" style="color: #ff9500; font-weight: bold; text-decoration: none;">Read </a>
       </div>
-      
-      <!-- DAILY BRIEF (CRITICAL) - ON RIGHT IN GREEN -->
-      <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
-        <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-           DAILY BRIEF<br>(Critical View)
-        </div>
-        {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
-        {{ $sortedCritical := sort $criticalPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedCritical) }}
-        <div style="background: #e6f4ea; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
-          <span style="color: #009E60; font-weight: bold;"> {{ .Date.Format "Jan 2, 2006" }}</span>
-        </div>
-        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
-        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
-        <p>{{ .Summary | truncate 150 }}</p>
-        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View </a>
-        {{ end }}
-      </div>
-      
+      {{ end }}
     </div>
     
-    <!-- View Last Week's Blogs Link -->
-    <div style="text-align: center; margin-top: 25px;">
-      <a href="/dueling/" style="display: inline-block; background: #f8f9fa; color: #009E60; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; border: 2px solid #009E60; transition: all 0.3s;"> View Last Week's Blogs </a>
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="/categories/speedeet--wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All </a>
     </div>
   </div>
-
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 20px; color: white;">
+       Weekly Progress Report
+    </h2>
+    <p style="text-align: center; margin-bottom: 30px; color: white;">Government achievements documented</p>
+    
+    {{ $progressPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Progress Report") }}
+    {{ if gt (len $progressPosts) 0 }}
+    {{ range first 1 (sort $progressPosts "Date" "desc") }}
+    <div style="background: white; border-radius: 10px; padding: 25px;">
+      <h3 style="margin-top: 0;">
+        <a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a>
+      </h3>
+      <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <p>{{ .Summary }}</p>
+      <a href="{{ .RelPermalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">View Report </a>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
   <!-- GUYANA RISING SECTION - FIXED BUTTON URL -->
   <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #009E60 100%); border-radius: 15px; padding: 35px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
     <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 2rem;">
@@ -222,54 +213,58 @@
     </div>
     {{ end }}
   </div>
-
-  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h2 style="text-align: center; margin-bottom: 20px; color: white;">
-       Weekly Progress Report
+  <!-- YESTERDAYS BLOGS -->
+  <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
+    <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
+       Yesterday's Blogs
     </h2>
-    <p style="text-align: center; margin-bottom: 30px; color: white;">Government achievements documented</p>
+    <p style="text-align: center; margin-bottom: 30px; color: #666; font-size: 1.1rem;">
+      What you might have missed
+    </p>
     
-    {{ $progressPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Progress Report") }}
-    {{ if gt (len $progressPosts) 0 }}
-    {{ range first 1 (sort $progressPosts "Date" "desc") }}
-    <div style="background: white; border-radius: 10px; padding: 25px;">
-      <h3 style="margin-top: 0;">
-        <a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a>
-      </h3>
-      <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
-      <p>{{ .Summary }}</p>
-      <a href="{{ .RelPermalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">View Report </a>
-    </div>
-    {{ end }}
-    {{ end }}
-  </div>
-
-  <!-- SPEEDEET & WILAR SECTION - FIXED BUTTON URL -->
-  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FCD116 0%, #ff9500 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h2 style="text-align: center; margin-bottom: 20px; color: #1a1a1a;">
-       Speedeet & Wilar
-    </h2>
-    <p style="text-align: center; margin-bottom: 30px; color: #1a1a1a;">Two 12-year-olds getting into mischief!</p>
-    
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-      {{ $speedeetPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
-      {{ range first 2 (sort $speedeetPosts "Date" "desc") }}
-      <div style="background: white; border-radius: 10px; padding: 20px;">
-        <h3 style="margin-top: 0;">
-          <a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
-        </h3>
-        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .RelPermalink }}" style="color: #ff9500; font-weight: bold; text-decoration: none;">Read </a>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+      
+      <!-- UNCLE RAMESH TAKE - ON LEFT IN RED -->
+      <div style="border: 3px solid #dc2626; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #dc2626; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+           UNCLE RAMESH<br>(Pro-Gov View)
+        </div>
+        {{ $proGovPosts := where (where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh")) "Params.categories" "intersect" (slice "Opinion") }}
+        {{ $sortedProGov := sort $proGovPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedProGov) }}
+        <div style="background: #fee2e2; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
+          <span style="color: #dc2626; font-weight: bold;"> {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+        <p>{{ .Summary | truncate 150 }}</p>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View </a>
+        {{ end }}
       </div>
-      {{ end }}
+      
+      <!-- DAILY BRIEF (CRITICAL) - ON RIGHT IN GREEN -->
+      <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+           DAILY BRIEF<br>(Critical View)
+        </div>
+        {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
+        {{ $sortedCritical := sort $criticalPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedCritical) }}
+        <div style="background: #e6f4ea; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
+          <span style="color: #009E60; font-weight: bold;"> {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
+        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+        <p>{{ .Summary | truncate 150 }}</p>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View </a>
+        {{ end }}
+      </div>
+      
     </div>
     
-    <div style="text-align: center; margin-top: 20px;">
-      <a href="/categories/speedeet--wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All </a>
+    <!-- View Last Week's Blogs Link -->
+    <div style="text-align: center; margin-top: 25px;">
+      <a href="/dueling/" style="display: inline-block; background: #f8f9fa; color: #009E60; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; border: 2px solid #009E60; transition: all 0.3s;"> View Last Week's Blogs </a>
     </div>
   </div>
-
   <div style="margin-bottom: 60px; background: #f8f9fa; border-radius: 15px; padding: 30px; border: 2px solid #e9ecef;">
     <h2 style="text-align: center; margin-bottom: 10px; color: #009E60;">
        Reader Comments
