@@ -124,6 +124,7 @@
     </div>
   </div>
 
+  <!-- GUYANA RISING - WITH CLICKABLE CARDS -->
   <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #009E60 100%); border-radius: 15px; padding: 35px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
     <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 2rem;">
       🇬🇾 GUYANA RISING
@@ -133,8 +134,8 @@
     </p>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+      <!-- THE GUYANESE HORIZON -->
       {{ $horizonPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "The Guyanese Horizon") }}
-      {{ if gt (len $horizonPosts) 0 }}
       {{ range first 1 (sort $horizonPosts "Date" "desc") }}
       <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
         <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">🌅 THE GUYANESE HORIZON</div>
@@ -146,15 +147,9 @@
         <a href="{{ .RelPermalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">Read Feature →</a>
       </div>
       {{ end }}
-      {{ else }}
-      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
-        <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">🌅 THE GUYANESE HORIZON</div>
-        <p style="color: #666;">Monthly feature coming soon!</p>
-      </div>
-      {{ end }}
       
+      <!-- PATRIOTS' PORTFOLIO -->
       {{ $patriotsPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots Portfolio") }}
-      {{ if gt (len $patriotsPosts) 0 }}
       {{ range first 1 (sort $patriotsPosts "Date" "desc") }}
       <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
         <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">👤 PATRIOTS' PORTFOLIO</div>
@@ -164,12 +159,6 @@
         <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
         <p>{{ .Summary | truncate 120 }}</p>
         <a href="{{ .RelPermalink }}" style="color: #FFA500; font-weight: bold; text-decoration: none;">Read Profile →</a>
-      </div>
-      {{ end }}
-      {{ else }}
-      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
-        <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">👤 PATRIOTS' PORTFOLIO</div>
-        <p style="color: #666;">Weekly profile coming soon!</p>
       </div>
       {{ end }}
     </div>
