@@ -76,13 +76,13 @@
     
   </div>
 
-  <!-- DAILY DEBATE -->
+  <!-- YESTERDAYS BLOGS -->
   <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
     <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
-      🔥 The Daily Debate
+      📰 Yesterday's Blogs
     </h2>
     <p style="text-align: center; margin-bottom: 30px; color: #666; font-size: 1.1rem;">
-      Pro-Government View vs. Critical View
+      What you might have missed
     </p>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
@@ -93,7 +93,7 @@
           😊 UNCLE RAMESH (Pro-Gov View)
         </div>
         {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
-        {{ range first 1 (sort $proGovPosts "Date" "desc") }}
+        {{ $sortedProGov := sort $proGovPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedProGov) }}
         <div style="background: #fee2e2; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
           <span style="color: #dc2626; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
@@ -110,7 +110,7 @@
           🔍 DAILY BRIEF (Critical View)
         </div>
         {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
-        {{ range first 1 (sort $criticalPosts "Date" "desc") }}
+        {{ $sortedCritical := sort $criticalPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedCritical) }}
         <div style="background: #e6f4ea; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
           <span style="color: #009E60; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
@@ -121,6 +121,11 @@
         {{ end }}
       </div>
       
+    </div>
+    
+    <!-- View Last Week's Blogs Link -->
+    <div style="text-align: center; margin-top: 25px;">
+      <a href="/posts/" style="display: inline-block; background: #f8f9fa; color: #009E60; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; border: 2px solid #009E60; transition: all 0.3s;">📅 View Last Week's Blogs →</a>
     </div>
   </div>
 
