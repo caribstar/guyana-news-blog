@@ -1,0 +1,210 @@
+﻿{{- define "main" }}
+
+<style>
+.dueling-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+    margin: 40px 0;
+    max-width: 1200px;
+}
+
+.primary-feature {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.primary-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.primary-feature img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.primary-feature-content {
+    padding: 30px;
+}
+
+.primary-feature h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    color: #1a1a1a;
+}
+
+.primary-feature .excerpt {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.secondary-features {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.secondary-feature {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.secondary-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.secondary-feature img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.secondary-feature-content {
+    padding: 20px;
+}
+
+.secondary-feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    color: #1a1a1a;
+}
+
+.secondary-feature .excerpt {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #009E60 0%, #FCD116 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.read-more:hover {
+    opacity: 0.9;
+}
+
+.magazine-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.magazine-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    .dueling-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .primary-feature img {
+        height: 250px;
+    }
+    
+    .primary-feature h2 {
+        font-size: 1.8rem;
+    }
+    
+    .secondary-feature img {
+        height: 180px;
+    }
+}
+</style>
+
+<header class="page-header">
+    <h1>📰 Magazine Features</h1>
+    <p style="font-size: 1.1rem; color: #666; margin-top: 10px;">In-depth analysis and investigative features on Guyana's biggest stories</p>
+</header>
+
+{{- $magazinePosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Magazine") }}
+{{- if not $magazinePosts }}
+    {{- $magazinePosts = where .Site.RegularPages "Params.tags" "intersect" (slice "magazine-feature") }}
+{{- end }}
+
+{{- if not $magazinePosts }}
+    {{- $magazinePosts = first 10 .Site.RegularPages }}
+    <div style="background: #fff3cd; padding: 15px; border-radius: 5px; margin-bottom: 20px; border-left: 4px solid #ffc107;">
+        <strong>Note:</strong> No posts marked as 'Magazine' found. Showing recent posts instead.
+    </div>
+{{- end }}
+
+<div class="dueling-container">
+    <div class="primary-feature">
+        {{- $primaryPost := index $magazinePosts 0 }}
+        {{- with $primaryPost }}
+        {{- $image := .Params.cover.image | default .Params.image | default "/images/default-magazine.jpg" }}
+        <img src="{{ $image }}" alt="{{ .Title }}">
+        <div class="primary-feature-content">
+            <div class="magazine-meta">
+                <span>📅 {{ .Date.Format "January 2, 2006" }}</span>
+                <span>⏱️ {{ .ReadingTime }} min read</span>
+            </div>
+            <h2><a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a></h2>
+            <p class="excerpt">{{ .Summary | truncate 250 }}</p>
+            <a href="{{ .Permalink }}" class="read-more">Read Full Feature →</a>
+        </div>
+        {{- end }}
+    </div>
+
+    <div class="secondary-features">
+        {{- range after 1 (first 3 $magazinePosts) }}
+        <div class="secondary-feature">
+            {{- $image := .Params.cover.image | default .Params.image | default "/images/default-magazine.jpg" }}
+            <img src="{{ $image }}" alt="{{ .Title }}">
+            <div class="secondary-feature-content">
+                <div class="magazine-meta">
+                    <span>📅 {{ .Date.Format "Jan 2" }}</span>
+                    <span>⏱️ {{ .ReadingTime }} min</span>
+                </div>
+                <h3><a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a></h3>
+                <p class="excerpt">{{ .Summary | truncate 150 }}</p>
+                <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+            </div>
+        </div>
+        {{- end }}
+    </div>
+</div>
+
+{{- if gt (len $magazinePosts) 3 }}
+<div style="margin-top: 60px; padding-top: 40px; border-top: 2px solid #eee;">
+    <h2 style="margin-bottom: 30px;">📚 Magazine Archives</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+        {{- range after 3 $magazinePosts }}
+        <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <h4 style="margin-bottom: 10px;"><a href="{{ .Permalink }}" style="text-decoration: none; color: #1a1a1a;">{{ .Title }}</a></h4>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 10px;">{{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read</p>
+            <p style="font-size: 0.95rem; color: #555;">{{ .Summary | truncate 100 }}</p>
+        </div>
+        {{- end }}
+    </div>
+</div>
+{{- end }}
+
+{{- end }}
