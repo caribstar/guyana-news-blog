@@ -1,7 +1,7 @@
 ﻿---
 title: "De Rumor Mill: Wha People Talkin' Bout Dis Week"
 date: 2026-01-15
-author: "Aunty Patsy"
+author: "Bam-Bam Sally"
 categories: ["The Rumor Mill"]
 tags: ["gossip", "rumors", "community-talk"]
 description: "Eh-eh! Leh we see wha whispers floatin' 'round Guyana dis week. Remember, we nah vouch fuh none ah dis â€” is jus wha people seh!"
@@ -13,7 +13,7 @@ description: "Eh-eh! Leh we see wha whispers floatin' 'round Guyana dis week. Re
 
 ## Eh-Eh! Leh We See Wha Goin' On...
 
-Ow me darlin' readers! Is yuh girl Aunty Patsy back again wid anodda edition of De Rumor Mill. Chile, dis week de talk sweet like cane juice and de whispers loud like market day at Stabroek. So pull up yuh chair, get yuh mauby, and leh we dig in!
+Ow me darlin' readers! Is yuh girl Bam-Bam Sally back again wid anodda edition of De Rumor Mill. Chile, dis week de talk sweet like cane juice and de whispers loud like market day at Stabroek. So pull up yuh chair, get yuh mauby, and leh we dig in!
 
 ### De "Mystery Mansion" in Pradoville 3... Err, Silica City
 
@@ -65,7 +65,7 @@ One worker claim he get fire when he raise concerns. Another say a whole section
 
 ---
 
-## Aunty Patsy Final Word
+## Bam-Bam Sally Final Word
 
 Look, me dear readers, I does jus report what I hearin'. Some ah dis might be true, some might be complete nonsense dat people make up because dey bored. Dat's de nature of de rumor mill â€” it grind everything, true or false.
 
@@ -74,9 +74,10 @@ If you got a rumor yuh want share, keep it to yuhself... just kidding! Drop it i
 Until den, stay safe, mind yuh business (but keep yuh ears open), and remember â€” in Guyana, de walls got ears, de trees got eyes, and everybody cousin know everybody else business!
 
 *One love,*  
-*Aunty Patsy* 
+*Bam-Bam Sally* 
 
 ---
 
 *De Rumor Mill runs every Wednesday. De views expressed in dis column are purely satirical and for entertainment purposes. We do not vouch for de accuracy of any rumors reported. If yuh recognize yuhself in any story, dat's between you and yuh conscience!*
+
 
