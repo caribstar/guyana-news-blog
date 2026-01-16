@@ -30,7 +30,7 @@
 
 <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
   
-  <!-- TODAY'S DUELING BLOGS - FIXED DATE & SWAPPED POSITIONS -->
+  <!-- TODAY'S DUELING BLOGS -->
   <div style="background: linear-gradient(135deg, #FFD700 0%, #009E60 100%); padding: 20px; border-radius: 15px; margin-bottom: 30px; text-align: center;">
     <h2 style="color: white; margin: 0; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
       📅 Today's Dueling Blogs
@@ -42,7 +42,7 @@
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
     
-    <!-- UNCLE RAMESH RESPONSE - NOW ON LEFT IN RED -->
+    <!-- UNCLE RAMESH RESPONSE - ON LEFT IN RED -->
     <div style="border: 4px solid #dc2626; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <div style="background: #dc2626; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
         😊 UNCLE RAMESH (Pro-Gov View)
@@ -58,7 +58,7 @@
       {{ end }}
     </div>
     
-    <!-- DAILY LAUGH - NOW ON RIGHT IN GREEN -->
+    <!-- DAILY LAUGH - ON RIGHT IN GREEN -->
     <div style="border: 4px solid #009E60; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <div style="background: #009E60; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
         😂 DAILY LAUGH (Comedy Version)
@@ -124,7 +124,7 @@
     </div>
   </div>
 
-  <!-- GUYANA RISING - WITH CLICKABLE CARDS -->
+  <!-- GUYANA RISING SECTION - WILL WORK AFTER POSTS ARE PUBLISHED -->
   <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #009E60 100%); border-radius: 15px; padding: 35px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
     <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 2rem;">
       🇬🇾 GUYANA RISING
@@ -134,8 +134,8 @@
     </p>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
-      <!-- THE GUYANESE HORIZON -->
       {{ $horizonPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "The Guyanese Horizon") }}
+      {{ if gt (len $horizonPosts) 0 }}
       {{ range first 1 (sort $horizonPosts "Date" "desc") }}
       <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
         <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">🌅 THE GUYANESE HORIZON</div>
@@ -147,9 +147,15 @@
         <a href="{{ .RelPermalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">Read Feature →</a>
       </div>
       {{ end }}
+      {{ else }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
+        <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">🌅 THE GUYANESE HORIZON</div>
+        <p style="color: #666;">Monthly feature coming soon!</p>
+      </div>
+      {{ end }}
       
-      <!-- PATRIOTS' PORTFOLIO -->
       {{ $patriotsPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots Portfolio") }}
+      {{ if gt (len $patriotsPosts) 0 }}
       {{ range first 1 (sort $patriotsPosts "Date" "desc") }}
       <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
         <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">👤 PATRIOTS' PORTFOLIO</div>
@@ -161,11 +167,20 @@
         <a href="{{ .RelPermalink }}" style="color: #FFA500; font-weight: bold; text-decoration: none;">Read Profile →</a>
       </div>
       {{ end }}
+      {{ else }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
+        <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">👤 PATRIOTS' PORTFOLIO</div>
+        <p style="color: #666;">Weekly profile coming soon!</p>
+      </div>
+      {{ end }}
     </div>
     
+    {{ $guyanaRisingPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Guyana Rising") }}
+    {{ if gt (len $guyanaRisingPosts) 0 }}
     <div style="text-align: center; margin-top: 25px;">
-      <a href="/categories/guyana-rising/" style="display: inline-block; background: white; color: #009E60; padding: 12px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore All →</a>
+      <a href="/tags/national-pride/" style="display: inline-block; background: white; color: #009E60; padding: 12px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore All →</a>
     </div>
+    {{ end }}
   </div>
 
   <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
@@ -210,7 +225,7 @@
     </div>
     
     <div style="text-align: center; margin-top: 20px;">
-      <a href="/categories/speedeet-wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All →</a>
+      <a href="/categories/speedeet--wilar/" style="display: inline-block; background: #1a1a1a; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">View All →</a>
     </div>
   </div>
 
