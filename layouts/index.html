@@ -159,7 +159,7 @@
       </div>
       {{ end }}
       
-      {{ $patriotsPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots Portfolio") }}
+      {{ $patriotsPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots' Portfolio") }}
       {{ if gt (len $patriotsPosts) 0 }}
       {{ range first 1 (sort $patriotsPosts "Date" "desc") }}
       <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
@@ -276,3 +276,4 @@
 
 </div>
 {{ end }}
+
