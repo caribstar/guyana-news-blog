@@ -9,7 +9,7 @@
   {{ end }}
 
   <div class="posts-list">
-    {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "posts")) 20 }}
+    {{- $paginator := .Paginate .Pages 20 }}
     {{- range $paginator.Pages }}
     <div class="post" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
       <h2 class="post-title">
@@ -48,3 +48,4 @@
 
 </div>
 {{ end }}
+
