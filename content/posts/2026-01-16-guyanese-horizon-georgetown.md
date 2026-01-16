@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The New Georgetown: How Guyana's Capital is Transforming"
 date: 2026-01-16T09:00:00-04:00
 draft: false

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dr. Sharmila Persaud: From Berbice to Brain Surgery"
 date: 2026-01-16T10:00:00-04:00
 draft: false
