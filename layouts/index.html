@@ -92,7 +92,7 @@
         <div style="background: #dc2626; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
           😊 UNCLE RAMESH (Pro-Gov View)
         </div>
-        {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+        {{ $proGovPosts := where (where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh")) "Params.categories" "intersect" (slice "Opinion") }}
         {{ $sortedProGov := sort $proGovPosts "Date" "desc" }}{{ range first 1 (after 1 $sortedProGov) }}
         <div style="background: #fee2e2; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
           <span style="color: #dc2626; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
