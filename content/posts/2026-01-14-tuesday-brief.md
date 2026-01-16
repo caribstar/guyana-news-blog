@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tuesday's Guyana Brief: Apps, Laws, and Courtroom Drama"
 date: 2026-01-14
 draft: false
@@ -7,7 +7,7 @@ tags: ["Guyana", "News", "Satire", "Judiciary Drama", "Government Apps", "Infras
 summary: "Attorney General scolds magistrates for ignoring laws, government promises 87 new apps, and President Ali discovers swamps can become highways (who knew?). Welcome to Tuesday in paradise!"
 ---
 
-# 🇬🇾 THE GUYANA BRIEF 🇬🇾
+# E GUYANA BRIEF 
 
 **Your 5-Minute Guyana News Circus**
 
@@ -15,7 +15,7 @@ summary: "Attorney General scolds magistrates for ignoring laws, government prom
 
 ---
 
-Good morning, Guyana! ☕
+Good morning, Guyana! â˜•
 
 Welcome to Tuesday, where the government launches more apps than Apple, lawyers discover laws actually exist, and we're still debating whether white elephants make good pets.
 
@@ -23,7 +23,7 @@ Grab your coffee. You're gonna need it.
 
 ---
 
-## 📊 TODAY'S NUMBERS
+## S NUMBERS
 
 **New Government Apps Announced:** 4 (this week)  
 **Laws Magistrates Are Ignoring:** "Several" (AG's words, not ours)  
@@ -33,13 +33,13 @@ Grab your coffee. You're gonna need it.
 
 ---
 
-## 🏛️ THE GREAT LAW YEAR OPENING SPECTACULAR
+##  GREAT LAW YEAR OPENING SPECTACULAR
 
 **Or: When Everyone Remembers Laws Exist**
 
 Monday was the grand opening of Law Year 2026, and boy, did the legal eagles have THOUGHTS.
 
-**Attorney General Anil Nandlall** showed up with receipts, pointing out that magistrates have been treating certain laws like terms and conditions—everyone knows they exist, nobody actually reads them.
+**Attorney General Anil Nandlall** showed up with receipts, pointing out that magistrates have been treating certain laws like terms and conditionsâ€”everyone knows they exist, nobody actually reads them.
 
 "The plea-bargaining legislation *mandates* offering it to defendants," he reminded everyone, probably while dramatically pointing at the actual law book.
 
@@ -59,7 +59,7 @@ The Bar Association President called for "urgent judicial overhaul," which in go
 
 ---
 
-## 📱 APP-OCALYPSE NOW
+## ALYPSE NOW
 
 **Or: There's An App For That (Whether You Want It Or Not)**
 
@@ -80,15 +80,15 @@ Minister Priya Manickchand promises NDCs will handle most complaints through the
 **The Vision:** "First-world digital standards"  
 **The Reality:** Have you tried using government WiFi?
 
-**Pro Tip:** When the app inevitably crashes, just do what Guyanese always do—call your cousin who knows someone who works there.
+**Pro Tip:** When the app inevitably crashes, just do what Guyanese always doâ€”call your cousin who knows someone who works there.
 
 ---
 
-## 🚧 SWAMPS TO HIGHWAYS: A GUYANESE MIRACLE
+##  TO HIGHWAYS: A GUYANESE MIRACLE
 
 **President Ali Discovers Ancient Engineering Secret**
 
-Breaking news: President Irfaan Ali visited Buzz Bee Dam and made a groundbreaking announcement—swamp land can become roads!
+Breaking news: President Irfaan Ali visited Buzz Bee Dam and made a groundbreaking announcementâ€”swamp land can become roads!
 
 "What you're seeing here is a full understanding of development and urban planning," he declared, gesturing at drainage structures as if he'd personally invented the concept of draining swamps.
 
@@ -102,14 +102,14 @@ The Linden to Mabura Hill road is 62% complete! Remember when it was supposed to
 
 ---
 
-## 🏢 THE GAS-TO-ENERGY WHITE ELEPHANT WATCH
+## S-TO-ENERGY WHITE ELEPHANT WATCH
 
 **Or: Should We Have Gone Solar?**
 
 Kaieteur News dropped a bombshell editorial asking if we're building "another white elephant."
 
 **The Math:**
-- Linden solar farm: US$22.58M for 15MW (≈US$1.5M per MW)
+- Linden solar farm: US$22.58M for 15MW (â‰ˆUS$1.5M per MW)
 - Hypothetical 300MW solar farm: US$360M
 - Gas-to-Energy plant: [redacted because government won't tell us]
 
@@ -122,13 +122,13 @@ So... why are we building a gas plant when solar is cheaper, cleaner, and doesn'
 
 **Government Response:** *crickets*
 
-But hey, we have natural gas, so we MUST use it! It's like buying a second car because you have extra garage space—technically logical, economically questionable.
+But hey, we have natural gas, so we MUST use it! It's like buying a second car because you have extra garage spaceâ€”technically logical, economically questionable.
 
 **Pro Tip:** Don't ask uncomfortable questions about billion-dollar energy decisions. Just trust the process. It worked great for the Skeldon Sugar Factory!
 
 ---
 
-## 📈 CENSUS SHOCKER: PEOPLE ACTUALLY LIVE HERE
+##  SHOCKER: PEOPLE ACTUALLY LIVE HERE
 
 **Population: 878,674 (More Than We Thought!)**
 
@@ -151,7 +151,7 @@ But sure, let's credit "government policy" for human reproduction rates.
 
 ---
 
-## ⚖️ MOHAMEDS UPDATE: STILL HERE, STILL FIGHTING
+## âš–ï¸ MOHAMEDS UPDATE: STILL HERE, STILL FIGHTING
 
 The arrest warrants for BM Soat employees were withdrawn when they showed up to court.
 
@@ -161,7 +161,7 @@ The tax avoidance saga continues, but hey, at least nobody's fleeing the country
 
 ---
 
-## 🏃‍♀️ SPORTS CORNER
+## ¸ SPORTS CORNER
 
 **Guyana Women's Cricket Team:** Won against Windward Islands by 7 runs in dramatic fashion! Actual good news! No satire needed!
 
@@ -169,9 +169,9 @@ They defended a modest 96 runs by taking 3 wickets in the final overs. Sometimes
 
 ---
 
-## 🎯 FINAL THOUGHTS
+## THOUGHTS
 
-Today's theme: **Everyone's Trying Really Hard (™)**
+Today's theme: **Everyone's Trying Really Hard (â„¢)**
 
 - Lawyers discovered laws exist
 - Government discovered apps exist  
@@ -184,7 +184,7 @@ But at least we have 4 new apps coming! Sure, they might crash, but they'll cras
 
 ---
 
-## 📬 SUBSCRIBE
+## IBE
 
 Want this circus delivered daily? [Subscribe here](#)
 
@@ -197,3 +197,4 @@ Until tomorrow, when we'll discover what else everyone forgot existed.
 ---
 
 **Tags:** #Guyana #News #Satire #LawYear #GovernmentApps #Infrastructure #WhiteElephants #CensusResults
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: The Brief Discovers Math But Still Can't Add!"
 date: 2026-01-10T14:00:00-04:00
 draft: false
@@ -6,7 +6,7 @@ categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
 ---
 
-# 👴🏾 UNCLE RAMESH'S HOT TAKE
+# CLE RAMESH'S HOT TAKE
 
 **Saturday, January 10, 2026**
 
@@ -24,7 +24,7 @@ Let Uncle Ramesh show this youngin' how numbers ACTUALLY work.
 
 ---
 
-## ⚡ 69,000 VOLTS: THE BRIEF FINALLY GOT ONE RIGHT
+## âš¡ 69,000 VOLTS: THE BRIEF FINALLY GOT ONE RIGHT
 
 The Brief says: *"Contractor almost killed himself"*
 
@@ -32,7 +32,7 @@ The Brief says: *"Contractor almost killed himself"*
 
 For ONCE, The Brief not making jokes! They treating this like the CRISIS it is!
 
-**Uncle Ramesh Approves:** ✓
+**Uncle Ramesh Approves:** âœ“
 
 No mocking, no clever headlines, just straight reporting that contractor almost got VAPORIZED.
 
@@ -42,11 +42,11 @@ More of THIS, less of "Storage Unit Edition" nonsense!
 
 ---
 
-## 🎭 MOHAMEDS "PLAYING VICTIM": BRIEF HALF RIGHT
+## DS "PLAYING VICTIM": BRIEF HALF RIGHT
 
 The Brief says: *"They're playing the victim card"*
 
-**Uncle Ramesh says:** Yes, BUT—
+**Uncle Ramesh says:** Yes, BUTâ€”
 
 Here's what The Brief MISSING:
 
@@ -65,7 +65,7 @@ The Brief only focus on #1. Where the outrage about #2 and #3?
 
 ---
 
-## 📊 CRIME STATS: THE BRIEF DISCOVERS PERCENTAGES!
+## STATS: THE BRIEF DISCOVERS PERCENTAGES!
 
 The Brief says: *"Murders up, but crime is down!"*
 
@@ -102,7 +102,7 @@ BOTH true! Overall serious crimes down 25.5%! Murders up 11%! These BOTH facts!
 
 ---
 
-## 🏠 40,000 HOUSES: THE BRIEF CAN'T DO MATH
+##  HOUSES: THE BRIEF CAN'T DO MATH
 
 The Brief says: *"36.5 houses per day required!"*
 
@@ -111,7 +111,7 @@ The Brief says: *"36.5 houses per day required!"*
 ### **Let Uncle Ramesh School You:**
 
 **The Brief's Math:**
-40,000 houses ÷ 3 years ÷ 365 days = 36.5 per day
+40,000 houses Ã· 3 years Ã· 365 days = 36.5 per day
 
 **Sounds Impossible!**
 
@@ -120,7 +120,7 @@ The Brief says: *"36.5 houses per day required!"*
 If you have 100 CONTRACTORS working on 10 houses EACH simultaneously, that's 1,000 houses being built AT THE SAME TIME!
 
 **Construction Math:**
-- 40 houses × 25 contractors = 1,000 houses in construction
+- 40 houses Ã— 25 contractors = 1,000 houses in construction
 - Each take 3 months to complete
 - = 4,000 houses per YEAR possible
 - = 12,000 in 3 years
@@ -134,7 +134,7 @@ Not "can they build 37/day" but "do they have enough contractors, materials, and
 
 ---
 
-## 💡 ELECTRICITY PROMISE: BRIEF ACTUALLY RIGHT
+## ICITY PROMISE: BRIEF ACTUALLY RIGHT
 
 The Brief says: *"Still waiting for 'no blackouts'"*
 
@@ -142,7 +142,7 @@ The Brief says: *"Still waiting for 'no blackouts'"*
 
 They promised "no more blackouts by end of 2024." It's 2026. Still getting blackouts.
 
-**Uncle Ramesh Agrees:** ✓
+**Uncle Ramesh Agrees:** âœ“
 
 This is BROKEN promise. Government need to answer for this.
 
@@ -150,7 +150,7 @@ See? When The Brief is RIGHT, Uncle Ramesh SAYS SO!
 
 ---
 
-## 🤷 OPPOSITION MISSING: THE BRIEF WRONG AGAIN
+## TION MISSING: THE BRIEF WRONG AGAIN
 
 The Brief says: *"Where is the opposition?"*
 
@@ -172,7 +172,7 @@ Parliament can't convene until Mohamed case resolves. That's DIFFERENT from "opp
 
 ---
 
-## ✈️ AISHALTON AIRSTRIP: BRIEF FINALLY SAYS SOMETHING NICE
+## âœˆï¸ AISHALTON AIRSTRIP: BRIEF FINALLY SAYS SOMETHING NICE
 
 The Brief says: *"Actually good news! Project working!"*
 
@@ -184,7 +184,7 @@ See what happens when The Brief not being cynical? They can actually ACKNOWLEDGE
 
 ---
 
-## 🎬 TOURISM: THE BRIEF STILL MISSING THE POINT
+## M: THE BRIEF STILL MISSING THE POINT
 
 **On Vloggers:**
 
@@ -202,7 +202,7 @@ That's not journalism! That's POVERTY PORN for YouTube money!
 
 ---
 
-## 💭 WHAT THE BRIEF REALLY MISSED
+## HE BRIEF REALLY MISSED
 
 ### **1. The Mohamed System Failure:**
 Not just "they're playing victim" - the SYSTEM letting them!
@@ -218,18 +218,18 @@ They THERE! Brief just not paying attention!
 
 ---
 
-## 🎯 UNCLE RAMESH'S COUNTER-BRIEF
+## RAMESH'S COUNTER-BRIEF
 
 **What We ACTUALLY Learned Saturday:**
 
-1. ✅ Contractor safety serious issue (Brief got this!)
-2. ⚠️ Mohameds gaming system (but system broken too!)
-3. ⚠️ Crime stats complex (both up AND down!)
-4. ❌ Housing math WRONG (Brief can't calculate construction!)
-5. ✅ Electricity promises broken (Brief correct!)
-6. ❌ Opposition not missing (Brief not looking!)
-7. ✅ Aishalton good news (Brief finally positive!)
-8. ❌ Vlogger take still wrong!
+1. âœ… Contractor safety serious issue (Brief got this!)
+2. âš ï¸ Mohameds gaming system (but system broken too!)
+3. âš ï¸ Crime stats complex (both up AND down!)
+4. âŒ Housing math WRONG (Brief can't calculate construction!)
+5. âœ… Electricity promises broken (Brief correct!)
+6. âŒ Opposition not missing (Brief not looking!)
+7. âœ… Aishalton good news (Brief finally positive!)
+8. âŒ Vlogger take still wrong!
 
 **Score:** Brief got 3 out of 8 right. **That's 37.5%!**
 
@@ -237,20 +237,20 @@ Even THAT math better than their housing calculation!
 
 ---
 
-## 📱 FINAL WORD FROM QUEENS
+## WORD FROM QUEENS
 
 This youngin' learning! Slowly! But learning!
 
 **They Got Better At:**
-- Taking contractor safety seriously ✓
-- Acknowledging Aishalton success ✓  
-- Calling out broken electricity promises ✓
+- Taking contractor safety seriously âœ“
+- Acknowledging Aishalton success âœ“  
+- Calling out broken electricity promises âœ“
 
 **They Still Bad At:**
-- Understanding statistics ✗
-- Calculating construction ✗
-- Finding the opposition ✗
-- Balanced vlogger takes ✗
+- Understanding statistics âœ—
+- Calculating construction âœ—
+- Finding the opposition âœ—
+- Balanced vlogger takes âœ—
 
 **Progress!** Small, but progress!
 
@@ -288,20 +288,21 @@ Context MATTERS! Stop defending poverty porn!
 
 **Stay BALANCED. Stay INFORMED. And for God's sake, learn how CONSTRUCTION WORKS before you calculate!**
 
-*— Uncle Ramesh*  
+*â€” Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know 37 houses/day ain't how building works*
 
 ---
 
-⏱️ **Uncle Ramesh Talk Time:** 6 minutes  
-☕ **Coffee consumed:** 2 cups  
-🔢 **Times I corrected The Brief's math:** 3  
-📊 **Brief's Accuracy Score:** 37.5% (failing grade!)  
-🇬🇾 **Still reading:** Yes (somebody gotta!)
+â±ï¸ **Uncle Ramesh Talk Time:** 6 minutes  
+â˜• **Coffee consumed:** 2 cups  
+s I corrected The Brief's math:** 3  
+f's Accuracy Score:** 37.5% (failing grade!)  
+Still reading:** Yes (somebody gotta!)
 
 ---
 
-*👴🏾 Uncle Ramesh: Teaching The Brief math since 2026!*
+*cle Ramesh: Teaching The Brief math since 2026!*
 
 *Share this if you know construction math different from division!*
+

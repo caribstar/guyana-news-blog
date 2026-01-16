@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: So NOW The Brief Worries About Deportations? Where Was You Before?"
 date: 2026-01-09T14:00:00-04:00
 draft: false
@@ -6,7 +6,7 @@ categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
 ---
 
-# 👴🏾 UNCLE RAMESH'S HOT TAKE
+# CLE RAMESH'S HOT TAKE
 
 **Friday, January 9, 2026**
 
@@ -24,7 +24,7 @@ Let Uncle Ramesh break down why The Brief got it HALF right and HALF wrong (as u
 
 ---
 
-## 📦 "STORAGE UNIT" - CUTE HEADLINE, WRONG TAKE
+## GE UNIT" - CUTE HEADLINE, WRONG TAKE
 
 The Brief says: *"Guyana volunteers as America's storage unit"*
 
@@ -42,7 +42,7 @@ Trump want to formalize what already happening! That's it! That's the story!
 
 ---
 
-## 🤔 THE OPPOSITION'S FAKE OUTRAGE
+## POSITION'S FAKE OUTRAGE
 
 The Brief says: *"WIN and Forward Guyana are furious"*
 
@@ -62,7 +62,7 @@ If THEY was in government doing this, The Brief and opposition would be DEFENDIN
 
 ---
 
-## 🇻🇪 VENEZUELA DRAMA: THE BRIEF FINALLY CATCHING UP
+## NEZUELA DRAMA: THE BRIEF FINALLY CATCHING UP
 
 The Brief says: *"Ali supports regional security efforts"*
 
@@ -80,7 +80,7 @@ But no, The Brief wanna make jokes instead of understanding GEOPOLITICS!
 
 ---
 
-## ⚖️ THE MOHAMEDS: WE AGREE AGAIN (SHOCKING!)
+## âš–ï¸ THE MOHAMEDS: WE AGREE AGAIN (SHOCKING!)
 
 Okay, fine. The Brief got THIS right. The Mohameds turning appeals into a CAREER.
 
@@ -91,7 +91,7 @@ Fix the SYSTEM, not just complain about the Mohameds using it!
 
 ---
 
-## 🌉 HIGH STREET BRIDGE: THE BRIEF MISSING THE POINT (AGAIN)
+## TREET BRIDGE: THE BRIEF MISSING THE POINT (AGAIN)
 
 The Brief says: *"Bridge cracked and sinking"*
 
@@ -109,7 +109,7 @@ No analysis. No context. Just jokes.
 
 ---
 
-## 🎓 18 SCHOOLS: THE BRIEF BEING CYNICAL FOR NO REASON
+## OOLS: THE BRIEF BEING CYNICAL FOR NO REASON
 
 The Brief says: *"Election year special!"*
 
@@ -128,7 +128,7 @@ So when they SUPPOSED to do it?! **MAKE IT MAKE SENSE!**
 
 ---
 
-## 🔍 GRA CONSPIRACY: FINALLY THE BRIEF GETS SERIOUS
+## NSPIRACY: FINALLY THE BRIEF GETS SERIOUS
 
 The Brief says: *"Tax collectors helping people avoid taxes"*
 
@@ -149,7 +149,7 @@ PRIORITIES, youngin'! PRIORITIES!
 
 ---
 
-## 🎬 VLOGGER DRAMA: THE BRIEF WRONG ON BOTH
+## R DRAMA: THE BRIEF WRONG ON BOTH
 
 **Incident #1 - French Vlogger:**
 
@@ -181,7 +181,7 @@ That's not journalism! That's HIT PIECE!
 
 ---
 
-## 💭 WHAT THE BRIEF REALLY MISSED
+## HE BRIEF REALLY MISSED
 
 Let Uncle Ramesh tell you what The Brief IGNORED:
 
@@ -206,21 +206,21 @@ Where they was when Coalition government made backroom deals? SILENT!
 
 ---
 
-## 🎯 UNCLE RAMESH'S COUNTER-BRIEF
+## RAMESH'S COUNTER-BRIEF
 
 **What We ACTUALLY Learned Friday:**
 
-1. ⚠️ Third-country nationals thing NOT new (Brief missed this)
-2. ✅ Opposition being hypocritical (we agree!)
-3. ⚠️ Mohameds still appealing (system broken, not just them)
-4. ⚠️ High Street Bridge OLD, not new failure (context!)
-5. ⚠️ 18 schools good news, stop being cynical!
-6. ✅ GRA corruption serious (finally!)
-7. ⚠️ Vloggers got mixed response (not black/white!)
+1. âš ï¸ Third-country nationals thing NOT new (Brief missed this)
+2. âœ… Opposition being hypocritical (we agree!)
+3. âš ï¸ Mohameds still appealing (system broken, not just them)
+4. âš ï¸ High Street Bridge OLD, not new failure (context!)
+5. âš ï¸ 18 schools good news, stop being cynical!
+6. âœ… GRA corruption serious (finally!)
+7. âš ï¸ Vloggers got mixed response (not black/white!)
 
 ---
 
-## 📱 FINAL WORD FROM QUEENS
+## WORD FROM QUEENS
 
 This youngin' write clever headlines but miss the SUBSTANCE!
 
@@ -255,20 +255,21 @@ CONTEXT matters! Both sides got points!
 
 **Stay INFORMED. Stay BALANCED. Stop with the clever headlines and DO THE WORK!**
 
-*— Uncle Ramesh*  
+*â€” Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we understand that "storage unit" jokes ain't analysis*
 
 ---
 
-⏱️ **Uncle Ramesh Talk Time:** 5 minutes  
-☕ **Coffee consumed:** 2 cups (spilled some laughing at "storage unit")  
-📊 **Times I disagreed with The Brief:** 6 out of 8 stories  
-🤨 **Eye rolls:** 12  
-🇬🇾 **Still proud:** Always (even with deportees)
+â±ï¸ **Uncle Ramesh Talk Time:** 5 minutes  
+â˜• **Coffee consumed:** 2 cups (spilled some laughing at "storage unit")  
+s I disagreed with The Brief:** 6 out of 8 stories  
+rolls:** 12  
+Still proud:** Always (even with deportees)
 
 ---
 
-*👴🏾 Uncle Ramesh keeps The Brief honest since 2026!*
+*cle Ramesh keeps The Brief honest since 2026!*
 
 *Share this if you think headlines need substance too!*
+

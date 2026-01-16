@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: This Youngin' Thinks Trump's a Hero? PLEASE!"
 date: 2026-01-08T14:00:00-04:00
 draft: false
@@ -6,7 +6,7 @@ categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire", "Venezuela Drama"]
 ---
 
-# 👴🏾 UNCLE RAMESH'S HOT TAKE
+# CLE RAMESH'S HOT TAKE
 
 **Thursday, January 8, 2026**
 
@@ -24,7 +24,7 @@ Let Uncle Ramesh school you on what REALLY happening here.
 
 ---
 
-## 🎭 "SURPRISE PARTY"? YOU MEAN INTERNATIONAL CRIME!
+## ISE PARTY"? YOU MEAN INTERNATIONAL CRIME!
 
 The Brief says: *"Americans just Uber-kidnapped an entire president!"*
 
@@ -42,7 +42,7 @@ And this child writing "faster than DoorDash"?! **NAH!**
 
 ---
 
-## 🤔 GUYANA'S RESPONSE AIN'T "THRILLED"
+## 'S RESPONSE AIN'T "THRILLED"
 
 The Brief says: *"Ali is diplomatically thrilled"*
 
@@ -62,7 +62,7 @@ They outside the US Embassy saying "Guyana could be next!" And they RIGHT! We go
 
 ---
 
-## 💰 THE MOHAMEDS: FINALLY WE AGREE (KINDA)
+## HAMEDS: FINALLY WE AGREE (KINDA)
 
 Okay, okay. Let Uncle Ramesh be fair (for ONCE).
 
@@ -78,11 +78,11 @@ You can't complain about the Mohameds NOW when everybody KNEW what they was doin
 **Uncle Ramesh's Theory:**
 Mohameds thought they could wait out the Americans in Trinidad. Realized Georgetown food taste better. Came back. Now surprised the Americans still want them.
 
-*shocked Pikachu face* 😲
+*shocked Pikachu face* 
 
 ---
 
-## 🛣️ HEROES HIGHWAY: THE BRIEF GOT THIS WRONG
+## OES HIGHWAY: THE BRIEF GOT THIS WRONG
 
 The Brief says: *"Highway lasted 13 months"*
 
@@ -100,7 +100,7 @@ But noooo, government gotta PRETEND everything was planned. That's the REAL issu
 
 ---
 
-## 📱 ZOOM SCHOOL: THIS CHILD MISSED THE POINT COMPLETELY
+## CHOOL: THIS CHILD MISSED THE POINT COMPLETELY
 
 The Brief says: *"Achievement is that internet didn't crash"*
 
@@ -122,7 +122,7 @@ But no, this youngin' wanna make jokes about "Zoom been around since 2020."
 
 ---
 
-## 🌾 RICE FARMERS: THE BRIEF COMPLETELY MISSED IT
+## ARMERS: THE BRIEF COMPLETELY MISSED IT
 
 The Brief says: *"Money after damage done"*
 
@@ -143,7 +143,7 @@ Why The Brief ain't asking: "Where the DRAINAGE money going?" Now THAT'S the que
 
 ---
 
-## 🎯 WHAT THE BRIEF REALLY MISSED
+## HE BRIEF REALLY MISSED
 
 Let Uncle Ramesh tell you what THIS youngin' IGNORED in he satirical digest:
 
@@ -165,7 +165,7 @@ Where the REST of the Caribbean? Why NOBODY saying nothing? Because EVERYBODY sc
 
 ---
 
-## 💭 UNCLE RAMESH'S REAL TALK
+## RAMESH'S REAL TALK
 
 Look, I understand satire. I GET jokes. But sometimes the situation too SERIOUS for "Uber-kidnapped" jokes.
 
@@ -182,11 +182,11 @@ Look, I understand satire. I GET jokes. But sometimes the situation too SERIOUS 
 
 ---
 
-## 📱 FINAL WORD FROM QUEENS
+## WORD FROM QUEENS
 
 This youngin' need to understand something: COMEDY GOT LIMITS.
 
-When 80+ people dead, when democracy violated, when international law BROKE—maybe don't lead with jokes about delivery apps?
+When 80+ people dead, when democracy violated, when international law BROKEâ€”maybe don't lead with jokes about delivery apps?
 
 **Messages for The Guyana Brief:**
 
@@ -207,16 +207,16 @@ At least government HELPING! Ask about PREVENTION, not mock the relief!
 
 ---
 
-## 🎯 UNCLE RAMESH'S COUNTER-BRIEF
+## RAMESH'S COUNTER-BRIEF
 
 **What We ACTUALLY Learned Thursday:**
 
-1. ✅ America willing to invade neighbors (SERIOUS)
-2. ✅ Guyana's oil makes us vulnerable (WORRYING)
-3. ✅ Mohameds still appealing (we agree!)
-4. ✅ Government lies about "plans" (annoying but normal)
-5. ✅ Interior kids getting digital access (GOOD NEWS)
-6. ✅ Farmers getting flood relief (GOOD NEWS)
+1. âœ… America willing to invade neighbors (SERIOUS)
+2. âœ… Guyana's oil makes us vulnerable (WORRYING)
+3. âœ… Mohameds still appealing (we agree!)
+4. âœ… Government lies about "plans" (annoying but normal)
+5. âœ… Interior kids getting digital access (GOOD NEWS)
+6. âœ… Farmers getting flood relief (GOOD NEWS)
 
 **Tomorrow's Forecast:**
 - More geopolitical analysis this youngin' gonna miss
@@ -229,20 +229,21 @@ At least government HELPING! Ask about PREVENTION, not mock the relief!
 
 **Stay INFORMED, not just ENTERTAINED.**
 
-*— Uncle Ramesh*  
+*â€” Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know the difference between satire and serious*
 
 ---
 
-⏱️ **Uncle Ramesh Talk Time:** 5 minutes  
-☕ **Coffee consumed:** 2 cups (need more after reading The Brief)  
-📊 **Times I disagreed with The Brief:** 7 out of 9 stories  
-😤 **Frustration level:** HIGH  
-🇬🇾 **Still love Guyana:** Always
+â±ï¸ **Uncle Ramesh Talk Time:** 5 minutes  
+â˜• **Coffee consumed:** 2 cups (need more after reading The Brief)  
+s I disagreed with The Brief:** 7 out of 9 stories  
+tration level:** HIGH  
+Still love Guyana:** Always
 
 ---
 
-*👴🏾 Uncle Ramesh responds to The Guyana Brief because somebody gotta keep these youngsters in check!*
+*cle Ramesh responds to The Guyana Brief because somebody gotta keep these youngsters in check!*
 
 *Share this if you think international invasions ain't "DoorDash" material!*
+

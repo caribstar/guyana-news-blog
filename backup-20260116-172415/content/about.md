@@ -1,10 +1,10 @@
-﻿---
+---
 title: About The Guyana Brief
 date: 2026-01-09
 ---
 
 <div style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 40px;">
-    <h1 style="color: white; font-size: 48px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">E GUYANA BRIEF</h1>
+    <h1 style="color: white; font-size: 48px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🇬🇾 THE GUYANA BRIEF</h1>
     <p style="color: white; font-size: 20px; margin: 0; font-weight: 500;">Because Someone Has to Read All 4 Newspapers</p>
 </div>
 
@@ -29,17 +29,17 @@ We love Guyana. That's why we can't stop laughing at it.
 
 ## What We're NOT
 
-âŒ **Real journalism** - We're satirical commentary  
-âŒ **News reporting** - We add jokes to real news  
-âŒ **Politically affiliated** - We mock everyone equally  
-âŒ **Serious** - Have you read our content?
+❌ **Real journalism** - We're satirical commentary  
+❌ **News reporting** - We add jokes to real news  
+❌ **Politically affiliated** - We mock everyone equally  
+❌ **Serious** - Have you read our content?
 
 ## What We ARE
 
-âœ… **Satirical** - Like The Onion, but everything is actually true  
-âœ… **Daily** - New brief every day by noon (Guyana time)  
-âœ… **Free** - No paywall, no subscription, no BS  
-âœ… **Comprehensive** - We actually read all 4 papers so you don't have to
+✅ **Satirical** - Like The Onion, but everything is actually true  
+✅ **Daily** - New brief every day by noon (Guyana time)  
+✅ **Free** - No paywall, no subscription, no BS  
+✅ **Comprehensive** - We actually read all 4 papers so you don't have to
 
 ## Our Promise
 
@@ -65,21 +65,21 @@ Your editor, chief satirist, and person who reads way too much Guyanese news.
 
 ## Recurring Features You'll Love
 
-** Mohameds Saga** - Ongoing coverage of the extradition case that refuses to end. We're on appeal #infinity.
+**🏛️ The Mohameds Saga** - Ongoing coverage of the extradition case that refuses to end. We're on appeal #infinity.
 
-**tructure Fails** - Bridges that crack, highways that need repairs, and the contractors who build them.
+**🌉 Infrastructure Fails** - Bridges that crack, highways that need repairs, and the contractors who build them.
 
-**ment Promises** - Tracking all the things that were supposed to happen by "end of year."
+**🎭 Government Promises** - Tracking all the things that were supposed to happen by "end of year."
 
-**nezuela Drama** - Because our neighbor keeps things interesting.
+**🇻🇪 Venezuela Drama** - Because our neighbor keeps things interesting.
 
-**m Troubles** - When visitors discover Guyana is... exactly as advertised.
+**📹 Tourism Troubles** - When visitors discover Guyana is... exactly as advertised.
 
 ## Want More?
 
-cribe** to get the daily brief in your inbox  
-rowse by topic** to follow your favorite running jokes  
-e** the laughs with fellow Guyanese who need them
+📬 **Subscribe** to get the daily brief in your inbox  
+🏷️ **Browse by topic** to follow your favorite running jokes  
+📱 **Share** the laughs with fellow Guyanese who need them
 
 ## Legal Stuff
 
@@ -111,5 +111,4 @@ We read everything. We respond to most things. We ignore the really angry emails
 
 ---
 
-*The Guyana Brief: Making Guyana's news slightly more bearable, one satirical digest at a time.* 
-
+*The Guyana Brief: Making Guyana's news slightly more bearable, one satirical digest at a time.* 🇬🇾

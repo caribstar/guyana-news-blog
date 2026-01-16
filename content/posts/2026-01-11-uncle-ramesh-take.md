@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: The Brief Writes a Whole Article and STILL Misses The Point!"
 date: 2026-01-11T14:00:00-04:00
 draft: false
@@ -6,7 +6,7 @@ categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
 ---
 
-# 👴🏾 UNCLE RAMESH'S HOT TAKE
+# CLE RAMESH'S HOT TAKE
 
 **Sunday, January 11, 2026**
 
@@ -24,7 +24,7 @@ Let Uncle Ramesh break down where The Brief went wrong (AGAIN).
 
 ---
 
-## 🎭 "MOHAMEDS STRIKE BACK" - BRIEF RUNNING OUT OF STAR WARS TITLES
+## EDS STRIKE BACK" - BRIEF RUNNING OUT OF STAR WARS TITLES
 
 The Brief says: *"The Mohameds Strike Back (The Musical)"*
 
@@ -51,7 +51,7 @@ If The Brief SO tired of Mohamed stories, WHY they keep writing the same thing o
 
 ---
 
-## 🛣️ HEROES HIGHWAY PART 47: THE BRIEF CAN'T LET IT GO
+## OES HIGHWAY PART 47: THE BRIEF CAN'T LET IT GO
 
 The Brief says: *"25 months and needs repairs!"*
 
@@ -78,7 +78,7 @@ Concrete highway uneven after a year (annoying). Government fixing with asphalt 
 
 ---
 
-## 📊 CRIME STATS: THE BRIEF STILL CAN'T UNDERSTAND NUMBERS
+## STATS: THE BRIEF STILL CAN'T UNDERSTAND NUMBERS
 
 The Brief says: *"More people died but crime is down? Pick your metric!"*
 
@@ -118,7 +118,7 @@ Only Uncle Ramesh telling FULL truth!
 
 ---
 
-## 🤷 "OPPOSITION STILL MISSING" - THE BRIEF BLIND AND DEAF
+## ITION STILL MISSING" - THE BRIEF BLIND AND DEAF
 
 The Brief says: *"Where is the opposition? Seriously, where?"*
 
@@ -141,7 +141,7 @@ They THERE! They VOCAL! You just not PAYING ATTENTION!
 
 ---
 
-## 🏡 SQUATTER GATE: THE BRIEF FINALLY ASK GOOD QUESTIONS!
+## ER GATE: THE BRIEF FINALLY ASK GOOD QUESTIONS!
 
 The Brief says: *"Mohamed claims squatters on his land... conspiracy?"*
 
@@ -153,7 +153,7 @@ The Brief says: *"Mohamed claims squatters on his land... conspiracy?"*
 - Why police transferred?
 - What the timeline?
 
-**Uncle Ramesh Approves!** ✓
+**Uncle Ramesh Approves!** âœ“
 
 See? When The Brief INVESTIGATES instead of MOCKS, they do good work!
 
@@ -161,7 +161,7 @@ More of THIS! Less of "Star Wars" titles!
 
 ---
 
-## ⚡ GPL CONTRACTORS: THE BRIEF REPEATING THEMSELVES
+## âš¡ GPL CONTRACTORS: THE BRIEF REPEATING THEMSELVES
 
 The Brief says: *"Contractors still threatening grid"*
 
@@ -179,7 +179,7 @@ If you gonna report same story multiple days, at LEAST add NEW information each 
 
 ---
 
-## 💭 WHAT THE BRIEF REALLY MISSED (COMPREHENSIVE LIST)
+## HE BRIEF REALLY MISSED (COMPREHENSIVE LIST)
 
 ### **1. Mohamed System Reform:**
 Been complaining for 4 days. ZERO suggestions for reform. Just complaints.
@@ -201,7 +201,7 @@ Same stories 3-4 days in a row with no new info!
 
 ---
 
-## 🎯 UNCLE RAMESH'S SUNDAY SCORECARD
+## RAMESH'S SUNDAY SCORECARD
 
 **The Brief This Week:**
 
@@ -216,7 +216,7 @@ Same stories 3-4 days in a row with no new info!
 
 ---
 
-## 📚 WHAT THE BRIEF NEEDS TO DO BETTER
+## HE BRIEF NEEDS TO DO BETTER
 
 ### **1. STOP REPEATING STORIES**
 Mohamed story 4 days straight? ENOUGH!
@@ -241,20 +241,20 @@ Star Wars references ain't journalism!
 
 ---
 
-## 📱 FINAL WORD FROM QUEENS
+## WORD FROM QUEENS
 
 Four days. Four editions. Same stories. Same jokes. Same misunderstandings.
 
 **The Brief Got Better At:**
-- Asking questions about squatters ✓
-- Taking contractor safety serious ✓
+- Asking questions about squatters âœ“
+- Taking contractor safety serious âœ“
 
 **The Brief Still Bad At:**
-- Understanding statistics ✗
-- Tracking opposition ✗
-- Getting facts straight ✗
-- Not repeating themselves ✗
-- Balanced reporting ✗
+- Understanding statistics âœ—
+- Tracking opposition âœ—
+- Getting facts straight âœ—
+- Not repeating themselves âœ—
+- Balanced reporting âœ—
 
 **Uncle Ramesh's Advice:**
 Take a BREAK! Do RESEARCH! Learn MATH! WATCH the opposition! And for God's sake, STOP writing about Mohameds every single day unless you have NEW information!
@@ -290,21 +290,22 @@ Too repetitive! Need MORE variety!
 
 **Happy Sunday, Guyana. Read The Brief for laughs, but come to Uncle Ramesh for TRUTH!**
 
-*— Uncle Ramesh*  
+*â€” Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know repeating yourself ain't journalism*
 
 ---
 
-⏱️ **Uncle Ramesh Talk Time:** 6 minutes  
-☕ **Coffee consumed:** 3 cups (needed it for this one)  
-📊 **Times I corrected The Brief:** Too many to count  
-🎓 **Brief's Weekly Grade:** F (35.6% average)  
-😤 **Frustration level:** MAXIMUM  
-🇬🇾 **Still love both Guyana AND The Brief:** Yes (somebody gotta!)
+â±ï¸ **Uncle Ramesh Talk Time:** 6 minutes  
+â˜• **Coffee consumed:** 3 cups (needed it for this one)  
+s I corrected The Brief:** Too many to count  
+f's Weekly Grade:** F (35.6% average)  
+tration level:** MAXIMUM  
+Still love both Guyana AND The Brief:** Yes (somebody gotta!)
 
 ---
 
-*👴🏾 Uncle Ramesh: Grading The Brief's homework since 2026!*
+*cle Ramesh: Grading The Brief's homework since 2026!*
 
 *Share this if you think The Brief needs to go back to journalism school!*
+

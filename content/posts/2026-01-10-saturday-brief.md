@@ -1,33 +1,33 @@
----
+﻿---
 title: "Saturday's Guyana Brief: Weekend News Circus"
 date: 2026-01-10
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Government Promises", "Tourism Troubles"]
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
-    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🇬🇾 THE GUYANA BRIEF 🇬🇾</h1>
+    <h1 style="color: white; font-size: 36px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">E GUYANA BRIEF 1>
     <p style="color: white; font-size: 18px; margin: 0; font-weight: 500;">Your 5-Minute Weekend News Circus</p>
     <p style="color: white; font-size: 14px; margin: 10px 0 0 0; opacity: 0.9;">Saturday, January 10, 2026</p>
     <p style="color: white; font-size: 12px; margin: 5px 0 0 0; opacity: 0.8; font-style: italic;">Sponsored by: Contractors Who Can't See 69,000-Volt Lines</p>
 </div>
 
-## 📊 WEEKEND QUICK STATS
+## D QUICK STATS
 
 <div style="background: #FCD116; padding: 20px; border-radius: 10px; border: 3px solid #CE1126; margin: 20px 0;">
-<p style="margin: 5px 0;"><strong>Mohamed Self-Pity Level:</strong> 💯 MAXIMUM</p>
+<p style="margin: 5px 0;"><strong>Mohamed Self-Pity Level:</strong> M</p>
 <p style="margin: 5px 0;"><strong>Vloggers Regretting Guyana Visit:</strong> 2/2</p>
-<p style="margin: 5px 0;"><strong>National Grid Near-Death Experiences:</strong> 🔥 Another One</p>
-<p style="margin: 5px 0;"><strong>Opposition Pulse Check:</strong> ⚰️ Flatline</p>
-<p style="margin: 5px 0;"><strong>Government Promises Kept:</strong> 📉 Approaching Zero</p>
+<p style="margin: 5px 0;"><strong>National Grid Near-Death Experiences:</strong> r One</p>
+<p style="margin: 5px 0;"><strong>Opposition Pulse Check:</strong> âš°ï¸ Flatline</p>
+<p style="margin: 5px 0;"><strong>Government Promises Kept:</strong> ching Zero</p>
 </div>
 
 ---
 
-## 🎭 THE MOHAMEDS PLAY THE VICTIM CARD
+## HAMEDS PLAY THE VICTIM CARD
 
 <div style="background: #FFE5E5; border-left: 5px solid #F44336; padding: 15px; margin: 20px 0; border-radius: 5px;">
-<strong>🎬 LATEST MOHAMED THEATER:</strong><br>
-Role: Innocent Victims™<br>
+<strong> MOHAMED THEATER:</strong><br>
+Role: Innocent Victimsâ„¢<br>
 Script: "Why is America so mean?"<br>
 Audience: Not buying it
 </div>
@@ -45,12 +45,12 @@ The Mohameds are back with another performance, and this time they're playing th
 **The Court Record:** Multiple appeals, all denied. Multiple judges, all said "no." The pattern is clear.
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 8px; border: 2px dashed #6c757d;">
-<p style="text-align: center; font-size: 20px; margin: 0;"><strong>📜 MOHAMED LEGAL STRATEGY TRACKER:</strong></p>
+<p style="text-align: center; font-size: 20px; margin: 0;"><strong>D LEGAL STRATEGY TRACKER:</strong></p>
 <hr style="margin: 15px 0;">
-<p><strong>Strategy #1:</strong> "We didn't do it" ❌ Failed</p>
-<p><strong>Strategy #2:</strong> "The evidence is weak" ❌ Failed</p>
-<p><strong>Strategy #3:</strong> "The process is unfair" ❌ Failed</p>
-<p><strong>Strategy #4:</strong> "We're victims of discrimination" ⏳ Current attempt</p>
+<p><strong>Strategy #1:</strong> "We didn't do it" âŒ Failed</p>
+<p><strong>Strategy #2:</strong> "The evidence is weak" âŒ Failed</p>
+<p><strong>Strategy #3:</strong> "The process is unfair" âŒ Failed</p>
+<p><strong>Strategy #4:</strong> "We're victims of discrimination" â³ Current attempt</p>
 </div>
 
 **Kaieteur News (As Always):** Has written enough about the Mohameds to fill a library. At this point, they could publish *The Complete Mohamed Saga: Volumes 1-47*.
@@ -59,10 +59,10 @@ The Mohameds are back with another performance, and this time they're playing th
 
 ---
 
-## ⚡ CONTRACTOR NEARLY KILLS HIMSELF (AND HALF OF GEORGETOWN)
+## âš¡ CONTRACTOR NEARLY KILLS HIMSELF (AND HALF OF GEORGETOWN)
 
 <div style="background: #FFF3CD; border: 3px solid #FFC107; padding: 20px; margin: 20px 0; border-radius: 10px;">
-<p style="text-align: center; font-size: 28px; margin: 0;"><strong>⚠️ CLOSE CALL ALERT ⚠️</strong></p>
+<p style="text-align: center; font-size: 28px; margin: 0;"><strong>âš ï¸ CLOSE CALL ALERT âš ï¸</strong></p>
 <hr style="border-color: #FFC107; margin: 15px 0;">
 <p><strong>Power Line Voltage:</strong> 69,000 volts</p>
 <p><strong>Crane Proximity:</strong> Too close</p>
@@ -85,10 +85,10 @@ A contractor working on Sheriff Street almost touched a 69,000-volt power line w
 **Translation:** Someone almost died because basic safety protocols weren't followed. And we only know about it because GPL's people were alert.
 
 <div style="background: #E7F3FF; padding: 20px; margin: 20px 0; border-radius: 8px;">
-<p style="text-align: center; margin: 0;"><strong>💡 HOW CONSTRUCTION WORKS:</strong></p>
+<p style="text-align: center; margin: 0;"><strong>NSTRUCTION WORKS:</strong></p>
 <hr style="margin: 15px 0;">
-<p><strong>Elsewhere:</strong> Plan → Survey site → Identify hazards → Implement safety → Execute</p>
-<p><strong>In Guyana:</strong> Plan (maybe) → Start work → Almost cause disaster → Act surprised → Blame someone else</p>
+<p><strong>Elsewhere:</strong> Plan â†’ Survey site â†’ Identify hazards â†’ Implement safety â†’ Execute</p>
+<p><strong>In Guyana:</strong> Plan (maybe) â†’ Start work â†’ Almost cause disaster â†’ Act surprised â†’ Blame someone else</p>
 </div>
 
 **The Questions Nobody's Asking:**
@@ -100,10 +100,10 @@ A contractor working on Sheriff Street almost touched a 69,000-volt power line w
 
 ---
 
-## 📊 CRIME STATS: MURDER UP, ROAD DEATHS UP, VIBES DOWN
+## STATS: MURDER UP, ROAD DEATHS UP, VIBES DOWN
 
 <div style="background: #FFEBEE; border-left: 5px solid #F44336; padding: 15px; margin: 20px 0; border-radius: 5px;">
-<strong>📈 2025 CRIME STATISTICS:</strong><br>
+<strong>RIME STATISTICS:</strong><br>
 Murders: UP 11% (134 total)<br>
 Road Deaths: UP 6% (140 total)<br>
 Government Response: "Crime is down!"<br>
@@ -127,7 +127,7 @@ The police released 2025 crime statistics, and the numbers tell a story the gove
 **What Actually Decreased:** Robberies, break-ins, larceny. Good! But when MURDER is up double digits, maybe lead with that?
 
 <div style="background: #F8F9FA; padding: 20px; margin: 20px 0; border-radius: 8px; border: 2px solid #6C757D;">
-<p style="text-align: center; font-size: 18px; margin: 0;"><strong>🎯 ADDRESSING CRIME:</strong></p>
+<p style="text-align: center; font-size: 18px; margin: 0;"><strong>SING CRIME:</strong></p>
 <hr style="margin: 15px 0;">
 <p><strong>What Works:</strong> Community policing, better training, accountability, improved response times</p>
 <p><strong>What We Got:</strong> "Crime is down!" (when it's actually up in the categories that matter most)</p>
@@ -135,7 +135,7 @@ The police released 2025 crime statistics, and the numbers tell a story the gove
 
 ---
 
-## 🎬 TOURISM GUYANA: STILL STRUGGLING
+## M GUYANA: STILL STRUGGLING
 
 The vlogger incidents continue! Two separate incidents, two different responses, same underlying problem.
 
@@ -147,10 +147,10 @@ The vlogger incidents continue! Two separate incidents, two different responses,
 
 ---
 
-## 🏗️ THE 40,000 HOUSES PROMISE
+##  40,000 HOUSES PROMISE
 
 <div style="background: #E7F3FF; padding: 20px; margin: 20px 0; border-radius: 8px;">
-<p style="text-align: center; margin: 0;"><strong>🏠 HOUSING MATH CHECK:</strong></p>
+<p style="text-align: center; margin: 0;"><strong>G MATH CHECK:</strong></p>
 <hr style="margin: 15px 0;">
 <p><strong>Promise:</strong> 40,000 houses by 2028</p>
 <p><strong>Time Remaining:</strong> ~3 years</p>
@@ -161,16 +161,16 @@ The vlogger incidents continue! Two separate incidents, two different responses,
 Vice President Bharrat Jagdeo reminded everyone of the government's promise to deliver 40,000 houses by 2028.
 
 **Let's Do The Math:**
-- 40,000 houses ÷ 3 years = 13,333 houses/year
-- 13,333 houses ÷ 365 days = **36.5 houses PER DAY**
+- 40,000 houses Ã· 3 years = 13,333 houses/year
+- 13,333 houses Ã· 365 days = **36.5 houses PER DAY**
 
 **For Perspective:** That's completing a house every 39 minutes. For three years straight. Without breaks.
 
-**Current Status:** They've allocated land. Land allocation ≠ built houses.
+**Current Status:** They've allocated land. Land allocation â‰  built houses.
 
 ---
 
-## 💡 THE ELECTRICITY PROMISE (REMEMBER THAT?)
+## ECTRICITY PROMISE (REMEMBER THAT?)
 
 Remember when they promised "no more blackouts" by end of 2024? It's 2026. Still waiting.
 
@@ -182,7 +182,7 @@ Remember when they promised "no more blackouts" by end of 2024? It's 2026. Still
 
 ---
 
-## 🤷 THE OPPOSITION: STILL MISSING
+## POSITION: STILL MISSING
 
 Where is the opposition? Seriously, where are they? The Mohamed case has Parliament frozen. No sessions, no debates, no oversight.
 
@@ -192,7 +192,7 @@ Where is the opposition? Seriously, where are they? The Mohamed case has Parliam
 
 ---
 
-## 🏆 ACTUAL GOOD NEWS: AISHALTON AIRSTRIP
+##  GOOD NEWS: AISHALTON AIRSTRIP
 
 Finally, some genuinely good news! The Aishalton airstrip project is actually progressing well. On time, on budget, serving the community.
 
@@ -200,10 +200,10 @@ Finally, some genuinely good news! The Aishalton airstrip project is actually pr
 
 ---
 
-## 🏆 YOUR SATURDAY RECAP
+## ATURDAY RECAP
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; margin: 30px 0; border-radius: 10px;">
-<p style="text-align: center; font-size: 24px; margin: 0 0 20px 0;"><strong>📚 WHAT WE LEARNED:</strong></p>
+<p style="text-align: center; font-size: 24px; margin: 0 0 20px 0;"><strong>E LEARNED:</strong></p>
 <ol style="font-size: 16px; line-height: 1.8;">
 <li>The Mohameds are now victims (apparently)</li>
 <li>69,000 volts is not a suggestion</li>
@@ -222,4 +222,5 @@ Finally, some genuinely good news! The Aishalton airstrip project is actually pr
 
 **Subscribe** at [guyanadailybrief.com](https://guyanadailybrief.com) to get this delivered by noon.
 
-*THE GUYANA BRIEF: Making Guyana's news slightly more bearable, one satirical digest at a time.* 🇬🇾
+*THE GUYANA BRIEF: Making Guyana's news slightly more bearable, one satirical digest at a time.* 
+
