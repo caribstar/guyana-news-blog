@@ -50,29 +50,34 @@ url = "/posts/"
 weight = 2
 
 [[menu.main]]
+name = "Rumor Mill"
+url = "/categories/the-rumor-mill/"
+weight = 3
+
+[[menu.main]]
 name = "Magazine"
 url = "/magazine/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Roundup"
 url = "/roundup/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Search"
 url = "/search/"
-weight = 3
+weight = 6
 
 [[menu.main]]
 name = "Legal"
 url = "/legal/"
-weight = 4
+weight = 7
 
 [[menu.main]]
 name = "About"
 url = "/about/"
-weight = 5
+weight = 8
 
 [params.fuseOpts]
 isCaseSensitive = false
@@ -94,5 +99,3 @@ unsafe = true
 [services]
   [services.googleAnalytics]
     ID = "G-5F9VH8GM6D"
-
-
