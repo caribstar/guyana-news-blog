@@ -1,0 +1,9 @@
+﻿{{/* Custom CSS for Guyana Daily Brief Newsletter */}}
+{{ if .Site.Params.customCSS }}
+    {{ range .Site.Params.customCSS }}
+        <link rel="stylesheet" href="{{ . }}">
+    {{ end }}
+{{ end }}
+
+{{/* Newsletter CSS - always included */}}
+<link rel="stylesheet" href="{{ "css/extended/newsletter.css" | relURL }}">

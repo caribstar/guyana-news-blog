@@ -1,0 +1,132 @@
+﻿{{ define "main" }}
+
+<div class="newsletter-splash" style="text-align:center; padding:60px 20px; 
+    background: linear-gradient(135deg, #00A859, #FCD116); 
+    color:white; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.2); margin-bottom:50px;">
+
+  <h2 style="font-size:2.5rem; margin-bottom:10px;">📬 Join the Guyana Daily Brief!</h2>
+  <p style="font-size:1.2rem; max-width:600px; margin:0 auto 30px;">
+    Get both perspectives delivered to your inbox weekly. Stay informed, stay empowered!
+  </p>
+
+  <!-- Beehiiv Direct Form (Seamless) -->
+  <form id="newsletter-form" style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; align-items:center;">
+    
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Enter your email" 
+      required
+      style="
+        padding:16px 22px; 
+        font-size:1rem; 
+        border:3px solid #FFD700; 
+        border-radius:8px; 
+        flex:1 0 250px; 
+        max-width:360px; 
+        background:white; 
+        color:#000; 
+        font-weight:600;
+        outline:none;
+        box-shadow:0 4px 8px rgba(0,0,0,0.25);
+        transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+      "
+    >
+
+    <input type="hidden" name="publication_id" value="pub_2361dc8b-fd35-425f-a14e-a49bcb795b18">
+
+    <button 
+      type="submit"
+      style="
+        padding:14px 30px; 
+        font-size:1rem; 
+        background:#fff; 
+        color:#00A859; 
+        font-weight:bold; 
+        border:none; 
+        border-radius:6px; 
+        cursor:pointer; 
+        transition:transform 0.2s, box-shadow 0.2s;
+      "
+      onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)';"
+      onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+    >
+      Subscribe
+    </button>
+  </form>
+
+  <!-- Local Success Animation -->
+  <div id="subscribe-success" style="
+      display:none;
+      margin:15px auto 0;
+      padding:10px 20px;
+      background: #fff;
+      color: #00A859;
+      border-radius: 8px;
+      font-weight: bold;
+      max-width:300px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s, opacity 0.3s;
+      opacity:0;
+      transform: scale(0);
+      text-align:center;
+    ">
+    ✅ Subscription sent! Check your inbox.
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const form = document.getElementById('newsletter-form');
+  const success = document.getElementById('subscribe-success');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const emailInput = form.querySelector('input[name=email]');
+    const email = emailInput.value.trim();
+    const emailRegex = /^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/;
+
+    if (!emailRegex.test(email)) {
+      emailInput.style.transform = 'translateX(-5px)';
+      setTimeout(() => { emailInput.style.transform = 'translateX(5px)'; }, 100);
+      setTimeout(() => { emailInput.style.transform = 'translateX(0)'; }, 200);
+      alert('⚠️ Please enter a valid email.');
+      return;
+    }
+
+    // Show local success animation immediately
+    success.style.display = 'block';
+    setTimeout(() => {
+      success.style.opacity = 1;
+      success.style.transform = 'scale(1)';
+    }, 10);
+
+    setTimeout(() => {
+      success.style.opacity = 0;
+      success.style.transform = 'scale(0)';
+      setTimeout(() => { success.style.display = 'none'; }, 300);
+    }, 4000);
+
+    // Submit directly to Beehiiv
+    try {
+      const response = await fetch('https://embeds.beehiiv.com/v2/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email,
+          publication_id: 'pub_2361dc8b-fd35-425f-a14e-a49bcb795b18'
+        })
+      });
+      if (!response.ok) throw new Error('Network response was not ok');
+      emailInput.value = '';
+    } catch (err) {
+      console.error(err);
+      alert('⚠️ Subscription failed. Please try again.');
+    }
+  });
+})();
+</script>
+
+{{ end }}

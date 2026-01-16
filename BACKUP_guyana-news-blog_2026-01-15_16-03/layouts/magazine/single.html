@@ -1,0 +1,47 @@
+﻿{{- define "main" }}
+<article class="magazine-article" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <header style="margin-bottom: 40px;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 15px;">{{ .Title }}</h1>
+        <div class="article-meta" style="display: flex; gap: 20px; color: #666; margin-bottom: 20px;">
+            <span>📅 {{ .Date.Format "January 2, 2006" }}</span>
+            <span>⏱️ {{ .ReadingTime }} min read</span>
+            {{- if .Params.author }}<span>✍️ {{ .Params.author }}</span>{{- end }}
+        </div>
+        
+        {{- if .Params.cover.image }}
+        <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 30px;">
+        {{- end }}
+        
+        <div class="share-buttons" style="margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 8px; text-align: center;">
+            <span style="font-weight: bold; margin-right: 15px;">Share:</span>
+            <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink | absURL }}" 
+               target="_blank" style="margin: 0 8px; padding: 8px 16px; background: #1DA1F2; color: white; border-radius: 5px; text-decoration: none; display: inline-block;">Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}" 
+               target="_blank" style="margin: 0 8px; padding: 8px 16px; background: #4267B2; color: white; border-radius: 5px; text-decoration: none; display: inline-block;">Facebook</a>
+            <a href="https://wa.me/?text={{ .Title | urlize }}%20{{ .Permalink | absURL }}" 
+               target="_blank" style="margin: 0 8px; padding: 8px 16px; background: #25D366; color: white; border-radius: 5px; text-decoration: none; display: inline-block;">WhatsApp</a>
+        </div>
+    </header>
+    
+    <div class="article-content" style="font-size: 1.1rem; line-height: 1.8;">
+        {{ .Content }}
+    </div>
+    
+    {{- $related := .Site.RegularPages.Related . | first 3 }}
+    {{- if $related }}
+    <div class="related-articles" style="margin-top: 60px; padding-top: 40px; border-top: 2px solid #eee;">
+        <h3 style="margin-bottom: 25px;">📚 Continue Reading</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 25px;">
+            {{- range $related }}
+            <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">
+                    <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 1.1rem;">{{ .Title }}</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin: 0;">{{ .Date.Format "Jan 2, 2006" }} • {{ .ReadingTime }} min read</p>
+                </a>
+            </div>
+            {{- end }}
+        </div>
+    </div>
+    {{- end }}
+</article>
+{{- end }}
