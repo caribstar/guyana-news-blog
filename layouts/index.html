@@ -30,53 +30,53 @@
 
 <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
   
-  <!-- TODAY'S DUELING BLOGS - WITH CLEAR DATE -->
+  <!-- TODAY'S DUELING BLOGS - FIXED DATE & SWAPPED POSITIONS -->
   <div style="background: linear-gradient(135deg, #FFD700 0%, #009E60 100%); padding: 20px; border-radius: 15px; margin-bottom: 30px; text-align: center;">
     <h2 style="color: white; margin: 0; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
       📅 Today's Dueling Blogs
     </h2>
     <p style="color: white; margin: 10px 0 0 0; font-size: 1.2rem; font-weight: bold;">
-      {{ now.Format "Monday, January 2, 2006" }}
+      Friday, January 16, 2026
     </p>
   </div>
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
     
-    <!-- DAILY LAUGH -->
-    <div style="border: 4px solid #ff6b6b; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <div style="background: #ff6b6b; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+    <!-- UNCLE RAMESH RESPONSE - NOW ON LEFT IN RED -->
+    <div style="border: 4px solid #dc2626; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #dc2626; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+        😊 UNCLE RAMESH (Pro-Gov View)
+      </div>
+      {{ $rameshResponse := where .Site.RegularPages "Params.categories" "intersect" (slice "Response") }}
+      {{ range first 1 (sort $rameshResponse "Date" "desc") }}
+      <div style="background: #fee2e2; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
+        <span style="color: #dc2626; font-weight: bold; font-size: 1rem;">📅 {{ .Date.Format "Monday, January 2, 2006" }}</span>
+      </div>
+      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Pro-Gov View →</a>
+      {{ end }}
+    </div>
+    
+    <!-- DAILY LAUGH - NOW ON RIGHT IN GREEN -->
+    <div style="border: 4px solid #009E60; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #009E60; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
         😂 DAILY LAUGH (Comedy Version)
       </div>
       {{ $dailyLaugh := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Laugh") }}
       {{ range first 1 (sort $dailyLaugh "Date" "desc") }}
-      <div style="background: #fff5f5; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
-        <span style="color: #ff6b6b; font-weight: bold; font-size: 1rem;">📅 {{ .Date.Format "Monday, January 2, 2006" }}</span>
-      </div>
-      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #ff6b6b; text-decoration: none;">{{ .Title }}</a></h3>
-      <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #ff6b6b; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Comedy Version →</a>
-      {{ end }}
-    </div>
-    
-    <!-- UNCLE RAMESH RESPONSE -->
-    <div style="border: 4px solid #009E60; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <div style="background: #009E60; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
-        📊 UNCLE RAMESH (The Facts)
-      </div>
-      {{ $rameshResponse := where .Site.RegularPages "Params.categories" "intersect" (slice "Response") }}
-      {{ range first 1 (sort $rameshResponse "Date" "desc") }}
       <div style="background: #e6f4ea; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
         <span style="color: #009E60; font-weight: bold; font-size: 1rem;">📅 {{ .Date.Format "Monday, January 2, 2006" }}</span>
       </div>
       <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a></h3>
       <p>{{ .Summary | truncate 150 }}</p>
-      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Fact Check →</a>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Comedy Version →</a>
       {{ end }}
     </div>
     
   </div>
 
-  <!-- DAILY DEBATE - SWAPPED POSITIONS & CHANGED COLORS -->
+  <!-- DAILY DEBATE -->
   <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
     <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
       🔥 The Daily Debate
@@ -87,7 +87,7 @@
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
       
-      <!-- UNCLE RAMESH TAKE - NOW ON LEFT IN RED -->
+      <!-- UNCLE RAMESH TAKE - ON LEFT IN RED -->
       <div style="border: 3px solid #dc2626; border-radius: 10px; padding: 25px; background: white;">
         <div style="background: #dc2626; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
           😊 UNCLE RAMESH (Pro-Gov View)
@@ -104,7 +104,7 @@
         {{ end }}
       </div>
       
-      <!-- DAILY BRIEF (CRITICAL) - NOW ON RIGHT IN GREEN -->
+      <!-- DAILY BRIEF (CRITICAL) - ON RIGHT IN GREEN -->
       <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
         <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
           🔍 DAILY BRIEF (Critical View)
