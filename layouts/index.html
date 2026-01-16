@@ -23,30 +23,6 @@
   </p>
 </div>
 
-<!-- Alternative: If you want the full form with more options, use this instead -->
-<!-- 
-<div style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 40px 20px; text-align: center; margin-bottom: 40px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);">
-  <h2 style="margin: 0 0 10px 0; font-size: 2.2rem; font-weight: bold;">📧 Never Miss a Story!</h2>
-  <p style="margin: 0 0 30px 0; font-size: 1.2rem;">Get both perspectives delivered to your inbox daily</p>
-
-  <div style="max-width: 600px; margin: 0 auto;">
-    <script async src="https://embeds.beehiiv.com/attribution.js"></script>
-    <iframe 
-      src="https://embeds.beehiiv.com/YOUR_FORM_ID_HERE" 
-      data-test-id="beehiiv-embed" 
-      height="320" 
-      frameborder="0" 
-      scrolling="no" 
-      style="margin: 0; border-radius: 10px !important; background-color: white; width: 100%;">
-    </iframe>
-  </div>
-
-  <p style="margin: 20px 0 0 0; font-size: 0.95rem; opacity: 0.95;">
-    ✓ Free forever  •  ✓ Unsubscribe anytime  •  ✓ No spam
-  </p>
-</div>
--->
-
 <div class="dueling-intro" style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 100%); color: white; margin-bottom: 40px;">
   <h1 style="font-size: 2.5rem; margin-bottom: 10px;">GUYANA DAILY BRIEF</h1>
   <p style="font-size: 1.2rem; margin: 0;">Two Perspectives. One Country. Read Both Sides.</p>
@@ -100,49 +76,48 @@
     
   </div>
 
-  <!-- DAILY BRIEF VS UNCLE RAMESH TAKES -->
+  <!-- DAILY DEBATE - SWAPPED POSITIONS & CHANGED COLORS -->
   <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 60px;">
     <h2 style="text-align: center; margin-bottom: 10px; color: #009E60; font-size: 1.8rem;">
       🔥 The Daily Debate
     </h2>
     <p style="text-align: center; margin-bottom: 30px; color: #666; font-size: 1.1rem;">
-      Critical View vs. Pro-Government View
+      Pro-Government View vs. Critical View
     </p>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
       
-      <!-- DAILY BRIEF (CRITICAL) -->
-      <div style="border: 3px solid #2563eb; border-radius: 10px; padding: 25px; background: white;">
-        <div style="background: #2563eb; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+      <!-- UNCLE RAMESH TAKE - NOW ON LEFT IN RED -->
+      <div style="border: 3px solid #dc2626; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #dc2626; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
+          😊 UNCLE RAMESH (Pro-Gov View)
+        </div>
+        {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+        {{ range first 1 (sort $proGovPosts "Date" "desc") }}
+        <div style="background: #fee2e2; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
+          <span style="color: #dc2626; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+        <p>{{ .Summary | truncate 150 }}</p>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View →</a>
+        {{ end }}
+      </div>
+      
+      <!-- DAILY BRIEF (CRITICAL) - NOW ON RIGHT IN GREEN -->
+      <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
+        <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
           🔍 DAILY BRIEF (Critical View)
         </div>
         {{ $criticalPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
         {{ range first 1 (sort $criticalPosts "Date" "desc") }}
-        <div style="background: #eff6ff; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
-          <span style="color: #2563eb; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
-        </div>
-        <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #1e40af; text-decoration: none;">{{ .Title }}</a></h3>
-        <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
-        <p>{{ .Summary | truncate 150 }}</p>
-        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View →</a>
-        {{ end }}
-      </div>
-      
-      <!-- UNCLE RAMESH TAKE -->
-      <div style="border: 3px solid #009E60; border-radius: 10px; padding: 25px; background: white;">
-        <div style="background: #009E60; color: white; padding: 10px; margin: -25px -25px 20px -25px; border-radius: 7px 7px 0 0; text-align: center; font-weight: bold;">
-          😊 UNCLE RAMESH (Pro-Gov View)
-        </div>
-        {{ $proGovPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
-        {{ $filteredProGov := where $proGovPosts "Params.categories" "not in" (slice "Response") }}
-        {{ range first 1 (sort $filteredProGov "Date" "desc") }}
         <div style="background: #e6f4ea; padding: 8px; border-radius: 5px; margin-bottom: 12px; text-align: center;">
           <span style="color: #009E60; font-weight: bold;">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
         <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">{{ .Title }}</a></h3>
         <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
         <p>{{ .Summary | truncate 150 }}</p>
-        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View →</a>
+        <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View →</a>
         {{ end }}
       </div>
       
