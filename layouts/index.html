@@ -116,15 +116,35 @@
     <h3 style="text-align: center; margin: 0 0 20px 0; color: white; font-size: 1.3rem;">
       📻 Weekly Features
     </h3>
-    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+      
       {{ $trafficPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Traffic Report") }}
       {{ if gt (len $trafficPosts) 0 }}
       {{ range first 1 (sort $trafficPosts "Date" "desc") }}
-      <a href="{{ .RelPermalink }}" style="display: inline-flex; align-items: center; gap: 10px; background: #FCD116; color: #1a1a1a; padding: 15px 25px; text-decoration: none; border-radius: 10px; font-weight: bold; transition: transform 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-        🚗 DJ Roadblock's Traffic Report
+      <a href="{{ .RelPermalink }}" style="display: inline-flex; align-items: center; gap: 8px; background: #FCD116; color: #1a1a1a; padding: 12px 20px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 0.95rem; transition: transform 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+        🚗 DJ Roadblock
       </a>
       {{ end }}
       {{ end }}
+      
+      {{ $backATruckPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Back-a-Truck") }}
+      {{ if gt (len $backATruckPosts) 0 }}
+      {{ range first 1 (sort $backATruckPosts "Date" "desc") }}
+      <a href="{{ .RelPermalink }}" style="display: inline-flex; align-items: center; gap: 8px; background: #10b981; color: white; padding: 12px 20px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 0.95rem; transition: transform 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+        📸 Back-a-Truck
+      </a>
+      {{ end }}
+      {{ end }}
+      
+      {{ $bountyPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Bounty Board") }}
+      {{ if gt (len $bountyPosts) 0 }}
+      {{ range first 1 (sort $bountyPosts "Date" "desc") }}
+      <a href="{{ .RelPermalink }}" style="display: inline-flex; align-items: center; gap: 8px; background: #dc2626; color: white; padding: 12px 20px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 0.95rem; transition: transform 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+        🎯 Bounty Board
+      </a>
+      {{ end }}
+      {{ end }}
+      
     </div>
   </div>
 <!-- SPEEDEET & WILAR SECTION - FIXED BUTTON URL -->
@@ -338,6 +358,7 @@
 
 </div>
 {{ end }}
+
 
 
 
