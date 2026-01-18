@@ -217,7 +217,7 @@
             {{- if .Params.tags }}
             <div class="brief-tags">
                 {{- range first 5 .Params.tags }}
-                <span class="brief-tag">{{ . }}</span>
+                <a href="/tags/{{ . | urlize }}/" class="brief-tag">{{ . }}</a>
                 {{- end }}
             </div>
             {{- end }}
@@ -230,3 +230,5 @@
 {{- end }}
 
 {{- end }}
+
+
