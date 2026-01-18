@@ -2,8 +2,8 @@
 title: "Speedeet & Wilar and the Mystery of the Missing Medical Records"
 date: 2026-01-18
 draft: false
-categories: ["Speedeet and Wilar", "Fiction"]
-tags: ["Guyana", "Youth", "Adventure", "Healthcare", "Technology"]
+categories: ["Speedeet & Wilar", "Youth Stories"]
+tags: ["friendship", "adventure", "Guyanese-culture", "youth", "healthcare"]
 summary: "When Speedeet's grandmother can't find her medical file at the clinic, the two friends discover that going digital isn't as simple as pressing a button."
 ---
 

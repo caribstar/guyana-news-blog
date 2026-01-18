@@ -2,7 +2,7 @@
 title: "Sunday's Guyana Brief - Hotels Multiply, Health Goes Digital, and Cricket Women Keep Winning"
 date: 2026-01-18
 draft: false
-categories: ["Daily Brief", "News"]
+categories: ["News", "Daily Brief"]
 tags: ["Guyana", "News", "Satire", "Hotels", "Healthcare", "Cricket", "Football"]
 summary: "Another US$18M hotel opens, your medical records go online, President Ali says cash grants aren't sustainable (after promising one), Women's cricket squad stays undefeated, and Fruta Conquerors lose their president after 11 months."
 ---

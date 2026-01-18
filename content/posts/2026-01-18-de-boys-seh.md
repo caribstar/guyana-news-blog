@@ -2,8 +2,8 @@
 title: "De Boys Seh: Private Banking, Women Cricketers, and Who Really Winning"
 date: 2026-01-18
 draft: false
-categories: ["De Boys Seh", "Commentary"]
-tags: ["Guyana", "Street Talk", "Opinion", "Cricket", "Football", "Economy"]
+categories: ["Speedeet & Wilar", "De Boys Seh"]
+tags: ["youth", "commentary", "Guyanese-culture", "Cricket", "Football", "Economy"]
 summary: "The fellas break down private banking, celebrate the Women's T20 squad, mourn Fruta Conquerors leadership drama, and ask why the minibus driver and millionaire in the same 'sophisticated economy.'"
 ---
 
