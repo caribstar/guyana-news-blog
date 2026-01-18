@@ -1,6 +1,6 @@
----
+﻿---
 title: "Uncle Ramesh: The Brief Discovers Math But Still Can't Add!"
-date: 2026-01-10
+date: 2026-01-10T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
@@ -305,3 +305,4 @@ Still reading:** Yes (somebody gotta!)
 *cle Ramesh: Teaching The Brief math since 2026!*
 
 *Share this if you know construction math different from division!*
+

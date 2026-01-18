@@ -1,6 +1,6 @@
----
+﻿---
 title: "Uncle Ramesh: So NOW The Brief Worries About Deportations? Where Was You Before?"
-date: 2026-01-09
+date: 2026-01-09T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
@@ -272,3 +272,4 @@ Still proud:** Always (even with deportees)
 *cle Ramesh keeps The Brief honest since 2026!*
 
 *Share this if you think headlines need substance too!*
+

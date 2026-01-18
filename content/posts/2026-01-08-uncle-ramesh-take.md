@@ -1,6 +1,6 @@
----
+﻿---
 title: "Uncle Ramesh: This Youngin' Thinks Trump's a Hero? PLEASE!"
-date: 2026-01-08
+date: 2026-01-08T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire", "Venezuela Drama"]
@@ -246,3 +246,4 @@ Still love Guyana:** Always
 *cle Ramesh responds to The Guyana Brief because somebody gotta keep these youngsters in check!*
 
 *Share this if you think international invasions ain't "DoorDash" material!*
+
