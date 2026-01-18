@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Daily Laugh: De Report-A-Hole Disaster"
-date: 2026-01-16T06:00:00-04:00
+date: 2026-01-16
 draft: false
 categories: ["Daily Laugh", "Humor"]
 tags: ["comedy", "satire", "government-apps", "guyana", "infrastructure"]
