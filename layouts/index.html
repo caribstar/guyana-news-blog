@@ -351,9 +351,17 @@
       }
     }
   </style>
+<!-- FLOATING SUBSCRIPTION BAR -->
+<div id="floating-subscribe" style="position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 12px 20px; display: flex; justify-content: center; align-items: center; gap: 15px; z-index: 1000; box-shadow: 0 -4px 10px rgba(0,0,0,0.2); flex-wrap: wrap;">
+  <span style="font-weight: bold; font-size: 1rem;">📬 Get the Daily Brief in your inbox!</span>
+  <a href="#newsletter" onclick="document.querySelector('.container').scrollIntoView({behavior: 'smooth'}); return false;" style="background: #FFD700; color: #1a1a1a; padding: 8px 20px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 0.9rem;">Subscribe Free</a>
+  <button onclick="document.getElementById('floating-subscribe').style.display='none'" style="background: transparent; border: none; color: white; font-size: 1.2rem; cursor: pointer; padding: 5px;">✕</button>
+</div>
+
 
 </div>
 {{ end }}
+
 
 
 
