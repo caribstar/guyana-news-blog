@@ -2,6 +2,7 @@
 title: "The New Georgetown: How Guyana's Capital is Transforming"
 date: 2026-01-16
 draft: false
+categories: ["The Guyanese Horizon", "Guyana Rising"]
 tags: ["infrastructure", "development", "Georgetown", "national-pride"]
 author: "Editorial Team"
 ---
@@ -20,7 +21,7 @@ Since 2020, Georgetown has seen:
 
 ## Beyond the Statistics
 
-But the real story isn't in the numbers—it's in the people.
+But the real story isn't in the numbersâ€”it's in the people.
 
 Rajiv Persaud, who returned from Toronto last year to open a tech startup, puts it simply: "I left because I didn't see opportunity. I came back because now I see nothing but opportunity."
 
@@ -30,7 +31,7 @@ His company, GuyanaTech Solutions, now employs 45 Guyanese developers, many of w
 
 The Demerara River waterfront, once avoided after dark, now bustles with evening activity. New restaurants serve everything from traditional pepperpot to international fusion cuisine. Families stroll along newly lit promenades. Street vendors sell coconut water and plantain chips to office workers on lunch breaks.
 
-"My grandmother remembers when this was the heart of Georgetown," says Michelle Chen, owner of River's Edge Café. "We're not building something new—we're reclaiming something we lost."
+"My grandmother remembers when this was the heart of Georgetown," says Michelle Chen, owner of River's Edge CafÃ©. "We're not building something newâ€”we're reclaiming something we lost."
 
 ## Challenges Remain
 
@@ -55,7 +56,7 @@ The transformation of Georgetown is just beginning. Plans are underway for:
 
 ## What It Means
 
-Georgetown's transformation is more than physical infrastructure. It represents a psychological shift—from a nation that exported its talent to one that nurtures and retains it.
+Georgetown's transformation is more than physical infrastructure. It represents a psychological shiftâ€”from a nation that exported its talent to one that nurtures and retains it.
 
 Walking through Bourda Market on a Saturday morning, you hear it in conversations. Pride. Hope. Excitement about tomorrow.
 
@@ -63,7 +64,7 @@ One vendor, selling mangoes and plantains, summed it up: "My children don't have
 
 ## The Guyanese Horizon
 
-This monthly feature will chronicle Guyana's journey—the successes, the challenges, the people building tomorrow. Because understanding where we're going requires seeing where we are.
+This monthly feature will chronicle Guyana's journeyâ€”the successes, the challenges, the people building tomorrow. Because understanding where we're going requires seeing where we are.
 
 Georgetown is rising. And so is Guyana.
 

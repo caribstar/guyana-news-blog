@@ -2,6 +2,7 @@
 title: "Dr. Sharmila Persaud: From Berbice to Brain Surgery"
 date: 2026-01-16
 draft: false
+categories: ["Patriots Portfolio", "Guyana Rising"]
 tags: ["diaspora", "healthcare", "success-story", "inspiration"]
 author: "Editorial Team"
 ---
@@ -29,7 +30,7 @@ A scholarship to Johns Hopkins came next. Then residency. Then fellowship. Now, 
 
 ## The Guyana Connection
 
-But success hasn't severed her rootsâ€”it's strengthened them.
+But success hasn't severed her rootsÃ¢â‚¬â€it's strengthened them.
 
 Dr. Persaud:
 - Returns to Guyana quarterly for medical missions
@@ -38,7 +39,7 @@ Dr. Persaud:
 - Donated equipment to Georgetown Public Hospital
 - Mentors young Guyanese doctors remotely
 
-"I'm successful because Guyana made me who I am," she explains. "The work ethic, the resilience, the determinationâ€”that's all Guyana."
+"I'm successful because Guyana made me who I am," she explains. "The work ethic, the resilience, the determinationÃ¢â‚¬â€that's all Guyana."
 
 ## The Berbice Spirit
 
@@ -52,7 +53,7 @@ The surgery succeeded.
 
 Dr. Persaud is often asked to speak at schools in Guyana. Her message is consistent:
 
-"Your circumstances don't define your destination. I studied by lamplight. You have electricity and internet. You have no excuseâ€”and unlimited potential."
+"Your circumstances don't define your destination. I studied by lamplight. You have electricity and internet. You have no excuseÃ¢â‚¬â€and unlimited potential."
 
 She pauses. "But also: never forget where you came from. Success means nothing if you don't bring others along."
 
@@ -78,7 +79,7 @@ Outside the hospital, Dr. Persaud maintains her Guyanese identity fiercely:
 
 ## The Photo
 
-That photo on her deskâ€”the one of her grandmother's house in Berbice?
+That photo on her deskÃ¢â‚¬â€the one of her grandmother's house in Berbice?
 
 "It reminds me every day why I do this work," she explains. "And reminds me that no matter how far I've come, that's still home."
 
@@ -86,4 +87,4 @@ Dr. Sharmila Persaud proves what's possible when Guyanese excellence meets oppor
 
 ---
 
-*Patriots' Portfolio is a weekly feature celebrating successful Guyanese at home and abroadâ€”their journeys, their achievements, and their continued connection to the land that shaped them.*
+*Patriots' Portfolio is a weekly feature celebrating successful Guyanese at home and abroadÃ¢â‚¬â€their journeys, their achievements, and their continued connection to the land that shaped them.*
