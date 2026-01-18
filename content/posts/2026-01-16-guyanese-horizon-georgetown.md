@@ -1,15 +1,8 @@
 ---
 title: "The New Georgetown: How Guyana's Capital is Transforming"
-date: 2026-01-16T09:00:00-04:00
+date: 2026-01-16
 draft: false
-categories:
-  - "Guyana Rising"
-  - "The Guyanese Horizon"
-tags:
-  - infrastructure
-  - development
-  - Georgetown
-  - national-pride
+tags: ["infrastructure", "development", "Georgetown", "national-pride"]
 author: "Editorial Team"
 ---
 

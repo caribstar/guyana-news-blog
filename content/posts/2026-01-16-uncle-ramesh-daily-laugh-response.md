@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Uncle Ramesh: De Report-A-Hole FACTS (With Receipts!)"
-date: 2026-01-16T07:00:00-04:00
+date: 2026-01-16
 draft: false
 categories: ["Uncle Ramesh", "Response"]
 tags: ["uncle-ramesh", "commentary", "government-apps", "factual", "infrastructure"]
