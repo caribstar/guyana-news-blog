@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GuySuCo Chaos on The Guyana Brief</title>
-    <link>https://guyanadailybrief.com/tags/guysuco-chaos/</link>
+    <link>http://localhost:1313/tags/guysuco-chaos/</link>
     <description>Recent content in GuySuCo Chaos on The Guyana Brief</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://guyanadailybrief.com/tags/guysuco-chaos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/guysuco-chaos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monday&#39;s Guyana Brief: The Week Starts With a Yelling</title>
-      <link>https://guyanadailybrief.com/posts/2026-01-12-monday-brief/</link>
+      <link>http://localhost:1313/posts/2026-01-12-monday-brief/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/posts/2026-01-12-monday-brief/</guid>
+      <guid>http://localhost:1313/posts/2026-01-12-monday-brief/</guid>
       <description>&lt;p&gt;Good morning, Guyana! ☕&lt;/p&gt;
 &lt;p&gt;Welcome to Monday, where last week&amp;rsquo;s problems are this week&amp;rsquo;s problems with a fresh coat of optimistic denial.&lt;/p&gt;
 &lt;p&gt;Nothing got fixed over the weekend. Shocked? You shouldn&amp;rsquo;t be.&lt;/p&gt;
