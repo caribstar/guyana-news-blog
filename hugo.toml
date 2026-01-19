@@ -16,6 +16,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 images = ["/images/social-share.png"]
+defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
 [params.label]
   icon = "/images/logo.jpg"
   iconHeight = 35
@@ -109,3 +110,4 @@ unsafe = true
 
 # Social share image (shows when sharing on Facebook, WhatsApp, Twitter, etc.)
 images = ["/images/social-share.png"]
+defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
