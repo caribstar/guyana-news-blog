@@ -15,7 +15,7 @@ buildFuture = false
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-
+images = ["/images/social-share.png"]
 [params.label]
   icon = "/images/logo.jpg"
   iconHeight = 35

@@ -4,6 +4,11 @@
     <title>📊 Weekly Roundup on The Guyana Brief</title>
     <link>https://guyanadailybrief.com/roundup/</link>
     <description>Recent content in 📊 Weekly Roundup on The Guyana Brief</description>
+    <image>
+      <title>The Guyana Brief</title>
+      <url>https://guyanadailybrief.com/images/social-share.png</url>
+      <link>https://guyanadailybrief.com/images/social-share.png</link>
+    </image>
     <generator>Hugo -- 0.154.3</generator>
     <language>en-us</language>
     <atom:link href="https://guyanadailybrief.com/roundup/index.xml" rel="self" type="application/rss+xml" />
