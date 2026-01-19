@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Jagdeo's Silence: The Political Strategy Behind Saying Nothing"
 date: 2026-01-10
 draft: false
@@ -6,7 +6,7 @@ categories: ["Magazine"]
 tags: ["Politics", "Jagdeo", "Analysis", "Investigation"]
 summary: "Vice President Bharrat Jagdeo hasn't held a press conference in three weeks. For a politician known for weekly media briefings, his sudden silence speaks volumes. We investigate what's really happening behind closed doors."
 cover:
-    image: "https://images.unsplash.com/photo-1541872703-74c34b2b6f79?w=1200"
+    image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200"
     alt: "Empty press conference room"
 ---
 
