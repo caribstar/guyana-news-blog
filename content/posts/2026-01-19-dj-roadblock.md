@@ -6,6 +6,10 @@ tags: ["DJ Roadblock", "traffic", "Georgetown", "weekly", "roads", "potholes"]
 description: "Yuh weekly guide to navigating de madness on Guyana roads. West Ruimveldt crying, Regent Street swimming, and de cones multiplying!"
 ---
 
+*Disclaimer: DJ Roadblock's Traffic Report is satirical commentary on Guyana's road infrastructure and general traffic situations. No specific individuals are referenced or targeted. This is entertainment about SYSTEMS and SITUATIONS, not people.*
+
+---
+
 **🎙️ WAAAAAH GWAAN GUYANA! Is ya boy DJ Roadblock comin' at you LIVE from de dashboard, dodging potholes like is a video game! Sunday edition, baby — even de roads need a day of rest, but dem ain't getting one!**
 
 ---
@@ -14,11 +18,11 @@ description: "Yuh weekly guide to navigating de madness on Guyana roads. West Ru
 
 ### West Ruimveldt - De Forgotten Land
 
-Bai, de people of West Ruimveldt CRYING. Hibiscus Street got potholes so deep, man tell me he DROP HE PHONE in one and it REACH CHINA. Shawn Morris tell de Chronicle he car breaking up every day — and dat was BEFORE de latest rain!
+Bai, de people of West Ruimveldt CRYING. Residents been telling de newspapers for YEARS dat de roads breaking up dey vehicles! The Chronicle reported it. Stabroek reported it. EVERYBODY reported it.
 
-De M&CC know about it. Councillor Trichria Richards say she "aware." 
+De M&CC know about it. Officials say dey "aware." 
 
-AWARE? Lady, me AWARE dat I hungry, but dat don't mean food appearing on me plate! Awareness don't fix roads!
+AWARE? Me AWARE dat I hungry, but dat don't mean food appearing on me plate! Awareness don't fix roads!
 
 **Pro tip:** If you MUST drive West Ruimveldt, follow de goats. Dem know which holes to avoid.
 
@@ -26,9 +30,11 @@ AWARE? Lady, me AWARE dat I hungry, but dat don't mean food appearing on me plat
 
 ### De Abreu Street, Kitty - Pothole Paradise
 
-Dis street been bad since BEFORE some ah you was born. People telling Stabroek News it ain't fix since 2012! FOURTEEN YEARS of potholes, family!
+Dis street been bad since BEFORE some ah you was born. Residents telling de papers it ain't properly fixed in YEARS! 
 
-Private school deh there. Grocery shop deh there. Auto repair shop deh there — and TRUST ME, de auto repair man EATING GOOD because everybody vehicle getting destroy on dat street!
+Private school deh there. Grocery shop deh there. Auto repair shop deh there — and TRUST ME, de auto repair business BOOMING because everybody vehicle getting destroy on dat street!
+
+De potholes got potholes. Is like inception but fuh road damage.
 
 **Rating:** 🕳️🕳️🕳️🕳️🕳️ (5 out of 5 potholes)
 
@@ -38,9 +44,9 @@ Private school deh there. Grocery shop deh there. Auto repair shop deh there —
 
 ### Regent Street - De Swimming Pool
 
-Every time rain fall, Regent Street become Olympic swimming venue. Last month, people wading through ankle-high water like is normal Tuesday. 
+Every time rain fall, Regent Street become Olympic swimming venue. People wading through ankle-high water like is normal Tuesday. 
 
-De pumps working, dey say. All 13 pumps in Georgetown operational, Minister Mustapha confirm.
+De pumps working, dey say. All 13 pumps in Georgetown operational, de Minister confirm.
 
 But somehow... SOMEHOW... Regent Street still flooding. 
 
@@ -50,19 +56,17 @@ Is like de water got personal beef wid Regent Street. Water see Regent Street an
 
 ### Bel Air Park - "Posh" But Still Flooded
 
-You think because you living in Bel Air Park you safe? NAH! Even de fancy areas flooding when rain fall!
+You think because you living in de fancy areas you safe? NAH! Even de nice neighborhoods flooding when rain fall!
 
-Money cyaan stop water, family. Yuh Prado and yuh Land Cruiser still gotta wade through de same flood as everybody else!
+Money cyaan stop water, family. Yuh expensive vehicle still gotta wade through de same flood as everybody else!
 
 ---
 
 ### Sheriff Street - De Eternal Crater
 
-Remember dat pothole by KFC? SHE STILL DEH! And she GROWING! 
+Remember dat pothole by de fast food place? SHE STILL DEH! And she GROWING! 
 
-I hear dem naming she now. Some people calling she "Bertha." Others calling she "De Abyss."
-
-One man swear he see a Fielder go down in deh and ain't come back out. We can't confirm, but we also can't DENY.
+I hear people naming potholes now. One crater so old, it should have voting rights!
 
 **Avoidance strategy:** Hug de left side, say a prayer, and accelerate.
 
@@ -80,15 +84,18 @@ Weekend traffic light, so you might actually MOVE today. Enjoy it. Come Monday, 
 
 ---
 
-## 🏆 WORST DRIVER OF DE WEEK
+## 🚗 GENERAL TRAFFIC OBSERVATIONS
 
-**White Hilux, tinted windows, NO license plate visible**
+**De Parking Situation:**
+Why people parking like dey fighting with de parking space? Some vehicles taking up THREE spots at de market! Others parking ON de sidewalk like sidewalk is extra lane!
 
-You know who you are. Friday evening, Sheriff Street. You run de red light, nearly clip a bicycle man, THEN you had de AUDACITY to blow horn at HIM like is HE fault!
+Guyana needs parking lessons, not just driving lessons!
 
-And den you park on de SIDEWALK outside de restaurant like sidewalk is parking lot!
+**De Indicator Epidemic:**
+Indicators exist, people! Dat little stick by de steering wheel? USE IT! Sally don't have psychic powers to know you turning!
 
-You not BOSS. You a MENACE. And karma coming fuh you in de form of a BIG POTHOLE.
+**De Rush Hour Reality:**
+If you leaving office at 5 PM, just bring a book. Or snacks. Or both. Because you sitting in traffic till at least 6:30.
 
 ---
 
@@ -102,17 +109,33 @@ You not BOSS. You a MENACE. And karma coming fuh you in de form of a BIG POTHOLE
 
 4. **If you see cones** - Turn around. Just turn around. De cones multiplying and nobody know when dat "work" finishing.
 
+5. **Check yuh suspension** - If you driving Georgetown regularly, budget for repairs!
+
 ---
 
 ## 📊 ROAD CONDITION RATINGS
 
 | Area | Rating | Comment |
 |------|--------|---------|
-| West Ruimveldt | 💀 | Send help |
-| De Abreu St, Kitty | 💀 | 14 years of neglect |
-| Sheriff Street | ⚠️ | Bertha still hungry |
-| Regent Street | 🌊 | Bring yuh swimsuit |
+| West Ruimveldt | 💀 | Infrastructure needs help |
+| De Abreu St, Kitty | 💀 | Years of neglect |
+| Sheriff Street | ⚠️ | Craters expanding |
+| Regent Street | 🌊 | Bring yuh kayak |
 | Vlissengen Road | ✅ | For now... |
+
+---
+
+## 🏆 INFRASTRUCTURE HALL OF SHAME
+
+This week's nominations go to:
+
+1. **De Drainage System** - For giving de impression of working while flooding continues
+
+2. **De Road Marking Crew** - For lines so faded, you need faith to find yuh lane
+
+3. **De Traffic Light Timer** - Who programmed dese? You get green light for 5 seconds, then red for 5 MINUTES!
+
+4. **De Pothole Filler** - For patches dat last approximately ONE RAINFALL before disappearing
 
 ---
 
@@ -120,7 +143,11 @@ You not BOSS. You a MENACE. And karma coming fuh you in de form of a BIG POTHOLE
 
 Georgetown below sea level. We know dis. De Dutch build we drainage system centuries ago. And somehow, in 2026, with oil money flowing, we STILL can't drive from Kitty to Stabroek without needing a mechanic appointment after.
 
-But hey — at least de pumps working! 
+De government making progress, yes. New projects happening, yes. But de BASIC roads in RESIDENTIAL AREAS? Still waiting!
+
+DJ Roadblock not blaming any specific person — dis is a SYSTEMS problem dat need SYSTEMS solutions!
+
+But hey — at least de pumps "working"! 
 
 Even if de roads ain't.
 
@@ -132,4 +159,4 @@ Even if de roads ain't.
 
 ---
 
-*DJ Roadblock's Traffic Report runs every Friday/Saturday. All reports are satirical and for entertainment purposes. Actual road conditions may vary. Probably worse. Definitely worse.*
+*DJ Roadblock's Traffic Report is satirical commentary on infrastructure and traffic conditions. No specific individuals are targeted. Actual road conditions may vary. Probably worse. Definitely worse. This is entertainment, not news.* 🇬🇾
