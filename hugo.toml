@@ -26,6 +26,7 @@ author = "CARIBSTAR"
 env = "production"
 ShowReadingTime = true
 ShowShareButtons = true
+ShareButtons = ["facebook", "x", "whatsapp", "telegram"]
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
