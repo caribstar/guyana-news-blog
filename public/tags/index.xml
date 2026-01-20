@@ -42,13 +42,6 @@
       <description></description>
     </item>
     <item>
-      <title>Budget 2026</title>
-      <link>https://guyanadailybrief.com/tags/budget-2026/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/budget-2026/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Commentary</title>
       <link>https://guyanadailybrief.com/tags/commentary/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -70,17 +63,17 @@
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>https://guyanadailybrief.com/tags/development/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DJ Roadblock</title>
       <link>https://guyanadailybrief.com/tags/dj-roadblock/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/dj-roadblock/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exxon</title>
+      <link>https://guyanadailybrief.com/tags/exxon/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/exxon/</guid>
       <description></description>
     </item>
     <item>
@@ -105,6 +98,13 @@
       <description></description>
     </item>
     <item>
+      <title>Government Progress</title>
+      <link>https://guyanadailybrief.com/tags/government-progress/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/government-progress/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Guyana</title>
       <link>https://guyanadailybrief.com/tags/guyana/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -126,6 +126,13 @@
       <description></description>
     </item>
     <item>
+      <title>Infrastructure</title>
+      <link>https://guyanadailybrief.com/tags/infrastructure/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Monthly</title>
       <link>https://guyanadailybrief.com/tags/monthly/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -140,10 +147,17 @@
       <description></description>
     </item>
     <item>
-      <title>NIS</title>
-      <link>https://guyanadailybrief.com/tags/nis/</link>
+      <title>Oil Contract</title>
+      <link>https://guyanadailybrief.com/tags/oil-contract/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/nis/</guid>
+      <guid>https://guyanadailybrief.com/tags/oil-contract/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opposition Leader</title>
+      <link>https://guyanadailybrief.com/tags/opposition-leader/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/opposition-leader/</guid>
       <description></description>
     </item>
     <item>
@@ -154,24 +168,10 @@
       <description></description>
     </item>
     <item>
-      <title>PNCR</title>
-      <link>https://guyanadailybrief.com/tags/pncr/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/pncr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Potholes</title>
       <link>https://guyanadailybrief.com/tags/potholes/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/potholes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PPP</title>
-      <link>https://guyanadailybrief.com/tags/ppp/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/ppp/</guid>
       <description></description>
     </item>
     <item>
@@ -210,13 +210,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sports</title>
-      <link>https://guyanadailybrief.com/tags/sports/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/sports/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Traffic</title>
       <link>https://guyanadailybrief.com/tags/traffic/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -249,6 +242,13 @@
       <link>https://guyanadailybrief.com/tags/youth/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/youth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://guyanadailybrief.com/tags/development/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/development/</guid>
       <description></description>
     </item>
     <item>
@@ -315,6 +315,13 @@
       <description></description>
     </item>
     <item>
+      <title>Sports</title>
+      <link>https://guyanadailybrief.com/tags/sports/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/sports/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Inspiration</title>
       <link>https://guyanadailybrief.com/tags/inspiration/</link>
       <pubDate>Fri, 16 Jan 2026 10:00:00 -0400</pubDate>
@@ -326,13 +333,6 @@
       <link>https://guyanadailybrief.com/tags/success-story/</link>
       <pubDate>Fri, 16 Jan 2026 10:00:00 -0400</pubDate>
       <guid>https://guyanadailybrief.com/tags/success-story/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Infrastructure</title>
-      <link>https://guyanadailybrief.com/tags/infrastructure/</link>
-      <pubDate>Fri, 16 Jan 2026 09:00:00 -0400</pubDate>
-      <guid>https://guyanadailybrief.com/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
@@ -413,7 +413,7 @@
       <description></description>
     </item>
     <item>
-      <title>Judiciary Drama</title>
+      <title>Judiciary-Drama</title>
       <link>https://guyanadailybrief.com/tags/judiciary-drama/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/judiciary-drama/</guid>

@@ -1,116 +1,119 @@
 ---
-title: "🇬🇾 Uncle Ramesh Responds: 37,000 Solar Panels and de Opposition Still in de Dark!"
+title: "🇬🇾 Uncle Ramesh Responds: Jordan Finally Talking Truth, Border Security Strong, and Mash Coming!"
 date: 2026-01-19
-categories: ["Uncle Ramesh", "Response"]
-tags: ["Budget 2026", "Solar Energy", "Development", "PPP", "PNCR"]
-description: "Uncle Ramesh reads the papers from Queens and finds the REAL stories the Daily Brief conveniently forgot."
+categories: ["Uncle Ramesh"]
+tags: ["Exxon", "Oil Contract", "Venezuela", "Infrastructure", "Government Progress"]
+description: "Uncle Ramesh sets the record straight on who really signed that oil contract, praises border vigilance, and gets ready for Republic Day."
 ---
 
-*From the recliner in Queens, NY, with CNN muted and the Guyana papers open on the iPad...*
-
----
-
-Aye aye aye! Is Sunday morning here in Queens and me nephew send me dat "Daily Brief" to read. I does read it, you know, just to see what kinda slant dem putting on tings. But first, leh me tell you what I READ IN DE PAPERS MESELF!
-
-## ☀️ 37,000 SOLAR SYSTEMS! (Why de Brief Ain't Mention Dis?)
-
-You know what **Prime Minister Mark Phillips** announce today? **THIRTY-SEVEN THOUSAND household solar systems** done deliver to hinterland communities! 
-
-Thirty-seven thousand, beta! Dat is families who never had reliable electricity now getting power from de sun! De government bringing **50 megawatts of renewable energy** by end of 2026!
-
-But wait, leh me check de Daily Brief... *scrolls up*... *scrolls down*... 
-
-NOTHING! Not one word! 
-
-Dem talking bout toy guns and day care ribbon, but 37,000 families getting electricity? Dat not news? Chupidee reporting, I tell you!
+*Uncle Ramesh's pro-government perspective from Queens, NY. He reads the same news and sees something completely different!*
 
 ---
 
-## 🏗️ School Feeding Programme Expanding Too!
+## 🎯 Finally! Winston Jordan Admits APNU+AFC Messed Up
 
-**Minister Parag** announce de government expanding de **National School Feeding programme** - more children getting meals, more schools covered. 
+Eh eh! So now Winston Jordan, the **former APNU+AFC Finance Minister**, finally come out and admit what we been saying all along - **THEY signed a bad deal with Exxon!**
 
-Dis is how you fight poverty, beta! You feed de children so dem can learn! But dat not "exciting" enough for de Daily Brief, nah? Dem rather talk bout pholourie and mango sour.
+Not PPP. Not Jagdeo. Not Ali. **THEM.**
 
----
+Jordan himself say Guyana was "exploited" and they signed away 600 blocks instead of 60. He blaming Venezuela pressure and failing industries, but lemme tell you something - that's called **making excuses for incompetence.**
 
-## 💰 Now Leh Me Address Dis NIS Nonsense
+You know what a competent government woulda do? Get proper legal advice. Hire oil experts. Negotiate harder. But no, they sign anything Exxon put in front of them because they was desperate.
 
-De Brief asking "where $10 billion go" like is some mystery. Beta, you know how pension funds work? You INJECT capital to make it SUSTAINABLE for de LONG TERM! 
+And now these same people want to criticize the PPP for not renegotiating? **Bai, you sign the contract!** You think Exxon gon tear it up because we ask nice?
 
-De previous government had NIS heading for collapse! Now it stable! Pensioners getting increases EVERY YEAR! 
-
-But Kaieteur News want make it sound like somebody thief de money. Same Kaieteur News, same story, every day. If dem put dat energy into actual journalism, imagine what could happen!
+The PPP doing what it can - maximizing local content, building infrastructure with the revenue, creating jobs. **That's how you work with a bad hand you didn't deal yourself.**
 
 ---
 
-## 🗳️ Budget Consultations: De Truth
+## 🛡️ Border Security: This Is What Real Leadership Looks Like
 
-De Brief make joke bout opposition not getting invited to consultations. Leh me explain something...
+PM Phillips announce troops on "heightened readiness" at the borders after the Venezuela situation. **This is exactly what we need** - calm, professional, prepared.
 
-De **Private Sector** bring IDEAS. Tax proposals, investment plans, job creation strategies. 
+No panic. No inflammatory statements. No chest-beating. Just **quiet competence.**
 
-De **PNCR** bring... what exactly? "Investigate PPP" is not a budget item, beta! "Boycott Parliament" is not fiscal policy!
+The PM personally went to Region One to assess the situation. He met with defence officials, regional authorities, and residents. That's a leader who takes security seriously but doesn't create hysteria.
 
-You want consultation? Bring something to de table besides complaints! De government consulting people who actually want to BUILD, not people who just want to BLOCK!
+Compare this to how the APNU+AFC handled anything - remember the chaos? The contradictions? The confusion?
 
----
-
-## 🇬🇾 Venezuela: We Standing Strong!
-
-Yes, Maduro still making noise. But you know what? **CARICOM standing with Guyana. OAS standing with Guyana. United States standing with Guyana.** 
-
-Dis government DIPLOMACY working! When de PNC was in power, who was standing with dem? Nobody! Because dem had no international relations!
-
-Now we have de whole world backing we territorial integrity. Dat is LEADERSHIP, beta!
+**This government moves different.** Professional. Strategic. Ready for anything but not looking for trouble.
 
 ---
 
-## 🏏 Cricket: Finally Something We Agree On!
+## 🏗️ Infrastructure Moving: Moleson Creek Road Opening Up Berbice
 
-Yes, **Shemaine Campbelle** played a blinder! 50 not out! Guyana women blazing!
+While the opposition busy complaining, the government busy **building.**
 
-See, even de Daily Brief can't find a way to make dis negative. Some tings just too good to twist up!
+The Moleson Creek to Eldorado Road project connecting Crabwood Creek to Orealla to Kwakwani? **That's transformation.** Thousands of acres of farmland opening up. Farmers getting market access. Remote communities connected.
 
----
+Minister Ramraj said it best: "This road is opening farm-to-market access and unlocking thousands of acres of land for farmers."
 
-## 📋 What Uncle Ramesh Reading Dis Week
+**That's development.** Not talk. Not promises. Actual construction happening right now.
 
-From de **Guyana Chronicle**:
-- Government launching **Coursera partnership** for public service upskilling
-- **29 new bridges** planned for Regions Eight and Nine
-- **$993 million Karasabai airstrip** construction starting - 50 local jobs!
-- **Minister Manickchand** meeting with Linden Town Council on development
-
-From **Guyana Times**:
-- More special needs schools opening across de country
-- Agricultural expansion in Lethem
-
-You see how much DEVELOPMENT happening? But de negative papers don't want you to know!
+And yes, some school projects in Region Nine moving slower than planned. You know what? **Hinterland construction is hard.** Getting materials there, weather challenges, logistics. The opposition MP Duncan want to score political points, but the projects still progressing. They'll get done.
 
 ---
 
-## 🎤 Uncle Ramesh Final Word
+## 🗳️ Opposition Leader Drama: They Can't Even Organize Themselves
 
-Beta, is Sunday. I know some ah you reading de Daily Brief and laughing at de jokes. Dat okay - even I does laugh sometimes. Comedy is comedy.
+Lincoln Lewis and the letter writers demanding the Opposition Leader election. **But wait** - isn't this an opposition problem?
 
-But don't let de jokes make you forget de FACTS:
+The opposition parties can't even agree among themselves who should lead. WIN, APNU, AFC - they all fighting like crabs in a barrel. And they want blame the government?
 
-✅ 37,000 solar systems delivered
-✅ School feeding expanding  
-✅ Airstrips bringing connectivity to hinterland
-✅ International community backing Guyana
-✅ Economy still growing
-✅ Jobs being created
+**Article 184 is clear** - the non-government members elect the Opposition Leader. The Speaker chairs it. But the opposition members have to **actually agree** on a candidate first!
 
-De opposition offering what? Protests? Boycotts? Investigations into investigations?
+Instead of writing letters to newspapers, maybe they should have a meeting? Just a thought.
 
-I rest me case.
-
-Now excuse me, de doubles man just reach on Liberty Avenue and I need to get me Sunday breakfast before de line get too long!
-
-**One Guyana, beta! One Guyana!** 🇬🇾
+Meanwhile, the government busy governing. Budget consultations happening with the Private Sector Commission, Georgetown Chamber of Commerce, and business groups nationwide. **Work continues whether opposition shows up or not.**
 
 ---
 
-*Uncle Ramesh is a retired accountant from Berbice now living in Queens, NY. He reads all four Guyana newspapers daily and provides "balance" to his nephew's Daily Brief. He is not a PPP member but he "know good governance when he see it."*
+## 🎉 Republic Day Coming: 56 Years of Sovereignty
+
+Next month marks **56 years since Guyana became a Republic.** Mashramani season approaching!
+
+This is what we should be celebrating - our independence, our sovereignty, our progress. Look how far we've come since 1970. An oil-producing nation. Growing economy. International respect.
+
+Yes, we have challenges. Every country does. But we also have achievements worth celebrating.
+
+The government committed to inclusive development, marginalised groups getting support, schools for children with disabilities opening (like the Yas School of Inspiration), solar farms commissioning in Region Two.
+
+**Progress is happening.** You just have to open your eyes to see it.
+
+---
+
+## ⚡ What The Brief Didn't Tell You
+
+| The Real Story | What Opposition Won't Admit |
+|----------------|----------------------------|
+| **Jordan confession** | APNU+AFC signed the bad contract, not PPP |
+| **Border security** | Professional response, troops ready, no panic |
+| **Gas plant deadline extended** | "Strong interest" means companies actively preparing bids |
+| **Four Miles audit** | Government responding to residents' concerns properly |
+| **School projects** | Hinterland construction is complex, but progressing |
+
+---
+
+## 🇬🇾 Uncle Ramesh's Monday Message
+
+Listen, today a former APNU+AFC minister admitted on live broadcast that his government got exploited by Exxon. **On live broadcast.** 
+
+That's not PPP propaganda. That's not Kaieteur spin. That's **their own man** saying what happened.
+
+So the next time somebody try tell you the PPP responsible for the oil contract, you remind them: Winston Jordan just told you the truth. Finally.
+
+Now the PPP working with what they inherited - building roads, securing borders, developing the country. **That's what good governance looks like.**
+
+Is Monday. The week just starting. The government working. 
+
+And somewhere in Berbice, a road crew connecting farmers to markets. 
+
+**Progress, baby. Progress.** 🇬🇾
+
+---
+
+*Uncle Ramesh is a fictional character. His views represent a satirical pro-government perspective and do not reflect the opinions of this publication.*
+
+---
+
+*Read all four papers yourself: [Guyana Chronicle](https://guyanachronicle.com) | [Stabroek News](https://stabroeknews.com) | [Kaieteur News](https://kaieteurnewsonline.com) | [Guyana Times](https://guyanatimesgy.com)*
