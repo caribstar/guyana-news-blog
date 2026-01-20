@@ -14,6 +14,13 @@
     <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://guyanadailybrief.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Adventure</title>
+      <link>https://guyanadailybrief.com/tags/adventure/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/adventure/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Barbados</title>
       <link>https://guyanadailybrief.com/tags/barbados/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
@@ -35,6 +42,20 @@
       <description></description>
     </item>
     <item>
+      <title>Friendship</title>
+      <link>https://guyanadailybrief.com/tags/friendship/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/friendship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GNS</title>
+      <link>https://guyanadailybrief.com/tags/gns/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/gns/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Government Response</title>
       <link>https://guyanadailybrief.com/tags/government-response/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
@@ -49,10 +70,24 @@
       <description></description>
     </item>
     <item>
+      <title>Guyanese-Culture</title>
+      <link>https://guyanadailybrief.com/tags/guyanese-culture/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/guyanese-culture/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Haiti</title>
       <link>https://guyanadailybrief.com/tags/haiti/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/haiti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hospital</title>
+      <link>https://guyanadailybrief.com/tags/hospital/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/hospital/</guid>
       <description></description>
     </item>
     <item>
@@ -91,10 +126,10 @@
       <description></description>
     </item>
     <item>
-      <title>Adventure</title>
-      <link>https://guyanadailybrief.com/tags/adventure/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/adventure/</guid>
+      <title>Youth</title>
+      <link>https://guyanadailybrief.com/tags/youth/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/youth/</guid>
       <description></description>
     </item>
     <item>
@@ -140,13 +175,6 @@
       <description></description>
     </item>
     <item>
-      <title>Friendship</title>
-      <link>https://guyanadailybrief.com/tags/friendship/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/friendship/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Georgetown</title>
       <link>https://guyanadailybrief.com/tags/georgetown/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -165,13 +193,6 @@
       <link>https://guyanadailybrief.com/tags/government-progress/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/government-progress/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guyanese-Culture</title>
-      <link>https://guyanadailybrief.com/tags/guyanese-culture/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/guyanese-culture/</guid>
       <description></description>
     </item>
     <item>
@@ -266,7 +287,7 @@
       <description></description>
     </item>
     <item>
-      <title>Uncle Ramesh</title>
+      <title>Uncle-Ramesh</title>
       <link>https://guyanadailybrief.com/tags/uncle-ramesh/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/uncle-ramesh/</guid>
@@ -284,13 +305,6 @@
       <link>https://guyanadailybrief.com/tags/weekly/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/weekly/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Youth</title>
-      <link>https://guyanadailybrief.com/tags/youth/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/youth/</guid>
       <description></description>
     </item>
     <item>
@@ -371,14 +385,14 @@
       <description></description>
     </item>
     <item>
-      <title>National-Pride</title>
+      <title>National Pride</title>
       <link>https://guyanadailybrief.com/tags/national-pride/</link>
       <pubDate>Fri, 16 Jan 2026 09:00:00 -0400</pubDate>
       <guid>https://guyanadailybrief.com/tags/national-pride/</guid>
       <description></description>
     </item>
     <item>
-      <title>Oil Production</title>
+      <title>Oil-Production</title>
       <link>https://guyanadailybrief.com/tags/oil-production/</link>
       <pubDate>Fri, 16 Jan 2026 09:00:00 -0400</pubDate>
       <guid>https://guyanadailybrief.com/tags/oil-production/</guid>
@@ -441,14 +455,14 @@
       <description></description>
     </item>
     <item>
-      <title>Government Promises</title>
+      <title>Government-Promises</title>
       <link>https://guyanadailybrief.com/tags/government-promises/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/government-promises/</guid>
       <description></description>
     </item>
     <item>
-      <title>Judiciary Drama</title>
+      <title>Judiciary-Drama</title>
       <link>https://guyanadailybrief.com/tags/judiciary-drama/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/judiciary-drama/</guid>
