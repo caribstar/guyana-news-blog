@@ -17,34 +17,49 @@
   background: var(--theme);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-}
-
-/* Add subtle shadow when scrolled */
-.header {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* Cover image text overlay for readability */
-.post-header {
+/* Cover image text overlay for readability - ALL pages */
+.entry-cover,
+.post-cover {
   position: relative;
 }
 
-.entry-cover {
-  position: relative;
-}
-
-.entry-cover::after {
+.entry-cover::after,
+.post-cover::after {
   content: '';
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70%;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  background: linear-gradient(transparent 30%, rgba(0,0,0,0.7));
   pointer-events: none;
 }
 
-.entry-cover .post-title {
+/* White text on cover images */
+.entry-cover h1,
+.entry-cover h2,
+.entry-cover .post-title,
+.post-cover h1,
+.post-cover h2,
+.post-cover .post-title,
+.page-header h1,
+.term-title {
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+/* Fix for search and other special pages with dark headers */
+.page-header {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.page-header h1 {
+  color: #ffffff !important;
+  margin: 0;
 }
