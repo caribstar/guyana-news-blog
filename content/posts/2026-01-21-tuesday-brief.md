@@ -1,6 +1,7 @@
 ---
 title: "Tuesday Brief: Opposition Leader Coming Monday, Police Academy Scandal, and Georgetown Is STILL a Dumpster Fire"
 date: 2026-01-21
+summary: "Opposition Leader election finally set for Monday, Police Academy sexual exploitation scandal rocks the force, and Georgetown garbage crisis deepens as Mayor backs out of meeting."
 categories: ["Daily Brief"]
 tags: ["satire", "news", "guyana"]
 ---
