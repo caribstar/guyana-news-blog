@@ -39,6 +39,10 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
+
+  <!-- Related Posts Section -->
+  {{- partial "related-posts.html" . }}
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
