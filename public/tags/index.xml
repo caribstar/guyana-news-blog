@@ -14,6 +14,20 @@
     <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://guyanadailybrief.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Barbados</title>
+      <link>https://guyanadailybrief.com/tags/barbados/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/barbados/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Caribbean</title>
+      <link>https://guyanadailybrief.com/tags/caribbean/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/caribbean/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Development</title>
       <link>https://guyanadailybrief.com/tags/development/</link>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
@@ -49,7 +63,7 @@
       <description></description>
     </item>
     <item>
-      <title>Government-Promises</title>
+      <title>Government Promises</title>
       <link>https://guyanadailybrief.com/tags/government-promises/</link>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/government-promises/</guid>
@@ -70,6 +84,13 @@
       <description></description>
     </item>
     <item>
+      <title>Jamaica</title>
+      <link>https://guyanadailybrief.com/tags/jamaica/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/jamaica/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Opposition Leader</title>
       <link>https://guyanadailybrief.com/tags/opposition-leader/</link>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
@@ -81,6 +102,13 @@
       <link>https://guyanadailybrief.com/tags/politics/</link>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regional</title>
+      <link>https://guyanadailybrief.com/tags/regional/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/regional/</guid>
       <description></description>
     </item>
     <item>
@@ -98,24 +126,17 @@
       <description></description>
     </item>
     <item>
+      <title>Trinidad</title>
+      <link>https://guyanadailybrief.com/tags/trinidad/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://guyanadailybrief.com/tags/trinidad/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Adventure</title>
       <link>https://guyanadailybrief.com/tags/adventure/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/adventure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Barbados</title>
-      <link>https://guyanadailybrief.com/tags/barbados/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/barbados/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Caribbean</title>
-      <link>https://guyanadailybrief.com/tags/caribbean/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/caribbean/</guid>
       <description></description>
     </item>
     <item>
@@ -168,31 +189,10 @@
       <description></description>
     </item>
     <item>
-      <title>Jamaica</title>
-      <link>https://guyanadailybrief.com/tags/jamaica/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/jamaica/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>News</title>
       <link>https://guyanadailybrief.com/tags/news/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://guyanadailybrief.com/tags/news/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Regional</title>
-      <link>https://guyanadailybrief.com/tags/regional/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/regional/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trinidad</title>
-      <link>https://guyanadailybrief.com/tags/trinidad/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://guyanadailybrief.com/tags/trinidad/</guid>
       <description></description>
     </item>
     <item>
@@ -420,7 +420,7 @@
       <description></description>
     </item>
     <item>
-      <title>National Pride</title>
+      <title>National-Pride</title>
       <link>https://guyanadailybrief.com/tags/national-pride/</link>
       <pubDate>Fri, 16 Jan 2026 09:00:00 -0400</pubDate>
       <guid>https://guyanadailybrief.com/tags/national-pride/</guid>
@@ -462,7 +462,7 @@
       <description></description>
     </item>
     <item>
-      <title>Government-Apps</title>
+      <title>Government Apps</title>
       <link>https://guyanadailybrief.com/tags/government-apps/</link>
       <pubDate>Fri, 16 Jan 2026 07:00:00 -0400</pubDate>
       <guid>https://guyanadailybrief.com/tags/government-apps/</guid>
