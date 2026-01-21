@@ -1,115 +1,95 @@
-﻿---
-title: About The Guyana Brief
-date: 2026-01-09
+---
+title: "About The Guyana Brief"
+date: 2026-01-01
+layout: "single"
+url: "/about/"
+summary: "Learn about The Guyana Brief - Guyana's satirical news commentary"
+ShowToc: false
 ---
 
-<div style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 40px;">
-    <h1 style="color: white; font-size: 48px; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">E GUYANA BRIEF</h1>
-    <p style="color: white; font-size: 20px; margin: 0; font-weight: 500;">Because Someone Has to Read All 4 Newspapers</p>
-</div>
+## What Is The Guyana Brief?
 
-## What Is This?
+**The Guyana Brief** is Guyana's premier satirical news commentary platform. Every day, we read all four of Guyana's major newspapers — Guyana Chronicle, Stabroek News, Kaieteur News, and Guyana Times — so you don't have to.
 
-**The Guyana Brief** is your daily satirical digest of Guyana's news. Every morning, we read all four major newspapers (Stabroek News, Kaieteur News, Chronicle, and Guyana Times), then spend 5 minutes explaining what happened - with jokes.
-
-Think *The Onion* meets *The Daily Show*, but exclusively about Guyana. And with way more coverage of The Mohameds' extradition saga.
-
-## Why Do We Exist?
-
-Because Guyana's news cycle is absolutely wild and someone needs to point that out. 
-
-Where else can you find:
-- A highway that needs repairs 13 months after being built
-- An extradition case with more appeals than a telenovela has episodes  
-- Bridges that crack before they're paid off
-- Government promises with shorter lifespans than mayflies
-- Infrastructure projects that treat timelines as mild suggestions
-
-We love Guyana. That's why we can't stop laughing at it.
-
-## What We're NOT
-
-âŒ **Real journalism** - We're satirical commentary  
-âŒ **News reporting** - We add jokes to real news  
-âŒ **Politically affiliated** - We mock everyone equally  
-âŒ **Serious** - Have you read our content?
-
-## What We ARE
-
-âœ… **Satirical** - Like The Onion, but everything is actually true  
-âœ… **Daily** - New brief every day by noon (Guyana time)  
-âœ… **Free** - No paywall, no subscription, no BS  
-âœ… **Comprehensive** - We actually read all 4 papers so you don't have to
-
-## Our Promise
-
-Every day, we will:
-1. Read all four major Guyana newspapers
-2. Find the most absurd, frustrating, or hilarious stories
-3. Write about them with appropriate levels of sarcasm
-4. Deliver it to you in 5-6 minutes
-5. Never, ever get tired of The Mohameds saga
-
-## Meet CARIBSTAR
-
-Your editor, chief satirist, and person who reads way too much Guyanese news. 
-
-**Qualifications:**
-- Unhealthy obsession with Guyana's news cycle
-- Strong opinions about infrastructure
-- Expert-level eye-rolling at government promises
-- PhD in Mohamedology (self-awarded)
-- Dangerous levels of caffeine tolerance
-
-**Mission:** Make you laugh while staying informed. In that order.
-
-## Recurring Features You'll Love
-
-** Mohameds Saga** - Ongoing coverage of the extradition case that refuses to end. We're on appeal #infinity.
-
-**tructure Fails** - Bridges that crack, highways that need repairs, and the contractors who build them.
-
-**ment Promises** - Tracking all the things that were supposed to happen by "end of year."
-
-**nezuela Drama** - Because our neighbor keeps things interesting.
-
-**m Troubles** - When visitors discover Guyana is... exactly as advertised.
-
-## Want More?
-
-cribe** to get the daily brief in your inbox  
-rowse by topic** to follow your favorite running jokes  
-e** the laughs with fellow Guyanese who need them
-
-## Legal Stuff
-
-This is **satirical commentary**. We use real news sources and add humor. If you can't tell the difference between our jokes and reality, that says more about Guyana's news than it does about our satire.
-
-For the boring legal details, see our [Legal Disclaimer](/legal/).
-
-## Contact
-
-Got a tip? Spotted an error? Want to argue about our Mohamed takes?
-
-**Email:** caribbeandailybrief@gmail.com
-
-We read everything. We respond to most things. We ignore the really angry emails until we've had coffee.
+We distill the news into a **5-6 minute read** that's informative, entertaining, and occasionally absurd. Because sometimes, the only way to make sense of the news is to laugh at it.
 
 ---
 
-<div style="text-align: center; padding: 30px; background: #f8f9fa; border-radius: 10px; margin-top: 40px;">
-    <p style="font-size: 18px; margin: 0 0 20px 0; color: #333;"><strong>Ready to laugh your way through Guyana's news?</strong></p>
-    <form action="https://buttondown.com/api/emails/embed-subscribe/caribstar" method="post" target="popupwindow" style="display: inline-block;">
-        <div style="display: flex; gap: 10px;">
-            <input type="email" name="email" placeholder="your@email.com" required style="padding: 12px; border: 2px solid #ddd; border-radius: 5px; font-size: 16px;">
-            <button type="submit" style="padding: 12px 25px; background: #009E60; color: white; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer;">
-                SUBSCRIBE
-            </button>
-        </div>
-    </form>
-</div>
+## Our Format: The Dueling Blogs
+
+We present Guyana's news through two distinct voices:
+
+### The Daily Brief (Critical View)
+Our flagship feature covers 8-12 stories from all four newspapers with sharp, satirical commentary. We ask the questions everyone's thinking but nobody's saying out loud.
+
+### Uncle Ramesh (Diaspora View)
+Our fictional commentator from Queens, New York offers the pro-government diaspora perspective. Uncle Ramesh reads the same newspapers and sees... something entirely different. Together, the Daily Brief and Uncle Ramesh give you both sides of every story.
 
 ---
 
-*The Guyana Brief: Making Guyana's news slightly more bearable, one satirical digest at a time.* 
+## Weekly Features
 
+| Day | Features |
+|-----|----------|
+| **Sunday** | Speedeet and Wilar, De Boys Seh |
+| **Wednesday** | Progress Report, The Rumor Mill |
+| **Friday** | DJ Roadblock, Patriots Portfolio |
+| **Saturday** | Bam-Bam Sally, Back-A-Truck, Bounty Board |
+
+### Meet Our Characters
+
+- **Speedeet and Wilar** — Two 12-year-old best friends from Pike Street, Kitty, navigating childhood adventures in Guyana
+- **De Boys Seh** — Kid commentary on the news (from Speedeet and Wilar's perspective)
+- **DJ Roadblock** — Traffic and infrastructure updates with attitude
+- **Bam-Bam Sally** — Fictional gossip column (all names and scenarios are entirely made up)
+- **Progress Report** — Tracking government projects and promises
+- **Patriots Portfolio** — Following the business moves of Guyana's elite
+- **Back-A-Truck** — Weekend deals and market finds
+- **Bounty Board** — Community notices and events
+
+---
+
+## The Caribbean Daily Brief
+
+We're expanding! **The Caribbean Daily Brief** covers regional news from Jamaica, Trinidad and Tobago, Barbados, and across the Caribbean with the same satirical voice. Because the drama doesn't stop at Guyana's borders.
+
+---
+
+## Our Mission
+
+In a media landscape often divided along political lines, **The Guyana Brief** aims to:
+
+1. **Inform** — Summarize the day's news from multiple sources
+2. **Entertain** — Make the news accessible and engaging
+3. **Question** — Hold all sides accountable through satire
+4. **Balance** — Present multiple perspectives (even fictional ones)
+
+We believe Guyanese deserve news coverage that doesn't take itself too seriously, while still taking the issues seriously.
+
+---
+
+## Important Disclaimers
+
+**The Guyana Brief is satirical commentary.**
+
+- All content is based on news reported in Guyana's four major newspapers
+- Our satire targets **policies, decisions, and situations** — never individuals personally
+- **Uncle Ramesh** is a fictional character and does not represent any real person
+- **Bam-Bam Sally's** gossip column uses entirely fictional names and scenarios
+- **Speedeet and Wilar** are fictional characters; their stories are meant to entertain
+
+We are committed to operating within the bounds of Guyana's Cybercrime Act 2018, particularly Section 19. We do not engage in cyberbullying, defamation, or harassment of individuals.
+
+---
+
+## Contact Us
+
+Have a news tip? Want to advertise? Just want to give us feedback?
+
+**Email:** guyanadailybrief@gmail.com
+
+[Visit our Contact page](/contact/) for more details.
+
+---
+
+*The Guyana Brief — Reading four newspapers so you can read one.*
