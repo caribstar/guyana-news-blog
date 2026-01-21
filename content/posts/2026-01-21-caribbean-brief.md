@@ -1,164 +1,136 @@
-﻿---
-title: "Caribbean Weekly Roundup: Barbados Snap Election, Jamaica's Murder Drop, and the US Visa Freeze"
+---
+title: "Caribbean Daily Brief — January 21, 2026"
 date: 2026-01-21
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Barbados", "Jamaica", "Trinidad", "regional", "satire"]
-summary: "Mottley calls snap election for February 11, Jamaica celebrates 31-year murder low, Caribbean reeling from US visa pause, and Trinidad tackles childhood obesity. Your weekly Caribbean news digest."
+categories: ["Caribbean Brief"]
+tags: ["caribbean", "regional", "jamaica", "trinidad", "barbados", "haiti", "venezuela"]
+series: "Caribbean Daily Brief"
 ---
 
-*Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the region is more than just one country.*
-
----
-
-## &#127463;&#127463; BARBADOS: Mottley Calls Snap Election
-
-**February 11 Showdown - Third Term Bid Begins**
-
-Prime Minister Mia Mottley rang the bell - literally - on Saturday night to announce a snap general election for February 11, 2026. Parliament dissolved Monday (January 19), Nomination Day is January 27, and Bajans head to the polls in three weeks.
-
-This is Mottley's second consecutive early election call. The woman who led the BLP to historic 30-0 sweeps in 2018 AND 2022 apparently sees no reason to wait for 2027.
-
-The opposition DLP, led by Ralph Thorne (himself a BLP defector), now has roughly 25 days to convince Barbadians that 60 consecutive BLP constituency wins is enough.
-
-Political analyst Peter Wickham summed it up: "The conversation we are having these days is whether the opposition can actually gain a seat or two."
-
-**Translation:** Can the DLP win ONE seat? That's the bar.
-
-Mottley's running on 17 consecutive quarters of economic growth, record-low unemployment, and historic foreign reserves. The opposition is running on... hope, mostly.
-
-*Sources: Nation News Barbados, CNW Network, Jamaica Gleaner*
+*Your 5-minute tour of regional chaos, served with rum punch* 🌴
 
 ---
 
-## &#127471;&#127474; JAMAICA: Murder Rate Hits 31-Year Low
+## 🇯🇲 JAMAICA: $6.7 BILLION AND COUNTING
 
-**22 Murders in First 17 Days of 2026**
+The IMF Executive Board approved US$415 million for Jamaica under its Rapid Financing Instrument's large natural disaster window. This brings the total international support package for Hurricane Melissa recovery to a whopping US$6.7 billion over three years.
 
-Here's news you don't often hear about Jamaica: violent crime is DOWN.
+**The Numbers:**
+- **US$415 million** — IMF emergency assistance (approved Jan 16)
+- **US$1 billion** — World Bank
+- **US$1 billion** — Inter-American Development Bank
+- **US$200 million** — Caribbean Development Bank
+- **US$1 billion** — CAF Development Bank
 
-As of January 17, 2026, Jamaica recorded just 22 murders - compared to 40 for the same period in 2025. The country ended 2025 with 673 murders, the lowest in 31 years.
+**The Damage:** Hurricane Melissa (Category 5, October 28, 2025) killed at least 45 people and caused an estimated US$8.8 billion in damage.
 
-Education Minister Dana Morris Dixon put it in perspective: "Remember, over 1,600 murders - that is where we're coming from."
+**PM Holness' Take:** Called the support package "unprecedented."
 
-**The numbers:**
-- 43% reduction in murders (compared to peak years)
-- 32% reduction in shootings
-- 17% reduction in overall crime
-- 9 of 19 police divisions murder-free so far this year
+**What's Next:** Jamaica is launching RE-LEAF, planting 300,000 seedlings between January and June 2026. Because nothing says "recovery" like seedlings.
 
-The bad news? Robbery remains stubborn, and last week saw 10 murders - the first double-digit week of 2026.
-
-Still, for a country long associated with high crime rates, this is genuine progress worth acknowledging.
-
-*Sources: Jamaica Gleaner, Jamaica Observer, CNW Network*
+Meanwhile, Caribbean Airlines announced it will suspend Puerto Rico and BVI routes in 2026 as part of its Barbados hub overhaul. Passengers affected: a lot.
 
 ---
 
-## &#127482;&#127480; US VISA PAUSE: Caribbean Caught in Immigration Dragnet
+## 🇻🇪 MADURO UPDATE: "I AM STILL PRESIDENT"
 
-**75 Countries Affected - Caribbean Hit Hard**
+Two weeks after the U.S. military extracted Nicolas Maduro from Caracas in a Delta Force raid, the deposed Venezuelan leader continues his legal drama from Brooklyn's Metropolitan Detention Center.
 
-Starting January 21, 2026 (today!), the US indefinitely paused immigrant visa processing for nationals of 75 countries, including much of the Caribbean.
+**In Court (January 5):** Maduro told Judge Hellerstein: "I am innocent. I am not guilty. I am a decent man. I am still president of my country."
 
-**Affected Caribbean nations:**
-- Jamaica
-- Barbados  
-- Trinidad and Tobago
-- The Bahamas
+The judge cut him off.
+
+**His Defense Strategy:** Attorney Barry Pollack is arguing that Maduro should have sovereign immunity as a head of state. The U.S. doesn't recognize him as president, so... good luck with that.
+
+**Back in Caracas:** Delcy Rodriguez was sworn in as acting president. She initially vowed to fight American aggression, then posted a statement inviting the U.S. to "collaborate" on an "agenda of cooperation."
+
+**Trump's Response:** "We're in charge."
+
+**The Charges:** Narco-terrorism, drug trafficking, money laundering. Could face life in prison.
+
+**Next Hearing:** March 17.
+
+---
+
+## 🇭🇹 HAITI: TPS TERMINATED, CHAOS CONTINUES
+
+The Trump administration is moving to terminate Temporary Protected Status (TPS) for more than 350,000 Haitian immigrants in the United States. A federal court hearing continued this week as affected families wait for the decision.
+
+**Meanwhile in Haiti:**
+- Bishop Pierre-André Dumas has withdrawn from a proposed national mediation process
+- The Transitional Presidential Council's immunity expires February 7
+- Elections pushed to... eventually
+- Carnival continues anyway
+
+**The Travel Advisory:** Governments continue to warn against non-essential travel. Royal Caribbean has cancelled all 2026 visits to Labadee.
+
+---
+
+## 🇹🇹 TRINIDAD: NEW PM, NEW PROBLEMS
+
+Stuart Young is now Prime Minister of Trinidad and Tobago, and CARICOM has issued congratulations.
+
+**What He Inherits:**
+- Rising crime concerns
+- US visa restrictions affecting Caribbean nationals  
+- Caribbean Airlines suspending routes
+- An economy trying to diversify from oil & gas
+
+**The Visa Situation:** The US has paused immigrant visas for Caribbean nationals from multiple countries starting January 21. Non-immigrant visas (tourist, student, business) remain unaffected — for now.
+
+---
+
+## 🇧🇧 BARBADOS: ELECTIONS STILL HAPPENING
+
+PM Mia Mottley dissolved Parliament and elections are set for February 11. Nominations close January 27.
+
+The BLP continues to attract defectors, including a former DLP minister. The opposition is watching their bench shrink in real-time.
+
+**The Caribbean Court of Justice:** President Justice Winston Anderson completed an official visit to Barbados from January 15-20.
+
+---
+
+## 🌎 REGIONAL: US VISA CRACKDOWN CONTINUES
+
+Caribbean countries affected by the US immigrant visa pause (started January 21):
 - Antigua and Barbuda
+- The Bahamas
+- Barbados
+- Belize
 - Dominica
 - Grenada
+- Haiti
+- Jamaica
 - Saint Kitts and Nevis
 - Saint Lucia
 - Saint Vincent and the Grenadines
-- Belize
-- Haiti
 
-The pause affects GREEN CARDS (immigrant visas), not tourist or student visas. But for thousands of Caribbean families waiting for family reunification, this is devastating.
+**The Data:** According to US statistics, Caribbean immigrant households receiving public assistance ranges from 33.9% (Barbados) to 52.3% (Haiti). These numbers are influencing "public charge" assessments.
 
-Jamaica's Prime Minister Andrew Holness urged citizens to "focus on building a future at home." Meanwhile, Caribbean advocacy groups in Florida are mobilizing.
-
-The State Department says procedures for vetting applicants are being "reassessed." No timeline provided.
-
-*Sources: CNW Network, Jamaica Gleaner*
+**PM Holness' Message:** Urged Jamaicans to focus on building a future at home.
 
 ---
 
-## &#127481;&#127481; TRINIDAD: School Nutrition Gets Serious
+## 🏏 CRICKET CORNER
 
-**Junk Food Crackdown in Classrooms**
+**West Indies** preparing for Afghanistan T20I series in Dubai ahead of the T20 World Cup (starts February 7 in India and Sri Lanka).
 
-Trinidad and Tobago announced updated school nutrition standards on January 9, building on a 2017 ban on sugary drinks in schools.
-
-**New rules include:**
-- Clear nutritional limits for pre-packaged snacks (calories, sugar, fat, sodium)
-- Stronger standards for meals prepared in schools
-- Energy drinks and artificial sweeteners banned
-- Five-point nutritional checklist for all school vendors
-
-The Healthy Caribbean Coalition and TT NCD Alliance praised the move, noting that Trinidad joins Jamaica, Barbados, Belize, and Bermuda in tackling childhood obesity through school food policies.
-
-Health Minister Dr. Lackram Bodoe called childhood obesity "the silent pandemic."
-
-When governments start regulating the tuck shop, you know the health situation is serious.
-
-*Source: Trinidad Newsday*
+**Barbados Women** continue strong in the CWI T20 Blaze Championships.
 
 ---
 
-## &#127758; REGIONAL ROUNDUP
+## ✈️ TRAVEL NOTES
 
-### UK-Caribbean Healthcare Mission
-Jamaica, Trinidad, Barbados, Guyana, and St. Lucia participated in a UK-Caribbean Healthcare Mission focused on building resilient health systems. Sessions covered regulatory standards, health technology, and innovation. The UK continues positioning itself as a post-Brexit Caribbean partner.
-
-### Bahamas Cuts Food VAT
-Bahamian Prime Minister Philip Davis announced VAT on food sold in stores would drop from 10% to 5%. Surprising move designed to ease cost-of-living pressures.
-
-### Antigua Recruits 120 Ghanaian Nurses
-Antigua and Barbuda expecting 120 nurses from Ghana next weekend, addressing chronic healthcare staffing shortages. The government maintains it hasn't ended Cuban recruitment contracts despite the pause.
-
-### Women's T20 Blaze Championships
-Barbados Women remain unbeaten after crushing Jamaica in St. Vincent. Guyana also competing in the CWI tournament.
-
-### Venezuela Aftermath
-Caribbean still processing the Venezuela situation. Trinidad PM Persad-Bissessar defended cooperation with US on regional security. Flight disruptions from early January largely resolved after FAA lifted airspace restrictions.
+- **Caribbean Airlines:** Suspending Puerto Rico and BVI routes, overhauling Barbados hub
+- **Royal Caribbean:** No Labadee visits for all of 2026
+- **US Visa Processing:** Immigrant visa pause indefinite while vetting procedures reviewed
 
 ---
 
-## &#128202; CARIBBEAN SCORECARD
+## QUOTE OF THE WEEK
 
-| Country | Big Story | Mood |
-|---------|-----------|------|
-| Barbados | Snap Election Feb 11 | Campaign Mode |
-| Jamaica | Murder Rate Down | Cautiously Hopeful |
-| Trinidad | School Nutrition Rules | Health-Conscious |
-| Bahamas | VAT Cut on Food | Relief |
-| Guyana | Opposition Drama | Business as Usual |
-| Haiti | Political Instability | Uncertain |
+> *"I am innocent. I am not guilty. I am a decent man. I am still president of my country."*
+> — Nicolás Maduro, January 5, 2026, from a Manhattan courtroom, wearing orange jail slippers
 
 ---
 
-## &#128161; QUOTE OF THE WEEK
-
-> "When I start to call on you, I don't want you to tell me that you are tired. I want you to tell me only, 'Prime Minister, we are ready. We are red and ready.'"
-
-*- Barbados PM Mia Mottley, announcing the February 11 election*
-
----
-
-## &#128197; DATES TO WATCH
-
-- **January 27:** Barbados Nomination Day
-- **February 7:** West Indies vs Afghanistan T20 series begins (Dubai)
-- **February 11:** Barbados General Election
-- **February 23:** Guyana Republic Day / Mashramani
-
----
-
-*That's your Caribbean Weekly Roundup. The region stays busy while the world watches.*
-
----
-
-**&#128231; Get regional updates:** [Subscribe here](#)
-
-**&#128172; News tip?** caribbeandailybrief@gmail.com
+*That's your Caribbean in 5 minutes. Jamaica's getting billions, Maduro's getting a jail cell, and the visa line just got longer. Proceed accordingly.*
