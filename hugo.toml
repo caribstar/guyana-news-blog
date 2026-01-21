@@ -90,6 +90,12 @@ weight = 1
 name = "Legal"
 url = "/legal/"
 weight = 2
+
+[params.cover]
+  image = "/images/social-share.png"
+  alt = "The Guyana Brief"
+  relative = false
+  hidden = false
 [params.fuseOpts]
 isCaseSensitive = false
 shouldSort = true
