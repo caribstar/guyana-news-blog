@@ -101,8 +101,9 @@ unsafe = true
 
 
 [services]
-  [services.googleAnalytics]
-    ID = "G-5F9VH8GM6D"
+  # Commented out - using deferred loading in extend_footer.html instead
+# [services.googleAnalytics]
+#   ID = "G-5F9VH8GM6D"
 
 [params.assets]
   favicon = "/favicon.ico"
