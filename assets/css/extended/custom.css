@@ -1,0 +1,10 @@
+/* Accessibility contrast fixes */
+.post-content a {
+  color: #0066cc;
+}
+.post-content a:hover {
+  color: #004499;
+}
+.entry-footer a {
+  color: #0066cc;
+}

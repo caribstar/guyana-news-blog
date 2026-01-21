@@ -1,6 +1,7 @@
 baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
 title = "The Guyana Brief"
+description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
 theme = "PaperMod"
 
 [pagination]
@@ -39,6 +40,7 @@ comments = false
 
 [params.homeInfoParams]
 Title = "The Guyana Brief"
+description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
 Content = "Your 5-minute news circus. Satirical commentary on all 4 major newspapers, delivered daily by noon."
 
 [[menu.main]]
