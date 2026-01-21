@@ -339,7 +339,23 @@
     </p>
     
     <div style="background: white; border-radius: 10px; padding: 20px; overflow: hidden;">
-      <iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLSduBAzI1rdBXfSkdRwXNQQ8EYkXvXeIvNm4iNabPh-HmA1SyA/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="border: none;">Loading...</iframe>
+      <div id="google-form-container">
+        <div id="google-form-placeholder" style="text-align: center; padding: 40px 20px; background: #f5f5f5; border-radius: 10px; cursor: pointer;" onclick="loadGoogleForm()">
+          <p style="font-size: 1.2rem; color: #333; margin-bottom: 15px;">&#128221; <strong>Submit a Tip or Story</strong></p>
+          <button style="background: #009e60; color: white; padding: 12px 30px; border: none; border-radius: 25px; font-size: 1rem; font-weight: bold; cursor: pointer;">Click to Load Form</button>
+          <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">Form loads on click to keep the page fast</p>
+        </div>
+        <div id="google-form-frame" style="display: none;">
+          <iframe id="gform-iframe" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="border: none;"></iframe>
+        </div>
+      </div>
+      <script>
+        function loadGoogleForm() {
+          document.getElementById('google-form-placeholder').style.display = 'none';
+          document.getElementById('google-form-frame').style.display = 'block';
+          document.getElementById('gform-iframe').src = 'https://docs.google.com/forms/d/e/1FAIpQLSduBAzI1rdBXfSkdRwXNQQ8EYkXvXeIvNm4iNabPh-HmA1SyA/viewform?embedded=true';
+        }
+      </script>
     </div>
   </div>
 
