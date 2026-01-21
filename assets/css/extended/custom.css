@@ -63,3 +63,19 @@
   color: #ffffff !important;
   margin: 0;
 }
+
+/* Fix dark header text readability */
+.post-header {
+  background: #1a1a1a;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-header .post-title {
+  color: #ffffff !important;
+}
+
+.post-header .post-meta {
+  color: #cccccc !important;
+}
