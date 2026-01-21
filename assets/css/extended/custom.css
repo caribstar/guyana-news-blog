@@ -23,3 +23,28 @@
 .header {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+/* Cover image text overlay for readability */
+.post-header {
+  position: relative;
+}
+
+.entry-cover {
+  position: relative;
+}
+
+.entry-cover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  pointer-events: none;
+}
+
+.entry-cover .post-title {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
