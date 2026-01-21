@@ -1,4 +1,4 @@
----
+﻿---
 title: Legal Disclaimer
 date: 2026-01-09
 ---
@@ -9,11 +9,12 @@ date: 2026-01-09
 
 ## This Is Satire
 
-All content on **The Daily Laugh** is satirical commentary on Guyana news. We're not journalists - we're satirists.
+All content on **The Guyana Brief** is satirical commentary on Guyana news. We're not journalists - we're satirists.
 
 ## Fair Use & Copyright
 
 We summarize news from Guyana's four major newspapers under fair use principles:
+
 - We don't republish full articles
 - We add substantial original commentary
 - We transform content into satire
@@ -22,6 +23,7 @@ We summarize news from Guyana's four major newspapers under fair use principles:
 ## Not Defamation
 
 Our satire focuses on:
+
 - Public officials and their conduct
 - Matters of public interest
 - Political controversies
@@ -41,4 +43,4 @@ Questions or complaints? Contact us at: caribbeandailybrief@gmail.com
 
 **Bottom Line:** We're satirists exercising free speech to comment on Guyana's public affairs. We respect copyright and avoid defamation.
 
-*© 2026 The Daily Laugh. All rights reserved.*
+*© 2026 The Guyana Brief. All rights reserved.*
