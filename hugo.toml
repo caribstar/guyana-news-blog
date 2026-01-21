@@ -43,6 +43,8 @@ Title = "The Guyana Brief"
 description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
 Content = "Your 5-minute news circus. Satirical commentary on all 4 major newspapers, delivered daily by noon."
 
+
+# Main Navigation Menu
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -59,30 +61,35 @@ url = "/categories/the-rumor-mill/"
 weight = 3
 
 [[menu.main]]
-name = "Magazine"
-url = "/magazine/"
-weight = 4
-
-[[menu.main]]
-name = "Roundup"
-url = "/roundup/"
-weight = 5
-
-[[menu.main]]
 name = "Search"
 url = "/search/"
-weight = 6
-
-[[menu.main]]
-name = "Legal"
-url = "/legal/"
-weight = 7
+weight = 4
 
 [[menu.main]]
 name = "About"
 url = "/about/"
-weight = 8
+weight = 5
 
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 6
+
+[[menu.main]]
+name = "Advertise"
+url = "/advertise/"
+weight = 7
+
+# Footer Menu
+[[menu.footer]]
+name = "Privacy Policy"
+url = "/privacy/"
+weight = 1
+
+[[menu.footer]]
+name = "Legal"
+url = "/legal/"
+weight = 2
 [params.fuseOpts]
 isCaseSensitive = false
 shouldSort = true
@@ -122,6 +129,6 @@ defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on 
     [minify.tdewolff.html]
       keepWhitespace = false
     [minify.tdewolff.css]
-      keepCSS2 = true
+      version = 2
     [minify.tdewolff.js]
       keepVarNames = false
