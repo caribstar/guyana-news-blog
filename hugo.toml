@@ -111,3 +111,14 @@ unsafe = true
 # Social share image (shows when sharing on Facebook, WhatsApp, Twitter, etc.)
 images = ["/images/social-share.png"]
 defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
+# Minification for faster page load
+[minify]
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+    [minify.tdewolff.css]
+      keepCSS2 = true
+    [minify.tdewolff.js]
+      keepVarNames = false
