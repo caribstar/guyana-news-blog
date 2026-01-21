@@ -27,36 +27,7 @@
   
   <!-- EMAILOCTOPUS EMBED -->
   <div style="max-width: 500px; margin: 0 auto;">
-    <div id="eo-form-placeholder" style="min-height: 100px;">
-      <noscript><a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788">Subscribe</a></noscript>
-    </div>
-    <script>
-      // Lazy load EmailOctopus when user scrolls near the form
-      (function() {
-        var loaded = false;
-        function loadEOForm() {
-          if (loaded) return;
-          var placeholder = document.getElementById('eo-form-placeholder');
-          if (!placeholder) return;
-          var rect = placeholder.getBoundingClientRect();
-          if (rect.top < window.innerHeight + 500) {
-            loaded = true;
-            var script = document.createElement('script');
-            script.src = 'https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788.js';
-            script.setAttribute('data-form', 'e54b3630-f34b-11f0-ad13-e315e41b6788');
-            script.async = true;
-            placeholder.appendChild(script);
-            window.removeEventListener('scroll', loadEOForm);
-            window.removeEventListener('resize', loadEOForm);
-          }
-        }
-        // Check on scroll and resize
-        window.addEventListener('scroll', loadEOForm, {passive: true});
-        window.addEventListener('resize', loadEOForm, {passive: true});
-        // Also check after a short delay (in case form is visible on load)
-        setTimeout(loadEOForm, 2000);
-      })();
-    </script>
+    <script async src="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788.js" data-form="e54b3630-f34b-11f0-ad13-e315e41b6788"></script>
   </div>
   
   <p style="margin: 20px 0 0 0; font-size: 0.95rem; opacity: 0.95;">
