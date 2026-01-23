@@ -18,3 +18,11 @@
 .post-header .post-meta {
   color: #cccccc !important;
 }
+
+/* Fix search and special page headers */
+.page-header h1,
+.search-header h1,
+h1.post-title,
+.term-title {
+  color: #ffffff !important;
+}
