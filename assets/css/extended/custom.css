@@ -8,3 +8,13 @@
 .entry-footer a {
   color: #0066cc;
 }
+
+/* Fix dark header text readability */
+.post-header .post-title,
+.post-header .post-meta,
+.entry-header .entry-title {
+  color: #ffffff !important;
+}
+.post-header .post-meta {
+  color: #cccccc !important;
+}
