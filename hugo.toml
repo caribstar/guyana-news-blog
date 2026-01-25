@@ -1,4 +1,4 @@
-baseURL = "https://guyanadailybrief.com/"
+﻿baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
 title = "The Guyana Brief"
 description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
@@ -75,6 +75,16 @@ name = "Contact"
 url = "/contact/"
 weight = 6
 
+
+[[menu.main]]
+name = "Newsletter"
+url = "/newsletter/"
+weight = 60
+
+[[menu.main]]
+name = "Books"
+url = "/books/"
+weight = 65
 [[menu.main]]
 name = "Advertise"
 url = "/advertise/"
@@ -138,3 +148,4 @@ defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on 
       version = 2
     [minify.tdewolff.js]
       keepVarNames = false
+
