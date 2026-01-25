@@ -824,3 +824,30 @@ a, button, input, select, textarea {
   min-height: 44px;
   min-width: 44px;
 }
+/* Keep existing readability improvements but fix banner text */
+
+/* Newsletter banner - white text on green */
+.newsletter-section h2,
+.newsletter-section p,
+.newsletter-section label {
+    color: #ffffff !important;
+}
+
+/* Dueling blogs banner - white text */
+.dueling-header h2,
+.dueling-header p {
+    color: #ffffff !important;
+}
+
+/* Any section with inline background colors - white text */
+section[style*="background"] h2,
+section[style*="background"] p,
+section[style*="background"] label {
+    color: #ffffff !important;
+}
+
+/* Feature boxes with backgrounds - white text */
+.feature-box h3,
+.feature-box p {
+    color: #ffffff !important;
+}
