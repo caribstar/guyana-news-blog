@@ -905,3 +905,43 @@ article p,
     color: #000000 !important;
 }
 
+
+/* ========================================
+   PAGE HEADER BANNERS - WHITE TEXT
+   All page titles, post titles, dates
+   ======================================== */
+
+/* Page header banners */
+.page-header,
+.page-header h1,
+.page-header h2,
+.page-header .post-description {
+    color: #ffffff !important;
+}
+
+/* Post entry headers (like Uncle Ramesh posts) */
+.entry-header,
+.entry-header h1,
+.entry-header h2,
+.entry-header .post-title {
+    color: #ffffff !important;
+}
+
+/* Post single page headers */
+.post-single .entry-header h1,
+.post-single .post-title {
+    color: #ffffff !important;
+}
+
+/* First entry special styling */
+.first-entry .entry-header h2 {
+    color: #ffffff !important;
+}
+
+/* Dates on black backgrounds */
+.page-header time,
+.entry-header time,
+.post-single time {
+    color: #ffffff !important;
+}
+
