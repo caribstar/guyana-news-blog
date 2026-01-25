@@ -851,3 +851,57 @@ section[style*="background"] label {
 .feature-box p {
     color: #ffffff !important;
 }
+
+/* ========================================
+   BANNER TEXT - WHITE ON COLORED BACKGROUNDS
+   ======================================== */
+
+/* All banner headings and text - WHITE */
+.newsletter-section h2,
+.newsletter-section h3,
+.newsletter-section p,
+.newsletter-section label,
+.dueling-header h2,
+.dueling-header h3,
+.dueling-header p,
+.feature-box h2,
+.feature-box h3,
+.feature-box p,
+section[style*="background"] h2,
+section[style*="background"] h3,
+section[style*="background"] p,
+section[style*="background"] label {
+    color: #ffffff !important;
+}
+
+/* ========================================
+   PAGE TEXT - BLACK ON WHITE BACKGROUNDS
+   ======================================== */
+
+/* Article content - BLACK */
+.post-content,
+.post-content p,
+.post-content li,
+.post-entry .entry-content,
+.post-entry .entry-content p,
+article p,
+.page-content p,
+.content p {
+    color: #000000 !important;
+}
+
+/* Post titles and headers - BLACK */
+.post-title,
+.entry-header h1,
+.entry-header h2,
+.post-entry h2 {
+    color: #000000 !important;
+}
+
+/* Post metadata - BLACK */
+.post-meta,
+.post-meta a,
+.entry-footer {
+    color: #000000 !important;
+}
+
