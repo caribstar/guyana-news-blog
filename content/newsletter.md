@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Newsletter"
 date: 2026-01-25
 description: "Subscribe to The Guyana Brief daily newsletter"
@@ -27,12 +27,46 @@ Start your day with satire, sarcasm, and the stories everyone's talking about.
 From Georgetown to New York, Toronto to London - the Guyanese diaspora starts their day with The Brief.
 
 <div style="background: linear-gradient(135deg, #009E49 0%, #00885A 100%); padding: 3rem; border-radius: 12px; text-align: center; margin: 2rem 0;">
-    <h2 style="color: #ffffff; margin-bottom: 1.5rem;">Subscribe Now</h2>
-    <form action="https://guyanadailybrief.us12.list-manage.com/subscribe/post?u=YOUR_ID&amp;id=YOUR_LIST_ID" method="post" target="_blank" style="max-width: 500px; margin: 0 auto;">
-        <input type="email" name="EMAIL" placeholder="Enter your email address" required style="width: 100%; padding: 1rem; font-size: 1.1rem; border: 2px solid #FCD116; border-radius: 6px; margin-bottom: 1rem;">
-        <button type="submit" style="width: 100%; padding: 1rem 2rem; font-size: 1.2rem; font-weight: bold; color: #ffffff; background-color: #000000; border: none; border-radius: 8px; cursor: pointer;">Subscribe Free</button>
-    </form>
-    <p style="color: #ffffff; margin-top: 1rem; font-size: 0.9rem;">No spam, no BS. Just the brief you need.</p>
+    <h2 style="color: #ffffff; margin-bottom: 1.5rem;">Never Miss a Story!</h2>
+    <p style="color: #ffffff; margin-bottom: 2rem; font-size: 1.1rem;">Get both perspectives delivered to your inbox daily</p>
+    
+    <!-- EMAILOCTOPUS EMBED -->
+    <div style="max-width: 500px; margin: 0 auto;">
+        <div id="eo-form-placeholder" style="min-height: 100px;">
+            <noscript><a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788">Subscribe</a></noscript>
+        </div>
+        <script>
+            // Lazy load EmailOctopus when user scrolls near the form
+            (function() {
+                var loaded = false;
+                function loadEOForm() {
+                    if (loaded) return;
+                    var placeholder = document.getElementById('eo-form-placeholder');
+                    if (!placeholder) return;
+                    var rect = placeholder.getBoundingClientRect();
+                    if (rect.top < window.innerHeight + 500) {
+                        loaded = true;
+                        var script = document.createElement('script');
+                        script.src = 'https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788.js';
+                        script.setAttribute('data-form', 'e54b3630-f34b-11f0-ad13-e315e41b6788');
+                        script.async = true;
+                        placeholder.appendChild(script);
+                        window.removeEventListener('scroll', loadEOForm);
+                        window.removeEventListener('resize', loadEOForm);
+                    }
+                }
+                // Check on scroll and resize
+                window.addEventListener('scroll', loadEOForm, {passive: true});
+                window.addEventListener('resize', loadEOForm, {passive: true});
+                // Also check after a short delay (in case form is visible on load)
+                setTimeout(loadEOForm, 2000);
+            })();
+        </script>
+    </div>
+    
+    <p style="color: #ffffff; margin: 20px 0 0 0; font-size: 0.95rem;">
+        ✓ Free forever &nbsp;&nbsp; ✓ Unsubscribe anytime &nbsp;&nbsp; ✓ No spam
+    </p>
 </div>
 
 ---
