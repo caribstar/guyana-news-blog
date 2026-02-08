@@ -1,0 +1,106 @@
+﻿baseURL = "https://guyanadailybrief.com/"
+languageCode = "en-us"
+title = "The Guyana Brief"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+
+    extended = true
+
+[[params.extended]]
+    type = "css"
+    link = "css/extended/newsletter.css"
+
+[params.label]
+  icon = "/images/logo.jpg"
+  iconHeight = 35
+favicon = "/favicon.svg"
+
+description = "Your 5-minute Guyana news circus. Satirical commentary on all 4 major newspapers, delivered daily."
+author = "CARIBSTAR"
+env = "production"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+ShowToc = false
+TocOpen = false
+comments = false
+
+[params.homeInfoParams]
+Title = "The Guyana Brief"
+Content = "Your 5-minute news circus. Satirical commentary on all 4 major newspapers, delivered daily by noon."
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Magazine"
+url = "/magazine/"
+weight = 3
+
+[[menu.main]]
+name = "Roundup"
+url = "/roundup/"
+weight = 4
+
+[[menu.main]]
+name = "Search"
+url = "/search/"
+weight = 3
+
+[[menu.main]]
+name = "Legal"
+url = "/legal/"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-5F9VH8GM6D"
+
+
+
+

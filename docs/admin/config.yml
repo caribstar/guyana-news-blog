@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "All Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        options:
+          - "Daily Brief"
+          - "News"
+          - "Uncle Ramesh"
+          - "Speedeet & Wilar"
+          - "Fiction"
+          - "De Boys Seh"
+          - "Commentary"
+          - "Rumor Mill"
+          - "Traffic Report"
+          - "Back-a-Truck"
+          - "Bounty Board"
+          - "Progress Report"
+          - "The Guyanese Horizon"
+          - "Patriots Portfolio"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["Guyana", "News", "Satire"]
+      - {label: "Author", name: "author", widget: "string", default: "Editorial Team"}
+      - {label: "Body", name: "body", widget: "markdown"}

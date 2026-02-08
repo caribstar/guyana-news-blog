@@ -1,0 +1,28 @@
+﻿<div style="margin: 40px 0; padding: 30px; background: #f8f9fa; border-radius: 10px; text-align: center; border: 2px solid #e9ecef;">
+    <h3 style="margin: 0 0 15px 0; color: #333; font-size: 22px;"> Share This Brief</h3>
+    <p style="color: #666; margin: 0 0 20px 0;">Know someone who'd love this? Forward it to them!</p>
+    
+    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+        <a href="mailto:?subject={{ .Title }}&body=Check out this funny Guyana news brief: {{ .Permalink }}" 
+           style="display: inline-block; padding: 12px 25px; background: #009E60; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; transition: background 0.2s;"
+           onmouseover="this.style.background='#007a4d'"
+           onmouseout="this.style.background='#009E60'">
+             Email to a Friend
+        </a>
+        
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank"
+           style="display: inline-block; padding: 12px 25px; background: #1877f2; color: white; text-decoration: none; border-radius: 25px; font-weight: bold;">
+            Facebook
+        </a>
+        
+        <a href="https://wa.me/?text={{ .Title }}%20{{ .Permalink }}" target="_blank"
+           style="display: inline-block; padding: 12px 25px; background: #25d366; color: white; text-decoration: none; border-radius: 25px; font-weight: bold;">
+            WhatsApp
+        </a>
+        
+        <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank"
+           style="display: inline-block; padding: 12px 25px; background: #1da1f2; color: white; text-decoration: none; border-radius: 25px; font-weight: bold;">
+            Twitter
+        </a>
+    </div>
+</div>

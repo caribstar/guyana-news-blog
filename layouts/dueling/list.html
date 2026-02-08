@@ -1,0 +1,41 @@
+﻿{{ define "main" }}
+<div class="dueling-archive">
+  <h1 style="text-align: center; color: #009E60; margin-bottom: 10px;">📰 Dueling Blogs Archive</h1>
+  <p style="text-align: center; color: #666; margin-bottom: 40px;">Daily Brief (Critical View) vs Uncle Ramesh (Pro-Gov View)</p>
+  
+  {{ $dailyBriefs := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
+  {{ $uncleRameshTakes := where (where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh")) "Params.categories" "intersect" (slice "Opinion") }}
+  
+  {{ $allDueling := union $dailyBriefs $uncleRameshTakes }}
+  {{ $sorted := sort $allDueling "Date" "desc" }}
+  
+  {{ $currentWeek := "" }}
+  {{ range $sorted }}
+    {{ $weekStart := .Date.AddDate 0 0 (int (mul -1 (mod (sub (.Date.Weekday) 0) 7))) }}
+    {{ $weekLabel := $weekStart.Format "Week of January 2, 2006" }}
+    
+    {{ if ne $weekLabel $currentWeek }}
+      {{ if ne $currentWeek "" }}</div>{{ end }}
+      <h2 style="background: linear-gradient(135deg, #009E60, #00c853); color: white; padding: 15px 25px; border-radius: 10px; margin: 30px 0 20px 0;">{{ $weekLabel }}</h2>
+      <div style="display: grid; gap: 20px;">
+      {{ $currentWeek = $weekLabel }}
+    {{ end }}
+    
+    <div style="display: flex; gap: 15px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid {{ if in .Params.categories "Daily Brief" }}#009E60{{ else }}#dc2626{{ end }}; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div style="flex: 1;">
+        <span style="background: {{ if in .Params.categories "Daily Brief" }}#009E60{{ else }}#dc2626{{ end }}; color: white; padding: 3px 10px; border-radius: 3px; font-size: 0.8rem;">
+          {{ if in .Params.categories "Daily Brief" }}🔍 Critical View{{ else }}😊 Pro-Gov View{{ end }}
+        </span>
+        <h3 style="margin: 10px 0 5px 0;"><a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a></h3>
+        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Monday, January 2, 2006" }} • {{ .ReadingTime }} min read</span>
+        <p style="margin-top: 10px; color: #444;">{{ .Summary | truncate 120 }}</p>
+      </div>
+    </div>
+  {{ end }}
+  {{ if ne $currentWeek "" }}</div>{{ end }}
+  
+  <div style="text-align: center; margin-top: 40px;">
+    <a href="/" style="display: inline-block; background: #009E60; color: white; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold;">← Back to Home</a>
+  </div>
+</div>
+{{ end }}

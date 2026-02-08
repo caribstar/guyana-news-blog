@@ -1,0 +1,337 @@
+{{ define "main" }}
+<!-- YELLOW DISCLAIMER BANNER -->
+<div style="background-color: #FFF3E0; border-left: 4px solid #FF9800; padding: 12px 20px; margin-bottom: 20px; text-align: center; font-size: 14px; font-weight: 500;">
+  &#128226; Daily satirical commentary on Guyanese news - for laughs, not facts
+</div>
+
+<!-- CARIBBEAN DAILY BRIEF BUTTON -->
+<div style="text-align: center; margin: 0 0 25px 0;">
+  <a href="/caribbean/" 
+     style="display: inline-block;
+            background: linear-gradient(135deg, #00bcd4 0%, #006064 100%);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4);">
+    &#127796; Caribbean Daily Brief
+  </a>
+</div>
+
+<!-- Newsletter Subscribe Splash - EMAILOCTOPUS EMBED -->
+<div style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 40px 20px; text-align: center; margin-bottom: 40px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);">
+  <h2 style="margin: 0 0 10px 0; font-size: 2.2rem; font-weight: bold;">Never Miss a Story!</h2>
+  <p style="margin: 0 0 30px 0; font-size: 1.2rem;">Get both perspectives delivered to your inbox daily</p>
+  
+  <!-- EMAILOCTOPUS EMBED -->
+  <div style="max-width: 500px; margin: 0 auto;">
+    <script async src="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788.js" data-form="e54b3630-f34b-11f0-ad13-e315e41b6788"></script>
+  </div>
+  
+  <p style="margin: 20px 0 0 0; font-size: 0.95rem; opacity: 0.95;">
+    &#10003; Free forever &nbsp;&nbsp; &#10003; Unsubscribe anytime &nbsp;&nbsp; &#10003; No spam
+  </p>
+</div>
+
+<div class="dueling-intro" style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 100%); color: white; margin-bottom: 40px;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 10px;">GUYANA DAILY BRIEF</h1>
+  <p style="font-size: 1.2rem; margin: 0;">Two Perspectives. One Country. Read Both Sides.</p>
+</div>
+
+<div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+  <!-- TODAY'S DUELING BLOGS -->
+  <div style="background: linear-gradient(135deg, #FFD700 0%, #009E60 100%); padding: 20px; border-radius: 15px; margin-bottom: 30px; text-align: center;">
+    <h2 style="color: white; margin: 0; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+      &#128240; Today's Dueling Blogs
+    </h2>
+    <p style="color: white; margin: 10px 0 0 0; font-size: 1.2rem; font-weight: bold;">
+      {{ now.Format "Monday, January 2, 2006" }}
+    </p>
+  </div>
+    
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
+        
+    <!-- UNCLE RAMESH - ON LEFT IN RED -->
+    <div style="border: 4px solid #dc2626; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #dc2626; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+        &#128104; UNCLE RAMESH<br>(Pro-Gov View)
+      </div>
+      {{ $rameshPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+      {{ range first 1 (sort $rameshPosts "Date" "desc") }}
+      <div style="background: #fee2e2; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
+        <span style="color: #dc2626; font-weight: bold; font-size: 1rem;">{{ .Date.Format "Monday, January 2, 2006" }}</span>
+      </div>
+      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Pro-Gov View &#8594;</a>
+      {{ end }}
+    </div>
+       
+    <!-- DAILY BRIEF - ON RIGHT IN GREEN -->
+    <div style="border: 4px solid #009E60; border-radius: 12px; padding: 25px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <div style="background: #009E60; color: white; padding: 12px; margin: -25px -25px 20px -25px; border-radius: 8px 8px 0 0; text-align: center; font-weight: bold; font-size: 1.1rem;">
+        &#128240; DAILY BRIEF<br>(Critical View)
+      </div>
+      {{ $briefPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief" "News") }}
+      {{ range first 1 (sort $briefPosts "Date" "desc") }}
+      <div style="background: #e6f4ea; padding: 10px; border-radius: 5px; margin-bottom: 15px; text-align: center;">
+        <span style="color: #009E60; font-weight: bold; font-size: 1rem;">{{ .Date.Format "Monday, January 2, 2006" }}</span>
+      </div>
+      <h3 style="margin-top: 0; color: #1a1a1a;"><a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a></h3>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s;">Read Critical View &#8594;</a>
+      {{ end }}
+    </div>
+    
+  </div>
+
+  <!-- WEEKLY FEATURES QUICK LINKS - MOVED BEFORE BAM-BAM SALLY -->
+  <div style="margin-bottom: 60px; background: #f8f9fa; border-radius: 15px; padding: 30px;">
+    <h2 style="text-align: center; margin-bottom: 25px; color: #1a1a1a;">&#128218; Weekly Features</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+      <a href="/categories/traffic-report/" style="background: #009E60; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-weight: bold;">&#128678; DJ Roadblock</a>
+      <a href="/categories/back-a-truck/" style="background: #CE1126; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-weight: bold;">&#128763; Back-a-Truck</a>
+      <a href="/categories/bounty-board/" style="background: #FCD116; color: #1a1a1a; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-weight: bold;">&#127919; Bounty Board</a>
+    </div>
+  </div>
+
+  <!-- BAM-BAM SALLY / RUMOR MILL SECTION -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 5px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 1.8rem;">
+      &#128227; Bam-Bam Sally<br>and the Rumor Mill
+    </h2>
+    <p style="text-align: center; margin-bottom: 25px; color: rgba(255,255,255,0.9); font-style: italic;">
+      "If yuh ain't hear it from me, it ain't worth hearing!"
+    </p>
+    
+    {{ $rumorMill := where .Site.RegularPages "Params.categories" "intersect" (slice "The Rumor Mill") }}
+    {{ range first 1 (sort $rumorMill "Date" "desc") }}
+    <div style="background: white; border-radius: 10px; padding: 25px;">
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 10px;">Latest from Bam-Bam Sally</p>
+      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read the Rumors &#8594;</a>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- SPEEDEET & WILAR SECTION -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FCD116 0%, #FFD700 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 5px; color: #1a1a1a; font-size: 1.8rem;">
+      &#128102;&#127999; &#128102;&#127997; Speedeet &amp; Wilar
+    </h2>
+    <p style="text-align: center; margin-bottom: 25px; color: #333; font-style: italic;">
+      Adventures of two 12-year-old Guyanese friends
+    </p>
+    
+    {{ $speedeetPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Speedeet & Wilar" "Speedeet and Wilar") }}
+    {{ range first 1 (sort $speedeetPosts "Date" "desc") }}
+    <div style="background: white; border-radius: 10px; padding: 25px;">
+      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #b8860b; text-decoration: none;">{{ .Title }}</a></h3>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #b8860b; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Story &#8594;</a>
+    </div>
+    {{ else }}
+    <div style="background: white; border-radius: 10px; padding: 25px; text-align: center;">
+      <p style="color: #666;">New adventure coming soon!</p>
+    </div>
+    {{ end }}
+    
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="/categories/speedeet--wilar/" style="display: inline-block; background: white; color: #b8860b; padding: 10px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; border: 2px solid #b8860b;">View All Stories &#8594;</a>
+    </div>
+  </div>
+
+  
+
+  <!-- WEEKLY PROGRESS REPORT SECTION -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+      &#128200; Weekly Progress Report
+    </h2>
+    <p style="text-align: center; margin-bottom: 25px; color: rgba(255,255,255,0.9); font-style: italic;">Government achievements documented</p>
+    
+    {{ $progressPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Progress Report") }}
+    {{ if gt (len $progressPosts) 0 }}
+    {{ range first 1 (sort $progressPosts "Date" "desc") }}
+    <div style="background: white; border-radius: 10px; padding: 25px;">
+      <h3 style="margin-top: 0; color: #009E60;">
+        <a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a>
+      </h3>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">{{ .Date.Format "Monday, January 2, 2006" }}</p>
+      <p style="margin-bottom: 15px;">{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">View Full Report &#8594;</a>
+    </div>
+    {{ end }}
+    {{ else }}
+    <div style="background: white; border-radius: 10px; padding: 25px; text-align: center;">
+      <p style="color: #666; margin: 0;">Progress Report coming Wednesday!</p>
+    </div>
+    {{ end }}
+  </div>
+
+<!-- GUYANA RISING SECTION -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #009E60 100%); border-radius: 15px; padding: 35px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
+    <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 2rem;">
+      &#127468;&#127486; GUYANA RISING
+    </h2>
+    <p style="text-align: center; margin-bottom: 35px; color: white; font-size: 1.1rem; font-style: italic;">
+      Celebrating Progress &#8226; Honoring Heritage &#8226; Building Tomorrow
+    </p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+      {{ $horizonPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "The Guyanese Horizon") }}
+      {{ if gt (len $horizonPosts) 0 }}
+      {{ range first 1 (sort $horizonPosts "Date" "desc") }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
+        <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">&#127758; THE GUYANESE HORIZON</div>
+        <h3 style="margin-top: 0;">
+          <a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
+        </h3>
+        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <p>{{ .Summary | truncate 120 }}</p>
+        <a href="{{ .RelPermalink }}" style="color: #009E60; font-weight: bold; text-decoration: none;">Read Feature &#8594;</a>
+      </div>
+      {{ end }}
+      {{ else }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #009E60;">
+        <div style="color: #009E60; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">&#127758; THE GUYANESE HORIZON</div>
+        <p style="color: #666;">Monthly feature coming soon!</p>
+      </div>
+      {{ end }}
+      
+      {{ $patriotsPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots Portfolio" "Patriots' Portfolio") }}
+      {{ if gt (len $patriotsPosts) 0 }}
+      {{ range first 1 (sort $patriotsPosts "Date" "desc") }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
+        <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">&#127942; PATRIOTS PORTFOLIO</div>
+        <h3 style="margin-top: 0;">
+          <a href="{{ .RelPermalink }}" style="color: #1a1a1a; text-decoration: none;">{{ .Title }}</a>
+        </h3>
+        <span style="color: #666; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <p>{{ .Summary | truncate 120 }}</p>
+        <a href="{{ .RelPermalink }}" style="color: #FFA500; font-weight: bold; text-decoration: none;">Read Profile &#8594;</a>
+      </div>
+      {{ end }}
+      {{ else }}
+      <div style="background: white; border-radius: 12px; padding: 25px; border-left: 5px solid #FFA500;">
+        <div style="color: #FFA500; font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">&#127942; PATRIOTS PORTFOLIO</div>
+        <p style="color: #666;">Weekly profile coming soon!</p>
+      </div>
+      {{ end }}
+    </div>
+    
+    <div style="text-align: center; margin-top: 25px;">
+      <a href="/categories/guyana-rising/" style="display: inline-block; background: white; color: #009E60; padding: 12px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore All &#8594;</a>
+    </div>
+  </div>
+
+  <!-- YESTERDAY'S DUELING BLOGS -->
+  <div style="background: #f8f9fa; padding: 20px; border-radius: 15px; margin-bottom: 30px; text-align: center;">
+    <h2 style="color: #1a1a1a; margin: 0; font-size: 1.5rem;">
+      &#128197; Yesterday's Dueling Blogs
+    </h2>
+  </div>
+    
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 60px;">
+        
+    <!-- UNCLE RAMESH TAKE - ON LEFT IN RED -->
+    <div style="border: 3px solid #dc2626; border-radius: 12px; padding: 20px; background: white;">
+      <div style="background: #dc2626; color: white; padding: 10px; margin: -20px -20px 15px -20px; border-radius: 9px 9px 0 0; text-align: center; font-weight: bold;">
+        &#128104; UNCLE RAMESH<br>(Pro-Gov View)
+      </div>
+      {{ $rameshYesterday := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+      {{ range first 1 (after 1 (sort $rameshYesterday "Date" "desc")) }}
+      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #dc2626; text-decoration: none;">{{ .Title }}</a></h3>
+      <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Pro-Gov View &#8594;</a>
+      {{ end }}
+    </div>
+      
+    <!-- DAILY BRIEF (CRITICAL) - ON RIGHT IN GREEN -->
+    <div style="border: 3px solid #009E60; border-radius: 12px; padding: 20px; background: white;">
+      <div style="background: #009E60; color: white; padding: 10px; margin: -20px -20px 15px -20px; border-radius: 9px 9px 0 0; text-align: center; font-weight: bold;">
+        &#128240; DAILY BRIEF<br>(Critical View)
+      </div>
+      {{ $briefYesterday := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief" "News") }}
+      {{ range first 1 (after 1 (sort $briefYesterday "Date" "desc")) }}
+      <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}" style="color: #009E60; text-decoration: none;">{{ .Title }}</a></h3>
+      <p style="color: #666; font-size: 0.9rem;">{{ .ReadingTime }} min read</p>
+      <p>{{ .Summary | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}" style="display: inline-block; background: #009E60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Read Critical View &#8594;</a>
+      {{ end }}
+    </div>
+    
+  </div>
+  
+  <!-- View Last Week's Blogs Link -->
+  <div style="text-align: center; margin-bottom: 60px;">
+    <a href="/dueling/" style="display: inline-block; background: #f8f9fa; color: #009E60; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; border: 2px solid #009E60; transition: all 0.3s;">&#128197; View Last Week's Blogs &#8594;</a>
+  </div>
+
+  <!-- READER COMMENTS -->
+  <div style="margin-bottom: 60px; background: #f0f9ff; border-radius: 15px; padding: 30px;">
+    <h2 style="text-align: center; margin-bottom: 25px; color: #1a1a1a;">
+      &#128172; What Readers Are Saying
+    </h2>
+    
+    <div style="background: white; border-radius: 10px; padding: 25px; margin-bottom: 20px; border-left: 4px solid #009E60;">
+      <p style="font-style: italic; margin-bottom: 10px;">"Finally, a news site that shows BOTH perspectives!"</p>
+      <p style="color: #666; font-size: 0.9rem; margin: 0;">- Rajesh M., Georgetown</p>
+    </div>
+    
+    <div style="background: white; border-radius: 10px; padding: 25px; margin-bottom: 20px; border-left: 4px solid #2563eb;">
+      <p style="font-style: italic; margin-bottom: 10px;">"Speedeet &amp; Wilar remind me of growing up in Berbice!"</p>
+      <p style="color: #666; font-size: 0.9rem; margin: 0;">- Michelle S., Toronto</p>
+    </div>
+    
+    <div style="background: white; border-radius: 10px; padding: 25px; margin-bottom: 20px; border-left: 4px solid #FFA500;">
+      <p style="font-style: italic; margin-bottom: 10px;">"Guyana Rising makes me so proud!"</p>
+      <p style="color: #666; font-size: 0.9rem; margin: 0;">- Dr. Kumar P., New York</p>
+    </div>
+    
+    <div style="text-align: center; margin-top: 25px;">
+      <a href="mailto:comments@guyanadailybrief.com" style="display: inline-block; background: #009E60; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">Share Thoughts &#8594;</a>
+    </div>
+  </div>
+
+
+  <!-- READER SUBMISSIONS - GOOGLE FORM -->
+  <div style="margin-bottom: 60px; background: linear-gradient(135deg, #009E60 0%, #00c853 100%); border-radius: 15px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 10px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 2rem;">
+      &#128221; Submit a Tip or Comment
+    </h2>
+    <p style="text-align: center; margin-bottom: 30px; color: white; font-size: 1.1rem; font-style: italic;">
+      Got a story? A rumor for Bam-Bam Sally? We want to hear from you!
+    </p>
+    
+    <div style="background: white; border-radius: 10px; padding: 20px; overflow: hidden;">
+      <iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLSduBAzI1rdBXfSkdRwXNQQ8EYkXvXeIvNm4iNabPh-HmA1SyA/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="border: none;">Loading...</iframe>
+    </div>
+  </div>
+
+  <style>
+    @media (max-width: 768px) {
+      div[style*="grid-template-columns: 1fr 1fr"] {
+        display: block !important;
+      }
+      div[style*="grid-template-columns: 1fr 1fr"] > div {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+<!-- FLOATING SUBSCRIPTION BAR -->
+<div id="floating-subscribe" style="position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; padding: 12px 20px; display: flex; justify-content: center; align-items: center; gap: 15px; z-index: 1000; box-shadow: 0 -4px 10px rgba(0,0,0,0.2); flex-wrap: wrap;">
+  <span style="font-weight: bold; font-size: 1rem;">&#128236; Get the Daily Brief in your inbox!</span>
+  <a href="#newsletter" onclick="document.querySelector('.container').scrollIntoView({behavior: 'smooth'}); return false;" style="background: #FFD700; color: #1a1a1a; padding: 8px 20px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 0.9rem;">Subscribe Free</a>
+  <button onclick="document.getElementById('floating-subscribe').style.display='none'" style="background: transparent; border: none; color: white; font-size: 1.2rem; cursor: pointer; padding: 5px;">&#10005;</button>
+</div>
+
+
+</div>
+{{ end }}

@@ -1,0 +1,234 @@
+﻿{{- define "main" }}
+
+<style>
+.roundup-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.roundup-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.roundup-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.week-section {
+    margin-bottom: 60px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #009E60 0%, #FCD116 100%) 1;
+    margin-bottom: 30px;
+}
+
+.week-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #009E60;
+}
+
+.week-date-range {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.daily-brief-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 25px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #009E60;
+    transition: all 0.3s ease;
+}
+
+.daily-brief-item:hover {
+    background: #f0f0f0;
+    transform: translateX(5px);
+}
+
+.brief-date {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #009E60 0%, #FCD116 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.brief-day {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.brief-date-num {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.brief-month {
+    font-size: 0.9rem;
+}
+
+.brief-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.brief-content h3 a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: color 0.3s;
+}
+
+.brief-content h3 a:hover {
+    color: #009E60;
+}
+
+.brief-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.brief-excerpt {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.brief-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.brief-tag {
+    padding: 4px 12px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.read-brief-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #009E60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.read-brief-btn:hover {
+    background: #007a4d;
+}
+
+@media (max-width: 768px) {
+    .daily-brief-item {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .brief-date {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .brief-date-num {
+        font-size: 2rem;
+    }
+    
+    .week-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+</style>
+
+<div class="roundup-header">
+    <h1>📊 Weekly Roundup</h1>
+    <p>All your daily briefs, organized by week for easy catching up</p>
+</div>
+
+{{- $allPosts := where .Site.RegularPages "Type" "posts" }}
+{{- $dailyBriefs := where $allPosts "Params.categories" "intersect" (slice "News") }}
+
+{{- if not $dailyBriefs }}
+<div style="text-align: center; padding: 50px 20px; background: #f8f9fa; border-radius: 12px;">
+    <h3>No Daily Briefs Found</h3>
+    <p>Posts need to be tagged with "News" category to appear here.</p>
+</div>
+{{- else }}
+
+{{- $grouped := $dailyBriefs.GroupByDate "January 2006" }}
+
+{{- range $grouped }}
+<div class="week-section">
+    <div class="week-header">
+        <div class="week-title">{{ .Key }}</div>
+        <div class="week-date-range">{{ len .Pages }} daily briefs</div>
+    </div>
+    
+    {{- range .Pages.ByDate.Reverse }}
+    <div class="daily-brief-item">
+        <div class="brief-date">
+            <div class="brief-day">{{ .Date.Format "Mon" }}</div>
+            <div class="brief-date-num">{{ .Date.Format "02" }}</div>
+            <div class="brief-month">{{ .Date.Format "Jan" }}</div>
+        </div>
+        
+        <div class="brief-content">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <div class="brief-meta">
+                <span>⏱️ {{ .ReadingTime }} min read</span>
+                {{- if .Params.tags }}
+                <span>🏷️ {{ delimit (first 3 .Params.tags) ", " }}</span>
+                {{- end }}
+            </div>
+            <p class="brief-excerpt">{{ .Summary | plainify | truncate 200 }}</p>
+            <a href="{{ .Permalink }}" class="read-brief-btn">Read Full Brief →</a>
+            
+            {{- if .Params.tags }}
+            <div class="brief-tags">
+                {{- range first 5 .Params.tags }}
+                <a href="/tags/{{ . | urlize }}/" class="brief-tag">{{ . }}</a>
+                {{- end }}
+            </div>
+            {{- end }}
+        </div>
+    </div>
+    {{- end }}
+</div>
+{{- end }}
+
+{{- end }}
+
+{{- end }}
+
+

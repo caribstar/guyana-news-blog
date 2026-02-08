@@ -1,0 +1,17 @@
+﻿<!-- Deferred Google Analytics - loads 3 seconds after page load -->
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5F9VH8GM6D';
+    s.async = true;
+    document.head.appendChild(s);
+    s.onload = function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5F9VH8GM6D');
+    };
+  }, 3000);
+});
+</script>
