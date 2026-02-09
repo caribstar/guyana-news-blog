@@ -1,4 +1,4 @@
-﻿baseURL = "https://guyanadailybrief.com/"
+baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
 title = "The Guyana Brief"
 description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
@@ -153,5 +153,7 @@ defaultDescription = "Your 5-minute Guyana news circus. Satirical commentary on 
 
 
 # Suppress PaperMod .Site.Social deprecation
-ignoreLogs = ['error-deprecated']
+ignoreErrors = ["error-deprecated"]
+
+
 
