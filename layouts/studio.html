@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio &amp; Team | Hatchling Media</title>
+  <meta name="description" content="Hatchling Media is an independent IP studio developing original children's and middle-grade story worlds for publishing, animation, and transmedia adaptation.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <style>
+    :root {
+      --color-bg: #FAFAF8;
+      --color-text: #1A1A1A;
+      --color-text-secondary: #555;
+      --color-accent: #2A6B4A;
+      --color-accent-light: #E8F3ED;
+      --color-border: #E0E0D8;
+      --color-card: #FFFFFF;
+      --font-heading: 'Georgia', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); line-height: 1.7; }
+    a { color: var(--color-accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* NAV */
+    header { display: flex; align-items: center; justify-content: space-between; padding: 20px 48px; border-bottom: 1px solid var(--color-border); background: #fff; position: sticky; top: 0; z-index: 100; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--color-text); }
+    .logo img { height: 36px; }
+    .logo-text { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600; }
+    nav { display: flex; gap: 28px; align-items: center; }
+    nav a { font-size: 0.9rem; color: var(--color-text-secondary); text-decoration: none; }
+    nav a:hover, nav a.active { color: var(--color-accent); }
+    .nav-cta { background: var(--color-accent); color: #fff !important; padding: 8px 20px; border-radius: 6px; font-size: 0.85rem; }
+    .nav-cta:hover { background: #1E5438; text-decoration: none; }
+    .mobile-menu { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+
+    /* PAGE HEADER */
+    .page-header { text-align: center; padding: 72px 48px 48px; }
+    .page-header h1 { font-family: var(--font-heading); font-size: 2.4rem; margin-bottom: 12px; }
+    .page-header p { color: var(--color-text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto; }
+
+    /* MAIN CONTENT */
+    main { max-width: 860px; margin: 0 auto; padding: 0 32px 80px; }
+
+    /* ABOUT SECTION */
+    .about-section { margin-bottom: 56px; }
+    .about-section p { color: var(--color-text-secondary); font-size: 1rem; margin-bottom: 16px; }
+
+    /* FOUNDER */
+    .founder-section { margin-bottom: 56px; }
+    .founder-name { font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 4px; }
+    .founder-title { color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 20px; }
+    .founder-bio { color: var(--color-text-secondary); font-size: 1rem; margin-bottom: 24px; }
+    .focus-areas { display: flex; flex-wrap: wrap; gap: 10px; }
+    .focus-tag { background: var(--color-accent-light); color: var(--color-accent); font-size: 0.82rem; font-weight: 500; padding: 6px 16px; border-radius: 20px; }
+
+    /* SECTION HEADINGS */
+    .section-heading { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 2px solid var(--color-accent-light); }
+
+    /* FUNCTIONS */
+    .functions-intro { color: var(--color-text-secondary); font-size: 1rem; margin-bottom: 36px; }
+    .function-block { background: var(--color-card); border: 1px solid var(--color-border); border-radius: 10px; padding: 32px; margin-bottom: 24px; }
+    .function-block h3 { font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 4px; }
+    .function-subtitle { color: var(--color-text-secondary); font-size: 0.88rem; font-style: italic; margin-bottom: 14px; }
+    .function-desc { color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 16px; }
+    .function-caps { list-style: none; padding: 0; }
+    .function-caps li { color: var(--color-text-secondary); font-size: 0.92rem; padding: 5px 0 5px 20px; position: relative; }
+    .function-caps li::before { content: "–"; position: absolute; left: 0; color: var(--color-accent); font-weight: 600; }
+
+    /* EXTENDED NETWORK */
+    .network-note { color: var(--color-text-secondary); font-size: 1rem; margin-bottom: 56px; }
+
+    /* STUDIO MODEL */
+    .model-section { background: var(--color-accent-light); border-radius: 10px; padding: 32px; margin-bottom: 56px; }
+    .model-section h2 { font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 12px; color: var(--color-accent); }
+    .model-section p { color: var(--color-text-secondary); font-size: 1rem; }
+
+    /* DEVELOPMENT AREAS */
+    .dev-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 56px; }
+    .dev-card { background: var(--color-card); border: 1px solid var(--color-border); border-radius: 8px; padding: 20px 24px; }
+    .dev-card h4 { font-family: var(--font-heading); font-size: 0.95rem; color: var(--color-accent); }
+
+    /* CAPABILITIES */
+    .cap-list { list-style: none; padding: 0; margin-bottom: 56px; }
+    .cap-list li { color: var(--color-text-secondary); font-size: 0.95rem; padding: 8px 0 8px 20px; position: relative; border-bottom: 1px solid var(--color-border); }
+    .cap-list li:last-child { border-bottom: none; }
+    .cap-list li::before { content: "–"; position: absolute; left: 0; color: var(--color-accent); font-weight: 600; }
+
+    /* INQUIRY SECTION */
+    .inquiry-section { margin-top: 56px; padding-top: 48px; border-top: 2px solid var(--color-border); }
+    .inquiry-section h2 { font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 12px; }
+    .inquiry-intro { color: var(--color-text-secondary); font-size: 1rem; margin-bottom: 28px; }
+    .inquiry-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+    .inquiry-card { background: var(--color-card); border: 1px solid var(--color-border); border-radius: 8px; padding: 20px 24px; }
+    .inquiry-card h3 { font-size: 0.95rem; margin-bottom: 6px; }
+    .inquiry-card p { color: var(--color-text-secondary); font-size: 0.85rem; }
+    .inquiry-cta { text-align: center; margin: 28px 0 16px; }
+    .btn-primary { display: inline-block; background: var(--color-accent); color: #fff; padding: 12px 32px; border-radius: 6px; font-size: 0.95rem; font-weight: 500; text-decoration: none; }
+    .btn-primary:hover { background: #1E5438; text-decoration: none; }
+    .inquiry-note { color: var(--color-text-secondary); font-size: 0.85rem; text-align: center; font-style: italic; }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--color-border); background: #fff; padding: 40px 48px; }
+    .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .footer-brand { display: flex; align-items: center; gap: 10px; }
+    .footer-brand img { height: 28px; }
+    .footer-brand span { font-family: var(--font-heading); font-size: 0.95rem; font-weight: 600; }
+    .footer-nav { display: flex; gap: 24px; }
+    .footer-nav a { font-size: 0.85rem; color: var(--color-text-secondary); text-decoration: none; }
+    .footer-nav a:hover { color: var(--color-accent); }
+    .footer-legal { font-size: 0.8rem; color: #999; }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      header { padding: 16px 20px; }
+      .mobile-menu { display: block; }
+      nav { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #fff; padding: 20px; border-bottom: 1px solid var(--color-border); gap: 16px; }
+      nav.open { display: flex; }
+      .page-header { padding: 48px 20px 32px; }
+      .page-header h1 { font-size: 1.8rem; }
+      main { padding: 0 20px 60px; }
+      .focus-areas { gap: 8px; }
+      .dev-grid { grid-template-columns: 1fr; }
+      .inquiry-grid { grid-template-columns: 1fr; }
+      footer { padding: 32px 20px; }
+      .footer-inner { flex-direction: column; text-align: center; gap: 16px; }
+      .footer-nav { flex-wrap: wrap; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="Hatchling_Media.png" alt="Hatchling Media logo">
+      <span class="logo-text">Hatchling Media</span>
+    </a>
+    <button class="mobile-menu" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">IP Portfolio</a>
+      <a href="slate.html">Development Slate</a>
+      <a href="studio.html" class="active">Studio</a>
+      <a href="mailto:albert.massay@hatchlingmedia.com" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h1>Studio &amp; Team</h1>
+    <p>An independent IP studio developing original story worlds for publishing, animation, and transmedia adaptation.</p>
+  </section>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="about-section">
+      <h2 class="section-heading">About</h2>
+      <p>Hatchling Media is an independent IP studio developing original children&rsquo;s and middle-grade story worlds for publishing, animation, and transmedia adaptation. We create creator-owned series built on strong educational, emotional, and franchise foundations.</p>
+      <p>Our model combines in-house IP creation with a rotating network of specialist collaborators across editorial, visual development, and story packaging.</p>
+    </section>
+
+    <!-- FOUNDER -->
+    <section class="founder-section">
+      <h2 class="section-heading">Founder</h2>
+      <h3 class="founder-name">Albert Massay</h3>
+      <p class="founder-title">Creator &amp; IP Lead</p>
+      <p class="founder-bio">Albert Massay creates original children&rsquo;s and middle-grade properties spanning animation, publishing, and educational storytelling. His work centers on culturally grounded settings, scalable story worlds, and series designed from the ground up for adaptation. Current and recent IP includes the Speedeet &amp; Wilar Caribbean series and multiple properties in active development for publishing and screen.</p>
+      <div class="focus-areas">
+        <span class="focus-tag">Culturally grounded world-building</span>
+        <span class="focus-tag">Education-aligned narrative</span>
+        <span class="focus-tag">Adaptation-first series design</span>
+        <span class="focus-tag">Creator-owned IP</span>
+      </div>
+    </section>
+
+    <!-- CORE CREATIVE FUNCTIONS -->
+    <section>
+      <h2 class="section-heading">Core Creative Functions</h2>
+      <p class="functions-intro">Hatchling Media operates with a project-based specialist bench. Team composition scales per IP and per submission package.</p>
+
+      <div class="function-block">
+        <h3>Development &amp; Adaptation</h3>
+        <p class="function-subtitle">IP Development &amp; Packaging &mdash; Contract Producers</p>
+        <p class="function-desc">Franchise structuring, pitch materials, and adaptation pathways from manuscript to screen and interactive formats.</p>
+        <ul class="function-caps">
+          <li>Pitch decks and series bibles</li>
+          <li>Franchise architecture and adaptation roadmaps</li>
+          <li>Submission packages</li>
+        </ul>
+      </div>
+
+      <div class="function-block">
+        <h3>Visual Development</h3>
+        <p class="function-subtitle">Illustration &amp; World Design &mdash; Project Artists</p>
+        <p class="function-desc">Visual development materials for agent, publisher, and studio pitch packages.</p>
+        <ul class="function-caps">
+          <li>Character sheets and world maps</li>
+          <li>Lookbooks and cover concepts</li>
+          <li>Diagrams, educational graphics, and visual supplements</li>
+        </ul>
+      </div>
+
+      <div class="function-block">
+        <h3>Editorial</h3>
+        <p class="function-subtitle">Children&rsquo;s &amp; MG Editorial &mdash; Specialist Editors</p>
+        <p class="function-desc">Developmental and age-band editorial passes for middle-grade and children&rsquo;s manuscripts.</p>
+        <ul class="function-caps">
+          <li>Pacing, clarity, and voice consistency</li>
+          <li>Age calibration</li>
+          <li>Series continuity audits</li>
+        </ul>
+      </div>
+
+      <p class="network-note">Depending on project needs, Hatchling Media engages additional specialists in curriculum design, audio adaptation, interactive concept development, and transmedia extensions.</p>
+    </section>
+
+    <!-- STUDIO MODEL -->
+    <div class="model-section">
+      <h2>Studio Model</h2>
+      <p>Hatchling Media uses a studio-bench model: a flexible network of experienced creative specialists engaged per project. This allows each IP to be developed by the right experts while maintaining creator ownership and creative continuity across all properties.</p>
+    </div>
+
+    <!-- CURRENT DEVELOPMENT -->
+    <section>
+      <h2 class="section-heading">Current Development</h2>
+      <div class="dev-grid">
+        <div class="dev-card"><h4>Middle-Grade Series</h4></div>
+        <div class="dev-card"><h4>Children&rsquo;s Animation IP</h4></div>
+        <div class="dev-card"><h4>Education-Integrated Story Worlds</h4></div>
+        <div class="dev-card"><h4>Transmedia Concept Franchises</h4></div>
+      </div>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section>
+      <h2 class="section-heading">Capabilities</h2>
+      <ul class="cap-list">
+        <li>Series bibles and pitch decks</li>
+        <li>Value-enhancement packs (maps, diagrams, guides)</li>
+        <li>Curriculum supplements and teacher guides</li>
+        <li>Adaptation packaging for screen and interactive media</li>
+      </ul>
+    </section>
+
+    <!-- PROFESSIONAL INQUIRIES -->
+    <section class="inquiry-section">
+      <h2>Professional Inquiries</h2>
+      <p class="inquiry-intro">We welcome conversations about partnerships, licensing, and collaboration. Select the category that best fits your inquiry.</p>
+
+      <div class="inquiry-grid">
+        <div class="inquiry-card">
+          <h3>Licensing Opportunities</h3>
+          <p>Merchandise, publishing rights, and character licensing for existing IP.</p>
+        </div>
+        <div class="inquiry-card">
+          <h3>Development Partnerships</h3>
+          <p>Co-development and financing for projects in our development slate.</p>
+        </div>
+        <div class="inquiry-card">
+          <h3>Co-production Opportunities</h3>
+          <p>Joint production partnerships for animation, series, and content.</p>
+        </div>
+        <div class="inquiry-card">
+          <h3>Distribution Partnerships</h3>
+          <p>Platform distribution, international rights, and regional partnerships.</p>
+        </div>
+        <div class="inquiry-card">
+          <h3>Brand Collaborations</h3>
+          <p>Brand integration, sponsored content, and promotional partnerships.</p>
+        </div>
+        <div class="inquiry-card">
+          <h3>Media &amp; Press Inquiries</h3>
+          <p>Interviews, press coverage, and media requests.</p>
+        </div>
+      </div>
+
+      <div class="inquiry-cta">
+        <a href="mailto:albert.massay@hatchlingmedia.com?subject=Professional%20Inquiry" class="btn-primary">Get In Touch &rarr;</a>
+      </div>
+
+      <p class="inquiry-note">Serious inquiries may request access to pitch materials, previews, or press kits.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="Hatchling_Media.png" alt="Hatchling Media">
+        <span>Hatchling Media</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">IP Portfolio</a>
+        <a href="slate.html">Development Slate</a>
+        <a href="studio.html">Studio</a>
+        <a href="mailto:albert.massay@hatchlingmedia.com">Contact</a>
+      </nav>
+      <div class="footer-legal">
+        &copy; 2026 Hatchling Media. All original characters and concepts are intellectual property of Hatchling Media.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
