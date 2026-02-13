@@ -3,7 +3,7 @@ title: "Uncle Ramesh Says: 'SOCU Doing Exactly What Law Enforcement Supposed To 
 date: 2026-02-12T07:00:00-04:00
 draft: false
 tags: ["uncle-ramesh", "pro-government"]
-categories: ["Uncle Ramesh Take"]
+categories: ["Uncle Ramesh", "Opinion", "Response"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh responds to the SOCU raid coverage with facts about US sanctions, indictments, and what 'credible intelligence' actually means."
 ---
