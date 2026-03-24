@@ -9,87 +9,71 @@ ShowToc: false
 
 ## What Is The Guyana Brief?
 
-**The Guyana Brief** is Guyana's premier satirical news commentary platform. Every day, we read all four of Guyana's major newspapers — Guyana Chronicle, Stabroek News, Kaieteur News, and Guyana Times — so you don't have to.
+**The Guyana Brief** is Guyana's premier satirical news commentary platform. Every day, we read Guyana's major newspapers — Guyana Chronicle, Kaieteur News, Guyana Times, and Demerara Waves — so you don't have to.
 
 We distill the news into a **5-6 minute read** that's informative, entertaining, and occasionally absurd. Because sometimes, the only way to make sense of the news is to laugh at it.
 
+*Note: Stabroek News, which we covered for years, printed its final edition on March 15, 2026. We honour their nearly four decades of independent journalism.*
+
 ---
 
-## Our Format: The Dueling Blogs
+## Our Format
 
-We present Guyana's news through two distinct voices:
+We present Guyana's news through distinct voices:
 
-### The Daily Brief (Critical View)
-Our flagship feature covers 8-12 stories from all four newspapers with sharp, satirical commentary. We ask the questions everyone's thinking but nobody's saying out loud.
+### 📰 The Daily Brief (Critical View)
+Our flagship feature covers 8-12 stories from across the newspapers with sharp, satirical commentary. We ask the questions everyone's thinking but nobody's saying out loud.
 
-### Uncle Ramesh (Diaspora View)
-Our fictional commentator from Queens, New York offers the pro-government diaspora perspective. Uncle Ramesh reads the same newspapers and sees... something entirely different. Together, the Daily Brief and Uncle Ramesh give you both sides of every story.
+### 👴 Uncle Ramesh (Diaspora View)
+Our fictional commentator from Toronto offers the pro-government diaspora perspective. Uncle Ramesh reads the same newspapers and sees... something entirely different. Together, the Brief and Uncle Ramesh give you both sides of every story.
+
+### 🌴 Caribbean Brief
+Regional news from Jamaica, Trinidad and Tobago, Barbados, and the wider CARICOM neighbourhood — same satirical voice, wider geography.
+
+### 🎙️ YouTube Scripts
+HeyGen-ready scripts for our video content — 60-second quick brief and 4-minute full episode.
 
 ---
 
 ## Weekly Features
 
-| Day | Features |
-|-----|----------|
-| **Sunday** | Speedeet and Wilar, De Boys Seh |
-| **Wednesday** | Progress Report, The Rumor Mill |
-| **Friday** | DJ Roadblock, Patriots Portfolio |
-| **Saturday** | Bam-Bam Sally, Back-A-Truck, Bounty Board |
-
-### Meet Our Characters
-
-- **Speedeet and Wilar** — Two 12-year-old best friends from Pike Street, Kitty, navigating childhood adventures in Guyana
-- **De Boys Seh** — Kid commentary on the news (from Speedeet and Wilar's perspective)
-- **DJ Roadblock** — Traffic and infrastructure updates with attitude
-- **Bam-Bam Sally** — Fictional gossip column (all names and scenarios are entirely made up)
-- **Progress Report** — Tracking government projects and promises
-- **Patriots Portfolio** — Following the business moves of Guyana's elite
-- **Back-A-Truck** — Weekend deals and market finds
-- **Bounty Board** — Community notices and events
+| Day | Feature |
+|-----|---------|
+| **Sunday** | Speedeet & Wilar + De Boys Seh |
+| **Wednesday** | Progress Report |
+| **Friday** | DJ Roadblock + Patriots Portfolio |
+| **Saturday** | Bam-Bam Sally |
 
 ---
 
-## The Caribbean Daily Brief
+## What We Are (And Are Not)
 
-We're expanding! **The Caribbean Daily Brief** covers regional news from Jamaica, Trinidad and Tobago, Barbados, and across the Caribbean with the same satirical voice. Because the drama doesn't stop at Guyana's borders.
+**We are:** Satirical commentary. Think of us as The Onion for Guyana. We read real news from real newspapers and add humour, context, and the occasional raised eyebrow.
 
----
+**We are not:** A news organisation. We do not break stories, conduct interviews, or employ journalists. We read what the papers report and respond to it with commentary.
 
-## Our Mission
+**Our sources:** Guyana Chronicle, Kaieteur News, Guyana Times, Demerara Waves.
 
-In a media landscape often divided along political lines, **The Guyana Brief** aims to:
-
-1. **Inform** — Summarize the day's news from multiple sources
-2. **Entertain** — Make the news accessible and engaging
-3. **Question** — Hold all sides accountable through satire
-4. **Balance** — Present multiple perspectives (even fictional ones)
-
-We believe Guyanese deserve news coverage that doesn't take itself too seriously, while still taking the issues seriously.
+All characters (Uncle Ramesh, Bam-Bam Sally, DJ Roadblock, etc.) are fictional. All satire targets policies and public events — not private individuals.
 
 ---
 
-## Important Disclaimers
+## Legal
 
-**The Guyana Brief is satirical commentary.**
+The Guyana Brief publishes satirical commentary protected under freedom of expression. We do not publish defamatory content, false statements of fact presented as true, or content targeting private individuals.
 
-- All content is based on news reported in Guyana's four major newspapers
-- Our satire targets **policies, decisions, and situations** — never individuals personally
-- **Uncle Ramesh** is a fictional character and does not represent any real person
-- **Bam-Bam Sally's** gossip column uses entirely fictional names and scenarios
-- **Speedeet and Wilar** are fictional characters; their stories are meant to entertain
-
-We are committed to operating within the bounds of Guyana's Cybercrime Act 2018, particularly Section 19. We do not engage in cyberbullying, defamation, or harassment of individuals.
+We do not engage in cyberbullying, defamation, or harassment of individuals.
 
 ---
 
-## Contact Us
+## Contact
 
 Have a news tip? Want to advertise? Just want to give us feedback?
 
-**Email:** guyanadailybrief@gmail.com
+Email: **guyanadailybrief@gmail.com**
 
-[Visit our Contact page](/contact/) for more details.
+Visit our [Contact](/contact/) page for more details.
 
 ---
 
-*The Guyana Brief — Reading four newspapers so you can read one.*
+*The Guyana Brief — Reading the papers so you can read one.*
