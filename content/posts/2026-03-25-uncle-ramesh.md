@@ -1,10 +1,14 @@
 ---
-title: "Uncle Ramesh Says – Wednesday, March 25, 2026"
+title: "Uncle Ramesh's Take: Six Dialysis Centres, A Special Envoy, And Some People Just Won't Give Credit"
 date: 2026-03-25
-draft: false
+categories: ["Uncle Ramesh"]
+tags: ["PPP", "President Ali", "Exxon", "Kristi Noem", "Dialysis", "Cash Grant"]
+author: "Uncle Ramesh"
+description: "Uncle Ramesh sees six new dialysis centres, a US Special Envoy, and cost recovery on seven oil projects — and wonders why people still complaining."
 ---
-
-*Uncle Ramesh has strong opinions about government performance. He also has strong opinions about roti thickness, but that is a matter for another column.*
+🐒 **UNCLE RAMESH'S TAKE** 🐒  
+*Your Uncle from Toronto Who Actually Reads the Chronicle*  
+**Wednesday, March 25, 2026**
 
 ---
 

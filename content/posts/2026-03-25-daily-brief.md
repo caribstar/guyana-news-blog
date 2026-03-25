@@ -1,10 +1,14 @@
 ---
-title: "Daily Brief – Wednesday, March 25, 2026"
+title: "Wednesday's Guyana Brief: Noem Lands, Exxon Expands, and the Bridge Is Still Sinking"
 date: 2026-03-25
-draft: false
+categories: ["Daily Brief", "News"]
+tags: ["Kristi Noem", "Exxon", "Mohameds", "CCJ", "World Bank", "CARICOM", "Cash Grant"]
+author: "Daily Brief"
+description: "A fired US official arrives as a Special Envoy, Exxon wants two more oil projects, and the World Bank says Guyana's reform programme has been quietly gutted. Wednesday's 5-minute news circus."
 ---
-
-*Your morning roundup of everything going on in the Land of Many Waters — served hot, no sugar.*
+🇬🇾 **THE GUYANA BRIEF** 🇬🇾  
+*Your 5-Minute Wednesday News Circus*  
+**Wednesday, March 25, 2026** ⏱️ 6 min read
 
 ---
 
@@ -12,7 +16,7 @@ draft: false
 
 Kristi Noem — fired as US Secretary of Homeland Security, dusted off, renamed "Special Envoy" — touched down in Guyana this week as part of something called the "Shield of the Americas." The visit involves meetings with energy companies and conversations about security cooperation, which is Washington-speak for *we want to keep an eye on your oil and make sure China doesn't get any*. President Ali confirmed that US-Guyana relations remain strong. Nobody confirmed that Kristi knows where Guyana is on a map.
 
-*Sources: Kaieteur News, Demerara Waves, TEMPO Networks*
+*Sources: Kaieteur News, Demerara Waves*
 
 ---
 
