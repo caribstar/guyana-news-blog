@@ -1,102 +1,56 @@
 ---
-title: "Daily Brief – Sunday, April 6, 2026"
+title: "The Daily Brief — Monday, April 6, 2026"
 date: 2026-04-06T06:00:00-04:00
 categories: ["Daily Brief"]
-tags: ["Guyana", "news", "daily brief"]
-author: "GDB Staff"
-description: "Your Sunday morning rundown of the news Guyana woke up to — fire theft, gold smugglers, CARIFTA glory, and a Suriname problem that won't sit down."
+tags: ["Suriname", "Corentyne", "Gas-to-Energy", "CARIFTA", "Karasabai", "fishermen", "border security", "Roderick Rainford"]
+author: "The Daily Brief"
+description: "Suriname charges up a storm, Karasabai gets an airstrip, fishermen still missing, and Guyana's athletes have a tough day in Grenada."
 ---
 
-Good morning, Guyana. It's Sunday. The churches are open, the roti shops are about to be packed, and the country has somehow produced enough drama to fill a full week's worth of news before breakfast. Grab your mauby. We begin.
-
----
-
-**FIREFIGHTERS INVESTIGATED FOR STEALING LAPTOP AT FIRE SCENE**
-
-The Guyana Police Force has opened an investigation after two firefighters allegedly walked off with a laptop while responding to a blaze on Quamina Street, Georgetown. Fire Chief Gregory Wickham confirmed the probe, noting that an internal GFS inquiry is running parallel to the police one. Both men remain on active duty. Because nothing says "public servant" like helping yourself to a little souvenir while the building is still smoking.
-
-*Source: Kaieteur News*
+*Your 5-minute guide to what's happening in Guyana — plain talk, no spin.*
 
 ---
 
-**GOLD RUNNING ACROSS THE BORDER — AND NOT QUIETLY**
+**SURINAME CHARGES BY THE RIVERFULL**
 
-A damning new report from the Global Initiative Against Transnational Organised Crime has named Guyana as a primary pipeline for illicit gold flooding into Venezuela. The twist: it used to go the other way. But since the removal of Maduro in January, Venezuelan military generals have reportedly been offering an 8% premium above market price to lure Guyanese traffickers across the border. The Cuyuní River has been turned into an extortion corridor. Venezuelan criminal syndicates have expanded deep into the Essequibo, and Guyanese miners are reportedly paying "rents" to armed groups just to operate. Nothing like a power vacuum next door to remind you that geography is fate.
-
-*Source: Kaieteur News*
+The Suriname river fee saga continues to produce strong language and diplomatic protest letters that Paramaribo appears to be filing directly in the bin. Guyanese vessel operators in the Upper Corentyne are now facing "pilot licence" fees of up to US$2,500 per trip, plus broker charges of US$1,000 to US$1,500, which is an impressive number for a river that Guyana has legal navigation rights on under customary international law. The Berbice Chamber and the GCCI have both called for the government to freeze the Corentyne Bridge project until Suriname gets its act together, which is roughly equivalent to refusing to build a fence with your neighbour until they stop letting their cow into your yard. President Ali lodged a formal protest. Suriname has not responded. The word "reciprocity" has now been invoked by every arm of Guyanese government except the National Drainage and Irrigation Authority, and give them time.
 
 ---
 
-**LINDSAYCA CONTRACT SMELLS WORSE BY THE PARAGRAPH**
+**WHO IS LINDSAYCA AND WHY DO THEY HAVE US$759 MILLION OF OUR MONEY**
 
-Kaieteur News has dropped another layer on the Lindsayca saga — the "American energy company" that won a near-billion-dollar contract to build Guyana's NGL facility and 300-megawatt power plant. Per Kaieteur's reporting, the company was bankrupt at time of bid, drowning in debt, facing money laundering allegations, and lacked basic construction experience for a project of this scale. Chartered accountant Christopher Ram reviewed the financials and found "significant financial strain" with persistent negative operating cash flows. Guyana signed anyway. A government that signs contracts without reading them, twice, deserves its own category of cautionary tale.
-
-*Source: Kaieteur News*
+Kaieteur News is asking, and so should everyone else. The paper is reporting that Lindsayca-CH4 was awarded a US$759 million contract to construct the Natural Gas Liquids facility and a power plant — key components of the Gas-to-Energy project — despite reportedly being bankrupt, inexperienced, and facing mounting lawsuits. The government has not yet explained what competitive process produced this contractor. To be fair, perhaps the process was extremely competitive among contractors who met those specific qualifications.
 
 ---
 
-**SURINAME RIVER FEES: PRIVATE SECTOR SAYS CALL OFF THE BRIDGE TALKS**
+**FOUR FISHERMEN STILL MISSING, FAMILIES NOT ACCEPTING IT**
 
-Guyana's private sector is done being polite. The Georgetown Chamber of Commerce and the Berbice Chamber have both come out swinging over Suriname's decision to impose fees on Guyanese vessels using the Corentyne River — calling it an act designed to strangle Berbice development. Demerara Waves reports that business groups are now demanding the government halt bridge talks entirely unless Suriname scraps the tariff. The message is clear: you can't charge us for the river and then ask us to build you a road over it.
-
-*Source: Demerara Waves, Guyana Times*
+Five months after four Guyanese fishermen — including 18-year-old Rockey France and his cousins — disappeared in Surinamese waters, their families are refusing the official "drowned at sea" determination. No bodies, no debris, no personal belongings have been recovered from the Saramacca River since October. The families are holding on. It is the kind of story that sits quietly under the bigger headlines and should not be allowed to.
 
 ---
 
-**EASTER MESSAGE: PRESIDENT ALI CALLS FOR HOPE**
+**PRESIDENT ALI COMMISSIONS AIRSTRIP AT KARASABAI, ESTABLISHES BORDER PATROL UNIT**
 
-President Dr. Irfaan Ali issued an Easter message to the nation, describing the season as one of enduring hope rather than fleeting happiness. No word on whether the message came with a timeline for fixing the city's drainage.
-
-*Source: Guyana Times*
+A $1.5 billion airstrip has been commissioned at Karasabai in Region Nine, with President Ali announcing it alongside a new border patrol unit for the region. The government is framing this as frontier security, which is accurate, and also as regional development, which is also accurate, and the two things are not unrelated when your frontier neighbours have been charging you US$2,500 to use a river.
 
 ---
 
-**GWI POURING MILLIONS INTO LEAKS NEAR BANK OF GUYANA**
+**RODERICK RAINFORD, FORMER CARICOM SECRETARY-GENERAL, HAS PASSED**
 
-The Guyana Water Inc. has reportedly been hemorrhaging public funds on recurring leaks in the streets near the Bank of Guyana — a situation that has persisted for months with no permanent fix. Demerara Waves has flagged it as yet another chapter in the city's long and colourful history of watching money flow directly into the ground.
-
-*Source: Demerara Waves*
+President Ali joined regional leaders in mourning the passing of Roderick Rainford, former CARICOM Secretary-General remembered for his role in shaping Caribbean integration and the CSME vision. He was one of the architects of the regional project during a period when people still believed it was buildable. Some still do.
 
 ---
 
-**$100,000 CASH GRANT GOING THROUGH BANKING SYSTEM**
+**CARIFTA GAMES: TOUGH DAY AT THE OFFICE**
 
-The government has confirmed that the $100,000 cash grant promised in Budget 2026 will be distributed via the banking system. Senior Minister Dr. Ashni Singh is overseeing the rollout of Phase 2. The question of whether the bank infrastructure across rural Guyana is ready for this is, as always, left as an exercise for the recipient.
-
-*Source: Guyana Chronicle*
+Guyana's promising start to the 53rd CARIFTA Games in St. George's, Grenada, lost momentum on day two, with several athletes falling short of expectations. The national team did break the CARIFTA Games mixed relay record — which counts — and is eyeing 800m and 4x400m gold on the final day. Room to recover. Room to perform.
 
 ---
 
-**KARASABAI GETS A REAL AIRSTRIP**
+**$100,000 CASH GRANT GOING THROUGH THE BANKS**
 
-The government has commissioned a $1.053 billion airstrip in Karasabai, Region Nine, promising increased flight access to the deep interior. For residents who have been waiting on this for years, the ribbon has finally been cut. Small mercy, large price tag, long overdue.
-
-*Source: Guyana Times*
+The government has confirmed that the $100,000 cash grant announced in Budget 2026 will be distributed through the banking system. Details of the rollout timeline are still emerging. If you are waiting for yours, you are in good company.
 
 ---
 
-**CARIFTA GAMES: GUYANA WINS BIG IN GRENADA**
-
-On a much happier note — Guyana absolutely announced itself at the 53rd CARIFTA Games in St. George's, Grenada. The Mixed 4x400m relay team of Tishawn Easton, Akeela Dover, Malachi Austin, and Tianna Springer ran a CARIFTA record 3:20.79 to claim gold. Springer also won the Girls U20 400m in 52.47s. Austin took gold in the Boys U20 400m. Javon Roberts grabbed bronze in the Boys U20 1500m, and Jermaine Shepherd earned silver in the Boys U17 1500m. Five medals on Day One. Three gold. Guyana is in the building.
-
-*Source: Kaieteur News*
-
----
-
-**HARPY EAGLES DRAMA: SINCLAIR WENT TO THE BATHROOM AND NEVER CAME BACK**
-
-Chief Selector Ramnaresh Sarwan held a press conference to explain why Kevin Sinclair and Ronaldo Alimohamed were left out of the Harpy Eagles squad for the upcoming Regional 4-Day season. Sarwan confirmed attitude issues for Sinclair — the headline incident being a practice game where Sinclair claimed he needed the bathroom, changed into street clothes, and simply did not return to the field while the game was still on. Eagles skipper Tevin Imlach confirmed the events. The GCB is clearly not interested in keeping this one quiet.
-
-*Source: Kaieteur News*
-
----
-
-**60TH INDEPENDENCE: WHERE IS THE THEATRE?**
-
-A letter to Kaieteur News this morning captures what many are feeling: for Guyana's 60th Independence Anniversary, there is no major theatrical production commemorating the nation's history. No staging of the journey from colony to republic. No dramatisation of who we are and where we came from. A veteran producer has echoed the same lament. Sixty years of independence, and the celebration programme has apparently left the arts out of the invitation.
-
-*Source: Kaieteur News, Demerara Waves*
-
----
-
-*The Guyana Daily Brief is a satirical news publication. Errors, exaggerations, and raised eyebrows are all features, not bugs.*
+*The Daily Brief is a satirical publication. All stories are based on real news sources. Opinions expressed are those of the Brief and do not constitute legal, financial, or diplomatic advice, especially regarding river fees.*
