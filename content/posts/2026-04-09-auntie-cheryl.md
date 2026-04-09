@@ -1,7 +1,7 @@
 ---
 title: "Auntie Cheryl's Trinidad Update – Thursday, April 9, 2026"
 date: 2026-04-09
-categories: ["Caribbean Brief", "Trinidad", "Diaspora"]
+categories: ["Trini Brief"]
 tags: ["Trinidad", "Chaguanas", "diaspora", "Caribbean", "Kamla", "news"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl in Chaguanas reads the news and is pleased about most of it."

@@ -1,7 +1,7 @@
 ---
 title: "The Yard Report – Thursday, April 9, 2026"
 date: 2026-04-09
-categories: ["Caribbean Brief", "Jamaica"]
+categories: ["Jamaica Brief"]
 tags: ["Jamaica", "Kingston", "news", "Caribbean", "gas prices", "hurricane", "cricket"]
 author: "Yard Report"
 description: "Dispatches from Kingston — gas going up, hurricane victims still in schools, and Jamaica not in the World Cup. A normal week."

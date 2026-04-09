@@ -1,7 +1,7 @@
 ---
 title: "Miss Violet's Barbados Bulletin – Thursday, April 9, 2026"
 date: 2026-04-09
-categories: ["Caribbean Brief", "Barbados", "Diaspora"]
+categories: ["Bajan Brief"]
 tags: ["Barbados", "diaspora", "Brooklyn", "Caribbean", "news"]
 author: "Miss Violet"
 description: "Miss Violet in Brooklyn reads about Barbados and has high standards for everything."
