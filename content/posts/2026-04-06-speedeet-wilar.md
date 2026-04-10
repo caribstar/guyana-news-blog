@@ -1,96 +1,134 @@
 ---
-title: "Speedeet & Wilar – The River That Ran Backwards"
-date: 2026-04-06T08:00:00-04:00
+title: "Speedeet & Wilar — The Easter Kite"
+date: 2026-04-06
 categories: ["Speedeet & Wilar"]
-tags: ["Speedeet", "Wilar", "children", "adventure", "Guyana"]
-author: "Albert Massay"
-description: "Speedeet and Wilar discover something very strange happening at the creek near Bartica — and only one of them thinks it is exciting."
+tags: ["guyana", "kids", "pike street", "easter", "kite", "creolese"]
+author: "Speedeet and Wilar"
+description: "Speedeet and Wilar try to fly a kite on Easter Monday on the seawall. The kite has other plans. A Pike Street Easter adventure."
 ---
 
-*A Speedeet & Wilar Adventure*
-
----
-
-Wilar noticed it first.
-
-He was sitting on the big flat rock at the edge of Greenstone Creek, dangling his feet just above the water, when he saw a leaf float past — going the wrong way.
-
-"Speedeet," he said quietly.
-
-"Mmm." Speedeet was busy watching a dragonfly.
-
-"The water going backwards."
-
-The dragonfly flew away. Speedeet sat up straight and looked at the creek.
-
-The water was moving — slowly, but clearly — upstream. Toward the hill instead of away from it.
-
-"That can't be right," Speedeet said.
-
-"I know. But look."
-
-They both looked. A twig. A seed pod. A dead flower. All floating up the creek, slow and steady, as if the hill had decided it wanted things back.
-
-Speedeet jumped down from the rock and crouched at the water's edge. She put her hand in. Cold. Moving. Definitely moving the wrong way.
-
-"Maybe it rained so heavy up the hill that water pushing down and making the creek back up?" she said.
-
-Wilar shook his head. "It didn't rain since Tuesday. And even when it does, the creek just rise, not reverse."
-
-They looked at each other.
-
-"We should go upstream," Speedeet said.
-
-"I knew you going to say that," Wilar said. "Every single time something strange happen, you want to go toward it."
-
-"Because that is where the answer is."
-
-Wilar stood up slowly. He picked up his bag. "You know what normal children do on a Sunday? They eat and watch cartoons."
-
-"We going to find something better than cartoons," Speedeet said, already walking.
+*Speedeet & Wilar: two boys, one friendship, Pike Street, Georgetown. Every Sunday.*
 
 ---
 
-The creek wound through thick bush, past a stand of tall Mora trees and around a bend where the roots grew out over the bank like fingers. Speedeet walked in front, watching where she put her feet. Wilar followed, watching everything else — the birds going quiet, the insects pulling back. The forest knew something too.
+De kite string cut at exactly de wrong moment.
 
-Around the second bend, they found it.
+Speedeet had been holding it for forty-five minutes. His hand was cramping. De kite — a big diamond-shape one he and Wilar had built from bamboo and plastic bag material de night before — was flying good. Real good. Better than either of dem had expected.
 
-A beaver dam. Except there were no beavers in Guyana, and this was not really a dam. It was more like a wall — sticks and mud and stones, packed tight across the narrow neck of the creek, with water pooling up behind it and pushing back against the current.
+Den de string cut.
 
-"Animals build this?" Wilar said.
+Just so.
 
-Speedeet walked up to the edge. Wedged between the sticks were smooth grey stones — too round, too regular. And in the middle of the dam, a large flat piece of dark wood, still wet, with marks carved into it.
+De kite climb up, up, up, above de seawall, above de coconut trees, above de lampposts, going northwest toward somewhere that was not Georgetown anymore.
 
-Not random marks.
+*"Speedeet."*
 
-Letters.
+*"I see it."*
 
-Speedeet leaned close. The carving was old — the edges soft with moss — but the letters were still clear.
+*"It gone."*
 
-*K.A. — 1947*
+*"I know it gone, Wilar. I was holding de string."*
 
-"Somebody built this," Speedeet breathed. "A long time ago."
-
-Wilar came up beside her and read the letters. "K.A.," he said. "Who is K.A.?"
-
-"I don't know. But they built something strong enough to still be standing nearly eighty years later." She touched the edge of the carved wood carefully. "And they signed it."
-
-They stood there in the quiet, the creek pushing up behind them, the forest holding its breath.
-
-"We should tell somebody," Wilar said. "Miss Desiree. Or the Bartica heritage officer."
-
-"Yes." Speedeet nodded. For once, she wasn't charging ahead. She was thinking. "This is somebody's work. We shouldn't touch it more than we already did."
-
-Wilar looked at her, surprised. "You getting wiser," he said.
-
-"Don't push it," she said. "Race you back to the flat rock."
-
-She was already gone before he finished laughing.
+Dem two stand on de seawall and watch de kite until it was a dot. Den dey watch de dot. Den de dot was gone and dey was just watching sky.
 
 ---
 
-*Next week: Speedeet and Wilar bring Miss Desiree to the creek — and she recognises the initials.*
+It had been Wilar idea to build de kite. Easter Monday on de seawall was de most serious kite-flying day in de whole Guyanese calendar and Wilar had a vision. He drew it on a piece of paper. He showed Speedeet. Speedeet looked at it and said it look like a diagram from a science textbook.
+
+*"It's aerodynamic,"* Wilar said.
+
+*"It's a bag on some stick,"* Speedeet said.
+
+*"Aerodynamically,"* Wilar said, *"a bag on some stick."*
+
+Dem get de bamboo from Speedeet grandmother yard where she had a small stand of it near de back fence. She watch dem cut it and did not say anything because she know that Easter kites was a sacred thing and she was not de type of grandmother to stand between children and sacred things.
+
+De plastic bag was from de Chinese shop on de corner. Wilar paid for it with his pocket money. He held it like it was significant.
 
 ---
 
-*Speedeet & Wilar is published by Hatchling Media. The series celebrates the rivers, forests, and communities of Guyana's interior through the eyes of two children who never run out of questions.*
+De seawall on Easter Monday was full. Every family in Kitty seemed to be there. Kites of every size and shape and colour was in de air. Some was fancy store-bought ones with tails and designs. Some was clearly home projects like Speedeet and Wilar's, identifiable by their irregular shapes and the general air of optimism over engineering.
+
+Dem find a spot near de middle section. Wilar held de kite. Speedeet held de string. De plan was: Wilar run, Speedeet let out string, de kite go up, dem both celebrate.
+
+De execution was:
+
+Wilar run.
+
+Speedeet let out string.
+
+De kite go up approximately two feet and then turn sideways and aim itself directly at a woman eating a roti who had to dodge fast.
+
+*"Sorry, Auntie,"* dem say together.
+
+De auntie give dem de look. Dem know de look. Every Guyanese child know de look.
+
+---
+
+Dey try again.
+
+Second attempt: de kite went up. Actually up. Six feet. Eight feet. Speedeet let out more string. Wilar was cheering.
+
+Ten feet.
+
+Fifteen.
+
+Twenty.
+
+*"It flying, Speedeet!"*
+
+*"I know man, I doing it!"*
+
+Thirty feet, forty, de kite was above de other kites now, catching a wind that was coming off de sea, pulling strong against Speedeet hand. He let out more string. His whole ball of string was almost out.
+
+*"Tie it to something,"* Wilar say.
+
+*"To what?"*
+
+*"To your wrist."*
+
+Speedeet look at de string. He look at de kite. He look at de sky above de kite.
+
+*"Wilar if dis kite strong enough to pull de string, it strong enough to pull my arm."*
+
+*"Don't be dramatic."*
+
+*"I am being exact."*
+
+He tied it to his wrist anyway. Because Wilar had paid for de bag with his pocket money and it seemed right.
+
+De wind had other plans.
+
+De string cut — old string, too much tension — and de kite was free in approximately one second.
+
+---
+
+Dey stand there.
+
+*"We shoulda buy new string,"* Wilar say.
+
+*"We shoulda,"* Speedeet agree.
+
+*"You think somebody go find it?"*
+
+*"It probably land in Suriname."*
+
+*"They going to wonder who flew a plastic bag to Suriname."*
+
+*"They going to know is Guyanese. Is a Easter tradition."*
+
+Wilar was quiet for a moment. Then: *"Speedeet. You want to go get another bag and try again?"*
+
+Speedeet look at his cramped hand. He look at de sky where de kite used to be. He look at de seawall full of people flying kites that had not disappeared into other countries.
+
+*"Yeah,"* he said. *"But dis time we buying proper string."*
+
+---
+
+Dey went back to de Chinese shop.
+
+De auntie with de roti watch dem go. She shook her head. But she was smiling. Because kites was supposed to fly away on Easter. Everybody know dat. It just usually happened on purpose.
+
+---
+
+*Speedeet & Wilar publishes every Sunday. This story is fiction set in Georgetown, Guyana. Happy Easter.*
