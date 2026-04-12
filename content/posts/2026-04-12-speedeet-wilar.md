@@ -1,83 +1,145 @@
 ---
-title: "Speedeet & Wilar: The Disappearing Kite"
+title: "Speedeet & Wilar: De Talent Show Disaster"
 date: 2026-04-12T09:00:00-04:00
 categories: ["Speedeet & Wilar"]
-tags: ["Speedeet", "Wilar", "Easter", "kite", "Guyana", "children", "seawall"]
+tags: ["Speedeet", "Wilar", "talent show", "school", "Guyana", "children", "Pike Street"]
 author: "GDB Staff"
-description: "It's Easter Sunday and Speedeet and Wilar are flying kites on the seawall — until Wilar's kite makes a dramatic escape. A Speedeet & Wilar Easter adventure."
+description: "Speedeet signs them both up for the school talent show without telling Wilar. Wilar has one week to learn to juggle. This cannot end well."
 ---
 
-*A Speedeet & Wilar Easter Story*
+*A Speedeet & Wilar Story*
 
 ---
 
-The wind on the seawall was the kind of wind that only comes at Easter — strong and steady, blowing straight off the Atlantic with a cool saltiness that made your eyes water and your kite string hum.
+Wilar found out about the talent show the same way he found out about most of Speedeet's plans — after it was too late to stop them.
 
-Speedeet had her kite up first. It was red and gold, shaped like a diamond, with a long tail of yellow cloth strips that her grandmother had cut from an old dress. She held the string tight with both hands and watched it climb — higher, higher, until it was a bright spark dancing against the wide blue sky.
+"I signed us up," Speedeet said, appearing at the gate on a Tuesday morning with the expression of someone delivering excellent news.
 
-"Mine going higher," said Wilar, who was still unwinding his string.
+Wilar looked up from his book. "Signed us up for what?"
 
-"Yours not even up yet," said Speedeet.
+"De school talent show. End of next week. We going to juggle."
 
-Wilar's kite was blue with a face drawn on it in marker — two big eyes, a wide smile, and what was supposed to be eyebrows but looked more like two angry caterpillars. He had named it Captain Thunderface.
+There was a silence.
 
-"Captain Thunderface doesn't need to rush," said Wilar seriously. "He is strategic."
+"Speedeet," Wilar said carefully. "Can you juggle?"
 
-Speedeet looked at her friend. "He is a kite, Wilar."
+"Not yet."
 
-"A strategic kite."
+"Can *I* juggle?"
 
-Wilar ran three steps, let out string, ran three more steps, let out more string, and Captain Thunderface lurched into the air like a sleepy pelican that had been startled from a post. For a moment it dipped — everyone around them held their breath — then the wind caught it and yanked it upward with tremendous enthusiasm.
+"Also not yet. But we have a whole week."
 
-"YES!" shouted Wilar.
+Wilar closed his book. This was serious enough to put the book down for. "What made you think juggling was a good idea?"
 
-Captain Thunderface climbed and climbed until he was level with Speedeet's kite, then above it, then — improbably — even higher, the string going nearly straight up into the sky.
+"I saw a video. De man make it look easy."
 
-"I told you," said Wilar. "Strategic."
+"Videos always make things look easy. That is the entire purpose of videos."
 
-They flew their kites for a long while. The seawall was full of people — families with coolers, children running with their shoes off, old men sitting on the concrete watching everything with great satisfaction. The smell of cook-up rice and fried fish drifted from somewhere nearby. A vendor was selling sugar cane and calling out prices that nobody seemed to find unreasonable.
+"Wilar. It's THREE balls. We're not stupid."
 
-Then Wilar sneezed.
+"I am not worried about whether we are stupid. I am worried about whether we can juggle."
 
-It was a large sneeze. The kind that takes over your whole body for half a second. His hands flew apart, the string whipped through his fingers — and Captain Thunderface was free.
+Speedeet pulled two oranges and a mango out of his school bag. "I borrowed these from my mother kitchen. We start practising now."
 
-The kite didn't drift away gently. It *shot* upward, the loose string trailing behind it like a tail, climbing fast and purposeful, as if it had been waiting for exactly this moment.
+Wilar looked at the fruit. He looked at Speedeet. He picked up his book again. "I am not responsible for what happens to those oranges."
 
-"CAPTAIN THUNDERFACE!" Wilar shouted.
+---
 
-He ran along the seawall, one hand stretched up as if he could somehow reach a kite that was now forty metres above him. Speedeet quickly wound in her own string, tied it to the railing, and ran after him.
+Day one was bad.
 
-The kite sailed north, over the road, over the rooftops, over a mango tree where three birds scattered in alarm.
+Speedeet threw all three pieces of fruit in the air at the same time, which is not juggling — it is just throwing things. The mango hit the fence. One orange rolled under the step. The other orange hit Wilar on the shoe.
 
-Wilar stopped running. He put his hands on his knees and breathed hard.
+"That's not juggling," Wilar said without looking up from his book.
 
-"He gone," he said.
+"I'm warming up."
 
-They stood watching Captain Thunderface grow smaller and smaller until he was just a blue speck, then nothing.
+"You're throwing fruit at me."
 
-Wilar was quiet for a moment. Then he said: "Maybe he went to find a better wind."
+"ONE orange. On the shoe. Barely."
 
-Speedeet looked at her friend. She thought about saying something practical, like *it was just a kite* or *we can make another one*. But something about the way Wilar was watching the empty sky made her say something different instead.
+Wilar looked at the orange on the ground. He picked it up. He watched a YouTube video on his phone for four minutes. Then he stood up and began tossing one orange from hand to hand in a clean arc.
 
-"He was the highest one on the whole seawall," she said. "Everyone saw."
+"You have to start with one," he said. "Then two. Then three."
 
-Wilar stood up straight. "That's true," he said. "Captain Thunderface flew higher than every kite out here today." He paused. "Before he escaped."
+Speedeet stared at him. "You could've told me that before I threw the mango at de fence."
 
-"Before he *explored*," Speedeet said.
+"You didn't ask."
 
-Wilar considered this. "Before he explored," he agreed.
+---
 
-They walked back to Speedeet's kite, still tied to the railing. She untied it and held it out to him.
+By Thursday, Wilar could do two. Clean, steady, back and forth, both oranges making a smooth figure-eight in the air.
 
-"We can share," she said.
+Speedeet could do two on good throws and zero on bad ones, which averaged out to approximately one, depending on the wind.
 
-Wilar took the string. The red-and-gold kite climbed back up immediately, enthusiastic, its yellow tail streaming.
+"De show is in eight days," Speedeet said.
 
-"Not bad," said Wilar. "Not as strategic as Captain Thunderface. But not bad."
+"I know," said Wilar.
 
-"Fly the kite, Wilar."
+"We need three."
 
-He flew the kite.
+"I know."
+
+"What's the plan?"
+
+Wilar considered. "The plan is that I do the juggling and you do something else."
+
+Speedeet looked deeply offended. "This was MY idea."
+
+"Yes. And your ideas are usually better in conception than execution. You had the idea. I'm handling the execution."
+
+"What am I going to do while you juggle?"
+
+"You can be the announcer. You're good at talking."
+
+Speedeet thought about this. "I DO have a good announcer voice."
+
+"You have an extremely loud voice, which is adjacent."
+
+---
+
+The night of the talent show, the school hall was packed — parents, siblings, teachers, the principal in the front row with her arms folded the way she always sat when she was hoping nothing would go wrong.
+
+Three acts went before them. A girl sang a song very beautifully. Two boys did a comedy skit that was funnier in rehearsal. A younger girl recited a poem and forgot the last verse but nobody minded.
+
+Then it was their turn.
+
+Speedeet walked to the microphone with enormous confidence.
+
+"Good evening," he said, in his best announcer voice — which was, in fact, quite good. "Tonight, you will witness something extraordinary. Something that required days of preparation, sacrifice, and the destruction of at least two oranges. Ladies and gentlemen, I present to you: THE AMAZING WILAR."
+
+Wilar walked out from the side with three oranges and stood in the centre of the stage.
+
+He threw the first orange up. Then the second. Then the third.
+
+And he juggled.
+
+Not for a long time — maybe twelve seconds. But clean, smooth, all three oranges in the air in a proper pattern, the way it was supposed to look.
+
+The audience applauded. The principal unfolded her arms.
+
+Wilar caught all three oranges and took a small bow.
+
+Speedeet at the microphone said: "He learned that in ONE week. Thank you very much, Georgetown!"
+
+Nobody had called it Georgetown. It was a school hall. But people laughed, and the clapping went on a little longer.
+
+---
+
+Afterward, Wilar's mother said she was proud. Speedeet's mother said she wanted her oranges back. The principal said it was "unexpectedly professional."
+
+Walking home, Speedeet said: "See? I told you juggling was a good idea."
+
+Wilar said: "You threw a mango at a fence on day one."
+
+"But it ENDED well."
+
+Wilar thought about this for half a block. "It did end well," he admitted.
+
+"Same time next talent show?"
+
+"Absolutely not."
+
+But Speedeet was already thinking about what they could do next time. Wilar could tell. He had the look.
 
 ---
 
