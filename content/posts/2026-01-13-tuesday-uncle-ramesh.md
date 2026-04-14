@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: Census Critics Don't Understand How Government Works"
 date: 2026-01-13
 draft: false

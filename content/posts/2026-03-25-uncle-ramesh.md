@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take: Six Dialysis Centres, A Special Envoy, And Some People Just Won't Give Credit"
 date: 2026-03-25
 categories: ["Uncle Ramesh"]

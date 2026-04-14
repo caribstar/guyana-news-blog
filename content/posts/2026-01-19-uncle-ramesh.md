@@ -1,4 +1,4 @@
----
+﻿---
 title: "🇬🇾 Uncle Ramesh Responds: Jordan Finally Talking Truth, Border Security Strong, and Mash Coming!"
 date: 2026-01-19
 categories: ["Uncle Ramesh"]

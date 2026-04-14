@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Thursday Response — 'This Government Building the Future While Opposition Playing Victim'"
 date: 2026-02-05
 categories: ["Uncle Ramesh", "Opinion", "Response"]

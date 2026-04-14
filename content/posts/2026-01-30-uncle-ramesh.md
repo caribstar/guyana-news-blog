@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: GRA Doing Its Job, RUSAL Means JOBS, and Christopher Ram Needs to Relax"
 date: 2026-01-30
 categories: ["Uncle Ramesh", "Commentary"]

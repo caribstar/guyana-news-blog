@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Take – Friday, February 13, 2026"
 date: 2026-02-13
 categories: ["Uncle Ramesh", "Opinion", "Response"]

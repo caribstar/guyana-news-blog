@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take on Today's News: Finally, Some Good News for a Change!"
 date: 2026-01-12
 draft: false

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Take: Why All Dis Noise About One Simple Vote?"
 date: 2026-01-25
 categories: ["Uncle Ramesh", "Opinion"]

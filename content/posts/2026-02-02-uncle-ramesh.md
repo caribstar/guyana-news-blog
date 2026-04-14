@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: 'Budget 2026 Is What Development Looks Like — Take Notes!'"
 date: 2026-02-02
 categories: ["Uncle Ramesh", "Opinion", "Response"]

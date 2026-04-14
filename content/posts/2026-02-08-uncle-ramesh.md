@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Take: Dem Cyant See Progress Even When It Hit Dem in de Face"
 date: 2026-02-08
 categories: ["Uncle Ramesh"]

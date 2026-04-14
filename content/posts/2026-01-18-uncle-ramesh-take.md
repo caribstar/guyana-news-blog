@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: Hotels Mean JOBS, Women Cricketers Making Us PROUD, and Stop Complaining!"
 date: 2026-01-18
 draft: false

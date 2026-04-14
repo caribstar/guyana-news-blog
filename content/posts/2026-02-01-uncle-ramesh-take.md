@@ -1,4 +1,4 @@
----
+﻿---
 title: "🇬🇾 Uncle Ramesh: Budget 2026 Is a Masterclass, the Development Bank Is Revolutionary, and the Brief Needs an Economics Lesson"
 date: 2026-02-01
 categories: ["Uncle Ramesh", "Opinion", "Response"]

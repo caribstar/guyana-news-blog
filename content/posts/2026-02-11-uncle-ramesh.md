@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: 'ONE Point? That's PROGRESS, Beta!'"
 date: 2026-02-11
 categories: ["Uncle Ramesh", "Opinion", "Response"]

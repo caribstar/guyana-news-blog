@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take: Cash In Hand, Oil On The Rise, And Some People Just Can't Accept A Good Thing"
 date: 2026-03-24
 categories: ["Uncle Ramesh", "Opinion", "Response"]

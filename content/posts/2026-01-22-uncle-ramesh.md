@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: Speaker Nadir Speaking FACTS, Opposition Should Thank Him for the Warning"
 date: 2026-01-22
 categories: ["Uncle Ramesh", "Diaspora View"]

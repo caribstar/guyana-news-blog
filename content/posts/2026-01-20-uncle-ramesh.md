@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: Sustainable Governance, Not Reckless Giveaways"
 date: 2026-01-20
 categories: ["Uncle Ramesh"]

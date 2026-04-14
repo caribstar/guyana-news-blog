@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: Solar Success, Security Solutions, and Stop Crying Over Cricket!"
 date: 2026-01-17
 categories: ["Response", "Uncle Ramesh", "Opinion"]

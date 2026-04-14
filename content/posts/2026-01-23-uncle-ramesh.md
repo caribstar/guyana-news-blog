@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh: Ambassador Theriot GETS IT, APAD Speaking FACTS, and River Cruises? This is PROGRESS!"
 date: 2026-01-23
 categories: ["Uncle Ramesh", "Opinion"]

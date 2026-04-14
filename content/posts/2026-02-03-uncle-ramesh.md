@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take — 'Dem Cyaan See Progress If Yuh Put Blindfold Pon Dem Eye'"
 date: 2026-02-03
 draft: false

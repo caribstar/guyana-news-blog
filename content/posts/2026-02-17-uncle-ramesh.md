@@ -1,4 +1,4 @@
----
+﻿---
 title: "🇬🇾 Uncle Ramesh Responds – Tuesday, February 17, 2026"
 date: 2026-02-17
 categories: ["Uncle Ramesh", "Opinion", "Response"]

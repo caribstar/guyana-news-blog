@@ -1,4 +1,4 @@
-# Uncle Ramesh's Response
+﻿# Uncle Ramesh's Response
 ## Saturday, January 24, 2026
 
 *A diaspora perspective from Queens, NY*

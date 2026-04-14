@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Take: Dey Giving de Man Medal and All-You Still Complaining?"
 date: 2026-02-10
 categories: ["Uncle Ramesh", "Opinion"]

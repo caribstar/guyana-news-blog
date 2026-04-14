@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take — Tuesday, March 31, 2026"
 date: 2026-03-31
 categories: ["Uncle Ramesh"]

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: The Government Building, Not Destroying — Read the Chronicle, Not the Obituaries"
 date: 2026-02-15
 draft: false

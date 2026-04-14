@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take: The President Standing Strong While They Nitpick Everything"
 date: 2026-02-06
 draft: false

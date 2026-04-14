@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Take: Two Guyanese Boys Own de World Cup, But de Brief Want Talk About Auditor General"
 date: 2026-02-09
 categories: ["Uncle Ramesh", "Opinion"]

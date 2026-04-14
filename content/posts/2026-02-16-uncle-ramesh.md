@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: Mortgages, Nurses, and the Brief's Selective Memory"
 date: 2026-02-16
 draft: false

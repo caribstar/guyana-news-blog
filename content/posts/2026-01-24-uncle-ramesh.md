@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Response: Saturday, January 24, 2026"
 date: 2026-01-24
 categories: ["Uncle Ramesh"]

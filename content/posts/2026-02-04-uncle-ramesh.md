@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh's Take — 'Dem Got a Plan fuh Everything and All Dem Could Do is Complain!'"
 date: 2026-02-04
 categories: ["Uncle Ramesh", "Opinion", "Response"]

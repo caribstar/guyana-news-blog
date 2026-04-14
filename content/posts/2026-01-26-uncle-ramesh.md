@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Responds: BUDGET 2026 IS HERE! $100,000 For EVERYBODY While Opposition Busy Electing Fugitives!"
 date: 2026-01-26
 categories: ["Uncle Ramesh", "Opinion"]

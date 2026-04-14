@@ -1,4 +1,4 @@
----
+﻿---
 title: "Uncle Ramesh Reports — Tuesday, April 7, 2026"
 date: 2026-04-07T06:30:00-04:00
 categories: ["Uncle Ramesh"]
