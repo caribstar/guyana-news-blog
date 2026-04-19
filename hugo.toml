@@ -163,3 +163,14 @@ ignoreLogs = ["deprecated"]
 
 [social]
 
+
+
+[[menu.main]]
+name = "Caribbean"
+url = "/caribbean/"
+weight = 8
+
+[[menu.main]]
+name = "Africa"
+url = "/africa/"
+weight = 9
