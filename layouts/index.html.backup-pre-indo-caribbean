@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 <!-- YELLOW DISCLAIMER BANNER -->
 <div style="background-color: #FFF3E0; border-left: 4px solid #FF9800; padding: 12px 20px; margin-bottom: 20px; text-align: center; font-size: 14px; font-weight: 500;">
   &#128226; Daily satirical commentary on Guyanese news - for laughs, not facts

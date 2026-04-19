@@ -1,4 +1,4 @@
-﻿baseURL = "https://guyanadailybrief.com/"
+baseURL = "https://guyanadailybrief.com/"
 languageCode = "en-us"
 title = "The Guyana Brief"
 description = "The Guyana Brief - Your 5-minute Guyanese news circus. Daily satirical commentary on all 4 major newspapers: Chronicle, Stabroek, Kaieteur, and Times."
@@ -174,8 +174,3 @@ weight = 8
 name = "Africa"
 url = "/africa/"
 weight = 9
-
-[[menu.main]]
-  name = "Indo-Caribbean"
-  url = "/indo-caribbean/"
-  weight = 10
