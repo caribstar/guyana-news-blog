@@ -1,10 +1,16 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 <div class="africa-hub">
   
   <!-- Header -->
   <div class="africa-header">
     <h1>&#127758; Africa Brief</h1>
-    <p class="tagline">Politics, policy, and pulse from across the continent</p>
+    <p class="tagline">Africa Brief covers African countries with the attention they deserve &mdash; whether that means analyzing their politics or explaining their global impact.</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="africa-about">
+    <p>Four countries. Four voices. <strong>One standard of attention.</strong></p>
+    <p class="about-detail">Ghana and Kenya run weekly political analysis. Nigeria and South Africa run weekly mechanism reporting on the cultural and economic achievements Western media routinely underexamines. Different registers, one editorial brain: intelligent, specific, non-generic.</p>
   </div>
 
   <!-- Regional Roundup Section - ACTIVE -->
@@ -17,7 +23,7 @@
   <!-- Country Grid -->
   <div class="country-section">
     <h2>&#127759; Country Briefs</h2>
-    <p class="coming-soon-note">Four countries. Four voices. Politics and culture across the continent.</p>
+    <p class="coming-soon-note">Serious attention to every country, in the mode each one invites.</p>
     
     <div class="country-grid">
 
@@ -25,7 +31,7 @@
       <div class="country-card active">
         <span class="flag">GH</span>
         <h3>Ghana Brief</h3>
-        <p>The Accra Almanac: Mahama, mines, and markets</p>
+        <p>The Accra Almanac &mdash; Weekly analysis of Ghana's politics and policy</p>
         <a href="/categories/ghana-brief/" class="btn-country">Read Weekly &#8594;</a>
       </div>
 
@@ -33,7 +39,7 @@
       <div class="country-card active">
         <span class="flag">KE</span>
         <h3>Kenya Brief</h3>
-        <p>The Nairobi Dispatch: Ruto, protests, and the 2027 horizon</p>
+        <p>The Nairobi Dispatch &mdash; Weekly analysis of Kenya's politics and policy</p>
         <a href="/categories/kenya-brief/" class="btn-country">Read Weekly &#8594;</a>
       </div>
 
@@ -41,16 +47,16 @@
       <div class="country-card active">
         <span class="flag">NG</span>
         <h3>Naija Lookbook</h3>
-        <p>Lagos nights, Nollywood, Afrobeats</p>
-        <a href="/categories/nigeria-brief/" class="btn-country">Read Monthly &#8594;</a>
+        <p>The Naija Lookbook &mdash; The real stories behind Nigerian cultural dominance</p>
+        <a href="/categories/nigeria-brief/" class="btn-country">Read Weekly &#8594;</a>
       </div>
 
       <!-- South Africa - ACTIVE -->
       <div class="country-card active">
         <span class="flag">ZA</span>
         <h3>Cape Chronicles</h3>
-        <p>Wine country, Kruger, Cape Town</p>
-        <a href="/categories/south-africa-brief/" class="btn-country">Read Monthly &#8594;</a>
+        <p>The Cape Chronicles &mdash; The real stories behind South African excellence</p>
+        <a href="/categories/south-africa-brief/" class="btn-country">Read Weekly &#8594;</a>
       </div>
 
     </div>
@@ -93,6 +99,10 @@
 .newsletter-cta p { color: #555; margin-bottom: 1rem; }
 .btn-subscribe { display: inline-block; background: #333; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; }
 .btn-subscribe:hover { background: #000; transform: translateY(-2px); }
+.africa-about { background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #CE1126; border-radius: 8px; padding: 1.5rem 2rem; margin-bottom: 3rem; }
+.africa-about p { margin: 0 0 0.75rem 0; font-size: 1.05rem; line-height: 1.5; color: #333; }
+.africa-about p:last-child { margin-bottom: 0; }
+.africa-about .about-detail { font-size: 0.95rem; color: #555; }
 @media (max-width: 768px) {
   .country-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .africa-header h1 { font-size: 1.8rem; }

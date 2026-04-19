@@ -1,86 +1,88 @@
 ---
-title: "Naija Lookbook: Lagos After Dark — The Three Neighborhoods Every First-Time Visitor Should Walk"
-date: 2026-04-18T14:00:00-04:00
-draft: false
+title: "The Naija Lookbook: How Burna Boy, Davido, and Wizkid Built a Global Music Industry From Lagos in Under a Decade"
+date: 2026-04-18T08:00:00+00:00
 categories: ["Nigeria Brief", "Africa Brief"]
-authors: ["The Naija Lookbook"]
-tags: ["Nigeria", "Lagos", "Africa", "travel", "culture", "music"]
+tags: ["Nigeria", "Lagos", "Afrobeats", "Burna Boy", "Davido", "Wizkid", "music", "culture", "mechanisms"]
+author: "Naija Lookbook"
+draft: false
 ---
 
-Lagos does not wake up. Lagos never sleeps, so there is nothing to wake. By the time most cities are stretching and making coffee, Lagos has already sold you two breakfasts, moved a cargo container, produced a hit song in a Surulere studio, and lost a small argument at a fuel station. Twenty-four million people live in greater Lagos. Something is happening in all twenty-four million of them at once, always.
+# The Naija Lookbook: How Burna Boy, Davido, and Wizkid Built a Global Music Industry From Lagos in Under a Decade
 
-This is a problem for the first-time visitor. Where do you go? What do you see? The city does not hand you a map. The city hands you a SIM card and says *"good luck, make friends."*
-
-So let me give you what I give my cousins when they finally arrive: three neighborhoods, each with its own evening, each revealing a different face of the city. Walk them in this order and you will leave with an honest sense of what Lagos is.
-
----
-
-### 1. Victoria Island — the suit loosens
-
-Start in Victoria Island around six p.m., which is when the financial district begins its shift from business to pleasure. Walk Ajose Adeogun, the main commercial spine. The Ecobank tower throws its last light across the traffic. Security guards at the bank headquarters shift weight from one foot to the other. The street-side bukkas — informal food stalls — are starting to heat their stews.
-
-This is the hour to eat jollof rice.
-
-Not the imported jollof, not the hotel-restaurant jollof, but the proper party-jollof produced in a large iron pot over an open flame at the back of a street stall, smoke curling up into the sodium-yellow streetlight. Go to **Iya Eba** near Falomo roundabout if she is still operating (the information economy on who has moved or closed in Lagos is its own discipline) and ask for jollof with chicken. Eat it sitting on a plastic chair while the cars inch past. Pay in cash, small notes, and do not wait for change longer than it takes to finish half the plate.
-
-After dinner, walk north toward the Bar Beach side. The restaurants here are where Lagos's business class cools down after long days. **Nok by Alara** is the current destination restaurant — chef Chibuzo Chukwuma has earned his reputation through several Lagos openings and Nok is where his cuisine is most developed. Book ahead; the kitchen does not accept walk-ins after seven-thirty on weekends. Order the egusi with a twist they do that I will not spoil.
-
-If you are still upright by ten p.m., there is a rooftop culture developing on the island that rewards late wanderers. **The Wheatbaker** hotel's rooftop is reliable and safe and has a manageable crowd. You want the view of the island at night, the distant lights of the mainland across the lagoon, the sense that this very small piece of land is where a very large amount of Nigeria's money gets decided.
-
-Drink one, two at most. Lagos rewards stamina. You will need it.
+**The Naija Lookbook goes beyond the headlines. What Nigeria does better than anyone — with the receipts.**
 
 ---
 
-### 2. Lekki — the city at its most contemporary
+Ten years ago, if you told a Universal Music executive in Los Angeles that a song recorded in Lagos would hit number one in fifteen countries simultaneously, he would have laughed. Nigerian music was a regional category. It had Fela Kuti in the canon and a diaspora audience in London and New York. But it was not, in any serious industrial sense, a global music business.
 
-The next evening, cross to Lekki. You want to be there by eight. The drive from Victoria Island is short geographically and long in actual minutes, so factor that in.
+Today, Nigerian artists earn more from Spotify than the entire recorded music industry of South Africa. Afrobeats has its own Grammy category. Three Lagos-based labels — Starboy Entertainment, Davido Music Worldwide, and Spaceship Collective — hold distribution agreements with the two largest music corporations on earth. And in 2024 alone, global listeners spent more than 1.1 million hours streaming Nigerian artists on one platform.
 
-Lekki is where the younger Lagos — the creative-professional, returnee-diaspora, tech-and-media Lagos — lives and plays. The aesthetic is different from the island. Less formal. More visibly global. You will hear Afrobeats in every third car stopped at a traffic light, and you will hear it *new* — the Lagos music scene turns over its output so quickly that the tracks in the cars have usually not yet reached international streaming.
+This is not cultural osmosis. It is not, primarily, a story about talent, although the talent is real. It is a story about five specific mechanisms that, compounding on each other between 2016 and 2024, turned Lagos into a music-export capital on the scale of Nashville or Stockholm.
 
-The food scene here is where to eat this evening. **Yellow Chilli** is the old reliable for Nigerian cuisine done properly for a slightly dressed-up crowd — goat pepper soup, asun, efo riro with assorted meats. **RSVP Lagos** is the sceney option, busy on weekends, a menu that crosses into pan-African territory. **Cafe Cuisine** for something calmer and lighter.
+Here is how it actually happened.
 
-After dinner you have a choice. If you want music, head toward the Lekki Phase 1 end of things. The Afrobeats scene in Lagos has moved through several venue eras and is currently in a dispersed phase — smaller clubs and intimate spots where artists do pop-up sets. Ask whoever you befriended at dinner where the moment is tonight. The answer will be different each weekend. This is how Lagos works. The scene does not announce itself in listings; it announces itself through word of mouth moving at the speed of WhatsApp.
+## Mechanism one: The Drake inflection, 2016
 
-If you want something quieter, find one of the hotel lounges with live music. **The George** in Ikoyi has a bar that runs a reliable weekend program of local jazz and highlife.
+In April 2016, Drake released "One Dance." The song featured Wizkid — a Lagos-born singer who had put out his first album in 2011 and was, by any commercial measure, a domestic Nigerian star with a growing UK following. "One Dance" went to number one on the Billboard Hot 100. It went to number one in the UK, Canada, Australia, Germany, France, the Netherlands, Sweden, Switzerland, and seven other countries. It held the number one spot on Spotify's global chart for a then-record period. By year's end, it was the most-streamed song of 2016.
 
-You will see young Lagos in full display here: the creative directors and startup founders, the returnees from London and Houston, the music-industry people, the film producers. This is the city that produced Davido and Burna Boy and Wizkid and Tems. It is a city that understands its own cultural weight. The confidence is not an act.
+What "One Dance" actually proved, to the people who run the global music business, was not that Wizkid was talented. They already suspected that. It proved that a track with Afrobeats rhythmic structure — the 6/8 shuffle, the syncopated percussion, the melodic lines — could function as a mainstream Western pop hit. The song did not need to be rebranded. It did not need to shed its African sonic identity to cross over. It crossed over as itself.
+
+This is the inflection that every subsequent event in this story depends on. The major labels had been offering African artists distribution deals for years, but always on the implicit theory that the music needed a Western translator — a featured Drake, a remix, a crossover producer. "One Dance" demonstrated that the translator was optional. That changed what a label was willing to offer.
+
+## Mechanism two: The three deals, 2016–2017
+
+Within eighteen months of "One Dance," the three most commercially significant Afrobeats artists signed major-label deals — and the structure of those deals is the single most underappreciated fact about what happened next.
+
+Davido signed with Sony's RCA Records in July 2016. Within nine months, he renegotiated the deal — specifically, as he put it publicly, over creative control. The renegotiated version moved him to Columbia Records UK, still a Sony subsidiary, but under an exclusive license structure. His own label, Davido Music Worldwide, retained ownership of the masters. Sony got exclusive distribution rights. Davido kept the copyright.
+
+Wizkid signed a multi-album deal with RCA Records in March 2017. Same structure: his own imprint, Starboy Entertainment, owns the copyrights. RCA handles distribution and label services under exclusive license.
+
+Burna Boy signed with Bad Habit/Atlantic Records in the United States and Warner Music Group internationally, also in 2017. His label, Spaceship Collective, retained control. His 2019 album *African Giant* — the one that made him a genuine international star — was released through that structure. So was *Twice As Tall* in 2020, which Diddy helped executive-produce.
+
+All three deals follow the same architecture. Nigerian-owned imprint. Artist-owned masters. Major-label distribution under exclusive license. This is not the 360 deal that most American pop artists sign, where the label owns the recording and takes a cut of touring, merchandise, and brand partnerships. This is a distribution partnership with the leverage pointing in the other direction.
+
+The consequence: when Afrobeats broke internationally, the economic gains accrued disproportionately to Lagos, not to New York or London. The labels made money, but the artists — and their Nigerian-incorporated companies — captured the ownership stake. That pattern, replicated across a decade of follow-on signings, is why Lagos now functions as a capital-exporting city rather than a talent-exporting one.
+
+## Mechanism three: The *Made in Lagos* breakthrough, 2020
+
+On October 30, 2020, Wizkid released *Made in Lagos* through Starboy Entertainment and RCA. The album did something no African record had done before: it debuted in the top ten of Spotify's Global Album Chart. Not the African chart. Not the World Music chart. The Global Album Chart.
+
+The commercial significance of this is easy to miss if you don't know how streaming economics work. The top ten of Spotify's Global Album Chart is where the platform's editorial machinery — the algorithmic playlists, the featured-artist slots, the push notifications, the home-screen placement — concentrates its promotional weight. An album that debuts there gets weeks of compounded algorithmic attention that an album debuting outside the top ten does not. It is the streaming-era equivalent of securing the MTV rotation in 1985.
+
+*Made in Lagos* stayed in that weighted promotional window long enough to produce "Essence," the single featuring Tems that became the first Nigerian song ever to chart on the Billboard Hot 100. It peaked at number nine. Barack Obama put it on his year-end playlist. Justin Bieber recorded a remix. The song was streamed more than a billion times.
+
+But the mechanism mattered more than the milestone. *Made in Lagos* proved that an Afrobeats album — released on a Nigerian imprint, recorded primarily in Lagos, sung partly in Yoruba — could earn the tier-one promotional real estate historically reserved for American and British major-label releases. The algorithmic gates opened. They have not closed since.
+
+## Mechanism four: Spotify's Lagos investment, 2021–present
+
+In February 2021, Spotify launched in Nigeria. The launch itself was unremarkable. What followed was not.
+
+Spotify did not treat Nigeria as another emerging market requiring a boilerplate rollout. The company hired Nigerian staff with industry relationships, based in Lagos, with real authority. It ran producer workshops, songwriter development sessions, and analytics training for independent artists. It placed 1,900 Nigerian artists on its editorial playlists in 2024 alone — a 33 percent increase over 2023. It promoted Afrobeats aggressively in markets where it had never had a foothold: Latin America, continental Europe, Southeast Asia.
+
+The results, when they came, were enormous. Between 2021 and 2025, local Afrobeats streams inside Nigeria grew by 5,022 percent. Not 50 percent. Not 500 percent. Five thousand and twenty-two percent. Nigerian artists' earnings from Spotify reached ₦58 billion — roughly $37.8 million — in 2024 alone, a 132 percent jump from 2023. The number of Nigerian artists earning over ₦10 million from Spotify doubled in a single year.
+
+What Spotify figured out, and what its competitors largely did not, was that Nigeria is not a receive-only market. It is a production market. A dollar invested in Lagos music infrastructure returns not only domestic consumption but global export. The company bet on that geometry earlier and more aggressively than Apple Music, Amazon Music, or YouTube Music did. The returns show up now in every monthly listener figure for every Nigerian artist on the platform.
+
+## Mechanism five: The Grammy category, 2024
+
+In June 2023, the Recording Academy announced a new category for the 66th Grammy Awards: Best African Music Performance. The first ceremony was February 2024. The first winner was South African singer Tyla, for "Water." The nominees were drawn from the Nigerian front rank: Burna Boy, Davido, Asake, Olamide, and Ayra Starr.
+
+Nigerian audiences were, understandably, aggrieved that Tyla won. But the significance of the category is not which individual artist took home the first statue. The significance is that the category exists.
+
+A Grammy category is, among other things, a budget line. It creates an annual marketing cycle that major labels, independent labels, and individual artists can plan against. It generates "For Your Consideration" ad spends in trade publications. It structures radio playlisting decisions, streaming-service editorial placements, and festival booking logic. It is an institutional scaffold that makes the entire African popular music sector more legible, and therefore more bankable, to the people who allocate capital in Nashville and New York.
+
+Burna Boy's 2024 Grammy performance — where he opened the main telecast backed by Lagos-styled dancers and drummers, sharing the stage with Brandy and 21 Savage — was made possible by that scaffold. So was his Stade de France headline the same year, a venue no non-Francophone Afrobeats artist had ever filled. So were the 2025 and 2026 nomination cycles, which extended the category's commercial life into its third year.
+
+## What happens next
+
+The Nigerian music industry in 2026 is not finished being built. Several structural weaknesses remain. Per-stream rates vary by geography — a Brazilian stream pays less than an American stream, and the fastest-growing regions for Afrobeats consumption (Latin America, +400 percent since 2020; Brazil alone, +500 percent) happen to be the lowest-paying geographies on the map. Rights management and metadata administration remain underdeveloped, which means a share of the royalties that should be flowing to Lagos are getting absorbed instead by distributors, publishers, and unidentified-rights pools. The superstar concentration is extreme: a handful of artists capture the majority of the export earnings, and the middle tier of professional Nigerian musicians is thinner than it should be given the genre's global scale.
+
+But those are problems of wealth management, not wealth creation. The infrastructure that produces the wealth is real and operating. The deal architecture protects Nigerian ownership. The streaming platforms are competing for Nigerian catalog. The Grammy category is in its third cycle. The pipeline from Lagos studios to global distribution is denser than it has ever been.
+
+Somewhere tonight, in a home studio in Surulere or a rented booth in Lekki, an eighteen-year-old is laying down a vocal over a producer's beat. Ten years ago, that track's maximum commercial ceiling was probably a Lagos radio rotation. Today, the infrastructure that Burna Boy, Davido, and Wizkid spent the last decade building means that same track can — with the right deal, the right playlist placement, and the right ten seconds of viral video — reach a billion streams.
+
+That is not a vibe. That is a system.
 
 ---
 
-### 3. Surulere — the real city speaks
-
-On the third night, go to Surulere. This is the test. If Victoria Island is Lagos dressed up and Lekki is Lagos at its current most polished, Surulere is Lagos with its shirt untucked and its stories intact.
-
-Surulere is on the mainland. It is older, denser, less renovated, and it is the traditional home of Nigerian cinema and music. Many of the Afrobeats stars you heard in Lekki cars were recorded in Surulere studios. Many Nollywood films of the golden era were shot on Surulere streets. The neighborhood has a relationship to Lagos creative production that is somewhere between Harlem and Nashville in its cultural weight.
-
-Eat suya. This is non-negotiable. The suya men of Surulere set up their grills at dusk and work into the night — thin skewers of beef or ram, heavily spiced with the yaji pepper mix, grilled over charcoal until the edges crisp. You will find a suya spot within three blocks of wherever you are dropped. Pay in cash, eat it standing up, order more than you think you want, and use the wrapping paper to manage the oil.
-
-After suya, walk. This is the mode for Surulere. The streets are not laid out for strolling the way some Lagos neighborhoods are, but the walking is where you hear the city. A barber shop with a radio playing old Fela. Two men arguing about a Chelsea match outside a bar. A woman selling puff-puff from a wheeled cart, the oil in her frying drum already dark from a day's work. A church service still running at nine-thirty, the preacher's amplified voice crossing three streets and mixing with the amapiano from a bar on the next corner.
-
-The club scene in Surulere is not what it was in the seventies and eighties when the neighborhood was the center of Lagos nightlife, but it remains authentic. The **New Afrika Shrine** in Ikeja — not technically Surulere but culturally adjacent — is where Femi Kuti and Seun Kuti play regularly, keeping the Fela tradition alive in a space that feels like the real thing because it is.
-
-End the night with a bottle of Star beer at a street-side bar. Talk to whoever sits next to you. You will get a story worth remembering.
-
----
-
-### Practical notes for the first-time visitor
-
-**Money.** Bring naira for small transactions. Use cards at hotels and better restaurants. The foreign-exchange economy has been volatile; check rates before you travel. Most reliable ATMs are at major bank branches on the island.
-
-**Transport.** Use Bolt or Uber for most movements. Lagos traffic is not a joke — factor in serious buffer time for every movement between the island and the mainland. The Third Mainland Bridge can take twenty minutes or ninety minutes depending on the hour.
-
-**Safety.** Lagos is safer than its reputation suggests for the traveler who uses common sense. Keep phones out of sight in stopped traffic, avoid empty streets late at night, use vetted transport, and trust your instincts. The famous hazard is not violence — it is being overcharged by someone who read you as a visitor. Learn the phrase *"ah-ah"* with a skeptical tone; it solves most negotiation problems.
-
-**Language.** English is the working language. Yoruba is the local language on the island and much of the mainland. Pidgin is the connective tissue of informal conversation. A visitor is not expected to speak any of these beyond English, but one or two Yoruba greetings (*e kaabo* — welcome; *e se* — thank you) will earn you smiles.
-
-**Pace yourself.** Do not try to do Lagos in three nights. Do not try to do Lagos in ten nights. Lagos is not a city you visit in the sense of checking off a list. Lagos is a city you begin to understand over years, and the first visit is meant to leave you wanting to come back. Three nights, three neighborhoods, and the smart traveler then flies home to think about it.
-
----
-
-### Coming next month
-
-**The Naija Lookbook** will take you to Abuja's architecture, to Calabar for the carnival, and to the Yoruba heartland through Ibadan, Oshogbo, and the sacred groves. Nigeria is not one country; it is a federation of cultural worlds. The Lookbook will walk you through them one at a time.
-
-Until then, *e ku ile* — good to see you home.
-
-*— The Naija Lookbook*
+*The Naija Lookbook publishes weekly on the Guyana Daily Brief's Africa Brief, covering the mechanisms behind Nigerian cultural dominance.*
