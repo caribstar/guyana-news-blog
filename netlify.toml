@@ -1,12 +1,10 @@
-﻿# ===================================================================
 # NETLIFY CONFIG — DUST MODE
 # Site is temporarily showing only the "Pardon our dust" landing page.
-# To restore live site: revert this file back from netlify.toml.PRE-DUST
-# ===================================================================
+# To restore: copy _archive_backups/netlify.toml.PRE-DUST to netlify.toml
 
 [build]
   publish = "dust-public"
-  command = "echo 'Site in dust mode — no build needed'"
+  command = "echo 'Site in dust mode - no build needed'"
 
 [build.environment]
   HUGO_VERSION = "0.154.3"
