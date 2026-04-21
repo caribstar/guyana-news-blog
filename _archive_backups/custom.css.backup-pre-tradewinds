@@ -1,0 +1,947 @@
+/* ============================================
+   THE GUYANA BRIEF - CUSTOM STYLES
+   Mobile-First Responsive Design
+   ============================================ */
+
+/* CSS Variables for Easy Theming */
+:root {
+  --primary-color: #FF6B35;
+  --secondary-color: #F7931E;
+  --accent-color: #004E89;
+  --text-dark: #1A1A1A;
+  --text-light: #666666;
+  --bg-light: #FFFBF5;
+  --bg-card: #FFFFFF;
+  --border-color: #E5E5E5;
+  --success-color: #2ECC71;
+  
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  --border-radius: 12px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+  
+  --transition: all 0.3s ease;
+}
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-sm);
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  backdrop-filter: blur(10px);
+}
+
+.hero-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.2;
+}
+
+.hero-tagline {
+  font-size: 1rem;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.95;
+}
+
+.hero-card {
+  background: white;
+  color: var(--text-dark);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-lg);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero-meta {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.hero-post-title {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.3;
+}
+
+.hero-post-title a {
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.hero-post-title a:hover {
+  color: var(--primary-color);
+}
+
+.hero-excerpt {
+  color: var(--text-light);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.social-share {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.share-btn {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: var(--bg-light);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #E55A2B;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background: var(--accent-color);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #003D6B;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-subscribe {
+  background: var(--success-color);
+  color: white;
+}
+
+.btn-subscribe:hover {
+  background: #27AE60;
+}
+
+/* ============================================
+   SUBSCRIBE BANNER
+   ============================================ */
+.subscribe-banner {
+  background: var(--accent-color);
+  color: white;
+  padding: var(--spacing-lg) var(--spacing-sm);
+}
+
+.subscribe-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.subscribe-text h3 {
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.25rem;
+}
+
+.subscribe-text p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* ============================================
+   QUICK NAVIGATION
+   ============================================ */
+.quick-nav {
+  padding: var(--spacing-lg) var(--spacing-sm);
+  background: white;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: var(--spacing-sm);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-buttons::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background: var(--bg-light);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  white-space: nowrap;
+  transition: var(--transition);
+  min-height: 44px;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   TOPIC FILTER CHIPS
+   ============================================ */
+.topic-filters {
+  padding: var(--spacing-lg) var(--spacing-sm);
+  background: white;
+}
+
+.filter-label {
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-dark);
+}
+
+.chips-container {
+  display: flex;
+  gap: var(--spacing-xs);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: var(--spacing-xs);
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-light);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  transition: var(--transition);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.chip:hover {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.chip-all {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* ============================================
+   SECTION HEADERS
+   ============================================ */
+.section-header {
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-dark);
+}
+
+.section-subtitle {
+  color: var(--text-light);
+  font-size: 1rem;
+}
+
+/* ============================================
+   UNCLE RAMESH SECTION
+   ============================================ */
+.uncle-ramesh-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%);
+}
+
+.featured-card {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  max-width: 800px;
+  margin: 0 auto var(--spacing-md);
+}
+
+.card-badge {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-meta {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.3;
+}
+
+.card-title a {
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.card-title a:hover {
+  color: var(--primary-color);
+}
+
+.card-excerpt {
+  color: var(--text-light);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.card-tags {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-light);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.view-all {
+  text-align: center;
+}
+
+.link-all {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.link-all:hover {
+  color: var(--primary-color);
+}
+
+/* ============================================
+   RECENT BRIEFS GRID
+   ============================================ */
+.recent-briefs {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: white;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.brief-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.brief-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-icon {
+  font-size: 1.5rem;
+}
+
+.card-date {
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.card-snippet {
+  color: var(--text-light);
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.card-meta-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.875rem;
+}
+
+.read-time {
+  color: var(--text-light);
+}
+
+.read-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.read-link:hover {
+  color: var(--accent-color);
+}
+
+.card-tags-mini {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-sm);
+}
+
+.mini-tag {
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-light);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.view-all-briefs {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+}
+
+/* ============================================
+   WHY SECTION
+   ============================================ */
+.why-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: var(--bg-light);
+}
+
+.why-content h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-size: 1.75rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.feature:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.feature h3 {
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.25rem;
+}
+
+.feature p {
+  color: var(--text-light);
+}
+
+/* ============================================
+   SUBSCRIBE SECTION
+   ============================================ */
+.subscribe-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: white;
+}
+
+.subscribe-box {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border-radius: var(--border-radius);
+  color: white;
+  box-shadow: var(--shadow-lg);
+}
+
+.subscribe-box h2 {
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.75rem;
+}
+
+.subscribe-box p {
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.95;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  flex-direction: column;
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  min-height: 44px;
+}
+
+.email-input:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.form-note {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+/* ============================================
+   POPULAR SECTION
+   ============================================ */
+.popular-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: var(--bg-light);
+}
+
+.popular-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.popular-item {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.popular-item:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.popular-content h4 {
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.125rem;
+}
+
+.popular-content h4 a {
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.popular-content h4 a:hover {
+  color: var(--primary-color);
+}
+
+.popular-meta {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+.popular-excerpt {
+  color: var(--text-light);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+/* ============================================
+   FAQ SECTION
+   ============================================ */
+.faq-section {
+  padding: var(--spacing-xl) var(--spacing-sm);
+  background: white;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-size: 1.75rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  padding: var(--spacing-lg);
+  background: var(--bg-light);
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary-color);
+}
+
+.faq-item h3 {
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-dark);
+  font-size: 1.125rem;
+}
+
+.faq-item p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* ============================================
+   TABLET RESPONSIVE (768px and up)
+   ============================================ */
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-tagline {
+    font-size: 1.125rem;
+  }
+  
+  .subscribe-form {
+    flex-direction: row;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================
+   DESKTOP RESPONSIVE (1024px and up)
+   ============================================ */
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .nav-buttons {
+    justify-content: center;
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Ensure minimum touch target size */
+a, button, input, select, textarea {
+  min-height: 44px;
+  min-width: 44px;
+}
+/* Keep existing readability improvements but fix banner text */
+
+/* Newsletter banner - white text on green */
+.newsletter-section h2,
+.newsletter-section p,
+.newsletter-section label {
+    color: #ffffff !important;
+}
+
+/* Dueling blogs banner - white text */
+.dueling-header h2,
+.dueling-header p {
+    color: #ffffff !important;
+}
+
+/* Any section with inline background colors - white text */
+section[style*="background"] h2,
+section[style*="background"] p,
+section[style*="background"] label {
+    color: #ffffff !important;
+}
+
+/* Feature boxes with backgrounds - white text */
+.feature-box h3,
+.feature-box p {
+    color: #ffffff !important;
+}
+
+/* ========================================
+   BANNER TEXT - WHITE ON COLORED BACKGROUNDS
+   ======================================== */
+
+/* All banner headings and text - WHITE */
+.newsletter-section h2,
+.newsletter-section h3,
+.newsletter-section p,
+.newsletter-section label,
+.dueling-header h2,
+.dueling-header h3,
+.dueling-header p,
+.feature-box h2,
+.feature-box h3,
+.feature-box p,
+section[style*="background"] h2,
+section[style*="background"] h3,
+section[style*="background"] p,
+section[style*="background"] label {
+    color: #ffffff !important;
+}
+
+/* ========================================
+   PAGE TEXT - BLACK ON WHITE BACKGROUNDS
+   ======================================== */
+
+/* Article content - BLACK */
+.post-content,
+.post-content p,
+.post-content li,
+.post-entry .entry-content,
+.post-entry .entry-content p,
+article p,
+.page-content p,
+.content p {
+    color: #000000 !important;
+}
+
+/* Post titles and headers - BLACK */
+.post-title,
+.entry-header h1,
+.entry-header h2,
+.post-entry h2 {
+    color: #000000 !important;
+}
+
+/* Post metadata - BLACK */
+.post-meta,
+.post-meta a,
+.entry-footer {
+    color: #000000 !important;
+}
+
+
+/* ========================================
+   PAGE HEADER BANNERS - WHITE TEXT
+   All page titles, post titles, dates
+   ======================================== */
+
+/* Page header banners */
+.page-header,
+.page-header h1,
+.page-header h2,
+.page-header .post-description {
+    color: #ffffff !important;
+}
+
+/* Post entry headers (like Uncle Ramesh posts) */
+.entry-header,
+.entry-header h1,
+.entry-header h2,
+.entry-header .post-title {
+    color: #ffffff !important;
+}
+
+/* Post single page headers */
+.post-single .entry-header h1,
+.post-single .post-title {
+    color: #ffffff !important;
+}
+
+/* First entry special styling */
+.first-entry .entry-header h2 {
+    color: #ffffff !important;
+}
+
+/* Dates on black backgrounds */
+.page-header time,
+.entry-header time,
+.post-single time {
+    color: #ffffff !important;
+}
+

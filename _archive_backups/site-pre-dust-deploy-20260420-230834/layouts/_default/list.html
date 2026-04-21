@@ -1,0 +1,51 @@
+﻿{{ define "main" }}
+<div class="posts">
+  <h1>{{ .Title }}</h1>
+  
+  {{ if .Content }}
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <div class="posts-list">
+    {{- $paginator := .Paginate .Pages 20 }}
+    {{- range $paginator.Pages }}
+    <div class="post" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
+      <h2 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      <span class="post-date" style="color: #666; font-size: 0.9rem;">
+        {{ .Date.Format "January 2, 2006" }} • {{ .ReadingTime }} min read
+      </span>
+      {{ if .Params.categories }}
+      <div style="margin: 10px 0;">
+        {{ range .Params.categories }}
+        <span style="background: #009E60; color: white; padding: 3px 10px; border-radius: 3px; font-size: 0.8rem; margin-right: 5px;">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      <p>{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" style="color: #009E60; font-weight: bold;">Read More →</a>
+    </div>
+    {{- end }}
+  </div>
+
+  <!-- Pagination -->
+  {{ if gt $paginator.TotalPages 1 }}
+  <div class="pagination" style="text-align: center; margin: 40px 0;">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" style="padding: 10px 20px; background: #009E60; color: white; text-decoration: none; border-radius: 5px; margin: 0 5px;">← Previous</a>
+    {{ end }}
+    
+    <span style="margin: 0 20px;">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" style="padding: 10px 20px; background: #009E60; color: white; text-decoration: none; border-radius: 5px; margin: 0 5px;">Next →</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}
+

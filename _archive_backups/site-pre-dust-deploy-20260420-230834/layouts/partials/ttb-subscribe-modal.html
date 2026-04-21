@@ -1,0 +1,64 @@
+{{/* TTB SUBSCRIBE MODAL — scroll-triggered modal at 70% scroll */}}
+<style>
+  #ttb-scroll-modal {
+    position: fixed; bottom: -240px; right: 24px; width: 340px; max-width: calc(100vw - 24px);
+    background: white; border: 1px solid #d8d3c4; border-left: 4px solid #C9A96E;
+    padding: 20px 22px; border-radius: 4px;
+    box-shadow: 0 12px 32px rgba(11,31,58,0.18);
+    transition: bottom 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 1000; font-family: 'Inter', sans-serif;
+  }
+  #ttb-scroll-modal.show { bottom: 24px; }
+  #ttb-scroll-modal .ttb-close {
+    position: absolute; top: 6px; right: 10px; background: none; border: none;
+    font-size: 1.4rem; color: #555; cursor: pointer; line-height: 1; padding: 4px 8px;
+  }
+  #ttb-scroll-modal h4 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 1.05rem;
+    margin: 0 0 6px; color: #0B1F3A; letter-spacing: -0.005em;
+  }
+  #ttb-scroll-modal p {
+    font-size: 0.85rem; color: #555; margin: 0 0 12px; line-height: 1.45;
+  }
+  #ttb-scroll-modal .ttb-modal-cta {
+    display: inline-block; background: #0B1F3A; color: white;
+    padding: 8px 18px; border-radius: 3px; font-weight: 600;
+    font-size: 0.85rem; text-decoration: none;
+  }
+  @media (max-width: 600px) {
+    #ttb-scroll-modal { right: 12px; left: 12px; width: auto; }
+  }
+</style>
+
+<div id="ttb-scroll-modal">
+  <button class="ttb-close" onclick="document.getElementById('ttb-scroll-modal').remove(); sessionStorage.setItem('ttb-modal-dismissed','1');">×</button>
+  <h4>Enjoying this?</h4>
+  <p>Get the next one in your inbox. Free, daily.</p>
+  <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" target="_blank" rel="noopener" class="ttb-modal-cta">Subscribe →</a>
+</div>
+
+<script>
+(function() {
+  var modal = document.getElementById('ttb-scroll-modal');
+  if (!modal) return;
+  if (sessionStorage.getItem('ttb-modal-dismissed') === '1') { modal.remove(); return; }
+
+  var article = document.querySelector('article') || document.querySelector('main') || document.body;
+  var shown = false;
+
+  function check() {
+    if (shown) return;
+    var rect = article.getBoundingClientRect();
+    var totalHeight = article.scrollHeight || article.offsetHeight;
+    var scrolled = (window.scrollY + window.innerHeight) - (article.offsetTop || 0);
+    var pct = scrolled / totalHeight;
+    if (pct >= 0.7) {
+      modal.classList.add('show');
+      shown = true;
+      window.removeEventListener('scroll', check);
+    }
+  }
+
+  window.addEventListener('scroll', check, { passive: true });
+})();
+</script>

@@ -1,0 +1,289 @@
+{{ define "main" }}
+{{/*
+  THE TRADE — Single essay layout
+  Long-form magazine treatment. Generous typography.
+  Per Handoff v3 Section 5.3 visual signals.
+*/}}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy: #0B1F3A; --navy-deep: #061428; --navy-mid: #1a3456;
+    --gold: #C9A96E; --gold-bright: #D9B97E; --gold-deep: #B89557;
+    --cream: #FAF7F0; --sand: #F2EEE5;
+    --ink: #1a1a1a; --ink-body: #222; --ink-soft: #555; --rule: #d8d3c4;
+    --action: #C02020; --action-hover: #9A1818;
+  }
+  body { background: white; color: var(--ink-body); font-family: 'Inter', sans-serif; }
+
+  .essay-page * { box-sizing: border-box; }
+  .essay-page a { color: var(--navy); border-bottom: 1px solid var(--gold); }
+  .essay-page a:hover { color: var(--action); border-bottom-color: var(--action); }
+
+  /* HEADER ribbon */
+  .essay-header-ribbon {
+    background: var(--navy); color: white;
+    padding: 12px 24px; margin: -20px -20px 0;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600;
+  }
+  .essay-header-ribbon .section-name { color: var(--gold); }
+  .essay-header-ribbon a { color: rgba(255,255,255,0.75); border-bottom: none; }
+  .essay-header-ribbon a:hover { color: var(--gold); }
+
+  /* HERO */
+  .essay-hero {
+    background:
+      radial-gradient(ellipse 70% 60% at 50% 0%, rgba(201,169,110,0.14) 0%, transparent 60%),
+      linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: white; padding: 64px 24px 56px; margin: 0 -20px 64px;
+    text-align: center;
+  }
+  .essay-hero .meta-row {
+    display: flex; gap: 14px; align-items: center; justify-content: center;
+    font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold); font-weight: 600; margin-bottom: 22px;
+  }
+  .essay-hero .meta-row .dot { width: 4px; height: 4px; background: var(--gold); border-radius: 50%; }
+  .essay-hero h1 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
+    font-size: clamp(2rem, 4.6vw, 3.2rem); line-height: 1.1;
+    letter-spacing: -0.018em; color: white;
+    margin: 0 auto 20px; max-width: 800px;
+  }
+  .essay-hero .subtitle {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 300; font-style: italic;
+    font-size: clamp(1.05rem, 1.8vw, 1.3rem); line-height: 1.5;
+    color: rgba(255,255,255,0.78); max-width: 600px; margin: 0 auto 24px;
+  }
+  .essay-hero .byline {
+    font-size: 0.85rem; color: rgba(255,255,255,0.65); letter-spacing: 0.04em;
+  }
+  .essay-hero .byline strong { color: white; font-weight: 600; }
+
+  /* TOP CTA — subtle */
+  .essay-cta-top {
+    max-width: 720px; margin: 0 auto 48px;
+    padding: 14px 20px;
+    background: var(--cream); border-left: 3px solid var(--gold);
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    font-size: 0.92rem; color: var(--ink-soft);
+  }
+  .essay-cta-top a {
+    color: var(--navy); font-weight: 600; border-bottom: 1px solid var(--navy);
+  }
+
+  /* BODY */
+  .essay-body {
+    max-width: 680px; margin: 0 auto; padding: 0 24px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.18rem; line-height: 1.7; color: var(--ink-body);
+    font-weight: 400;
+  }
+  .essay-body p { margin: 0 0 1.4em; }
+  .essay-body p:first-of-type::first-letter {
+    float: left; font-family: 'Fraunces', serif; font-size: 4.2rem;
+    line-height: 0.9; padding: 4px 12px 0 0; font-weight: 500; color: var(--navy);
+  }
+  .essay-body h2, .essay-body h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500; color: var(--navy);
+    letter-spacing: -0.012em; margin: 2.2em 0 0.7em; line-height: 1.25;
+  }
+  .essay-body h2 { font-size: 1.7rem; }
+  .essay-body h3 { font-size: 1.35rem; }
+  .essay-body em { font-style: italic; }
+  .essay-body strong { font-weight: 600; }
+  .essay-body blockquote {
+    margin: 2em 0; padding: 0 0 0 24px;
+    border-left: 3px solid var(--gold);
+    font-style: italic; font-size: 1.25rem; line-height: 1.6; color: var(--ink-soft);
+  }
+  .essay-body hr {
+    border: none; text-align: center; margin: 2.4em 0; color: var(--gold-deep);
+  }
+  .essay-body hr::before {
+    content: "·   ·   ·"; font-size: 1.4rem; letter-spacing: 0.4em;
+  }
+  .essay-body img { max-width: 100%; border-radius: 4px; margin: 1.6em 0; }
+
+  /* MID-ARTICLE CTA */
+  .essay-cta-mid {
+    max-width: 720px; margin: 56px auto;
+    background: var(--navy); color: white; padding: 32px 30px;
+    border-radius: 4px; border-left: 4px solid var(--gold);
+    text-align: center;
+  }
+  .essay-cta-mid h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.4rem; line-height: 1.3; margin: 0 0 12px;
+    color: white; letter-spacing: -0.01em;
+  }
+  .essay-cta-mid p {
+    font-family: 'Inter', sans-serif; font-size: 0.95rem;
+    color: rgba(255,255,255,0.8); margin: 0 0 20px;
+  }
+  .essay-cta-mid .cta-btn {
+    display: inline-block; background: var(--gold); color: var(--navy-deep);
+    padding: 12px 28px; border-radius: 4px; font-weight: 700; font-size: 0.95rem;
+    letter-spacing: 0.02em; border-bottom: none;
+  }
+  .essay-cta-mid .cta-btn:hover { background: var(--gold-bright); border-bottom: none; }
+
+  /* SOURCES BLOCK */
+  .essay-body h2#sources, .essay-body h2:has(+ p:first-of-type) {
+    border-top: 1px solid var(--rule); padding-top: 1.5em;
+  }
+
+  /* BOTTOM CTA */
+  .essay-cta-bottom {
+    max-width: 720px; margin: 80px auto 0;
+    padding: 48px 36px;
+    background:
+      radial-gradient(ellipse 70% 60% at 50% 0%, rgba(201,169,110,0.16) 0%, transparent 60%),
+      var(--navy);
+    color: white; border-radius: 4px; text-align: center;
+  }
+  .essay-cta-bottom .label {
+    font-size: 0.74rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); font-weight: 700; margin-bottom: 16px;
+  }
+  .essay-cta-bottom h2 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
+    font-size: clamp(1.5rem, 2.6vw, 1.9rem); line-height: 1.25;
+    color: white; margin: 0 0 14px; letter-spacing: -0.01em;
+  }
+  .essay-cta-bottom p {
+    font-family: 'Fraunces', serif; font-weight: 300;
+    color: rgba(255,255,255,0.8); margin: 0 0 24px; font-size: 1.05rem;
+  }
+  .essay-cta-bottom .cta-btn {
+    display: inline-block; background: var(--action); color: white;
+    padding: 14px 36px; border-radius: 4px; font-weight: 700; font-size: 1rem;
+    letter-spacing: 0.02em; border-bottom: none;
+    box-shadow: 0 4px 14px rgba(192,32,32,0.35);
+  }
+  .essay-cta-bottom .cta-btn:hover { background: var(--action-hover); border-bottom: none; }
+  .essay-cta-bottom .frequency {
+    margin-top: 14px; font-size: 0.82rem; color: rgba(255,255,255,0.55); letter-spacing: 0.04em;
+  }
+
+  /* SCROLL MODAL */
+  #scroll-modal {
+    position: fixed; bottom: -200px; right: 24px; width: 340px;
+    background: white; border: 1px solid var(--rule);
+    border-left: 4px solid var(--gold);
+    padding: 20px 22px; border-radius: 4px;
+    box-shadow: 0 12px 32px rgba(11,31,58,0.18);
+    transition: bottom 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 1000;
+  }
+  #scroll-modal.show { bottom: 24px; }
+  #scroll-modal .close {
+    position: absolute; top: 8px; right: 12px; background: none; border: none;
+    font-size: 1.2rem; color: var(--ink-soft); cursor: pointer; line-height: 1;
+  }
+  #scroll-modal h4 {
+    font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.05rem;
+    margin: 0 0 6px; color: var(--navy); letter-spacing: -0.005em;
+  }
+  #scroll-modal p {
+    font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 12px; line-height: 1.4;
+  }
+  #scroll-modal .modal-cta {
+    display: inline-block; background: var(--navy); color: white;
+    padding: 8px 18px; border-radius: 3px; font-weight: 600;
+    font-size: 0.85rem; border-bottom: none;
+  }
+  #scroll-modal .modal-cta:hover { background: var(--navy-mid); border-bottom: none; }
+
+  @media (max-width: 700px) {
+    .essay-body { font-size: 1.1rem; padding: 0 20px; }
+    .essay-body p:first-of-type::first-letter { font-size: 3.4rem; }
+    .essay-cta-bottom, .essay-cta-mid { padding: 32px 24px; }
+    #scroll-modal { right: 12px; left: 12px; width: auto; }
+  }
+</style>
+
+<div class="essay-page">
+
+<div class="essay-header-ribbon">
+  <span><a href="/the-trade/" style="color: var(--gold);">The Trade</a></span>
+  <span><a href="/">← Back to home</a></span>
+</div>
+
+<header class="essay-hero">
+  <div class="meta-row">
+    <span>The Trade</span>
+    <span class="dot"></span>
+    <span>{{ .Date.Format "January 2006" }}</span>
+    <span class="dot"></span>
+    <span>{{ .ReadingTime }} min read</span>
+  </div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  <div class="byline">By <strong>{{ .Params.author | default "The Tradewinds Brief" }}</strong></div>
+</header>
+
+<div class="essay-cta-top">
+  <span>An essay from The Tradewinds Brief — daily diaspora reporting.</span>
+  <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" target="_blank" rel="noopener">Subscribe →</a>
+</div>
+
+<article class="essay-body">
+  {{ .Content }}
+</article>
+
+<div class="essay-cta-bottom">
+  <div class="label">Like this essay?</div>
+  <h2>Get The Tradewinds Brief in your inbox.</h2>
+  <p>Daily reporting and monthly essays on Guyana, the Caribbean, and Africa. Free.</p>
+  <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta-btn" target="_blank" rel="noopener">Subscribe Free →</a>
+  <div class="frequency">Daily — 5 min read — unsubscribe anytime</div>
+</div>
+
+<div id="scroll-modal">
+  <button class="close" onclick="document.getElementById('scroll-modal').remove()">×</button>
+  <h4>Enjoying this essay?</h4>
+  <p>Get the next one in your inbox. Free, monthly.</p>
+  <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="modal-cta" target="_blank" rel="noopener">Subscribe →</a>
+</div>
+
+<script>
+  (function() {
+    var modal = document.getElementById('scroll-modal');
+    var article = document.querySelector('.essay-body');
+    var shown = false;
+    if (!modal || !article) return;
+
+    var dismissed = sessionStorage.getItem('ttb-modal-dismissed');
+    if (dismissed === '1') { modal.remove(); return; }
+
+    function check() {
+      if (shown) return;
+      var rect = article.getBoundingClientRect();
+      var scrolled = window.scrollY - article.offsetTop + window.innerHeight;
+      var pct = scrolled / article.offsetHeight;
+      if (pct >= 0.7) {
+        modal.classList.add('show');
+        shown = true;
+        window.removeEventListener('scroll', check);
+      }
+    }
+
+    var closeBtn = modal.querySelector('.close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        sessionStorage.setItem('ttb-modal-dismissed', '1');
+      });
+    }
+
+    window.addEventListener('scroll', check, { passive: true });
+  })();
+</script>
+
+</div>
+
+{{ end }}

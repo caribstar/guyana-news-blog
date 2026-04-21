@@ -1,0 +1,785 @@
+{{ define "main" }}
+{{/*
+  THE TRADEWINDS BRIEF — HOMEPAGE
+  Architecture: Semafor-hybrid (per Handoff v3 Section 10)
+  Chassis: Atlantic Navy #0B1F3A + Trade Gold #C9A96E
+  Country accents: flag colors only on country-specific surfaces
+  Lanes: SATIRE (yellow) / BRIEFS (navy) / THE TRADE (gold)
+*/}}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://eomail5.com">
+
+<style>
+  :root {
+    --navy: #0B1F3A;
+    --navy-deep: #061428;
+    --navy-mid: #1a3456;
+    --navy-soft: #243d5e;
+    --gold: #C9A96E;
+    --gold-bright: #D9B97E;
+    --gold-deep: #B89557;
+    --sand: #F2EEE5;
+    --cream: #FAF7F0;
+    --ink: #1a1a1a;
+    --ink-soft: #444;
+    --rule: #d8d3c4;
+    --action: #C02020;
+    --action-hover: #9A1818;
+    --satire-tint: #FBE9A6;
+    --satire-deep: #8A6D17;
+
+    /* country flag colors */
+    --gy-green: #009E60; --gy-red: #CE1126; --gy-gold: #FCD116;
+    --jm-green: #009B3A; --jm-gold: #FED100; --jm-black: #000000;
+    --tt-red: #DA1A35; --tt-black: #000000; --tt-white: #FFFFFF;
+    --bb-blue: #00267F; --bb-gold: #FFC726;
+    --gh-red: #CE1126; --gh-gold: #FCD116; --gh-green: #006B3F;
+    --ke-black: #000000; --ke-red: #BB0000; --ke-green: #006600;
+    --ng-green: #008751;
+    --za-green: #007A4D; --za-gold: #FFB612; --za-red: #DE3831; --za-blue: #002395;
+  }
+
+  /* override theme defaults for homepage only */
+  body { background: var(--cream); color: var(--ink); font-family: 'Inter', sans-serif; }
+  .ttb-page * { box-sizing: border-box; }
+
+  .ttb-page { font-family: 'Inter', -apple-system, sans-serif; color: var(--ink); }
+
+  .ttb-page a { color: inherit; text-decoration: none; }
+  .ttb-page a:hover { color: var(--action); }
+
+  /* ============= ZONE 1: HERO ============= */
+  .ttb-hero {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(201,169,110,0.14) 0%, transparent 60%),
+      linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: white;
+    padding: 72px 24px 64px;
+    margin: -20px -20px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ttb-hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay; opacity: 0.5; pointer-events: none;
+  }
+  .ttb-hero-inner {
+    max-width: 880px; margin: 0 auto; text-align: center; position: relative; z-index: 2;
+  }
+  .ttb-hero .eyebrow {
+    font-size: 0.74rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); font-weight: 600; margin-bottom: 24px;
+  }
+  .ttb-hero h1 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
+    font-size: clamp(2rem, 4.8vw, 3.2rem); line-height: 1.12;
+    letter-spacing: -0.018em; color: white;
+    margin: 0 auto 18px; max-width: 760px;
+  }
+  .ttb-hero h1 em { font-style: italic; font-weight: 300; color: var(--gold-bright); }
+  .ttb-hero .subhead {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 300;
+    font-size: clamp(1.05rem, 1.8vw, 1.2rem); line-height: 1.55;
+    color: rgba(255,255,255,0.85); max-width: 640px; margin: 0 auto 32px;
+  }
+  .ttb-hero .cta-row {
+    display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .ttb-hero .cta {
+    display: inline-block; background: var(--action); color: white;
+    padding: 16px 38px; border-radius: 6px; font-weight: 700; font-size: 1.02rem;
+    letter-spacing: 0.01em; transition: all 0.2s;
+    box-shadow: 0 4px 14px rgba(192,32,32,0.35);
+  }
+  .ttb-hero .cta:hover { background: var(--action-hover); color: white; transform: translateY(-1px); }
+  .ttb-hero .frequency {
+    font-size: 0.85rem; color: rgba(255,255,255,0.65); letter-spacing: 0.04em;
+  }
+
+  /* ============= LAYOUT GRID ============= */
+  .ttb-shell { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+  .ttb-section { margin-bottom: 72px; }
+  .ttb-section-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    border-bottom: 1.5px solid var(--navy); padding-bottom: 14px; margin-bottom: 28px;
+  }
+  .ttb-section-head h2 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500; color: var(--navy);
+    margin: 0; font-size: 1.55rem; letter-spacing: -0.01em;
+  }
+  .ttb-section-head .meta {
+    font-family: 'Inter', sans-serif; font-size: 0.74rem;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-soft); font-weight: 600;
+  }
+  .ttb-section-head .meta a { color: var(--navy); border-bottom: 1px solid transparent; }
+  .ttb-section-head .meta a:hover { border-bottom-color: var(--navy); }
+
+  /* ============= ZONE 2: THE TRADE FEATURED ============= */
+  .trade-featured {
+    background:
+      radial-gradient(ellipse 60% 70% at 100% 0%, rgba(201,169,110,0.18) 0%, transparent 70%),
+      linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    color: white; padding: 48px 44px;
+    border-radius: 4px; border-left: 6px solid var(--gold);
+    position: relative; overflow: hidden;
+  }
+  .trade-featured .label {
+    font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); font-weight: 700; margin-bottom: 14px;
+  }
+  .trade-featured h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: clamp(1.5rem, 2.6vw, 1.95rem); line-height: 1.22;
+    color: white; margin: 0 0 14px; letter-spacing: -0.012em; max-width: 760px;
+  }
+  .trade-featured h3 a { color: white; }
+  .trade-featured h3 a:hover { color: var(--gold-bright); }
+  .trade-featured .dek {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 300;
+    font-size: 1.05rem; line-height: 1.55; color: rgba(255,255,255,0.85);
+    margin-bottom: 18px; max-width: 680px;
+  }
+  .trade-featured .byline {
+    font-size: 0.8rem; letter-spacing: 0.06em; color: rgba(255,255,255,0.6);
+    margin-bottom: 20px; text-transform: uppercase; font-weight: 600;
+  }
+  .trade-featured .read-link {
+    display: inline-block; color: var(--gold); font-weight: 600;
+    border-bottom: 1px solid var(--gold); padding-bottom: 2px;
+    font-size: 0.92rem; letter-spacing: 0.04em;
+  }
+  .trade-featured .read-link:hover { color: var(--gold-bright); border-bottom-color: var(--gold-bright); }
+
+  /* ============= ZONE 3: GUYANA DUELING PAIR ============= */
+  .dueling-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+  }
+  .dueling-card {
+    background: white; border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(11,31,58,0.06);
+    border: 1px solid #e5e2d8; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .dueling-card .card-flag {
+    height: 6px;
+    background: linear-gradient(90deg, var(--gy-green) 0%, var(--gy-gold) 50%, var(--gy-red) 100%);
+  }
+  .dueling-card .card-head {
+    padding: 16px 22px; color: white; font-weight: 600; font-size: 0.95rem;
+  }
+  .dueling-card .card-head .voice-eyebrow {
+    display: block; font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; opacity: 0.85; margin-bottom: 4px; font-weight: 600;
+  }
+  .dueling-card .card-head .voice-name {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.15rem; letter-spacing: -0.005em;
+  }
+  .dueling-card .card-body { padding: 22px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+  .dueling-card .post-date {
+    font-size: 0.78rem; letter-spacing: 0.04em; color: var(--ink-soft); margin-bottom: 8px;
+  }
+  .dueling-card h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.25rem; line-height: 1.32; margin: 0 0 12px;
+    color: var(--navy); letter-spacing: -0.005em;
+  }
+  .dueling-card h3 a { color: var(--navy); }
+  .dueling-card h3 a:hover { color: var(--action); }
+  .dueling-card .summary {
+    font-size: 0.94rem; line-height: 1.55; color: var(--ink-soft);
+    margin-bottom: 18px; flex: 1;
+  }
+  .dueling-card .read-btn {
+    display: inline-block; padding: 10px 20px; border-radius: 4px;
+    font-weight: 600; font-size: 0.88rem; letter-spacing: 0.02em;
+    align-self: flex-start;
+  }
+
+  .ramesh .card-head { background: #7A1F1F; }
+  .ramesh .read-btn { background: #7A1F1F; color: white; }
+  .ramesh .read-btn:hover { background: #5A1515; color: white; }
+
+  .winston .card-head { background: var(--gy-green); }
+  .winston .read-btn { background: var(--gy-green); color: white; }
+  .winston .read-btn:hover { background: #007540; color: white; }
+
+  /* ============= ZONE 4: BRIEFS ROW ============= */
+  .briefs-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px;
+  }
+  .brief-card {
+    background: white; border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(11,31,58,0.05);
+    border: 1px solid #ece8db; overflow: hidden;
+    transition: transform 0.18s, box-shadow 0.18s;
+  }
+  .brief-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(11,31,58,0.08); }
+  .brief-card .card-flag { height: 4px; background: var(--navy); }
+  .brief-card .card-flag.jm { background: linear-gradient(90deg, var(--jm-black) 0%, var(--jm-gold) 50%, var(--jm-green) 100%); }
+  .brief-card .card-flag.tt { background: linear-gradient(90deg, var(--tt-red) 0%, var(--tt-white) 50%, var(--tt-black) 100%); }
+  .brief-card .card-flag.bb { background: linear-gradient(90deg, var(--bb-blue) 0%, var(--bb-gold) 50%, var(--bb-blue) 100%); }
+  .brief-card .card-flag.gh { background: linear-gradient(90deg, var(--gh-red) 0%, var(--gh-gold) 50%, var(--gh-green) 100%); }
+  .brief-card .card-flag.ke { background: linear-gradient(90deg, var(--ke-black) 0%, var(--ke-red) 50%, var(--ke-green) 100%); }
+  .brief-card .card-flag.ng { background: linear-gradient(90deg, var(--ng-green) 0%, white 50%, var(--ng-green) 100%); }
+  .brief-card .card-flag.za { background: linear-gradient(90deg, var(--za-green) 0%, var(--za-gold) 33%, var(--za-red) 66%, var(--za-blue) 100%); }
+  .brief-card .card-body { padding: 16px 18px 18px; }
+  .brief-card .country-label {
+    font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--navy); font-weight: 700; margin-bottom: 8px;
+  }
+  .brief-card h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.05rem; line-height: 1.32; margin: 0 0 8px;
+    color: var(--navy); letter-spacing: -0.003em;
+  }
+  .brief-card h3 a:hover { color: var(--action); }
+  .brief-card .post-date {
+    font-size: 0.74rem; letter-spacing: 0.04em; color: var(--ink-soft); margin-bottom: 8px;
+  }
+  .brief-card .summary {
+    font-size: 0.88rem; line-height: 1.5; color: var(--ink-soft); margin-bottom: 0;
+  }
+
+  /* ============= ZONE 5: CARIBBEAN DUELING PAIRS ============= */
+  .caribbean-pairs { display: flex; flex-direction: column; gap: 28px; }
+  .caribbean-pair {
+    border: 1px solid #ece8db; border-radius: 4px; overflow: hidden; background: white;
+    box-shadow: 0 1px 4px rgba(11,31,58,0.04);
+  }
+  .caribbean-pair .pair-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 22px; background: var(--cream);
+    border-bottom: 1px solid #ece8db;
+  }
+  .caribbean-pair .pair-flag { height: 5px; }
+  .caribbean-pair.jm .pair-flag { background: linear-gradient(90deg, var(--jm-black) 0%, var(--jm-gold) 50%, var(--jm-green) 100%); }
+  .caribbean-pair.tt .pair-flag { background: linear-gradient(90deg, var(--tt-red) 0%, var(--tt-white) 50%, var(--tt-black) 100%); }
+  .caribbean-pair.bb .pair-flag { background: linear-gradient(90deg, var(--bb-blue) 0%, var(--bb-gold) 50%, var(--bb-blue) 100%); }
+  .caribbean-pair .country-name {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 1.15rem;
+    color: var(--navy); letter-spacing: -0.005em;
+  }
+  .caribbean-pair .pair-meta {
+    font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--ink-soft); font-weight: 600;
+  }
+  .caribbean-pair .pair-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+  }
+  .caribbean-pair .pair-side {
+    padding: 22px 22px 24px; border-right: 1px solid #ece8db;
+  }
+  .caribbean-pair .pair-side:last-child { border-right: none; }
+  .caribbean-pair .voice-byline {
+    font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--gold-deep); font-weight: 700; margin-bottom: 8px;
+  }
+  .caribbean-pair h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.08rem; line-height: 1.32; margin: 0 0 8px;
+    color: var(--navy); letter-spacing: -0.003em;
+  }
+  .caribbean-pair h3 a:hover { color: var(--action); }
+  .caribbean-pair .summary {
+    font-size: 0.88rem; line-height: 1.5; color: var(--ink-soft); margin-bottom: 12px;
+  }
+  .caribbean-pair .read-link {
+    font-size: 0.82rem; font-weight: 600; color: var(--navy);
+    border-bottom: 1px solid var(--navy); padding-bottom: 1px;
+  }
+
+  /* ============= ZONE 6: SECONDARY FRANCHISES ============= */
+  .franchises-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;
+  }
+  .franchise-card {
+    background: white; border: 1px solid #ece8db; border-radius: 4px;
+    overflow: hidden; transition: transform 0.18s, box-shadow 0.18s;
+  }
+  .franchise-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(11,31,58,0.08); }
+  .franchise-card .franchise-flag {
+    height: 3px; background: var(--gy-green);
+  }
+  .franchise-card .franchise-body { padding: 18px 20px 20px; }
+  .franchise-card .franchise-label {
+    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold-deep); font-weight: 700; margin-bottom: 8px;
+  }
+  .franchise-card h3 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+    font-size: 1.04rem; line-height: 1.32; margin: 0 0 8px;
+    color: var(--navy); letter-spacing: -0.003em;
+  }
+  .franchise-card h3 a:hover { color: var(--action); }
+  .franchise-card .summary {
+    font-size: 0.86rem; line-height: 1.5; color: var(--ink-soft); margin-bottom: 0;
+  }
+  .franchise-card .empty {
+    font-style: italic; color: var(--ink-soft); font-size: 0.9rem;
+  }
+
+  /* ============= ZONE 7: FOOTER SIGNUP ============= */
+  .footer-signup {
+    background: var(--navy); color: white; margin: 80px -20px 0;
+    padding: 56px 24px; text-align: center; position: relative; overflow: hidden;
+  }
+  .footer-signup::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay; opacity: 0.4; pointer-events: none;
+  }
+  .footer-signup-inner { max-width: 600px; margin: 0 auto; position: relative; z-index: 2; }
+  .footer-signup .label {
+    font-size: 0.74rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); font-weight: 600; margin-bottom: 18px;
+  }
+  .footer-signup h2 {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.25; color: white;
+    margin: 0 0 16px; letter-spacing: -0.012em;
+  }
+  .footer-signup .pitch {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 300;
+    font-size: 1.05rem; color: rgba(255,255,255,0.8); margin-bottom: 28px;
+  }
+  .footer-signup .cta {
+    display: inline-block; background: var(--gold); color: var(--navy-deep);
+    padding: 14px 36px; border-radius: 4px; font-weight: 700;
+    font-size: 0.98rem; letter-spacing: 0.02em; transition: background 0.2s;
+  }
+  .footer-signup .cta:hover { background: var(--gold-bright); color: var(--navy-deep); }
+  .footer-signup .frequency {
+    margin-top: 14px; font-size: 0.82rem; color: rgba(255,255,255,0.55); letter-spacing: 0.04em;
+  }
+
+  /* ============= RESPONSIVE ============= */
+  @media (max-width: 768px) {
+    .ttb-hero { padding: 48px 20px; }
+    .dueling-grid, .briefs-grid { grid-template-columns: 1fr; }
+    .caribbean-pair .pair-grid { grid-template-columns: 1fr; }
+    .caribbean-pair .pair-side { border-right: none; border-bottom: 1px solid #ece8db; }
+    .caribbean-pair .pair-side:last-child { border-bottom: none; }
+    .trade-featured { padding: 32px 24px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="ttb-page">
+
+{{/* ===== ZONE 1: HERO ===== */}}
+<section class="ttb-hero">
+  <div class="ttb-hero-inner">
+    <div class="eyebrow">The Tradewinds Brief · Daily</div>
+    <h1>Diaspora-first reporting on Guyana, the Caribbean, <em>and Africa.</em></h1>
+    <p class="subhead">The news, the satire, and the serious coverage these communities deserve. Free, daily.</p>
+    <div class="cta-row">
+      <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free →</a>
+    </div>
+    <div class="frequency">Daily — 5 min read — free</div>
+  </div>
+</section>
+
+<div class="ttb-shell">
+
+{{/* ===== ZONE 2: THE TRADE FEATURED ===== */}}
+{{ $tradePosts := where .Site.RegularPages "Section" "the-trade" }}
+{{ if gt (len $tradePosts) 0 }}
+{{ with index (sort $tradePosts "Date" "desc") 0 }}
+<section class="ttb-section">
+  <div class="ttb-section-head">
+    <h2>The Trade</h2>
+    <div class="meta"><a href="/the-trade/">All essays →</a></div>
+  </div>
+  <article class="trade-featured">
+    <div class="label">Featured Essay</div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.subtitle }}<div class="dek">{{ . }}</div>{{ end }}
+    <div class="byline">By {{ .Params.author | default "The Tradewinds Brief" }} · {{ .ReadingTime }} min read</div>
+    <a href="{{ .RelPermalink }}" class="read-link">Read the essay →</a>
+  </article>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* ===== ZONE 3: GUYANA DUELING PAIR ===== */}}
+<section class="ttb-section">
+  <div class="ttb-section-head">
+    <h2>Guyana — Today's Dueling Voices</h2>
+    <div class="meta">{{ now.Format "Monday, January 2" }}</div>
+  </div>
+  <div class="dueling-grid">
+
+    {{/* Brother Winston (critical) */}}
+    <article class="dueling-card winston">
+      <div class="card-flag"></div>
+      <div class="card-head">
+        <span class="voice-eyebrow">Critical</span>
+        <span class="voice-name">Brother Winston</span>
+      </div>
+      <div class="card-body">
+        {{ $winstonPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief" "News") }}
+        {{ with index (sort $winstonPosts "Date" "desc") 0 }}
+        <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 180 }}</p>
+        <a href="{{ .RelPermalink }}" class="read-btn">Read Winston's view →</a>
+        {{ else }}
+        <p class="summary">Today's piece coming soon.</p>
+        {{ end }}
+      </div>
+    </article>
+
+    {{/* Uncle Ramesh (loyalist) */}}
+    <article class="dueling-card ramesh">
+      <div class="card-flag"></div>
+      <div class="card-head">
+        <span class="voice-eyebrow">Loyalist</span>
+        <span class="voice-name">Uncle Ramesh</span>
+      </div>
+      <div class="card-body">
+        {{ $rameshPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Uncle Ramesh") }}
+        {{ with index (sort $rameshPosts "Date" "desc") 0 }}
+        <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 180 }}</p>
+        <a href="{{ .RelPermalink }}" class="read-btn">Read Ramesh's view →</a>
+        {{ else }}
+        <p class="summary">Today's piece coming soon.</p>
+        {{ end }}
+      </div>
+    </article>
+
+  </div>
+</section>
+
+{{/* ===== ZONE 4: BRIEFS ROW ===== */}}
+<section class="ttb-section">
+  <div class="ttb-section-head">
+    <h2>The Briefs</h2>
+    <div class="meta">Serious country reporting</div>
+  </div>
+  <div class="briefs-grid">
+
+    {{/* Jamaica */}}
+    {{ $jmPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Jamaica Brief") }}
+    {{ with index (sort $jmPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag jm"></div>
+      <div class="card-body">
+        <div class="country-label">Jamaica Brief</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Trinidad */}}
+    {{ $ttPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Trini Brief") }}
+    {{ with index (sort $ttPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag tt"></div>
+      <div class="card-body">
+        <div class="country-label">Trinidad Brief</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Barbados */}}
+    {{ $bbPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Bajan Brief") }}
+    {{ with index (sort $bbPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag bb"></div>
+      <div class="card-body">
+        <div class="country-label">Barbados Brief</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Ghana - Accra Almanac */}}
+    {{ $ghPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Ghana Brief") }}
+    {{ with index (sort $ghPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag gh"></div>
+      <div class="card-body">
+        <div class="country-label">Accra Almanac</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Kenya - Nairobi Dispatch */}}
+    {{ $kePosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Kenya Brief") }}
+    {{ with index (sort $kePosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag ke"></div>
+      <div class="card-body">
+        <div class="country-label">Nairobi Dispatch</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Nigeria - Naija Lookbook */}}
+    {{ $ngPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Nigeria Brief") }}
+    {{ with index (sort $ngPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag ng"></div>
+      <div class="card-body">
+        <div class="country-label">Naija Lookbook</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* South Africa - Cape Chronicles */}}
+    {{ $zaPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "South Africa Brief") }}
+    {{ with index (sort $zaPosts "Date" "desc") 0 }}
+    <article class="brief-card">
+      <div class="card-flag za"></div>
+      <div class="card-body">
+        <div class="country-label">Cape Chronicles</div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+      </div>
+    </article>
+    {{ end }}
+
+  </div>
+</section>
+
+{{/* ===== ZONE 5: CARIBBEAN DUELING PAIRS ===== */}}
+<section class="ttb-section">
+  <div class="ttb-section-head">
+    <h2>Caribbean Dueling Voices</h2>
+    <div class="meta">Same news. Different eyes.</div>
+  </div>
+  <div class="caribbean-pairs">
+
+    {{/* Jamaica */}}
+    {{ $yardReport := where .Site.RegularPages "Params.author" "Yard Report" }}
+    {{ $cousinLeroy := where .Site.RegularPages "Params.author" "Cousin Leroy" }}
+    {{ if or (gt (len $yardReport) 0) (gt (len $cousinLeroy) 0) }}
+    <article class="caribbean-pair jm">
+      <div class="pair-flag"></div>
+      <div class="pair-head">
+        <div class="country-name">Jamaica</div>
+        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
+      </div>
+      <div class="pair-grid">
+        <div class="pair-side">
+          <div class="voice-byline">Yard Report</div>
+          {{ with index (sort $yardReport "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+        <div class="pair-side">
+          <div class="voice-byline">Cousin Leroy</div>
+          {{ with index (sort $cousinLeroy "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Trinidad */}}
+    {{ $triniDispatch := where .Site.RegularPages "Params.author" "Trini Dispatch" }}
+    {{ $auntieCheryl := where .Site.RegularPages "Params.author" "Auntie Cheryl" }}
+    {{ if or (gt (len $triniDispatch) 0) (gt (len $auntieCheryl) 0) }}
+    <article class="caribbean-pair tt">
+      <div class="pair-flag"></div>
+      <div class="pair-head">
+        <div class="country-name">Trinidad &amp; Tobago</div>
+        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
+      </div>
+      <div class="pair-grid">
+        <div class="pair-side">
+          <div class="voice-byline">Trini Dispatch</div>
+          {{ with index (sort $triniDispatch "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+        <div class="pair-side">
+          <div class="voice-byline">Auntie Cheryl</div>
+          {{ with index (sort $auntieCheryl "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+
+    {{/* Barbados */}}
+    {{ $bajanBugle := where .Site.RegularPages "Params.author" "Bajan Bugle" }}
+    {{ $missViolet := where .Site.RegularPages "Params.author" "Miss Violet" }}
+    {{ if or (gt (len $bajanBugle) 0) (gt (len $missViolet) 0) }}
+    <article class="caribbean-pair bb">
+      <div class="pair-flag"></div>
+      <div class="pair-head">
+        <div class="country-name">Barbados</div>
+        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
+      </div>
+      <div class="pair-grid">
+        <div class="pair-side">
+          <div class="voice-byline">Bajan Bugle</div>
+          {{ with index (sort $bajanBugle "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+        <div class="pair-side">
+          <div class="voice-byline">Miss Violet</div>
+          {{ with index (sort $missViolet "Date" "desc") 0 }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="summary">{{ .Summary | truncate 130 }}</p>
+          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
+          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+
+  </div>
+</section>
+
+{{/* ===== ZONE 6: SECONDARY GUYANA FRANCHISES ===== */}}
+<section class="ttb-section">
+  <div class="ttb-section-head">
+    <h2>Guyana Franchises</h2>
+    <div class="meta">The recurring features</div>
+  </div>
+  <div class="franchises-grid">
+
+    {{/* Bam-Bam Sally / Rumor Mill */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: var(--gy-red);"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">Bam-Bam Sally · Rumor Mill</div>
+        {{ $rumorMill := where .Site.RegularPages "Params.categories" "intersect" (slice "The Rumor Mill") }}
+        {{ with index (sort $rumorMill "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">New rumors coming Wednesday.</p>{{ end }}
+      </div>
+    </article>
+
+    {{/* Speedeet & Wilar */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: var(--gy-gold);"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">Speedeet &amp; Wilar</div>
+        {{ $speedeet := where .Site.RegularPages "Params.categories" "intersect" (slice "Speedeet & Wilar" "Speedeet and Wilar") }}
+        {{ with index (sort $speedeet "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">New adventure coming Sunday.</p>{{ end }}
+      </div>
+    </article>
+
+    {{/* Progress Report */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: var(--gy-green);"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">Weekly Progress Report</div>
+        {{ $progress := where .Site.RegularPages "Params.categories" "intersect" (slice "Progress Report") }}
+        {{ with index (sort $progress "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">Coming Wednesday.</p>{{ end }}
+      </div>
+    </article>
+
+    {{/* Patriots Portfolio */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: #FFA500;"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">Patriots Portfolio</div>
+        {{ $patriots := where .Site.RegularPages "Params.categories" "intersect" (slice "Patriots Portfolio") }}
+        {{ with index (sort $patriots "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">Coming Friday.</p>{{ end }}
+      </div>
+    </article>
+
+    {{/* DJ Roadblock */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: #00bcd4;"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">DJ Roadblock</div>
+        {{ $traffic := where .Site.RegularPages "Params.categories" "intersect" (slice "Traffic Report") }}
+        {{ with index (sort $traffic "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">Coming Friday.</p>{{ end }}
+      </div>
+    </article>
+
+    {{/* Guyanese Horizon */}}
+    <article class="franchise-card">
+      <div class="franchise-flag" style="background: var(--gold);"></div>
+      <div class="franchise-body">
+        <div class="franchise-label">The Guyanese Horizon</div>
+        {{ $horizon := where .Site.RegularPages "Params.categories" "intersect" (slice "The Guyanese Horizon") }}
+        {{ with index (sort $horizon "Date" "desc") 0 }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="summary">{{ .Summary | truncate 110 }}</p>
+        {{ else }}<p class="summary empty">Monthly feature.</p>{{ end }}
+      </div>
+    </article>
+
+  </div>
+</section>
+
+</div> {{/* close .ttb-shell */}}
+
+{{/* ===== ZONE 7: FOOTER SIGNUP ===== */}}
+<section class="footer-signup">
+  <div class="footer-signup-inner">
+    <div class="label">Don't miss tomorrow's brief</div>
+    <h2>Get The Tradewinds Brief in your inbox.</h2>
+    <p class="pitch">Daily reporting, satire, and serious coverage from Guyana, the Caribbean, and Africa. Free, every morning.</p>
+    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free →</a>
+    <div class="frequency">Daily — 5 min read — unsubscribe anytime</div>
+  </div>
+</section>
+
+</div> {{/* close .ttb-page */}}
+
+{{ end }}
