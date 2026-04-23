@@ -1,55 +1,135 @@
 {{- define "main" -}}
+{{ $catFilter := .Params.categories_filter | default (slice "Daily Brief") }}
+
+{{/* Build the pool of matched posts */}}
 {{ $matched := slice }}
-{{ range (where site.RegularPages "Params.categories" "intersect" (slice "Guyana Brief")) }}
+{{ range (where site.RegularPages "Params.categories" "intersect" $catFilter) }}
   {{ $matched = $matched | append . }}
 {{ end }}
+{{ $matched = $matched | uniq }}
 {{ $matched = sort $matched "Date" "desc" }}
-{{ $total := len $matched }}
+
+{{/* Hero-row control: strongest story slot 1, Sports slot 2, Speedeet slot 3 */}}
+{{ $sports := where $matched "Params.content_vertical" "sports" }}
+{{ $speedeet := where $matched "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
+
+{{ $heroSlot1 := "" }}{{ if gt (len $matched) 0 }}{{ $heroSlot1 = index $matched 0 }}{{ end }}
+{{ $heroSlot2 := "" }}{{ if gt (len $sports) 0 }}{{ $heroSlot2 = index $sports 0 }}{{ end }}
+{{ $heroSlot3 := "" }}{{ if gt (len $speedeet) 0 }}{{ $heroSlot3 = index $speedeet 0 }}{{ end }}
+
+{{/* IDs of used items so we don't duplicate them below */}}
+{{ $usedIDs := slice }}
+{{ if $heroSlot1 }}{{ $usedIDs = $usedIDs | append $heroSlot1.RelPermalink }}{{ end }}
+{{ if $heroSlot2 }}{{ $usedIDs = $usedIDs | append $heroSlot2.RelPermalink }}{{ end }}
+{{ if $heroSlot3 }}{{ $usedIDs = $usedIDs | append $heroSlot3.RelPermalink }}{{ end }}
 
 <div class="onion-wrap gy-wrap">
 
-  {{ if ge $total 1 }}
-  {{ $hero := index $matched 0 }}
-  <section class="onion-hero">
-    <a href="{{ $hero.RelPermalink }}" class="hero-link">
-      <div class="hero-img" style="background-image:url('{{ $hero.Params.image }}');"></div>
-      <div class="hero-text">
-        <span class="hero-cat">{{ $hero.Params.section | default "News" | title }}</span>
-        <h1 class="hero-headline">{{ $hero.Title }}</h1>
-        <p class="hero-meta">By {{ $hero.Params.author | default "Ajay Messiah" }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
-      </div>
-    </a>
-  </section>
-  {{ end }}
-
-  {{ if ge $total 4 }}
-  <section class="onion-featured">
-    {{ range first 3 (after 1 $matched) }}
-    <article class="feat-card">
+  {{/* === FEATURED TRIO (hero row, controlled) === */}}
+  <section class="onion-featured gy-hero-trio">
+    {{ with $heroSlot1 }}
+    <article class="feat-card feat-hero">
       <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image }}');"></div>
+        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
         <span class="feat-cat">{{ .Params.section | default "News" | title }}</span>
+        <h2 class="feat-headline">{{ .Title }}</h2>
+        <p class="feat-meta">{{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+      </a>
+    </article>
+    {{ end }}
+    {{ with $heroSlot2 }}
+    <article class="feat-card feat-sports">
+      <a href="{{ .RelPermalink }}">
+        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
+        <span class="feat-cat feat-cat-sports">Sports</span>
+        <h2 class="feat-headline">{{ .Title }}</h2>
+        <p class="feat-meta">{{ .Params.author | default "GDB Sports" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+      </a>
+    </article>
+    {{ end }}
+    {{ with $heroSlot3 }}
+    <article class="feat-card feat-speedeet">
+      <a href="{{ .RelPermalink }}">
+        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
+        <span class="feat-cat feat-cat-speedeet">Speedeet &amp; Wilar</span>
         <h2 class="feat-headline">{{ .Title }}</h2>
         <p class="feat-meta">{{ .Params.author | default "Seetal Sukraj" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
       </a>
     </article>
     {{ end }}
   </section>
+
+  {{/* === DEDICATED SPORTS BLOCK === */}}
+  {{ $sportsBlock := slice }}
+  {{ range $sports }}
+    {{ if not (in $usedIDs .RelPermalink) }}
+      {{ $sportsBlock = $sportsBlock | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $sportsBlock = first 3 $sportsBlock }}
+  {{ if $sportsBlock }}
+  <section class="onion-more gy-sports-block">
+    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-sports"></span>Sports</h3>
+    <div class="onion-feed-grid3">
+      {{ range $sportsBlock }}
+      <article class="tile">
+        <a href="{{ .RelPermalink }}" class="tile-link">
+          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
+          <span class="tile-cat">Sports</span>
+          <h3 class="tile-headline">{{ .Title }}</h3>
+          <p class="tile-meta">By {{ .Params.author | default "GDB Sports" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
   {{ end }}
 
-  {{ $rest := after 4 $matched }}
-  {{ $upperFeed := first 8 $rest }}
-  {{ $lowerFeed := after 8 $rest }}
+  {{/* === DEDICATED SPEEDEET & WILAR BLOCK === */}}
+  {{ $speedeetBlock := slice }}
+  {{ range $speedeet }}
+    {{ if not (in $usedIDs .RelPermalink) }}
+      {{ $speedeetBlock = $speedeetBlock | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $speedeetBlock = first 3 $speedeetBlock }}
+  {{ if $speedeetBlock }}
+  <section class="onion-more gy-speedeet-block">
+    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-speedeet"></span>Speedeet &amp; Wilar</h3>
+    <div class="onion-feed-grid3">
+      {{ range $speedeetBlock }}
+      <article class="tile">
+        <a href="{{ .RelPermalink }}" class="tile-link">
+          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
+          <span class="tile-cat">Speedeet &amp; Wilar</span>
+          <h3 class="tile-headline">{{ .Title }}</h3>
+          <p class="tile-meta">By {{ .Params.author | default "Seetal Sukraj" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* === MAIN FEED + SIDEBAR (all remaining, minus already-used) === */}}
+  {{ $feed := slice }}
+  {{ range $matched }}
+    {{ if not (in $usedIDs .RelPermalink) }}
+      {{ $feed = $feed | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $upperFeed := first 8 $feed }}
+  {{ $lowerFeed := after 8 $feed }}
 
   <section class="onion-main">
     <div class="onion-feed-grid2">
       {{ range $upperFeed }}
       <article class="tile">
         <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image }}');"></div>
+          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
           <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
           <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "K. Persaud" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
         </a>
       </article>
       {{ end }}
@@ -57,15 +137,9 @@
 
     <aside class="onion-sidebar">
       <div class="side-block">
-        <h4 class="side-title">Trending</h4>
+        <h4 class="side-title">Top Stories</h4>
         <ol class="side-list">
           {{ range first 5 $matched }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
-        </ol>
-      </div>
-      <div class="side-block">
-        <h4 class="side-title">Most Read</h4>
-        <ol class="side-list">
-          {{ range first 5 (after 2 $matched) }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
         </ol>
       </div>
       <div class="side-block side-live">
@@ -76,11 +150,38 @@
         </div>
       </div>
       <div class="side-block side-promo">
-        <p class="promo-text">Tradewinds Brief &middot; Guyana Brief &middot; Satire with sauce and pepper.</p>
+        <p class="promo-text">Tradewinds Brief &middot; Guyana &middot; Satire with sauce and pepper.</p>
       </div>
     </aside>
   </section>
 
+  {{/* === FRANCHISES (picture-first) === */}}
+  {{ $franchiseCats := slice "The Rumour Mill" "Progress Report" "Patriots Portfolio" "DJ Roadblock" "Bam-Bam Sally" "Back-a-Truck" "Bounty Board" "The Guyanese Horizon" "De Boys Seh" }}
+  {{ $franchises := slice }}
+  {{ range $cat := $franchiseCats }}
+    {{ $latest := first 1 (where $matched "Params.categories" "intersect" (slice $cat)) }}
+    {{ if $latest }}{{ $franchises = $franchises | append (index $latest 0) }}{{ end }}
+  {{ end }}
+
+  {{ if $franchises }}
+  <section class="onion-more gy-franchises">
+    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-franchise"></span>Guyana Franchises <span class="gy-section-sub">The Recurring Features</span></h3>
+    <div class="onion-feed-grid3">
+      {{ range $franchises }}
+      <article class="tile tile-franchise">
+        <a href="{{ .RelPermalink }}" class="tile-link">
+          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
+          <span class="tile-cat">{{ index .Params.categories 0 }}</span>
+          <h3 class="tile-headline">{{ .Title }}</h3>
+          <p class="tile-meta">{{ .Summary | truncate 120 }}</p>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* === LOWER FEED === */}}
   {{ if $lowerFeed }}
   <section class="onion-more">
     <h3 class="more-title">More Stories</h3>
@@ -88,10 +189,10 @@
       {{ range $lowerFeed }}
       <article class="tile">
         <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image }}');"></div>
+          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
           <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
           <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "K. Persaud" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
         </a>
       </article>
       {{ end }}

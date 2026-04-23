@@ -1,0 +1,53 @@
+{{- define "main" -}}
+{{ $catFilter := .Params.categories_filter | default (slice "Indo-Caribbean Brief") }}
+{{ $matched := slice }}
+{{ range (where site.RegularPages "Params.categories" "intersect" $catFilter) }}
+  {{ $matched = $matched | append . }}
+{{ end }}
+{{ $matched = $matched | uniq }}
+{{ $matched = sort $matched "Date" "desc" }}
+{{ $total := len $matched }}
+
+<div class="onion-wrap ic-wrap">
+  <header class="ic-header">
+    <h1 class="ic-title">Indo-Caribbean</h1>
+    <p class="ic-tagline">{{ .Params.country_tagline }}</p>
+    <p class="ic-schedule">Published monthly</p>
+  </header>
+
+  {{ if ge $total 1 }}
+  {{ $hero := index $matched 0 }}
+  <section class="onion-hero ic-hero">
+    <a href="{{ $hero.RelPermalink }}" class="hero-link">
+      <div class="hero-img" style="background-image:url('{{ $hero.Params.image }}');"></div>
+      <div class="hero-text">
+        <span class="hero-cat">Monthly Feature</span>
+        <h2 class="hero-headline">{{ $hero.Title }}</h2>
+        <p class="hero-meta">By {{ $hero.Params.author | default "Ajay Messiah" }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
+      </div>
+    </a>
+  </section>
+  {{ end }}
+
+  {{ if ge $total 2 }}
+  <section class="ic-archive">
+    <h3 class="archive-title">Previous Features</h3>
+    <div class="ic-archive-list">
+      {{ range after 1 $matched }}
+      <article class="ic-archive-item">
+        <a href="{{ .RelPermalink }}">
+          <time class="ic-date">{{ dateFormat "January 2006" .Date }}</time>
+          <h4 class="ic-headline">{{ .Title }}</h4>
+          <p class="ic-excerpt">{{ .Summary | truncate 140 }}</p>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ else }}
+  <section class="ic-upcoming">
+    <p>The first Indo-Caribbean monthly feature is in development. Check back soon.</p>
+  </section>
+  {{ end }}
+</div>
+{{- end -}}

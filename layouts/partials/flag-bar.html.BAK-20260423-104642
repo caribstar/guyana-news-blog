@@ -1,0 +1,46 @@
+{{/* Tradewinds Flag Bar - 8 country direct-access buttons */}}
+<div class="tw-flag-bar" data-tw-flag-bar>
+  <div class="tw-flag-bar-inner">
+
+    <a href="/guyana/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-gy" aria-hidden="true"></span>
+      <span class="tw-flag-label">Guyana</span>
+    </a>
+
+    <a href="/jamaica/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-jm" aria-hidden="true"></span>
+      <span class="tw-flag-label">Jamaica</span>
+    </a>
+
+    <a href="/trinidad/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-tt" aria-hidden="true"></span>
+      <span class="tw-flag-label">Trinidad</span>
+    </a>
+
+    <a href="/barbados/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-bb" aria-hidden="true"></span>
+      <span class="tw-flag-label">Barbados</span>
+    </a>
+
+    <a href="/ghana/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-gh" aria-hidden="true"></span>
+      <span class="tw-flag-label">Ghana</span>
+    </a>
+
+    <a href="/nigeria/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-ng" aria-hidden="true"></span>
+      <span class="tw-flag-label">Nigeria</span>
+    </a>
+
+    <a href="/kenya/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-ke" aria-hidden="true"></span>
+      <span class="tw-flag-label">Kenya</span>
+    </a>
+
+    <a href="/south-africa/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-za" aria-hidden="true"></span>
+      <span class="tw-flag-label">S. Africa</span>
+    </a>
+
+  </div>
+</div>

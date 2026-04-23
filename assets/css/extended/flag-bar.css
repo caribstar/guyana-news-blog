@@ -151,7 +151,7 @@
 .tw-tt { background: linear-gradient(to bottom, #ce1126 0 33%, #ffffff 33% 40%, #000 40% 60%, #ffffff 60% 66%, #ce1126 66% 100%); }
 .tw-bb { background: linear-gradient(to right, #00267f 0 33%, #ffc726 33% 66%, #00267f 66% 100%); }
 .tw-gh { background: linear-gradient(to bottom, #ce1126 0 33%, #fcd116 33% 66%, #006b3f 66% 100%); }
-.tw-ke { background: linear-gradient(to bottom, #000 0 25%, #bb0000 25% 50%, #006600 50% 75%, #ffffff 75% 100%); }
+.tw-ke { background: linear-gradient(to bottom, #000 0 33%, #bb0000 33% 66%, #006600 66% 100%); }
 .tw-ng { background: linear-gradient(to right, #008753 0 33%, #ffffff 33% 66%, #008753 66% 100%); }
 .tw-za { background: linear-gradient(to bottom, #007a4d 0 33%, #ffb612 33% 40%, #de3831 40% 60%, #002395 60% 66%, #007a4d 66% 100%); }
 
@@ -166,4 +166,8 @@
   .tw-region-panel-inner { grid-template-columns: 1fr; }
 }
 /* Guyana flag stripes */
-.tw-gy { background: linear-gradient(to bottom, #009e49 0 40%, #fcd116 40% 60%, #ce1126 60% 100%); }
+.tw-gy { background: linear-gradient(to bottom, #009e49 0 30%, #fcd116 30% 50%, #ffffff 50% 60%, #000000 60% 70%, #ce1126 70% 100%); }
+
+/* Indo-Caribbean flag stripes (B1 palette) */
+.tw-ic { background: linear-gradient(to bottom, #ff9933 0 25%, #ffffff 25% 50%, #138808 50% 75%, #0066b3 75% 100%); }
+.tw-flag-inner { justify-content: center; }
