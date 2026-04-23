@@ -5,6 +5,10 @@ categories: ["Back-a-Truck", "Weekly Feature"]
 tags: ["Back-a-Truck", "Deals", "Market", "Shopping", "Georgetown"]
 author: "Back-A-Truck"
 description: "Your weekly guide to what's moving, what's worth buying, and what the market is saying this week in Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 🚛 **BACK-A-TRUCK**  

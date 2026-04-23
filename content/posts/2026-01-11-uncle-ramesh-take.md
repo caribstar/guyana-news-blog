@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh: The Brief Writes a Whole Article and STILL Misses The Point!"
 date: 2026-01-11T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # CLE RAMESH'S HOT TAKE
@@ -290,7 +294,7 @@ Too repetitive! Need MORE variety!
 
 **Happy Sunday, Guyana. Read The Brief for laughs, but come to Uncle Ramesh for TRUTH!**
 
-*â€” Uncle Ramesh*  
+*— Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know repeating yourself ain't journalism*
 

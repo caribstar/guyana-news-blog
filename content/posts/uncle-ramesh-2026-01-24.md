@@ -1,4 +1,13 @@
-﻿# Uncle Ramesh's Response
+---
+title: "Uncle Ramesh's Response"
+date: 2026-01-24
+categories: ["Uncle Ramesh"]
+tone: "commentary"
+status: "published"
+product_family: "gdb"
+country: "guyana"
+---
+# Uncle Ramesh's Response
 ## Saturday, January 24, 2026
 
 *A diaspora perspective from Queens, NY*

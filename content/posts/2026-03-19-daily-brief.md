@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["Daily Brief", "Satire"]
 tags: ["Oil", "Mohamed Extradition", "Windfall Tax", "Cash Grant", "Stabroek News", "Jasmine Abrams", "National Park", "ExxonMobil"]
 description: "Oil hits triple digits, the Court of Appeal delivers another blow to the Mohameds, Guyana's cash grant starts flowing to people who already have bank accounts, and we say goodbye to Stabroek News."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your satirical look at today's Guyanese newspapers — because if you don't laugh, you cry* 🇬🇾

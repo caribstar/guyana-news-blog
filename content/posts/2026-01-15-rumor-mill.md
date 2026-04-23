@@ -2,9 +2,13 @@
 title: "Bam-Bam Sally's This Week in Rumors"
 date: 2026-01-15
 author: "Bam-Bam Sally"
-categories: ["The Rumor Mill"]
+categories: ["The Rumour Mill"]
 tags: ["gossip", "rumors", "community-talk"]
 description: "Eh-eh! Leh we see wha whispers floatin' 'round Guyana dis week. Now wid ratings so yuh know how serious de talk really is!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Disclaimer: De Rumor Mill is purely fuh entertainment purposes. We ain't vouching fuh de truth of any ah dese stories — dis is jus wha people talkin' 'bout pon de road, in de market, and ova de fence. If yuh know someting different, good fuh you. We jus reportin' wha we hearin'!*

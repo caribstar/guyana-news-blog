@@ -4,6 +4,10 @@ date: 2026-01-24
 categories: ["Daily Brief"]
 tags: ["news", "satire", "Guyana", "politics", "Budget 2026", "Opposition Leader"]
 description: "Opposition Leader drama continues, Budget 2026 incoming, Barama drops $1 billion, and INTERPOL busts gold smuggling ring"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your satirical summary of Guyana's news — Read all four papers in 5-6 minutes so you don't have to!*

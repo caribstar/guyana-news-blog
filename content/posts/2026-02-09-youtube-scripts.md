@@ -5,6 +5,9 @@ categories: ["YouTube Scripts"]
 tags: ["youtube", "heygen", "video-scripts"]
 summary: "60-second and 4-minute video scripts for Monday's Daily Brief coverage."
 draft: true
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-SECOND HEYGEN SCRIPT

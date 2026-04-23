@@ -4,6 +4,10 @@ date: 2026-01-31
 categories: ["Bounty Board"]
 tags: ["Bounty Board", "community", "notices", "events", "weekly", "January 2026"]
 description: "Community notices, events, and happenings across Guyana! Your one-stop bulletin board for what's going on!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Bounty Board is a community service feature. We share notices in good faith but cannot verify all listings. Always use caution and verify information independently.*

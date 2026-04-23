@@ -4,6 +4,10 @@ date: 2026-02-11
 categories: ["Daily Brief", "News"]
 tags: ["guyana", "corruption", "gas-to-energy", "budget-2026", "sugar", "nfl", "venezuela", "contractors"]
 summary: "Guyana crawls up ONE spot on the corruption index, 30 contractors get blacklisted, Ali tours Brazil's gas plant, sugar promises continue, and the Guyana flag at the Super Bowl has people HEATED."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 ## 🇬🇾 Good Morning, Guyana!

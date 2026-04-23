@@ -4,6 +4,9 @@ date: 2026-02-17
 categories: ["YouTube Scripts", "Video"]
 tags: ["Guyana", "YouTube", "news", "video scripts"]
 summary: "YouTube video scripts for Tuesday February 17 2026 covering Mohamed court drama, NCN cameraman gun incident, Hakeem Olajuwon condo launch, and Energy Conference opening."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ---

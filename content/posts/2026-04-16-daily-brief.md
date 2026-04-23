@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["building collapse", "CANU", "airfares", "oil refinery", "CARICOM", "Guyana news"]
 author: "GDB Staff"
 description: "A building falls down, CANU counts its money, airfares about to get worse, and Sir Ronald Sanders is done being polite about CARICOM."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning from Georgetown. It is Thursday, which is the day the week gets tired but refuses to admit it.

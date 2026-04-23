@@ -5,6 +5,9 @@ draft: false
 categories: ["YouTube", "Scripts"]
 tags: ["YouTube", "HeyGen", "Scripts", "Guyana", "News"]
 summary: "60-second and 4-minute HeyGen-ready scripts for Tuesday's Daily Brief covering budget debates, Speaker media lockout, and Ali in Belize."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 # 🎬 SCRIPT 1: 60-SECOND VERSION (HeyGen Quick Brief)

@@ -5,6 +5,10 @@ categories: ["Progress Report", "Weekly Feature"]
 tags: ["Progress Report", "Infrastructure", "Government Promises", "Cash Grant", "Roads"]
 author: "Progress Report"
 description: "The weekly tracker: what got done, what's still pending, and what was promised at some point that we're still waiting on."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 📋 **THE PROGRESS REPORT**  

@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Auntie Cheryl"]
 tags: ["Trinidad and Tobago", "Chaguanas", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Oh Godddd it's me Auntie Cheryl from Chaguanas coming to tell allyuh THE NEWS because I cannot hold it in another minute, my phone have 14 missed calls and 200 WhatsApp messages and people in de family is cryin' happy cryin' sad and cryin' confused ALL AT DE SAME TIME and I will explain EVERYTHING.

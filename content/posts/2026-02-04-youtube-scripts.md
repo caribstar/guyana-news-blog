@@ -4,6 +4,9 @@ date: 2026-02-04
 categories: ["YouTube Scripts", "Content"]
 tags: ["HeyGen", "YouTube", "scripts", "Budget-2026", "media-freedom", "T20-World-Cup", "Barbados-election"]
 summary: "60-second and 4-minute HeyGen-ready scripts for Wednesday February 4, 2026."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 # YOUTUBE SCRIPTS — WEDNESDAY, FEBRUARY 4, 2026

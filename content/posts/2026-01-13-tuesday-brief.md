@@ -4,6 +4,10 @@ date: 2026-01-13
 draft: false
 categories: ["News"]
 tags: ["Guyana", "Satire", "Parliament Drama", "Oil Production", "Census"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

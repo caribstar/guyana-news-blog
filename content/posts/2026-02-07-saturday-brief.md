@@ -4,6 +4,10 @@ date: 2026-02-07
 categories: ["Daily Brief", "News"]
 tags: ["Budget 2026", "Extradition", "Bayroc Stadium", "Small Miners", "Gas-to-Energy", "ICJ", "T20 World Cup", "GuySuCo"]
 summary: "Opposition Leader Mohamed delivers maiden budget speech and it's a SCORCHER, a secret US extradition request surfaces, Linden opens its shiny new stadium, Ali promises miners the moon (if they declare their gold), and the Windies take on Scotland in the T20 World Cup opener."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Critical satirical analysis of Guyana's news. For the pro-government perspective, see Uncle Ramesh's Take.*

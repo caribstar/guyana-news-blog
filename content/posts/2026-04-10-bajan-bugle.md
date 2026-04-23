@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["barbados", "caribbean", "sport", "carifta", "dengue", "regional"]
 author: "Bajan Bugle"
 description: "CARIFTA swim team returns, PAHO warns of dengue surge across the Caribbean, regional trade tensions with the US continue, and Barbados hosts the junior tennis circuit."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Bridgetown. Friday. The CARIFTA swimmers are home and the dengue numbers are not improving. Both things are true and one of them requires more urgency than it is receiving.

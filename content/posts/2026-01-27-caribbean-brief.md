@@ -4,6 +4,9 @@ date: 2026-01-27
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "regional", "IMF", "tourism", "Venezuela"]
 summary: "Jamaica secures $415M IMF emergency funds, Caribbean Airlines closes Barbados hub, US cracks down on birth tourism across the region, and Venezuela conflict ripples through Caribbean tourism."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the drama doesn't stop at one country.*

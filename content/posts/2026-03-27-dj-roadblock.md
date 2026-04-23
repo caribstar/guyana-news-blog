@@ -5,6 +5,10 @@ categories: ["Traffic Report"]
 tags: ["traffic", "Georgetown", "roads", "DJ-Roadblock", "weekend"]
 author: "DJ Roadblock"
 description: "DJ Roadblock is LIVE from the dashboard on a Friday afternoon. The government just claimed 22 streets, the potholes are now somebody else's problem, and Camp Street is a philosophical question."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Disclaimer: DJ Roadblock's Traffic Report is satirical commentary on Guyana's road infrastructure and general traffic situations. No specific individuals are referenced or targeted. This is entertainment about SYSTEMS and SITUATIONS, not people.*

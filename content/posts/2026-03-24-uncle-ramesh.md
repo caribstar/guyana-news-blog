@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh's Take: Cash In Hand, Oil On The Rise, And Some People Just Can't Accept A Good Thing"
 date: 2026-03-24
 categories: ["Uncle Ramesh", "Opinion", "Response"]
 tags: ["Cash Grant", "Exxon", "PPP", "Development", "Mohameds"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh from Toronto is very pleased with the cash grant, very confident in Exxon, and has some thoughts about people who pay court debts in wheelbarrows."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 🇬🇾 **UNCLE RAMESH'S TAKE** 🇬🇾  

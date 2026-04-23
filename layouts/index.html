@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{/*
-  THE TRADEWINDS BRIEF — HOMEPAGE
+  THE TRADEWINDS BRIEF â€” HOMEPAGE
   Architecture: Semafor-hybrid (per Handoff v3 Section 10)
   Chassis: Atlantic Navy #0B1F3A + Trade Gold #C9A96E
   Country accents: flag colors only on country-specific surfaces
@@ -398,15 +398,17 @@ section.ttb-section .brief-card h3 {
 <div class="ttb-page">
 
 {{/* ===== ZONE 1: HERO ===== */}}
+{{ partial "bighero.html" . }}
+
 <section class="ttb-hero">
   <div class="ttb-hero-inner">
-    <div class="eyebrow">The Tradewinds Brief · Daily</div>
+    <div class="eyebrow">The Tradewinds Brief Â· Daily</div>
     <h1>Diaspora-first reporting on Guyana, the Caribbean, <em>and Africa.</em></h1>
     <p class="subhead">The news, the satire, and the serious coverage these communities deserve. Free, daily.</p>
     <div class="cta-row">
-      <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free →</a>
+      <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free â†’</a>
     </div>
-    <div class="frequency">Daily — 5 min read — free</div>
+    <div class="frequency">Daily â€” 5 min read â€” free</div>
   </div>
 </section>
 
@@ -419,14 +421,14 @@ section.ttb-section .brief-card h3 {
 <section class="ttb-section">
   <div class="ttb-section-head">
     <h2>The Trade</h2>
-    <div class="meta"><a href="/the-trade/">All essays →</a></div>
+    <div class="meta"><a href="/the-trade/">All essays â†’</a></div>
   </div>
   <article class="trade-featured">
     <div class="label">Featured Essay</div>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ with .Params.subtitle }}<div class="dek">{{ . }}</div>{{ end }}
-    <div class="byline">By {{ .Params.author | default "The Tradewinds Brief" }} · {{ .ReadingTime }} min read</div>
-    <a href="{{ .RelPermalink }}" class="read-link">Read the essay →</a>
+    <div class="byline">By {{ .Params.author | default "The Tradewinds Brief" }} Â· {{ .ReadingTime }} min read</div>
+    <a href="{{ .RelPermalink }}" class="read-link">Read the essay â†’</a>
   </article>
 </section>
 {{ end }}
@@ -435,7 +437,7 @@ section.ttb-section .brief-card h3 {
 {{/* ===== ZONE 3: GUYANA DUELING PAIR ===== */}}
 <section class="ttb-section">
   <div class="ttb-section-head">
-    <h2>Guyana — Today's Dueling Voices</h2>
+    <h2>Guyana â€” Today's Dueling Voices</h2>
     <div class="meta">{{ now.Format "Monday, January 2" }}</div>
   </div>
   <div class="dueling-grid">
@@ -453,7 +455,7 @@ section.ttb-section .brief-card h3 {
         <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         <p class="summary">{{ .Summary | plainify | truncate 180 }}</p>
-        <a href="{{ .RelPermalink }}" class="read-btn">Read Winston's view →</a>
+        <a href="{{ .RelPermalink }}" class="read-btn">Read Winston's view â†’</a>
         {{ else }}
         <p class="summary">Today's piece coming soon.</p>
         {{ end }}
@@ -473,7 +475,7 @@ section.ttb-section .brief-card h3 {
         <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         <p class="summary">{{ .Summary | plainify | truncate 180 }}</p>
-        <a href="{{ .RelPermalink }}" class="read-btn">Read Ramesh's view →</a>
+        <a href="{{ .RelPermalink }}" class="read-btn">Read Ramesh's view â†’</a>
         {{ else }}
         <p class="summary">Today's piece coming soon.</p>
         {{ end }}
@@ -483,248 +485,11 @@ section.ttb-section .brief-card h3 {
   </div>
 </section>
 
-{{/* ===== ZONE 4: BRIEFS ROW ===== */}}
-<section class="ttb-section">
-  <div class="ttb-section-head">
-    <h2>The Briefs</h2>
-    <div class="meta">Serious country reporting</div>
-  </div>
-  <div class="briefs-grid">
+{{/* ===== ZONE 4 (The Briefs) and ZONE 5 (Dueling Voices) REMOVED =====
+     Country-network satire no longer surfaces on homepage.
+     Access country satire via /guyana/, /jamaica/, /trinidad/, etc.
+     This is the homepage firewall per canon architecture. */}}
 
-    {{/* Jamaica */}}
-    {{ $jmAll := where .Site.RegularPages "Params.categories" "intersect" (slice "Jamaica Brief") }}
-    {{ $jmSatirists := slice "Yard Report" "Cousin Leroy" "The Yard Report" "Cousin Leroy" }}
-    {{ $jmPosts := where $jmAll "Params.author" "not in" $jmSatirists }}
-    {{ with index (sort $jmPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag jm"></div>
-      <div class="card-body">
-        <div class="country-label">Jamaica Brief</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ else }}
-    <article class="brief-card">
-      <div class="card-flag jm"></div>
-      <div class="card-body">
-        <div class="country-label">Jamaica Brief</div>
-        <p class="summary" style="font-style: italic; color: #888;">First Jamaica brief coming soon.</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Trinidad */}}
-    {{ $ttAll := where .Site.RegularPages "Params.categories" "intersect" (slice "Trini Brief") }}
-    {{ $ttSatirists := slice "Trini Dispatch" "Auntie Cheryl" "The Trini Dispatch" "Auntie Cheryl" }}
-    {{ $ttPosts := where $ttAll "Params.author" "not in" $ttSatirists }}
-    {{ with index (sort $ttPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag tt"></div>
-      <div class="card-body">
-        <div class="country-label">Trinidad Brief</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ else }}
-    <article class="brief-card">
-      <div class="card-flag tt"></div>
-      <div class="card-body">
-        <div class="country-label">Trinidad Brief</div>
-        <p class="summary" style="font-style: italic; color: #888;">First Trinidad brief coming soon.</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Barbados */}}
-    {{ $bbAll := where .Site.RegularPages "Params.categories" "intersect" (slice "Bajan Brief") }}
-    {{ $bbSatirists := slice "Bajan Bugle" "Miss Violet" "The Bajan Bugle" "Miss Violet" }}
-    {{ $bbPosts := where $bbAll "Params.author" "not in" $bbSatirists }}
-    {{ with index (sort $bbPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag bb"></div>
-      <div class="card-body">
-        <div class="country-label">Barbados Brief</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ else }}
-    <article class="brief-card">
-      <div class="card-flag bb"></div>
-      <div class="card-body">
-        <div class="country-label">Barbados Brief</div>
-        <p class="summary" style="font-style: italic; color: #888;">First Barbados brief coming soon.</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Ghana - Accra Almanac */}}
-    {{ $ghPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Ghana Brief") }}
-    {{ with index (sort $ghPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag gh"></div>
-      <div class="card-body">
-        <div class="country-label">Accra Almanac</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Kenya - Nairobi Dispatch */}}
-    {{ $kePosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Kenya Brief") }}
-    {{ with index (sort $kePosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag ke"></div>
-      <div class="card-body">
-        <div class="country-label">Nairobi Dispatch</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Nigeria - Naija Lookbook */}}
-    {{ $ngPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Nigeria Brief") }}
-    {{ with index (sort $ngPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag ng"></div>
-      <div class="card-body">
-        <div class="country-label">Naija Lookbook</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* South Africa - Cape Chronicles */}}
-    {{ $zaPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "South Africa Brief") }}
-    {{ with index (sort $zaPosts "Date" "desc") 0 }}
-    <article class="brief-card">
-      <div class="card-flag za"></div>
-      <div class="card-body">
-        <div class="country-label">Cape Chronicles</div>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <div class="post-date">{{ .Date.Format "Jan 2" }}</div>
-        <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
-      </div>
-    </article>
-    {{ end }}
-
-  </div>
-</section>
-
-{{/* ===== ZONE 5: CARIBBEAN DUELING PAIRS ===== */}}
-<section class="ttb-section">
-  <div class="ttb-section-head">
-    <h2>Caribbean Dueling Voices</h2>
-    <div class="meta">Same news. Different eyes.</div>
-  </div>
-  <div class="caribbean-pairs">
-
-    {{/* Jamaica */}}
-    {{ $yardReport := where .Site.RegularPages "Params.author" "Yard Report" }}
-    {{ $cousinLeroy := where .Site.RegularPages "Params.author" "Cousin Leroy" }}
-    {{ if or (gt (len $yardReport) 0) (gt (len $cousinLeroy) 0) }}
-    <article class="caribbean-pair jm">
-      <div class="pair-flag"></div>
-      <div class="pair-head">
-        <div class="country-name">Jamaica</div>
-        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
-      </div>
-      <div class="pair-grid">
-        <div class="pair-side">
-          <div class="voice-byline">Yard Report</div>
-          {{ with index (sort $yardReport "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-        <div class="pair-side">
-          <div class="voice-byline">Cousin Leroy</div>
-          {{ with index (sort $cousinLeroy "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Trinidad */}}
-    {{ $triniDispatch := where .Site.RegularPages "Params.author" "Trini Dispatch" }}
-    {{ $auntieCheryl := where .Site.RegularPages "Params.author" "Auntie Cheryl" }}
-    {{ if or (gt (len $triniDispatch) 0) (gt (len $auntieCheryl) 0) }}
-    <article class="caribbean-pair tt">
-      <div class="pair-flag"></div>
-      <div class="pair-head">
-        <div class="country-name">Trinidad &amp; Tobago</div>
-        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
-      </div>
-      <div class="pair-grid">
-        <div class="pair-side">
-          <div class="voice-byline">Trini Dispatch</div>
-          {{ with index (sort $triniDispatch "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-        <div class="pair-side">
-          <div class="voice-byline">Auntie Cheryl</div>
-          {{ with index (sort $auntieCheryl "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-      </div>
-    </article>
-    {{ end }}
-
-    {{/* Barbados */}}
-    {{ $bajanBugle := where .Site.RegularPages "Params.author" "Bajan Bugle" }}
-    {{ $missViolet := where .Site.RegularPages "Params.author" "Miss Violet" }}
-    {{ if or (gt (len $bajanBugle) 0) (gt (len $missViolet) 0) }}
-    <article class="caribbean-pair bb">
-      <div class="pair-flag"></div>
-      <div class="pair-head">
-        <div class="country-name">Barbados</div>
-        <div class="pair-meta">{{ now.Format "Jan 2" }}</div>
-      </div>
-      <div class="pair-grid">
-        <div class="pair-side">
-          <div class="voice-byline">Bajan Bugle</div>
-          {{ with index (sort $bajanBugle "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-        <div class="pair-side">
-          <div class="voice-byline">Miss Violet</div>
-          {{ with index (sort $missViolet "Date" "desc") 0 }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="summary">{{ .Summary | plainify | truncate 130 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}<p class="summary"><em>Today's piece coming soon.</em></p>{{ end }}
-        </div>
-      </div>
-    </article>
-    {{ end }}
-
-  </div>
-</section>
 
 {{/* ===== ZONE 6: SECONDARY GUYANA FRANCHISES ===== */}}
 <section class="ttb-section">
@@ -738,8 +503,8 @@ section.ttb-section .brief-card h3 {
     <article class="franchise-card">
       <div class="franchise-flag" style="background: var(--gy-red);"></div>
       <div class="franchise-body">
-        <div class="franchise-label">Bam-Bam Sally · Rumor Mill</div>
-        {{ $rumorMill := where .Site.RegularPages "Params.categories" "intersect" (slice "The Rumor Mill") }}
+        <div class="franchise-label">Bam-Bam Sally Â· Rumor Mill</div>
+        {{ $rumorMill := where .Site.RegularPages "Params.categories" "intersect" (slice "The Rumor Mill" "The Rumour Mill" "Rumor Mill" "Rumour Mill") }}
         {{ with index (sort $rumorMill "Date" "desc") 0 }}
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         <p class="summary">{{ .Summary | plainify | truncate 110 }}</p>
@@ -818,13 +583,15 @@ section.ttb-section .brief-card h3 {
 </div> {{/* close .ttb-shell */}}
 
 {{/* ===== ZONE 7: FOOTER SIGNUP ===== */}}
+{{ partial "homepage-extensions.html" . }}
+
 <section class="footer-signup">
   <div class="footer-signup-inner">
     <div class="label">Don't miss tomorrow's brief</div>
     <h2>Get The Tradewinds Brief in your inbox.</h2>
     <p class="pitch">Daily reporting, satire, and serious coverage from Guyana, the Caribbean, and Africa. Free, every morning.</p>
-    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free →</a>
-    <div class="frequency">Daily — 5 min read — unsubscribe anytime</div>
+    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free â†’</a>
+    <div class="frequency">Daily â€” 5 min read â€” unsubscribe anytime</div>
   </div>
 </section>
 

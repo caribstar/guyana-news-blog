@@ -5,6 +5,10 @@ categories: ["Patriots Portfolio"]
 tags: ["patriots portfolio", "guyana", "economy", "oil", "tariffs", "investment", "exxon", "wales gas plant"]
 author: "GDB Staff"
 description: "This week's Patriots Portfolio — what the 38% Trump tariff means for Guyana's economy, the Wales Gas Plant arbitration fallout, Exxon's Canje exit, and what patriotic investors need to watch."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Patriots Portfolio — for Guyanese who care where the money goes and where it comes from. Every Friday.*

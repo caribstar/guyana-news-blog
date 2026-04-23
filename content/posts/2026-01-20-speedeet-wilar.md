@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Speedeet & Wilar: De Hospital Cat Hunt"
 date: 2026-01-20
 categories: ["Speedeet & Wilar", "Youth Stories"]
 tags: ["friendship", "adventure", "Guyanese-culture", "youth", "hospital", "GNS"]
 summary: "Speedeet brother Derek get bite by carpet labaria at Tumatumari and end up in Georgetown Hospital. But while de family visiting, Speedeet and Wilar find a different kind of adventure in de hospital compound."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, join two 12-year-old friends from Pike Street, Kitty as they navigate life in Guyana.*

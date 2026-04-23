@@ -8,6 +8,10 @@ cover:
   image: "images/dj-roadblock-cover.jpg"
   alt: "DJ Roadblock Cover"
   hidden: true
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *MASSIVE FRIDAYS with DJ Roadblock! Your traffic and vibes connection!* 🎧🚗

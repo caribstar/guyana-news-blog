@@ -4,6 +4,10 @@ date: 2026-01-30
 categories: ["Patriots Portfolio", "Business"]
 tags: ["investment", "Guyana", "economy", "business"]
 description: "Your weekly guide to understanding Guyana's economic developments and investment landscape."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Investing in Guyana's Future - For Patriots Who Want to Participate in the Boom* 🇬🇾📈

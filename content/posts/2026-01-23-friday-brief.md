@@ -8,6 +8,10 @@ cover:
   image: "images/daily-brief-cover.jpg"
   alt: "Daily Brief Cover"
   hidden: true
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% more diplomatic non-answers* 🇬🇾

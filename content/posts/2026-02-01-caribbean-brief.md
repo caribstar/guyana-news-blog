@@ -4,6 +4,9 @@ date: 2026-02-01
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Jamaica", "Trinidad", "Barbados", "CARICOM", "US-visa", "IMF", "Venezuela"]
 summary: "Jamaica secures emergency IMF cash after Hurricane Melissa, the US cracks down on Caribbean birth tourism visas, and Trinidad keeps insisting it had nothing to do with the Venezuela operation. Your regional roundup."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your satirical summary of what's happening across the Caribbean. Because Guyana isn't the only place where the news is stranger than fiction.* 🌴

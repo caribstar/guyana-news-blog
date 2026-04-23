@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh Take – Wednesday, January 29, 2026"
 date: 2026-01-29
 categories: ["Uncle Ramesh", "Commentary"]
 tags: ["Guyana", "Pro-Government", "Diaspora", "Budget 2026"]
 author: "Uncle Ramesh"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *A Pro-Government Perspective from Queens, NY* 🗽🇬🇾

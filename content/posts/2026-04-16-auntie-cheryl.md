@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["CARICOM", "Kamla", "housing", "Carnival", "Trinidad"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl is fully supportive of Kamla's comments about CARICOM and has been saying this for years, if anyone had been listening."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning my loves! Auntie Cheryl woke up this morning, read the news, and felt what can only be described as *vindicated*.

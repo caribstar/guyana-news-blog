@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["DJ Roadblock"]
 tags: ["dj-roadblock", "satire", "humor", "guyana", "fiction"]
 description: "DJ Roadblock recaps the week from the booth. Oil at $100, the Mohameds lose again, and de roads still not fix."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *DJ Roadblock broadcasting live from de booth. All gossip fictional. All vibes very real.*

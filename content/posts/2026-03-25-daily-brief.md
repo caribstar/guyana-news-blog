@@ -5,6 +5,10 @@ categories: ["Daily Brief", "News"]
 tags: ["Kristi Noem", "Exxon", "Mohameds", "CCJ", "World Bank", "CARICOM", "Cash Grant"]
 author: "Daily Brief"
 description: "A fired US official arrives as a Special Envoy, Exxon wants two more oil projects, and the World Bank says Guyana's reform programme has been quietly gutted. Wednesday's 5-minute news circus."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 🇬🇾 **THE GUYANA BRIEF** 🇬🇾  
 *Your 5-Minute Wednesday News Circus*  

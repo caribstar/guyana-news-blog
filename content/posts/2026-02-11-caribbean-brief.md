@@ -4,6 +4,9 @@ date: 2026-02-11
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["barbados", "election", "cuba", "jamaica", "trinidad", "carnival", "caribbean"]
 summary: "Barbados goes to the polls as Mottley seeks historic third term, Cuba adopts emergency 4-day work week over fuel crisis, Jamaica rattled by 5.0 earthquake, and Trinidad Carnival is days away."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 ## 🌴 Good Morning, Caribbean!

@@ -4,6 +4,9 @@ date: 2026-02-16
 draft: false
 categories: ["YouTube", "Scripts"]
 tags: ["YouTube", "HeyGen", "Video Scripts"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-SECOND SCRIPT — Monday Headlines

@@ -5,6 +5,10 @@ draft: false
 categories: ["Daily Brief"]
 authors: ["The Guyana Daily Brief"]
 tags: ["daily brief", "news roundup", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 **Morning, Guyana.** Saturday, April 18. The workweek is technically over but traffic doesn't know that. Here's what happened while you were sleeping in — or, more realistically, while somebody's car alarm was going off at 5:47 AM for the third consecutive morning.

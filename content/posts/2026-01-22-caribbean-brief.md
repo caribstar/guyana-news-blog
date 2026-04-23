@@ -4,6 +4,9 @@ date: 2026-01-22
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados", "Trinidad", "Jamaica", "elections", "hurricane", "CARICOM"]
 summary: "Mottley calls Barbados elections for February 11, Trinidad's new PM Kamla Persad-Bissessar navigates US-Venezuela tensions, Jamaica secures IMF emergency funding for Hurricane Melissa recovery, and Caribbean Airlines restructures its regional operations."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your Caribbean roundup — because the drama doesn't stop at Guyana's borders* 🌴

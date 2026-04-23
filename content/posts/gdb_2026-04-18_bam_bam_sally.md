@@ -5,6 +5,10 @@ draft: false
 categories: ["Bam-Bam Sally"]
 authors: ["Bam-Bam Sally"]
 tags: ["gossip", "Saturday", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Hello doux-doux darlings it's your girl Bam-Bam Sally coming to you LIVE from the Bourda Market parking lot where I've been collecting information since 5:47 AM and let me tell you — it has been a SEASON already and the sun is not even fully up.

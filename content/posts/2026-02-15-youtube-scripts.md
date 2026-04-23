@@ -4,6 +4,9 @@ date: 2026-02-15
 draft: false
 categories: ["YouTube", "Scripts"]
 tags: ["YouTube", "HeyGen", "Video Scripts"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-SECOND SCRIPT — Sunday Headlines

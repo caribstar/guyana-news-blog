@@ -5,6 +5,10 @@ categories: ["Patriots Portfolio"]
 tags: ["oil", "economy", "ExxonMobil", "business", "Georgetown", "investment"]
 author: "GDB Desk"
 description: "This week: Exxon starts building Oil Ship No. 8 without government approval, the government takes 22 Georgetown streets, and Guyana keeps printing economic records. The Patriots Portfolio tracks the business of Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 📊 **PATRIOTS PORTFOLIO**

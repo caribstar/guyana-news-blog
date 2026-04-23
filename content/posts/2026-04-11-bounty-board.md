@@ -5,6 +5,10 @@ categories: ["Bounty Board"]
 tags: ["guyana", "satire", "humor", "wanted", "accountability", "fiction"]
 author: "GDB Staff"
 description: "This week's Bounty Board: fictional wanted notices for Guyana's most persistent national irritants — potholes, missing files, the Kitty roundabout, and the driver's licence scam."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *⚠️ The Bounty Board is satirical fiction. All 'wanted notices' target fictional situations, systems, and concepts — never real individuals. Published every Saturday.*

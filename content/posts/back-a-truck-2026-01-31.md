@@ -4,6 +4,10 @@ date: 2026-01-31
 categories: ["Back-a-Truck"]
 tags: ["Back-a-Truck", "classifieds", "community", "satire", "weekly", "January 2026"]
 description: "De people's marketplace! Fictional buy, sell, trade, and barter from all corners of Guyana. Back-a-truck and come see wha we got!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *⚠️ DISCLAIMER: Back-a-Truck is a FICTIONAL satirical classifieds column. ALL listings, persons, and scenarios are COMPLETELY MADE UP for entertainment purposes. No real persons, businesses, or products are referenced. Do NOT attempt to contact any "sellers" listed here — they don't exist! FOR ENTERTAINMENT ONLY.*

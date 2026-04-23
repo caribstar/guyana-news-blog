@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["guyana", "politics", "economy", "oil", "crime", "infrastructure"]
 author: "GDB Staff"
 description: "Oil revenues surge past $159B in Q1, Ali eyes Gulf storage deals, police graduate 101 new recruits, and the digital traffic registry is coming whether you want it or not."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana. It is Friday. The money is flowing, the roads are still chaotic, and the government has a new plan involving a database. Sit down.

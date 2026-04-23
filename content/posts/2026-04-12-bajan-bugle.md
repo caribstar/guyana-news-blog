@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "prison reform", "gastrointestinal illness", "farm labour", "rising costs", "Barbados news"]
 author: "Bajan Bugle"
 description: "Barbados hosted a regional prison reform workshop, gastrointestinal cases are up, Canadian employers want Barbadians they already know, and rising costs have employers worried."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning from Barbados. The sun is doing what it always does. The news is doing what it usually does. Let us proceed.

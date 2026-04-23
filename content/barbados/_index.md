@@ -1,17 +1,11 @@
 ---
 title: "Barbados"
-subtitle: "Reporting and dueling commentary from across the island."
-type: "country-hub"
-layout: "country-hub"
-country_key: "barbados"
-region: "Caribbean"
-brief_category: "Bajan Brief"
-brief_section_name: "Today's Barbados Brief"
-voice_a: "Bajan Bugle"
-voice_a_label: "Raised-Eyebrow Dry"
-voice_b: "Miss Violet"
-voice_b_label: "Civic Teacher"
-archive_categories:
-  - "Bajan Brief"
-description: "Daily Barbados reporting from The Tradewinds Brief — serious coverage paired with dueling satirical commentary."
+description: "Daily diaspora reporting on Barbados. Bridgetown, London, Toronto. Clarity, not noise."
+url: "/barbados/"
+country_slug: "barbados"
+country_name: "Barbados"
+country_tagline: "Bridgetown. London. Toronto. One considered brief, daily."
+categories_filter: ["Bajan Brief"]
 ---
+
+Barbados coverage from The Tradewinds Brief. Calm. Considered. Institutional where the country is institutional. Sharp where sharp serves. No hype.

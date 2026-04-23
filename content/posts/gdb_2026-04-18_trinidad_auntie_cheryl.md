@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Auntie Cheryl"]
 tags: ["Trinidad and Tobago", "Chaguanas", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Allyuh!!! It me, Auntie Cheryl, and I wake up dis Saturday mornin' with SO MUCH to tell yuh. De phone been ringin' since 6AM, me sister in Diego Martin send me TEN voice notes, and me niece in Arima tell me to check de Guardian. Sit sit sit. Make tea. Let me unload.

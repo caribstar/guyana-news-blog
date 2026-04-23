@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["guyana", "news", "daily brief", "tariffs", "trump", "exxon", "wales gas plant", "tint", "BOSAI", "good friday"]
 author: "GDB Staff"
 description: "Your Good Friday morning roundup — Guyana hit with a 38% Trump tariff, government secretly paid US$82M to gas plant contractor, fake tint waiver medical certificates discovered, BOSAI fires the worker who won a pay raise, and Exxon exits the Canje Block."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Friday, April 3, 2026 — Good Friday. Things are getting crucified out there.*

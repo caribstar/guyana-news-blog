@@ -1,7 +1,11 @@
-﻿---
+---
 title: "Saturday's Guyana Brief: Weekend News Circus"
 date: 2026-01-10
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Government Promises", "Tourism Troubles"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
@@ -87,8 +91,8 @@ A contractor working on Sheriff Street almost touched a 69,000-volt power line w
 <div style="background: #E7F3FF; padding: 20px; margin: 20px 0; border-radius: 8px;">
 <p style="text-align: center; margin: 0;"><strong>NSTRUCTION WORKS:</strong></p>
 <hr style="margin: 15px 0;">
-<p><strong>Elsewhere:</strong> Plan â†’ Survey site â†’ Identify hazards â†’ Implement safety â†’ Execute</p>
-<p><strong>In Guyana:</strong> Plan (maybe) â†’ Start work â†’ Almost cause disaster â†’ Act surprised â†’ Blame someone else</p>
+<p><strong>Elsewhere:</strong> Plan → Survey site → Identify hazards → Implement safety → Execute</p>
+<p><strong>In Guyana:</strong> Plan (maybe) → Start work → Almost cause disaster → Act surprised → Blame someone else</p>
 </div>
 
 **The Questions Nobody's Asking:**

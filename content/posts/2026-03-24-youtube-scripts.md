@@ -5,6 +5,9 @@ categories: ["YouTube Scripts", "Video Content"]
 tags: ["HeyGen", "Scripts", "Mohameds", "Exxon", "Cash Grant"]
 author: "Daily Brief"
 description: "Two HeyGen-ready YouTube scripts for Tuesday March 24, 2026 — 60-second quick brief and 4-minute full episode."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 # YOUTUBE SCRIPTS — TUESDAY, MARCH 24, 2026

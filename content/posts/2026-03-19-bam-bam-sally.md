@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["Bam-Bam Sally"]
 tags: ["bam-bam-sally", "satire", "fiction", "humor", "community"]
 description: "Bam-Bam Sally has opinions on this week's events. She always does. All names fictional."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Bam-Bam Sally is a fictional neighbourhood auntie. Her opinions are her own. All gossip is fictional.*

@@ -1,8 +1,12 @@
-﻿---
+---
 title: "THE GUYANA BRIEF: Thursday's Guyana News Circus"
 date: 2026-01-08T10:47:33-05:00
 draft: false
 tags: ["guyana", "satire", "Venezuela Drama", "The Mohameds Saga", "Infrastructure Fails"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 10px; margin-bottom: 30px;">
@@ -24,7 +28,7 @@ Guyana's Official Response: Diplomatically Thrilled
 
 Y'all, the Americans just Uber-kidnapped an entire president. Not even DoorDash is that efficient.
 
-**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Operation resulted in NicolÃ¡s Maduro getting the express trip to New York he DEFINITELY didn't book on Travelocity.
+**What Happened:** Trump sent the boys to Venezuela like it was a Black Friday sale at Courts. Operation resulted in Nicolás Maduro getting the express trip to New York he DEFINITELY didn't book on Travelocity.
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 8px; border: 2px dashed #6c757d;">
 <p style="text-align: center; font-size: 20px; margin: 0;"><strong>HE PAPERS SAID:</strong></p>
@@ -63,7 +67,7 @@ This father-son duo is having the kind of week that makes you reconsider all you
 <div style="background: #fff; border: 3px solid #000; padding: 15px; margin: 20px 0; font-family: 'Courier New', monospace; text-align: center;">
 <p style="font-size: 14px; margin: 0; text-transform: uppercase;">BREAKING NEWS TICKER</p>
 <hr style="border-top: 2px solid #000; margin: 10px 0;">
-<p style="font-size: 18px; margin: 0;">says NO â†’ Lawyers say APPEAL â†’ Repeat Loop #4 
+<p style="font-size: 18px; margin: 0;">says NO → Lawyers say APPEAL → Repeat Loop #4 
 </div>
 
 **Their Lawyers Said:** "We are confident this case will be dismissed."  
@@ -101,8 +105,8 @@ This father-son duo is having the kind of week that makes you reconsider all you
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-left: 5px solid #28a745;">
 <p style="margin: 0 0 10px 0;"><strong>FRASTRUCTURE WORKS:</strong></p>
-<p><strong>Elsewhere:</strong> Plan â†’ Build â†’ Maintain â†’ Use for decades âœ“</p>
-<p><strong>In Guyana:</strong> Plan (maybe) â†’ Build â†’ Celebrate â†’ Break â†’ Act surprised â†’ Announce solutions â†’ Repeat 
+<p><strong>Elsewhere:</strong> Plan → Build → Maintain → Use for decades âœ“</p>
+<p><strong>In Guyana:</strong> Plan (maybe) → Build → Celebrate → Break → Act surprised → Announce solutions → Repeat 
 </div>
 
 **This is like:**
@@ -129,7 +133,7 @@ This father-son duo is having the kind of week that makes you reconsider all you
 <li>âœ“ Internet didn't crash</li>
 <li>âœ“ Teachers troubleshot for 45 minutes</li>
 <li>âœ“ Taught for 10 minutes</li>
-<li>â†’ <strong>ACHIEVEMENT UNLOCKED!</strong></li>
+<li>→ <strong>ACHIEVEMENT UNLOCKED!</strong></li>
 </ul>
 </div>
 

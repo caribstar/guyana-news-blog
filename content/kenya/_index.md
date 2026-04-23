@@ -1,13 +1,11 @@
 ---
 title: "Kenya"
-subtitle: "The Nairobi Dispatch — weekly political analysis from East Africa."
-type: "country-hub"
-layout: "country-hub"
-country_key: "kenya"
-region: "Africa"
-brief_category: "Kenya Brief"
-brief_section_name: "The Nairobi Dispatch"
-archive_categories:
-  - "Kenya Brief"
-description: "Weekly political analysis on Kenya from The Tradewinds Brief — The Nairobi Dispatch."
+description: "Daily diaspora reporting on Kenya. Nairobi, Mombasa, London, Gulf. Cost of living, politics, tech, athletics, regional role."
+url: "/kenya/"
+country_slug: "kenya"
+country_name: "Kenya"
+country_tagline: "Nairobi. Mombasa. London. Gulf. Daily."
+categories_filter: ["Kenya Brief", "Nairobi Dispatch"]
 ---
+
+Kenya coverage from The Tradewinds Brief. Fast. Practical. Nationally literate. Fuel, shilling, politics, athletics, the mobile-money economy, and the diaspora the presidency already speaks to directly.

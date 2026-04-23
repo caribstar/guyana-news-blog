@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Regional News"]
 tags: ["Jamaica", "Trinidad", "Barbados", "Sandals", "Hurricane Melissa", "AIDS", "CCJ", "Iran"]
 author: "Caribbean Brief"
 description: "Tuesday's regional roundup: Jamaica's budget fight, Trinidad's US persons-of-interest list, Sandals drops $200M, and Caribbean AIDS deaths fall 60%."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 🌴 **THE CARIBBEAN DAILY BRIEF** 🌴  

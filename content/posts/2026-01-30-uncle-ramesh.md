@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh Responds: GRA Doing Its Job, RUSAL Means JOBS, and Christopher Ram Needs to Relax"
 date: 2026-01-30
 categories: ["Uncle Ramesh", "Commentary"]
 tags: ["GRA", "RUSAL", "Budget 2026", "Housing", "Development"]
 description: "Uncle Ramesh from Queens explains why GRA firing corrupt officers is GOOD news, RUSAL returning means JOBS for Linden, and Christopher Ram should let the government cook."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *A Pro-Government Perspective from Queens, NY* 🗽🇬🇾

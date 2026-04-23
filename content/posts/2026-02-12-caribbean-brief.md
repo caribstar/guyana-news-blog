@@ -6,6 +6,9 @@ tags: ["caribbean-brief", "regional"]
 categories: ["Caribbean Brief"]
 author: "The Guyana Daily Brief"
 description: "Barbados goes to the polls in snap elections, Trinidad positions itself as energy gold standard, and Cuba's fuel crisis means airlines can't even refuel on the island."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 ## Barbados: Election Day

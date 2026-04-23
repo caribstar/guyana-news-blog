@@ -5,6 +5,10 @@ draft: false
 categories: ["Uncle Ramesh"]
 authors: ["Uncle Ramesh"]
 tags: ["uncle ramesh", "commentary", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning to all my loyal readers. Uncle Ramesh here, with the news as it actually stands, not as the doomsayers will have you believe.

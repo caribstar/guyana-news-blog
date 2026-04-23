@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["ASL crash", "oil revenue", "T&T partnership", "EXIM Bank", "Suriname bridge", "Guyana news"]
 author: "GDB Staff"
 description: "Plane down in Region 8, US$761M oil quarter, Ali tells T&T to lock themselves in a room for 72 hours, and the Gas-to-Energy project delays again."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning from Georgetown. Here's what you missed while you were sleeping off Easter.

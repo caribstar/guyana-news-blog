@@ -4,6 +4,10 @@ date: 2026-02-02
 categories: ["Speedeet & Wilar", "Youth Stories"]
 tags: ["friendship", "adventure", "Guyanese-culture", "youth", "Pike-Street", "mango"]
 summary: "Everybody on Pike Street know dat de BEST julie mango tree belong to Miss Doreen. Everybody also know dat Miss Doreen does guard dem mango like gold. So when Speedeet come up wid a plan to 'liberate' some mango... well, yuh know how DIS gon end."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, join two 12-year-old friends from Pike Street, Kitty as they navigate life in Guyana.*

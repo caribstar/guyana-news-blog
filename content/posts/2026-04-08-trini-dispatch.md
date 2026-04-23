@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Trinidad"]
 tags: ["Trinidad", "Tobago", "Kamla", "Venezuela", "gas", "CARICOM", "Patrice Roberts"]
 author: "Trini Dispatch"
 description: "PM Kamla sending a delegation to Venezuela to get T&T's gas back. Patrice Roberts ordered to pay. CARICOM drama continues. Dry sardonic Port of Spain perspective."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning from Port of Spain, where the Prime Minister has announced she is sending a delegation to Venezuela to collect oil and gas money that T&T partly owns. This is the geopolitical equivalent of going to your neighbour's house to politely retrieve the lawnmower you lent him three governments ago. Good luck to the delegation.

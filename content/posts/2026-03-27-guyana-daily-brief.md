@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["politics", "oil", "Georgetown", "labour", "crime", "security"]
 author: "GDB Desk"
 description: "Government grabs 22 Georgetown streets, Exxon builds an 8th oil ship without approval, and Kristi Noem visits State House. Plus: a rubber duck, a stolen $7M, and Uncle Ramesh has thoughts."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your five-minute briefing on everything happening in the Land of Many Waters. Served fresh, slightly spicy, and completely unsponsored.*

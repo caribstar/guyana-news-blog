@@ -4,6 +4,9 @@ date: 2026-02-08
 categories: ["Caribbean Brief"]
 tags: ["Venezuela","Jamaica","Trinidad","Caribbean","US Military","IMF","Cricket","Tourism"]
 description: "The US is blowing up boats in the Caribbean, Jamaica needs emergency cash after Hurricane Melissa, Trinidad says everything is normal (it's not), and the T20 World Cup has kicked off."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 🌴 **Good Morning, Caribbean!** Here's your regional roundup for Sunday, February 8, 2026.

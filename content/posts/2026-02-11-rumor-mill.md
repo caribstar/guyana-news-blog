@@ -1,9 +1,13 @@
 ---
 title: "🗣️ Bam-Bam Sally's Rumor Mill: Super Bowl Flag, Pump Station Drama, and Who Blacklisted Who"
 date: 2026-02-11
-categories: ["Rumor Mill", "Bam-Bam Sally"]
+categories: ["The Rumour Mill", "Bam-Bam Sally"]
 tags: ["gossip", "satire", "humor", "guyanese-culture", "rumor-mill"]
 summary: "Bam-Bam Sally heard that somebody in the diaspora paid Bad Bunny to wave the Guyana flag, a certain pump station contractor is hiding from the Minister, and the blacklist is longer than 30 names."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *⚠️ DISCLAIMER: Bam-Bam Sally's Rumor Mill is ENTIRELY FICTIONAL satire. All characters, rumors, and scenarios are made up for entertainment purposes. No real individuals are referenced. Any resemblance to actual persons or events is purely coincidental. This is comedy, not journalism.*

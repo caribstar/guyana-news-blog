@@ -5,6 +5,9 @@ categories: ["YouTube Scripts"]
 tags: ["youtube", "heygen", "video", "scripts"]
 summary: "60-second and 4-minute HeyGen scripts covering corruption index, blacklisted contractors, Gas-to-Energy, and Barbados election."
 draft: true
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 🎬 60-SECOND SCRIPT (HeyGen Quick Brief)

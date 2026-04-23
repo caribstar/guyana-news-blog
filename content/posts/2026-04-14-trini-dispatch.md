@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["CARICOM", "Kamla", "Trinidad", "secretary general", "Barnett", "Iran blockade", "fuel", "crime"]
 author: "Trini Dispatch"
 description: "Trinidad skipped the CARICOM emergency meeting it demanded, crime is 45% up, and the Prime Minister is still in a one-woman war with the entire Caribbean. Tuesday's dispatch."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning from Port of Spain, where the Prime Minister is fighting CARICOM, the crime statistics are fighting everyone, and the fuel situation is a global problem that is somehow arriving at our doorstep at the usual island speed.

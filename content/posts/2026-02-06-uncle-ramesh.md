@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh's Take: The President Standing Strong While They Nitpick Everything"
 date: 2026-02-06
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Guyana", "Pro-Government", "Diaspora", "Budget 2026", "Venezuela", "GDF"]
 summary: "Uncle Ramesh from Queens breaks down why President Ali's GDF speech was exactly what Guyana needed, the budget debate critics have no alternative plan, tourism is booming, and the opposition should stop complaining and start contributing."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 🇬🇾 **UNCLE RAMESH'S TAKE** 🇬🇾

@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="topic-hub-hero">
+  <div class="topic-hub-hero-inner">
+    <p class="topic-hub-eyebrow">{{ site.Title }}</p>
+    <h1 class="topic-hub-title">{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="topic-hub-tagline">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="topic-hub-feed">
+  {{ $sections := .Params.filter_sections | default slice }}
+  {{ $tags := .Params.filter_tags | default slice }}
+  {{ $limit := .Params.post_limit | default 30 }}
+  {{ $posts := where site.RegularPages "Draft" false }}
+
+  {{ if gt (len $sections) 0 }}
+    {{ $posts = where $posts "Section" "in" $sections }}
+  {{ end }}
+
+  {{ if gt (len $tags) 0 }}
+    {{ $tagged := slice }}
+    {{ range $posts }}
+      {{ $t := .Params.tags | default slice }}
+      {{ if intersect $t $tags }}{{ $tagged = $tagged | append . }}{{ end }}
+    {{ end }}
+    {{ $posts = $tagged }}
+  {{ end }}
+
+  {{ $posts = $posts | first $limit }}
+
+  {{ if gt (len $posts) 0 }}
+    {{ $featured := index $posts 0 }}
+    <article class="topic-hub-featured">
+      <a href="{{ $featured.RelPermalink }}" class="topic-hub-featured-link">
+        <p class="topic-hub-featured-label">FEATURED</p>
+        <h2 class="topic-hub-featured-title">{{ $featured.Title | plainify }}</h2>
+        {{ with $featured.Params.summary }}<p class="topic-hub-featured-summary">{{ . }}</p>{{ else }}<p class="topic-hub-featured-summary">{{ $featured.Summary | plainify | truncate 180 }}</p>{{ end }}
+        <p class="topic-hub-featured-meta">{{ $featured.Date.Format "Monday, January 2, 2006" }}{{ with $featured.Params.author }} &bull; {{ . }}{{ end }}</p>
+      </a>
+    </article>
+
+    <div class="topic-hub-grid">
+      {{ range after 1 $posts }}
+        <article class="topic-hub-card">
+          <a href="{{ .RelPermalink }}" class="topic-hub-card-link">
+            <h3 class="topic-hub-card-title">{{ .Title | plainify }}</h3>
+            <p class="topic-hub-card-meta">{{ .Date.Format "Jan 2, 2006" }}{{ with .Params.author }} &bull; {{ . }}{{ end }}</p>
+          </a>
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="topic-hub-empty">
+      {{ .Content }}
+    </div>
+  {{ end }}
+</section>
+{{ end }}

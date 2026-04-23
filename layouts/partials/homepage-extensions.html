@@ -1,0 +1,96 @@
+{{/* Homepage extension sections: Trending, Politics, Entertainment, Sports.
+     FIREWALL:
+       - Trending/Politics/Sports: GDB family only
+       - Entertainment: Series family only
+     Never country-network. */}}
+
+{{ $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" "News" }}
+{{ $all := where site.RegularPages "Params.categories" "intersect" $gdb }}
+{{ $all = where $all "Draft" false }}
+{{ $all = sort $all "Date" "desc" }}
+
+<!-- TRENDING (GDB only) -->
+<section class="ttb-section ttb-ext-section">
+  <div class="ttb-section-head">
+    <h2>Trending</h2>
+    <a href="/trending/" class="ttb-more-link">More Trending &rarr;</a>
+  </div>
+  <div class="ttb-card-grid ttb-card-grid-3">
+    {{ range first 3 $all }}
+      {{ partial "post-card.html" (dict "post" . "variant" "grid") }}
+    {{ end }}
+  </div>
+</section>
+
+<!-- POLITICS (GDB + commentary lanes only, never country-network) -->
+{{ $polCats := slice "Daily Brief" "Uncle Ramesh" "News" "The Rumour Mill" "The Rumor Mill" "Patriots Portfolio" }}
+{{ $pol := where site.RegularPages "Params.categories" "intersect" $polCats }}
+{{ $pol = where $pol "Draft" false | first 4 }}
+{{ if gt (len $pol) 0 }}
+<section class="ttb-section ttb-ext-section">
+  <div class="ttb-section-head">
+    <h2>Politics</h2>
+    <a href="/politics/" class="ttb-more-link">More Politics &rarr;</a>
+  </div>
+  <div class="ttb-block-layout">
+    <div class="ttb-block-featured">
+      {{ partial "post-card.html" (dict "post" (index $pol 0) "variant" "featured") }}
+    </div>
+    <ul class="ttb-block-sub">
+      {{ range after 1 $pol }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="ttb-sub-item">
+            {{ with .Params.categories }}<span class="ttb-sub-tag">{{ index . 0 }}</span>{{ end }}
+            <h3 class="ttb-sub-title">{{ .Title | plainify }}</h3>
+            <p class="ttb-sub-meta">{{ .Date.Format "Jan 2, 2006" }}</p>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+
+<!-- ENTERTAINMENT (Series family only) -->
+{{ $entCats := slice "Speedeet & Wilar" "Speedeet and Wilar" "DJ Roadblock" "Bam-Bam Sally" "Back-a-Truck" "De Boys Seh" "Bounty Board" }}
+{{ $ent := where site.RegularPages "Params.categories" "intersect" $entCats }}
+{{ $ent = where $ent "Draft" false | first 3 }}
+{{ if gt (len $ent) 0 }}
+<section class="ttb-section ttb-ext-section">
+  <div class="ttb-section-head">
+    <h2>Entertainment</h2>
+    <a href="/entertainment/" class="ttb-more-link">More Entertainment &rarr;</a>
+  </div>
+  <div class="ttb-card-grid ttb-card-grid-3">
+    {{ range $ent }}
+      {{ partial "post-card.html" (dict "post" . "variant" "grid") }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<!-- SPORTS (GDB only, tag=sports) -->
+{{ $sportTagged := slice }}
+{{ range $all }}
+  {{ $t := .Params.tags | default slice }}
+  {{ if in $t "sports" }}{{ $sportTagged = $sportTagged | append . }}{{ end }}
+{{ end }}
+{{ $sportTagged = $sportTagged | first 3 }}
+
+<section class="ttb-section ttb-ext-section">
+  <div class="ttb-section-head">
+    <h2>Sports</h2>
+    <a href="/sports/" class="ttb-more-link">More Sports &rarr;</a>
+  </div>
+  {{ if gt (len $sportTagged) 0 }}
+    <div class="ttb-card-grid ttb-card-grid-3">
+      {{ range $sportTagged }}
+        {{ partial "post-card.html" (dict "post" . "variant" "grid") }}
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="ttb-section-empty">
+      <p>Sports desk opens soon. First coverage window: Caribbean Premier League run-up and regional qualifiers.</p>
+    </div>
+  {{ end }}
+</section>

@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["caribbean", "caricom", "jamaica", "barbados", "haiti", "middle-east", "geopolitics"]
 author: "GDB Staff"
 description: "The region watches the Middle East crisis escalate, Jamaica enters World Cup play-offs, Haiti's gangs take losses, and Rihanna's products land in Georgetown without Rihanna."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning from the region. The world is on fire — quite literally, given developments in the Strait of Hormuz — and the Caribbean is watching carefully, because oil prices affect everyone down here and not everyone has Guyana's luck.

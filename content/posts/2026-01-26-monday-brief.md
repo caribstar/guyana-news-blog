@@ -4,6 +4,10 @@ date: 2026-01-26
 categories: ["Daily Brief", "News"]
 tags: ["Budget 2026", "Opposition Leader", "Azruddin Mohamed", "Palmyra Stadium", "Four Points Sheraton", "infrastructure"]
 summary: "It's the Super Bowl of Guyanese politics: Budget 2026 drops while the opposition elects an 'international fugitive' as their leader. Plus hotels, stadiums, and that $100,000 cash grant everyone's been waiting for."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute satirical summary of Guyana's Monday papers. We read the news so you can laugh at it!* 🇬🇾

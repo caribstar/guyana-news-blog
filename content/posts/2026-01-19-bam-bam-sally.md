@@ -1,9 +1,13 @@
 ---
 title: "📢 Bam-Bam Sally's This Week in Rumors"
 date: 2026-01-19
-categories: ["The Rumor Mill"]
+categories: ["The Rumour Mill"]
 tags: ["Bam-Bam Sally", "rumors", "gossip", "satire", "weekly"]
 description: "If yuh ain't hear it from me, it ain't worth hearing! Bam-Bam Sally got de HOT tea dis week!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *⚠️ IMPORTANT DISCLAIMER: De Rumor Mill is ENTIRELY FICTIONAL and for entertainment purposes ONLY. All characters, names, businesses, places, events, and incidents in dis column are either de products of de author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is PURELY COINCIDENTAL. Dis is SATIRE, not news. If yuh tek dis serious, dat's on YOU!*

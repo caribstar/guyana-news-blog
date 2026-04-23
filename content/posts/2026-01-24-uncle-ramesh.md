@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh's Response: Saturday, January 24, 2026"
 date: 2026-01-24
 categories: ["Uncle Ramesh"]
 tags: ["diaspora", "pro-government", "PPP", "development", "Queens"]
 description: "A diaspora perspective from Queens, NY — celebrating Budget 2026, Barama's billion-dollar investment, and decisive government action"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *A diaspora perspective from Queens, NY*

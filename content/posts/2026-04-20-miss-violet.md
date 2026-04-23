@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["barbados", "mottley", "blp", "water", "idb", "civic duty", "miss violet", "youth"]
 author: "Miss Violet"
 description: "Miss Violet would like a word with the nation. The water investment is sound, the Borrowers' Platform bid is statesmanship, the youth need our attention, and a great many Barbadians need to remember the difference between a complaint and a contribution to the public discourse."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning to my readers, and a particular good morning to those of you who are reading this before nine o'clock, which is when civilised people begin their day. The rest of you, who are encountering this column at half past ten with your second cup of coffee and your slippers still on, will receive my consideration but not my approval.

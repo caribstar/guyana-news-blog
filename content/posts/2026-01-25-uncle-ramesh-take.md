@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh Take: Why All Dis Noise About One Simple Vote?"
 date: 2026-01-25
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Parliament", "Opposition Leader", "Development", "PPP", "Guyana"]
 description: "Uncle Ramesh from Queens responds to the Saturday Brief with his pro-government perspective on the Opposition Leader drama and Guyana's progress"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh, retired accountant from Queens, NY, no longer reads all four papers online but still has PLENTY to say about Guyana* 🇬🇾

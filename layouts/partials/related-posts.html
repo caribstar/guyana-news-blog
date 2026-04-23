@@ -1,9 +1,37 @@
-<!-- Related Posts Section -->
+<!-- Related Posts: family-firewalled (GDB<->GDB, Country<->same Country, Series<->same Series).
+     No crossover between product families. -->
 {{- $related := slice }}
 {{- $categories := .Params.categories }}
+{{- $cn := slice "Guyana Brief" "Yard Brief" "Trini Brief" "Bajan Brief" "Ghana Brief" "Naija Brief" "Kenya Brief" "SA Brief" }}
+{{- $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" "News" }}
+
+{{/* Determine this post's product family */}}
+{{- $thisFamily := "unknown" }}
+{{- $thisCountry := .Params.country | default "" }}
+{{- with $categories }}
+  {{- range . }}
+    {{- if in $cn . }}{{ $thisFamily = "country-network" }}{{ end }}
+    {{- if in $gdb . }}{{ $thisFamily = "gdb" }}{{ end }}
+  {{- end }}
+{{- end }}
+
 {{- if $categories }}
-  {{- $related = where .Site.RegularPages ".Params.categories" "intersect" $categories }}
-  {{- $related = $related | complement (slice .) }}
+  {{/* First pass: same-category matches */}}
+  {{- $candidates := where .Site.RegularPages "Params.categories" "intersect" $categories }}
+  {{- $candidates = $candidates | complement (slice .) }}
+  
+  {{/* Apply family firewall */}}
+  {{- if eq $thisFamily "country-network" }}
+    {{/* Country satire: only same country's satire category */}}
+    {{- $related = where $candidates "Params.categories" "intersect" $cn }}
+  {{- else if eq $thisFamily "gdb" }}
+    {{/* GDB: only GDB family */}}
+    {{- $related = where $candidates "Params.categories" "intersect" $gdb }}
+  {{- else }}
+    {{/* Series/Other: same-category candidates are fine */}}
+    {{- $related = $candidates }}
+  {{- end }}
+  
   {{- $related = first 3 ($related | shuffle) }}
 {{- end }}
 

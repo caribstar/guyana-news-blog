@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["flooding", "Georgetown", "CDC", "Karpowership", "Gas-to-Energy", "AFC", "ExxonMobil", "Hammerhead FPSO", "local content", "Guyoil", "fuel prices", "field hospital", "Essequibo", "entrepreneurship", "GYEC", "cricket", "Harpy Eagles"]
 author: "GDB Staff"
 description: "Guyana told the Caribbean to climate-proof their infrastructure, then spent the weekend underwater. Also: Guyoil raised gas prices, the AFC says the 50% profit share is a fantasy, and we got the handrails on the US$6.8B FPSO."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Monday, March 30, 2026 | Guyana Daily Brief*

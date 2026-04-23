@@ -5,6 +5,10 @@ draft: false
 categories: ["Bajan Brief"]
 authors: ["Bajan Bugle"]
 tags: ["Barbados", "Bajan Bugle", "Fitch", "Cohobblopot"]
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Bridgetown morning. The Nation's Sunday is a mixed bag, as all Sundays in a small state tend to be. Three stories are worth sitting with. Let us sit with them.

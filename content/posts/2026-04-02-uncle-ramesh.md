@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh – Thursday, April 2, 2026"
 date: 2026-04-02T07:30:00-04:00
 categories: ["Uncle Ramesh"]
 tags: ["uncle ramesh", "ppp", "government", "tint", "exxon", "university of guyana", "carifta"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh supports the tint crackdown, defends the Exxon contract, and is very proud of UG's new medical programme."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *By Uncle Ramesh, loyal PPP/C supporter, road-safety enthusiast, and man who has never once owned a tinted vehicle.*

@@ -4,6 +4,10 @@ date: 2026-01-19
 categories: ["Back-a-Truck"]
 tags: ["satire", "sightings", "Guyana", "photos", "weekly"]
 description: "You can't make dis up! The most absurd, hilarious, and head-scratching sightings from around Guyana this week."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Welcome to Back-a-Truck — where we showcase de tings you see in Guyana dat make you say "Wait... WHAT?!" Because in dis country, de unbelievable is just another Tuesday.*

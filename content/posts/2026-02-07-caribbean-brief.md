@@ -4,6 +4,9 @@ date: 2026-02-07
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Trinidad Carnival", "Barbados Election", "Jamaica IMF", "T20 World Cup", "CARICOM", "Haiti"]
 summary: "Trinidad Carnival kicks off TODAY, Barbados heads to polls February 11, Jamaica takes $415M IMF emergency loan, West Indies open T20 World Cup vs Scotland, and US tightens visa screws on Caribbean nationals."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your Saturday roundup of what's happening across the Caribbean. Same satirical voice, wider lens.*

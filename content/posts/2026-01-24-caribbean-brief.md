@@ -4,6 +4,9 @@ date: 2026-01-24
 categories: ["Caribbean Brief"]
 tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Venezuela", "regional news"]
 description: "US-Caribbean visa tensions, Jamaica's IMF loan, Trinidad-US partnership, Venezuela oil law changes, and regional cricket updates"
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your regional roundup from across the Caribbean*

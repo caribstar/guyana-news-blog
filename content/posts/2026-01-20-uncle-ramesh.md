@@ -1,8 +1,12 @@
-﻿---
+---
 title: "Uncle Ramesh Responds: Sustainable Governance, Not Reckless Giveaways"
 date: 2026-01-20
 categories: ["Uncle Ramesh"]
 tags: ["satire", "diaspora", "government response"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *From Queens, New York — Where we understand fiscal responsibility* 🇬🇾🗽

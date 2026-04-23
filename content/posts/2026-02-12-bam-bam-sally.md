@@ -3,9 +3,13 @@ title: "Bam-Bam Sally's Rumor Mill: Freedom House Spring Cleaning Edition"
 date: 2026-02-12T10:00:00-04:00
 draft: false
 tags: ["rumor-mill", "bam-bam-sally"]
-categories: ["The Rumor Mill", "Bam-Bam Sally"]
+categories: ["The Rumour Mill", "Bam-Bam Sally"]
 author: "Bam-Bam Sally"
 description: "Bam-Bam Sally reports from the street corners: somebody cleaning out Freedom House real quick, lobby firm money trail, and why the PPP phones going to voicemail."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Chile, CHILE. Bam-Bam Sally ain't sleep since yesterday and I ain't plan to sleep tonight neither because this SOCU business got Georgetown buzzing like Stabroek Market on a Saturday morning.

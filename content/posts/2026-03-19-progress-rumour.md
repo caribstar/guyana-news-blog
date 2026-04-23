@@ -1,9 +1,13 @@
 ---
 title: "Progress Report & Rumour Mill — March 2026"
 date: 2026-03-19
-categories: ["Progress Report", "Rumour Mill"]
+categories: ["Progress Report", "The Rumour Mill"]
 tags: ["cash grant", "windfall tax", "eviction", "National Park", "press freedom"]
 description: "Tracking the nation's promises, projects, and entirely fictional rumours."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## 📋 PROGRESS REPORT — MARCH 2026

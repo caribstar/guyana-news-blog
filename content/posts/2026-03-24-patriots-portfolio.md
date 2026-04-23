@@ -5,6 +5,10 @@ categories: ["Patriots Portfolio", "Economy"]
 tags: ["Patriots Portfolio", "Exxon", "Oil", "Economy", "Business", "Mohameds"]
 author: "Patriots Portfolio"
 description: "This week in Guyana's business and economic landscape: Exxon's production push, rising oil prices, the NRF, and what the Mohameds saga means for business confidence."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 📈 **PATRIOTS PORTFOLIO**  

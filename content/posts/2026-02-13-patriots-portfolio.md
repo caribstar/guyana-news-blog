@@ -4,6 +4,10 @@ date: 2026-02-13
 categories: ["Patriots Portfolio", "Economy"]
 tags: ["economy", "budget", "oil", "investment", "Guyana", "weekly"]
 summary: "Your weekly economic snapshot. Budget 2026 allocations rolling in. Oil production steady. Stabroek News closure signals media market shift."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Your weekly economic intelligence report. No political spin. Just numbers.*

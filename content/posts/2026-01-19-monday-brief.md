@@ -4,6 +4,10 @@ date: 2026-01-19
 categories: ["Daily Brief"]
 tags: ["Exxon", "Oil Contract", "Venezuela", "Opposition Leader", "Infrastructure", "Crime"]
 description: "Winston Jordan finally admits what everyone knew, PM Phillips says troops are ready for anything Venezuelan, and birthday parties now cost admission."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute satirical summary of Guyana's Monday papers. We read the news so you can laugh at it!*

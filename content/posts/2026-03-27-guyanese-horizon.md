@@ -5,6 +5,10 @@ categories: ["The Guyanese Horizon"]
 tags: ["Georgetown", "infrastructure", "progress", "culture", "heritage"]
 author: "GDB Desk"
 description: "The Guyanese Horizon — March 2026. Georgetown is changing faster than at any point since independence. New highways, contested streets, a growing skyline. What does the capital look like when a country strikes oil and starts spending?"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Guyanese Horizon is a monthly feature celebrating Guyana's progress, heritage, and future. Published on the last Friday of each month.*

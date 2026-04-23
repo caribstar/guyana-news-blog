@@ -1,13 +1,11 @@
 ---
 title: "Ghana"
-subtitle: "The Accra Almanac — weekly political analysis from West Africa."
-type: "country-hub"
-layout: "country-hub"
-country_key: "ghana"
-region: "Africa"
-brief_category: "Ghana Brief"
-brief_section_name: "The Accra Almanac"
-archive_categories:
-  - "Ghana Brief"
-description: "Weekly political analysis on Ghana from The Tradewinds Brief — The Accra Almanac."
+description: "Daily diaspora reporting on Ghana. Accra, London, New York. Stability, economy, diaspora return."
+url: "/ghana/"
+country_slug: "ghana"
+country_name: "Ghana"
+country_tagline: "Accra. London. New York. Daily."
+categories_filter: ["Ghana Brief", "Accra Almanac"]
 ---
+
+Ghana coverage from The Tradewinds Brief. Measured. Intelligent. Globally aware. The cedi, the IMF, the stability narrative, the diaspora that came home and the one that's still considering it.

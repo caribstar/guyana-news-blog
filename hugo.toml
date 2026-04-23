@@ -1,139 +1,64 @@
 baseURL = "https://tradewindsbrief.com/"
 languageCode = "en-us"
 title = "The Tradewinds Brief"
-description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. The news, the satire, and the serious coverage these communities deserve. Free, daily."
 theme = "PaperMod"
-
-[pagination]
-pagerSize = 10
 
 enableEmoji = true
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 
+ignoreLogs = ["deprecated"]
+
+[pagination]
+  pagerSize = 10
+
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[minify]
+  disableXML = false
+  minifyOutput = true
 
 [params]
-images = ["/images/brand/og-default.png"]
-defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+  env = "production"
+  author = "CARIBSTAR"
+  description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+  defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+  images = ["/images/brand/og-default.png"]
+  favicon = "/favicon.ico"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
 [params.label]
   icon = "/images/brand/logo-horizontal.png"
   iconHeight = 72
   text = ""
-favicon = "/favicon.ico"
-
-description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
-author = "CARIBSTAR"
-env = "production"
-ShowReadingTime = true
-ShowShareButtons = true
-ShareButtons = ["facebook", "x", "whatsapp", "telegram"]
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowRssButtonInSectionTermList = true
-ShowToc = false
-TocOpen = false
-comments = false
 
 [params.homeInfoParams]
-title = "The Tradewinds Brief"
-description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. The news, the satire, and the serious coverage these communities deserve. Free, daily."
-Content = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Daily."
-
-
-# Main Navigation Menu
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 2
-
-
-[[menu.main]]
-name = "The Trade"
-url = "/the-trade/"
-weight = 5
-[[menu.main]]
-name = "The Rumor Mill"
-url = "/categories/the-rumor-mill/"
-pageRef = ""
-weight = 3
-
-[[menu.main]]
-name = "Search"
-url = "/search/"
-weight = 4
-
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 5
-
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 6
-
-
-[[menu.main]]
-name = "Newsletter"
-url = "/newsletter/"
-weight = 60
-
-[[menu.main]]
-name = "Books"
-url = "/books/"
-weight = 65
-[[menu.main]]
-name = "Advertise"
-url = "/advertise/"
-weight = 7
-
-# Footer Menu
-[[menu.footer]]
-name = "Privacy Policy"
-url = "/privacy/"
-weight = 1
-
-[[menu.footer]]
-name = "Legal"
-url = "/legal/"
-weight = 2
+  Title = "The Tradewinds Brief"
+  Content = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Daily."
 
 [params.cover]
   image = "/images/brand/og-default.png"
   alt = "The Tradewinds Brief"
   relative = false
   hidden = false
-[params.fuseOpts]
-isCaseSensitive = false
-shouldSort = true
-location = 0
-distance = 1000
-threshold = 0.4
-minMatchCharLength = 0
-keys = ["title", "permalink", "summary", "content"]
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-
-[markup.goldmark.renderer]
-unsafe = true
-
-
-[services]
-  # Commented out - using deferred loading in extend_footer.html instead
-# [services.googleAnalytics]
-#   ID = "G-5F9VH8GM6D"
 
 [params.assets]
   favicon = "/favicon.ico"
@@ -141,44 +66,119 @@ unsafe = true
   favicon32x32 = "/images/brand/favicon-32.png"
   apple_touch_icon = "/apple-touch-icon.png"
 
-# Social share image (shows when sharing on Facebook, WhatsApp, Twitter, etc.)
-images = ["/images/brand/og-default.png"]
-defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
-# Minification for faster page load
-[minify]
-  disableXML = false
-  minifyOutput = true
-  [minify.tdewolff]
-    [minify.tdewolff.html]
-      keepWhitespace = false
-    [minify.tdewolff.css]
-      version = 2
-    [minify.tdewolff.js]
-      keepVarNames = false
-
-
-
-# Suppress PaperMod .Site.Social deprecation
-ignoreLogs = ["deprecated"]
-
-
-
-
-[params.social]
-
-
-[social]
-
-
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
 
 [[menu.main]]
-name = "Caribbean"
-url = "/caribbean/"
-weight = 8
+  identifier = "nav-trending"
+  name = "Trending"
+  url = "/categories/trending/"
+  weight = 1
 
 [[menu.main]]
-name = "Africa"
-url = "/africa/"
-weight = 9
+  identifier = "nav-politics"
+  name = "Politics"
+  url = "/categories/politics/"
+  weight = 2
 
+[[menu.main]]
+  identifier = "nav-entertainment"
+  name = "Entertainment"
+  url = "/categories/entertainment/"
+  weight = 3
 
+[[menu.main]]
+  identifier = "nav-sports"
+  name = "Sports"
+  url = "/categories/sports/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "nav-shop"
+  name = "Shop"
+  url = "/shop/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "nav-regions"
+  name = "Regions"
+  weight = 6
+
+[[menu.main]]
+  identifier = "nav-caribbean"
+  parent = "nav-regions"
+  name = "Caribbean"
+  url = "/caribbean/"
+  weight = 51
+
+[[menu.main]]
+  identifier = "nav-africa"
+  parent = "nav-regions"
+  name = "Africa"
+  url = "/africa/"
+  weight = 52
+
+[[menu.main]]
+  identifier = "nav-more"
+  name = "More"
+  weight = 7
+
+[[menu.main]]
+  identifier = "nav-the-trade"
+  parent = "nav-more"
+  name = "The Trade"
+  url = "/the-trade/"
+  weight = 61
+
+[[menu.main]]
+  identifier = "nav-newsletter"
+  parent = "nav-more"
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 63
+
+[[menu.main]]
+  identifier = "nav-books"
+  parent = "nav-more"
+  name = "Books"
+  url = "/books/"
+  weight = 64
+
+[[menu.main]]
+  identifier = "nav-about"
+  parent = "nav-more"
+  name = "About"
+  url = "/about/"
+  weight = 65
+
+[[menu.main]]
+  identifier = "nav-contact"
+  parent = "nav-more"
+  name = "Contact"
+  url = "/contact/"
+  weight = 66
+
+[[menu.main]]
+  identifier = "nav-search"
+  parent = "nav-more"
+  name = "Search"
+  url = "/search/"
+  weight = 68
+
+[[menu.footer]]
+  identifier = "nav-privacy"
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+
+[[menu.footer]]
+  identifier = "nav-legal"
+  name = "Legal"
+  url = "/legal/"
+  weight = 2

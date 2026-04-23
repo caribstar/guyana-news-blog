@@ -4,6 +4,9 @@ date: 2026-02-07
 categories: ["YouTube", "Scripts"]
 tags: ["YouTube", "HeyGen", "Video Scripts", "Daily Brief"]
 summary: "60-second and 4-minute HeyGen-ready scripts covering the Opposition Leader's budget attack, secret extradition, Bayroc Stadium, small miners, and T20 World Cup."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ---

@@ -3,6 +3,9 @@ title: "🎬 YouTube Scripts – Friday, February 13, 2026"
 date: 2026-02-13
 categories: ["YouTube", "Scripts"]
 tags: ["YouTube", "HeyGen", "video", "news", "Guyana"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-SECOND SCRIPT (~150 words)

@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Trini Dispatch"]
 tags: ["Trinidad", "Trini Dispatch", "Cumuto", "WASA", "FTC"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Port of Spain morning. The papers this Sunday are carrying a story that I have been turning over in my head since Saturday afternoon, and I still do not have the vocabulary for it. Let me try.

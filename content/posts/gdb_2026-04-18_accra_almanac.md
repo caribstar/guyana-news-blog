@@ -5,6 +5,10 @@ draft: false
 categories: ["Ghana Brief", "Africa Brief"]
 authors: ["The Accra Almanac"]
 tags: ["Ghana", "Accra", "Africa"]
+tone: "satire"
+status: "published"
+country: "ghana"
+product_family: "country-network"
 ---
 
 Greetings from Accra. The Accra Almanac introduces itself this Sunday with a week that happened to deliver the kind of political theatre a columnist dreams about and dreads in equal measure. Much to observe. Let us begin.

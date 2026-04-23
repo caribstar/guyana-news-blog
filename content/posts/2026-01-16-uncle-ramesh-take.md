@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Uncle Ramesh: Why All This Oil Drama Is Just Opposition Noise"
 date: 2026-01-16T09:00:00-04:00
 draft: false
@@ -12,6 +12,10 @@ tags:
   - Oil-Production
   - Parliament
 author: "Uncle Ramesh"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # 🇬🇾 UNCLE RAMESH'S TAKE 🇬🇾

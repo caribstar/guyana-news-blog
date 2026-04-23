@@ -5,6 +5,10 @@ draft: false
 categories: ["Bajan Brief"]
 authors: ["Miss Violet"]
 tags: ["Barbados", "Miss Violet", "Cohobblopot", "education"]
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning, Barbados. Miss Violet addresses you this Sunday morning from the parish of St. Michael, where I have already attended first service and am preparing myself for a proper Sunday lunch with the usual discipline that the occasion deserves.

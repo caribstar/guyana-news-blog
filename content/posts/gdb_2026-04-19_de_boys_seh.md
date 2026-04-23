@@ -5,6 +5,10 @@ draft: false
 categories: ["De Boys Seh"]
 authors: ["De Boys"]
 tags: ["De Boys Seh", "Guyana", "satire"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Dem boys seh this Sunday morning find we sittin on de bench outside Auntie Pearl rumshop in Sophia, sippin we coffee, wonderin how one country can produce so much oil and still have people lookin for change fuh buy cookup rice.

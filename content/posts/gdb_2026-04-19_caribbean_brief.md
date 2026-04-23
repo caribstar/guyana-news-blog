@@ -5,6 +5,9 @@ draft: false
 categories: ["Caribbean Daily Brief"]
 authors: ["Caribbean Daily Brief"]
 tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Daily Brief"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 Sunday across the region. The kind of Sunday where three countries produce three completely different species of chaos and we pretend this is normal. Pour your rum punch. Here is what is happening.

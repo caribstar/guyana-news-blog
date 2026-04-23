@@ -5,6 +5,10 @@ draft: false
 categories: ["DJ Roadblock"]
 authors: ["DJ Roadblock"]
 tags: ["traffic report", "Friday", "Georgetown"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 YO. It's Friday. Big man Friday. DJ Roadblock coming to you live from the top of the Demerara Harbour Bridge, which is currently in the UP position and has been for twenty-three minutes. I am broadcasting from a Corolla that has not moved since 6:47 AM. The driver next to me is eating boil-and-fry corn. We have made eye contact. We are friends now.

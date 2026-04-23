@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "NGC", "CARICOM", "Tobago", "Auntie Cheryl"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl is thrilled about NGC's record profits, concerned about the Tobago vandals, and has a lot of feelings about the CARICOM situation that she would like to share."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning! Auntie Cheryl calling from Chaguanas, just finished my puja and ready to talk news!

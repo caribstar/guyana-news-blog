@@ -4,6 +4,10 @@ date: 2026-01-19
 categories: ["Speedeet & Wilar", "Youth Stories"]
 tags: ["friendship", "adventure", "Guyanese-culture", "youth", "solar-energy", "hinterland"]
 description: "Speedeet cousin from Rupununi come to visit and bring story about the government solar panels. But Wilar grandmother got she own ideas about 'free electricity.'"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, join two 12-year-old friends as they navigate life in modern Guyana.*

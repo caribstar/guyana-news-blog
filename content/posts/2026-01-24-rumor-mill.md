@@ -1,9 +1,13 @@
 ---
 title: "🔥 Bam-Bam Sally's Rumor Mill: January 24, 2026"
 date: 2026-01-24
-categories: ["Rumor Mill"]
+categories: ["The Rumour Mill"]
 tags: ["Bam-Bam Sally", "gossip", "satire", "humor", "weekend"]
 description: "De hottest fictional gossip from de streets! All names fake, all scenarios made up, all entertainment guaranteed!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 > ⚠️ **DISCLAIMER:** This is a SATIRICAL gossip column. ALL names, characters, and scenarios are ENTIRELY FICTIONAL. Any resemblance to real persons, living or dead, is purely coincidental. This is meant for entertainment purposes only. No actual gossip or real people are referenced here.

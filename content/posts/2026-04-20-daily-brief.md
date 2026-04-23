@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["guyana", "crime", "ecd", "exxon", "pork", "passport", "scotiabank", "caribbean airlines", "mahdia", "venezuela"]
 author: "GDB Staff"
 description: "Your Monday morning rundown — three crime stories before breakfast, Exxon's pipeline math gets weirder, the passport portal is almost ready (almost), and the country imports a US firm to teach us how to slaughter a pig properly."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana. The weekend ended quietly the way a tin roof ends quietly — by the time you noticed the noise, it was already over. Coffee in hand. Let's begin.

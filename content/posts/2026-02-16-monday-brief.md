@@ -4,6 +4,10 @@ date: 2026-02-16
 draft: false
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Mohameds", "Budget 2026", "Haags Bosch"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

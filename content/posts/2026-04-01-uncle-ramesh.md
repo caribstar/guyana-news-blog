@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh – Wednesday, April 1, 2026"
 date: 2026-04-01T07:30:00-04:00
 categories: ["Uncle Ramesh"]
 tags: ["uncle ramesh", "ppp", "government", "guyana", "digital identity", "solar", "mining", "oil"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh is proud. Very proud. The government is doing everything right, and the opposition is just confused."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *By Uncle Ramesh, proud PPP/C supporter, retired civil servant, and man who has never once been wrong about anything.*

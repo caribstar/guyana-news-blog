@@ -4,6 +4,10 @@ date: 2026-02-01
 categories: ["Speedeet & Wilar", "Weekly Feature"]
 tags: ["youth", "Guyanese-culture", "Mashramani", "friendship", "Pike-Street"]
 summary: "Speedeet and Wilar try to figure out Mashramani costumes on a budget of exactly zero dollars. Wilar has a plan. Speedeet has doubts. Miss Sharma's clothesline has feathers."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, Speedeet and Wilar from Pike Street, Kitty bring you a slice of life from two 12-year-old best friends. No politics — just vibes, laughs, and Guyanese culture!* 🇬🇾

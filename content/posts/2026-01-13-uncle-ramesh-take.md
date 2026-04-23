@@ -1,10 +1,14 @@
-﻿---
+---
 title: "😊 [PRO-GOV] Uncle Ramesh: When De Numbers Tell De REAL Story"
 date: 2026-01-13
 draft: false
 categories: ["Opinion", "Uncle Ramesh"]
 tags: ["satire", "uncle-ramesh", "crime", "pro-government"]
 summary: "Uncle Ramesh explains why 25% crime reduction is actually amazing, and why spending $123M on safety makes sense. Progress is progress!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh reading the crime statistics with a satisfied nod*

@@ -5,6 +5,9 @@ draft: false
 categories: ["Caribbean Brief", "News"]
 tags: ["Caribbean", "Jamaica", "Barbados", "Trinidad", "Haiti", "CARICOM", "T20 World Cup"]
 summary: "Jamaica secures emergency IMF funds, Barbados gears up for February 11 election, Trinidad's PM doubles down on CARICOM criticism, CARICOM rebukes Haiti's leadership, and the T20 World Cup kicks off tomorrow. Your Caribbean regional roundup."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 🌴 **CARIBBEAN DAILY BRIEF** 🌴

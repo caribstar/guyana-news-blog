@@ -5,6 +5,10 @@ categories: ["DJ Roadblock"]
 tags: ["dj roadblock", "guyana", "music", "vibes", "good friday", "tariffs", "carifta", "weekend"]
 author: "DJ Roadblock"
 description: "DJ Roadblock spins the weekend playlist, processes the 38% tariff through soca, and sends off the CARIFTA team with maximum energy."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *DJ Roadblock on the ones and twos. Good Friday edition. The vibes are complicated but the music still sweet.*

@@ -1,0 +1,14 @@
+/* Logo sized to visually match menu text height (~15-16px cap height).
+   Logo image's TRADEWINDS wordmark is roughly 35% of total image height,
+   so ~45px image = ~16px cap height = matches menu font-size: 15px. */
+.tw-logo-img-big { max-height: 46px !important; }
+
+@media (max-width: 1024px) {
+  .tw-logo-img-big { max-height: 42px !important; }
+}
+@media (max-width: 768px) {
+  .tw-logo-img-big { max-height: 38px !important; }
+}
+
+.tw-logo-box { overflow: visible; }
+.tw-logo-link { overflow: visible; }

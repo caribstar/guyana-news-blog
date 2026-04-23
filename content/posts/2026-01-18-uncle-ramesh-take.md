@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh Responds: Hotels Mean JOBS, Women Cricketers Making Us PROUD, and Stop Complaining!"
 date: 2026-01-18
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Guyana", "Diaspora", "Pro-Government", "Cricket", "Football", "Development"]
 summary: "Uncle Ramesh from Queens celebrates the Women's T20 squad, defends the hotel boom, explains why digital health records are PROGRESS, and asks why the Brief can't just be happy for once."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *From Uncle Ramesh in Queens, NY — celebrating the wins the Brief won't!*

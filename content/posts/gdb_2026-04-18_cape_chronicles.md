@@ -5,6 +5,10 @@ categories: ["South Africa Brief", "Africa Brief"]
 tags: ["South Africa", "rugby", "Springboks", "sport", "mechanisms", "Stellenbosch"]
 author: "Cape Chronicles"
 draft: false
+tone: "satire"
+status: "published"
+country: "south-africa"
+product_family: "series"
 ---
 
 # The Cape Chronicles: The Springboks Aren't Luck. Here's the System That Produces World Cup Champions.

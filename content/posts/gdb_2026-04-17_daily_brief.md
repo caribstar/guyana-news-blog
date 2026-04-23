@@ -5,6 +5,10 @@ draft: false
 categories: ["Daily Brief"]
 authors: ["The Guyana Daily Brief"]
 tags: ["daily brief", "news roundup", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 **Morning, Guyana.** Friday, April 17. The sun is up, the traffic is already nonsense, and somewhere a government minister is already blaming the opposition for it. Here's what happened while you were sleeping or pretending to sleep.

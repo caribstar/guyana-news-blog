@@ -4,6 +4,10 @@ date: 2026-02-13
 categories: ["DJ Roadblock", "Weekly Feature"]
 tags: ["traffic", "infrastructure", "roads", "Guyana", "weekly"]
 summary: "DJ Roadblock's Friday traffic and infrastructure report. Today: flooding edition."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *DJ Roadblock broadcasting LIVE from somewhere between a puddle and a pond on Vlissengen Road!*

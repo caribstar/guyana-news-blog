@@ -2,6 +2,10 @@
 title: "Sunday's Guyana Brief: The Mohameds Strike Back"
 date: 2026-01-11
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Government Promises"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">

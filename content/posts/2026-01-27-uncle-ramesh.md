@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh: DIS IS HOW YOU BUILD A NATION! Budget 2026 is HISTORIC!"
 date: 2026-01-27
 categories: ["Uncle Ramesh", "Opinion", "Response"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora-Voice", "Pro-Government", "Budget", "Housing", "Tourism"]
 summary: "Uncle Ramesh celebrates Budget 2026 from Queens — praising the historic investments in housing, tourism, autism education, and agricultural development while wondering why opposition can't find anything positive to say."
 author: "Uncle Ramesh"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 ## 👴🏾 UNCLE RAMESH'S BUDGET CELEBRATION

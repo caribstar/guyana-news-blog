@@ -6,6 +6,10 @@ tags: ["progress-report", "development"]
 categories: ["Progress Report"]
 author: "The Guyana Daily Brief"
 description: "Tracking infrastructure projects, institutional developments, and economic indicators across Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## Budget 2026 Estimates: Committee of Supply Update

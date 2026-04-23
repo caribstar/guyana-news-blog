@@ -4,6 +4,10 @@ date: 2026-02-13
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "news", "satire", "politics", "flooding", "Stabroek News"]
 summary: "Stabroek News announces closure after 39 years. Georgetown swamped by 4-inch rainfall. Mohamed's cambio evidence mounts. Mottley wins AGAIN. Oil boom stealing police officers. And rockets are launching from our backyard."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your satirical morning roundup from all four papers. Reading the news so you can laugh, cry, and argue at the same time.*

@@ -4,6 +4,10 @@ date: 2026-01-17
 author: "Uncle Ramesh"
 categories: ["Patriots Portfolio"]
 tags: ["satire", "patriots", "healthcare", "guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Uncle Ramesh's Weekly Celebration of Guyanese Excellence*

@@ -2,9 +2,13 @@
 title: "Cousin Leroy: Yow, Dem Lock Up Jaii Frais? Wha' Gwaan Wid Dat! And Mi Nah Cosign Dem Find Oil in Yard"
 date: 2026-04-17T08:30:00-04:00
 draft: false
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 authors: ["Cousin Leroy"]
 tags: ["Jamaica", "Bronx", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Yooooo wah gwaan fam it's your cousin Leroy calling from the BX, 174th and Morris Avenue, shoutout to everybody at the spot on White Plains Road, and I just saw the news from yard and I had to hop on here before my shift at Logan start.

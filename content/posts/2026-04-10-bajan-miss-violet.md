@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["barbados", "caribbean", "sport", "dengue", "civic", "regional"]
 author: "Miss Violet"
 description: "Miss Violet on the CARIFTA swimmers, dengue preparedness, the junior tennis tournament, and what Caribbean people owe each other in the face of American trade disruption."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning. I am Miss Violet. I have been watching the news and I have several things to say about the state of Caribbean civic preparedness, sporting achievement, and mosquito policy. Please sit.

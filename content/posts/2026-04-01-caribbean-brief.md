@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["caribbean", "trinidad", "jamaica", "haiti", "barbados", "caricom", "news", "caribbean brief"]
 author: "GDB Staff"
 description: "Your Wednesday Caribbean roundup — Trinidad's nurse crisis, Haiti's austerity squeeze, Jamaica's budget debate, Venezuela's threats, and Carnival Corporation buying up the sea."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *The Guyana Daily Brief extends its gaze across the Caribbean. The region is complicated. We try to keep up.*

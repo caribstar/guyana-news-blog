@@ -5,6 +5,9 @@ categories: ["Caribbean Daily Brief"]
 tags: ["CARICOM", "tariffs", "Trinidad", "Roderick Rainford", "CARIFTA", "trade", "US tariffs"]
 author: "The Daily Brief"
 description: "The Caribbean is still paying 10% to sell things to the country it buys everything from, a regional statesman passes, and Grenada hosts CARIFTA."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 *Regional news for the Caribbean diaspora — without the spin, with the context.*

@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["oil", "gas", "police", "Wales", "Suriname", "crime", "St Kitts"]
 author: "GDB Staff"
 description: "Guyana pockets US$761M in oil revenue, denies secret payout to gas contractor, and a cop on video says 'I'll kill you.' Wednesday, April 8."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana. Oil is flowing, money is missing, and a policeman is on video threatening to murder a man. Wednesday.

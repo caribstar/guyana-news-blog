@@ -2,9 +2,13 @@
 title: "Yard Report: The Vlogger, the Mayor-Chopper, the Oil We Shouldn't Want, and the Trench Town Birthday Party That Turned Into a Crime Scene"
 date: 2026-04-17T08:00:00-04:00
 draft: false
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 authors: ["Yard Report"]
 tags: ["Jamaica", "Kingston", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Morning, Jamrock. Yard Report here from Kingston, processing the week the only way I know how — slowly, with black coffee, and with the grim understanding that the news will somehow get worse before I finish typing.

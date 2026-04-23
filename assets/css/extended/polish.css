@@ -1,0 +1,123 @@
+/* ==========================================================
+   TRADEWINDS BRIEF — MOBILE + CONTRAST POLISH
+   Loaded via PaperMod extended CSS. Overrides theme defaults.
+   ========================================================== */
+
+/* ---------- GLOBAL ---------- */
+html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+
+/* Stronger body text contrast (was washed gray on some pages) */
+.post-content, .post-content p, .entry-content, .page-content {
+  color: #1a1a1a;
+  line-height: 1.7;
+}
+
+/* Links: deep teal, AA compliant on white */
+a { color: #0a3d4a; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover, a:focus { color: #b8882a; text-decoration-thickness: 2px; }
+
+/* Stronger headings */
+h1, h2, h3, h4 { color: #0a3d4a; letter-spacing: -0.01em; }
+
+/* Focus states visible for keyboard users */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid #d4a437;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Gold text on white = unreadable. Use darker gold for any .gold-text usage. */
+.gold-text, .accent-gold { color: #8b6914; font-weight: 600; }
+
+/* ---------- TOUCH TARGETS (44px min) ---------- */
+nav a, .menu a, .nav-link, button, .btn {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ---------- MOBILE BREAKPOINTS ---------- */
+@media (max-width: 768px) {
+
+  /* Containers snug to screen */
+  .main, main, .container, .wrapper {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    max-width: 100% !important;
+  }
+
+  /* Hero scaling */
+  .hero h1, .hero-title, .first-entry h1 {
+    font-size: clamp(1.6rem, 6vw, 2.2rem) !important;
+    line-height: 1.15 !important;
+  }
+  .hero h2, .hero-subtitle {
+    font-size: clamp(1rem, 3.5vw, 1.2rem) !important;
+  }
+
+  /* Body type */
+  body, .post-content, .page-content { font-size: 16px; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+
+  /* Any multi-col grid stacks */
+  .grid, .grid-2, .grid-3, .grid-4,
+  .briefs-grid, .cards-grid, .country-grid,
+  .dueling-pair, .franchise-row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  /* Cards: less padding, full width */
+  .card, .brief-card, .country-card, .franchise-card {
+    padding: 16px !important;
+    width: 100% !important;
+  }
+
+  /* Images: fluid */
+  img, figure, video { max-width: 100%; height: auto; }
+
+  /* Tables: horizontal scroll wrapper */
+  table { display: block; overflow-x: auto; white-space: nowrap; }
+
+  /* Forms: full width */
+  input[type="email"], input[type="text"], textarea, select {
+    width: 100% !important;
+    box-sizing: border-box;
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  /* Footer stacks */
+  .footer-grid, footer .columns {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  /* Subscribe modal: don't dominate mobile screen */
+  .tw-subscribe-modal, .subscribe-modal {
+    width: 92% !important;
+    max-width: 92% !important;
+    padding: 20px !important;
+  }
+}
+
+/* ---------- NARROW PHONES (<=420px) ---------- */
+@media (max-width: 420px) {
+  .hero h1, .hero-title { font-size: clamp(1.4rem, 7vw, 1.8rem) !important; }
+  .card h2, .card h3 { font-size: 1.05rem !important; line-height: 1.25 !important; }
+  .post-meta, .byline, .timestamp { font-size: 12px !important; }
+}
+
+/* ---------- DARK MODE CONTRAST (PaperMod toggle) ---------- */
+.dark a { color: #f4c85e; }
+.dark a:hover, .dark a:focus { color: #ffffff; }
+.dark .post-content, .dark .post-content p { color: #e8e8e8; }
+.dark h1, .dark h2, .dark h3, .dark h4 { color: #ffffff; }
+
+/* ---------- PRINT ---------- */
+@media print {
+  .tw-marquee, nav, footer, .subscribe-modal { display: none !important; }
+  body { color: #000; background: #fff; }
+}

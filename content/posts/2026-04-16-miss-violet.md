@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Mottley", "Borrowers Platform", "QEH", "crime", "Barbados"]
 author: "Miss Violet"
 description: "Miss Violet is proud of the Prime Minister, concerned about the quarry, and has a few structured thoughts on the young man who went directly back to prison."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning. Miss Violet has reviewed the news and has several things to say, beginning with the most important.

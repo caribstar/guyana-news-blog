@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["caribbean", "trinidad", "jamaica", "haiti", "carifta", "energy", "world cup", "st vincent", "news"]
 author: "GDB Staff"
 description: "Thursday's Caribbean roundup — Jamaica enters World Cup playoff as favourites, T&T PM heads to Caribbean Energy Week, Haiti gang operations continue, US removes radar from Tobago, and St. Vincent gets $3M from Taiwan."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *The Guyana Daily Brief surveys the wider Caribbean. The region never sleeps.*

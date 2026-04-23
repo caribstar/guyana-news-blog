@@ -5,6 +5,10 @@ categories: ["The Rumour Mill"]
 tags: ["guyana", "rumours", "gossip", "satire", "entertainment"]
 author: "Bam-Bam Sally"
 description: "Bam-Bam Sally's Wednesday Rumour Mill: what people are whispering about in Stabroek Market, at the seawall, and in the WhatsApp groups that nobody admits to being in."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *⚠️ DISCLAIMER: The Rumour Mill is entirely fictional satire. All characters, situations, and "rumours" presented here are invented for entertainment purposes only. Any resemblance to real persons, living or dead, is coincidental. This content is produced in compliance with Guyana's Cybercrime Act. No real individuals are identified or targeted.*

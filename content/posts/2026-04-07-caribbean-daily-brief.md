@@ -5,6 +5,9 @@ categories: ["Caribbean Daily Brief"]
 tags: ["CARIFTA", "Jamaica", "Trinidad", "Barbados", "Kamla", "Mottley", "state of emergency", "tariffs"]
 author: "The Daily Brief"
 description: "CARIFTA wraps in Grenada with Jamaica dominant. Trinidad declares another state of emergency. Barbados voter turnout hits historic low. The Caribbean in 5 minutes."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 *Regional news for the Caribbean diaspora — without the spin, with the context.*

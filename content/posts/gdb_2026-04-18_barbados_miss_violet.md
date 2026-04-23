@@ -5,6 +5,10 @@ draft: false
 categories: ["Bajan Brief"]
 authors: ["Miss Violet"]
 tags: ["Barbados", "Bridgetown", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning to every reader. I am Miss Violet. I shall be more brief today than I was yesterday because I have a Sabbath School class to prepare for tomorrow and a granddaughter who expects me at four o'clock for tea. But there is much to address, and I shall address it with my usual directness.

@@ -1,329 +1,218 @@
 {{ define "main" }}
-{{/*
-  TRADEWINDS BRIEF — Country Hub layout
-  One template drives all 8 country pages.
-  Per-country params come from content/[country]/_index.md
-  Per Handoff v3 Section 11
-*/}}
+{{ $country := .Params.country_name | default "Country" }}
+{{ $catFilter := .Params.categories_filter }}
+{{ $flagGradient := .Params.flag_gradient | default "linear-gradient(90deg, #0a3d4a, #d4a437)" }}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+{{/* Collect all posts matching this country's categories */}}
+{{ $matched := slice }}
+{{ range $catName := $catFilter }}
+  {{ $catTerm := $.Site.GetPage (printf "/categories/%s" (urlize $catName)) }}
+  {{ with $catTerm }}
+    {{ range .Pages }}
+      {{ $matched = $matched | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 
-{{ $country := .Params.country_key | default "guyana" }}
-{{ $flagColors := dict
-  "guyana" "linear-gradient(90deg, #009E60 0%, #FCD116 50%, #CE1126 100%)"
-  "jamaica" "linear-gradient(90deg, #000000 0%, #FED100 50%, #009B3A 100%)"
-  "trinidad" "linear-gradient(90deg, #DA1A35 0%, #FFFFFF 50%, #000000 100%)"
-  "barbados" "linear-gradient(90deg, #00267F 0%, #FFC726 50%, #00267F 100%)"
-  "ghana" "linear-gradient(90deg, #CE1126 0%, #FCD116 50%, #006B3F 100%)"
-  "kenya" "linear-gradient(90deg, #000000 0%, #BB0000 50%, #006600 100%)"
-  "nigeria" "linear-gradient(90deg, #008751 0%, #FFFFFF 50%, #008751 100%)"
-  "south-africa" "linear-gradient(90deg, #007A4D 0%, #FFB612 33%, #DE3831 66%, #002395 100%)"
+{{ $matched = $matched | uniq }}
+{{ $matched = sort $matched "Date" "desc" }}
+
+{{/* Image helper map - category → default image slug */}}
+{{ $imgMap := dict 
+  "Yard Brief" "jamaica"
+  "Trini Brief" "trinidad"
+  "Bajan Brief" "barbados"
+  "Daily Brief" "guyana-georgetown"
+  "Uncle Ramesh" "uncle-ramesh"
+  "Progress Report" "guyana-construction"
+  "Rumour Mill" "guyana-market"
+  "De Boys Seh" "guyana-rumshop"
+  "DJ Roadblock" "guyana-party"
+  "Patriots Portfolio" "guyana-flag"
+  "Bam-Bam Sally" "guyana-stabroek"
+  "Back-a-Truck" "guyana-truck"
+  "Bounty Board" "guyana-classifieds"
+  "Guyanese Horizon" "guyana-coast"
+  "Speedeet & Wilar" "speedeet-wilar"
 }}
-{{ $accentColor := index (dict
-  "guyana" "#009E60"
-  "jamaica" "#009B3A"
-  "trinidad" "#DA1A35"
-  "barbados" "#00267F"
-  "ghana" "#006B3F"
-  "kenya" "#BB0000"
-  "nigeria" "#008751"
-  "south-africa" "#007A4D"
-) $country }}
 
-<style>
-  :root {
-    --navy: #0B1F3A; --navy-deep: #061428; --navy-mid: #1a3456;
-    --gold: #C9A96E; --gold-bright: #D9B97E; --gold-deep: #B89557;
-    --cream: #FAF7F0; --sand: #F2EEE5;
-    --ink: #1a1a1a; --ink-soft: #444; --rule: #d8d3c4;
-    --action: #C02020; --action-hover: #9A1818;
-    --country-accent: {{ $accentColor }};
-  }
-  body { background: var(--cream); color: var(--ink); font-family: 'Inter', sans-serif; }
-  .country-page * { box-sizing: border-box; }
-  .country-page a { color: inherit; text-decoration: none; }
-  .country-page a:hover { color: var(--action); }
-
-  .country-hero {
-    background:
-      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(201,169,110,0.12) 0%, transparent 60%),
-      linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
-    color: white; padding: 64px 24px 56px; margin: -20px -20px 0;
-    text-align: center; position: relative; overflow: hidden;
-  }
-  .country-hero .flag-strip {
-    position: absolute; bottom: 0; left: 0; right: 0; height: 6px;
-    background: {{ index $flagColors $country }};
-  }
-  .country-hero .breadcrumb {
-    font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--gold); font-weight: 600; margin-bottom: 18px;
-  }
-  .country-hero .breadcrumb a { color: rgba(201,169,110,0.7); }
-  .country-hero .breadcrumb a:hover { color: var(--gold-bright); }
-  .country-hero h1 {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 400;
-    font-size: clamp(2.4rem, 5vw, 3.4rem); line-height: 1.1;
-    color: white; margin: 0 auto 16px; letter-spacing: -0.018em;
-  }
-  .country-hero .subtitle {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 300; font-style: italic;
-    font-size: clamp(1.05rem, 1.8vw, 1.2rem); line-height: 1.5;
-    color: rgba(255,255,255,0.78); max-width: 580px; margin: 0 auto;
-  }
-
-  .country-shell { max-width: 1100px; margin: 0 auto; padding: 56px 24px; }
-  .country-section { margin-bottom: 64px; }
-  .country-section-head {
-    display: flex; align-items: baseline; justify-content: space-between;
-    border-bottom: 1.5px solid var(--country-accent); padding-bottom: 12px; margin-bottom: 28px;
-  }
-  .country-section-head h2 {
-    font-family: 'Fraunces', Georgia, serif; font-weight: 500;
-    color: var(--navy); margin: 0; font-size: 1.45rem; letter-spacing: -0.01em;
-  }
-  .country-section-head .meta {
-    font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--ink-soft); font-weight: 600;
-  }
-
-  /* Brief feature card (top story) */
-  .brief-feature {
-    background: white; border: 1px solid #ece8db; border-radius: 4px;
-    padding: 32px 36px; box-shadow: 0 2px 8px rgba(11,31,58,0.05);
-    border-left: 5px solid var(--country-accent);
-  }
-  .brief-feature .post-date {
-    font-size: 0.78rem; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 10px;
-  }
-  .brief-feature h3 {
-    font-family: 'Fraunces', serif; font-weight: 500; font-size: clamp(1.4rem, 2.4vw, 1.8rem);
-    line-height: 1.22; color: var(--navy); margin: 0 0 14px; letter-spacing: -0.01em;
-  }
-  .brief-feature h3 a { color: var(--navy); }
-  .brief-feature h3 a:hover { color: var(--action); }
-  .brief-feature .summary {
-    font-family: 'Fraunces', serif; font-weight: 300;
-    font-size: 1.05rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 18px;
-  }
-  .brief-feature .read-link {
-    color: var(--navy); font-weight: 600; font-size: 0.92rem;
-    border-bottom: 1px solid var(--navy); padding-bottom: 1px;
-  }
-
-  /* Dueling pair (Caribbean countries only) */
-  .pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-  .pair-card {
-    background: white; border: 1px solid #ece8db; border-radius: 4px;
-    overflow: hidden; box-shadow: 0 1px 4px rgba(11,31,58,0.04);
-  }
-  .pair-card .voice-head {
-    padding: 14px 22px; background: var(--cream);
-    border-bottom: 1px solid #ece8db;
-  }
-  .pair-card .voice-eyebrow {
-    font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--gold-deep); font-weight: 700; margin-bottom: 4px;
-  }
-  .pair-card .voice-name {
-    font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.1rem;
-    color: var(--navy); letter-spacing: -0.005em;
-  }
-  .pair-card .voice-body { padding: 22px 22px 24px; }
-  .pair-card .post-date {
-    font-size: 0.76rem; color: var(--ink-soft); margin-bottom: 8px; letter-spacing: 0.04em;
-  }
-  .pair-card h4 {
-    font-family: 'Fraunces', serif; font-weight: 500;
-    font-size: 1.1rem; line-height: 1.32; margin: 0 0 10px;
-    color: var(--navy); letter-spacing: -0.003em;
-  }
-  .pair-card h4 a { color: var(--navy); }
-  .pair-card h4 a:hover { color: var(--action); }
-  .pair-card .summary { font-size: 0.92rem; line-height: 1.55; color: var(--ink-soft); margin-bottom: 14px; }
-  .pair-card .read-link {
-    font-size: 0.84rem; font-weight: 600; color: var(--navy);
-    border-bottom: 1px solid var(--navy); padding-bottom: 1px;
-  }
-
-  /* Archive grid */
-  .archive-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px;
-  }
-  .archive-card {
-    background: white; border: 1px solid #ece8db; border-radius: 4px;
-    padding: 18px 20px; transition: transform 0.18s, box-shadow 0.18s;
-  }
-  .archive-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(11,31,58,0.08); }
-  .archive-card .post-date {
-    font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 6px;
-  }
-  .archive-card h4 {
-    font-family: 'Fraunces', serif; font-weight: 500; font-size: 1rem; line-height: 1.32;
-    margin: 0; color: var(--navy); letter-spacing: -0.003em;
-  }
-  .archive-card h4 a:hover { color: var(--action); }
-
-  /* Empty state */
-  .empty-state {
-    padding: 40px 24px; text-align: center; background: white;
-    border: 1px dashed var(--rule); border-radius: 4px;
-    color: var(--ink-soft); font-style: italic;
-  }
-
-  /* Footer subscribe */
-  .country-footer-cta {
-    background: var(--navy); color: white; margin: 80px -20px 0;
-    padding: 56px 24px; text-align: center; border-top: 6px solid var(--country-accent);
-  }
-  .country-footer-cta-inner { max-width: 580px; margin: 0 auto; }
-  .country-footer-cta .label {
-    font-size: 0.74rem; letter-spacing: 0.22em; text-transform: uppercase;
-    color: var(--gold); font-weight: 600; margin-bottom: 16px;
-  }
-  .country-footer-cta h2 {
-    font-family: 'Fraunces', serif; font-weight: 400;
-    font-size: clamp(1.4rem, 2.6vw, 1.8rem); line-height: 1.25;
-    color: white; margin: 0 0 14px; letter-spacing: -0.01em;
-  }
-  .country-footer-cta p {
-    font-family: 'Fraunces', serif; font-weight: 300;
-    color: rgba(255,255,255,0.8); margin-bottom: 24px; font-size: 1rem;
-  }
-  .country-footer-cta .cta {
-    display: inline-block; background: var(--action); color: white;
-    padding: 14px 36px; border-radius: 4px; font-weight: 700; font-size: 0.98rem;
-    box-shadow: 0 4px 14px rgba(192,32,32,0.35);
-  }
-  .country-footer-cta .cta:hover { background: var(--action-hover); color: white; }
-
-  @media (max-width: 700px) {
-    .pair-grid { grid-template-columns: 1fr; }
-  }
-</style>
-
-<div class="country-page">
-
-<header class="country-hero">
-  <div class="breadcrumb"><a href="/">Home</a> · {{ .Params.region | default "Country" }}</div>
-  <h1>{{ .Title }}</h1>
-  {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
-  <div class="flag-strip"></div>
-</header>
-
-<div class="country-shell">
-
-  {{/* SECTION 1: TODAY'S BRIEF (the lead serious story for this country) */}}
-  {{ $briefCategory := .Params.brief_category }}
-  {{ if $briefCategory }}
-  <section class="country-section">
-    <div class="country-section-head">
-      <h2>{{ .Params.brief_section_name | default "Today's Brief" }}</h2>
-      <div class="meta">{{ now.Format "Monday, January 2" }}</div>
-    </div>
-    {{ $briefPosts := where .Site.RegularPages "Params.categories" "intersect" (slice $briefCategory) }}
-    {{ with index (sort $briefPosts "Date" "desc") 0 }}
-    <article class="brief-feature">
-      <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p class="summary">{{ .Summary | truncate 280 }}</p>
-      <a href="{{ .RelPermalink }}" class="read-link">Read the full brief →</a>
-    </article>
-    {{ else }}
-    <div class="empty-state">The next {{ .Params.brief_section_name | default "brief" }} drops shortly.</div>
-    {{ end }}
-  </section>
-  {{ end }}
-
-  {{/* SECTION 2: TODAY'S DUELING PAIR (Caribbean only — Guyana uses Brother Winston / Uncle Ramesh from homepage) */}}
-  {{ $voiceA := .Params.voice_a }}
-  {{ $voiceB := .Params.voice_b }}
-  {{ if and $voiceA $voiceB }}
-  <section class="country-section">
-    <div class="country-section-head">
-      <h2>Today's Dueling Voices</h2>
-      <div class="meta">Same news. Different eyes.</div>
-    </div>
-    <div class="pair-grid">
-      {{/* Voice A */}}
-      <article class="pair-card">
-        <div class="voice-head">
-          <div class="voice-eyebrow">{{ .Params.voice_a_label | default "Voice A" }}</div>
-          <div class="voice-name">{{ $voiceA }}</div>
-        </div>
-        <div class="voice-body">
-          {{ $aPosts := where .Site.RegularPages "Params.author" $voiceA }}
-          {{ with index (sort $aPosts "Date" "desc") 0 }}
-          <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-          <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-          <p class="summary">{{ .Summary | truncate 160 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}
-          <p class="summary"><em>Today's piece coming soon.</em></p>
-          {{ end }}
-        </div>
-      </article>
-
-      {{/* Voice B */}}
-      <article class="pair-card">
-        <div class="voice-head">
-          <div class="voice-eyebrow">{{ .Params.voice_b_label | default "Voice B" }}</div>
-          <div class="voice-name">{{ $voiceB }}</div>
-        </div>
-        <div class="voice-body">
-          {{ $bPosts := where .Site.RegularPages "Params.author" $voiceB }}
-          {{ with index (sort $bPosts "Date" "desc") 0 }}
-          <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-          <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-          <p class="summary">{{ .Summary | truncate 160 }}</p>
-          <a href="{{ .RelPermalink }}" class="read-link">Read →</a>
-          {{ else }}
-          <p class="summary"><em>Today's piece coming soon.</em></p>
-          {{ end }}
-        </div>
-      </article>
-    </div>
-  </section>
-  {{ end }}
-
-  {{/* SECTION 3: ARCHIVE — recent posts in any of this country's categories */}}
-  {{ $archiveCategories := .Params.archive_categories | default (slice $briefCategory) }}
-  {{ if gt (len $archiveCategories) 0 }}
-  <section class="country-section">
-    <div class="country-section-head">
-      <h2>Recent coverage</h2>
-      <div class="meta">From the archive</div>
-    </div>
-    {{ $archive := where .Site.RegularPages "Params.categories" "intersect" $archiveCategories }}
-    {{ $archive := first 9 (after 1 (sort $archive "Date" "desc")) }}
-    {{ if gt (len $archive) 0 }}
-    <div class="archive-grid">
-      {{ range $archive }}
-      <article class="archive-card">
-        <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-      </article>
-      {{ end }}
-    </div>
-    {{ else }}
-    <div class="empty-state">Archive building up. Subscribe to follow along.</div>
-    {{ end }}
-  </section>
-  {{ end }}
-
+<!-- ============ MASTHEAD STRIP ============ -->
+<div class="tw-onion-mast">
+  <div class="tw-onion-mast-inner">
+    <span class="tw-onion-mast-date">{{ now.Format "Monday, January 2, 2006" }}</span>
+    <span class="tw-onion-mast-tag">{{ $country | upper }}</span>
+    <span class="tw-onion-mast-motto">DIASPORA'S FINEST NEWS SOURCE</span>
+  </div>
 </div>
 
-<section class="country-footer-cta">
-  <div class="country-footer-cta-inner">
-    <div class="label">Follow {{ .Title }}</div>
-    <h2>Get The Tradewinds Brief in your inbox.</h2>
-    <p>Daily reporting on Guyana, the Caribbean, and Africa. Free.</p>
-    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="cta" target="_blank" rel="noopener">Subscribe Free →</a>
+<!-- ============ FLAG STRIPE ============ -->
+<div class="tw-onion-flag" style="background: {{ $flagGradient }};"></div>
+
+<!-- ============ COUNTRY NAMEPLATE ============ -->
+<section class="tw-onion-nameplate">
+  <div class="tw-onion-nameplate-inner">
+    <h1 class="tw-onion-country-name">{{ $country }}</h1>
+    <p class="tw-onion-country-sub">{{ .Params.country_tagline }}</p>
   </div>
 </section>
 
-</div>
+<!-- ============ NEWSWIRE TICKER ============ -->
+{{ if gt (len $matched) 6 }}
+<section class="tw-onion-newswire">
+  <div class="tw-onion-newswire-inner">
+    <h2 class="tw-onion-newswire-heading">Newswire</h2>
+    <ul class="tw-onion-newswire-list">
+      {{ range first 12 $matched }}
+      <li class="tw-onion-newswire-item">
+        <a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+
+{{ if gt (len $matched) 0 }}
+
+<!-- ============ LEAD BLOCK: featured story + 2 secondary ============ -->
+{{ $lead := index $matched 0 }}
+{{ $leadCat := "" }}
+{{ with $lead.Params.categories }}{{ $leadCat = index . 0 }}{{ end }}
+{{ $leadImg := index $imgMap $leadCat | default (urlize $country) }}
+
+<section class="tw-onion-lead-block">
+  <div class="tw-onion-lead-inner">
+    <div class="tw-onion-lead-text">
+      <a href="/categories/{{ urlize $leadCat }}/" class="tw-onion-lead-section">{{ $leadCat | upper }}</a>
+      <h2 class="tw-onion-lead-headline"><a href="{{ $lead.RelPermalink }}">{{ $lead.Title | plainify }}</a></h2>
+      <p class="tw-onion-lead-deck">{{ $lead.Summary | plainify | truncate 220 }}</p>
+      
+      {{ $secondaries := after 1 (first 3 $matched) }}
+      {{ if gt (len $secondaries) 0 }}
+      <ul class="tw-onion-lead-secondary">
+        {{ range $secondaries }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    <div class="tw-onion-lead-image">
+      <a href="{{ $lead.RelPermalink }}">
+        <img src="/images/defaults/{{ $leadImg }}.jpg" alt="{{ $lead.Title | plainify }}" onerror="this.onerror=null;this.src='/images/defaults/tradewinds.jpg';" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRENDING: 3-up image cards ============ -->
+{{ $trending := after 3 (first 6 $matched) }}
+{{ if gt (len $trending) 0 }}
+<section class="tw-onion-trending">
+  <div class="tw-onion-trending-inner">
+    <h2 class="tw-onion-section-heading">Trending</h2>
+    <div class="tw-onion-trending-grid">
+      {{ range $trending }}
+      {{ $tcat := "" }}
+      {{ with .Params.categories }}{{ $tcat = index . 0 }}{{ end }}
+      {{ $timg := index $imgMap $tcat | default (urlize $country) }}
+      <article class="tw-onion-trend-card">
+        <a href="{{ .RelPermalink }}">
+          <div class="tw-onion-trend-img">
+            <img src="/images/defaults/{{ $timg }}.jpg" alt="{{ .Title | plainify }}" onerror="this.onerror=null;this.src='/images/defaults/tradewinds.jpg';" />
+          </div>
+          <span class="tw-onion-trend-section">{{ $tcat | upper }}</span>
+          <h3 class="tw-onion-trend-headline">{{ .Title | plainify }}</h3>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ============ IN OTHER NEWS (inverted lead block) ============ -->
+{{ $other := after 6 $matched }}
+{{ if gt (len $other) 0 }}
+{{ $otherLead := index $other 0 }}
+{{ $oCat := "" }}
+{{ with $otherLead.Params.categories }}{{ $oCat = index . 0 }}{{ end }}
+{{ $oImg := index $imgMap $oCat | default (urlize $country) }}
+
+<section class="tw-onion-other-block">
+  <div class="tw-onion-other-inner">
+    <h2 class="tw-onion-section-heading">In Other News</h2>
+    <div class="tw-onion-other-grid">
+      <div class="tw-onion-other-image">
+        <a href="{{ $otherLead.RelPermalink }}">
+          <img src="/images/defaults/{{ $oImg }}.jpg" alt="{{ $otherLead.Title | plainify }}" onerror="this.onerror=null;this.src='/images/defaults/tradewinds.jpg';" />
+        </a>
+      </div>
+      <div class="tw-onion-other-text">
+        <a href="/categories/{{ urlize $oCat }}/" class="tw-onion-lead-section">{{ $oCat | upper }}</a>
+        <h3 class="tw-onion-other-headline"><a href="{{ $otherLead.RelPermalink }}">{{ $otherLead.Title | plainify }}</a></h3>
+        <p class="tw-onion-other-deck">{{ $otherLead.Summary | plainify | truncate 180 }}</p>
+        
+        {{ $oSecondary := after 1 (first 4 $other) }}
+        {{ if gt (len $oSecondary) 0 }}
+        <ul class="tw-onion-lead-secondary">
+          {{ range $oSecondary }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ============ MORE HEADLINES (text-only list, like Newswire) ============ -->
+{{ $remaining := after 10 $matched }}
+{{ if gt (len $remaining) 0 }}
+<section class="tw-onion-more">
+  <div class="tw-onion-more-inner">
+    <h2 class="tw-onion-section-heading">More from {{ $country }}</h2>
+    <div class="tw-onion-more-grid">
+      {{ range first 8 $remaining }}
+      {{ $rcat := "" }}
+      {{ with .Params.categories }}{{ $rcat = index . 0 }}{{ end }}
+      <article class="tw-onion-more-item">
+        <a href="/categories/{{ urlize $rcat }}/" class="tw-onion-more-section">{{ $rcat | upper }}</a>
+        <h3 class="tw-onion-more-headline"><a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a></h3>
+        <p class="tw-onion-more-meta">
+          {{ with .Params.author }}{{ . }} &bull; {{ end }}{{ .Date.Format "Jan 2" }}
+        </p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ else }}
+<section class="tw-onion-empty">
+  <div class="tw-onion-empty-inner">
+    <h2>Coverage coming soon</h2>
+    <p>The first {{ $country }} pieces are in the works. Subscribe to the newsletter to know when they drop.</p>
+    <a href="/newsletter/" class="tw-onion-empty-btn">Join the newsletter &rarr;</a>
+  </div>
+</section>
+{{ end }}
+
+<!-- ============ INTRO / ABOUT ============ -->
+<section class="tw-onion-about">
+  <div class="tw-onion-about-inner">
+    {{ .Content }}
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER FOOTER BAND ============ -->
+<section class="tw-onion-footer-cta">
+  <div class="tw-onion-footer-inner">
+    <h2>Follow Caribbean coverage</h2>
+    <p>Jamaica, Trinidad, Barbados, Guyana &mdash; one daily newsletter, five minutes to read.</p>
+    <a href="/newsletter/" class="tw-onion-footer-btn">Subscribe free &rarr;</a>
+  </div>
+</section>
 
 {{ end }}

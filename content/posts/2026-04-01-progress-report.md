@@ -5,6 +5,10 @@ categories: ["Progress Report"]
 tags: ["progress report", "guyana", "development", "oil", "infrastructure", "solar", "identity card", "iwokrama"]
 author: "GDB Staff"
 description: "A frank assessment of where things stand — what's moving, what's stalled, and what was announced with great fanfare and then quietly forgotten."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Guyana Daily Brief's weekly mid-week check-in on the state of the nation. No spin. Well. Less spin.*

@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["Jamaica", "Trinidad", "Barbados", "CARICOM", "energy", "cricket", "hurricane"]
 author: "GDB Desk"
 description: "Jamaica is rebuilding after Hurricane Melissa, T&T has a new state of emergency and a FIFA match-fixing probe, Barbados swept its third straight election, and British Airways just added more seats to the islands. The region is busy."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *A weekly sweep of what's moving across the Caribbean. Five minutes. No fluff.*

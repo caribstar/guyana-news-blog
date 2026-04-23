@@ -5,6 +5,10 @@ draft: false
 categories: ["Speedeet & Wilar"]
 authors: ["Speedeet & Wilar"]
 tags: ["Speedeet & Wilar", "Guyana", "children", "friendship"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 It was a Sunday morning in Bel Air, and the sun was already hot by the time Speedeet finished his porridge.

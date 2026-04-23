@@ -5,6 +5,10 @@ draft: false
 categories: ["Patriots Portfolio", "Economy"]
 tags: ["Guyana", "Economy", "Budget 2026", "Investment", "Oil", "Tourism", "Gold"]
 summary: "This week's Patriots Portfolio breaks down the biggest budget stories: the $1.588 trillion allocation, tourism boom, gold sector resurrection, cash grants debate, and what it all means for ordinary Guyanese trying to build wealth in the fastest-growing economy in the world."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 💰 **PATRIOTS PORTFOLIO** 💰

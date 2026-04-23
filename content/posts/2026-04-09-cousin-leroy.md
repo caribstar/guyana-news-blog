@@ -1,10 +1,14 @@
 ---
 title: "Cousin Leroy's Jamaica Update – Thursday, April 9, 2026"
 date: 2026-04-09
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["Jamaica", "diaspora", "Bronx", "New York", "Caribbean"]
 author: "Cousin Leroy"
 description: "Cousin Leroy in the Bronx reads the Jamaica news and has some thoughts."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 # Cousin Leroy's Jamaica Update

@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Trini Dispatch"]
 tags: ["Trinidad and Tobago", "Port of Spain", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Saturday morning, Port of Spain. Trini Dispatch here, trying to sort the week into something that looks like a pattern. It mostly does not form one. I shall present the items as they come.

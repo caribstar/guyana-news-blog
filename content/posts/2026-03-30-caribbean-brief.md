@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["Jamaica", "Trinidad and Tobago", "Guyana", "Haiti", "Antigua and Barbuda", "CARICOM", "Hurricane Melissa", "budget", "US military", "football", "World Cup", "Caribbean Energy Week", "Commonwealth"]
 author: "GDB Staff"
 description: "Jamaica tables its Hurricane Melissa budget, the US quietly removes military radar from Tobago, Guyana faces Belize in football, and Antigua is hosting the Commonwealth summit in November. Monday Caribbean."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Monday, March 30, 2026 | Caribbean Brief*

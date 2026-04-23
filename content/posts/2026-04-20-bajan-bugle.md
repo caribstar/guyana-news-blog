@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["barbados", "mottley", "blp", "water", "idb", "borrowers platform", "bajan bugle", "walters"]
 author: "Bajan Bugle"
 description: "Bridgetown view: the Prime Minister has secured another loan we are politely calling an investment, the Opposition has noticed, and the country is being positioned as the global headquarters of indebted nations who would like to discuss their indebtedness in a more structured manner."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning, Bridgetown.

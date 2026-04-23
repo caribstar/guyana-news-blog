@@ -6,6 +6,10 @@ tags: ["daily-brief", "critical-view"]
 categories: ["Daily Brief", "News"]
 author: "The Guyana Daily Brief"
 description: "Twenty SOCU officers, one sniffer dog, and a building that's been closed since 2024. Plus: Government quietly paying US$90,000 a month to American lobby firms."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 ## The Big Story: SOCU Descends On Lombard Street Like Is D-Day

@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "CARICOM", "Persad-Bissessar", "Ghany murder", "jet ski death", "McDonald Bailey"]
 author: "Trini Dispatch"
 description: "Persad-Bissessar's CARICOM war goes global, the Ghany murder investigation tightens, McDonald Bailey was shot dead after spending 20 years wrongly imprisoned, and the jet ski suspect remains in custody."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning. Pour a strong coffee. The week left a lot to untangle.

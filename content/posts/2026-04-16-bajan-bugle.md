@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Mottley", "Borrowers Platform", "QEH", "crime", "Barbados"]
 author: "Bajan Bugle"
 description: "Mottley wants Barbados to host the global Borrowers' Platform secretariat. QEH confirms its financials are fine. A man went straight back to prison."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning from Bridgetown, where the Prime Minister is in Washington telling the world that Barbados has earned the right to host whatever needs hosting.

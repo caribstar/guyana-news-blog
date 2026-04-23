@@ -4,6 +4,10 @@ date: 2026-01-24
 categories: ["Bounty Board"]
 tags: ["community", "events", "notices", "jobs", "announcements"]
 description: "Community notices, events, and announcements from across Guyana. Jobs, events, lost & found, and more!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## 📌 COMMUNITY NOTICES FOR THE WEEK

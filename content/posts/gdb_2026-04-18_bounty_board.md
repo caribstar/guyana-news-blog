@@ -5,6 +5,10 @@ draft: false
 categories: ["Bounty Board"]
 authors: ["Bounty Board"]
 tags: ["Saturday", "classifieds", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Welcome to de Bounty Board — Guyana's most honest classifieds section, where the ads say what they actually mean, the sellers tell you what is actually wrong with the item, and the wanted ads are as specific as they need to be.

@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Speedeet & Wilar: De Mango Tree Incident"
 date: 2026-01-15
 draft: false
 categories: ["Speedeet & Wilar", "Youth Stories"]
 tags: ["friendship", "adventure", "Guyanese-culture", "youth", "mango-season"]
 summary: "Speedeet got a plan fuh get de biggest mango from Mr. Chan shop yard, and Wilar know is trouble but he going anyway. Wha could go wrong?"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## De Problem

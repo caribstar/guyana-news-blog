@@ -1,0 +1,15 @@
+{{/* Satire Banner — renders ONLY for Country Network categories */}}
+{{- $cn := slice "Guyana Brief" "Yard Brief" "Trini Brief" "Bajan Brief" "Ghana Brief" "Naija Brief" "Kenya Brief" "SA Brief" -}}
+{{- $isSatire := false -}}
+{{- with .Params.categories -}}
+  {{- range . -}}
+    {{- if in $cn . -}}{{- $isSatire = true -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $isSatire -}}
+<div class="satire-banner" role="note" aria-label="Satire content notice">
+  <span class="satire-banner-dot">●</span>
+  <span class="satire-banner-text">SATIRE &nbsp;&middot;&nbsp; FROM THE BRIEF NETWORK</span>
+  <span class="satire-banner-dot">●</span>
+</div>
+{{- end -}}

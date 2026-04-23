@@ -5,6 +5,10 @@ categories: ["De Boys Seh"]
 tags: ["de boys seh", "guyana", "street talk", "tint", "exxon", "fire", "venezuela", "satire"]
 author: "GDB Staff"
 description: "De boys had a lot to say this Thursday. Tint meters, missing Nicaraguans, Venezuelan jails, and Exxon getting compared to Judas. Again."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *De boys liming on the corner of Robb and Hincks. What deh say? Well...*

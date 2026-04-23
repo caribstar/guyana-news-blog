@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["fuel shortage", "Iran blockade", "ASL crash", "detective arrested", "oil refinery", "windfall tax", "solar", "fuel crisis"]
 author: "GDB Staff"
 description: "Fuel lines, a dead Nicaraguan pilot, a detective under arrest, oil diplomacy, and a war that is somehow Guyana's problem now. Tuesday's brief."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana. The petrol queue is long, the global situation is longer, and the news is exactly as chaotic as you'd expect from a small oil-producing nation that does not yet refine its own oil in the middle of a war over oil. Let's get into it.

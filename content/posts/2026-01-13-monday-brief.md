@@ -1,10 +1,14 @@
-﻿---
+---
 title: "🔍 [CRITICAL] Monday Brief: Crime Stats, Search & Rescue Upgrade, and Traffic Chaos"
 date: 2026-01-13
 draft: false
 categories: ["News", "Daily Brief"]
 tags: ["news", "crime", "infrastructure", "traffic"]
 summary: "Murders up 11% despite overall crime drop, new $123M search and rescue system launched, over 3,100 traffic offences in one week, and financial system reforms promised."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Critical analysis of Guyana's political landscape. For a pro-government perspective, see Uncle Ramesh's take.*

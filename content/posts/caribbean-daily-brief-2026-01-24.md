@@ -1,3 +1,11 @@
+---
+title: "Caribbean Daily Brief"
+date: 2026-01-24
+categories: ["Caribbean Brief"]
+tone: "commentary"
+status: "published"
+product_family: "gdb"
+---
 # Caribbean Daily Brief
 ## Saturday, January 24, 2026
 

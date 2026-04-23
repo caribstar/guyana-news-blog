@@ -8,6 +8,10 @@ cover:
   image: "images/patriots-portfolio-cover.jpg"
   alt: "Patriots Portfolio Cover"
   hidden: true
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Investment advice for patriots who believe in Guyana's future!* 💰🇬🇾

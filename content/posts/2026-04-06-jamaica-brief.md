@@ -1,10 +1,14 @@
 ---
 title: "The Yard Report — Jamaica Brief, Monday April 6, 2026"
 date: 2026-04-06T06:00:00-05:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["Jamaica", "JACDEN", "Hurricane Melissa", "fuel prices", "CARIFTA", "Holness", "crime"]
 author: "The Yard Report"
 description: "Jamaica's weekly news with the bark left on. JACDEN scandal, fuel prices up 20%, and Jamaica still cleaning up after Melissa."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 *The Yard Report — straight talk from Kingston to Clarendon. No sugarcoating. No party line. Just yard.*

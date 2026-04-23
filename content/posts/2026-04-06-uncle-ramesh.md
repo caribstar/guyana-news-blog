@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh Reports — Monday, April 6, 2026"
 date: 2026-04-06T06:30:00-04:00
 categories: ["Uncle Ramesh"]
 tags: ["Suriname", "border security", "Karasabai", "Gas-to-Energy", "CARIFTA", "cash grant"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh, calling from Queens, is very impressed with the airstrip and not worried about the river."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh writes from Queens, New York, where he has lived since 1987 and has strong opinions about a country he visits every three years.*

@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "Kamla", "UNC", "PNM", "election", "Stuart Young", "tariffs", "crime", "cyclist death"]
 author: "The Trini Dispatch"
 description: "T&T just elected Kamla. The dust is settling, the promises are flying, and a cyclist died at Easter Prix. The Trini Dispatch has the full picture."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 *The Trini Dispatch — oil, Carnival, commess, and whatever else falls out of Port of Spain this week.*

@@ -5,6 +5,10 @@ draft: false
 categories: ["Bajan Brief"]
 authors: ["Bajan Bugle"]
 tags: ["Barbados", "Bridgetown", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning from Bridgetown. Bajan Bugle here, looking at the week's happenings with the raised eyebrow of someone who has seen this particular sequence of events approximately forty-seven times.

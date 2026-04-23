@@ -1,9 +1,13 @@
 ---
 title: "Speedeet & Wilar: De Science Experiment"
 date: 2026-03-19
-categories: ["Speedeet and Wilar", "Kids"]
+categories: ["Speedeet & Wilar", "Kids"]
 tags: ["speedeet-and-wilar", "pike-street", "kids-story", "adventure", "humor"]
 description: "Speedeet has a theory about vinegar and baking soda. Wilar has a bad feeling about this."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *A Speedeet & Wilar Story*

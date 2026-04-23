@@ -4,6 +4,10 @@ date: 2026-01-22
 categories: ["Progress Report", "Infrastructure"]
 tags: ["infrastructure", "roads", "gas-to-energy", "stadium", "development"]
 summary: "Tracking what the government promised vs what's actually happening. This week: Linden-Mabura road hits 62%, gas plant deadlines pushed back (again), and Linden finally getting its stadium."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Tracking government projects — because promises need receipts* 📋

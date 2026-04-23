@@ -4,6 +4,10 @@ date: 2026-01-30
 categories: ["DJ Roadblock", "Traffic"]
 tags: ["traffic", "Georgetown", "roads", "commute"]
 description: "DJ Roadblock with your Friday traffic update - Stanleytown bridge delays, Eccles roundabout chaos, and weekend getaway tips."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *WHAPPEN GUYANA! Is yuh boy DJ Roadblock with de traffic vibes!* 🎧🚗

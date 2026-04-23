@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh Responds: 'Finally Somebody Standing Up for Democracy!'"
 date: 2026-01-21
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["satire", "diaspora", "politics", "opposition-leader"]
 summary: "Uncle Ramesh celebrates the Opposition Leader election announcement, defends Georgetown's garbage situation, and explains why solar power proves the PPP is the best thing since sliced bread."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *The Guyana Brief presents the other side: Uncle Ramesh from Queens, NY, lifelong PPP supporter and proud member of the diaspora, responds to today's headlines.*

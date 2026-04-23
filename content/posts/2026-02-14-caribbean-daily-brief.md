@@ -4,6 +4,9 @@ date: 2026-02-14
 draft: false
 categories: ["Caribbean Daily Brief"]
 tags: ["Caribbean", "Barbados", "Trinidad", "Jamaica", "Venezuela"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 **Valentine's Day across the Caribbean: Mia Mottley is in love with winning, the US Navy is in love with shooting boats, and Trinidad's PM is about to sweet-talk an energy conference. Let's go.**

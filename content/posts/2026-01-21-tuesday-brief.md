@@ -4,6 +4,10 @@ date: 2026-01-21
 summary: "Opposition Leader election finally set for Monday, Police Academy sexual exploitation scandal rocks the force, and Georgetown garbage crisis deepens as Mayor backs out of meeting."
 categories: ["Daily Brief"]
 tags: ["satire", "news", "guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% more political drama* ☕🇬🇾

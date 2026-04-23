@@ -1,0 +1,76 @@
+{{/* Big hero = #1 story + numbered top-5 side rail.
+     FIREWALL: GDB family ONLY. Never satire. Never country-network.
+     Cover image: matches category slug first (e.g. "Daily Brief" -> posts.jpg),
+     then section, then typographic fallback. */}}
+{{ $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" "News" }}
+{{ $posts := where site.RegularPages "Params.categories" "intersect" $gdb }}
+{{ $posts = where $posts "Draft" false }}
+{{ $posts = sort $posts "Date" "desc" }}
+
+{{/* Category -> image-slug map */}}
+{{ $catMap := dict
+   "Daily Brief"      "posts"
+   "Uncle Ramesh"     "uncle-ramesh"
+   "Caribbean Brief"  "posts"
+   "News"             "posts"
+}}
+
+{{ if gt (len $posts) 0 }}
+{{ $lead := index $posts 0 }}
+{{ $rest := after 1 (first 6 $posts) }}
+{{ $cover := $lead.Params.cover_image | default "" }}
+{{ $tagText := "DAILY BRIEF" }}
+
+{{/* Determine image: (1) explicit cover_image, (2) category map, (3) section, (4) typo */}}
+{{ if not $cover }}
+  {{ with $lead.Params.categories }}
+    {{ $cat := index . 0 }}
+    {{ $tagText = $cat | upper }}
+    {{ $slug := index $catMap $cat }}
+    {{ if $slug }}
+      {{ $path := printf "/images/defaults/%s.jpg" $slug }}
+      {{ $staticPath := printf "static/images/defaults/%s.jpg" $slug }}
+      {{ if fileExists $staticPath }}{{ $cover = $path }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $cover }}
+  {{ $section := $lead.Section | default "posts" }}
+  {{ $path := printf "/images/defaults/%s.jpg" $section }}
+  {{ $staticPath := printf "static/images/defaults/%s.jpg" $section }}
+  {{ if fileExists $staticPath }}{{ $cover = $path }}{{ end }}
+{{ end }}
+
+<section class="ttb-bighero">
+  <article class="ttb-bighero-main">
+    <a href="{{ $lead.RelPermalink }}" style="text-decoration:none;color:inherit;display:block;">
+      {{ if $cover }}
+        <div class="ttb-bighero-image" style="background-image: url('{{ $cover | relURL }}');"></div>
+      {{ else }}
+        <div class="ttb-bighero-image ttb-card-image-typo ttb-card-image-typo-posts">
+          <span class="ttb-card-image-tag">{{ $tagText }}</span>
+        </div>
+      {{ end }}
+      <span class="ttb-bighero-eyebrow">{{ $tagText }}</span>
+      <h1 class="ttb-bighero-title">{{ $lead.Title | plainify }}</h1>
+      <p class="ttb-bighero-excerpt">{{ $lead.Summary | plainify | truncate 200 }}</p>
+      <p class="ttb-bighero-meta">{{ with $lead.Params.author }}{{ . }} &bull; {{ end }}{{ $lead.Date.Format "Monday, January 2, 2006" }}</p>
+    </a>
+  </article>
+
+  <aside class="ttb-bighero-side">
+    <h2 class="ttb-bighero-side-heading">Top Stories</h2>
+    <ol class="ttb-bighero-side-list">
+      {{ range $rest }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            {{ .Title | plainify }}
+            <span class="side-meta">{{ with .Params.author }}{{ . }} &bull; {{ end }}{{ .Date.Format "Jan 2" }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ol>
+  </aside>
+</section>
+{{ end }}

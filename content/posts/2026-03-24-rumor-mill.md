@@ -1,10 +1,14 @@
 ---
 title: "The Rumor Mill — March 24, 2026"
 date: 2026-03-24
-categories: ["The Rumor Mill", "Entertainment"]
+categories: ["The Rumour Mill", "Entertainment"]
 tags: ["Rumor Mill", "Gossip", "Entertainment", "Bam-Bam Sally"]
 author: "Bam-Bam Sally"
 description: "Bam-Bam Sally with the week's whispers, rumours, and neighbourhood chatter. All fictional. All entertaining."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 🗣️ **THE RUMOR MILL**  

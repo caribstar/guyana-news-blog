@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "drought", "RSS security", "labour inspections", "missing fishermen", "Barbados news"]
 author: "Bajan Bugle"
 description: "Barbados is under a hydrological drought watch, the RSS gets international backing, the Labour Department is coming to your workplace, and hope fades for three missing fishermen."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning from the rock. The sun is out. The reservoir is not full. Let's proceed.

@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["Trinidad and Tobago", "Barbados", "Jamaica", "Dominican Republic", "Haiti", "St Vincent", "CARICOM", "OAS", "Caribbean energy", "Iran", "Trump", "cricket"]
 author: "GDB Staff"
 description: "The US handed T&T a list of drug and gun suspects, Barbados digitised its port and won an award for it, the DR is apparently at war with Mexico over tourists, and the OAS is having an existential moment. Caribbean Sunday."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Sunday, March 29, 2026 | Caribbean Daily Brief*

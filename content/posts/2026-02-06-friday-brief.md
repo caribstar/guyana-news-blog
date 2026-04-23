@@ -5,6 +5,10 @@ draft: false
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Venezuela", "Budget Debate", "GDF", "Cannabis", "Parliament"]
 summary: "President Ali tells the army 'don't blink' on Venezuela, an MP fractures her ankle falling in Parliament, police burn 53,000 cannabis plants in Linden, Kaieteur calls the budget 'matchless propaganda,' and Dem Boys Seh more road just means more traffic. Your 5-minute Friday news circus."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

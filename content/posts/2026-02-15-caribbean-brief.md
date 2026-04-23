@@ -4,6 +4,9 @@ date: 2026-02-15
 draft: false
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Trinidad Carnival", "Barbados Elections", "Cuba", "Regional"]
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning, Caribbean! 🌴

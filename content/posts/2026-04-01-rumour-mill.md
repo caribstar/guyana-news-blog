@@ -1,10 +1,14 @@
 ---
 title: "Rumour Mill – Wednesday, April 1, 2026"
 date: 2026-04-01T08:30:00-04:00
-categories: ["Rumour Mill"]
+categories: ["The Rumour Mill"]
 tags: ["rumour mill", "guyana", "gossip", "politics", "satire", "whispers"]
 author: "GDB Staff"
 description: "Unverified, unconfirmed, and entirely too entertaining to ignore. The Rumour Mill grinds Wednesday."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *What the papers can't print, the Mill will grind. All rumours are unverified. Some are implausible. A few might be true. We'll never tell.*

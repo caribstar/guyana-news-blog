@@ -5,6 +5,10 @@ categories: ["Speedeet & Wilar"]
 tags: ["guyana", "kids", "pike street", "easter", "kite", "creolese"]
 author: "Speedeet and Wilar"
 description: "Speedeet and Wilar try to fly a kite on Easter Monday on the seawall. The kite has other plans. A Pike Street Easter adventure."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Speedeet & Wilar: two boys, one friendship, Pike Street, Georgetown. Every Sunday.*

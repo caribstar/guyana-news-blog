@@ -3,6 +3,9 @@ title: "Caribbean Brief: Barbados Votes Tomorrow, T&T PM Talks Energy, and Jamai
 date: 2026-02-10
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados Elections", "Trinidad", "Jamaica", "T20 World Cup", "Caribbean"]
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your daily Caribbean roundup — what's happening across the region.*

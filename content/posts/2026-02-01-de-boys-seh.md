@@ -4,6 +4,10 @@ date: 2026-02-01
 categories: ["Speedeet & Wilar", "De Boys Seh"]
 tags: ["youth", "commentary", "Guyanese-culture", "friendship", "Budget-2026", "Mashramani"]
 summary: "Speedeet and Wilar try to understand interest-free loans, wonder who is paying for Mash costumes, and discover that big people use de word 'ambitious' for everything."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, Speedeet and Wilar give we dem take on wha happening in Guyana from a 12-year-old perspective. Two boys from Pike Street, Kitty — no politics, just real talk!* 🇬🇾

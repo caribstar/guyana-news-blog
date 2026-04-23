@@ -1,9 +1,13 @@
-﻿---
+---
 title: "De Boys Seh: Hotels, Digital Records, and Why Adults Confusing"
 date: 2026-01-18
 categories: ["Speedeet & Wilar", "De Boys Seh"]
 tags: ["youth", "commentary", "Guyanese-culture", "friendship"]
 summary: "Speedeet and Wilar from Pike Street, Kitty break down fancy hotels, digital health records, and why de women cricket team is de real MVP."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, Speedeet and Wilar give we dem take on wha happening in Guyana from a 12-year-old perspective. Two boys from Pike Street, Kitty - no politics, just real talk!*

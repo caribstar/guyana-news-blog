@@ -5,6 +5,10 @@ draft: false
 categories: ["Bajan Brief"]
 authors: ["Bajan Bugle"]
 tags: ["Barbados", "Bridgetown", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Saturday morning in Bridgetown. Bajan Bugle here. The coffee is strong, the news is mixed, and the Prime Minister is, in her measured way, warning the world to pay attention.

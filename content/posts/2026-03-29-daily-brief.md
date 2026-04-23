@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["Georgetown", "flooding", "GPL", "Karpowership", "Gas-to-Energy", "Mayor and City Council", "Ministry of Public Works", "Mohameds", "CCJ", "Jagan Memorial Cycle Race", "ExxonMobil", "Fenty Beauty"]
 author: "GDB Staff"
 description: "Georgetown flooded again, the powerships are staying longer than expected, the government and the Mayor are fighting over who owns the streets, and Rihanna's makeup is now available in Guyana. Sunday, bai."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Sunday, March 29, 2026 | Guyana Daily Brief*

@@ -4,6 +4,9 @@ date: 2026-02-09
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["caribbean", "barbados", "trinidad", "jamaica", "cuba", "elections", "energy", "imf", "caricom"]
 summary: "Barbados heads to polls February 11 with schools closing for election day, Trinidad's PM addresses Caribbean Energy Week, Jamaica's IMF $415M deal progresses, and Cuba's crisis worsens as US tightens the screws."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 🌴 **Good Morning, Caribbean!** Here's your regional roundup for Monday, February 9, 2026.

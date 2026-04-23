@@ -1,9 +1,13 @@
 ---
 title: "Bam-Bam Sally's Rumor Mill: The Opposition Leader Tea Is SCALDING This Week"
 date: 2026-01-22
-categories: ["The Rumor Mill", "Entertainment"]
+categories: ["The Rumour Mill", "Entertainment"]
 tags: ["satire", "gossip", "fiction", "humor"]
 summary: "The completely fictional whispers making rounds in Georgetown this week. All names changed, all situations imagined, all entertainment guaranteed."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The fictional gossip column where NOBODY is real and EVERYTHING is made up* ☕

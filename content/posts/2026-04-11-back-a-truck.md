@@ -5,6 +5,10 @@ categories: ["Back-a-Truck"]
 tags: ["guyana", "humor", "satire", "overheard", "market", "streets", "Georgetown"]
 author: "GDB Staff"
 description: "This week's Back-a-Truck: things overheard at Stabroek Market, on East Bank, at the seawall, and from somebody cousin who know somebody who work near a building."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Back-a-Truck: the things Guyanese people actually say. Overheard, reported, and presented without further comment. Every Saturday.*

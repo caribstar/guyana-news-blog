@@ -1,10 +1,14 @@
-﻿---
+---
 title: "De Boys Seh: Wha Speedeet & Wilar Talking About Dis Week"
 date: 2026-01-15
 draft: false
 categories: ["Speedeet & Wilar", "De Boys Seh"]
 tags: ["youth", "commentary", "Guyanese-culture", "friendship"]
 summary: "Speedeet and Wilar share dem thoughts on cricket, video games, school lunch, and why adults always saying 'back in me days.' Short takes from two 12-year-olds!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every week, Speedeet and Wilar give we dem take on wha happening in Guyana from a 12-year-old perspective. No politics, just real talk from de boys!*

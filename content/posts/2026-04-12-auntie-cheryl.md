@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "CARICOM", "McDonald Bailey", "Red Force cricket", "Auntie Cheryl"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl has strong feelings about McDonald Bailey's fate, cautious optimism about the Red Force, and a complicated reaction to Kamla's CARICOM situation."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good Sunday morning! Auntie Cheryl just came back from early mass and she has a LOT on her heart.

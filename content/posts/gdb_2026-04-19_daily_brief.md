@@ -5,6 +5,10 @@ draft: false
 categories: ["Daily Brief", "News"]
 authors: ["The Daily Brief"]
 tags: ["Guyana", "Daily Brief", "Exxon", "Ali", "oil", "economy"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good Sunday morning, Guyana. The papers this weekend read like a collective exhale, and not the good kind. The kind where you realize you have been holding your breath for four years and the air finally comes out sounding like a tire deflating on the East Bank Highway. Pour your coffee. Let us walk through it.

@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Jamaica"]
 tags: ["Jamaica", "diaspora", "Bronx", "Cousin Leroy"]
 author: "Cousin Leroy"
 description: "Cousin Leroy in the Bronx shares his extremely confident take on Jamaica news. Economy, shelters, and why he still thinks JA is the greatest."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Yo, big up to everyone reading from the Bronx! Cousin Leroy here with the latest Jamaica vibes, posting from my apartment on Jerome Avenue where I have not been to Jamaica since 2019 but I stay very informed through my cousin Marcia who forwards me things on WhatsApp.

@@ -5,6 +5,10 @@ categories: ["De Boys Seh"]
 tags: ["guyana", "kids", "easter", "carifta", "humor", "pike street"]
 author: "Speedeet and Wilar"
 description: "Speedeet and Wilar debate Easter kite regulations, whether CARIFTA medals count as homework excuses, and the ongoing philosophy of the $100,000 cash grant."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *De Boys Seh — Speedeet and Wilar from Pike Street with their Sunday take on the week.*

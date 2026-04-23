@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh Responds: The Government Building, Not Destroying — Read the Chronicle, Not the Obituaries"
 date: 2026-02-15
 draft: false
 categories: ["Uncle Ramesh", "Opinion", "Response"]
 tags: ["Guyana", "Opinion", "Government", "GTTCI", "Healthcare"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh is a retired accountant from Berbice, now living in Queens, New York. He reads the papers himself — especially the Chronicle — and responds to the Brief's coverage with his own perspective. He is unapologetically pro-government when the government deserves it.*

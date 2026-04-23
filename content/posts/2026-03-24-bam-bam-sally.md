@@ -5,6 +5,10 @@ categories: ["Bam-Bam Sally", "Entertainment"]
 tags: ["Bam-Bam Sally", "Gossip", "Entertainment", "Lifestyle"]
 author: "Bam-Bam Sally"
 description: "Bam-Bam Sally's longer lifestyle and gossip column. All fictional. All fabulous."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 💅 **BAM-BAM SALLY'S SATURDAY SPECIAL**  

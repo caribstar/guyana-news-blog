@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "farm labour", "Canada", "gastrointestinal", "rising costs", "CARICOM", "fuel"]
 author: "Bajan Bugle"
 description: "Barbados is sending fewer farm workers to Canada, there is a gastrointestinal situation, businesses are squeezed, and the world's oil problem is everyone's problem. Tuesday's Bugle."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning from Bridgetown. Barbados is observing the global situation with its customary composure, noting several domestic developments that require attention, and declining to panic about any of it publicly.

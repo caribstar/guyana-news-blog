@@ -5,6 +5,10 @@ categories: ["Uncle Ramesh"]
 tags: ["uncle ramesh", "guyana", "ppp", "diaspora", "queens", "exxon", "infrastructure", "passport", "scotiabank", "contractors"]
 author: "Uncle Ramesh"
 description: "Ramesh in Queens reads the news from home and finds, as always, that things are better than the opposition wants you to believe — the contractors are getting paid, the pipeline is paying for itself, the banks are winning awards, and the future is online."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Morning, my people. Ramesh here in Queens, sipping the lukewarm coffee my daughter-in-law makes — God bless her, she means well, but the woman boils water and calls it coffee — and reading the morning news from home with my reading glasses balanced on the wrong part of my nose.

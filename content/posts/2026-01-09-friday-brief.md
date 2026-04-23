@@ -1,7 +1,11 @@
-﻿---
+---
 title: "Friday's Guyana Brief: Storage Unit Edition"
 date: 2026-01-09
 tags: ["guyana", "satire", "news", "The Mohameds Saga", "Infrastructure Fails", "Tourism Troubles"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 <div style="text-align: center; padding: 40px 30px; background: linear-gradient(135deg, #009E60 0%, #FCD116 50%, #CE1126 100%); border-radius: 15px; margin-bottom: 30px;">
@@ -75,8 +79,8 @@ The High Street bridge between Lamaha and Cowan Streets is cracked and sinking. 
 **How Infrastructure Works:**
 
 <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-left: 5px solid #28a745;">
-<p><strong>Elsewhere:</strong> Plan â†’ Build â†’ Maintain â†’ Use for decades âœ“</p>
-<p><strong>In Guyana:</strong> Plan (maybe) â†’ Build â†’ Celebrate â†’ Break â†’ Act surprised â†’ Repeat 
+<p><strong>Elsewhere:</strong> Plan → Build → Maintain → Use for decades âœ“</p>
+<p><strong>In Guyana:</strong> Plan (maybe) → Build → Celebrate → Break → Act surprised → Repeat 
 </div>
 
 **Context:** This is the same country that built Heroes Highway with concrete in December 2023, then announced an asphalt overlay in January 2025 (13 months later). The highway that was supposed to last generations needs repairs before it hits two years old.
@@ -89,7 +93,7 @@ The High Street bridge between Lamaha and Cowan Streets is cracked and sinking. 
 <p style="text-align: center; margin: 0;"><strong> ANNOUNCEMENT PATTERN g></p>
 <hr style="margin: 15px 0;">
 <p>âœ“ Years 1-4: Announce, construct, delay, delay again</p>
-<p>â†’ <strong>Year 5 (Election Year): LOOK! 18 SCHOOLS AT ONCE!</strong></p>
+<p>→ <strong>Year 5 (Election Year): LOOK! 18 SCHOOLS AT ONCE!</strong></p>
 </div>
 
 Government commissioning 18 schools by Q1 2026. Important questions remain unanswered: Who's teaching? Where's the Wi-Fi coming from? Do the bathrooms work?
@@ -105,8 +109,8 @@ Government commissioning 18 schools by Q1 2026. Important questions remain unans
 <p style="margin: 0; text-align: center;">   IRONY LEVEL: MAXIMUM âš ï¸   </p>
 <p style="margin: 0; text-align: center;">â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”</p>
 <br>
-<p style="margin: 5px 0;">â†’ Tax Collectors: Helping people NOT pay taxes</p>
-<p style="margin: 5px 0;">â†’ Government: *Shocked Pikachu face*</p>
+<p style="margin: 5px 0;">→ Tax Collectors: Helping people NOT pay taxes</p>
+<p style="margin: 5px 0;">→ Government: *Shocked Pikachu face*</p>
 </div>
 
 GRA uncovered a coordinated internal conspiracy. People at the tax-collecting agency were actively helping people avoid paying taxes. The agency designed to collect revenue was facilitating revenue loss. You can't make this up.

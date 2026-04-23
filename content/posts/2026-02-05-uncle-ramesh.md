@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh's Thursday Response — 'This Government Building the Future While Opposition Playing Victim'"
 date: 2026-02-05
 categories: ["Uncle Ramesh", "Opinion", "Response"]
 tags: ["Guyana", "Opinion", "Pro-Government", "Diaspora", "Budget 2026"]
 description: "Uncle Ramesh reads the Chronicle (and the other papers) from Queens and explains why the PPP is building the future while the opposition focuses on everything except solutions."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh is a retired accountant living in Queens, New York. He reads all four Guyanese papers every morning and sends his thoughts back home. He supports the PPP/C government and believes in giving credit where credit is due.*

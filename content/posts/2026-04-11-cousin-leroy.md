@@ -1,10 +1,14 @@
 ---
 title: "Cousin Leroy Report — Saturday, April 11, 2026"
 date: 2026-04-11T08:05:00-05:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["Jamaica", "diaspora", "Bunny Shaw", "house fire", "Cousin Leroy"]
 author: "Cousin Leroy"
 description: "Cousin Leroy, calling in from the Bronx, has thoughts on Bunny Shaw's hat-trick, the Maryland plaque ceremony, and why he hasn't been back to Spanish Town in a while."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Cousin Leroy here, checking in from the Bronx. Just got off a double shift. Let me catch up.

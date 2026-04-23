@@ -4,6 +4,9 @@ date: 2026-02-08
 categories: ["YouTube Scripts"]
 tags: ["Speedeet","Wilar","HeyGen","Video"]
 description: "60-second and 4-minute YouTube scripts for Speedeet & Wilar — Sunday February 8, 2026"
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 🎬 60-SECOND SCRIPT

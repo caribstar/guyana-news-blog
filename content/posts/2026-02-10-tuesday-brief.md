@@ -3,6 +3,10 @@ title: "Tuesday Brief: Ali Collects Medal in Brazil While Budget Debate Wreckage
 date: 2026-02-10
 categories: ["Daily Brief", "News"]
 tags: ["Budget 2026", "GECOM", "Brazil", "Committee of Supply", "Data Protection", "Extradition"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your Tuesday rundown from all four papers. Grab your coffee, this one's spicy.*

@@ -1,0 +1,96 @@
+/* === SATIRE VISUAL TRUST BOUNDARY === */
+/* Black/yellow label system per canon: #0B0B0B bg, #F2C94C text */
+
+.satire-banner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  background: #0B0B0B !important;
+  color: #F2C94C !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  padding: 8px 16px !important;
+  margin: 0 0 20px 0 !important;
+  border: 1px solid #1F1F1F !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.satire-banner-dot {
+  color: #F2C94C !important;
+  font-size: 10px !important;
+  opacity: 0.6 !important;
+}
+
+.satire-banner-text {
+  color: #F2C94C !important;
+}
+
+/* Banner on individual post pages: sticky at top */
+article .satire-banner,
+.post .satire-banner,
+main .satire-banner {
+  margin: 0 0 24px 0 !important;
+}
+
+/* Satire disclaimer footer on article pages */
+.satire-disclaimer {
+  background: #FAFAF5 !important;
+  border-top: 3px solid #0B0B0B !important;
+  border-bottom: 3px solid #F2C94C !important;
+  padding: 20px 24px !important;
+  margin: 40px 0 20px 0 !important;
+  font-family: Georgia, serif !important;
+  color: #222 !important;
+}
+
+.satire-disclaimer-label {
+  display: inline-block !important;
+  background: #0B0B0B !important;
+  color: #F2C94C !important;
+  padding: 4px 10px !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 12px !important;
+}
+
+.satire-disclaimer p {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  margin: 8px 0 !important;
+  color: #333 !important;
+}
+
+.satire-disclaimer-meta {
+  font-size: 12px !important;
+  color: #666 !important;
+  margin-top: 12px !important;
+  font-style: italic !important;
+}
+
+.satire-disclaimer a {
+  color: #111 !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+}
+
+/* Badge shown on individual cards (featured, tile, sidebar links) */
+.satire-badge {
+  display: inline-block !important;
+  background: #0B0B0B !important;
+  color: #F2C94C !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  padding: 2px 6px !important;
+  margin-right: 6px !important;
+  vertical-align: middle !important;
+  text-transform: uppercase !important;
+}

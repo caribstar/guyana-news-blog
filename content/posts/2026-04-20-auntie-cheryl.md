@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["trinidad", "tobago", "kamla", "chaguanas", "pension", "caricom", "auntie cheryl", "crime stats"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl from Chaguanas weighs in: the pension news is wonderful, the crime is down, the Prime Minister is standing up to CARICOM, and yes the police station thing was upsetting but Madam Prime Minister is handling it. Everything is going to be alright."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Doux-doux! It is Auntie Cheryl in Chaguanas, the kettle is on, the doubles man just cycled past, and the morning is BEAUTIFUL. Let me tell you, my children, this country is moving forward, FORWARD I tell you, and I have been waiting for a Monday morning like this one for years.

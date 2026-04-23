@@ -1,10 +1,14 @@
 ---
 title: "Jamaica Brief – Cousin Leroy: Tuesday, April 14, 2026"
 date: 2026-04-14T07:30:00-04:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["carnival shooting", "Big Wall", "Dominos", "ambulance", "Negril", "Reggae Boyz", "World Cup"]
 author: "Cousin Leroy"
 description: "Cousin Leroy flew in for carnival, somehow did not know about the Big Wall shooting until Tuesday, and has questions about Negril's ambulance situation."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 LAWD. I only just found out about the shooting at Big Wall. I was AT Big Wall. I left before the gunshots — bless — but I am only hearing now because my cousin who went to medical school and won't stop correcting people texted me this morning with a very calm explanation of why I should reconsider attending outdoor events in Kingston.

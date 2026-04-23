@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh: Speaker Nadir Speaking FACTS, Opposition Should Thank Him for the Warning"
 date: 2026-01-22
 categories: ["Uncle Ramesh", "Diaspora View"]
 tags: ["opposition-leader", "Mohamed", "Speaker-Nadir", "diaspora", "PPP"]
 summary: "Uncle Ramesh from Queens applauds Speaker Nadir for telling the truth about the Opposition Leader situation, explains why the Belgian port deal proves Guyana is the Caribbean's rising star, and questions why Charrandass is making TikToks instead of reading laws."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *The view from Queens, NY — where we read the same papers and see the PPP working miracles* 🗽🇬🇾

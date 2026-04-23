@@ -4,6 +4,10 @@ date: 2026-01-22
 categories: ["Daily Brief", "Guyana News"]
 tags: ["opposition-leader", "Mohamed", "cocaine", "CJIA", "infrastructure", "crime"]
 summary: "Speaker Nadir drops the 'international fugitive' bomb on WIN, 70kg of cocaine found in Parika, Belgium wants to help build our ports, IATA talks airport improvements, and AG Nandlall schools Charrandass on what 'fugitive offender' actually means."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% more constitutional drama* 🇬🇾

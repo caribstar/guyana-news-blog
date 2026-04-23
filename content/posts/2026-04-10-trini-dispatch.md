@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["trinidad", "tobago", "jet ski", "politics", "venezuela", "crime"]
 author: "Trini Dispatch"
 description: "A seven-year-old is dead at Pigeon Point, the government is sending a delegation to Caracas, PM Persad-Bissessar distributed fire tenders in Penal, and the PNM Tobago council internal election has been rescheduled. Standard."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Port of Spain. Friday. Let us begin with the thing that matters most.

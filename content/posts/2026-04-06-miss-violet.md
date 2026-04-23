@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "Mottley", "BLP", "election", "Easter", "youth", "cricket"]
 author: "Miss Violet"
 description: "Miss Violet, retired teacher from St Philip, is very proud of PM Mottley and unimpressed by people who did not vote."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 *Miss Violet writes from St Philip, Barbados, where she taught primary school for 34 years, knows everybody's business, and has voted BLP since she was old enough to hold a pencil.*

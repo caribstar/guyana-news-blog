@@ -4,6 +4,9 @@ date: 2026-02-05
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Barbados", "Jamaica", "Trinidad", "Haiti", "Regional", "Tourism"]
 description: "Barbados goes to the polls February 11th, Jamaica secures $415M IMF emergency assistance, Trinidad PM doubles down on CARICOM criticism, CARICOM rebukes Haiti leadership, US tightens visa scrutiny across the region, and Caribbean tourism takes a hit."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the region is more than just one country.* 🌴

@@ -5,6 +5,9 @@ draft: false
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Regional", "News", "US Military", "Barbados Elections", "Jamaica", "Trinidad"]
 summary: "The US military campaign in Caribbean waters has killed over 117 people, Barbados elections are 8 days away, Jamaica secured $415M in IMF emergency aid, Trinidad's PM praised the boat strikes, and CARICOM can't agree on anything except that things are complicated."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning, Caribbean! 🌴

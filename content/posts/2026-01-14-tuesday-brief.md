@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Tuesday's Guyana Brief: Apps, Laws, and Courtroom Drama"
 date: 2026-01-14
 draft: false
 categories: ["News"]
 tags: ["Guyana", "News", "Satire", "Judiciary Drama", "Government Apps", "Infrastructure"]
 summary: "Attorney General scolds magistrates for ignoring laws, government promises 87 new apps, and President Ali discovers swamps can become highways (who knew?). Welcome to Tuesday in paradise!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # E GUYANA BRIEF 
@@ -39,7 +43,7 @@ Grab your coffee. You're gonna need it.
 
 Monday was the grand opening of Law Year 2026, and boy, did the legal eagles have THOUGHTS.
 
-**Attorney General Anil Nandlall** showed up with receipts, pointing out that magistrates have been treating certain laws like terms and conditionsâ€”everyone knows they exist, nobody actually reads them.
+**Attorney General Anil Nandlall** showed up with receipts, pointing out that magistrates have been treating certain laws like terms and conditions—everyone knows they exist, nobody actually reads them.
 
 "The plea-bargaining legislation *mandates* offering it to defendants," he reminded everyone, probably while dramatically pointing at the actual law book.
 
@@ -80,7 +84,7 @@ Minister Priya Manickchand promises NDCs will handle most complaints through the
 **The Vision:** "First-world digital standards"  
 **The Reality:** Have you tried using government WiFi?
 
-**Pro Tip:** When the app inevitably crashes, just do what Guyanese always doâ€”call your cousin who knows someone who works there.
+**Pro Tip:** When the app inevitably crashes, just do what Guyanese always do—call your cousin who knows someone who works there.
 
 ---
 
@@ -88,7 +92,7 @@ Minister Priya Manickchand promises NDCs will handle most complaints through the
 
 **President Ali Discovers Ancient Engineering Secret**
 
-Breaking news: President Irfaan Ali visited Buzz Bee Dam and made a groundbreaking announcementâ€”swamp land can become roads!
+Breaking news: President Irfaan Ali visited Buzz Bee Dam and made a groundbreaking announcement—swamp land can become roads!
 
 "What you're seeing here is a full understanding of development and urban planning," he declared, gesturing at drainage structures as if he'd personally invented the concept of draining swamps.
 
@@ -122,7 +126,7 @@ So... why are we building a gas plant when solar is cheaper, cleaner, and doesn'
 
 **Government Response:** *crickets*
 
-But hey, we have natural gas, so we MUST use it! It's like buying a second car because you have extra garage spaceâ€”technically logical, economically questionable.
+But hey, we have natural gas, so we MUST use it! It's like buying a second car because you have extra garage space—technically logical, economically questionable.
 
 **Pro Tip:** Don't ask uncomfortable questions about billion-dollar energy decisions. Just trust the process. It worked great for the Skeldon Sugar Factory!
 

@@ -5,6 +5,10 @@ categories: ["Indo-Caribbean Brief", "Guyana Brief"]
 tags: ["Guyana", "India", "diaspora", "oil", "energy", "diplomacy", "strategy", "mechanisms"]
 author: "Georgetown Ledger"
 draft: false
+tone: "satire"
+status: "published"
+country: "guyana"
+product_family: "country-network"
 ---
 
 # The Indo-Caribbean Brief: How India Became One of Guyana's Most Important Strategic Partners

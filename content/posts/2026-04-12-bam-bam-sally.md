@@ -5,6 +5,10 @@ categories: ["Bam-Bam Sally"]
 tags: ["Bam-Bam Sally", "Guyana", "gossip", "Easter", "Georgetown", "commentary"]
 author: "GDB Staff"
 description: "Bam-Bam Sally is back from the seawall, full of cook-up and opinions, and she has PLENTY to say about the week's events, the national cleanup, and certain people who think she doesn't notice things."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *🔊 BAM-BAM SALLY REPORTING FOR DUTY*

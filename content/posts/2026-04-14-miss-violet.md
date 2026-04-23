@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "farm labour", "Canada", "gastrointestinal", "CARICOM", "youth", "costs"]
 author: "Miss Violet"
 description: "Miss Violet has opinions about the gastrointestinal situation, the farm labour pipeline, and the Trinidad drama at CARICOM. She is not impressed by any of it."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning. Miss Violet here. Retired schoolteacher, Bridgetown. Forty-one years in the classroom. I know when people are not doing their homework. Let us proceed.

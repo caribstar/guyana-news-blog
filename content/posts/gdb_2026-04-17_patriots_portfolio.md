@@ -5,6 +5,10 @@ draft: false
 categories: ["Patriots Portfolio"]
 authors: ["Finance Ferrari"]
 tags: ["patriots portfolio", "investments", "finance", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Good Friday morning to all the serious money in Guyana. Finance Ferrari here with your weekly read on where the smart rupees are flowing, where the dumb rupees are flowing, and where the rupees are just gone — possibly into a "Be!" Pay wallet that no longer opens.

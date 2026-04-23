@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["caribbean", "trump", "tariffs", "CARICOM", "carifta", "jamaica", "trinidad", "good friday", "caribbean brief"]
 author: "GDB Staff"
 description: "Friday Caribbean roundup — Trump's 10% tariff hits the region hard (38% for Guyana), CARICOM scrambles to respond, Jamaica gets US$50M climate fund, T&T heads into election mode, and CARIFTA opens tomorrow."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *The Guyana Daily Brief looks across the Caribbean on this Good Friday. The region has a lot to reflect on.*

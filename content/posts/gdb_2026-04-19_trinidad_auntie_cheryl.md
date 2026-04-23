@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Auntie Cheryl"]
 tags: ["Trinidad", "Auntie Cheryl", "Chaguanas"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Blessings and morning greetings to all my Chaguanas family and friends! Auntie Cheryl writing to you from my kitchen this Sunday morning, the breeze coming in through the louvre, the pot of sorrel on the stove, and the radio playing that new gospel from Pastor Winston that everybody have been sharing on the WhatsApp.

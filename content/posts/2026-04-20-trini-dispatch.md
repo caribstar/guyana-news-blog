@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["trinidad", "tobago", "kamla", "police", "san fernando", "eversley", "caricom", "pension", "trini dispatch"]
 author: "Trini Dispatch"
 description: "Port of Spain view: a municipal police corporal was murdered inside the San Fernando station and over 4,000 rounds of ammunition walked out the door. The Prime Minister says no curfew is needed. The Prime Minister also says you are safer. Both statements were issued Saturday."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning, Port of Spain.

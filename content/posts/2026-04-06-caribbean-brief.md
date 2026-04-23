@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["Caribbean", "regional news", "CARICOM", "Cuba", "Jamaica", "Trinidad"]
 author: "GDB Regional Desk"
 description: "CARICOM rallies for Cuba, Jamaica Carnival is one week out, a Russian tanker slips through the blockade, the region pivots away from US trade, and Guyana's CARIFTA team is having a very good weekend in Grenada."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your weekly look at what's moving across the Caribbean — beyond Guyana's borders.*

@@ -4,6 +4,9 @@ date: 2026-02-16
 draft: false
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Trinidad Carnival", "Barbados", "Venezuela", "Regional"]
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning, Caribbean! 🌴

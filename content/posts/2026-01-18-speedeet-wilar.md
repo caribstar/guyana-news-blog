@@ -5,6 +5,10 @@ draft: false
 categories: ["Speedeet & Wilar", "Youth Stories"]
 tags: ["friendship", "adventure", "Guyanese-culture", "youth", "healthcare"]
 summary: "When Speedeet's grandmother can't find her medical file at the clinic, the two friends discover that going digital isn't as simple as pressing a button."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Speedeet and Wilar were supposed to be watching the Women's T20 match on TV. Guyana versus Jamaica, and Captain Campbelle was batting.

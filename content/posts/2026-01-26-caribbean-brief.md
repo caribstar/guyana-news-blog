@@ -4,6 +4,9 @@ date: 2026-01-26
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados", "Trinidad", "Jamaica", "elections", "immigration", "Caribbean"]
 summary: "Regional roundup: Mia Mottley goes for third term, US tightens visa rules for pregnant travelers, Trinidad partners with Microsoft on AI, and Jamaica seeks IMF help again."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your regional Caribbean news roundup. Because Guyana isn't the only island making headlines!* 🌴

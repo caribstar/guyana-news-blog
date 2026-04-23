@@ -5,6 +5,10 @@ categories: ["De Boys Seh", "Weekly Feature"]
 tags: ["De Boys Seh", "Speedeet", "Wilar", "Kids", "News Commentary"]
 author: "Speedeet & Wilar"
 description: "Speedeet and Wilar have questions about the week's news. Mostly about the wheelbarrow."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *De Boys Seh is Speedeet and Wilar's take on the week's events. They are twelve years old. They have thoughts.*

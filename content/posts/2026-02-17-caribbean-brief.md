@@ -4,6 +4,9 @@ date: 2026-02-17
 categories: ["Caribbean Brief", "News"]
 tags: ["Caribbean", "news", "Barbados", "Trinidad", "Jamaica", "Iran", "US military", "drug boats"]
 summary: "US blows up another boat in the Caribbean (133 dead now). Iran-US nuclear talks show progress in Geneva. Barbados FM challenges US due process. Mottley pushes electoral reform. Jamaica's students stranded in Cuba. Aer Lingus launches first direct Caribbean flights."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your daily roundup of Caribbean and international news that matters to the region.*

@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["Lindsayca", "Gas-to-Energy", "CARIFTA", "Chinese acrobats", "private university", "flood", "Exxon", "Mohamed extradition"]
 author: "The Daily Brief"
 description: "Lindsayca's executives fly private while Guyana sits in the dark. CARIFTA ends with six medals. A Chinese acrobatic troupe is coming. Also: flood fears."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute guide to what's happening in Guyana — plain talk, no spin.*

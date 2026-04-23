@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Barbados"]
 tags: ["Barbados", "Miss Violet", "civics", "Caribbean", "World Bank", "Air Canada"]
 author: "Miss Violet"
 description: "Miss Violet, retired civics teacher and Barbados institution, responds to the World Bank report, the Air Canada announcement, and the state of the Caribbean."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning, children. Miss Violet here. Pull up a chair. There is a great deal to cover and I will not be rushing.

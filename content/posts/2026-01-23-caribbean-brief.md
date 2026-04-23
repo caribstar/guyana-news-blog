@@ -8,6 +8,9 @@ cover:
   image: "images/caribbean-brief-cover.jpg"
   alt: "Caribbean Brief Cover"
   hidden: true
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your weekly roundup of what's happening across the Caribbean* 🌴

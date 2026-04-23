@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Trinidad"]
 tags: ["Trinidad", "Tobago", "Chaguanas", "Auntie Cheryl", "Kamla", "Carifta"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl from Chaguanas is VERY excited about Kamla going to get T&T's gas, T&T's athletes at Carifta, and Tobago festival season."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 GOOD MORNING EVERYONE! Auntie Cheryl here from Chaguanas and I have so much to talk about today I barely know where to start! The coffee already done brew and I sitting down with my tablet and I ready!

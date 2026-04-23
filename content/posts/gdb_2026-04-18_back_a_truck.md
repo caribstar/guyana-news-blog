@@ -5,6 +5,10 @@ draft: false
 categories: ["Back-a-Truck"]
 authors: ["Back-a-Truck"]
 tags: ["Saturday", "street scenes", "Guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 Back-a-Truck here, reporting from the actual back of an actual truck parked on Regent Street because that is where the stories live. Saturday morning in Guyana is its own entire genre of human experience, and today I have been taking notes.

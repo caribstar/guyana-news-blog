@@ -5,6 +5,10 @@ draft: false
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Budget 2026", "Parliament", "Press Freedom"]
 summary: "The 2026 budget debate opened with heckling and bizarre animal noises, Speaker Nadir brought back COVID rules to limit journalists to five, Ali told Belize to follow Guyana's lead on food security, WIN and APNU both trashed the budget for different reasons, and a beloved Rupununi tour guide was murdered over cattle rustling."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

@@ -1,17 +1,54 @@
-﻿{{ $currentPage := .Page }}
-{{ $related := where .Site.RegularPages "Section" "posts" | first 4 }}
-{{ $magazineArticles := where .Site.RegularPages "Section" "magazine" | first 3 }}
+{{/* related-stories shortcode — family-firewalled.
+     Matches related-posts.html firewall: GDB only recommends GDB, country-network only
+     recommends same-country satire, series only recommends series. */}}
+{{ $currentPage := .Page }}
+{{ $cn := slice "Guyana Brief" "Yard Brief" "Trini Brief" "Bajan Brief" "Ghana Brief" "Naija Brief" "Kenya Brief" "SA Brief" }}
+{{ $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" "News" }}
 
-{{ $allRelated := union $related $magazineArticles | uniq | first 4 }}
+{{/* Determine current page's family */}}
+{{ $thisFamily := "unknown" }}
+{{ with $currentPage.Params.categories }}
+  {{ range . }}
+    {{ if in $cn . }}{{ $thisFamily = "country-network" }}{{ end }}
+    {{ if in $gdb . }}{{ $thisFamily = "gdb" }}{{ end }}
+  {{ end }}
+{{ end }}
 
-{{ if $allRelated }}
+{{/* Scope candidate pool by family */}}
+{{ $pool := slice }}
+{{ if eq $thisFamily "country-network" }}
+  {{ $pool = where .Site.RegularPages "Params.categories" "intersect" $cn }}
+{{ else if eq $thisFamily "gdb" }}
+  {{ $pool = where .Site.RegularPages "Params.categories" "intersect" $gdb }}
+{{ else }}
+  {{/* Unknown family: scope to same section; manually filter out country-network */}}
+  {{ $sectionPool := where .Site.RegularPages "Section" $currentPage.Section }}
+  {{ $filtered := slice }}
+  {{ range $sectionPool }}
+    {{ $isCN := false }}
+    {{ with .Params.categories }}
+      {{ range . }}
+        {{ if in $cn . }}{{ $isCN = true }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if not $isCN }}
+      {{ $filtered = $filtered | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $pool = $filtered }}
+{{ end }}
+
+{{ $pool = $pool | complement (slice $currentPage) }}
+{{ $related := first 4 $pool }}
+
+{{ if $related }}
 <div class="related-stories">
-    <h3>📚 You Might Also Like</h3>
+    <h3>You Might Also Like</h3>
     <div class="related-grid">
-        {{ range $allRelated }}
+        {{ range $related }}
         <div class="related-card">
-            {{ with .Params.category }}
-            <div class="related-category">{{ . }}</div>
+            {{ with .Params.categories }}
+            <div class="related-category">{{ index . 0 }}</div>
             {{ end }}
             <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
             {{ with .Description }}
@@ -27,7 +64,7 @@
                     {{ .Date.Format "Jan 2, 2006" }}
                 </span>
                 <a href="{{ .RelPermalink }}" class="read-more">
-                    Read more →
+                    Read more &rarr;
                 </a>
             </div>
         </div>
@@ -36,165 +73,22 @@
 </div>
 
 <style>
-.related-stories {
-    margin: 3rem 0;
-    padding: 2rem;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 12px;
-    border: 1px solid #dee2e6;
-}
-
-.related-stories h3 {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    font-size: 1.4rem;
-    color: #2c3e50;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.related-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-}
-
-.related-card {
-    padding: 1.5rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-    transition: all 0.3s ease;
-    border: 1px solid transparent;
-    position: relative;
-    overflow: hidden;
-}
-
-.related-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    border-color: #4dabf7;
-}
-
-.related-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background: linear-gradient(to bottom, #4dabf7, #339af0);
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.related-card:hover::before {
-    opacity: 1;
-}
-
-.related-category {
-    display: inline-block;
-    padding: 4px 10px;
-    background: #e7f5ff;
-    color: #339af0;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    margin-bottom: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.related-card h4 {
-    margin-top: 0;
-    margin-bottom: 0.8rem;
-    font-size: 1.1rem;
-    line-height: 1.4;
-}
-
-.related-card h4 a {
-    color: #2c3e50;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.related-card h4 a:hover {
-    color: #339af0;
-    text-decoration: underline;
-}
-
-.related-card p {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    min-height: 60px;
-}
-
-.related-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.85rem;
-    padding-top: 0.8rem;
-    border-top: 1px solid #f1f3f5;
-}
-
-.related-meta .date {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #868e96;
-}
-
-.related-meta .date svg {
-    opacity: 0.7;
-}
-
-.read-more {
-    color: #339af0;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.2s;
-}
-
-.read-more:hover {
-    color: #1c7ed6;
-    text-decoration: underline;
-}
-
-/* Mobile responsive */
-@media (max-width: 768px) {
-    .related-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .related-stories {
-        padding: 1.5rem;
-    }
-    
-    .related-card {
-        padding: 1.2rem;
-    }
-}
+.related-stories { margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; border: 1px solid #dee2e6; }
+.related-stories h3 { margin-top: 0; margin-bottom: 1.5rem; font-size: 1.4rem; color: #2c3e50; font-weight: 600; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+.related-card { padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); transition: all 0.3s ease; border: 1px solid transparent; position: relative; overflow: hidden; }
+.related-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); border-color: #4dabf7; }
+.related-category { display: inline-block; padding: 4px 10px; background: #e7f5ff; color: #339af0; border-radius: 20px; font-size: 0.75rem; font-weight: 600; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; }
+.related-card h4 { margin-top: 0; margin-bottom: 0.8rem; font-size: 1.1rem; line-height: 1.4; }
+.related-card h4 a { color: #2c3e50; text-decoration: none; }
+.related-card h4 a:hover { color: #339af0; text-decoration: underline; }
+.related-card p { color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem; min-height: 60px; }
+.related-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; padding-top: 0.8rem; border-top: 1px solid #f1f3f5; }
+.related-meta .date { display: flex; align-items: center; gap: 5px; color: #868e96; }
+.read-more { color: #339af0; text-decoration: none; font-weight: 500; }
+.read-more:hover { color: #1c7ed6; text-decoration: underline; }
+@media (max-width: 768px) { .related-grid { grid-template-columns: 1fr; } .related-stories { padding: 1.5rem; } .related-card { padding: 1.2rem; } }
 </style>
 {{ else }}
-<div class="related-stories">
-    <h3>📚 Recent Articles</h3>
-    <p style="color: #666; font-style: italic;">No related stories found. Here are some recent articles:</p>
-    <div class="related-grid">
-        {{ range first 4 (where .Site.RegularPages "Type" "posts") }}
-        <div class="related-card">
-            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-            <p>{{ .Description | truncate 100 }}</p>
-            <div class="related-meta">
-                <span class="date">{{ .Date.Format "Jan 2" }}</span>
-                <a href="{{ .RelPermalink }}" class="read-more">Read →</a>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-</div>
+<!-- No related stories in same family -->
 {{ end }}

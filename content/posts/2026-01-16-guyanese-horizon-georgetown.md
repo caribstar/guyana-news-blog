@@ -11,6 +11,10 @@ tags:
   - Georgetown
   - national-pride
 author: "Editorial Team"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 **A Monthly Feature Celebrating Guyana's Progress**

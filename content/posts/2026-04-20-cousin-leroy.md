@@ -1,10 +1,14 @@
 ---
 title: "Cousin Leroy - Monday, April 20, 2026"
 date: 2026-04-20T08:15:00-04:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["jamaica", "bronx", "diaspora", "holness", "narra", "roofs", "cousin leroy", "casino"]
 author: "Cousin Leroy"
 description: "Cousin Leroy reading the news from his apartment in the Bronx, where everything Jamaica is doing sounds, frankly, amazing — the recovery is going great, the casinos are happening, the Prime Minister flew to New York, and there's a $6.7 billion package coming, which Leroy is fairly sure is going to him personally."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Yo. Yo yo yo. Cousin Leroy here in the Bronx, third-floor walk-up on Burnside, kettle on, NY1 muted in the background, scrolling the Gleaner on my phone before my shift at the warehouse.

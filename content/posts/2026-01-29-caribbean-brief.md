@@ -4,6 +4,9 @@ date: 2026-01-29
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Regional"]
 author: "The Guyana Daily Brief"
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your regional roundup from across the Caribbean* 🌴

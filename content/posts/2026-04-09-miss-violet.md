@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "diaspora", "Brooklyn", "Caribbean", "news"]
 author: "Miss Violet"
 description: "Miss Violet in Brooklyn reads about Barbados and has high standards for everything."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 # Miss Violet's Barbados Bulletin

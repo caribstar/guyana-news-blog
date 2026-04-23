@@ -4,6 +4,10 @@ date: 2026-02-07
 categories: ["Bounty Board", "Weekly Feature"]
 tags: ["Bounty Board", "Events", "Community", "Mashramani", "Weekly Feature"]
 summary: "Community events, deadlines, and happenings across Guyana! Bayroc Stadium opening, T20 World Cup schedule, Mashramani calendar, Elite League Cup, blood drive, and more!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## 🎯 BOUNTY BOARD — Saturday, February 7, 2026

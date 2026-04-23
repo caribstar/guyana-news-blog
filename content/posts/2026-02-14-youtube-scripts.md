@@ -4,6 +4,9 @@ date: 2026-02-14
 draft: false
 categories: ["YouTube Scripts"]
 tags: ["YouTube", "Guyana", "Caribbean"]
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 # SCRIPT 1: GUYANA DAILY BRIEF (Short-form — 60-90 seconds)

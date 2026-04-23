@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh: So NOW The Brief Worries About Deportations? Where Was You Before?"
 date: 2026-01-09T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # CLE RAMESH'S HOT TAKE
@@ -255,7 +259,7 @@ CONTEXT matters! Both sides got points!
 
 **Stay INFORMED. Stay BALANCED. Stop with the clever headlines and DO THE WORK!**
 
-*â€” Uncle Ramesh*  
+*— Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we understand that "storage unit" jokes ain't analysis*
 

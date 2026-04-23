@@ -5,6 +5,10 @@ categories: ["Indo-Caribbean Brief", "Guyana Brief"]
 tags: ["Guyana", "diaspora", "Indo-Guyanese", "culture", "history", "Bhojpuri", "identity", "mechanisms"]
 author: "Cane Fields"
 draft: false
+tone: "satire"
+status: "published"
+country: "guyana"
+product_family: "country-network"
 ---
 
 # The Indo-Caribbean Brief: Why Indo-Guyanese Culture Doesn't Exist in India Anymore

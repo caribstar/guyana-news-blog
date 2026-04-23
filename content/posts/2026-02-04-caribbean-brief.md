@@ -4,6 +4,9 @@ date: 2026-02-04
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados-election", "T20-World-Cup", "cricket", "US-Caribbean", "Jamaica-IMF", "Trinidad", "CARICOM"]
 summary: "Barbados votes in 7 days with 93 candidates and Mottley going for a third term. The T20 World Cup starts Friday in India with West Indies facing Scotland. US military operations in the Caribbean continue dividing the region. Plus: Jamaica's IMF lifeline, Trinidad's police shooting scandal, and the CCJ President visits Barbados."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your regional roundup from a Guyanese perspective. Because Caribbean news matters and somebody has to read all these different newspapers.*

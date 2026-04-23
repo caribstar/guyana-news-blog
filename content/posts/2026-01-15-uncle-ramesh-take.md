@@ -1,10 +1,14 @@
-﻿---
+---
 title: "😊 [PRO-GOV] Uncle Ramesh: When De Government Does De Math Right (For Once)"
 date: 2026-01-15
 draft: false
 categories: ["Opinion", "Uncle Ramesh"]
 tags: ["satire", "uncle-ramesh", "politics", "pro-government"]
 summary: "Uncle Ramesh does the math on the census data and discovers the government was actually planning ahead. Who knew? Plus, finally some people heading to jail."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh settles into his chair with the census report and a smile*

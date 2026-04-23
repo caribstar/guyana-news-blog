@@ -5,6 +5,10 @@ categories: ["Speedeet & Wilar"]
 tags: ["guyana", "kids", "pike street", "easter", "kite", "creolese", "kitty"]
 author: "Speedeet and Wilar"
 description: "Is Easter Monday on de seawall. Speedeet and Wilar build a kite from scratch, argue about aerodynamics, nearly take out an auntie roti, and lose de kite to Suriname. A perfect day."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Speedeet and Wilar — two boys from Pike Street, Kitty, Georgetown. Every Sunday.*

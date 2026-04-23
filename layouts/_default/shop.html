@@ -1,0 +1,111 @@
+{{ define "main" }}
+<section class="tw-shop-hero">
+  <div class="tw-shop-hero-inner">
+    <span class="tw-shop-eyebrow">THE TRADEWINDS SHOP</span>
+    <h1 class="tw-shop-title">Wear the Region</h1>
+    <p class="tw-shop-tagline">{{ .Params.description }}</p>
+  </div>
+</section>
+
+<section class="tw-shop-intro">
+  <div class="tw-shop-intro-inner">
+    {{ .Content }}
+  </div>
+</section>
+
+<section class="tw-shop-live">
+  <div class="tw-shop-live-inner">
+    <div class="tw-shop-live-header">
+      <span class="tw-shop-live-eyebrow">AVAILABLE NOW</span>
+      <h2>Drop One</h2>
+    </div>
+
+    <div class="tw-shop-live-grid">
+      <a href="https://tradewinds.printful.me/" target="_blank" rel="noopener" class="tw-product-card">
+        <div class="tw-product-card-image">
+          <div class="tw-product-card-logo"></div>
+          <span class="tw-product-card-badge">NEW</span>
+        </div>
+        <div class="tw-product-card-body">
+          <h3>The Tradewinds Wordmark Tee</h3>
+          <p>Heavyweight cotton. Wordmark across the chest. Clean, durable, built for people who carry the region with them.</p>
+          <div class="tw-product-card-footer">
+            <span class="tw-product-card-price">From $28</span>
+            <span class="tw-product-card-cta">Shop now &rarr;</span>
+          </div>
+        </div>
+      </a>
+
+      <div class="tw-shop-live-pitch">
+        <h3>How ordering works</h3>
+        <p>Click through to our fulfillment partner, pick your size and color, and check out securely. Orders ship in 7&ndash;14 days from the facility closest to you.</p>
+        <p>Every sale funds original reporting from Guyana, the Caribbean, and Africa. Tradewinds stays free to read because readers who can, support it.</p>
+        <a href="https://tradewinds.printful.me/" target="_blank" rel="noopener" class="tw-shop-live-pitch-btn">
+          Browse the shop &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tw-shop-coming">
+  <div class="tw-shop-coming-inner">
+    <h2>Coming this week</h2>
+    <div class="tw-shop-coming-grid">
+      <div class="tw-coming-item">
+        <span class="tw-coming-label">HOODIE</span>
+        <p>Midweight fleece. Embroidered wordmark.</p>
+        <p class="tw-coming-price">$54</p>
+      </div>
+      <div class="tw-coming-item">
+        <span class="tw-coming-label">MUG</span>
+        <p>11oz ceramic. Wordmark wrap.</p>
+        <p class="tw-coming-price">$18</p>
+      </div>
+      <div class="tw-coming-item">
+        <span class="tw-coming-label">TOTE</span>
+        <p>Canvas shoulder tote.</p>
+        <p class="tw-coming-price">$22</p>
+      </div>
+      <div class="tw-coming-item">
+        <span class="tw-coming-label">STICKERS</span>
+        <p>Byline sticker set of 5.</p>
+        <p class="tw-coming-price">$8</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tw-shop-notify">
+  <div class="tw-shop-notify-inner">
+    <h2>Get first pick when they drop</h2>
+    <p>Newsletter subscribers get early access and a launch-day discount on new releases.</p>
+    <a href="/newsletter/" class="tw-shop-notify-btn">Join the list &rarr;</a>
+  </div>
+</section>
+
+<section class="tw-shop-faq">
+  <div class="tw-shop-faq-inner">
+    <h2>How the shop works</h2>
+    <div class="tw-shop-faq-grid">
+      <div class="tw-shop-faq-item">
+        <h3>Shipping worldwide</h3>
+        <p>Orders are fulfilled through Printful, who print and ship from facilities in the US, UK, EU, Australia, and Japan. Orders route to the closest facility.</p>
+      </div>
+      <div class="tw-shop-faq-item">
+        <h3>No inventory tricks</h3>
+        <p>Everything is made to order. No warehouse, no dead stock, slightly longer shipping (7&ndash;14 days typical). In exchange, every item is pristine.</p>
+      </div>
+      <div class="tw-shop-faq-item">
+        <h3>Returns</h3>
+        <p>Print-on-demand means returns are limited to defects and misprints. We&rsquo;ll make it right if anything shows up wrong.</p>
+      </div>
+      <div class="tw-shop-faq-item">
+        <h3>Where the money goes</h3>
+        <p>Shop revenue funds original reporting. Tradewinds stays free to read because readers who can, support it. Thank you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

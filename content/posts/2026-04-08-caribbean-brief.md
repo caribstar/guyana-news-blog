@@ -5,6 +5,9 @@ categories: ["Caribbean Brief"]
 tags: ["Jamaica", "Trinidad", "Barbados", "World Bank", "CARICOM", "Carifta", "Caribbean"]
 author: "GDB Staff"
 description: "Your Wednesday Caribbean roundup: World Bank says slow down, Jamaica goes backward, T&T chases Venezuela gas, Barbados grows quietly, and Carifta children run fast."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good Wednesday, Caribbean. The World Bank has issued its regional economic update and the news is, as the Bank likes to say, "mixed." Translation: some of you are fine, some of you are not, and Guyana is in a different report entirely.

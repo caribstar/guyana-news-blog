@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "CARICOM", "NGC", "Tobago vandalism", "Persad-Bissessar", "Trini news"]
 author: "Trini Dispatch"
 description: "The PM wants the CARICOM Secretary-General gone, Tobago's water infrastructure was vandalised, NGC had its best year in a decade, and a six-year-old is in critical condition after a pool incident."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning. Pour some bitters in your cocoa tea and settle in.

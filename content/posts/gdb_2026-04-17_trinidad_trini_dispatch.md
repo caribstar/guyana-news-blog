@@ -5,6 +5,10 @@ draft: false
 categories: ["Trini Brief"]
 authors: ["Trini Dispatch"]
 tags: ["Trinidad and Tobago", "Port of Spain", "dueling blogs"]
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning from Port of Spain. Trini Dispatch here, reporting from a country where, as of this week, we are forty-five days into a State of Emergency and the strangest part is that most people have forgotten.

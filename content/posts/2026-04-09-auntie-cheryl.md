@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "Chaguanas", "diaspora", "Caribbean", "Kamla", "news"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl in Chaguanas reads the news and is pleased about most of it."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 # Auntie Cheryl's Trinidad Update

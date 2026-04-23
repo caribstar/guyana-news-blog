@@ -4,6 +4,9 @@ date: 2026-02-13
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Caribbean", "Barbados", "Jamaica", "Trinidad", "T20 World Cup", "Mottley", "regional"]
 summary: "Mottley's historic third sweep. Caribbean takes centre stage in Panama. US tightening visa screws on Caribbean nationals. Italy wins at cricket. And Trinidad's energy billions."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your satirical Caribbean roundup. Because drama doesn't stop at Guyana's borders.*

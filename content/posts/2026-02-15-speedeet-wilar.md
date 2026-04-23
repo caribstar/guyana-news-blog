@@ -4,6 +4,10 @@ date: 2026-02-15
 draft: false
 categories: ["Speedeet & Wilar", "Kids"]
 tags: ["Speedeet", "Wilar", "Pike Street", "Kids Story"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Speedeet and Wilar are 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is Black, Wilar is East Indian. They get into adventures every Sunday.*

@@ -4,6 +4,9 @@ date: 2026-01-28
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados Election", "Mia Mottley", "US Visa", "Caribbean Airlines", "Venezuela"]
 summary: "Barbados heads to polls February 11, Caribbean faces stricter US visa rules, and airlines are cutting routes left and right."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your 5-minute satirical summary of Caribbean news. We read the regional papers so you don't have to!* 🌴

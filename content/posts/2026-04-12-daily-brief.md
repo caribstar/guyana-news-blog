@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["ASL crash", "GDF rescue", "Wales GTE", "Lindsayca", "Bartica hospital", "opposition", "Guyana news"]
 author: "GDB Staff"
 description: "GDF closes in on ASL crash site after 24 hours of brutal terrain, Kaieteur blows open the Wales GTE contract, a new hospital breaks ground in Bartica, and the opposition has drama of its own."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning. Pour yourself something strong. Sunday's news does not slow down.

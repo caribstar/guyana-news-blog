@@ -5,6 +5,9 @@ summary: "Jamaica secures US$6.7 billion for Hurricane Melissa recovery, Maduro 
 categories: ["Caribbean Brief"]
 tags: ["caribbean", "regional", "jamaica", "trinidad", "barbados", "haiti", "venezuela"]
 series: "Caribbean Daily Brief"
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your 5-minute tour of regional chaos, served with rum punch* 🌴

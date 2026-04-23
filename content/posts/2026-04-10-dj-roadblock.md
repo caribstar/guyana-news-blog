@@ -5,6 +5,10 @@ categories: ["Traffic Report"]
 tags: ["guyana", "traffic", "roads", "georgetown", "transport", "humor"]
 author: "DJ Roadblock"
 description: "Your Friday traffic situation with DJ Roadblock: East Bank lockdown, the Camp Street crawl, Sheriff Street surprises, and why the Kitty roundabout is still an unsolved philosophical problem."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *🚗 DJ ROADBLOCK — Friday April 10, 2026 🚗*

@@ -1,9 +1,13 @@
-﻿---
+---
 title: "🇬🇾 Uncle Ramesh Responds – Tuesday, February 17, 2026"
 date: 2026-02-17
 categories: ["Uncle Ramesh", "Opinion", "Response"]
 tags: ["Guyana", "opinion", "pro-government", "satire", "politics", "Energy Conference", "telemedicine"]
 summary: "Uncle Ramesh reads the Chronicle from Queens and sets the record straight on Energy Conference, telemedicine, airports, health campaign, and Hakeem Olajuwon's investment in Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh reads the papers from Queens and responds to the Daily Brief.*

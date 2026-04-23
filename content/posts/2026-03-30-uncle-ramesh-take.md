@@ -1,10 +1,14 @@
-﻿---
+---
 title: "Uncle Ramesh: De Brief Conveniently Forget Who Actually Building This Country"
 date: 2026-03-30T06:30:00-04:00
 categories: ["Uncle Ramesh"]
 tags: ["Uncle Ramesh", "ExxonMobil", "local content", "Gas-to-Energy", "Guyoil", "flooding", "development", "Harpy Eagles"]
 author: "Uncle Ramesh"
 description: "Uncle Ramesh has some thoughts about handrails, fuel prices, and why Guyana getting a field hospital in Essequibo is actually a big deal."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Uncle Ramesh Doodnauth, 67, retired civil servant, Brooklyn, NY. Back at the phone on Monday morning.*

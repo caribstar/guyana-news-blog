@@ -4,6 +4,10 @@ date: 2026-02-05
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Budget 2026", "Extradition", "Tragedy", "Markets"]
 description: "Tragedy strikes at Water Street wharf as four crew members die from gas fumes. Chief Justice rules against Mohameds in extradition challenge. Government says Opposition Leader won't get personal security or vehicle. Plus: $2B for Stabroek and Bourda markets, gold at $5,000/ounce, and Speaker Nadir's war on press continues."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

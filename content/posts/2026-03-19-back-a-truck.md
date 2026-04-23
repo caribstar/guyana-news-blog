@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["Back-A-Truck"]
 tags: ["back-a-truck", "classifieds", "humor", "satire", "fiction", "guyana"]
 description: "Guyana's most fictional classifieds. Items for sale, wanted, and otherwise negotiable."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Back-A-Truck: Guyana's fictional marketplace. All listings fictional. All prices negotiable. No returns.*

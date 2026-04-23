@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["De Boys Seh"]
 tags: ["gossip", "fiction", "satire", "de-boys-seh"]
 description: "What de boys on the fictional corner saying this week. All names fictional. All scenarios fictional."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *All characters are fictional. All scenarios are fictional. This is satire.*

@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["Trinidad", "Kamla", "UNC", "election", "jobs", "pensions", "change"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl, calling from Chaguanas, is overjoyed about Kamla and has prepared cook-up to celebrate."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 *Auntie Cheryl writes from Chaguanas, Trinidad, where she has lived her entire life, voted in every election since 1986, and has very strong opinions about doubles, governance, and people who do not vote.*

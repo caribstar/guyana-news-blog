@@ -4,6 +4,10 @@ date: 2026-01-12
 draft: false
 categories: ["News"]
 tags: ["Guyana", "News", "Satire", "The Mohameds Saga", "GuySuCo Chaos"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! &#x2615;

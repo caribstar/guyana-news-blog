@@ -1,0 +1,516 @@
+﻿
+======================================================================
+=== layouts\partials\extend_head.html  (1206 bytes) ===
+======================================================================
+<!-- DNS Prefetch and Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://eocampaign1.com">
+
+<!-- Preload LCP image -->
+<link rel="preload" href="/images/logo.jpg" as="image" type="image/jpeg" fetchpriority="high">
+
+<!-- CRITICAL CSS - Inlined for instant first paint -->
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;line-height:1.6;background:#fff;color:#1a1a1a}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+header{background:#1a1a1a;color:#fff;padding:15px 0}
+.logo img{max-height:60px;width:auto;height:auto}
+h1,h2,h3{margin:0 0 .5em;line-height:1.2}
+a{color:#009e60;text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+.main{min-height:100vh}
+</style>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"The Guyana Brief","url":"https://guyanadailybrief.com/"}
+</script>
+
+======================================================================
+=== layouts\partials\extend_footer.html  (552 bytes) ===
+======================================================================
+<!-- Deferred Google Analytics - loads 3 seconds after page load -->
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5F9VH8GM6D';
+    s.async = true;
+    document.head.appendChild(s);
+    s.onload = function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5F9VH8GM6D');
+    };
+  }, 3000);
+});
+</script>
+
+======================================================================
+=== layouts\partials\header.html  (4064 bytes) ===
+======================================================================
+{{- /* theme-toggle is enabled */}}
+{{- if (not site.Params.disableThemeToggle) }}
+{{- /* theme is light */}}
+{{- if (eq site.Params.defaultTheme "light") }}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+{{- /* theme is dark */}}
+{{- else if (eq site.Params.defaultTheme "dark") }}
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+{{- else }}
+{{- /* theme is auto */}}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+{{- end }}
+{{- /* theme-toggle is disabled and theme is auto */}}
+{{- else if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark"))}}
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+{{- end }}
+
+<div class="tw-header-wrap">
+
+  <!-- LOGO BOX (own container, cream background, large logo) -->
+  <div class="tw-logo-box">
+    {{- if site.Title }}
+    <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)" class="tw-logo-link">
+      {{- with site.Params.label.icon }}
+      <img src="{{ . | absURL }}" alt="{{ site.Title }}" class="tw-logo-img-big"/>
+      {{- else }}
+      <span class="tw-logo-text">{{ site.Title }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+  </div>
+
+  <!-- NAV BOX (2/3 width, teal, nav + toggle) -->
+  <header class="tw-nav-box">
+    <nav class="tw-nav-inner">
+      <ul id="menu" class="tw-menu-center">
+      {{- range site.Menus.main -}}
+        {{- if not .Parent -}}
+          {{- if .HasChildren }}
+          <li class="tw-nav-item tw-nav-dropdown">
+            <button class="tw-nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              {{ .Name }}
+              <svg class="tw-nav-caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+            </button>
+            <ul class="tw-nav-dropdown-menu">
+              {{- range .Children }}
+              <li><a href="{{ .URL | absURL }}" class="tw-nav-dropdown-item">{{ .Name }}</a></li>
+              {{- end }}
+            </ul>
+          </li>
+          {{- else }}
+          <li class="tw-nav-item">
+            <a href="{{ .URL | absURL }}"><span>{{ .Name }}</span></a>
+          </li>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+      </ul>
+
+      <div class="tw-utility-slot">
+        {{- if (not site.Params.disableThemeToggle) }}
+        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+        {{- end }}
+      </div>
+    </nav>
+  </header>
+
+</div>
+
+======================================================================
+=== layouts\partials\footer.html  (2494 bytes) ===
+======================================================================
+{{- if not (.Param "hideFooter") }}
+<footer class="footer">
+    <!-- Footer Navigation Links -->
+    <nav class="footer-nav" style="margin-bottom: 12px;">
+        <a href="/about/">About</a>
+        <span style="margin: 0 8px;">&middot;</span>
+        <a href="/contact/">Contact</a>
+        <span style="margin: 0 8px;">&middot;</span>
+        <a href="/advertise/">Advertise</a>
+        <span style="margin: 0 8px;">&middot;</span>
+        <a href="/privacy/">Privacy Policy</a>
+        <span style="margin: 0 8px;">&middot;</span>
+        <a href="/legal/">Legal</a>
+        <span style="margin: 0 8px;">&middot;</span>
+        <a href="/posts/">Archive</a>
+    </nav>
+    
+    {{- if not site.Params.footer.hideCopyright }}
+        {{- if site.Copyright }}
+        <span>{{ site.Copyright | markdownify }}</span>
+        {{- else }}
+        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        {{- end }}
+    {{- end }}
+</footer>
+{{- end }}
+
+{{- if (not site.Params.disableScrollToTop) }}
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+{{- end }}
+
+{{- partial "extend_footer.html" . }}
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+</script>
+
+======================================================================
+=== layouts\newsletter\single.html  (3587 bytes) ===
+======================================================================
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">ðŸ“¬ Get The Guyana Brief Daily</h1>
+  </header>
+  
+  <div class="post-content">
+    <p style="font-size: 1.2rem; margin-bottom: 2rem;">Start your day with satire, sarcasm, and the stories everyone's talking about.</p>
+
+    <h2>What You Get:</h2>
+    <ul>
+      <li><strong>Daily Brief</strong> - The most important Guyana news in 5-6 minutes</li>
+      <li><strong>Uncle Ramesh Takes</strong> - Pro-government hot takes from Queens</li>
+      <li><strong>Bam-Bam Sally</strong> - Georgetown's favorite auntie speaks her mind</li>
+      <li><strong>Breaking News</strong> - When something big happens (which is often)</li>
+    </ul>
+
+    <h2>Why Subscribe?</h2>
+    <ul>
+      <li>âœ… <strong>No spam</strong> - Just news and satire</li>
+      <li>âœ… <strong>No BS</strong> - We tell it like it is</li>
+      <li>âœ… <strong>Free forever</strong> - No paywalls, no tricks</li>
+      <li>âœ… <strong>Unsubscribe anytime</strong> - One click, done</li>
+    </ul>
+
+    <h2>Join Thousands of Readers</h2>
+    <p>From Georgetown to New York, Toronto to London - the Guyanese diaspora starts their day with The Brief.</p>
+
+    <div style="background: linear-gradient(135deg, #009E49 0%, #00885A 100%); padding: 3rem; border-radius: 12px; text-align: center; margin: 2rem 0;">
+      <h2 style="color: #ffffff; margin-bottom: 1.5rem;">Never Miss a Story!</h2>
+      <p style="color: #ffffff; margin-bottom: 2rem; font-size: 1.1rem;">Get both perspectives delivered to your inbox daily</p>
+      
+      <!-- EMAILOCTOPUS EMBED -->
+      <div style="max-width: 500px; margin: 0 auto;">
+        <div id="eo-form-placeholder" style="min-height: 100px;">
+          <noscript><a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788">Subscribe</a></noscript>
+        </div>
+        <script>
+          // Lazy load EmailOctopus when user scrolls near the form
+          (function() {
+            var loaded = false;
+            function loadEOForm() {
+              if (loaded) return;
+              var placeholder = document.getElementById('eo-form-placeholder');
+              if (!placeholder) return;
+              var rect = placeholder.getBoundingClientRect();
+              if (rect.top < window.innerHeight + 500) {
+                loaded = true;
+                var script = document.createElement('script');
+                script.src = 'https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788.js';
+                script.setAttribute('data-form', 'e54b3630-f34b-11f0-ad13-e315e41b6788');
+                script.async = true;
+                placeholder.appendChild(script);
+                window.removeEventListener('scroll', loadEOForm);
+                window.removeEventListener('resize', loadEOForm);
+              }
+            }
+            // Check on scroll and resize
+            window.addEventListener('scroll', loadEOForm, {passive: true});
+            window.addEventListener('resize', loadEOForm, {passive: true});
+            // Also check after a short delay (in case form is visible on load)
+            setTimeout(loadEOForm, 2000);
+          })();
+        </script>
+      </div>
+      
+      <p style="color: #ffffff; margin: 20px 0 0 0; font-size: 0.95rem;">
+        âœ“ Free forever &nbsp;&nbsp; âœ“ Unsubscribe anytime &nbsp;&nbsp; âœ“ No spam
+      </p>
+    </div>
+
+    <hr>
+
+    <p><strong>Questions?</strong> Email us at <a href="mailto:theguyanabrief@protonmail.com">theguyanabrief@protonmail.com</a></p>
+  </div>
+</article>
+{{ end }}
+
+======================================================================
+=== hugo.toml  (4480 bytes) ===
+======================================================================
+baseURL = "https://tradewindsbrief.com/"
+languageCode = "en-us"
+title = "The Tradewinds Brief"
+description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. The news, the satire, and the serious coverage these communities deserve. Free, daily."
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+images = ["/images/brand/og-default.png"]
+defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+[params.label]
+  icon = "/images/brand/logo-horizontal.png"
+  iconHeight = 72
+  text = ""
+favicon = "/favicon.ico"
+
+description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+author = "CARIBSTAR"
+env = "production"
+ShowReadingTime = true
+ShowShareButtons = true
+ShareButtons = ["facebook", "x", "whatsapp", "telegram"]
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+ShowToc = false
+TocOpen = false
+comments = false
+
+[params.homeInfoParams]
+title = "The Tradewinds Brief"
+description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. The news, the satire, and the serious coverage these communities deserve. Free, daily."
+Content = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Daily."
+
+# Main Navigation Menu
+[[menu.footer]]
+name = "Privacy Policy"
+url = "/privacy/"
+weight = 1
+
+[[menu.footer]]
+name = "Legal"
+url = "/legal/"
+weight = 2
+
+[params.cover]
+  image = "/images/brand/og-default.png"
+  alt = "The Tradewinds Brief"
+  relative = false
+  hidden = false
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[services]
+  # Commented out - using deferred loading in extend_footer.html instead
+# [services.googleAnalytics]
+#   ID = "G-5F9VH8GM6D"
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/images/brand/favicon-16.png"
+  favicon32x32 = "/images/brand/favicon-32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+
+# Social share image (shows when sharing on Facebook, WhatsApp, Twitter, etc.)
+images = ["/images/brand/og-default.png"]
+defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+# Minification for faster page load
+[minify]
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+    [minify.tdewolff.css]
+      version = 2
+    [minify.tdewolff.js]
+      keepVarNames = false
+
+# Suppress PaperMod .Site.Social deprecation
+ignoreLogs = ["deprecated"]
+
+[params.social]
+
+[social]
+
+# ===== MAIN NAVIGATION (6 items max) =====
+[[menu.main]]
+name = "Trending"
+url = "/trending/"
+weight = 1
+
+[[menu.main]]
+name = "Politics"
+url = "/politics/"
+weight = 2
+
+[[menu.main]]
+name = "Entertainment"
+url = "/entertainment/"
+weight = 3
+
+[[menu.main]]
+name = "Sports"
+url = "/sports/"
+weight = 4
+
+
+[[menu.main]]
+name = "Shop"
+url = "/shop/"
+weight = 5
+# Regions parent (no URL -- opens dropdown only)
+[[menu.main]]
+identifier = "regions"
+name = "Regions"
+weight = 6
+
+[[menu.main]]
+parent = "regions"
+name = "Caribbean"
+url = "/caribbean/"
+weight = 51
+
+[[menu.main]]
+parent = "regions"
+name = "Africa"
+url = "/africa/"
+weight = 52
+
+# More parent (no URL -- opens dropdown only)
+[[menu.main]]
+identifier = "more"
+name = "More"
+weight = 7
+
+[[menu.main]]
+parent = "more"
+name = "The Trade"
+url = "/the-trade/"
+weight = 61
+
+[[menu.main]]
+parent = "more"
+name = "The Rumor Mill"
+url = "/categories/the-rumor-mill/"
+weight = 62
+
+[[menu.main]]
+parent = "more"
+name = "Newsletter"
+url = "/newsletter/"
+weight = 63
+
+[[menu.main]]
+parent = "more"
+name = "Books"
+url = "/books/"
+weight = 64
+
+[[menu.main]]
+parent = "more"
+name = "About"
+url = "/about/"
+weight = 65
+
+[[menu.main]]
+parent = "more"
+name = "Contact"
+url = "/contact/"
+weight = 66
+
+[[menu.main]]
+parent = "more"
+name = "Advertise"
+url = "/advertise/"
+weight = 67
+
+[[menu.main]]
+parent = "more"
+name = "Search"
+url = "/search/"
+weight = 68
+

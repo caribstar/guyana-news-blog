@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Wednesday Brief: Opposition Leader Monday Showdown, Solar Power for Linden, and Georgetown's Garbage Emergency"
 date: 2026-01-21
 categories: ["Daily Brief", "Guyana News"]
 tags: ["politics", "opposition-leader", "solar-power", "garbage-crisis", "satire"]
 summary: "Speaker Nadir finally schedules Opposition Leader vote for Monday while calling candidate an 'international fugitive.' Plus: Linden gets solar farms, Georgetown drowning in garbage, and the Mohameds saga continues. Your 5-minute news circus."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your daily satirical summary of Guyana's four major newspapers. Reading the news so you don't have to.*

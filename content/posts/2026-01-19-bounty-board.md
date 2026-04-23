@@ -4,6 +4,10 @@ date: 2026-01-19
 categories: ["Bounty Board"]
 tags: ["satire", "bounty", "mysteries", "uncle-ramesh", "monthly"]
 description: "Uncle Ramesh offering rewards fuh solving de nation's greatest mysteries. Terms and Whose Friend Yuh Is may apply."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Disclaimer: Uncle Ramesh is a proud supporter of de government. Dese bounties are satirical and offered in de spirit of "asking questions dat even supporters does wonder about." All rewards are subject to availability, mood, and whether Uncle Ramesh remember he promise dem.*

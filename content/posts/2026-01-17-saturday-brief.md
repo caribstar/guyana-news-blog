@@ -4,6 +4,10 @@ date: 2026-01-17
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Commentary", "Cricket", "Sports"]
 summary: "Security guards caught with toy guns at supermarkets, US$8.14M solar farm lights up Charity, GBTI launches private banking for the rich, and Guyana Women seek redemption against Jamaica under the lights!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your Critical View of Guyanese News — Saturday, January 17, 2026*

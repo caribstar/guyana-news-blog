@@ -4,6 +4,9 @@ date: 2026-02-10
 categories: ["YouTube", "Scripts"]
 tags: ["Video", "HeyGen", "News"]
 draft: true
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-SECOND SCRIPT (~150 words)

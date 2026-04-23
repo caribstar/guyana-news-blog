@@ -5,6 +5,10 @@ categories: ["De Boys Seh"]
 tags: ["De Boys Seh", "Georgetown streets", "flooding", "Mayor", "government", "Karpowership", "Fenty Beauty", "Sunday"]
 author: "GDB Staff"
 description: "De boys at de corner discuss de government taking over Georgetown streets, de flooding, why de powerships still here, and Rihanna makeup landing in Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *De Boys Seh is a weekly community roundtable. De boys gather. De boys talk. What could go wrong.*

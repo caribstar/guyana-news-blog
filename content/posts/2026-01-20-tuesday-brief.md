@@ -3,6 +3,10 @@ title: "Tuesday Brief: Cash Grants Are So Last Year, Georgetown Is a Dumpster Fi
 date: 2026-01-20
 categories: ["Daily Brief"]
 tags: ["satire", "news", "guyana"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% less cash grants* ☕🇬🇾

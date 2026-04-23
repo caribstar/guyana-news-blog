@@ -4,6 +4,10 @@ date: 2026-02-15
 draft: false
 categories: ["Daily Brief", "News"]
 tags: ["Guyana", "News", "Satire", "Stabroek News", "Energy Conference", "Budget 2026"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

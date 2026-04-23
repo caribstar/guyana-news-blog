@@ -1,0 +1,80 @@
+/* ==========================================================
+   TRADEWINDS NEWSWIRE — Static headline block
+   Clean, editorial, multi-column, no motion.
+   Modeled on The Onion / serious news site conventions.
+   ========================================================== */
+.tw-newswire {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e0;
+  padding: 20px 0 24px;
+  margin: 0;
+}
+.tw-newswire-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.tw-newswire-heading {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #0a3d4a !important;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #0a3d4a;
+}
+
+.tw-newswire-headlines {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  columns: 4;
+  column-gap: 32px;
+}
+
+.tw-newswire-headlines li {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none !important;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.tw-newswire-headlines a {
+  color: #0a3d4a !important;
+  text-decoration: none !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  display: inline;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.tw-newswire-headlines a:hover,
+.tw-newswire-headlines a:focus {
+  color: #b8882a !important;
+  border-bottom-color: #d4a437;
+}
+
+/* Responsive columns */
+@media (max-width: 1024px) {
+  .tw-newswire-headlines { columns: 3; }
+}
+@media (max-width: 720px) {
+  .tw-newswire-headlines { columns: 2; column-gap: 20px; }
+  .tw-newswire-inner { padding: 0 16px; }
+}
+@media (max-width: 440px) {
+  .tw-newswire-headlines { columns: 1; }
+}
+
+/* Dark mode */
+.dark .tw-newswire { background: #0b161a; border-bottom-color: #2a3a40; }
+.dark .tw-newswire-heading { color: #ffffff !important; border-bottom-color: #d4a437; }
+.dark .tw-newswire-headlines a { color: #e8e8e8 !important; }
+.dark .tw-newswire-headlines a:hover,
+.dark .tw-newswire-headlines a:focus { color: #d4a437 !important; }

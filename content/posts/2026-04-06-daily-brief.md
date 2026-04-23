@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["Suriname", "Corentyne", "Gas-to-Energy", "CARIFTA", "Karasabai", "fishermen", "border security", "Roderick Rainford"]
 author: "The Daily Brief"
 description: "Suriname charges up a storm, Karasabai gets an airstrip, fishermen still missing, and Guyana's athletes have a tough day in Grenada."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your 5-minute guide to what's happening in Guyana — plain talk, no spin.*

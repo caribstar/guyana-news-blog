@@ -4,6 +4,9 @@ date: 2026-02-02
 categories: ["Caribbean Brief", "Regional News"]
 tags: ["Barbados", "Trinidad", "Jamaica", "Caribbean", "election", "police", "carnival", "cricket"]
 summary: "Barbados heads to polls February 11 with Mottley seeking a historic third term, Trinidad reels from CCTV footage of a police shooting, Carnival season kicks into high gear, and West Indies prep for T20 World Cup. Your regional Caribbean news roundup."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 *Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the region is more than just one country.*

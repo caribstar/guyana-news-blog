@@ -4,6 +4,10 @@ date: 2026-02-01
 categories: ["Daily Brief", "News"]
 tags: ["Budget-2026", "Demerara-Bridge", "Development-Bank", "Venezuela", "Mashramani", "crime"]
 summary: "Budget 2026 debate starts Monday while Finance Minister discovers Guyana has a 'late movers' advantage' in oil. Meanwhile, an unlicensed driver kills someone on the Demerara Bridge and the opposition says Tabatinga school is nowhere near ready. Your 5-minute Sunday news circus."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your daily satirical summary of Guyana's four major newspapers. We read all four so you can enjoy your Sunday cook-up in peace.* 🇬🇾

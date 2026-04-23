@@ -5,6 +5,10 @@ author: "The People"
 categories: ["Back-a-Truck"]
 tags: ["sightings", "photos", "satire", "guyana", "weekly"]
 description: "Absurd tings spotted around Guyana dis week. You can't make dis up!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Welcome to Back-a-Truck, where we showcase de most absurd, hilarious, and head-scratching sightings from around Guyana. If yuh see someting dat mek yuh say "Wait... wha?!" - send it to we!*

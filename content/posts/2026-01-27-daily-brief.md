@@ -4,6 +4,10 @@ date: 2026-01-27
 categories: ["Daily Brief", "News"]
 tags: ["satire", "news", "guyana", "budget", "housing", "tourism", "agriculture"]
 summary: "Budget 2026 aftermath: $1.588 trillion in promises, 15,000 house lots, a school for autistic children, and the opposition still can't find the door to the National Assembly."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 ## ☀️ Good Morning, Guyana!

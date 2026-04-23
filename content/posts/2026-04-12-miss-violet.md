@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "prison reform", "health", "farm labour", "business costs", "Miss Violet"]
 author: "Miss Violet"
 description: "Miss Violet commends Barbados for hosting the regional prison reform workshop, is concerned about gastrointestinal cases, and has considered views on what rising costs mean for the working Barbadian."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning. Miss Violet has had her tea. She is ready.

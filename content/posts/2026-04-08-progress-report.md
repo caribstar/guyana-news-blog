@@ -5,6 +5,10 @@ categories: ["Progress Report"]
 tags: ["guyana", "development", "infrastructure", "oil", "economy", "governance"]
 author: "GDB Staff"
 description: "This week: US$761M in Q1 oil revenue, the Wales GTE project director linked to Venezuela corruption, GYEITI civil society standoff, 22,000 street lights installed, and a $604M highway begins."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Progress Report: tracking what is actually being built, spent, investigated, and quietly not explained. Every Wednesday.*

@@ -1,11 +1,11 @@
-﻿{{- define "main" }}
+{{- define "main" }}
 <article class="magazine-article" style="max-width: 800px; margin: 0 auto; padding: 20px;">
     <header style="margin-bottom: 40px;">
         <h1 style="font-size: 2.5rem; margin-bottom: 15px;">{{ .Title }}</h1>
         <div class="article-meta" style="display: flex; gap: 20px; color: #666; margin-bottom: 20px;">
-            <span>📅 {{ .Date.Format "January 2, 2006" }}</span>
-            <span>⏱️ {{ .ReadingTime }} min read</span>
-            {{- if .Params.author }}<span>✍️ {{ .Params.author }}</span>{{- end }}
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+            <span>{{ .ReadingTime }} min read</span>
+            {{- if .Params.author }}<span>{{ .Params.author }}</span>{{- end }}
         </div>
         
         {{- if .Params.cover.image }}
@@ -27,16 +27,23 @@
         {{ .Content }}
     </div>
     
-    {{- $related := .Site.RegularPages.Related . | first 3 }}
+    {{/* FIREWALL: Related magazine articles = GDB family only */}}
+    {{- $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" "News" "Magazine" }}
+    {{- $relatedPool := where .Site.RegularPages "Params.categories" "intersect" $gdb }}
+    {{- $relatedPool = $relatedPool | complement (slice .) }}
+    {{- $related := $relatedPool.Related . | first 3 }}
+    {{- if not $related }}
+      {{- $related = first 3 $relatedPool }}
+    {{- end }}
     {{- if $related }}
     <div class="related-articles" style="margin-top: 60px; padding-top: 40px; border-top: 2px solid #eee;">
-        <h3 style="margin-bottom: 25px;">📚 Continue Reading</h3>
+        <h3 style="margin-bottom: 25px;">Continue Reading</h3>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 25px;">
             {{- range $related }}
             <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
                 <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">
                     <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 1.1rem;">{{ .Title }}</h4>
-                    <p style="font-size: 0.9rem; color: #666; margin: 0;">{{ .Date.Format "Jan 2, 2006" }} • {{ .ReadingTime }} min read</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 0;">{{ .Date.Format "Jan 2, 2006" }} &bull; {{ .ReadingTime }} min read</p>
                 </a>
             </div>
             {{- end }}

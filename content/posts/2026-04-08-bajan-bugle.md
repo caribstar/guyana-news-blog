@@ -5,6 +5,9 @@ categories: ["Caribbean Brief", "Barbados"]
 tags: ["Barbados", "World Bank", "Air Canada", "Caribbean", "economy"]
 author: "Bajan Bugle"
 description: "Barbados grows 2.7 percent while Jamaica shrinks. Air Canada non-stop coming. World Bank issues its annual assessment of regional mediocrity."
+tone: "commentary"
+status: "published"
+product_family: "gdb"
 ---
 
 Good morning from Barbados, where the World Bank has confirmed that this island is growing at 2.7 percent this year and will grow at 3.0 percent in 2027. This is not spectacular. It is also not minus one percent, which is what Jamaica is doing this year. We note the distinction without gloating. The distinction speaks for itself.

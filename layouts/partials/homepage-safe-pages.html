@@ -1,0 +1,23 @@
+{{/* 
+  Homepage Firewall — positive inclusion only.
+  Returns pages from GDB product family categories.
+  NEVER includes Country Network satire.
+  
+  Usage in a template:
+    {{ $pages := partialCached "homepage-safe-pages.html" . }}
+    {{ range first 10 $pages }} ... {{ end }}
+*/}}
+{{- $gdb := slice "Daily Brief" "Uncle Ramesh" "Caribbean Brief" -}}
+{{- $pages := slice -}}
+{{- range site.RegularPages -}}
+  {{- $postCats := .Params.categories | default slice -}}
+  {{- $isGdb := false -}}
+  {{- range $postCats -}}
+    {{- if in $gdb . -}}{{- $isGdb = true -}}{{- end -}}
+  {{- end -}}
+  {{- if $isGdb -}}
+    {{- $pages = $pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages = sort $pages "Date" "desc" -}}
+{{- return $pages -}}

@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh: This Youngin' Thinks Trump's a Hero? PLEASE!"
 date: 2026-01-08T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire", "Venezuela Drama"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # CLE RAMESH'S HOT TAKE
@@ -186,7 +190,7 @@ Look, I understand satire. I GET jokes. But sometimes the situation too SERIOUS 
 
 This youngin' need to understand something: COMEDY GOT LIMITS.
 
-When 80+ people dead, when democracy violated, when international law BROKEâ€”maybe don't lead with jokes about delivery apps?
+When 80+ people dead, when democracy violated, when international law BROKE—maybe don't lead with jokes about delivery apps?
 
 **Messages for The Guyana Brief:**
 
@@ -229,7 +233,7 @@ At least government HELPING! Ask about PREVENTION, not mock the relief!
 
 **Stay INFORMED, not just ENTERTAINED.**
 
-*â€” Uncle Ramesh*  
+*— Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know the difference between satire and serious*
 

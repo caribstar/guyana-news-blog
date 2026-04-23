@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "drought", "labour", "RSS", "Miss Violet", "Barbados news"]
 author: "Miss Violet"
 description: "Miss Violet has strong feelings about the drought watch, the Labour Department's new enforcement campaign, and why the missing fishermen situation should be front-page news every single day."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 Good morning. Miss Violet is seated, coffee in hand, ready to speak.

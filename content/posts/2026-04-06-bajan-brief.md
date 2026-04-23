@@ -5,6 +5,10 @@ categories: ["Bajan Brief"]
 tags: ["Barbados", "Mottley", "BLP", "election", "voter turnout", "Kensington Oval", "CWI", "gun violence", "social media"]
 author: "The Bajan Bugle"
 description: "Mottley wins 30-0 again. Voter turnout hits a historic low. Kensington Oval dropped from cricket schedule. The Bajan Bugle reads the small print."
+tone: "satire"
+status: "published"
+country: "barbados"
+product_family: "country-network"
 ---
 
 *The Bajan Bugle — Little England, big opinions, and zero patience for spin.*

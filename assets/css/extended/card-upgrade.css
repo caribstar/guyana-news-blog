@@ -1,0 +1,196 @@
+/* ==========================================================
+   TRADEWINDS CARD UPGRADE — image dominant, Onion/Hustle style
+   ========================================================== */
+
+/* ----- BASE CARD: image dominates, text sits below ----- */
+.ttb-card { overflow: hidden; border-radius: 6px; }
+.ttb-card-image {
+  aspect-ratio: 16 / 9 !important;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.ttb-card-image-typo::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 30% 30%, rgba(212,164,55,0.15), transparent 60%);
+}
+.ttb-card-image-tag {
+  position: relative;
+  z-index: 2;
+  font-size: clamp(16px, 2vw, 22px) !important;
+  letter-spacing: 3.5px !important;
+}
+
+.ttb-card-body {
+  padding: 16px 18px 20px !important;
+  background: #ffffff;
+}
+.ttb-card-title {
+  font-size: 18px !important;
+  line-height: 1.22 !important;
+  margin: 4px 0 8px !important;
+  letter-spacing: -0.015em !important;
+}
+.ttb-card-section {
+  font-size: 10.5px !important;
+  letter-spacing: 1.8px !important;
+}
+.ttb-card-meta {
+  font-size: 12px !important;
+  color: #888;
+  margin-top: 6px !important;
+}
+
+/* ----- FEATURED CARD: much bigger, Semafor-style lead ----- */
+.ttb-card-featured {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.ttb-card-featured:hover { transform: none !important; box-shadow: none !important; }
+.ttb-card-featured .ttb-card-image {
+  aspect-ratio: 16 / 9 !important;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+.ttb-card-featured .ttb-card-body {
+  padding: 0 !important;
+  background: transparent !important;
+}
+.ttb-card-featured .ttb-card-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  margin: 10px 0 12px !important;
+  color: #0a3d4a !important;
+}
+.ttb-card-featured .ttb-card-excerpt {
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+  color: #333 !important;
+  margin: 0 0 10px !important;
+}
+
+/* ----- BIG HERO SLOT (Story of the Day, full-bleed-ish) ----- */
+.ttb-bighero {
+  max-width: 1240px;
+  margin: 0 auto 48px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 36px;
+  align-items: start;
+}
+.ttb-bighero-main { position: relative; }
+.ttb-bighero-image {
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  background-color: #0a3d4a;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+.ttb-bighero-image.ttb-card-image-typo { display: flex; align-items: center; justify-content: center; }
+.ttb-bighero-eyebrow {
+  display: inline-block;
+  color: #d4a437;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.ttb-bighero-title {
+  font-size: clamp(1.8rem, 4vw, 3rem) !important;
+  font-weight: 900 !important;
+  line-height: 1.05 !important;
+  color: #0a3d4a !important;
+  margin: 0 0 14px !important;
+  letter-spacing: -0.02em !important;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.ttb-bighero-excerpt {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 0 14px;
+}
+.ttb-bighero-meta {
+  font-size: 13px;
+  color: #666;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.ttb-bighero-meta a { color: #0a3d4a !important; text-decoration: none !important; }
+
+.ttb-bighero-side {
+  border-left: 3px solid #d4a437;
+  padding-left: 24px;
+}
+.ttb-bighero-side-heading {
+  color: #0a3d4a !important;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0a3d4a;
+}
+.ttb-bighero-side-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  counter-reset: tw-num;
+}
+.ttb-bighero-side-list li {
+  list-style: none !important;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e5e0;
+  counter-increment: tw-num;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: start;
+}
+.ttb-bighero-side-list li:last-child { border-bottom: none; }
+.ttb-bighero-side-list li::before {
+  content: counter(tw-num);
+  color: #d4a437;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  font-family: Georgia, 'Times New Roman', serif;
+  min-width: 24px;
+}
+.ttb-bighero-side-list a {
+  color: #0a3d4a !important;
+  text-decoration: none !important;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  display: block;
+}
+.ttb-bighero-side-list a:hover { color: #b8882a !important; }
+.ttb-bighero-side-list .side-meta {
+  display: block;
+  font-size: 11px;
+  color: #888;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .ttb-bighero { grid-template-columns: 1fr; gap: 28px; padding: 0 16px; }
+  .ttb-bighero-side { border-left: 0; border-top: 3px solid #d4a437; padding: 18px 0 0; }
+}
+
+/* ----- DARK MODE ----- */
+.dark .ttb-card-body { background: #16252b; }
+.dark .ttb-card-title, .dark .ttb-card-featured .ttb-card-title, .dark .ttb-bighero-title { color: #ffffff !important; }
+.dark .ttb-card-featured .ttb-card-excerpt, .dark .ttb-bighero-excerpt { color: #cfd4d6 !important; }
+.dark .ttb-bighero-side-heading { color: #ffffff !important; border-bottom-color: #d4a437; }
+.dark .ttb-bighero-side-list a { color: #e8e8e8 !important; }
+.dark .ttb-bighero-side-list li { border-color: #2a3a40; }

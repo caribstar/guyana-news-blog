@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["guyana", "news", "daily brief", "politics", "flooding", "oil", "identity card", "mining"]
 author: "GDB Staff"
 description: "Your Wednesday morning roundup of Guyana's top stories — flooding warnings, digital IDs, oil drama, and the AFC demanding government fork over $9 billion."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Wednesday, April 1, 2026 — Your morning cup of chaos, served hot.*

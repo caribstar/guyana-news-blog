@@ -5,6 +5,10 @@ categories: ["Daily Brief", "News"]
 tags: ["Mohameds", "Exxon", "Cash Grant", "Stabroek News", "Kaieteur News", "Guyana Chronicle"]
 author: "Daily Brief"
 description: "The Mohameds went to the CCJ, Exxon wants more oil, and somewhere in the background, a newspaper quietly died. Tuesday's 5-minute Guyana news circus."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 🇬🇾 **THE GUYANA BRIEF** 🇬🇾  

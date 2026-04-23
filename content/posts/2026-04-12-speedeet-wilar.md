@@ -5,6 +5,10 @@ categories: ["Speedeet & Wilar"]
 tags: ["Speedeet", "Wilar", "talent show", "school", "Guyana", "children", "Pike Street"]
 author: "GDB Staff"
 description: "Speedeet signs them both up for the school talent show without telling Wilar. Wilar has one week to learn to juggle. This cannot end well."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *A Speedeet & Wilar Story*

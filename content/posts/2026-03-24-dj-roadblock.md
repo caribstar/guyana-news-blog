@@ -5,6 +5,10 @@ categories: ["DJ Roadblock", "Weekly Feature"]
 tags: ["Traffic", "Roads", "Infrastructure", "Georgetown", "DJ Roadblock"]
 author: "DJ Roadblock"
 description: "DJ Roadblock with your weekly road conditions, infrastructure updates, and unsolicited opinions on electric motorcycles."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 🎵 *[Air horn sound effect]* 🎵

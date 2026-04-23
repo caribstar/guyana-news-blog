@@ -5,6 +5,10 @@ categories: ["Bounty Board", "Weekly Feature"]
 tags: ["Bounty Board", "Community", "Events", "Notices", "Georgetown"]
 author: "Bounty Board"
 description: "This week's community notices, events, and things worth knowing about across Guyana."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 📌 **THE BOUNTY BOARD**  

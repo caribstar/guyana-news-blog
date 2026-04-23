@@ -5,6 +5,10 @@ draft: false
 categories: ["Kenya Brief", "Africa Brief"]
 authors: ["The Nairobi Dispatch"]
 tags: ["Kenya", "Nairobi", "Africa"]
+tone: "satire"
+status: "published"
+country: "kenya"
+product_family: "country-network"
 ---
 
 Sunday in Nairobi. The Nairobi Dispatch introduces itself with the observation that, as weeks for political columnists go, this one required no embellishment. The facts did the work. I shall present them with the seasoning they need and no more.

@@ -1,9 +1,13 @@
-﻿---
+---
 title: "De Boys Seh: Oil Talk, Border Soldiers, and Birthday Party Entry Fees"
 date: 2026-01-19
 categories: ["Speedeet & Wilar", "De Boys Seh"]
 tags: ["youth", "commentary", "Guyanese-culture", "friendship"]
 summary: "Speedeet and Wilar from Pike Street, Kitty try to understand oil contracts, wonder why soldiers watching de border, and complain about paying to attend birthday parties."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *Every Sunday, Speedeet and Wilar give we dem take on wha happening in Guyana from a 12-year-old perspective. Two boys from Pike Street, Kitty - no politics, just real talk!*

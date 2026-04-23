@@ -5,6 +5,10 @@ categories: ["Speedeet & Wilar"]
 tags: ["Speedeet", "Wilar", "Pike Street", "rain", "Georgetown", "flooding", "Sunday"]
 author: "Albert Massay"
 description: "Georgetown flooding again, and Speedeet see it as an opportunity. Wilar see it as a problem. Dem both right."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *A Speedeet & Wilar Story*

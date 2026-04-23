@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Friday's Guyana Brief - Oil Wells Racing to Empty, Speaker Races to India"
 date: 2026-01-16T08:00:00-04:00
 draft: false
@@ -13,6 +13,10 @@ tags:
   - Oil Production
   - Infrastructure Fails
 author: "Editorial Team"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Good morning, Guyana! ☕

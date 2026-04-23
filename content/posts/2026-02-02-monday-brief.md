@@ -4,6 +4,10 @@ date: 2026-02-02
 categories: ["Daily Brief", "News"]
 tags: ["Budget-2026", "Mohameds", "extradition", "Plaza-Court-Hotel", "Mashramani", "Hyde-Park", "Leon-Baird", "UK-partnership", "crime"]
 summary: "Budget 2026 debate opens in the National Assembly, the Acting CJ rules on the Mohameds extradition challenge TODAY, Georgetown's newest hotel opens, Mashramani gets $120M, and cattle rustlers allegedly killed a Rupununi conservationist. Your Monday morning news circus from all four papers."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 *Your daily satirical summary of Guyana's four major newspapers. We read the Chronicle, Stabroek, Kaieteur, and Times so you can start your Monday with laughs instead of headaches.*

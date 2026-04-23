@@ -1,10 +1,14 @@
 ---
 title: "Yard Report — Thursday, April 16, 2026"
 date: 2026-04-16T07:00:00-05:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["JPS", "Hurricane Melissa", "UHWI", "gas prices", "carnival", "Jamaica"]
 author: "Yard Report"
 description: "Six months after Melissa, Westmoreland still dark. UHWI owes $40 billion in taxes. Carnival was nice though."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Good morning from Kingston, where the rain that stopped JPS from fixing Westmoreland's lights has apparently decided it lives there now.

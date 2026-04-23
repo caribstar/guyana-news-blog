@@ -4,6 +4,10 @@ date: 2026-01-24
 categories: ["Back-a-Truck"]
 tags: ["deals", "market", "shopping", "weekend", "Stabroek", "Bourda"]
 description: "Yuh weekend guide to de best deals in de markets! From Stabroek to Bourda, we got de prices and de vibes!"
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 ## 🚛 BACK-A-TRUCK WEEKEND EDITION!

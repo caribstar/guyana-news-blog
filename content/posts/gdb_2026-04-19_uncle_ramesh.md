@@ -5,6 +5,10 @@ draft: false
 categories: ["Uncle Ramesh"]
 authors: ["Uncle Ramesh"]
 tags: ["Guyana", "Uncle Ramesh", "PPP", "Ali", "oil", "progress"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 Morning to all my people. Uncle Ramesh here, cup of Mauby in hand, looking out over the backdam and thinking about what the papers saying this Sunday. Let me walk you through it the way it really is, not the way the opposition vexers trying to paint it.

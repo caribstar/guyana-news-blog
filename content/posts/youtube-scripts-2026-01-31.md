@@ -4,6 +4,9 @@ date: 2026-01-31
 categories: ["YouTube Scripts"]
 tags: ["YouTube", "scripts", "HeyGen", "video", "January 2026"]
 description: "60-second and 4-minute YouTube scripts for The Guyana Daily Brief — Saturday, January 31, 2026"
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ---

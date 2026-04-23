@@ -5,6 +5,10 @@ categories: ["Daily Brief"]
 tags: ["Guyana", "news", "politics", "oil", "gas grant", "Suriname"]
 author: "GDB Staff"
 description: "Your 5-minute briefing on everything happening in Guyana today — cash grants, river wars, and an American banker who flew in to see what all the fuss is about."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # Guyana Daily Brief

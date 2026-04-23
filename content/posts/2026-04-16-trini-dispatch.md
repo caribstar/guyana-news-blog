@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["CARICOM", "US travel advisory", "housing deal", "Carnival", "Trinidad"]
 author: "Trini Dispatch"
 description: "Kamla calls CARICOM dysfunctional. The US still doesn't want to visit. A $3.4 billion housing deal needs explaining."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning from Port of Spain, where the post-Carnival atmosphere lingers and the political atmosphere continues to be precisely what it has always been.

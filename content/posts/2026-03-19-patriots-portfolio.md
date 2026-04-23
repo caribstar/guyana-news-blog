@@ -4,6 +4,10 @@ date: 2026-03-19
 categories: ["Patriots Portfolio"]
 tags: ["patriots-portfolio", "satire", "economy", "oil", "humor", "guyana"]
 description: "Your weekly satirical investment guide to the Guyanese national situation. Buy, Sell, or Hold."
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *The Patriots Portfolio: treating Guyana's national developments as investment opportunities since we had nothing better to do. Not financial advice. Not any kind of advice, actually.*

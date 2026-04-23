@@ -6,6 +6,9 @@ tags: ["youtube-scripts", "heygen"]
 categories: ["YouTube Scripts"]
 author: "The Guyana Daily Brief"
 description: "60-second and 4-minute HeyGen avatar scripts covering today's top stories."
+tone: "commentary"
+status: "published"
+product_family: "series"
 ---
 
 ## 60-Second Script: "SOCU Raids Closed Building"

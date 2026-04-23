@@ -1,0 +1,63 @@
+{{ $post := .post }}
+{{ $variant := .variant | default "grid" }}
+{{ $cover := $post.Params.cover_image | default "" }}
+{{ $section := $post.Section | default "posts" }}
+
+{{ $catMap := dict
+   "Bajan Brief"      "barbados"
+   "Trini Brief"      "trinidad"
+   "Yard Brief"       "jamaica"
+   "Jamaica Brief"    "jamaica"
+   "Trinidad Brief"   "trinidad"
+   "Barbados Brief"   "barbados"
+   "Accra Almanac"    "ghana"
+   "Nairobi Dispatch" "kenya"
+   "Naija Lookbook"   "nigeria"
+   "Cape Chronicles"  "south-africa"
+   "Daily Brief"      "posts"
+   "Uncle Ramesh"     "uncle-ramesh"
+   "The Rumor Mill"   "rumor-mill"
+   "Speedeet & Wilar" "speedeet-wilar"
+   "DJ Roadblock"     "dj-roadblock"
+   "Bam-Bam Sally"    "bam-bam-sally"
+   "Progress Report"  "progress-report"
+   "Patriots Portfolio" "patriots-portfolio"
+}}
+
+{{ if not $cover }}
+  {{ with $post.Params.categories }}
+    {{ $cat := index . 0 }}
+    {{ $slug := index $catMap $cat }}
+    {{ if $slug }}
+      {{ $path := printf "/images/defaults/%s.jpg" $slug }}
+      {{ $staticPath := printf "static/images/defaults/%s.jpg" $slug }}
+      {{ if fileExists $staticPath }}{{ $cover = $path }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $cover }}
+  {{ $path := printf "/images/defaults/%s.jpg" $section }}
+  {{ $staticPath := printf "static/images/defaults/%s.jpg" $section }}
+  {{ if fileExists $staticPath }}{{ $cover = $path }}{{ end }}
+{{ end }}
+
+<article class="ttb-card ttb-card-{{ $variant }}">
+  <a href="{{ $post.RelPermalink }}" class="ttb-card-link">
+    {{ if $cover }}
+      <div class="ttb-card-image" style="background-image: url('{{ $cover | relURL }}');"></div>
+    {{ else }}
+      <div class="ttb-card-image ttb-card-image-typo ttb-card-image-typo-{{ $section }}">
+        <span class="ttb-card-image-tag">{{ $section | upper }}</span>
+      </div>
+    {{ end }}
+    <div class="ttb-card-body">
+      {{ with $post.Params.categories }}<span class="ttb-card-section">{{ index . 0 }}</span>{{ end }}
+      <h3 class="ttb-card-title">{{ $post.Title | plainify }}</h3>
+      {{ if eq $variant "featured" }}
+        <p class="ttb-card-excerpt">{{ $post.Summary | plainify | truncate 160 }}</p>
+      {{ end }}
+      <p class="ttb-card-meta">{{ $post.Date.Format "Jan 2, 2006" }}{{ with $post.Params.author }} &bull; {{ . }}{{ end }}</p>
+    </div>
+  </a>
+</article>

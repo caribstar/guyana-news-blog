@@ -1,9 +1,13 @@
-﻿---
+---
 title: "Uncle Ramesh: The Brief Discovers Math But Still Can't Add!"
 date: 2026-01-10T14:00:00-04:00
 draft: false
 categories: ["Uncle Ramesh", "Opinion"]
 tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Satire"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "gdb"
 ---
 
 # CLE RAMESH'S HOT TAKE
@@ -46,7 +50,7 @@ More of THIS, less of "Storage Unit Edition" nonsense!
 
 The Brief says: *"They're playing the victim card"*
 
-**Uncle Ramesh says:** Yes, BUTâ€”
+**Uncle Ramesh says:** Yes, BUT—
 
 Here's what The Brief MISSING:
 
@@ -288,7 +292,7 @@ Context MATTERS! Stop defending poverty porn!
 
 **Stay BALANCED. Stay INFORMED. And for God's sake, learn how CONSTRUCTION WORKS before you calculate!**
 
-*â€” Uncle Ramesh*  
+*— Uncle Ramesh*  
 *Calling from Queens, NY*  
 *Where we know 37 houses/day ain't how building works*
 

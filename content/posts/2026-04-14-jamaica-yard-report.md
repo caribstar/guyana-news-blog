@@ -1,10 +1,14 @@
 ---
 title: "Jamaica Brief – Yard Report: Tuesday, April 14, 2026"
 date: 2026-04-14T07:00:00-04:00
-categories: ["Jamaica Brief"]
+categories: ["Yard Brief"]
 tags: ["carnival shooting", "Big Wall", "police shooting", "profiling", "Reggae Boyz", "Dominos", "World Cup"]
 author: "Yard Report"
 description: "Carnival ended with gunshots, a boy got shot by a cop on a rooftop, the justice minister told JPs to stop profiling, and Domino's has a new owner. Tuesday's Kingston dispatch."
+tone: "satire"
+status: "published"
+country: "jamaica"
+product_family: "country-network"
 ---
 
 Good morning from Kingston, where the carnival confetti has barely settled and already the week is doing too much.

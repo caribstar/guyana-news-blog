@@ -4,6 +4,10 @@ date: 2026-02-15
 draft: false
 categories: ["De Boys Seh", "Kids"]
 tags: ["Speedeet", "Wilar", "Kid Commentary", "News"]
+tone: "commentary"
+status: "published"
+country: "guyana"
+product_family: "series"
 ---
 
 *De Boys Seh is Speedeet and Wilar's weekly kid commentary on the news. They're 12. Their opinions are their own. No politics.*

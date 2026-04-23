@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["trinidad", "tobago", "jet ski", "fire service", "venezuela", "chaguanas"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl from Chaguanas reacts to Angelica Jogie, the Caracas delegation, the new fire tenders, and the ongoing jet ski debate with the full range of emotions the week demands."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Cheryl here. Chaguanas. I had to put down my phone three times before I could write this today.

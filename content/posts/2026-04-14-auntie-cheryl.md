@@ -5,6 +5,10 @@ categories: ["Trini Brief"]
 tags: ["CARICOM", "Kamla", "dance", "crime", "fuel", "Metamorphosis"]
 author: "Auntie Cheryl"
 description: "Auntie Cheryl from Chaguanas is very proud of the PM, concerned about the murder rate, and has already bought tickets to Metamorphosis. Tuesday's dispatch."
+tone: "satire"
+status: "published"
+country: "trinidad"
+product_family: "country-network"
 ---
 
 Good morning darlings! Auntie Cheryl here from Chaguanas, where I had THREE cups of cocoa tea this morning because the news is a LOT and I needed the preparation.
