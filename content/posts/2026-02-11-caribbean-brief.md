@@ -1,12 +1,24 @@
 ---
-title: "Caribbean Brief: Barbados Votes TODAY, Cuba on 4-Day Work Week, Jamaica Shaken"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-11
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["barbados", "election", "cuba", "jamaica", "trinidad", "carnival", "caribbean"]
-summary: "Barbados goes to the polls as Mottley seeks historic third term, Cuba adopts emergency 4-day work week over fuel crisis, Jamaica rattled by 5.0 earthquake, and Trinidad Carnival is days away."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Barbados goes to the polls as Mottley seeks historic third term, Cuba adopts
+  emergency 4-day work week over fuel crisis, Jamaica rattled by 5.0 earthquake, and
+  Trinidad Carnival is days away.
+tags:
+- barbados
+- election
+- cuba
+- jamaica
+- trinidad
+- carnival
+- caribbean
+title: 'Caribbean Brief: Barbados Votes TODAY, Cuba on 4-Day Work Week, Jamaica Shaken'
+tone: commentary
 ---
 
 ## 🌴 Good Morning, Caribbean!

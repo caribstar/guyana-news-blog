@@ -1,18 +1,24 @@
 ---
-title: "Auntie Brings Extra Food 'Just In Case,' Feeds Entire Street"
-date: 2026-04-21T16:11:00-05:00
+author: Natasha Sookraj
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-21 16:11:00-05:00
 draft: false
-categories: ["Trini Brief"]
-section: "culture"
-author: "Natasha Sookraj"
-image: "https://picsum.photos/seed/trinidad-auntie-brings-extra-food-just-/1280/720"
-country: "trinidad"
-tone: "satire"
-status: "published"
-global_tags: ["family", "food", "social-life"]
+duplicate_group_key: trinidad|family|general
+fictional_character: true
+global_tags:
+- family
+- food
+- social-life
+image: https://picsum.photos/seed/trinidad-auntie-brings-extra-food-just-/1280/720
 local_tags: []
-duplicate_group_key: "trinidad|family|general"
-product_family: "country-network"
+product_family: country-network
+section: culture
+status: published
+title: Auntie Brings Extra Food 'Just In Case,' Feeds Entire Street
+tone: satire
 ---
 
 PENAL — Concerned that the family gathering might not have sufficient provisions, Auntie Indra arrived Sunday with what she described as 'just a little extra,' a quantity later determined to include enough pelau, stewed chicken, and macaroni pie to sustain the immediate neighbourhood for approximately 48 hours.

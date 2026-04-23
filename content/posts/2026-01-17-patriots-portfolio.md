@@ -1,13 +1,20 @@
 ---
-title: "🏆 Patriots Portfolio - Dr. Goldenheart Perseverance"
+author: Uncle Ramesh
+categories:
+- Patriots Portfolio
+content_type: parody_column
+country: guyana
 date: 2026-01-17
-author: "Uncle Ramesh"
-categories: ["Patriots Portfolio"]
-tags: ["satire", "patriots", "healthcare", "guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- satire
+- patriots
+- healthcare
+- guyana
+title: "\U0001F3C6 Patriots Portfolio - Dr. Goldenheart Perseverance"
+tone: commentary
 ---
 
 *Uncle Ramesh's Weekly Celebration of Guyanese Excellence*

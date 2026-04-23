@@ -1,14 +1,24 @@
 ---
-title: "The Rumour Mill — Sunday, April 12, 2026"
-date: 2026-04-12T11:05:00-04:00
-categories: ["The Rumour Mill"]
-tags: ["Rumour Mill", "Guyana", "gossip", "Georgetown", "rumours", "satire"]
-author: "GDB Staff"
-description: "De Rumour Mill is grinding this Easter Sunday — whispers about the Wales contract, the pilot rescue, a certain ministry, and who was seen where on the seawall with who."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- The Rumour Mill
+content_type: news
+country: guyana
+date: 2026-04-12 11:05:00-04:00
+description: De Rumour Mill is grinding this Easter Sunday — whispers about the Wales
+  contract, the pilot rescue, a certain ministry, and who was seen where on the seawall
+  with who.
+product_family: series
+status: published
+tags:
+- Rumour Mill
+- Guyana
+- gossip
+- Georgetown
+- rumours
+- satire
+title: The Rumour Mill — Sunday, April 12, 2026
+tone: commentary
 ---
 
 *🕵️ THE RUMOUR MILL*

@@ -1,15 +1,20 @@
 ---
-title: "Progress Report: Budget Estimates, Bridge Acquisition & Gold Sector Reforms"
-date: 2026-02-12T11:00:00-04:00
+author: The Guyana Daily Brief
+categories:
+- Progress Report
+content_type: news
+country: guyana
+date: 2026-02-12 11:00:00-04:00
+description: Tracking infrastructure projects, institutional developments, and economic
+  indicators across Guyana.
 draft: false
-tags: ["progress-report", "development"]
-categories: ["Progress Report"]
-author: "The Guyana Daily Brief"
-description: "Tracking infrastructure projects, institutional developments, and economic indicators across Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- progress-report
+- development
+title: 'Progress Report: Budget Estimates, Bridge Acquisition & Gold Sector Reforms'
+tone: commentary
 ---
 
 ## Budget 2026 Estimates: Committee of Supply Update

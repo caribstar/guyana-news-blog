@@ -1,14 +1,26 @@
 ---
-title: "Bajan Brief – Bajan Bugle: Tuesday, April 14, 2026"
-date: 2026-04-14T07:00:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "farm labour", "Canada", "gastrointestinal", "rising costs", "CARICOM", "fuel"]
-author: "Bajan Bugle"
-description: "Barbados is sending fewer farm workers to Canada, there is a gastrointestinal situation, businesses are squeezed, and the world's oil problem is everyone's problem. Tuesday's Bugle."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-14 07:00:00-04:00
+description: Barbados is sending fewer farm workers to Canada, there is a gastrointestinal
+  situation, businesses are squeezed, and the world's oil problem is everyone's problem.
+  Tuesday's Bugle.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- farm labour
+- Canada
+- gastrointestinal
+- rising costs
+- CARICOM
+- fuel
+title: 'Bajan Brief – Bajan Bugle: Tuesday, April 14, 2026'
+tone: satire
 ---
 
 Good morning from Bridgetown. Barbados is observing the global situation with its customary composure, noting several domestic developments that require attention, and declining to panic about any of it publicly.

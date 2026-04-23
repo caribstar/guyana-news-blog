@@ -1,14 +1,25 @@
 ---
-title: "De Boys Seh — Sunday, April 12, 2026"
-date: 2026-04-12T10:00:00-04:00
-categories: ["De Boys Seh"]
-tags: ["De Boys Seh", "Guyana", "dialect", "commentary", "Easter", "ASL crash", "Wales GTE"]
-author: "GDB Staff"
-description: "De boys gather after Easter Sunday church and kite-flying to assess the week: the pilot in the jungle, the gas contract revelations, the cleanup exercise, and why Berbice always get the last hospital."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- De Boys Seh
+content_type: news
+country: guyana
+date: 2026-04-12 10:00:00-04:00
+description: 'De boys gather after Easter Sunday church and kite-flying to assess
+  the week: the pilot in the jungle, the gas contract revelations, the cleanup exercise,
+  and why Berbice always get the last hospital.'
+product_family: series
+status: published
+tags:
+- De Boys Seh
+- Guyana
+- dialect
+- commentary
+- Easter
+- ASL crash
+- Wales GTE
+title: De Boys Seh — Sunday, April 12, 2026
+tone: commentary
 ---
 
 *Every Sunday, de boys lime by de road and assess de week. This is what dey seh.*

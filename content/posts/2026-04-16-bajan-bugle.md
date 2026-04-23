@@ -1,14 +1,23 @@
 ---
-title: "Bajan Bugle — Thursday, April 16, 2026"
-date: 2026-04-16T07:00:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Mottley", "Borrowers Platform", "QEH", "crime", "Barbados"]
-author: "Bajan Bugle"
-description: "Mottley wants Barbados to host the global Borrowers' Platform secretariat. QEH confirms its financials are fine. A man went straight back to prison."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-16 07:00:00-04:00
+description: Mottley wants Barbados to host the global Borrowers' Platform secretariat.
+  QEH confirms its financials are fine. A man went straight back to prison.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Mottley
+- Borrowers Platform
+- QEH
+- crime
+- Barbados
+title: Bajan Bugle — Thursday, April 16, 2026
+tone: satire
 ---
 
 Good morning from Bridgetown, where the Prime Minister is in Washington telling the world that Barbados has earned the right to host whatever needs hosting.

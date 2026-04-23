@@ -1,14 +1,23 @@
 ---
-title: "Patriots Portfolio: The Rush on Gas Cylinders, the CANU Seizure Hedge, and Why 'Be!' Pay Was Never a Good Idea"
-date: 2026-04-17T07:30:00-04:00
+authors:
+- Finance Ferrari
+categories:
+- Patriots Portfolio
+content_type: satire
+country: guyana
+date: 2026-04-17 07:30:00-04:00
 draft: false
-categories: ["Patriots Portfolio"]
-authors: ["Finance Ferrari"]
-tags: ["patriots portfolio", "investments", "finance", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- patriots portfolio
+- investments
+- finance
+- Guyana
+title: 'Patriots Portfolio: The Rush on Gas Cylinders, the CANU Seizure Hedge, and
+  Why ''Be!'' Pay Was Never a Good Idea'
+tone: commentary
 ---
 
 Good Friday morning to all the serious money in Guyana. Finance Ferrari here with your weekly read on where the smart rupees are flowing, where the dumb rupees are flowing, and where the rupees are just gone — possibly into a "Be!" Pay wallet that no longer opens.

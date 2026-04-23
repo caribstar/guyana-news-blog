@@ -1,14 +1,23 @@
 ---
-title: "The Nairobi Dispatch: Ruto Calls His Critics 'Noisemakers,' ODM Walks Into a Trap, Sama Fires 1,108, and a Father in Meru Does the Unspeakable"
-date: 2026-04-18T12:00:00-04:00
+authors:
+- The Nairobi Dispatch
+categories:
+- Kenya Brief
+- Africa Brief
+content_type: satire
+country: kenya
+date: 2026-04-18 12:00:00-04:00
 draft: false
-categories: ["Kenya Brief", "Africa Brief"]
-authors: ["The Nairobi Dispatch"]
-tags: ["Kenya", "Nairobi", "Africa"]
-tone: "satire"
-status: "published"
-country: "kenya"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Kenya
+- Nairobi
+- Africa
+title: 'The Nairobi Dispatch: Ruto Calls His Critics ''Noisemakers,'' ODM Walks Into
+  a Trap, Sama Fires 1,108, and a Father in Meru Does the Unspeakable'
+tone: satire
 ---
 
 Sunday in Nairobi. The Nairobi Dispatch introduces itself with the observation that, as weeks for political columnists go, this one required no embellishment. The facts did the work. I shall present them with the seasoning they need and no more.

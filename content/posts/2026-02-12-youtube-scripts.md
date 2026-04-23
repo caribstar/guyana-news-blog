@@ -1,14 +1,18 @@
 ---
-title: "YouTube Scripts: SOCU Raids, Lobby Firms & Barbados Votes"
-date: 2026-02-12T09:00:00-04:00
+author: The Guyana Daily Brief
+categories:
+- YouTube Scripts
+content_type: news
+date: 2026-02-12 09:00:00-04:00
+description: 60-second and 4-minute HeyGen avatar scripts covering today's top stories.
 draft: false
-tags: ["youtube-scripts", "heygen"]
-categories: ["YouTube Scripts"]
-author: "The Guyana Daily Brief"
-description: "60-second and 4-minute HeyGen avatar scripts covering today's top stories."
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- youtube-scripts
+- heygen
+title: 'YouTube Scripts: SOCU Raids, Lobby Firms & Barbados Votes'
+tone: commentary
 ---
 
 ## 60-Second Script: "SOCU Raids Closed Building"

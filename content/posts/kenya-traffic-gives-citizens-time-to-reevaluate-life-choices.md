@@ -1,18 +1,23 @@
 ---
-title: "Traffic Gives Citizens Time To Reevaluate Life Choices"
-date: 2026-04-22T10:53:00-05:00
+author: Brian Otieno
+categories:
+- Kenya Brief
+content_type: satire
+country: kenya
+date: 2026-04-22 10:53:00-05:00
 draft: false
-categories: ["Kenya Brief"]
-section: "news"
-author: "Brian Otieno"
-image: "https://picsum.photos/seed/kenya-traffic-gives-citizens-time-to/1280/720"
-country: "kenya"
-tone: "satire"
-status: "published"
-global_tags: ["transport"]
-local_tags: ["nairobi-traffic"]
-duplicate_group_key: "kenya|transport|nairobi-traffic"
-product_family: "country-network"
+duplicate_group_key: kenya|transport|nairobi-traffic
+fictional_character: true
+global_tags:
+- transport
+image: https://picsum.photos/seed/kenya-traffic-gives-citizens-time-to/1280/720
+local_tags:
+- nairobi-traffic
+product_family: country-network
+section: news
+status: published
+title: Traffic Gives Citizens Time To Reevaluate Life Choices
+tone: satire
 ---
 
 MOMBASA ROAD — A routine evening commute Wednesday extended to 3 hours and 47 minutes, providing an estimated 140,000 Nairobi motorists with sufficient uninterrupted silence to question their career paths, relationships, mortgages, and decision to remain in the city.

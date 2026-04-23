@@ -1,12 +1,21 @@
 ---
-title: "YouTube Scripts — Monday, February 2, 2026"
+categories:
+- YouTube Scripts
+- Content
+content_type: commentary
 date: 2026-02-02
-categories: ["YouTube Scripts", "Content"]
-tags: ["HeyGen", "YouTube", "scripts", "Budget-2026", "Mohameds", "Caribbean"]
-summary: "60-second and 4-minute HeyGen-ready scripts for Monday February 2, 2026."
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+summary: 60-second and 4-minute HeyGen-ready scripts for Monday February 2, 2026.
+tags:
+- HeyGen
+- YouTube
+- scripts
+- Budget-2026
+- Mohameds
+- Caribbean
+title: YouTube Scripts — Monday, February 2, 2026
+tone: commentary
 ---
 
 # YOUTUBE SCRIPTS — MONDAY, FEBRUARY 2, 2026

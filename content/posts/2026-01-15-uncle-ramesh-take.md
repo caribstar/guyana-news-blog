@@ -1,14 +1,23 @@
 ---
-title: "😊 [PRO-GOV] Uncle Ramesh: When De Government Does De Math Right (For Once)"
+categories:
+- Opinion
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-15
 draft: false
-categories: ["Opinion", "Uncle Ramesh"]
-tags: ["satire", "uncle-ramesh", "politics", "pro-government"]
-summary: "Uncle Ramesh does the math on the census data and discovers the government was actually planning ahead. Who knew? Plus, finally some people heading to jail."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh does the math on the census data and discovers the government
+  was actually planning ahead. Who knew? Plus, finally some people heading to jail.
+tags:
+- satire
+- uncle-ramesh
+- politics
+- pro-government
+title: "\U0001F60A [PRO-GOV] Uncle Ramesh: When De Government Does De Math Right (For
+  Once)"
+tone: commentary
 ---
 
 *Uncle Ramesh settles into his chair with the census report and a smile*
@@ -164,6 +173,3 @@ Is everything perfect? No! But show Uncle Ramesh ANY country where everything pe
 ***Reading the Other Side:** De critics will say government overbuilding, cybercrime law being abused, and Parliament dysfunction. Read de Wednesday Brief for dat perspective if you want to be negative all de time.
 
 Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary and don't represent actual persons. But de progress? De progress REAL.*
-
-
-

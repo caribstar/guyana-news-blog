@@ -1,14 +1,22 @@
 ---
-title: "Miss Violet: On De Prime Minister's Warning, De Young Man Remanded, De Oistins Question, and What a Society Owes Its Children"
-date: 2026-04-18T11:00:00-04:00
+authors:
+- Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-18 11:00:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Miss Violet"]
-tags: ["Barbados", "Bridgetown", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bridgetown
+- dueling blogs
+title: 'Miss Violet: On De Prime Minister''s Warning, De Young Man Remanded, De Oistins
+  Question, and What a Society Owes Its Children'
+tone: satire
 ---
 
 Good morning to every reader. I am Miss Violet. I shall be more brief today than I was yesterday because I have a Sabbath School class to prepare for tomorrow and a granddaughter who expects me at four o'clock for tea. But there is much to address, and I shall address it with my usual directness.

@@ -1,13 +1,23 @@
 ---
-title: "💅 Bam-Bam Sally's Rumor Mill — Saturday, February 7, 2026"
+categories:
+- Bam-Bam Sally
+- Entertainment
+content_type: commentary
+country: guyana
 date: 2026-02-07
-categories: ["Bam-Bam Sally", "Entertainment"]
-tags: ["Bam-Bam Sally", "Rumor Mill", "Satire", "Gossip", "Entertainment", "Weekly Feature"]
-summary: "Bam-Bam Sally back with de freshest fictional gossip! Carnival costumes, stadium VIP passes, mining camp drama, and who wedding get postpone AGAIN!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: Bam-Bam Sally back with de freshest fictional gossip! Carnival costumes,
+  stadium VIP passes, mining camp drama, and who wedding get postpone AGAIN!
+tags:
+- Bam-Bam Sally
+- Rumor Mill
+- Satire
+- Gossip
+- Entertainment
+- Weekly Feature
+title: "\U0001F485 Bam-Bam Sally's Rumor Mill — Saturday, February 7, 2026"
+tone: commentary
 ---
 
 *⚠️ DISCLAIMER: Bam-Bam Sally's Rumor Mill is ENTIRELY FICTIONAL. ALL characters, names, and scenarios are COMPLETELY MADE UP for entertainment purposes. No real persons, businesses, or events are referenced. This is satirical entertainment and complies fully with the Cybercrime Act of Guyana, Section 19 and all applicable provisions.*

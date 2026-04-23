@@ -1,14 +1,25 @@
 ---
-title: "Miss Violet's Barbados — Sunday, April 12, 2026"
-date: 2026-04-12T08:25:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "prison reform", "health", "farm labour", "business costs", "Miss Violet"]
-author: "Miss Violet"
-description: "Miss Violet commends Barbados for hosting the regional prison reform workshop, is concerned about gastrointestinal cases, and has considered views on what rising costs mean for the working Barbadian."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-12 08:25:00-04:00
+description: Miss Violet commends Barbados for hosting the regional prison reform
+  workshop, is concerned about gastrointestinal cases, and has considered views on
+  what rising costs mean for the working Barbadian.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- prison reform
+- health
+- farm labour
+- business costs
+- Miss Violet
+title: Miss Violet's Barbados — Sunday, April 12, 2026
+tone: satire
 ---
 
 Good morning. Miss Violet has had her tea. She is ready.

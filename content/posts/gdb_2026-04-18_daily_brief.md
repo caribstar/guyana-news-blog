@@ -1,14 +1,21 @@
 ---
-title: "Daily Brief: Nandlall Wants De Noise Gone, Scotiabank Get a Prize, Two Arrested in Berbice for Guns, and de Chess Players Come to Play"
-date: 2026-04-18T06:00:00-04:00
+authors:
+- The Guyana Daily Brief
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-18 06:00:00-04:00
 draft: false
-categories: ["Daily Brief"]
-authors: ["The Guyana Daily Brief"]
-tags: ["daily brief", "news roundup", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- daily brief
+- news roundup
+- Guyana
+title: 'Daily Brief: Nandlall Wants De Noise Gone, Scotiabank Get a Prize, Two Arrested
+  in Berbice for Guns, and de Chess Players Come to Play'
+tone: commentary
 ---
 
 **Morning, Guyana.** Saturday, April 18. The workweek is technically over but traffic doesn't know that. Here's what happened while you were sleeping in — or, more realistically, while somebody's car alarm was going off at 5:47 AM for the third consecutive morning.

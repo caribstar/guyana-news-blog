@@ -1,18 +1,25 @@
 ---
-title: "Braai Starts Late, Ends With Strong Opinions"
-date: 2026-04-21T03:43:00-05:00
+author: L. Dlamini
+categories:
+- SA Brief
+content_type: satire
+country: south-africa
+date: 2026-04-21 03:43:00-05:00
 draft: false
-categories: ["SA Brief"]
-section: "culture"
-author: "L. Dlamini"
-image: "https://picsum.photos/seed/south-africa-braai-starts-late-ends-with-st/1280/720"
-country: "south-africa"
-tone: "satire"
-status: "published"
-global_tags: ["family", "culture", "economy"]
-local_tags: ["braai"]
-duplicate_group_key: "south-africa|family|braai"
-product_family: "country-network"
+duplicate_group_key: south-africa|family|braai
+fictional_character: true
+global_tags:
+- family
+- culture
+- economy
+image: https://picsum.photos/seed/south-africa-braai-starts-late-ends-with-st/1280/720
+local_tags:
+- braai
+product_family: country-network
+section: culture
+status: published
+title: Braai Starts Late, Ends With Strong Opinions
+tone: satire
 ---
 
 CENTURION — A Saturday braai scheduled for 2 p.m. that the fire was not lit until 3:47 p.m. concluded at 11:22 p.m. with attendees having generated strong, detailed, and in several cases unchangeable opinions about cricket, the Rand, their neighbours, and a cousin's second marriage.

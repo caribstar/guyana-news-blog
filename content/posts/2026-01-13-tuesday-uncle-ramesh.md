@@ -1,13 +1,21 @@
 ---
-title: "Uncle Ramesh: Census Critics Don't Understand How Government Works"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-01-13
 draft: false
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["Opinion", "Pro-Government", "Diaspora Voice", "Census", "Parliament"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Opinion
+- Pro-Government
+- Diaspora Voice
+- Census
+- Parliament
+title: 'Uncle Ramesh: Census Critics Don''t Understand How Government Works'
+tone: commentary
 ---
 
 # Uncle Ramesh's Take

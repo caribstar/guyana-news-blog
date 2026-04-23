@@ -1,12 +1,20 @@
 ---
-title: "Caribbean Daily Brief – Wednesday, January 29, 2026"
+author: The Guyana Daily Brief
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-01-29
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Regional"]
-author: "The Guyana Daily Brief"
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- Jamaica
+- Trinidad
+- Barbados
+- Regional
+title: Caribbean Daily Brief – Wednesday, January 29, 2026
+tone: commentary
 ---
 
 *Your regional roundup from across the Caribbean* 🌴

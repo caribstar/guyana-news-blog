@@ -1,14 +1,24 @@
 ---
-title: "Bounty Board — March 24, 2026: Community Notices, Events & More"
+author: Bounty Board
+categories:
+- Bounty Board
+- Weekly Feature
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["Bounty Board", "Weekly Feature"]
-tags: ["Bounty Board", "Community", "Events", "Notices", "Georgetown"]
-author: "Bounty Board"
-description: "This week's community notices, events, and things worth knowing about across Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: This week's community notices, events, and things worth knowing about
+  across Guyana.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Bounty Board
+- Community
+- Events
+- Notices
+- Georgetown
+title: 'Bounty Board — March 24, 2026: Community Notices, Events & More'
+tone: commentary
 ---
 
 📌 **THE BOUNTY BOARD**  

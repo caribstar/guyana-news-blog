@@ -1,14 +1,26 @@
 ---
-title: "Patriots Portfolio — March 24, 2026: Oil, Courts, and the Business of Everything"
+author: Patriots Portfolio
+categories:
+- Patriots Portfolio
+- Economy
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["Patriots Portfolio", "Economy"]
-tags: ["Patriots Portfolio", "Exxon", "Oil", "Economy", "Business", "Mohameds"]
-author: "Patriots Portfolio"
-description: "This week in Guyana's business and economic landscape: Exxon's production push, rising oil prices, the NRF, and what the Mohameds saga means for business confidence."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'This week in Guyana''s business and economic landscape: Exxon''s production
+  push, rising oil prices, the NRF, and what the Mohameds saga means for business
+  confidence.'
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Patriots Portfolio
+- Exxon
+- Oil
+- Economy
+- Business
+- Mohameds
+title: 'Patriots Portfolio — March 24, 2026: Oil, Courts, and the Business of Everything'
+tone: commentary
 ---
 
 📈 **PATRIOTS PORTFOLIO**  

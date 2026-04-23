@@ -1,13 +1,20 @@
 ---
-title: "Uncle Ramesh Responds: Progress Despite the Noise"
+categories:
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-21
-summary: "Uncle Ramesh from Queens explains why the Opposition Leader delay is actually democracy at work, the Police Academy scandal is opposition propaganda, and Georgetown garbage is a City Hall problem."
-categories: ["Uncle Ramesh"]
-tags: ["satire", "diaspora", "government response"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens explains why the Opposition Leader delay is actually
+  democracy at work, the Police Academy scandal is opposition propaganda, and Georgetown
+  garbage is a City Hall problem.
+tags:
+- satire
+- diaspora
+- government response
+title: 'Uncle Ramesh Responds: Progress Despite the Noise'
+tone: commentary
 ---
 
 *From Queens, New York — Where we see through the political games* 🇬🇾🗽

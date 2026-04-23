@@ -1,13 +1,22 @@
 ---
-title: "Uncle Ramesh: The Brief Still Can't Give Credit Where Credit Due!"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-01-28
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["Uncle Ramesh", "Opinion", "Diaspora Voice", "Pro-Government", "Budget 2026"]
-summary: "Uncle Ramesh responds to The Brief's coverage of Budget 2026 and the Opposition Leader election from his couch in Queens, NY."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh responds to The Brief's coverage of Budget 2026 and the Opposition
+  Leader election from his couch in Queens, NY.
+tags:
+- Uncle Ramesh
+- Opinion
+- Diaspora Voice
+- Pro-Government
+- Budget 2026
+title: 'Uncle Ramesh: The Brief Still Can''t Give Credit Where Credit Due!'
+tone: commentary
 ---
 
 # 👴🏾 UNCLE RAMESH'S HOT TAKE

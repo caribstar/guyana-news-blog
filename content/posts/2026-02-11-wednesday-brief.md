@@ -1,13 +1,27 @@
 ---
-title: "Wednesday's Guyana Brief - Corruption Score: We Moved ONE Point, 30 Contractors Blacklisted, and the Flag That Started a War"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-11
-categories: ["Daily Brief", "News"]
-tags: ["guyana", "corruption", "gas-to-energy", "budget-2026", "sugar", "nfl", "venezuela", "contractors"]
-summary: "Guyana crawls up ONE spot on the corruption index, 30 contractors get blacklisted, Ali tours Brazil's gas plant, sugar promises continue, and the Guyana flag at the Super Bowl has people HEATED."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Guyana crawls up ONE spot on the corruption index, 30 contractors get blacklisted,
+  Ali tours Brazil's gas plant, sugar promises continue, and the Guyana flag at the
+  Super Bowl has people HEATED.
+tags:
+- guyana
+- corruption
+- gas-to-energy
+- budget-2026
+- sugar
+- nfl
+- venezuela
+- contractors
+title: 'Wednesday''s Guyana Brief - Corruption Score: We Moved ONE Point, 30 Contractors
+  Blacklisted, and the Flag That Started a War'
+tone: commentary
 ---
 
 ## 🇬🇾 Good Morning, Guyana!

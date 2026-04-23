@@ -1,12 +1,25 @@
 ---
-title: "Caribbean Brief: Barbados Goes to Polls Feb 11, Trinidad's PM Kamla Warns About 'Divisiveness', Jamaica Gets $415M Hurricane Relief"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-01-22
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Barbados", "Trinidad", "Jamaica", "elections", "hurricane", "CARICOM"]
-summary: "Mottley calls Barbados elections for February 11, Trinidad's new PM Kamla Persad-Bissessar navigates US-Venezuela tensions, Jamaica secures IMF emergency funding for Hurricane Melissa recovery, and Caribbean Airlines restructures its regional operations."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Mottley calls Barbados elections for February 11, Trinidad's new PM Kamla
+  Persad-Bissessar navigates US-Venezuela tensions, Jamaica secures IMF emergency
+  funding for Hurricane Melissa recovery, and Caribbean Airlines restructures its
+  regional operations.
+tags:
+- Barbados
+- Trinidad
+- Jamaica
+- elections
+- hurricane
+- CARICOM
+title: 'Caribbean Brief: Barbados Goes to Polls Feb 11, Trinidad''s PM Kamla Warns
+  About ''Divisiveness'', Jamaica Gets $415M Hurricane Relief'
+tone: commentary
 ---
 
 *Your Caribbean roundup — because the drama doesn't stop at Guyana's borders* 🌴

@@ -1,13 +1,24 @@
 ---
-title: "Speedeet & Wilar: De Chinese Restaurant Adventure"
+categories:
+- Speedeet & Wilar
+- Fiction
+content_type: commentary
+country: guyana
 date: 2026-01-27
-categories: ["Speedeet & Wilar", "Fiction"]
-tags: ["Speedeet and Wilar", "Fiction", "Comedy", "Georgetown", "Kitty", "Food"]
-summary: "When Wilar's uncle knows the owner of a Chinese restaurant near Kitty Cinema, the boys get a behind-the-scenes tour that changes everything Speedeet thought he knew about fried rice."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: When Wilar's uncle knows the owner of a Chinese restaurant near Kitty Cinema,
+  the boys get a behind-the-scenes tour that changes everything Speedeet thought he
+  knew about fried rice.
+tags:
+- Speedeet and Wilar
+- Fiction
+- Comedy
+- Georgetown
+- Kitty
+- Food
+title: 'Speedeet & Wilar: De Chinese Restaurant Adventure'
+tone: commentary
 ---
 
 ## 🍜 DE CHINESE RESTAURANT ADVENTURE

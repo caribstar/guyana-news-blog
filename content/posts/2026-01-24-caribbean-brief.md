@@ -1,12 +1,21 @@
 ---
-title: "Caribbean Daily Brief: Saturday, January 24, 2026"
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-01-24
-categories: ["Caribbean Brief"]
-tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Venezuela", "regional news"]
-description: "US-Caribbean visa tensions, Jamaica's IMF loan, Trinidad-US partnership, Venezuela oil law changes, and regional cricket updates"
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: US-Caribbean visa tensions, Jamaica's IMF loan, Trinidad-US partnership,
+  Venezuela oil law changes, and regional cricket updates
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- Jamaica
+- Trinidad
+- Barbados
+- Venezuela
+- regional news
+title: 'Caribbean Daily Brief: Saturday, January 24, 2026'
+tone: commentary
 ---
 
 *Your regional roundup from across the Caribbean*

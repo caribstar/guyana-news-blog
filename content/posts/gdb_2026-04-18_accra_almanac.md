@@ -1,14 +1,23 @@
 ---
-title: "The Accra Almanac: De Gold Mine Come Back, De Free Healthcare Go Out, De Cocoa Farmer Still Waiting, and What It Means When an Opposition Cries 'Intimidation'"
-date: 2026-04-18T11:30:00-04:00
+authors:
+- The Accra Almanac
+categories:
+- Ghana Brief
+- Africa Brief
+content_type: satire
+country: ghana
+date: 2026-04-18 11:30:00-04:00
 draft: false
-categories: ["Ghana Brief", "Africa Brief"]
-authors: ["The Accra Almanac"]
-tags: ["Ghana", "Accra", "Africa"]
-tone: "satire"
-status: "published"
-country: "ghana"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Ghana
+- Accra
+- Africa
+title: 'The Accra Almanac: De Gold Mine Come Back, De Free Healthcare Go Out, De Cocoa
+  Farmer Still Waiting, and What It Means When an Opposition Cries ''Intimidation'''
+tone: satire
 ---
 
 Greetings from Accra. The Accra Almanac introduces itself this Sunday with a week that happened to deliver the kind of political theatre a columnist dreams about and dreads in equal measure. Much to observe. Let us begin.

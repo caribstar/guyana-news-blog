@@ -1,14 +1,25 @@
 ---
-title: "Back-a-Truck — April 11, 2026"
+author: GDB Staff
+categories:
+- Back-a-Truck
+content_type: news
+country: guyana
 date: 2026-04-11
-categories: ["Back-a-Truck"]
-tags: ["guyana", "humor", "satire", "overheard", "market", "streets", "Georgetown"]
-author: "GDB Staff"
-description: "This week's Back-a-Truck: things overheard at Stabroek Market, on East Bank, at the seawall, and from somebody cousin who know somebody who work near a building."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'This week''s Back-a-Truck: things overheard at Stabroek Market, on East
+  Bank, at the seawall, and from somebody cousin who know somebody who work near a
+  building.'
+product_family: series
+status: published
+tags:
+- guyana
+- humor
+- satire
+- overheard
+- market
+- streets
+- Georgetown
+title: Back-a-Truck — April 11, 2026
+tone: commentary
 ---
 
 *Back-a-Truck: the things Guyanese people actually say. Overheard, reported, and presented without further comment. Every Saturday.*

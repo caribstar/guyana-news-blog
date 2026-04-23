@@ -1,15 +1,25 @@
 ---
-title: "Daily Laugh: De Report-A-Hole Disaster"
-date: 2026-01-16T06:00:00-04:00
+author: De Comedy Crew
+categories:
+- Daily Laugh
+- Humor
+content_type: satire
+country: guyana
+date: 2026-01-16 06:00:00-04:00
+description: 'Government launches pothole app. Uncle Ramesh becomes their #1 user.
+  Chaos ensues. Yellow paint involved.'
 draft: false
-categories: ["Daily Laugh", "Humor"]
-tags: ["comedy", "satire", "government-apps", "guyana", "infrastructure"]
-author: "De Comedy Crew"
-description: "Government launches pothole app. Uncle Ramesh becomes their #1 user. Chaos ensues. Yellow paint involved."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- comedy
+- satire
+- government-apps
+- guyana
+- infrastructure
+title: 'Daily Laugh: De Report-A-Hole Disaster'
+tone: commentary
 ---
 
 ## Government Goes High-Tech! 📱

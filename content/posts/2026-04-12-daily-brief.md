@@ -1,14 +1,25 @@
 ---
-title: "The Guyana Daily Brief — Sunday, April 12, 2026"
-date: 2026-04-12T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["ASL crash", "GDF rescue", "Wales GTE", "Lindsayca", "Bartica hospital", "opposition", "Guyana news"]
-author: "GDB Staff"
-description: "GDF closes in on ASL crash site after 24 hours of brutal terrain, Kaieteur blows open the Wales GTE contract, a new hospital breaks ground in Bartica, and the opposition has drama of its own."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-12 07:00:00-04:00
+description: GDF closes in on ASL crash site after 24 hours of brutal terrain, Kaieteur
+  blows open the Wales GTE contract, a new hospital breaks ground in Bartica, and
+  the opposition has drama of its own.
+product_family: gdb
+status: published
+tags:
+- ASL crash
+- GDF rescue
+- Wales GTE
+- Lindsayca
+- Bartica hospital
+- opposition
+- Guyana news
+title: The Guyana Daily Brief — Sunday, April 12, 2026
+tone: commentary
 ---
 
 Good morning. Pour yourself something strong. Sunday's news does not slow down.

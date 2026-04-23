@@ -1,12 +1,23 @@
 ---
-title: "Caribbean Daily Brief — Wednesday, March 19, 2026"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-03-19
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Jamaica", "Trinidad", "Barbados", "Caribbean", "regional", "satire"]
-description: "Gas prices up in Jamaica, Trinidad extends its State of Emergency, Barbados delivers a budget and dusts off the flyover plans, and the whole region watches oil hit $100."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Gas prices up in Jamaica, Trinidad extends its State of Emergency, Barbados
+  delivers a budget and dusts off the flyover plans, and the whole region watches
+  oil hit $100.
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- Trinidad
+- Barbados
+- Caribbean
+- regional
+- satire
+title: Caribbean Daily Brief — Wednesday, March 19, 2026
+tone: commentary
 ---
 
 *Your weekly satirical roundup of news from across the Caribbean — because the whole region deserves coverage, not just one country* 🌴

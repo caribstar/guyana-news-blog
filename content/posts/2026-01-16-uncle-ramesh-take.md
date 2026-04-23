@@ -1,21 +1,23 @@
 ---
-title: "Uncle Ramesh: Why All This Oil Drama Is Just Opposition Noise"
-date: 2026-01-16T09:00:00-04:00
-draft: false
+author: Uncle Ramesh
 categories:
-  - "Uncle Ramesh"
-  - "Opinion"
+- Uncle Ramesh
+- Opinion
+content_type: parody_column
+country: guyana
+date: 2026-01-16 09:00:00-04:00
+draft: false
+fictional_character: true
+product_family: gdb
+status: published
 tags:
-  - Uncle-Ramesh
-  - Pro-Government
-  - Diaspora-Voice
-  - Oil-Production
-  - Parliament
-author: "Uncle Ramesh"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+- Uncle-Ramesh
+- Pro-Government
+- Diaspora-Voice
+- Oil-Production
+- Parliament
+title: 'Uncle Ramesh: Why All This Oil Drama Is Just Opposition Noise'
+tone: commentary
 ---
 
 # 🇬🇾 UNCLE RAMESH'S TAKE 🇬🇾

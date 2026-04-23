@@ -1,12 +1,17 @@
 ---
-title: "YouTube Scripts – February 14, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-02-14
 draft: false
-categories: ["YouTube Scripts"]
-tags: ["YouTube", "Guyana", "Caribbean"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- YouTube
+- Guyana
+- Caribbean
+title: YouTube Scripts – February 14, 2026
+tone: commentary
 ---
 
 # SCRIPT 1: GUYANA DAILY BRIEF (Short-form — 60-90 seconds)
@@ -72,4 +77,3 @@ Will Stabroek News survive as a digital-only publication? De Caires hasn't said.
 
 **[CTA]**
 What do you think — is this a natural market correction or a loss for Guyanese democracy? Comment below. Subscribe for daily Guyana news.
-

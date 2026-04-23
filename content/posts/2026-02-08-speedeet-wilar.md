@@ -1,13 +1,22 @@
 ---
-title: "Speedeet & Wilar: The Biggest Ship in the Sea"
+categories:
+- Speedeet & Wilar
+content_type: commentary
+country: guyana
 date: 2026-02-08
-categories: ["Speedeet & Wilar"]
-tags: ["Children","Story","Oil","FPSO","Guyana","Education"]
-description: "Speedeet and Wilar visit the waterfront and learn about the giant ships pumping Guyana's oil — and ask the questions that matter."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet and Wilar visit the waterfront and learn about the giant ships
+  pumping Guyana's oil — and ask the questions that matter.
+product_family: series
+status: published
+tags:
+- Children
+- Story
+- Oil
+- FPSO
+- Guyana
+- Education
+title: 'Speedeet & Wilar: The Biggest Ship in the Sea'
+tone: commentary
 ---
 
 *Speedeet and Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Every week they have an adventure that teaches them something new about Guyana.*

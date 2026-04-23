@@ -1,12 +1,22 @@
 ---
-title: "Tuesday Brief: Ali Collects Medal in Brazil While Budget Debate Wreckage Still Smouldering"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-10
-categories: ["Daily Brief", "News"]
-tags: ["Budget 2026", "GECOM", "Brazil", "Committee of Supply", "Data Protection", "Extradition"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Budget 2026
+- GECOM
+- Brazil
+- Committee of Supply
+- Data Protection
+- Extradition
+title: 'Tuesday Brief: Ali Collects Medal in Brazil While Budget Debate Wreckage Still
+  Smouldering'
+tone: commentary
 ---
 
 *Your Tuesday rundown from all four papers. Grab your coffee, this one's spicy.*

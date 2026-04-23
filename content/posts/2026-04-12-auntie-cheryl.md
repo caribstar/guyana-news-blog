@@ -1,14 +1,23 @@
 ---
-title: "Auntie Cheryl From Chaguanas — Sunday, April 12, 2026"
-date: 2026-04-12T08:15:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "CARICOM", "McDonald Bailey", "Red Force cricket", "Auntie Cheryl"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl has strong feelings about McDonald Bailey's fate, cautious optimism about the Red Force, and a complicated reaction to Kamla's CARICOM situation."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-12 08:15:00-04:00
+description: Auntie Cheryl has strong feelings about McDonald Bailey's fate, cautious
+  optimism about the Red Force, and a complicated reaction to Kamla's CARICOM situation.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- CARICOM
+- McDonald Bailey
+- Red Force cricket
+- Auntie Cheryl
+title: Auntie Cheryl From Chaguanas — Sunday, April 12, 2026
+tone: satire
 ---
 
 Good Sunday morning! Auntie Cheryl just came back from early mass and she has a LOT on her heart.

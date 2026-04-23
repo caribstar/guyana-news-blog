@@ -1,12 +1,20 @@
 ---
-title: "Uncle Ramesh Take: Dey Giving de Man Medal and All-You Still Complaining?"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-02-10
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["Budget 2026", "Brazil", "GECOM", "Ali", "Committee of Supply"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Budget 2026
+- Brazil
+- GECOM
+- Ali
+- Committee of Supply
+title: 'Uncle Ramesh Take: Dey Giving de Man Medal and All-You Still Complaining?'
+tone: commentary
 ---
 
 *Uncle Ramesh read de papers from Brooklyn dis morning and he got PLENTY to say.*

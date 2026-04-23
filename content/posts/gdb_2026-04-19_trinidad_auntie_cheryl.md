@@ -1,14 +1,21 @@
 ---
-title: "Auntie Cheryl: The New Nurse Rules Coming! And a Lovely Day in Chaguanas!"
-date: 2026-04-19T11:30:00-04:00
+authors:
+- Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-19 11:30:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Auntie Cheryl"]
-tags: ["Trinidad", "Auntie Cheryl", "Chaguanas"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Auntie Cheryl
+- Chaguanas
+title: 'Auntie Cheryl: The New Nurse Rules Coming! And a Lovely Day in Chaguanas!'
+tone: satire
 ---
 
 Blessings and morning greetings to all my Chaguanas family and friends! Auntie Cheryl writing to you from my kitchen this Sunday morning, the breeze coming in through the louvre, the pot of sorrel on the stove, and the radio playing that new gospel from Pastor Winston that everybody have been sharing on the WhatsApp.

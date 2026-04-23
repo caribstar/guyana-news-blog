@@ -1,13 +1,21 @@
 ---
-title: "Progress Report & Rumour Mill — March 2026"
+categories:
+- Progress Report
+- The Rumour Mill
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["Progress Report", "The Rumour Mill"]
-tags: ["cash grant", "windfall tax", "eviction", "National Park", "press freedom"]
-description: "Tracking the nation's promises, projects, and entirely fictional rumours."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Tracking the nation's promises, projects, and entirely fictional rumours.
+product_family: series
+status: published
+tags:
+- cash grant
+- windfall tax
+- eviction
+- National Park
+- press freedom
+title: Progress Report & Rumour Mill — March 2026
+tone: commentary
 ---
 
 ## 📋 PROGRESS REPORT — MARCH 2026

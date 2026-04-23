@@ -1,14 +1,25 @@
 ---
-title: "Auntie Cheryl Speaks — Trinidad, Monday April 6, 2026"
-date: 2026-04-06T06:30:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "Kamla", "UNC", "election", "jobs", "pensions", "change"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl, calling from Chaguanas, is overjoyed about Kamla and has prepared cook-up to celebrate."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-06 06:30:00-04:00
+description: Auntie Cheryl, calling from Chaguanas, is overjoyed about Kamla and has
+  prepared cook-up to celebrate.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Kamla
+- UNC
+- election
+- jobs
+- pensions
+- change
+title: Auntie Cheryl Speaks — Trinidad, Monday April 6, 2026
+tone: satire
 ---
 
 *Auntie Cheryl writes from Chaguanas, Trinidad, where she has lived her entire life, voted in every election since 1986, and has very strong opinions about doubles, governance, and people who do not vote.*

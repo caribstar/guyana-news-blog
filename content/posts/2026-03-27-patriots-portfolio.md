@@ -1,14 +1,24 @@
 ---
-title: "Patriots Portfolio — March 27, 2026: Streets, Ships, and Sovereignty"
+author: GDB Desk
+categories:
+- Patriots Portfolio
+content_type: news
+country: guyana
 date: 2026-03-27
-categories: ["Patriots Portfolio"]
-tags: ["oil", "economy", "ExxonMobil", "business", "Georgetown", "investment"]
-author: "GDB Desk"
-description: "This week: Exxon starts building Oil Ship No. 8 without government approval, the government takes 22 Georgetown streets, and Guyana keeps printing economic records. The Patriots Portfolio tracks the business of Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'This week: Exxon starts building Oil Ship No. 8 without government approval,
+  the government takes 22 Georgetown streets, and Guyana keeps printing economic records.
+  The Patriots Portfolio tracks the business of Guyana.'
+product_family: series
+status: published
+tags:
+- oil
+- economy
+- ExxonMobil
+- business
+- Georgetown
+- investment
+title: 'Patriots Portfolio — March 27, 2026: Streets, Ships, and Sovereignty'
+tone: commentary
 ---
 
 📊 **PATRIOTS PORTFOLIO**

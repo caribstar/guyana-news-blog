@@ -1,13 +1,25 @@
 ---
-title: "Uncle Ramesh: Speaker Nadir Speaking FACTS, Opposition Should Thank Him for the Warning"
+categories:
+- Uncle Ramesh
+- Diaspora View
+content_type: commentary
+country: guyana
 date: 2026-01-22
-categories: ["Uncle Ramesh", "Diaspora View"]
-tags: ["opposition-leader", "Mohamed", "Speaker-Nadir", "diaspora", "PPP"]
-summary: "Uncle Ramesh from Queens applauds Speaker Nadir for telling the truth about the Opposition Leader situation, explains why the Belgian port deal proves Guyana is the Caribbean's rising star, and questions why Charrandass is making TikToks instead of reading laws."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens applauds Speaker Nadir for telling the truth about
+  the Opposition Leader situation, explains why the Belgian port deal proves Guyana
+  is the Caribbean's rising star, and questions why Charrandass is making TikToks
+  instead of reading laws.
+tags:
+- opposition-leader
+- Mohamed
+- Speaker-Nadir
+- diaspora
+- PPP
+title: 'Uncle Ramesh: Speaker Nadir Speaking FACTS, Opposition Should Thank Him for
+  the Warning'
+tone: commentary
 ---
 
 *The view from Queens, NY — where we read the same papers and see the PPP working miracles* 🗽🇬🇾

@@ -1,14 +1,25 @@
 ---
-title: "Cousin Leroy Report — Sunday, April 12, 2026"
-date: 2026-04-12T08:05:00-05:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "carnival", "Negril", "FIFA referee", "energy", "Cousin Leroy"]
-author: "Cousin Leroy"
-description: "Cousin Leroy is watching Road March from the Bronx on his phone, upset about the Negril ambulance situation, and has opinions about the oil price and the budget."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-12 08:05:00-05:00
+description: Cousin Leroy is watching Road March from the Bronx on his phone, upset
+  about the Negril ambulance situation, and has opinions about the oil price and the
+  budget.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- carnival
+- Negril
+- FIFA referee
+- energy
+- Cousin Leroy
+title: Cousin Leroy Report — Sunday, April 12, 2026
+tone: satire
 ---
 
 Cousin Leroy here. Calling in from the Bronx. I got the live stream open on my phone right now. Let me talk to you real quick.

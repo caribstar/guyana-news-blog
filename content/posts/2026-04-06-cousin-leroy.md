@@ -1,14 +1,25 @@
 ---
-title: "Cousin Leroy Seh — Jamaica, Monday April 6, 2026"
-date: 2026-04-06T06:30:00-05:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "Holness", "crime statistics", "CARIFTA", "Hurricane Melissa", "housing", "Caymanas"]
-author: "Cousin Leroy"
-description: "Cousin Leroy, calling from the Bronx, is very proud of January's crime numbers and not worried about the fuel price."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-06 06:30:00-05:00
+description: Cousin Leroy, calling from the Bronx, is very proud of January's crime
+  numbers and not worried about the fuel price.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Holness
+- crime statistics
+- CARIFTA
+- Hurricane Melissa
+- housing
+- Caymanas
+title: Cousin Leroy Seh — Jamaica, Monday April 6, 2026
+tone: satire
 ---
 
 *Cousin Leroy writes from the Bronx, New York, where he has lived since 1994 and watches Jamaican politics like it is a sport, which it largely is.*

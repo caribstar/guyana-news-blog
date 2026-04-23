@@ -1,13 +1,23 @@
 ---
-title: "🇬🇾 Uncle Ramesh Responds – Saturday, January 31, 2026"
+categories:
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-31
-categories: ["Uncle Ramesh"]
-tags: ["Uncle Ramesh", "response", "pro-government", "diaspora", "satire", "January 2026"]
-description: "Uncle Ramesh breaks down Budget 2026, the UK climate partnership, ExxonMobil's production records, and reminds you WHY the PPP is the best thing since cook-up rice."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh breaks down Budget 2026, the UK climate partnership, ExxonMobil's
+  production records, and reminds you WHY the PPP is the best thing since cook-up
+  rice.
+product_family: gdb
+status: published
+tags:
+- Uncle Ramesh
+- response
+- pro-government
+- diaspora
+- satire
+- January 2026
+title: "\U0001F1EC\U0001F1FE Uncle Ramesh Responds – Saturday, January 31, 2026"
+tone: commentary
 ---
 
 *Uncle Ramesh is a fictional character representing the passionate pro-government diaspora voice. His views are satirical and do not represent the positions of this publication.*

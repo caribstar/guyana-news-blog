@@ -1,13 +1,23 @@
 ---
-title: "🎯 Bounty Board — Saturday, February 7, 2026"
+categories:
+- Bounty Board
+- Weekly Feature
+content_type: commentary
+country: guyana
 date: 2026-02-07
-categories: ["Bounty Board", "Weekly Feature"]
-tags: ["Bounty Board", "Events", "Community", "Mashramani", "Weekly Feature"]
-summary: "Community events, deadlines, and happenings across Guyana! Bayroc Stadium opening, T20 World Cup schedule, Mashramani calendar, Elite League Cup, blood drive, and more!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: Community events, deadlines, and happenings across Guyana! Bayroc Stadium
+  opening, T20 World Cup schedule, Mashramani calendar, Elite League Cup, blood drive,
+  and more!
+tags:
+- Bounty Board
+- Events
+- Community
+- Mashramani
+- Weekly Feature
+title: "\U0001F3AF Bounty Board — Saturday, February 7, 2026"
+tone: commentary
 ---
 
 ## 🎯 BOUNTY BOARD — Saturday, February 7, 2026

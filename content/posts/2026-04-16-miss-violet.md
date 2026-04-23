@@ -1,14 +1,23 @@
 ---
-title: "Miss Violet Speaks — Thursday, April 16, 2026"
-date: 2026-04-16T07:30:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Mottley", "Borrowers Platform", "QEH", "crime", "Barbados"]
-author: "Miss Violet"
-description: "Miss Violet is proud of the Prime Minister, concerned about the quarry, and has a few structured thoughts on the young man who went directly back to prison."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-16 07:30:00-04:00
+description: Miss Violet is proud of the Prime Minister, concerned about the quarry,
+  and has a few structured thoughts on the young man who went directly back to prison.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Mottley
+- Borrowers Platform
+- QEH
+- crime
+- Barbados
+title: Miss Violet Speaks — Thursday, April 16, 2026
+tone: satire
 ---
 
 Good morning. Miss Violet has reviewed the news and has several things to say, beginning with the most important.

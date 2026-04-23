@@ -1,14 +1,29 @@
 ---
-title: "Daily Brief – Friday, April 3, 2026"
-date: 2026-04-03T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["guyana", "news", "daily brief", "tariffs", "trump", "exxon", "wales gas plant", "tint", "BOSAI", "good friday"]
-author: "GDB Staff"
-description: "Your Good Friday morning roundup — Guyana hit with a 38% Trump tariff, government secretly paid US$82M to gas plant contractor, fake tint waiver medical certificates discovered, BOSAI fires the worker who won a pay raise, and Exxon exits the Canje Block."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-03 07:00:00-04:00
+description: Your Good Friday morning roundup — Guyana hit with a 38% Trump tariff,
+  government secretly paid US$82M to gas plant contractor, fake tint waiver medical
+  certificates discovered, BOSAI fires the worker who won a pay raise, and Exxon exits
+  the Canje Block.
+product_family: gdb
+status: published
+tags:
+- guyana
+- news
+- daily brief
+- tariffs
+- trump
+- exxon
+- wales gas plant
+- tint
+- BOSAI
+- good friday
+title: Daily Brief – Friday, April 3, 2026
+tone: commentary
 ---
 
 *Friday, April 3, 2026 — Good Friday. Things are getting crucified out there.*

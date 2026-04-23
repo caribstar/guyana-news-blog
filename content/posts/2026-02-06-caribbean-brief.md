@@ -1,13 +1,26 @@
 ---
-title: "Caribbean Daily Brief: Jamaica Gets $415M IMF Lifeline, Barbados Election Heating Up, T&T PM Blasts CARICOM, and Haiti Under Fire"
+categories:
+- Caribbean Brief
+- News
+content_type: news
 date: 2026-02-06
 draft: false
-categories: ["Caribbean Brief", "News"]
-tags: ["Caribbean", "Jamaica", "Barbados", "Trinidad", "Haiti", "CARICOM", "T20 World Cup"]
-summary: "Jamaica secures emergency IMF funds, Barbados gears up for February 11 election, Trinidad's PM doubles down on CARICOM criticism, CARICOM rebukes Haiti's leadership, and the T20 World Cup kicks off tomorrow. Your Caribbean regional roundup."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Jamaica secures emergency IMF funds, Barbados gears up for February 11 election,
+  Trinidad's PM doubles down on CARICOM criticism, CARICOM rebukes Haiti's leadership,
+  and the T20 World Cup kicks off tomorrow. Your Caribbean regional roundup.
+tags:
+- Caribbean
+- Jamaica
+- Barbados
+- Trinidad
+- Haiti
+- CARICOM
+- T20 World Cup
+title: 'Caribbean Daily Brief: Jamaica Gets $415M IMF Lifeline, Barbados Election
+  Heating Up, T&T PM Blasts CARICOM, and Haiti Under Fire'
+tone: commentary
 ---
 
 🌴 **CARIBBEAN DAILY BRIEF** 🌴

@@ -1,14 +1,25 @@
 ---
-title: "Uncle Ramesh: Exxon Investing in We Future, Ali Preparing We for Global Storm, and PPP Government Delivering Despite Opposition Noise"
-date: 2026-04-19T10:30:00-04:00
+authors:
+- Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-04-19 10:30:00-04:00
 draft: false
-categories: ["Uncle Ramesh"]
-authors: ["Uncle Ramesh"]
-tags: ["Guyana", "Uncle Ramesh", "PPP", "Ali", "oil", "progress"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Uncle Ramesh
+- PPP
+- Ali
+- oil
+- progress
+title: 'Uncle Ramesh: Exxon Investing in We Future, Ali Preparing We for Global Storm,
+  and PPP Government Delivering Despite Opposition Noise'
+tone: commentary
 ---
 
 Morning to all my people. Uncle Ramesh here, cup of Mauby in hand, looking out over the backdam and thinking about what the papers saying this Sunday. Let me walk you through it the way it really is, not the way the opposition vexers trying to paint it.

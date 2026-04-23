@@ -1,13 +1,25 @@
 ---
-title: "Speedeet & Wilar: De Mango Tree War"
+categories:
+- Speedeet & Wilar
+- Youth Stories
+content_type: commentary
+country: guyana
 date: 2026-02-02
-categories: ["Speedeet & Wilar", "Youth Stories"]
-tags: ["friendship", "adventure", "Guyanese-culture", "youth", "Pike-Street", "mango"]
-summary: "Everybody on Pike Street know dat de BEST julie mango tree belong to Miss Doreen. Everybody also know dat Miss Doreen does guard dem mango like gold. So when Speedeet come up wid a plan to 'liberate' some mango... well, yuh know how DIS gon end."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: Everybody on Pike Street know dat de BEST julie mango tree belong to Miss
+  Doreen. Everybody also know dat Miss Doreen does guard dem mango like gold. So when
+  Speedeet come up wid a plan to 'liberate' some mango... well, yuh know how DIS gon
+  end.
+tags:
+- friendship
+- adventure
+- Guyanese-culture
+- youth
+- Pike-Street
+- mango
+title: 'Speedeet & Wilar: De Mango Tree War'
+tone: commentary
 ---
 
 *Every Sunday, join two 12-year-old friends from Pike Street, Kitty as they navigate life in Guyana.*
@@ -313,5 +325,3 @@ Monday morning, Speedeet and Wilar walking to school.
 **Next Week:** *Speedeet & Wilar: De Blackout Adventure*
 
 *Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty. Speedeet is Black and Wilar is East Indian — because in Guyana, friendship don't see colour, it only see who willing to get in trouble wid you.* 🇬🇾
-
-

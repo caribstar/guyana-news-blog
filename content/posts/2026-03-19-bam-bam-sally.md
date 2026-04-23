@@ -1,13 +1,21 @@
 ---
-title: "Bam-Bam Sally's Corner — March 19, 2026"
+categories:
+- Bam-Bam Sally
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["Bam-Bam Sally"]
-tags: ["bam-bam-sally", "satire", "fiction", "humor", "community"]
-description: "Bam-Bam Sally has opinions on this week's events. She always does. All names fictional."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Bam-Bam Sally has opinions on this week's events. She always does. All
+  names fictional.
+product_family: series
+status: published
+tags:
+- bam-bam-sally
+- satire
+- fiction
+- humor
+- community
+title: Bam-Bam Sally's Corner — March 19, 2026
+tone: commentary
 ---
 
 *Bam-Bam Sally is a fictional neighbourhood auntie. Her opinions are her own. All gossip is fictional.*

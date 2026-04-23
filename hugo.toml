@@ -78,13 +78,13 @@ ignoreLogs = ["deprecated"]
 [[menu.main]]
   identifier = "nav-trending"
   name = "Trending"
-  url = "/categories/trending/"
+  url = "/trending/"
   weight = 1
 
 [[menu.main]]
   identifier = "nav-politics"
   name = "Politics"
-  url = "/categories/politics/"
+  url = "/politics/"
   weight = 2
 
 [[menu.main]]
@@ -96,7 +96,7 @@ ignoreLogs = ["deprecated"]
 [[menu.main]]
   identifier = "nav-sports"
   name = "Sports"
-  url = "/categories/sports/"
+  url = "/sports/"
   weight = 4
 
 [[menu.main]]

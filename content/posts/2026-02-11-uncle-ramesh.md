@@ -1,13 +1,25 @@
 ---
-title: "Uncle Ramesh Responds: 'ONE Point? That's PROGRESS, Beta!'"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-11
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["uncle-ramesh", "diaspora", "pro-government", "corruption", "gas-to-energy", "budget-2026"]
-summary: "Uncle Ramesh from Queens celebrates the corruption index improvement, explains why 30 blacklisted contractors proves the government is WORKING, and has strong opinions about the Guyana flag at the Super Bowl."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens celebrates the corruption index improvement, explains
+  why 30 blacklisted contractors proves the government is WORKING, and has strong
+  opinions about the Guyana flag at the Super Bowl.
+tags:
+- uncle-ramesh
+- diaspora
+- pro-government
+- corruption
+- gas-to-energy
+- budget-2026
+title: 'Uncle Ramesh Responds: ''ONE Point? That''s PROGRESS, Beta!'''
+tone: commentary
 ---
 
 *The Guyana Brief presents the other side: Uncle Ramesh from Queens, NY, lifelong PPP supporter and proud member of the diaspora, responds to today's headlines.*

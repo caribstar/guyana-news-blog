@@ -1,14 +1,25 @@
 ---
-title: "Trini Dispatch — Saturday, April 11, 2026"
-date: 2026-04-11T08:10:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "CARICOM", "NGC", "Tobago vandalism", "Persad-Bissessar", "Trini news"]
-author: "Trini Dispatch"
-description: "The PM wants the CARICOM Secretary-General gone, Tobago's water infrastructure was vandalised, NGC had its best year in a decade, and a six-year-old is in critical condition after a pool incident."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-11 08:10:00-04:00
+description: The PM wants the CARICOM Secretary-General gone, Tobago's water infrastructure
+  was vandalised, NGC had its best year in a decade, and a six-year-old is in critical
+  condition after a pool incident.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- CARICOM
+- NGC
+- Tobago vandalism
+- Persad-Bissessar
+- Trini news
+title: Trini Dispatch — Saturday, April 11, 2026
+tone: satire
 ---
 
 Good morning. Pour some bitters in your cocoa tea and settle in.

@@ -1,14 +1,25 @@
 ---
-title: "Bajan Bugle — Saturday, April 11, 2026"
-date: 2026-04-11T08:20:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "drought", "RSS security", "labour inspections", "missing fishermen", "Barbados news"]
-author: "Bajan Bugle"
-description: "Barbados is under a hydrological drought watch, the RSS gets international backing, the Labour Department is coming to your workplace, and hope fades for three missing fishermen."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-11 08:20:00-04:00
+description: Barbados is under a hydrological drought watch, the RSS gets international
+  backing, the Labour Department is coming to your workplace, and hope fades for three
+  missing fishermen.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- drought
+- RSS security
+- labour inspections
+- missing fishermen
+- Barbados news
+title: Bajan Bugle — Saturday, April 11, 2026
+tone: satire
 ---
 
 Good morning from the rock. The sun is out. The reservoir is not full. Let's proceed.

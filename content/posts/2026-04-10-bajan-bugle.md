@@ -1,14 +1,25 @@
 ---
-title: "Bajan Brief — Bajan Bugle, April 10, 2026"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
 date: 2026-04-10
-categories: ["Bajan Brief"]
-tags: ["barbados", "caribbean", "sport", "carifta", "dengue", "regional"]
-author: "Bajan Bugle"
-description: "CARIFTA swim team returns, PAHO warns of dengue surge across the Caribbean, regional trade tensions with the US continue, and Barbados hosts the junior tennis circuit."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+description: CARIFTA swim team returns, PAHO warns of dengue surge across the Caribbean,
+  regional trade tensions with the US continue, and Barbados hosts the junior tennis
+  circuit.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- barbados
+- caribbean
+- sport
+- carifta
+- dengue
+- regional
+title: Bajan Brief — Bajan Bugle, April 10, 2026
+tone: satire
 ---
 
 Bridgetown. Friday. The CARIFTA swimmers are home and the dengue numbers are not improving. Both things are true and one of them requires more urgency than it is receiving.

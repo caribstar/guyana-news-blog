@@ -1,12 +1,23 @@
 ---
-title: "🌴 Caribbean Daily Brief – Saturday, January 31, 2026"
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-01-31
-categories: ["Caribbean Brief"]
-tags: ["Caribbean", "regional news", "Trinidad", "Jamaica", "Barbados", "CARICOM", "January 2026"]
-description: "IMF approves US$415M emergency aid for Jamaica, Caribbean Airlines closes Barbados hub, Venezuela aftermath reshaping regional travel, West Indies cricket, and more across the islands!"
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: IMF approves US$415M emergency aid for Jamaica, Caribbean Airlines closes
+  Barbados hub, Venezuela aftermath reshaping regional travel, West Indies cricket,
+  and more across the islands!
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- regional news
+- Trinidad
+- Jamaica
+- Barbados
+- CARICOM
+- January 2026
+title: "\U0001F334 Caribbean Daily Brief – Saturday, January 31, 2026"
+tone: commentary
 ---
 
 *Your daily roundup of what's happening across the Caribbean — because Guyana is part of a bigger family!*

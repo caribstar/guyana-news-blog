@@ -1,14 +1,23 @@
 ---
-title: "Uncle Ramesh Reports — Tuesday, April 7, 2026"
-date: 2026-04-07T06:30:00-04:00
-categories: ["Uncle Ramesh"]
-tags: ["CARIFTA", "Chinese acrobats", "independence", "Gas-to-Energy", "Exxon"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh is very proud of CARIFTA and the 60th Independence celebrations. He has some thoughts on Lindsayca but they are measured."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-04-07 06:30:00-04:00
+description: Uncle Ramesh is very proud of CARIFTA and the 60th Independence celebrations.
+  He has some thoughts on Lindsayca but they are measured.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- CARIFTA
+- Chinese acrobats
+- independence
+- Gas-to-Energy
+- Exxon
+title: Uncle Ramesh Reports — Tuesday, April 7, 2026
+tone: commentary
 ---
 
 *Uncle Ramesh writes from Queens, New York, where he has lived since 1987 and has strong opinions about a country he visits every three years.*

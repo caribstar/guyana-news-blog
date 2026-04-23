@@ -1,13 +1,25 @@
 ---
-title: "The Guyana Daily Brief - Tuesday, January 27, 2026"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-01-27
-categories: ["Daily Brief", "News"]
-tags: ["satire", "news", "guyana", "budget", "housing", "tourism", "agriculture"]
-summary: "Budget 2026 aftermath: $1.588 trillion in promises, 15,000 house lots, a school for autistic children, and the opposition still can't find the door to the National Assembly."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: 'Budget 2026 aftermath: $1.588 trillion in promises, 15,000 house lots, a
+  school for autistic children, and the opposition still can''t find the door to the
+  National Assembly.'
+tags:
+- satire
+- news
+- guyana
+- budget
+- housing
+- tourism
+- agriculture
+title: The Guyana Daily Brief - Tuesday, January 27, 2026
+tone: commentary
 ---
 
 ## ☀️ Good Morning, Guyana!

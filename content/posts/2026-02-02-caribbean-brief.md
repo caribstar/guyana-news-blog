@@ -1,12 +1,27 @@
 ---
-title: "🌴 Caribbean Brief: Barbados Election Countdown, Trinidad's Police Scandal, and Carnival Season Heats Up"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-02
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Barbados", "Trinidad", "Jamaica", "Caribbean", "election", "police", "carnival", "cricket"]
-summary: "Barbados heads to polls February 11 with Mottley seeking a historic third term, Trinidad reels from CCTV footage of a police shooting, Carnival season kicks into high gear, and West Indies prep for T20 World Cup. Your regional Caribbean news roundup."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Barbados heads to polls February 11 with Mottley seeking a historic third
+  term, Trinidad reels from CCTV footage of a police shooting, Carnival season kicks
+  into high gear, and West Indies prep for T20 World Cup. Your regional Caribbean
+  news roundup.
+tags:
+- Barbados
+- Trinidad
+- Jamaica
+- Caribbean
+- election
+- police
+- carnival
+- cricket
+title: "\U0001F334 Caribbean Brief: Barbados Election Countdown, Trinidad's Police
+  Scandal, and Carnival Season Heats Up"
+tone: commentary
 ---
 
 *Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the region is more than just one country.*

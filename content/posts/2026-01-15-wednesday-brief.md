@@ -1,14 +1,23 @@
 ---
-title: "🔍 [CRITICAL] Wednesday Brief: Guyanese Takes IICA Helm, Census Controversy, and Cybercrime Crackdown"
+categories:
+- News
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-01-15
 draft: false
-categories: ["News", "Daily Brief"]
-tags: ["news", "politics", "government-promises", "judiciary-drama"]
-summary: "Muhammad Ibrahim becomes IICA Director-General, census data sparks housing debate, cybercrime law faces criticism, and AG slams courts for ignoring legislation."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Muhammad Ibrahim becomes IICA Director-General, census data sparks housing
+  debate, cybercrime law faces criticism, and AG slams courts for ignoring legislation.
+tags:
+- news
+- politics
+- government-promises
+- judiciary-drama
+title: "\U0001F50D [CRITICAL] Wednesday Brief: Guyanese Takes IICA Helm, Census Controversy,
+  and Cybercrime Crackdown"
+tone: commentary
 ---
 
 *Critical analysis of Guyana's political landscape. For a pro-government perspective, see Uncle Ramesh's take.*
@@ -111,6 +120,3 @@ The census data is particularly damning: if you're building houses faster than y
 **Reading the Other Side:** Some will argue the census shows visionary planning, that financial reforms will materialize, and that the cybercrime law is working as intended. Read Uncle Ramesh's take for that perspective.
 
 Stay skeptical, Guyana. 🇬🇾
-
-
-

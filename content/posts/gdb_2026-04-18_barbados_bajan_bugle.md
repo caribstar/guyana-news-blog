@@ -1,14 +1,22 @@
 ---
-title: "Bajan Bugle: De World Is Sliding Backwards, Mottley Says; A Young Man Remanded for Stealing a Key; and Oistins Needs a Rethink"
-date: 2026-04-18T10:30:00-04:00
+authors:
+- Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-18 10:30:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Bajan Bugle"]
-tags: ["Barbados", "Bridgetown", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bridgetown
+- dueling blogs
+title: 'Bajan Bugle: De World Is Sliding Backwards, Mottley Says; A Young Man Remanded
+  for Stealing a Key; and Oistins Needs a Rethink'
+tone: satire
 ---
 
 Saturday morning in Bridgetown. Bajan Bugle here. The coffee is strong, the news is mixed, and the Prime Minister is, in her measured way, warning the world to pay attention.

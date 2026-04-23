@@ -1,15 +1,29 @@
 ---
-title: "Wednesday's Guyana Brief: Noem Lands, Exxon Expands, and the Bridge Is Still Sinking"
+author: Daily Brief
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-03-25
-categories: ["Daily Brief", "News"]
-tags: ["Kristi Noem", "Exxon", "Mohameds", "CCJ", "World Bank", "CARICOM", "Cash Grant"]
-author: "Daily Brief"
-description: "A fired US official arrives as a Special Envoy, Exxon wants two more oil projects, and the World Bank says Guyana's reform programme has been quietly gutted. Wednesday's 5-minute news circus."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: A fired US official arrives as a Special Envoy, Exxon wants two more
+  oil projects, and the World Bank says Guyana's reform programme has been quietly
+  gutted. Wednesday's 5-minute news circus.
+product_family: gdb
+status: published
+tags:
+- Kristi Noem
+- Exxon
+- Mohameds
+- CCJ
+- World Bank
+- CARICOM
+- Cash Grant
+title: 'Wednesday''s Guyana Brief: Noem Lands, Exxon Expands, and the Bridge Is Still
+  Sinking'
+tone: commentary
 ---
+
 🇬🇾 **THE GUYANA BRIEF** 🇬🇾  
 *Your 5-Minute Wednesday News Circus*  
 **Wednesday, March 25, 2026** ⏱️ 6 min read

@@ -1,14 +1,26 @@
 ---
-title: "The Indo-Caribbean Brief: How India Became One of Guyana's Most Important Strategic Partners"
-date: 2026-04-19T08:00:00+00:00
-categories: ["Indo-Caribbean Brief", "Guyana Brief"]
-tags: ["Guyana", "India", "diaspora", "oil", "energy", "diplomacy", "strategy", "mechanisms"]
-author: "Georgetown Ledger"
+author: Georgetown Ledger
+categories:
+- Indo-Caribbean Brief
+- Guyana Brief
+content_type: news
+country: guyana
+date: 2026-04-19 08:00:00+00:00
 draft: false
-tone: "satire"
-status: "published"
-country: "guyana"
-product_family: "country-network"
+product_family: country-network
+status: published
+tags:
+- Guyana
+- India
+- diaspora
+- oil
+- energy
+- diplomacy
+- strategy
+- mechanisms
+title: 'The Indo-Caribbean Brief: How India Became One of Guyana''s Most Important
+  Strategic Partners'
+tone: satire
 ---
 
 # The Indo-Caribbean Brief: How India Became One of Guyana's Most Important Strategic Partners

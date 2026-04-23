@@ -1,12 +1,18 @@
 ---
-title: "YouTube Scripts: Sunday February 15, 2026"
+categories:
+- YouTube
+- Scripts
+content_type: commentary
 date: 2026-02-15
 draft: false
-categories: ["YouTube", "Scripts"]
-tags: ["YouTube", "HeyGen", "Video Scripts"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- YouTube
+- HeyGen
+- Video Scripts
+title: 'YouTube Scripts: Sunday February 15, 2026'
+tone: commentary
 ---
 
 ## 60-SECOND SCRIPT — Sunday Headlines

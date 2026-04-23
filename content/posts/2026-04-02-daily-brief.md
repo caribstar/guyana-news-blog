@@ -1,14 +1,28 @@
 ---
-title: "Daily Brief – Thursday, April 2, 2026"
-date: 2026-04-02T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["guyana", "news", "daily brief", "tint", "exxon", "fire", "venezuela", "gold", "cricket", "carifta"]
-author: "GDB Staff"
-description: "Your Thursday morning roundup — tint crackdown begins, Nicaraguan engineers allegedly flee with $13M in aircraft parts, Venezuelan jail finally releases Guyanese boat captain, and the U.S. Ambassador tells Guyana to leave the Exxon contract alone."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-02 07:00:00-04:00
+description: Your Thursday morning roundup — tint crackdown begins, Nicaraguan engineers
+  allegedly flee with $13M in aircraft parts, Venezuelan jail finally releases Guyanese
+  boat captain, and the U.S. Ambassador tells Guyana to leave the Exxon contract alone.
+product_family: gdb
+status: published
+tags:
+- guyana
+- news
+- daily brief
+- tint
+- exxon
+- fire
+- venezuela
+- gold
+- cricket
+- carifta
+title: Daily Brief – Thursday, April 2, 2026
+tone: commentary
 ---
 
 *Thursday, April 2, 2026 — Grab yuh coffee. Today in Guyana: dark glass, darker dealings, and at least one happy homecoming.*

@@ -1,14 +1,24 @@
 ---
-title: "Trini Dispatch: 56 Bodies in a Shallow Grave, the Fair Trading Commission Still Does Not Exist, and the Piarco Domestic Lounge Closes on the 24th"
-date: 2026-04-19T11:00:00-04:00
+authors:
+- Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-19 11:00:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Trini Dispatch"]
-tags: ["Trinidad", "Trini Dispatch", "Cumuto", "WASA", "FTC"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Trini Dispatch
+- Cumuto
+- WASA
+- FTC
+title: 'Trini Dispatch: 56 Bodies in a Shallow Grave, the Fair Trading Commission
+  Still Does Not Exist, and the Piarco Domestic Lounge Closes on the 24th'
+tone: satire
 ---
 
 Port of Spain morning. The papers this Sunday are carrying a story that I have been turning over in my head since Saturday afternoon, and I still do not have the vocabulary for it. Let me try.

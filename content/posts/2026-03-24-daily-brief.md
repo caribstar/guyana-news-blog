@@ -1,14 +1,24 @@
 ---
-title: "Tuesday's Guyana Brief: Wheelbarrows, Oil Greed, and the Death of a Newspaper"
+author: Daily Brief
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-03-24
-categories: ["Daily Brief", "News"]
-tags: ["Mohameds", "Exxon", "Cash Grant", "Stabroek News", "Kaieteur News", "Guyana Chronicle"]
-author: "Daily Brief"
-description: "The Mohameds went to the CCJ, Exxon wants more oil, and somewhere in the background, a newspaper quietly died. Tuesday's 5-minute Guyana news circus."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: The Mohameds went to the CCJ, Exxon wants more oil, and somewhere in
+  the background, a newspaper quietly died. Tuesday's 5-minute Guyana news circus.
+product_family: gdb
+status: published
+tags:
+- Mohameds
+- Exxon
+- Cash Grant
+- Stabroek News
+- Kaieteur News
+- Guyana Chronicle
+title: 'Tuesday''s Guyana Brief: Wheelbarrows, Oil Greed, and the Death of a Newspaper'
+tone: commentary
 ---
 
 🇬🇾 **THE GUYANA BRIEF** 🇬🇾  

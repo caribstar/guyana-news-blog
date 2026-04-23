@@ -1,14 +1,26 @@
 ---
-title: "Patriots Portfolio – Friday, April 3, 2026"
-date: 2026-04-03T08:30:00-04:00
-categories: ["Patriots Portfolio"]
-tags: ["patriots portfolio", "guyana", "economy", "oil", "tariffs", "investment", "exxon", "wales gas plant"]
-author: "GDB Staff"
-description: "This week's Patriots Portfolio — what the 38% Trump tariff means for Guyana's economy, the Wales Gas Plant arbitration fallout, Exxon's Canje exit, and what patriotic investors need to watch."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- Patriots Portfolio
+content_type: news
+country: guyana
+date: 2026-04-03 08:30:00-04:00
+description: This week's Patriots Portfolio — what the 38% Trump tariff means for
+  Guyana's economy, the Wales Gas Plant arbitration fallout, Exxon's Canje exit, and
+  what patriotic investors need to watch.
+product_family: series
+status: published
+tags:
+- patriots portfolio
+- guyana
+- economy
+- oil
+- tariffs
+- investment
+- exxon
+- wales gas plant
+title: Patriots Portfolio – Friday, April 3, 2026
+tone: commentary
 ---
 
 *The Patriots Portfolio — for Guyanese who care where the money goes and where it comes from. Every Friday.*

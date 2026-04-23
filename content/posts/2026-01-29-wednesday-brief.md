@@ -1,13 +1,20 @@
 ---
-title: "De Daily Brief – Wednesday, January 29, 2026"
+author: The Guyana Daily Brief
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-01-29
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "Politics", "Budget 2026", "Satire"]
-author: "The Guyana Daily Brief"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Politics
+- Budget 2026
+- Satire
+title: De Daily Brief – Wednesday, January 29, 2026
+tone: commentary
 ---
 
 *Your daily dose of Guyanese news, served with a side of pepper sauce* 🌶️

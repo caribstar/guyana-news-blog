@@ -1,13 +1,25 @@
 ---
-title: "👴🏾 Uncle Ramesh: Stadium Opening Day! PROGRESS You Can TOUCH! While Opposition Leader Talks Nonsense!"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-02-07
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["Uncle Ramesh", "Pro-Government", "Budget 2026", "Bayroc Stadium", "Small Miners", "T20 World Cup"]
-summary: "Uncle Ramesh from Queens celebrates the Bayroc Stadium opening, praises Ali's mining support package, and has STRONG words about the Opposition Leader's maiden speech."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens celebrates the Bayroc Stadium opening, praises Ali's
+  mining support package, and has STRONG words about the Opposition Leader's maiden
+  speech.
+tags:
+- Uncle Ramesh
+- Pro-Government
+- Budget 2026
+- Bayroc Stadium
+- Small Miners
+- T20 World Cup
+title: "\U0001F474\U0001F3FE Uncle Ramesh: Stadium Opening Day! PROGRESS You Can TOUCH!
+  While Opposition Leader Talks Nonsense!"
+tone: commentary
 ---
 
 *Uncle Ramesh offers the pro-government diaspora perspective. For critical analysis, see the Saturday Brief.*

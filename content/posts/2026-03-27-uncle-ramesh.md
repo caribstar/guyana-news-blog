@@ -1,14 +1,24 @@
 ---
-title: "Uncle Ramesh — Friday, March 27, 2026"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: parody_column
+country: guyana
 date: 2026-03-27
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["politics", "oil", "Georgetown", "government", "pro-government"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh reads the Chronicle and sees nothing but progress. The streets, the oil, the cash grant — all going according to plan. As usual."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh reads the Chronicle and sees nothing but progress. The streets,
+  the oil, the cash grant — all going according to plan. As usual.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- politics
+- oil
+- Georgetown
+- government
+- pro-government
+title: Uncle Ramesh — Friday, March 27, 2026
+tone: commentary
 ---
 
 *Uncle Ramesh is a retired accountant from Berbice, now living in Queens, New York. He reads only the Guyana Chronicle. He has opinions.*

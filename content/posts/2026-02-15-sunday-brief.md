@@ -1,13 +1,23 @@
 ---
-title: "Sunday's Guyana Brief: Stabroek News Dies, Nobody Gets Their Money, and Kingston Wharf Belongs to Oil People Now"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-15
 draft: false
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "News", "Satire", "Stabroek News", "Energy Conference", "Budget 2026"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- News
+- Satire
+- Stabroek News
+- Energy Conference
+- Budget 2026
+title: 'Sunday''s Guyana Brief: Stabroek News Dies, Nobody Gets Their Money, and Kingston
+  Wharf Belongs to Oil People Now'
+tone: commentary
 ---
 
 Good morning, Guyana! ☕

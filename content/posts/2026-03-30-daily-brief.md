@@ -1,14 +1,35 @@
 ---
-title: "Monday Brief: Guyana Lectures the Caribbean on Climate, Then Drowns"
-date: 2026-03-30T06:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["flooding", "Georgetown", "CDC", "Karpowership", "Gas-to-Energy", "AFC", "ExxonMobil", "Hammerhead FPSO", "local content", "Guyoil", "fuel prices", "field hospital", "Essequibo", "entrepreneurship", "GYEC", "cricket", "Harpy Eagles"]
-author: "GDB Staff"
-description: "Guyana told the Caribbean to climate-proof their infrastructure, then spent the weekend underwater. Also: Guyoil raised gas prices, the AFC says the 50% profit share is a fantasy, and we got the handrails on the US$6.8B FPSO."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-03-30 06:00:00-04:00
+description: 'Guyana told the Caribbean to climate-proof their infrastructure, then
+  spent the weekend underwater. Also: Guyoil raised gas prices, the AFC says the 50%
+  profit share is a fantasy, and we got the handrails on the US$6.8B FPSO.'
+product_family: gdb
+status: published
+tags:
+- flooding
+- Georgetown
+- CDC
+- Karpowership
+- Gas-to-Energy
+- AFC
+- ExxonMobil
+- Hammerhead FPSO
+- local content
+- Guyoil
+- fuel prices
+- field hospital
+- Essequibo
+- entrepreneurship
+- GYEC
+- cricket
+- Harpy Eagles
+title: 'Monday Brief: Guyana Lectures the Caribbean on Climate, Then Drowns'
+tone: commentary
 ---
 
 *Monday, March 30, 2026 | Guyana Daily Brief*

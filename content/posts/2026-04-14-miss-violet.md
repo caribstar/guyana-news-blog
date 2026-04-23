@@ -1,14 +1,26 @@
 ---
-title: "Bajan Brief – Miss Violet: Tuesday, April 14, 2026"
-date: 2026-04-14T07:30:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "farm labour", "Canada", "gastrointestinal", "CARICOM", "youth", "costs"]
-author: "Miss Violet"
-description: "Miss Violet has opinions about the gastrointestinal situation, the farm labour pipeline, and the Trinidad drama at CARICOM. She is not impressed by any of it."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-14 07:30:00-04:00
+description: Miss Violet has opinions about the gastrointestinal situation, the farm
+  labour pipeline, and the Trinidad drama at CARICOM. She is not impressed by any
+  of it.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- farm labour
+- Canada
+- gastrointestinal
+- CARICOM
+- youth
+- costs
+title: 'Bajan Brief – Miss Violet: Tuesday, April 14, 2026'
+tone: satire
 ---
 
 Good morning. Miss Violet here. Retired schoolteacher, Bridgetown. Forty-one years in the classroom. I know when people are not doing their homework. Let us proceed.

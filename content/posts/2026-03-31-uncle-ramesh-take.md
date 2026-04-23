@@ -1,14 +1,23 @@
 ---
-title: "Uncle Ramesh's Take — Tuesday, March 31, 2026"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
 date: 2026-03-31
-categories: ["Uncle Ramesh"]
-tags: ["uncle-ramesh", "government", "oil", "infrastructure", "economy"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh is proud of the oil numbers, patient about the flooding, and completely unbothered by people complaining about the fuel price increase."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh is proud of the oil numbers, patient about the flooding,
+  and completely unbothered by people complaining about the fuel price increase.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- uncle-ramesh
+- government
+- oil
+- infrastructure
+- economy
+title: Uncle Ramesh's Take — Tuesday, March 31, 2026
+tone: commentary
 ---
 
 *Uncle Ramesh is a proud PPP/C supporter who sees the government's hand in every good thing that happens in Guyana and an opposition conspiracy in everything else. He does not do nuance. He does do passion.*

@@ -1,12 +1,18 @@
 ---
-title: "Tuesday Brief: Cash Grants Are So Last Year, Georgetown Is a Dumpster Fire, and Teachers Want Answers"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-01-20
-categories: ["Daily Brief"]
-tags: ["satire", "news", "guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- satire
+- news
+- guyana
+title: 'Tuesday Brief: Cash Grants Are So Last Year, Georgetown Is a Dumpster Fire,
+  and Teachers Want Answers'
+tone: commentary
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% less cash grants* ☕🇬🇾

@@ -1,14 +1,21 @@
 ---
-title: "Daily Brief: CANU Grabs $190M, Cop Gets Caught in Ganja Cupboard, and a Canteen Lady Gets TikTok'd Out of Her Job"
-date: 2026-04-17T06:00:00-04:00
+authors:
+- The Guyana Daily Brief
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-17 06:00:00-04:00
 draft: false
-categories: ["Daily Brief"]
-authors: ["The Guyana Daily Brief"]
-tags: ["daily brief", "news roundup", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- daily brief
+- news roundup
+- Guyana
+title: 'Daily Brief: CANU Grabs $190M, Cop Gets Caught in Ganja Cupboard, and a Canteen
+  Lady Gets TikTok''d Out of Her Job'
+tone: commentary
 ---
 
 **Morning, Guyana.** Friday, April 17. The sun is up, the traffic is already nonsense, and somewhere a government minister is already blaming the opposition for it. Here's what happened while you were sleeping or pretending to sleep.

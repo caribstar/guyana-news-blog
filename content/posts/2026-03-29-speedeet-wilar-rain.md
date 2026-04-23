@@ -1,14 +1,24 @@
 ---
-title: "Speedeet & Wilar: De Day De Rain Come Down"
-date: 2026-03-29T08:00:00-04:00
-categories: ["Speedeet & Wilar"]
-tags: ["Speedeet", "Wilar", "Pike Street", "rain", "Georgetown", "flooding", "Sunday"]
-author: "Albert Massay"
-description: "Georgetown flooding again, and Speedeet see it as an opportunity. Wilar see it as a problem. Dem both right."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: Albert Massay
+categories:
+- Speedeet & Wilar
+content_type: commentary
+country: guyana
+date: 2026-03-29 08:00:00-04:00
+description: Georgetown flooding again, and Speedeet see it as an opportunity. Wilar
+  see it as a problem. Dem both right.
+product_family: series
+status: published
+tags:
+- Speedeet
+- Wilar
+- Pike Street
+- rain
+- Georgetown
+- flooding
+- Sunday
+title: 'Speedeet & Wilar: De Day De Rain Come Down'
+tone: commentary
 ---
 
 *A Speedeet & Wilar Story*

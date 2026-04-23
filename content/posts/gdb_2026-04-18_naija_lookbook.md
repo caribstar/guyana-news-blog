@@ -1,14 +1,28 @@
 ---
-title: "The Naija Lookbook: How Burna Boy, Davido, and Wizkid Built a Global Music Industry From Lagos in Under a Decade"
-date: 2026-04-18T08:00:00+00:00
-categories: ["Nigeria Brief", "Africa Brief"]
-tags: ["Nigeria", "Lagos", "Afrobeats", "Burna Boy", "Davido", "Wizkid", "music", "culture", "mechanisms"]
-author: "Naija Lookbook"
+author: Naija Lookbook
+categories:
+- Nigeria Brief
+- Africa Brief
+content_type: satire
+country: nigeria
+date: 2026-04-18 08:00:00+00:00
 draft: false
-tone: "satire"
-status: "published"
-country: "nigeria"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Nigeria
+- Lagos
+- Afrobeats
+- Burna Boy
+- Davido
+- Wizkid
+- music
+- culture
+- mechanisms
+title: 'The Naija Lookbook: How Burna Boy, Davido, and Wizkid Built a Global Music
+  Industry From Lagos in Under a Decade'
+tone: satire
 ---
 
 # The Naija Lookbook: How Burna Boy, Davido, and Wizkid Built a Global Music Industry From Lagos in Under a Decade

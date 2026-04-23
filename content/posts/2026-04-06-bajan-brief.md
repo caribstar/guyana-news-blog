@@ -1,14 +1,27 @@
 ---
-title: "The Bajan Bugle — Barbados Brief, Monday April 6, 2026"
-date: 2026-04-06T06:00:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "Mottley", "BLP", "election", "voter turnout", "Kensington Oval", "CWI", "gun violence", "social media"]
-author: "The Bajan Bugle"
-description: "Mottley wins 30-0 again. Voter turnout hits a historic low. Kensington Oval dropped from cricket schedule. The Bajan Bugle reads the small print."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: The Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-06 06:00:00-04:00
+description: Mottley wins 30-0 again. Voter turnout hits a historic low. Kensington
+  Oval dropped from cricket schedule. The Bajan Bugle reads the small print.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Mottley
+- BLP
+- election
+- voter turnout
+- Kensington Oval
+- CWI
+- gun violence
+- social media
+title: The Bajan Bugle — Barbados Brief, Monday April 6, 2026
+tone: satire
 ---
 
 *The Bajan Bugle — Little England, big opinions, and zero patience for spin.*

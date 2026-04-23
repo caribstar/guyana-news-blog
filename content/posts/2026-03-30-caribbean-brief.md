@@ -1,13 +1,31 @@
 ---
-title: "Caribbean Brief: Jamaica's Hurricane Budget, T&T Radar Gone, Guyana Plays Football & The US Removes Military Gear from Tobago"
-date: 2026-03-30T07:00:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["Jamaica", "Trinidad and Tobago", "Guyana", "Haiti", "Antigua and Barbuda", "CARICOM", "Hurricane Melissa", "budget", "US military", "football", "World Cup", "Caribbean Energy Week", "Commonwealth"]
-author: "GDB Staff"
-description: "Jamaica tables its Hurricane Melissa budget, the US quietly removes military radar from Tobago, Guyana faces Belize in football, and Antigua is hosting the Commonwealth summit in November. Monday Caribbean."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-03-30 07:00:00-04:00
+description: Jamaica tables its Hurricane Melissa budget, the US quietly removes military
+  radar from Tobago, Guyana faces Belize in football, and Antigua is hosting the Commonwealth
+  summit in November. Monday Caribbean.
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- Trinidad and Tobago
+- Guyana
+- Haiti
+- Antigua and Barbuda
+- CARICOM
+- Hurricane Melissa
+- budget
+- US military
+- football
+- World Cup
+- Caribbean Energy Week
+- Commonwealth
+title: 'Caribbean Brief: Jamaica''s Hurricane Budget, T&T Radar Gone, Guyana Plays
+  Football & The US Removes Military Gear from Tobago'
+tone: commentary
 ---
 
 *Monday, March 30, 2026 | Caribbean Brief*

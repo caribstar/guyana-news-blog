@@ -1,13 +1,23 @@
 ---
-title: "Uncle Ramesh Take: Dem Cyant See Progress Even When It Hit Dem in de Face"
+categories:
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-02-08
-categories: ["Uncle Ramesh"]
-tags: ["Budget 2026","PPP/C","Development","ExxonMobil","Green Energy","Health","Black History Month"]
-description: "Uncle Ramesh reads the Sunday papers and explains why the opposition can't recognise progress even when it building a school next to them."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh reads the Sunday papers and explains why the opposition
+  can't recognise progress even when it building a school next to them.
+product_family: gdb
+status: published
+tags:
+- Budget 2026
+- PPP/C
+- Development
+- ExxonMobil
+- Green Energy
+- Health
+- Black History Month
+title: 'Uncle Ramesh Take: Dem Cyant See Progress Even When It Hit Dem in de Face'
+tone: commentary
 ---
 
 *Uncle Ramesh is a proud member of the Guyanese diaspora who reads all four newspapers every morning and has strong opinions about everything. He is fictional. His opinions are his own.*

@@ -1,13 +1,22 @@
 ---
-title: "Progress Report: Government Promises vs Reality Check - January 2026"
+categories:
+- Progress Report
+- Accountability
+content_type: commentary
+country: guyana
 date: 2026-01-21
-categories: ["Progress Report", "Accountability"]
-tags: ["government-promises", "infrastructure", "development", "satire"]
-summary: "Tracking what the government promised vs what's actually happening. This week: Solar farms on track, garbage collection off track, and the eternal question of when that overpass is coming."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: 'Tracking what the government promised vs what''s actually happening. This
+  week: Solar farms on track, garbage collection off track, and the eternal question
+  of when that overpass is coming.'
+tags:
+- government-promises
+- infrastructure
+- development
+- satire
+title: 'Progress Report: Government Promises vs Reality Check - January 2026'
+tone: commentary
 ---
 
 *Every Wednesday, we check in on government promises and see how they're progressing. No spin, just status updates.*

@@ -1,14 +1,25 @@
 ---
-title: "Yard Report — Sunday, April 12, 2026"
-date: 2026-04-12T08:00:00-05:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "carnival road march", "Negril ambulance", "FIFA referee", "school hair policy", "energy crisis"]
-author: "Yard Report"
-description: "Road March Sunday in Kingston, Negril still has no ambulance, a Jamaican referee is going to the World Cup, and the budget's oil price assumption is looking embarrassing."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-12 08:00:00-05:00
+description: Road March Sunday in Kingston, Negril still has no ambulance, a Jamaican
+  referee is going to the World Cup, and the budget's oil price assumption is looking
+  embarrassing.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- carnival road march
+- Negril ambulance
+- FIFA referee
+- school hair policy
+- energy crisis
+title: Yard Report — Sunday, April 12, 2026
+tone: satire
 ---
 
 Good morning from Kingston, where the road march is already louder than the news.

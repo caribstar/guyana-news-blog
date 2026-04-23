@@ -1,13 +1,20 @@
 ---
-title: "Caribbean Daily Brief – January 20, 2026"
-date: 2026-01-20
 categories: []
-tags: [caribbean, regional, haiti, barbados, jamaica, trinidad]
-series: "Caribbean Daily Brief"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+content_type: commentary
+country: guyana
+date: 2026-01-20
+product_family: gdb
+series: Caribbean Daily Brief
+status: published
+tags:
+- caribbean
+- regional
+- haiti
+- barbados
+- jamaica
+- trinidad
+title: Caribbean Daily Brief – January 20, 2026
+tone: commentary
 ---
 
 *Your 5-minute tour of regional chaos, served with rum punch*

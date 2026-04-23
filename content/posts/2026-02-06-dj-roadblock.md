@@ -1,14 +1,24 @@
 ---
-title: "DJ Roadblock's Friday Traffic Report: More Road, More Traffic, More Vex"
+categories:
+- DJ Roadblock
+- Entertainment
+content_type: commentary
+country: guyana
 date: 2026-02-06
 draft: false
-categories: ["DJ Roadblock", "Entertainment"]
-tags: ["Guyana", "Traffic", "Satire", "Georgetown", "Infrastructure"]
-summary: "DJ Roadblock brings you the Friday traffic chaos report — Dem Boys nailed it: more road just means more traffic. Plus the Eccles roundabout is still a parking lot, and the East Bank corridor has drivers questioning their life choices."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: 'DJ Roadblock brings you the Friday traffic chaos report — Dem Boys nailed
+  it: more road just means more traffic. Plus the Eccles roundabout is still a parking
+  lot, and the East Bank corridor has drivers questioning their life choices.'
+tags:
+- Guyana
+- Traffic
+- Satire
+- Georgetown
+- Infrastructure
+title: 'DJ Roadblock''s Friday Traffic Report: More Road, More Traffic, More Vex'
+tone: commentary
 ---
 
 🚦 **DJ ROADBLOCK'S FRIDAY TRAFFIC REPORT** 🚦

@@ -1,14 +1,26 @@
 ---
-title: "The Trini Dispatch – Thursday, April 9, 2026"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
 date: 2026-04-09
-categories: ["Trini Brief"]
-tags: ["Trinidad", "Tobago", "news", "Caribbean", "Kamla", "CARICOM", "Venezuela", "energy"]
-author: "Trini Dispatch"
-description: "Port of Spain dispatches — Kamla goes to Venezuela for gas, a businessman is dead, the SEA was easy, and CARICOM finds itself short one vote of confidence."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+description: Port of Spain dispatches — Kamla goes to Venezuela for gas, a businessman
+  is dead, the SEA was easy, and CARICOM finds itself short one vote of confidence.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Tobago
+- news
+- Caribbean
+- Kamla
+- CARICOM
+- Venezuela
+- energy
+title: The Trini Dispatch – Thursday, April 9, 2026
+tone: satire
 ---
 
 # The Trini Dispatch

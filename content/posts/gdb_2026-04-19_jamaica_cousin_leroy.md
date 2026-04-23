@@ -1,14 +1,23 @@
 ---
-title: "Cousin Leroy: Jamaica Pension Ting, Howard Lau Waste Bin Issue, and Why I Can't Even Believe What Is Going On Down There"
-date: 2026-04-19T11:30:00-04:00
+authors:
+- Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-19 11:30:00-04:00
 draft: false
-categories: ["Yard Brief"]
-authors: ["Cousin Leroy"]
-tags: ["Jamaica", "Cousin Leroy", "Bronx", "diaspora"]
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Cousin Leroy
+- Bronx
+- diaspora
+title: 'Cousin Leroy: Jamaica Pension Ting, Howard Lau Waste Bin Issue, and Why I
+  Can''t Even Believe What Is Going On Down There'
+tone: satire
 ---
 
 Greetings from the Bronx. Cousin Leroy here. I have to tell you, I was on the phone with Cousin Pearl this morning — she still in Kingston, she don't come to America, she say America too cold — and she read me the Gleaner front page, and I am sitting here in my apartment on 233rd Street and I cannot believe what I am hearing.

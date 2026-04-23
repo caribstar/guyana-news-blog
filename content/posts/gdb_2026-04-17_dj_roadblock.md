@@ -1,14 +1,22 @@
 ---
-title: "DJ Roadblock: It's Friday, the Whole Country is a Parking Lot, and Somebody Broke Down on Mandela Again"
-date: 2026-04-17T07:00:00-04:00
+authors:
+- DJ Roadblock
+categories:
+- DJ Roadblock
+content_type: satire
+country: guyana
+date: 2026-04-17 07:00:00-04:00
 draft: false
-categories: ["DJ Roadblock"]
-authors: ["DJ Roadblock"]
-tags: ["traffic report", "Friday", "Georgetown"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- traffic report
+- Friday
+- Georgetown
+title: 'DJ Roadblock: It''s Friday, the Whole Country is a Parking Lot, and Somebody
+  Broke Down on Mandela Again'
+tone: commentary
 ---
 
 YO. It's Friday. Big man Friday. DJ Roadblock coming to you live from the top of the Demerara Harbour Bridge, which is currently in the UP position and has been for twenty-three minutes. I am broadcasting from a Corolla that has not moved since 6:47 AM. The driver next to me is eating boil-and-fry corn. We have made eye contact. We are friends now.

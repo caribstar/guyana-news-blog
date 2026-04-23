@@ -1,14 +1,23 @@
 ---
-title: "Back-A-Truck — March 24, 2026: This Week's Deals and Market Finds"
+author: Back-A-Truck
+categories:
+- Back-a-Truck
+- Weekly Feature
+content_type: commentary
+country: guyana
 date: 2026-03-24
-categories: ["Back-a-Truck", "Weekly Feature"]
-tags: ["Back-a-Truck", "Deals", "Market", "Shopping", "Georgetown"]
-author: "Back-A-Truck"
-description: "Your weekly guide to what's moving, what's worth buying, and what the market is saying this week in Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Your weekly guide to what's moving, what's worth buying, and what the
+  market is saying this week in Guyana.
+product_family: series
+status: published
+tags:
+- Back-a-Truck
+- Deals
+- Market
+- Shopping
+- Georgetown
+title: 'Back-A-Truck — March 24, 2026: This Week''s Deals and Market Finds'
+tone: commentary
 ---
 
 🚛 **BACK-A-TRUCK**  

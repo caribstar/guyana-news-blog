@@ -1,14 +1,24 @@
 ---
-title: "Jamaica Brief — Yard Report, April 10, 2026"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
 date: 2026-04-10
-categories: ["Yard Brief"]
-tags: ["jamaica", "crime", "politics", "sport", "society"]
-author: "Yard Report"
-description: "JDF soldier charged with girlfriend's murder, bartender shot in St. Elizabeth, Shanoya Douglas has world leads, and an MP has been summoned. Another Friday in Jamaica."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+description: JDF soldier charged with girlfriend's murder, bartender shot in St. Elizabeth,
+  Shanoya Douglas has world leads, and an MP has been summoned. Another Friday in
+  Jamaica.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- jamaica
+- crime
+- politics
+- sport
+- society
+title: Jamaica Brief — Yard Report, April 10, 2026
+tone: satire
 ---
 
 Jamaica, April 10. It is a Friday. Shanoya Douglas ran 22.11. A soldier killed his girlfriend. A bartender was shot in Red Bank. A Member of Parliament has been summoned by the Ethics Committee. The US dollar closed at $158.93. Normal.

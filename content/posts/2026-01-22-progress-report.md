@@ -1,13 +1,24 @@
 ---
-title: "Progress Report: Linden-Mabura Road at 62%, Gas-to-Energy Deadlines Extended, Bayrock Stadium Opens Jan 31"
+categories:
+- Progress Report
+- Infrastructure
+content_type: commentary
+country: guyana
 date: 2026-01-22
-categories: ["Progress Report", "Infrastructure"]
-tags: ["infrastructure", "roads", "gas-to-energy", "stadium", "development"]
-summary: "Tracking what the government promised vs what's actually happening. This week: Linden-Mabura road hits 62%, gas plant deadlines pushed back (again), and Linden finally getting its stadium."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: 'Tracking what the government promised vs what''s actually happening. This
+  week: Linden-Mabura road hits 62%, gas plant deadlines pushed back (again), and
+  Linden finally getting its stadium.'
+tags:
+- infrastructure
+- roads
+- gas-to-energy
+- stadium
+- development
+title: 'Progress Report: Linden-Mabura Road at 62%, Gas-to-Energy Deadlines Extended,
+  Bayrock Stadium Opens Jan 31'
+tone: commentary
 ---
 
 *Tracking government projects — because promises need receipts* 📋

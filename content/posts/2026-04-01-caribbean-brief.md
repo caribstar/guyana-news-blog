@@ -1,13 +1,25 @@
 ---
-title: "Caribbean Brief – Wednesday, April 1, 2026"
-date: 2026-04-01T09:00:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["caribbean", "trinidad", "jamaica", "haiti", "barbados", "caricom", "news", "caribbean brief"]
-author: "GDB Staff"
-description: "Your Wednesday Caribbean roundup — Trinidad's nurse crisis, Haiti's austerity squeeze, Jamaica's budget debate, Venezuela's threats, and Carnival Corporation buying up the sea."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-04-01 09:00:00-04:00
+description: Your Wednesday Caribbean roundup — Trinidad's nurse crisis, Haiti's austerity
+  squeeze, Jamaica's budget debate, Venezuela's threats, and Carnival Corporation
+  buying up the sea.
+product_family: gdb
+status: published
+tags:
+- caribbean
+- trinidad
+- jamaica
+- haiti
+- barbados
+- caricom
+- news
+- caribbean brief
+title: Caribbean Brief – Wednesday, April 1, 2026
+tone: commentary
 ---
 
 *The Guyana Daily Brief extends its gaze across the Caribbean. The region is complicated. We try to keep up.*

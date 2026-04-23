@@ -1,14 +1,28 @@
 ---
-title: "Bajan Bugle - Monday, April 20, 2026"
-date: 2026-04-20T09:00:00-04:00
-categories: ["Bajan Brief"]
-tags: ["barbados", "mottley", "blp", "water", "idb", "borrowers platform", "bajan bugle", "walters"]
-author: "Bajan Bugle"
-description: "Bridgetown view: the Prime Minister has secured another loan we are politely calling an investment, the Opposition has noticed, and the country is being positioned as the global headquarters of indebted nations who would like to discuss their indebtedness in a more structured manner."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-20 09:00:00-04:00
+description: 'Bridgetown view: the Prime Minister has secured another loan we are
+  politely calling an investment, the Opposition has noticed, and the country is being
+  positioned as the global headquarters of indebted nations who would like to discuss
+  their indebtedness in a more structured manner.'
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- barbados
+- mottley
+- blp
+- water
+- idb
+- borrowers platform
+- bajan bugle
+- walters
+title: Bajan Bugle - Monday, April 20, 2026
+tone: satire
 ---
 
 Good morning, Bridgetown.

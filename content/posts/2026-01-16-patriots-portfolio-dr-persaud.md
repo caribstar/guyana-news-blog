@@ -1,20 +1,21 @@
 ---
-title: "Dr. Sharmila Persaud: From Berbice to Brain Surgery"
-date: 2026-01-16T10:00:00-04:00
-draft: false
+author: Editorial Team
 categories:
-  - "Guyana Rising"
-  - "Patriots' Portfolio"
+- Guyana Rising
+- Patriots' Portfolio
+content_type: news
+country: guyana
+date: 2026-01-16 10:00:00-04:00
+draft: false
+product_family: series
+status: published
 tags:
-  - diaspora
-  - healthcare
-  - success-story
-  - inspiration
-author: "Editorial Team"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+- diaspora
+- healthcare
+- success-story
+- inspiration
+title: 'Dr. Sharmila Persaud: From Berbice to Brain Surgery'
+tone: commentary
 ---
 
 **A Weekly Profile of Guyanese Excellence**
@@ -98,4 +99,3 @@ Dr. Sharmila Persaud proves what's possible when Guyanese excellence meets oppor
 ---
 
 *Patriots' Portfolio is a weekly feature celebrating successful Guyanese at home and abroad—their journeys, their achievements, and their continued connection to the land that shaped them.*
-

@@ -1,14 +1,22 @@
 ---
-title: "Speedeet & Wilar: The Sunday the Cricket Ball Went Over the Wall"
-date: 2026-04-19T12:00:00-04:00
+authors:
+- Speedeet & Wilar
+categories:
+- Speedeet & Wilar
+content_type: satire
+country: guyana
+date: 2026-04-19 12:00:00-04:00
 draft: false
-categories: ["Speedeet & Wilar"]
-authors: ["Speedeet & Wilar"]
-tags: ["Speedeet & Wilar", "Guyana", "children", "friendship"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Speedeet & Wilar
+- Guyana
+- children
+- friendship
+title: 'Speedeet & Wilar: The Sunday the Cricket Ball Went Over the Wall'
+tone: commentary
 ---
 
 It was a Sunday morning in Bel Air, and the sun was already hot by the time Speedeet finished his porridge.

@@ -1,14 +1,28 @@
 ---
-title: "Patriots Portfolio: Budget 2026 Deep Dive — Where Is the $1.588 Trillion Actually Going?"
+categories:
+- Patriots Portfolio
+- Economy
+content_type: commentary
+country: guyana
 date: 2026-02-06
 draft: false
-categories: ["Patriots Portfolio", "Economy"]
-tags: ["Guyana", "Economy", "Budget 2026", "Investment", "Oil", "Tourism", "Gold"]
-summary: "This week's Patriots Portfolio breaks down the biggest budget stories: the $1.588 trillion allocation, tourism boom, gold sector resurrection, cash grants debate, and what it all means for ordinary Guyanese trying to build wealth in the fastest-growing economy in the world."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: 'This week''s Patriots Portfolio breaks down the biggest budget stories:
+  the $1.588 trillion allocation, tourism boom, gold sector resurrection, cash grants
+  debate, and what it all means for ordinary Guyanese trying to build wealth in the
+  fastest-growing economy in the world.'
+tags:
+- Guyana
+- Economy
+- Budget 2026
+- Investment
+- Oil
+- Tourism
+- Gold
+title: 'Patriots Portfolio: Budget 2026 Deep Dive — Where Is the $1.588 Trillion Actually
+  Going?'
+tone: commentary
 ---
 
 💰 **PATRIOTS PORTFOLIO** 💰

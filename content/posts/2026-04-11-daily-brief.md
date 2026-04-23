@@ -1,14 +1,23 @@
 ---
-title: "The Guyana Daily Brief — Saturday, April 11, 2026"
-date: 2026-04-11T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["ASL crash", "oil revenue", "T&T partnership", "EXIM Bank", "Suriname bridge", "Guyana news"]
-author: "GDB Staff"
-description: "Plane down in Region 8, US$761M oil quarter, Ali tells T&T to lock themselves in a room for 72 hours, and the Gas-to-Energy project delays again."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-11 07:00:00-04:00
+description: Plane down in Region 8, US$761M oil quarter, Ali tells T&T to lock themselves
+  in a room for 72 hours, and the Gas-to-Energy project delays again.
+product_family: gdb
+status: published
+tags:
+- ASL crash
+- oil revenue
+- T&T partnership
+- EXIM Bank
+- Suriname bridge
+- Guyana news
+title: The Guyana Daily Brief — Saturday, April 11, 2026
+tone: commentary
 ---
 
 Good morning from Georgetown. Here's what you missed while you were sleeping off Easter.

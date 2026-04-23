@@ -1,11 +1,14 @@
 ---
-title: "YouTube Scripts for January 24, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-01-24
-categories: ["YouTube Scripts"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+title: YouTube Scripts for January 24, 2026
+tone: commentary
 ---
+
 # YouTube Scripts for January 24, 2026
 ## The Guyana Brief — Daily News Roundup
 

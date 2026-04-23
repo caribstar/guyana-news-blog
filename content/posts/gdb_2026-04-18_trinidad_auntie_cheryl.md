@@ -1,14 +1,22 @@
 ---
-title: "Auntie Cheryl: Saddam Hosein Open a GYM!! TTMB Have New Mortgage for We!! And Nurses Saying Dey Going to WALK!!"
-date: 2026-04-18T10:00:00-04:00
+authors:
+- Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-18 10:00:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Auntie Cheryl"]
-tags: ["Trinidad and Tobago", "Chaguanas", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad and Tobago
+- Chaguanas
+- dueling blogs
+title: 'Auntie Cheryl: Saddam Hosein Open a GYM!! TTMB Have New Mortgage for We!!
+  And Nurses Saying Dey Going to WALK!!'
+tone: satire
 ---
 
 Allyuh!!! It me, Auntie Cheryl, and I wake up dis Saturday mornin' with SO MUCH to tell yuh. De phone been ringin' since 6AM, me sister in Diego Martin send me TEN voice notes, and me niece in Arima tell me to check de Guardian. Sit sit sit. Make tea. Let me unload.

@@ -1,14 +1,25 @@
 ---
-title: "The Daily Brief — Tuesday, April 7, 2026"
-date: 2026-04-07T06:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["Lindsayca", "Gas-to-Energy", "CARIFTA", "Chinese acrobats", "private university", "flood", "Exxon", "Mohamed extradition"]
-author: "The Daily Brief"
-description: "Lindsayca's executives fly private while Guyana sits in the dark. CARIFTA ends with six medals. A Chinese acrobatic troupe is coming. Also: flood fears."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: The Daily Brief
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-07 06:00:00-04:00
+description: 'Lindsayca''s executives fly private while Guyana sits in the dark. CARIFTA
+  ends with six medals. A Chinese acrobatic troupe is coming. Also: flood fears.'
+product_family: gdb
+status: published
+tags:
+- Lindsayca
+- Gas-to-Energy
+- CARIFTA
+- Chinese acrobats
+- private university
+- flood
+- Exxon
+- Mohamed extradition
+title: The Daily Brief — Tuesday, April 7, 2026
+tone: commentary
 ---
 
 *Your 5-minute guide to what's happening in Guyana — plain talk, no spin.*

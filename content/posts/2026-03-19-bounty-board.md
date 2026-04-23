@@ -1,13 +1,22 @@
 ---
-title: "Bounty Board — March 19, 2026"
+categories:
+- Bounty Board
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["Bounty Board"]
-tags: ["bounty-board", "humor", "satire", "fiction", "wanted", "guyana"]
-description: "Georgetown's most fictional wanted board. Rewards offered. Results not guaranteed."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Georgetown's most fictional wanted board. Rewards offered. Results not
+  guaranteed.
+product_family: series
+status: published
+tags:
+- bounty-board
+- humor
+- satire
+- fiction
+- wanted
+- guyana
+title: Bounty Board — March 19, 2026
+tone: commentary
 ---
 
 *The Bounty Board: fictional rewards for fictional problems. All listings satirical.*

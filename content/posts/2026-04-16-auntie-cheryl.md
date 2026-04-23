@@ -1,14 +1,23 @@
 ---
-title: "Auntie Cheryl From Chaguanas — Thursday, April 16, 2026"
-date: 2026-04-16T07:30:00-04:00
-categories: ["Trini Brief"]
-tags: ["CARICOM", "Kamla", "housing", "Carnival", "Trinidad"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl is fully supportive of Kamla's comments about CARICOM and has been saying this for years, if anyone had been listening."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-16 07:30:00-04:00
+description: Auntie Cheryl is fully supportive of Kamla's comments about CARICOM and
+  has been saying this for years, if anyone had been listening.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- CARICOM
+- Kamla
+- housing
+- Carnival
+- Trinidad
+title: Auntie Cheryl From Chaguanas — Thursday, April 16, 2026
+tone: satire
 ---
 
 Good morning my loves! Auntie Cheryl woke up this morning, read the news, and felt what can only be described as *vindicated*.

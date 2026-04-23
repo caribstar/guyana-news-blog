@@ -1,13 +1,25 @@
 ---
-title: "Caribbean Daily Brief — Tuesday, April 7, 2026"
-date: 2026-04-07T07:00:00-04:00
-categories: ["Caribbean Daily Brief"]
-tags: ["CARIFTA", "Jamaica", "Trinidad", "Barbados", "Kamla", "Mottley", "state of emergency", "tariffs"]
-author: "The Daily Brief"
-description: "CARIFTA wraps in Grenada with Jamaica dominant. Trinidad declares another state of emergency. Barbados voter turnout hits historic low. The Caribbean in 5 minutes."
-tone: "commentary"
-status: "published"
-product_family: "series"
+author: The Daily Brief
+categories:
+- Caribbean Daily Brief
+content_type: news
+date: 2026-04-07 07:00:00-04:00
+description: CARIFTA wraps in Grenada with Jamaica dominant. Trinidad declares another
+  state of emergency. Barbados voter turnout hits historic low. The Caribbean in 5
+  minutes.
+product_family: series
+status: published
+tags:
+- CARIFTA
+- Jamaica
+- Trinidad
+- Barbados
+- Kamla
+- Mottley
+- state of emergency
+- tariffs
+title: Caribbean Daily Brief — Tuesday, April 7, 2026
+tone: commentary
 ---
 
 *Regional news for the Caribbean diaspora — without the spin, with the context.*

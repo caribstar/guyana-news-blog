@@ -1,14 +1,24 @@
 ---
-title: "Patriots Portfolio — April 10, 2026"
+author: GDB Staff
+categories:
+- Patriots Portfolio
+content_type: news
+country: guyana
 date: 2026-04-10
-categories: ["Patriots Portfolio"]
-tags: ["guyana", "economy", "investment", "oil", "business", "development"]
-author: "GDB Staff"
-description: "This week's Patriots Portfolio: Q1 oil revenue at US$761M, the SME Development Bank's US$100M funding window, Guyana's oil production approaching 1M barrels per day, and what the Palmyra highway means for Berbice investment."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'This week''s Patriots Portfolio: Q1 oil revenue at US$761M, the SME
+  Development Bank''s US$100M funding window, Guyana''s oil production approaching
+  1M barrels per day, and what the Palmyra highway means for Berbice investment.'
+product_family: series
+status: published
+tags:
+- guyana
+- economy
+- investment
+- oil
+- business
+- development
+title: Patriots Portfolio — April 10, 2026
+tone: commentary
 ---
 
 *Patriots Portfolio: your weekly look at Guyana's economic landscape — what's growing, what's coming, and where the opportunities are for Guyanese building toward the future.*

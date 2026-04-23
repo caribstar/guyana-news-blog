@@ -1,13 +1,21 @@
 ---
-title: "The Rumor Mill: What Georgetown Whispering This Week"
+categories:
+- The Rumour Mill
+- Entertainment
+content_type: commentary
+country: guyana
 date: 2026-01-21
-categories: ["The Rumour Mill", "Entertainment"]
-tags: ["gossip", "satire", "humor", "Georgetown"]
-summary: "The completely fictional whispers making rounds in Georgetown this week. All names changed, all situations imagined, all entertainment guaranteed."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: The completely fictional whispers making rounds in Georgetown this week.
+  All names changed, all situations imagined, all entertainment guaranteed.
+tags:
+- gossip
+- satire
+- humor
+- Georgetown
+title: 'The Rumor Mill: What Georgetown Whispering This Week'
+tone: commentary
 ---
 
 *Welcome to the Rumor Mill - where we imagine what Georgetown might be whispering about if Georgetown whispered about completely fictional things. Any resemblance to real persons or events is coincidental and honestly impressive.*

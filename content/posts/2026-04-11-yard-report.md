@@ -1,14 +1,25 @@
 ---
-title: "Yard Report — Saturday, April 11, 2026"
-date: 2026-04-11T08:00:00-05:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "house fire", "road deaths", "Bunny Shaw", "tourism", "Jamaica news"]
-author: "Yard Report"
-description: "Spanish Town mourns a teenager lost in a house fire, 71 dead on the roads already this year, and Bunny Shaw scores a hat-trick while the government hands out plaques in Maryland."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-11 08:00:00-05:00
+description: Spanish Town mourns a teenager lost in a house fire, 71 dead on the roads
+  already this year, and Bunny Shaw scores a hat-trick while the government hands
+  out plaques in Maryland.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- house fire
+- road deaths
+- Bunny Shaw
+- tourism
+- Jamaica news
+title: Yard Report — Saturday, April 11, 2026
+tone: satire
 ---
 
 Good morning from Kingston, where the heat is already doing its best and the week's news is already doing its worst.

@@ -1,68 +1,46 @@
-{{/* Tradewinds Flag Bar — Caribbean + Africa expand-in-place */}}
+{{/* Tradewinds Flag Bar - 8 country direct-access buttons */}}
 <div class="tw-flag-bar" data-tw-flag-bar>
   <div class="tw-flag-bar-inner">
 
-    <button class="tw-flag-btn tw-flag-caribbean" data-tw-region="caribbean" aria-expanded="false" aria-controls="tw-region-caribbean">
-      <span class="tw-flag-stripes tw-flag-stripes-caribbean" aria-hidden="true"></span>
-      <span class="tw-flag-label">Caribbean</span>
-      <svg class="tw-flag-caret" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-    </button>
-
-    <button class="tw-flag-btn tw-flag-africa" data-tw-region="africa" aria-expanded="false" aria-controls="tw-region-africa">
-      <span class="tw-flag-stripes tw-flag-stripes-africa" aria-hidden="true"></span>
-      <span class="tw-flag-label">Africa</span>
-      <svg class="tw-flag-caret" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-    </button>
-
-    <a href="/guyana/" class="tw-flag-btn tw-flag-guyana">
-      <span class="tw-flag-stripes tw-flag-stripes-guyana" aria-hidden="true"></span>
+    <a href="/guyana/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-gy" aria-hidden="true"></span>
       <span class="tw-flag-label">Guyana</span>
     </a>
 
-  </div>
+    <a href="/jamaica/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-jm" aria-hidden="true"></span>
+      <span class="tw-flag-label">Jamaica</span>
+    </a>
 
-  <!-- Caribbean expand panel -->
-  <div class="tw-region-panel" id="tw-region-caribbean" data-tw-region-panel="caribbean" hidden>
-    <div class="tw-region-panel-inner">
-      <a href="/jamaica/" class="tw-country-card"><span class="tw-country-stripes tw-jm"></span><span class="tw-country-name">Jamaica</span></a>
-      <a href="/trinidad/" class="tw-country-card"><span class="tw-country-stripes tw-tt"></span><span class="tw-country-name">Trinidad &amp; Tobago</span></a>
-      <a href="/barbados/" class="tw-country-card"><span class="tw-country-stripes tw-bb"></span><span class="tw-country-name">Barbados</span></a>
-      <a href="/caribbean/" class="tw-country-card tw-country-all"><span class="tw-country-name">All Caribbean &rarr;</span></a>
-    </div>
-  </div>
+    <a href="/trinidad/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-tt" aria-hidden="true"></span>
+      <span class="tw-flag-label">Trinidad</span>
+    </a>
 
-  <!-- Africa expand panel -->
-  <div class="tw-region-panel" id="tw-region-africa" data-tw-region-panel="africa" hidden>
-    <div class="tw-region-panel-inner">
-      <a href="/ghana/" class="tw-country-card"><span class="tw-country-stripes tw-gh"></span><span class="tw-country-name">Ghana</span></a>
-      <a href="/kenya/" class="tw-country-card"><span class="tw-country-stripes tw-ke"></span><span class="tw-country-name">Kenya</span></a>
-      <a href="/nigeria/" class="tw-country-card"><span class="tw-country-stripes tw-ng"></span><span class="tw-country-name">Nigeria</span></a>
-      <a href="/south-africa/" class="tw-country-card"><span class="tw-country-stripes tw-za"></span><span class="tw-country-name">South Africa</span></a>
-      <a href="/africa/" class="tw-country-card tw-country-all"><span class="tw-country-name">All Africa &rarr;</span></a>
-    </div>
-  </div>
+    <a href="/barbados/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-bb" aria-hidden="true"></span>
+      <span class="tw-flag-label">Barbados</span>
+    </a>
 
+    <a href="/ghana/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-gh" aria-hidden="true"></span>
+      <span class="tw-flag-label">Ghana</span>
+    </a>
+
+    <a href="/nigeria/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-ng" aria-hidden="true"></span>
+      <span class="tw-flag-label">Nigeria</span>
+    </a>
+
+    <a href="/kenya/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-ke" aria-hidden="true"></span>
+      <span class="tw-flag-label">Kenya</span>
+    </a>
+
+    <a href="/south-africa/" class="tw-flag-btn">
+      <span class="tw-flag-stripes tw-za" aria-hidden="true"></span>
+      <span class="tw-flag-label">S. Africa</span>
+    </a>
+
+  </div>
 </div>
-
-<script>
-(function(){
-  const bar = document.querySelector('[data-tw-flag-bar]');
-  if (!bar) return;
-  const btns = bar.querySelectorAll('[data-tw-region]');
-  const panels = bar.querySelectorAll('[data-tw-region-panel]');
-  btns.forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      const region = btn.dataset.twRegion;
-      const panel = bar.querySelector('[data-tw-region-panel="'+region+'"]');
-      const isOpen = !panel.hidden;
-      panels.forEach(p => p.hidden = true);
-      btns.forEach(b => b.setAttribute('aria-expanded','false'));
-      if (!isOpen) {
-        panel.hidden = false;
-        btn.setAttribute('aria-expanded','true');
-      }
-    });
-  });
-})();
-</script>

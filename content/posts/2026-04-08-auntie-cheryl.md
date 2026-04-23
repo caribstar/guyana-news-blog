@@ -1,13 +1,24 @@
 ---
-title: "Auntie Cheryl's T&T Round-Up – April 8, 2026"
+author: Auntie Cheryl
+categories:
+- Caribbean Brief
+- Trinidad
+content_type: satire
 date: 2026-04-08
-categories: ["Caribbean Brief", "Trinidad"]
-tags: ["Trinidad", "Tobago", "Chaguanas", "Auntie Cheryl", "Kamla", "Carifta"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl from Chaguanas is VERY excited about Kamla going to get T&T's gas, T&T's athletes at Carifta, and Tobago festival season."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Auntie Cheryl from Chaguanas is VERY excited about Kamla going to get
+  T&T's gas, T&T's athletes at Carifta, and Tobago festival season.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Trinidad
+- Tobago
+- Chaguanas
+- Auntie Cheryl
+- Kamla
+- Carifta
+title: Auntie Cheryl's T&T Round-Up – April 8, 2026
+tone: commentary
 ---
 
 GOOD MORNING EVERYONE! Auntie Cheryl here from Chaguanas and I have so much to talk about today I barely know where to start! The coffee already done brew and I sitting down with my tablet and I ready!

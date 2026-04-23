@@ -1,12 +1,22 @@
 ---
-title: "YouTube Scripts — Wednesday, February 4, 2026"
+categories:
+- YouTube Scripts
+- Content
+content_type: commentary
 date: 2026-02-04
-categories: ["YouTube Scripts", "Content"]
-tags: ["HeyGen", "YouTube", "scripts", "Budget-2026", "media-freedom", "T20-World-Cup", "Barbados-election"]
-summary: "60-second and 4-minute HeyGen-ready scripts for Wednesday February 4, 2026."
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+summary: 60-second and 4-minute HeyGen-ready scripts for Wednesday February 4, 2026.
+tags:
+- HeyGen
+- YouTube
+- scripts
+- Budget-2026
+- media-freedom
+- T20-World-Cup
+- Barbados-election
+title: YouTube Scripts — Wednesday, February 4, 2026
+tone: commentary
 ---
 
 # YOUTUBE SCRIPTS — WEDNESDAY, FEBRUARY 4, 2026

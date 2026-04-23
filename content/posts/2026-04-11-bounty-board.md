@@ -1,14 +1,24 @@
 ---
-title: "Bounty Board — April 11, 2026"
+author: GDB Staff
+categories:
+- Bounty Board
+content_type: news
+country: guyana
 date: 2026-04-11
-categories: ["Bounty Board"]
-tags: ["guyana", "satire", "humor", "wanted", "accountability", "fiction"]
-author: "GDB Staff"
-description: "This week's Bounty Board: fictional wanted notices for Guyana's most persistent national irritants — potholes, missing files, the Kitty roundabout, and the driver's licence scam."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'This week''s Bounty Board: fictional wanted notices for Guyana''s most
+  persistent national irritants — potholes, missing files, the Kitty roundabout, and
+  the driver''s licence scam.'
+product_family: series
+status: published
+tags:
+- guyana
+- satire
+- humor
+- wanted
+- accountability
+- fiction
+title: Bounty Board — April 11, 2026
+tone: commentary
 ---
 
 *⚠️ The Bounty Board is satirical fiction. All 'wanted notices' target fictional situations, systems, and concepts — never real individuals. Published every Saturday.*

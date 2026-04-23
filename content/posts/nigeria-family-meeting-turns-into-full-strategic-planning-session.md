@@ -1,18 +1,22 @@
 ---
-title: "Family Meeting Turns Into Full Strategic Planning Session"
-date: 2026-04-20T09:01:00-05:00
+author: T. Balogun
+categories:
+- Naija Brief
+content_type: satire
+country: nigeria
+date: 2026-04-20 09:01:00-05:00
 draft: false
-categories: ["Naija Brief"]
-section: "culture"
-author: "T. Balogun"
-image: "https://picsum.photos/seed/nigeria-family-meeting-turns-into-full/1280/720"
-country: "nigeria"
-tone: "satire"
-status: "published"
-global_tags: ["work"]
+duplicate_group_key: nigeria|work|general
+fictional_character: true
+global_tags:
+- work
+image: https://picsum.photos/seed/nigeria-family-meeting-turns-into-full/1280/720
 local_tags: []
-duplicate_group_key: "nigeria|work|general"
-product_family: "country-network"
+product_family: country-network
+section: culture
+status: published
+title: Family Meeting Turns Into Full Strategic Planning Session
+tone: satire
 ---
 
 ENUGU — An extended family gathering called on Sunday to discuss a minor property matter expanded over six hours into a comprehensive strategic review, with breakout groups, assigned action items, and a designated minutes-taker.

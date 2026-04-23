@@ -1,13 +1,20 @@
 ---
-title: "De Boys Seh: Training College, Carnival, and Why Cricket Better Than School"
+categories:
+- De Boys Seh
+- Kids
+content_type: commentary
+country: guyana
 date: 2026-02-15
 draft: false
-categories: ["De Boys Seh", "Kids"]
-tags: ["Speedeet", "Wilar", "Kid Commentary", "News"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- Speedeet
+- Wilar
+- Kid Commentary
+- News
+title: 'De Boys Seh: Training College, Carnival, and Why Cricket Better Than School'
+tone: commentary
 ---
 
 *De Boys Seh is Speedeet and Wilar's weekly kid commentary on the news. They're 12. Their opinions are their own. No politics.*

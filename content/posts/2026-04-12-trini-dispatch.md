@@ -1,14 +1,25 @@
 ---
-title: "Trini Dispatch — Sunday, April 12, 2026"
-date: 2026-04-12T08:10:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "CARICOM", "Persad-Bissessar", "Ghany murder", "jet ski death", "McDonald Bailey"]
-author: "Trini Dispatch"
-description: "Persad-Bissessar's CARICOM war goes global, the Ghany murder investigation tightens, McDonald Bailey was shot dead after spending 20 years wrongly imprisoned, and the jet ski suspect remains in custody."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-12 08:10:00-04:00
+description: Persad-Bissessar's CARICOM war goes global, the Ghany murder investigation
+  tightens, McDonald Bailey was shot dead after spending 20 years wrongly imprisoned,
+  and the jet ski suspect remains in custody.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- CARICOM
+- Persad-Bissessar
+- Ghany murder
+- jet ski death
+- McDonald Bailey
+title: Trini Dispatch — Sunday, April 12, 2026
+tone: satire
 ---
 
 Good morning. Pour a strong coffee. The week left a lot to untangle.

@@ -1,14 +1,24 @@
 ---
-title: "De Boys Seh — April 6, 2026"
+author: Speedeet and Wilar
+categories:
+- De Boys Seh
+content_type: satire
+country: guyana
 date: 2026-04-06
-categories: ["De Boys Seh"]
-tags: ["guyana", "kids", "easter", "carifta", "humor", "pike street"]
-author: "Speedeet and Wilar"
-description: "Speedeet and Wilar debate Easter kite regulations, whether CARIFTA medals count as homework excuses, and the ongoing philosophy of the $100,000 cash grant."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet and Wilar debate Easter kite regulations, whether CARIFTA medals
+  count as homework excuses, and the ongoing philosophy of the $100,000 cash grant.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- kids
+- easter
+- carifta
+- humor
+- pike street
+title: De Boys Seh — April 6, 2026
+tone: commentary
 ---
 
 *De Boys Seh — Speedeet and Wilar from Pike Street with their Sunday take on the week.*

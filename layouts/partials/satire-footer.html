@@ -1,15 +1,10 @@
-{{/* Satire Footer — appears at end of Country Network posts */}}
-{{- $cn := slice "Guyana Brief" "Yard Brief" "Trini Brief" "Bajan Brief" "Ghana Brief" "Naija Brief" "Kenya Brief" "SA Brief" -}}
-{{- $isSatire := false -}}
-{{- with .Params.categories -}}
-  {{- range . -}}
-    {{- if in $cn . -}}{{- $isSatire = true -}}{{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- if $isSatire -}}
-<aside class="satire-disclaimer" role="note">
-  <strong class="satire-disclaimer-label">SATIRE DISCLAIMER</strong>
-  <p>This article is a work of satire published by the Tradewinds Brief Network. All characters, events, and quotations are fictional. Any resemblance to real persons, living or dead, is coincidental. This content is published for entertainment and cultural commentary — it is <strong>not news</strong>.</p>
-  <p class="satire-disclaimer-meta">For real news, visit our <a href="/daily-brief/">Daily Brief</a>.</p>
-</aside>
+﻿{{- $type := .Params.content_type | default "news" -}}
+
+{{- if or (eq $type "satire") (eq $type "parody_column") -}}
+  <div style="margin-top:32px;padding-top:18px;border-top:2px solid #e5e5e5;font-size:14px;font-style:italic;color:#666;">
+    <p>
+      This piece is satire. Characters, quotes, scenarios, and framing may be fictionalized,
+      exaggerated, or used for parody. It is not presented as straight factual reporting.
+    </p>
+  </div>
 {{- end -}}

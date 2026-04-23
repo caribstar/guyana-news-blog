@@ -1,13 +1,23 @@
 ---
-title: "📊 Patriots Portfolio – Friday, February 13, 2026"
+categories:
+- Patriots Portfolio
+- Economy
+content_type: commentary
+country: guyana
 date: 2026-02-13
-categories: ["Patriots Portfolio", "Economy"]
-tags: ["economy", "budget", "oil", "investment", "Guyana", "weekly"]
-summary: "Your weekly economic snapshot. Budget 2026 allocations rolling in. Oil production steady. Stabroek News closure signals media market shift."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: Your weekly economic snapshot. Budget 2026 allocations rolling in. Oil production
+  steady. Stabroek News closure signals media market shift.
+tags:
+- economy
+- budget
+- oil
+- investment
+- Guyana
+- weekly
+title: "\U0001F4CA Patriots Portfolio – Friday, February 13, 2026"
+tone: commentary
 ---
 
 *Your weekly economic intelligence report. No political spin. Just numbers.*

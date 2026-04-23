@@ -1,14 +1,26 @@
 ---
-title: "Uncle Ramesh's Take — 'Dem Cyaan See Progress If Yuh Put Blindfold Pon Dem Eye'"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-03
 draft: false
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Guyana", "Opinion", "Budget 2026", "PPP/C", "Government"]
-summary: "Uncle Ramesh reads the Chronicle cover to cover, watches the budget debate livestream from Queens, and can't believe the opposition opened with a gold-smuggling MP demanding mining transparency."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh reads the Chronicle cover to cover, watches the budget debate
+  livestream from Queens, and can't believe the opposition opened with a gold-smuggling
+  MP demanding mining transparency.
+tags:
+- Guyana
+- Opinion
+- Budget 2026
+- PPP/C
+- Government
+title: Uncle Ramesh's Take — 'Dem Cyaan See Progress If Yuh Put Blindfold Pon Dem
+  Eye'
+tone: commentary
 ---
 
 *Uncle Ramesh is a retired accountant from Berbice, now living in Queens, New York. He reads all four Guyanese newspapers every morning and provides his pro-government perspective on the day's news.*

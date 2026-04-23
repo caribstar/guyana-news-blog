@@ -1,14 +1,23 @@
 ---
-title: "Miss Violet's Barbados Bulletin – Thursday, April 9, 2026"
+author: Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
 date: 2026-04-09
-categories: ["Bajan Brief"]
-tags: ["Barbados", "diaspora", "Brooklyn", "Caribbean", "news"]
-author: "Miss Violet"
-description: "Miss Violet in Brooklyn reads about Barbados and has high standards for everything."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+description: Miss Violet in Brooklyn reads about Barbados and has high standards for
+  everything.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- diaspora
+- Brooklyn
+- Caribbean
+- news
+title: Miss Violet's Barbados Bulletin – Thursday, April 9, 2026
+tone: satire
 ---
 
 # Miss Violet's Barbados Bulletin

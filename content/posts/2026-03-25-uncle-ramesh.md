@@ -1,15 +1,27 @@
 ---
-title: "Uncle Ramesh's Take: Six Dialysis Centres, A Special Envoy, And Some People Just Won't Give Credit"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
 date: 2026-03-25
-categories: ["Uncle Ramesh"]
-tags: ["PPP", "President Ali", "Exxon", "Kristi Noem", "Dialysis", "Cash Grant"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh sees six new dialysis centres, a US Special Envoy, and cost recovery on seven oil projects — and wonders why people still complaining."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh sees six new dialysis centres, a US Special Envoy, and cost
+  recovery on seven oil projects — and wonders why people still complaining.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- PPP
+- President Ali
+- Exxon
+- Kristi Noem
+- Dialysis
+- Cash Grant
+title: 'Uncle Ramesh''s Take: Six Dialysis Centres, A Special Envoy, And Some People
+  Just Won''t Give Credit'
+tone: commentary
 ---
+
 🐒 **UNCLE RAMESH'S TAKE** 🐒  
 *Your Uncle from Toronto Who Actually Reads the Chronicle*  
 **Wednesday, March 25, 2026**

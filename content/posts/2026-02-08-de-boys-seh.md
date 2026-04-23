@@ -1,13 +1,21 @@
 ---
-title: "De Boys Seh: Exxon Collecting Ships Like Sticker Book"
+categories:
+- De Boys Seh
+content_type: commentary
+country: guyana
 date: 2026-02-08
-categories: ["De Boys Seh"]
-tags: ["Budget 2026","ExxonMobil","Parliament","Opposition","Satire"]
-description: "De boys at the rum shop react to Exxon owning all four FPSOs, Dr. Singh's Pablo Escobar moment, and the budget debate that was better than any movie."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: De boys at the rum shop react to Exxon owning all four FPSOs, Dr. Singh's
+  Pablo Escobar moment, and the budget debate that was better than any movie.
+product_family: series
+status: published
+tags:
+- Budget 2026
+- ExxonMobil
+- Parliament
+- Opposition
+- Satire
+title: 'De Boys Seh: Exxon Collecting Ships Like Sticker Book'
+tone: commentary
 ---
 
 *De Boys Seh is overheard commentary from a fictional rum shop somewhere in Georgetown. The boys have opinions about everything and expertise in nothing. All characters are fictional.*

@@ -1,13 +1,23 @@
 ---
-title: "Uncle Ramesh Responds: BUDGET 2026 IS HERE! $100,000 For EVERYBODY While Opposition Busy Electing Fugitives!"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-01-26
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["Budget 2026", "PPP", "Opposition Leader", "development", "cash grant"]
-summary: "Uncle Ramesh celebrates Budget 2026 and the $100,000 cash grant while questioning why the opposition is electing a man facing US extradition charges."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh celebrates Budget 2026 and the $100,000 cash grant while questioning
+  why the opposition is electing a man facing US extradition charges.
+tags:
+- Budget 2026
+- PPP
+- Opposition Leader
+- development
+- cash grant
+title: 'Uncle Ramesh Responds: BUDGET 2026 IS HERE! $100,000 For EVERYBODY While Opposition
+  Busy Electing Fugitives!'
+tone: commentary
 ---
 
 *Uncle Ramesh is a proud Guyanese-American living in Queens, NY. He reads the papers independently and offers the pro-government perspective the Daily Brief conveniently overlooks.*

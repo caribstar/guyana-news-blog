@@ -1,13 +1,23 @@
 ---
-title: "Saturday Brief: D-Day for Opposition Leader Vote Tomorrow"
+categories:
+- Daily Brief
+- Satire
+content_type: news
+country: guyana
 date: 2026-01-25
-categories: ["Daily Brief", "Satire"]
-tags: ["Parliament", "Opposition Leader", "Azruddin Mohamed", "Chikungunya", "Women's Chamber"]
-description: "Parliament meets Monday to elect Opposition Leader as rights groups sound alarm, plus chikungunya alert, Women's Chamber tackles care work, and more from Guyana's newspapers"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Parliament meets Monday to elect Opposition Leader as rights groups sound
+  alarm, plus chikungunya alert, Women's Chamber tackles care work, and more from
+  Guyana's newspapers
+product_family: gdb
+status: published
+tags:
+- Parliament
+- Opposition Leader
+- Azruddin Mohamed
+- Chikungunya
+- Women's Chamber
+title: 'Saturday Brief: D-Day for Opposition Leader Vote Tomorrow'
+tone: commentary
 ---
 
 *Your satirhat look at today's Guyanese newspapers — because sometimes you have to laugh to keep from crying* 🇬🇾

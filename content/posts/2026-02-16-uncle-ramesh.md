@@ -1,13 +1,22 @@
 ---
-title: "Uncle Ramesh Responds: Mortgages, Nurses, and the Brief's Selective Memory"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-16
 draft: false
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Guyana", "Opinion", "Government", "Housing", "Healthcare"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Opinion
+- Government
+- Housing
+- Healthcare
+title: 'Uncle Ramesh Responds: Mortgages, Nurses, and the Brief''s Selective Memory'
+tone: commentary
 ---
 
 *Uncle Ramesh is a retired accountant from Berbice, now living in Queens, New York. He reads the papers — especially the Chronicle — and provides his perspective.*

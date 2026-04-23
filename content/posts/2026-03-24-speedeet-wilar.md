@@ -1,14 +1,25 @@
 ---
-title: "Speedeet & Wilar: De Day De Kite Get Away"
+author: Speedeet & Wilar
+categories:
+- Speedeet & Wilar
+- Weekly Feature
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["Speedeet & Wilar", "Weekly Feature"]
-tags: ["Speedeet", "Wilar", "Pike Street", "Adventures", "Kitty"]
-author: "Speedeet & Wilar"
-description: "Speedeet's kite goes on an adventure of its own — straight over the fence into Miss Doreen's yard. A Pike Street afternoon goes sideways in the best possible way."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet's kite goes on an adventure of its own — straight over the fence
+  into Miss Doreen's yard. A Pike Street afternoon goes sideways in the best possible
+  way.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Speedeet
+- Wilar
+- Pike Street
+- Adventures
+- Kitty
+title: 'Speedeet & Wilar: De Day De Kite Get Away'
+tone: commentary
 ---
 
 *Speedeet and Wilar are two twelve-year-old best friends from Pike Street, Kitty, Georgetown. Their stories are pure adventure — no politics, no current events, just the business of being twelve years old in Guyana.*

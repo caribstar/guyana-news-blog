@@ -1,13 +1,23 @@
 ---
-title: "Caribbean Daily Brief — Monday, April 6, 2026"
-date: 2026-04-06T07:00:00-04:00
-categories: ["Caribbean Daily Brief"]
-tags: ["CARICOM", "tariffs", "Trinidad", "Roderick Rainford", "CARIFTA", "trade", "US tariffs"]
-author: "The Daily Brief"
-description: "The Caribbean is still paying 10% to sell things to the country it buys everything from, a regional statesman passes, and Grenada hosts CARIFTA."
-tone: "commentary"
-status: "published"
-product_family: "series"
+author: The Daily Brief
+categories:
+- Caribbean Daily Brief
+content_type: news
+date: 2026-04-06 07:00:00-04:00
+description: The Caribbean is still paying 10% to sell things to the country it buys
+  everything from, a regional statesman passes, and Grenada hosts CARIFTA.
+product_family: series
+status: published
+tags:
+- CARICOM
+- tariffs
+- Trinidad
+- Roderick Rainford
+- CARIFTA
+- trade
+- US tariffs
+title: Caribbean Daily Brief — Monday, April 6, 2026
+tone: commentary
 ---
 
 *Regional news for the Caribbean diaspora — without the spin, with the context.*

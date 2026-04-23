@@ -1,12 +1,15 @@
 ---
-title: "Uncle Ramesh's Response"
+categories:
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-24
-categories: ["Uncle Ramesh"]
-tone: "commentary"
-status: "published"
-product_family: "gdb"
-country: "guyana"
+product_family: gdb
+status: published
+title: Uncle Ramesh's Response
+tone: commentary
 ---
+
 # Uncle Ramesh's Response
 ## Saturday, January 24, 2026
 

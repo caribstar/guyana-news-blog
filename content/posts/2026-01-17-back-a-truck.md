@@ -1,14 +1,21 @@
 ---
-title: "📸 Back-a-Truck: Wha We Spot Dis Week"
+author: The People
+categories:
+- Back-a-Truck
+content_type: commentary
+country: guyana
 date: 2026-01-17
-author: "The People"
-categories: ["Back-a-Truck"]
-tags: ["sightings", "photos", "satire", "guyana", "weekly"]
-description: "Absurd tings spotted around Guyana dis week. You can't make dis up!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Absurd tings spotted around Guyana dis week. You can't make dis up!
+product_family: series
+status: published
+tags:
+- sightings
+- photos
+- satire
+- guyana
+- weekly
+title: "\U0001F4F8 Back-a-Truck: Wha We Spot Dis Week"
+tone: commentary
 ---
 
 *Welcome to Back-a-Truck, where we showcase de most absurd, hilarious, and head-scratching sightings from around Guyana. If yuh see someting dat mek yuh say "Wait... wha?!" - send it to we!*

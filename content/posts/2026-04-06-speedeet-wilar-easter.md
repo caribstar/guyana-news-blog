@@ -1,14 +1,26 @@
 ---
-title: "Speedeet & Wilar — De Kite and de Corentyne River"
+author: Speedeet and Wilar
+categories:
+- Speedeet & Wilar
+content_type: satire
+country: guyana
 date: 2026-04-06
-categories: ["Speedeet & Wilar"]
-tags: ["guyana", "kids", "pike street", "easter", "kite", "creolese", "kitty"]
-author: "Speedeet and Wilar"
-description: "Is Easter Monday on de seawall. Speedeet and Wilar build a kite from scratch, argue about aerodynamics, nearly take out an auntie roti, and lose de kite to Suriname. A perfect day."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Is Easter Monday on de seawall. Speedeet and Wilar build a kite from
+  scratch, argue about aerodynamics, nearly take out an auntie roti, and lose de kite
+  to Suriname. A perfect day.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- kids
+- pike street
+- easter
+- kite
+- creolese
+- kitty
+title: Speedeet & Wilar — De Kite and de Corentyne River
+tone: commentary
 ---
 
 *Speedeet and Wilar — two boys from Pike Street, Kitty, Georgetown. Every Sunday.*

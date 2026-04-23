@@ -1,17 +1,25 @@
 ---
-title: "Patriots Portfolio: This Week's Investment Opportunities for True Guyanese"
-date: 2026-01-23
-categories: ["Patriots Portfolio", "Satire"]
-tags: ["investment", "satire", "economy", "oil"]
-summary: "Your weekly satirical investment advice from the most patriotic portfolio manager in Guyana."
+categories:
+- Patriots Portfolio
+- Satire
+content_type: commentary
+country: guyana
 cover:
-  image: "images/patriots-portfolio-cover.jpg"
-  alt: "Patriots Portfolio Cover"
+  alt: Patriots Portfolio Cover
   hidden: true
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+  image: images/patriots-portfolio-cover.jpg
+date: 2026-01-23
+product_family: series
+status: published
+summary: Your weekly satirical investment advice from the most patriotic portfolio
+  manager in Guyana.
+tags:
+- investment
+- satire
+- economy
+- oil
+title: 'Patriots Portfolio: This Week''s Investment Opportunities for True Guyanese'
+tone: commentary
 ---
 
 *Investment advice for patriots who believe in Guyana's future!* 💰🇬🇾

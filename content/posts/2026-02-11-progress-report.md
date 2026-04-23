@@ -1,13 +1,23 @@
 ---
-title: "📊 Weekly Progress Report: February 5-11, 2026"
+categories:
+- Progress Report
+- News
+content_type: commentary
+country: guyana
 date: 2026-02-11
-categories: ["Progress Report", "News"]
-tags: ["government", "progress", "budget-2026", "infrastructure", "development"]
-summary: "This week's government achievements: Budget 2026 approvals rolling through Committee of Supply, Gas-to-Energy at 68%, new Amerindian hostel funded, recycling centre launched, and 30 bad contractors blacklisted."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: 'This week''s government achievements: Budget 2026 approvals rolling through
+  Committee of Supply, Gas-to-Energy at 68%, new Amerindian hostel funded, recycling
+  centre launched, and 30 bad contractors blacklisted.'
+tags:
+- government
+- progress
+- budget-2026
+- infrastructure
+- development
+title: "\U0001F4CA Weekly Progress Report: February 5-11, 2026"
+tone: commentary
 ---
 
 ## 📊 Weekly Progress Report

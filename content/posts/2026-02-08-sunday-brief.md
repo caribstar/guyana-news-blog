@@ -1,13 +1,27 @@
 ---
-title: "Sunday Brief: Exxon Now Owns ALL Four Oil Ships, Finance Minister Drops Pablo Escobar Reference, and a Miracle Baby at GPHC"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-02-08
-categories: ["Daily Brief"]
-tags: ["Budget 2026","ExxonMobil","Oil and Gas","Health","Education","Opposition","Venezuela","Black History Month"]
-description: "ExxonMobil completes its FPSO collection like Pokémon cards, Dr. Singh invokes Pablo Escobar in Parliament, GPHC doctors save mother and baby from a rare bleeding disorder, and the Opposition Leader says the budget won't lift anyone out of poverty. Happy Sunday, Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: ExxonMobil completes its FPSO collection like Pokémon cards, Dr. Singh
+  invokes Pablo Escobar in Parliament, GPHC doctors save mother and baby from a rare
+  bleeding disorder, and the Opposition Leader says the budget won't lift anyone out
+  of poverty. Happy Sunday, Guyana.
+product_family: gdb
+status: published
+tags:
+- Budget 2026
+- ExxonMobil
+- Oil and Gas
+- Health
+- Education
+- Opposition
+- Venezuela
+- Black History Month
+title: 'Sunday Brief: Exxon Now Owns ALL Four Oil Ships, Finance Minister Drops Pablo
+  Escobar Reference, and a Miracle Baby at GPHC'
+tone: commentary
 ---
 
 ☀️ **Good Morning, Guyana!** It's Sunday, February 8, 2026. Mashramani season is building, Black History Month is in full swing, and the Budget debate has wrapped up with the kind of fireworks that make Parliament more entertaining than Netflix. Grab your tennis roll and butter and let's get into it.

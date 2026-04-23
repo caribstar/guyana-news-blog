@@ -1,13 +1,24 @@
 ---
-title: "Caribbean Daily Brief — January 21, 2026"
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-01-21
-summary: "Jamaica secures US$6.7 billion for Hurricane Melissa recovery, Maduro claims presidency from Brooklyn jail, Haiti TPS termination hearing continues, and Trinidad welcomes new PM Stuart Young."
-categories: ["Caribbean Brief"]
-tags: ["caribbean", "regional", "jamaica", "trinidad", "barbados", "haiti", "venezuela"]
-series: "Caribbean Daily Brief"
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+series: Caribbean Daily Brief
+status: published
+summary: Jamaica secures US$6.7 billion for Hurricane Melissa recovery, Maduro claims
+  presidency from Brooklyn jail, Haiti TPS termination hearing continues, and Trinidad
+  welcomes new PM Stuart Young.
+tags:
+- caribbean
+- regional
+- jamaica
+- trinidad
+- barbados
+- haiti
+- venezuela
+title: Caribbean Daily Brief — January 21, 2026
+tone: commentary
 ---
 
 *Your 5-minute tour of regional chaos, served with rum punch* 🌴

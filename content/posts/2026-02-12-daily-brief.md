@@ -1,15 +1,22 @@
 ---
-title: "SOCU Raids Shut-Down Business, Finds Less Money Than What's In Your NIS Account"
-date: 2026-02-12T06:00:00-04:00
+author: The Guyana Daily Brief
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
+date: 2026-02-12 06:00:00-04:00
+description: 'Twenty SOCU officers, one sniffer dog, and a building that''s been closed
+  since 2024. Plus: Government quietly paying US$90,000 a month to American lobby
+  firms.'
 draft: false
-tags: ["daily-brief", "critical-view"]
-categories: ["Daily Brief", "News"]
-author: "The Guyana Daily Brief"
-description: "Twenty SOCU officers, one sniffer dog, and a building that's been closed since 2024. Plus: Government quietly paying US$90,000 a month to American lobby firms."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- daily-brief
+- critical-view
+title: SOCU Raids Shut-Down Business, Finds Less Money Than What's In Your NIS Account
+tone: commentary
 ---
 
 ## The Big Story: SOCU Descends On Lombard Street Like Is D-Day

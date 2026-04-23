@@ -1,14 +1,24 @@
 ---
-title: "Auntie Cheryl's Trinidad Update – Thursday, April 9, 2026"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
 date: 2026-04-09
-categories: ["Trini Brief"]
-tags: ["Trinidad", "Chaguanas", "diaspora", "Caribbean", "Kamla", "news"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl in Chaguanas reads the news and is pleased about most of it."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+description: Auntie Cheryl in Chaguanas reads the news and is pleased about most of
+  it.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Chaguanas
+- diaspora
+- Caribbean
+- Kamla
+- news
+title: Auntie Cheryl's Trinidad Update – Thursday, April 9, 2026
+tone: satire
 ---
 
 # Auntie Cheryl's Trinidad Update

@@ -1,14 +1,23 @@
 ---
-title: "Cousin Leroy Reports Back — Thursday, April 16, 2026"
-date: 2026-04-16T07:30:00-05:00
-categories: ["Yard Brief"]
-tags: ["JPS", "UHWI", "gas prices", "Jamaica", "diaspora"]
-author: "Cousin Leroy"
-description: "Leroy has been following the Westmoreland situation from the Bronx and has thoughts."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-16 07:30:00-05:00
+description: Leroy has been following the Westmoreland situation from the Bronx and
+  has thoughts.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- JPS
+- UHWI
+- gas prices
+- Jamaica
+- diaspora
+title: Cousin Leroy Reports Back — Thursday, April 16, 2026
+tone: satire
 ---
 
 So mi just get off the phone wid mi auntie in Westmoreland and she tell mi the light STILL not back. Six month, people. SIX MONTH.

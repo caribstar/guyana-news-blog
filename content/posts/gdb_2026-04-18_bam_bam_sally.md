@@ -1,14 +1,22 @@
 ---
-title: "Bam-Bam Sally: De Saturday Market Tea, Who Getting Divorce in Providence, and Why Cousin Petal Banned from Dolly's Wedding"
-date: 2026-04-18T07:00:00-04:00
+authors:
+- Bam-Bam Sally
+categories:
+- Bam-Bam Sally
+content_type: satire
+country: guyana
+date: 2026-04-18 07:00:00-04:00
 draft: false
-categories: ["Bam-Bam Sally"]
-authors: ["Bam-Bam Sally"]
-tags: ["gossip", "Saturday", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- gossip
+- Saturday
+- Guyana
+title: 'Bam-Bam Sally: De Saturday Market Tea, Who Getting Divorce in Providence,
+  and Why Cousin Petal Banned from Dolly''s Wedding'
+tone: commentary
 ---
 
 Hello doux-doux darlings it's your girl Bam-Bam Sally coming to you LIVE from the Bourda Market parking lot where I've been collecting information since 5:47 AM and let me tell you — it has been a SEASON already and the sun is not even fully up.

@@ -1,13 +1,31 @@
 ---
-title: "☕ Wednesday Brief: Budget Day 2 Turns Into WWE SmackDown, Speaker Nadir's Press Crackdown Gets EVERYBODY Vex, and the Oil Fund About to Get US$2.8 Billion It Won't Keep"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-04
-categories: ["Daily Brief", "News"]
-tags: ["Budget-2026", "media-freedom", "oil-fund", "carbon-credits", "Panama", "agriculture", "Amerindian-affairs", "education", "T20-World-Cup"]
-summary: "Budget Day 2 delivers absolute chaos as government and opposition clash over everything from sugar to Amerindians. Speaker Nadir's media lockout draws fire from every direction. The Oil Fund expects US$2.8B this year — and critics say it'll disappear just as fast. Plus: Panama opening an embassy, 9 million carbon credits, and the T20 World Cup starts Friday."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: 'Budget Day 2 delivers absolute chaos as government and opposition clash
+  over everything from sugar to Amerindians. Speaker Nadir''s media lockout draws
+  fire from every direction. The Oil Fund expects US$2.8B this year — and critics
+  say it''ll disappear just as fast. Plus: Panama opening an embassy, 9 million carbon
+  credits, and the T20 World Cup starts Friday.'
+tags:
+- Budget-2026
+- media-freedom
+- oil-fund
+- carbon-credits
+- Panama
+- agriculture
+- Amerindian-affairs
+- education
+- T20-World-Cup
+title: '☕ Wednesday Brief: Budget Day 2 Turns Into WWE SmackDown, Speaker Nadir''s
+  Press Crackdown Gets EVERYBODY Vex, and the Oil Fund About to Get US$2.8 Billion
+  It Won''t Keep'
+tone: commentary
 ---
 
 *Your daily satirical summary of Guyana's four major newspapers. We read all four so you don't have to — but somebody should check if Parliament has a therapist on retainer.*

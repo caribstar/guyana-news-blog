@@ -1,14 +1,22 @@
 ---
-title: "Trini Dispatch: De Fair Trading Commission Still Not Working, New Mortgages From TTMB, and an MP Opens a Gym While Nurses Continue to Leave"
-date: 2026-04-18T09:30:00-04:00
+authors:
+- Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-18 09:30:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Trini Dispatch"]
-tags: ["Trinidad and Tobago", "Port of Spain", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad and Tobago
+- Port of Spain
+- dueling blogs
+title: 'Trini Dispatch: De Fair Trading Commission Still Not Working, New Mortgages
+  From TTMB, and an MP Opens a Gym While Nurses Continue to Leave'
+tone: satire
 ---
 
 Saturday morning, Port of Spain. Trini Dispatch here, trying to sort the week into something that looks like a pattern. It mostly does not form one. I shall present the items as they come.

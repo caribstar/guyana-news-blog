@@ -1,13 +1,25 @@
 ---
-title: "Friday Brief: GRA Officers Fired Over Mohamed Vehicle Transfers, RUSAL Returns, and Christopher Ram Prescribes Fiscal Ozempic"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-01-30
-categories: ["Daily Brief", "News"]
-tags: ["GRA", "Azruddin Mohamed", "RUSAL", "Budget 2026", "Housing", "Oil Prices"]
-description: "GRA employees terminated for helping sanctioned businessman move vehicles, Russian aluminum company returns to Guyana, and Christopher Ram says the government needs appetite control for spending."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: GRA employees terminated for helping sanctioned businessman move vehicles,
+  Russian aluminum company returns to Guyana, and Christopher Ram says the government
+  needs appetite control for spending.
+product_family: gdb
+status: published
+tags:
+- GRA
+- Azruddin Mohamed
+- RUSAL
+- Budget 2026
+- Housing
+- Oil Prices
+title: 'Friday Brief: GRA Officers Fired Over Mohamed Vehicle Transfers, RUSAL Returns,
+  and Christopher Ram Prescribes Fiscal Ozempic'
+tone: commentary
 ---
 
 *Your 5-minute satirical summary of Guyana's Friday papers. We read the news so you can laugh at it!* 🇬🇾

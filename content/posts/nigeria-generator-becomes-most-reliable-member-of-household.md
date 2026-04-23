@@ -1,18 +1,23 @@
 ---
-title: "Generator Becomes Most Reliable Member Of Household"
-date: 2026-04-21T16:11:00-05:00
+author: Ngozi Okafor
+categories:
+- Naija Brief
+content_type: satire
+country: nigeria
+date: 2026-04-21 16:11:00-05:00
 draft: false
-categories: ["Naija Brief"]
-section: "news"
-author: "Ngozi Okafor"
-image: "https://picsum.photos/seed/nigeria-generator-becomes-most-reliabl/1280/720"
-country: "nigeria"
-tone: "satire"
-status: "published"
-global_tags: ["family"]
-local_tags: ["generator"]
-duplicate_group_key: "nigeria|family|generator"
-product_family: "country-network"
+duplicate_group_key: nigeria|family|generator
+fictional_character: true
+global_tags:
+- family
+image: https://picsum.photos/seed/nigeria-generator-becomes-most-reliabl/1280/720
+local_tags:
+- generator
+product_family: country-network
+section: news
+status: published
+title: Generator Becomes Most Reliable Member Of Household
+tone: satire
 ---
 
 LEKKI — A 7.5 kVA petrol generator purchased by the Okonkwo family in 2019 has, by most measures of consistency and availability, outperformed the home's three human residents in terms of arriving when expected and functioning without complaint.

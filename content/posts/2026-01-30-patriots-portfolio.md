@@ -1,13 +1,21 @@
 ---
-title: "🦅 Patriots Portfolio - Friday, January 30, 2026"
+categories:
+- Patriots Portfolio
+- Business
+content_type: commentary
+country: guyana
 date: 2026-01-30
-categories: ["Patriots Portfolio", "Business"]
-tags: ["investment", "Guyana", "economy", "business"]
-description: "Your weekly guide to understanding Guyana's economic developments and investment landscape."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Your weekly guide to understanding Guyana's economic developments and
+  investment landscape.
+product_family: series
+status: published
+tags:
+- investment
+- Guyana
+- economy
+- business
+title: "\U0001F985 Patriots Portfolio - Friday, January 30, 2026"
+tone: commentary
 ---
 
 *Investing in Guyana's Future - For Patriots Who Want to Participate in the Boom* 🇬🇾📈

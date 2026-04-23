@@ -1,13 +1,21 @@
 ---
-title: "🚗 DJ Roadblock Traffic Report - Friday, January 30, 2026"
+categories:
+- DJ Roadblock
+- Traffic
+content_type: commentary
+country: guyana
 date: 2026-01-30
-categories: ["DJ Roadblock", "Traffic"]
-tags: ["traffic", "Georgetown", "roads", "commute"]
-description: "DJ Roadblock with your Friday traffic update - Stanleytown bridge delays, Eccles roundabout chaos, and weekend getaway tips."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: DJ Roadblock with your Friday traffic update - Stanleytown bridge delays,
+  Eccles roundabout chaos, and weekend getaway tips.
+product_family: series
+status: published
+tags:
+- traffic
+- Georgetown
+- roads
+- commute
+title: "\U0001F697 DJ Roadblock Traffic Report - Friday, January 30, 2026"
+tone: commentary
 ---
 
 *WHAPPEN GUYANA! Is yuh boy DJ Roadblock with de traffic vibes!* 🎧🚗

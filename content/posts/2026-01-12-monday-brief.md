@@ -1,13 +1,20 @@
 ---
-title: "Monday's Guyana Brief: The Week Starts With a Yelling"
+categories:
+- News
+content_type: commentary
+country: guyana
 date: 2026-01-12
 draft: false
-categories: ["News"]
-tags: ["Guyana", "News", "Satire", "The Mohameds Saga", "GuySuCo Chaos"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- News
+- Satire
+- The Mohameds Saga
+- GuySuCo Chaos
+title: 'Monday''s Guyana Brief: The Week Starts With a Yelling'
+tone: commentary
 ---
 
 Good morning, Guyana! &#x2615;

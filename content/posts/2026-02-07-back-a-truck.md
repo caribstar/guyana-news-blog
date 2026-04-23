@@ -1,13 +1,23 @@
 ---
-title: "🚛 Back-a-Truck — Saturday, February 7, 2026"
+categories:
+- Back-a-Truck
+- Weekly Feature
+content_type: commentary
+country: guyana
 date: 2026-02-07
-categories: ["Back-a-Truck", "Weekly Feature"]
-tags: ["Back-a-Truck", "Classifieds", "Deals", "Market", "Satire", "Weekly Feature"]
-summary: "De people's marketplace! Fictional buy, sell, trade, and barter from all corners of Guyana. Back-a-truck and come see wha we got!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: De people's marketplace! Fictional buy, sell, trade, and barter from all
+  corners of Guyana. Back-a-truck and come see wha we got!
+tags:
+- Back-a-Truck
+- Classifieds
+- Deals
+- Market
+- Satire
+- Weekly Feature
+title: "\U0001F69B Back-a-Truck — Saturday, February 7, 2026"
+tone: commentary
 ---
 
 *⚠️ DISCLAIMER: Back-a-Truck is a FICTIONAL satirical classifieds column. ALL listings, persons, and scenarios are COMPLETELY MADE UP for entertainment purposes. No real persons, businesses, or products are referenced. Do NOT attempt to contact any "sellers" listed here — they don't exist! FOR ENTERTAINMENT ONLY.*

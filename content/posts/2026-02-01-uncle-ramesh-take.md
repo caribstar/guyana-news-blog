@@ -1,13 +1,25 @@
 ---
-title: "🇬🇾 Uncle Ramesh: Budget 2026 Is a Masterclass, the Development Bank Is Revolutionary, and the Brief Needs an Economics Lesson"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-01
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Budget-2026", "Development-Bank", "PPP", "pro-government", "diaspora"]
-summary: "Uncle Ramesh reads the Chronicle, celebrates Budget 2026 and the new Development Bank, and wonders why the Brief can't see progress when it's staring them in the face."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh reads the Chronicle, celebrates Budget 2026 and the new Development
+  Bank, and wonders why the Brief can't see progress when it's staring them in the
+  face.
+tags:
+- Budget-2026
+- Development-Bank
+- PPP
+- pro-government
+- diaspora
+title: "\U0001F1EC\U0001F1FE Uncle Ramesh: Budget 2026 Is a Masterclass, the Development
+  Bank Is Revolutionary, and the Brief Needs an Economics Lesson"
+tone: commentary
 ---
 
 *Uncle Ramesh is a retired accountant from Berbice, now living in Queens, NY. He reads the papers himself — especially the Chronicle — and gives his independent pro-government perspective. He does NOT simply respond to the Daily Brief.*

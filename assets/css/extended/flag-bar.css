@@ -12,6 +12,7 @@
   margin: 0 auto;
   padding: 10px 16px;
   display: flex;
+  justify-content: center;
   align-items: stretch;
   gap: 10px;
   flex-wrap: wrap;
@@ -164,3 +165,5 @@
 @media (max-width: 480px) {
   .tw-region-panel-inner { grid-template-columns: 1fr; }
 }
+/* Guyana flag stripes */
+.tw-gy { background: linear-gradient(to bottom, #009e49 0 40%, #fcd116 40% 60%, #ce1126 60% 100%); }

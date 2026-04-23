@@ -1,14 +1,25 @@
 ---
-title: "De Boys Seh – Thursday, April 2, 2026"
-date: 2026-04-02T08:00:00-04:00
-categories: ["De Boys Seh"]
-tags: ["de boys seh", "guyana", "street talk", "tint", "exxon", "fire", "venezuela", "satire"]
-author: "GDB Staff"
-description: "De boys had a lot to say this Thursday. Tint meters, missing Nicaraguans, Venezuelan jails, and Exxon getting compared to Judas. Again."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- De Boys Seh
+content_type: news
+country: guyana
+date: 2026-04-02 08:00:00-04:00
+description: De boys had a lot to say this Thursday. Tint meters, missing Nicaraguans,
+  Venezuelan jails, and Exxon getting compared to Judas. Again.
+product_family: series
+status: published
+tags:
+- de boys seh
+- guyana
+- street talk
+- tint
+- exxon
+- fire
+- venezuela
+- satire
+title: De Boys Seh – Thursday, April 2, 2026
+tone: commentary
 ---
 
 *De boys liming on the corner of Robb and Hincks. What deh say? Well...*

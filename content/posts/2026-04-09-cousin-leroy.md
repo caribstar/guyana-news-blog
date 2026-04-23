@@ -1,14 +1,22 @@
 ---
-title: "Cousin Leroy's Jamaica Update – Thursday, April 9, 2026"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
 date: 2026-04-09
-categories: ["Yard Brief"]
-tags: ["Jamaica", "diaspora", "Bronx", "New York", "Caribbean"]
-author: "Cousin Leroy"
-description: "Cousin Leroy in the Bronx reads the Jamaica news and has some thoughts."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+description: Cousin Leroy in the Bronx reads the Jamaica news and has some thoughts.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- diaspora
+- Bronx
+- New York
+- Caribbean
+title: Cousin Leroy's Jamaica Update – Thursday, April 9, 2026
+tone: satire
 ---
 
 # Cousin Leroy's Jamaica Update

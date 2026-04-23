@@ -1,12 +1,25 @@
 ---
-title: "Caribbean Daily Brief: US Strikes Boats Near Venezuela, Jamaica Gets $415M Emergency IMF Loan, and T&T Says Airspace is Fine"
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-02-08
-categories: ["Caribbean Brief"]
-tags: ["Venezuela","Jamaica","Trinidad","Caribbean","US Military","IMF","Cricket","Tourism"]
-description: "The US is blowing up boats in the Caribbean, Jamaica needs emergency cash after Hurricane Melissa, Trinidad says everything is normal (it's not), and the T20 World Cup has kicked off."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: The US is blowing up boats in the Caribbean, Jamaica needs emergency
+  cash after Hurricane Melissa, Trinidad says everything is normal (it's not), and
+  the T20 World Cup has kicked off.
+product_family: gdb
+status: published
+tags:
+- Venezuela
+- Jamaica
+- Trinidad
+- Caribbean
+- US Military
+- IMF
+- Cricket
+- Tourism
+title: 'Caribbean Daily Brief: US Strikes Boats Near Venezuela, Jamaica Gets $415M
+  Emergency IMF Loan, and T&T Says Airspace is Fine'
+tone: commentary
 ---
 
 🌴 **Good Morning, Caribbean!** Here's your regional roundup for Sunday, February 8, 2026.

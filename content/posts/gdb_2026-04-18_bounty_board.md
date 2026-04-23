@@ -1,14 +1,22 @@
 ---
-title: "Bounty Board: De Saturday Classifieds — Goat Wanted, House For Sale (Haunted), and Somebody Looking for a Husband Who 'Has Teeth'"
-date: 2026-04-18T08:00:00-04:00
+authors:
+- Bounty Board
+categories:
+- Bounty Board
+content_type: satire
+country: guyana
+date: 2026-04-18 08:00:00-04:00
 draft: false
-categories: ["Bounty Board"]
-authors: ["Bounty Board"]
-tags: ["Saturday", "classifieds", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Saturday
+- classifieds
+- Guyana
+title: 'Bounty Board: De Saturday Classifieds — Goat Wanted, House For Sale (Haunted),
+  and Somebody Looking for a Husband Who ''Has Teeth'''
+tone: commentary
 ---
 
 Welcome to de Bounty Board — Guyana's most honest classifieds section, where the ads say what they actually mean, the sellers tell you what is actually wrong with the item, and the wanted ads are as specific as they need to be.

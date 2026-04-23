@@ -1,14 +1,25 @@
 ---
-title: "The Guyana Daily Brief – Tuesday, April 14, 2026"
-date: 2026-04-14T06:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["fuel shortage", "Iran blockade", "ASL crash", "detective arrested", "oil refinery", "windfall tax", "solar", "fuel crisis"]
-author: "GDB Staff"
-description: "Fuel lines, a dead Nicaraguan pilot, a detective under arrest, oil diplomacy, and a war that is somehow Guyana's problem now. Tuesday's brief."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-14 06:00:00-04:00
+description: Fuel lines, a dead Nicaraguan pilot, a detective under arrest, oil diplomacy,
+  and a war that is somehow Guyana's problem now. Tuesday's brief.
+product_family: gdb
+status: published
+tags:
+- fuel shortage
+- Iran blockade
+- ASL crash
+- detective arrested
+- oil refinery
+- windfall tax
+- solar
+- fuel crisis
+title: The Guyana Daily Brief – Tuesday, April 14, 2026
+tone: commentary
 ---
 
 Good morning, Guyana. The petrol queue is long, the global situation is longer, and the news is exactly as chaotic as you'd expect from a small oil-producing nation that does not yet refine its own oil in the middle of a war over oil. Let's get into it.

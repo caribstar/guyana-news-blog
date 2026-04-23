@@ -1,13 +1,29 @@
 ---
-title: "Uncle Ramesh's Take — 'Dem Got a Plan fuh Everything and All Dem Could Do is Complain!'"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-04
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Budget-2026", "GuySuCo", "housing", "carbon-credits", "Panama", "Amerindian-affairs", "education", "agriculture"]
-summary: "Uncle Ramesh reads the Chronicle and can't believe the opposition still complaining while the government delivering 53,000 house lots, 9 million carbon credits, and a five-year sugar plan. Plus: Panama opening an embassy, Lady Jags scoring 14 goals, and Minister Browne put Dawn Hastings in she place."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: 'Uncle Ramesh reads the Chronicle and can''t believe the opposition still
+  complaining while the government delivering 53,000 house lots, 9 million carbon
+  credits, and a five-year sugar plan. Plus: Panama opening an embassy, Lady Jags
+  scoring 14 goals, and Minister Browne put Dawn Hastings in she place.'
+tags:
+- Budget-2026
+- GuySuCo
+- housing
+- carbon-credits
+- Panama
+- Amerindian-affairs
+- education
+- agriculture
+title: Uncle Ramesh's Take — 'Dem Got a Plan fuh Everything and All Dem Could Do is
+  Complain!'
+tone: commentary
 ---
 
 *Uncle Ramesh, retired accountant from Berbice now living in Queens, New York, reads the Guyana Chronicle every morning with his Demerara Gold coffee and calls his sister in Providence to discuss the news.*

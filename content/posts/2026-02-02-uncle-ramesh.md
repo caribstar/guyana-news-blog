@@ -1,13 +1,28 @@
 ---
-title: "Uncle Ramesh: 'Budget 2026 Is What Development Looks Like — Take Notes!'"
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: commentary
+country: guyana
 date: 2026-02-02
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Budget-2026", "diaspora", "development", "Plaza-Court-Hotel", "Mashramani", "UK-partnership", "healthcare", "housing"]
-summary: "Uncle Ramesh reads the papers independently and finds plenty to celebrate: Budget 2026's massive investments, a fancy new Georgetown hotel, record tourism numbers, and the UK rolling out the red carpet for Guyana. The opposition? Still complaining."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: 'Uncle Ramesh reads the papers independently and finds plenty to celebrate:
+  Budget 2026''s massive investments, a fancy new Georgetown hotel, record tourism
+  numbers, and the UK rolling out the red carpet for Guyana. The opposition? Still
+  complaining.'
+tags:
+- Budget-2026
+- diaspora
+- development
+- Plaza-Court-Hotel
+- Mashramani
+- UK-partnership
+- healthcare
+- housing
+title: 'Uncle Ramesh: ''Budget 2026 Is What Development Looks Like — Take Notes!'''
+tone: commentary
 ---
 
 *Uncle Ramesh, retired accountant from Berbice now living in Queens, NY, reads the papers himself and shares his pro-government perspective.*

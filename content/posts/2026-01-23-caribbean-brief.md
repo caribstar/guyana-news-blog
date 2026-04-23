@@ -1,16 +1,27 @@
 ---
-title: "Caribbean Brief: Barbados Election Feb 11, Trinidad PM Kamla Navigates CARICOM, Caribbean Airlines Restructures"
-date: 2026-01-23
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Barbados", "Trinidad", "CARICOM", "Caribbean-Airlines", "elections"]
-summary: "PM Mottley calls snap election for February 11 seeking historic third term, Trinidad's Kamla Persad-Bissessar defends CARICOM stance, and Caribbean Airlines closes its Barbados hub."
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 cover:
-  image: "images/caribbean-brief-cover.jpg"
-  alt: "Caribbean Brief Cover"
+  alt: Caribbean Brief Cover
   hidden: true
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+  image: images/caribbean-brief-cover.jpg
+date: 2026-01-23
+product_family: gdb
+status: published
+summary: PM Mottley calls snap election for February 11 seeking historic third term,
+  Trinidad's Kamla Persad-Bissessar defends CARICOM stance, and Caribbean Airlines
+  closes its Barbados hub.
+tags:
+- Barbados
+- Trinidad
+- CARICOM
+- Caribbean-Airlines
+- elections
+title: 'Caribbean Brief: Barbados Election Feb 11, Trinidad PM Kamla Navigates CARICOM,
+  Caribbean Airlines Restructures'
+tone: commentary
 ---
 
 *Your weekly roundup of what's happening across the Caribbean* 🌴

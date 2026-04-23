@@ -1,13 +1,23 @@
 ---
-title: "Caribbean Brief – Sunday, April 6, 2026"
-date: 2026-04-06T10:00:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["Caribbean", "regional news", "CARICOM", "Cuba", "Jamaica", "Trinidad"]
-author: "GDB Regional Desk"
-description: "CARICOM rallies for Cuba, Jamaica Carnival is one week out, a Russian tanker slips through the blockade, the region pivots away from US trade, and Guyana's CARIFTA team is having a very good weekend in Grenada."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Regional Desk
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-04-06 10:00:00-04:00
+description: CARICOM rallies for Cuba, Jamaica Carnival is one week out, a Russian
+  tanker slips through the blockade, the region pivots away from US trade, and Guyana's
+  CARIFTA team is having a very good weekend in Grenada.
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- regional news
+- CARICOM
+- Cuba
+- Jamaica
+- Trinidad
+title: Caribbean Brief – Sunday, April 6, 2026
+tone: commentary
 ---
 
 *Your weekly look at what's moving across the Caribbean — beyond Guyana's borders.*

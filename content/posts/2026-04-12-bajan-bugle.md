@@ -1,14 +1,25 @@
 ---
-title: "Bajan Bugle — Sunday, April 12, 2026"
-date: 2026-04-12T08:20:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "prison reform", "gastrointestinal illness", "farm labour", "rising costs", "Barbados news"]
-author: "Bajan Bugle"
-description: "Barbados hosted a regional prison reform workshop, gastrointestinal cases are up, Canadian employers want Barbadians they already know, and rising costs have employers worried."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-12 08:20:00-04:00
+description: Barbados hosted a regional prison reform workshop, gastrointestinal cases
+  are up, Canadian employers want Barbadians they already know, and rising costs have
+  employers worried.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- prison reform
+- gastrointestinal illness
+- farm labour
+- rising costs
+- Barbados news
+title: Bajan Bugle — Sunday, April 12, 2026
+tone: satire
 ---
 
 Good morning from Barbados. The sun is doing what it always does. The news is doing what it usually does. Let us proceed.

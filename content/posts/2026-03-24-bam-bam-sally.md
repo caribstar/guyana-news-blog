@@ -1,14 +1,23 @@
 ---
-title: "Bam-Bam Sally's Saturday Special — Week of March 24, 2026"
+author: Bam-Bam Sally
+categories:
+- Bam-Bam Sally
+- Entertainment
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["Bam-Bam Sally", "Entertainment"]
-tags: ["Bam-Bam Sally", "Gossip", "Entertainment", "Lifestyle"]
-author: "Bam-Bam Sally"
-description: "Bam-Bam Sally's longer lifestyle and gossip column. All fictional. All fabulous."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Bam-Bam Sally's longer lifestyle and gossip column. All fictional. All
+  fabulous.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Bam-Bam Sally
+- Gossip
+- Entertainment
+- Lifestyle
+title: Bam-Bam Sally's Saturday Special — Week of March 24, 2026
+tone: commentary
 ---
 
 💅 **BAM-BAM SALLY'S SATURDAY SPECIAL**  

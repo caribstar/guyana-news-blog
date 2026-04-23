@@ -1,13 +1,26 @@
 ---
-title: "Caribbean Brief: Jamaica Counting Hurricane Damage, T&T Gets a US List, and Sandals Is Spending Big"
+author: Caribbean Brief
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-03-24
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Jamaica", "Trinidad", "Barbados", "Sandals", "Hurricane Melissa", "AIDS", "CCJ", "Iran"]
-author: "Caribbean Brief"
-description: "Tuesday's regional roundup: Jamaica's budget fight, Trinidad's US persons-of-interest list, Sandals drops $200M, and Caribbean AIDS deaths fall 60%."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: 'Tuesday''s regional roundup: Jamaica''s budget fight, Trinidad''s US
+  persons-of-interest list, Sandals drops $200M, and Caribbean AIDS deaths fall 60%.'
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- Trinidad
+- Barbados
+- Sandals
+- Hurricane Melissa
+- AIDS
+- CCJ
+- Iran
+title: 'Caribbean Brief: Jamaica Counting Hurricane Damage, T&T Gets a US List, and
+  Sandals Is Spending Big'
+tone: commentary
 ---
 
 🌴 **THE CARIBBEAN DAILY BRIEF** 🌴  

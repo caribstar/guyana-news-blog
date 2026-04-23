@@ -1,14 +1,27 @@
 ---
-title: "The Trini Dispatch — Trinidad & Tobago Brief, Monday April 6, 2026"
-date: 2026-04-06T06:00:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "Kamla", "UNC", "PNM", "election", "Stuart Young", "tariffs", "crime", "cyclist death"]
-author: "The Trini Dispatch"
-description: "T&T just elected Kamla. The dust is settling, the promises are flying, and a cyclist died at Easter Prix. The Trini Dispatch has the full picture."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: The Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-06 06:00:00-04:00
+description: T&T just elected Kamla. The dust is settling, the promises are flying,
+  and a cyclist died at Easter Prix. The Trini Dispatch has the full picture.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- Kamla
+- UNC
+- PNM
+- election
+- Stuart Young
+- tariffs
+- crime
+- cyclist death
+title: The Trini Dispatch — Trinidad & Tobago Brief, Monday April 6, 2026
+tone: satire
 ---
 
 *The Trini Dispatch — oil, Carnival, commess, and whatever else falls out of Port of Spain this week.*

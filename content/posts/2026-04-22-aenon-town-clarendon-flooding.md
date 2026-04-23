@@ -1,15 +1,28 @@
 ---
-title: "Aenon Town Cut Off as Clarendon Flooding Worsens, MP Calls for Emergency Drainage Audit"
-date: 2026-04-22T07:00:00-04:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "Clarendon", "flooding", "Aenon Town", "infrastructure", "Melissa", "drainage"]
-author: "Yard Report"
-description: "Residents stranded across multiple routes as Aenon Town floods for the second consecutive day. MP Wavel Hinds is pressing for a full drainage audit, and the backdrop is a post-Melissa infrastructure system that still hasn't recovered."
-image: "https://picsum.photos/seed/clarendon-flood/1280/720"
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-22 07:00:00-04:00
+description: Residents stranded across multiple routes as Aenon Town floods for the
+  second consecutive day. MP Wavel Hinds is pressing for a full drainage audit, and
+  the backdrop is a post-Melissa infrastructure system that still hasn't recovered.
+fictional_character: true
+image: https://picsum.photos/seed/clarendon-flood/1280/720
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Clarendon
+- flooding
+- Aenon Town
+- infrastructure
+- Melissa
+- drainage
+title: Aenon Town Cut Off as Clarendon Flooding Worsens, MP Calls for Emergency Drainage
+  Audit
+tone: satire
 ---
 
 *By Yard Report, Kingston.*

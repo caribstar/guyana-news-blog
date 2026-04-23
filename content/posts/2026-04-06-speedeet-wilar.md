@@ -1,14 +1,24 @@
 ---
-title: "Speedeet & Wilar — The Easter Kite"
+author: Speedeet and Wilar
+categories:
+- Speedeet & Wilar
+content_type: satire
+country: guyana
 date: 2026-04-06
-categories: ["Speedeet & Wilar"]
-tags: ["guyana", "kids", "pike street", "easter", "kite", "creolese"]
-author: "Speedeet and Wilar"
-description: "Speedeet and Wilar try to fly a kite on Easter Monday on the seawall. The kite has other plans. A Pike Street Easter adventure."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet and Wilar try to fly a kite on Easter Monday on the seawall.
+  The kite has other plans. A Pike Street Easter adventure.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- kids
+- pike street
+- easter
+- kite
+- creolese
+title: Speedeet & Wilar — The Easter Kite
+tone: commentary
 ---
 
 *Speedeet & Wilar: two boys, one friendship, Pike Street, Georgetown. Every Sunday.*

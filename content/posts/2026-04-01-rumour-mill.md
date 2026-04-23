@@ -1,14 +1,23 @@
 ---
-title: "Rumour Mill – Wednesday, April 1, 2026"
-date: 2026-04-01T08:30:00-04:00
-categories: ["The Rumour Mill"]
-tags: ["rumour mill", "guyana", "gossip", "politics", "satire", "whispers"]
-author: "GDB Staff"
-description: "Unverified, unconfirmed, and entirely too entertaining to ignore. The Rumour Mill grinds Wednesday."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- The Rumour Mill
+content_type: news
+country: guyana
+date: 2026-04-01 08:30:00-04:00
+description: Unverified, unconfirmed, and entirely too entertaining to ignore. The
+  Rumour Mill grinds Wednesday.
+product_family: series
+status: published
+tags:
+- rumour mill
+- guyana
+- gossip
+- politics
+- satire
+- whispers
+title: Rumour Mill – Wednesday, April 1, 2026
+tone: commentary
 ---
 
 *What the papers can't print, the Mill will grind. All rumours are unverified. Some are implausible. A few might be true. We'll never tell.*

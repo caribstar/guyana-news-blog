@@ -1,17 +1,28 @@
 ---
-title: "Uncle Ramesh: Ambassador Theriot GETS IT, APAD Speaking FACTS, and River Cruises? This is PROGRESS!"
-date: 2026-01-23
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["US-Ambassador", "APAD", "tourism", "development", "opposition"]
-summary: "Uncle Ramesh from Queens applauds Ambassador Theriot's diplomatic wisdom, celebrates APAD for putting country over politics, and explains why river cruises prove Guyana is becoming a REAL tourism destination."
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 cover:
-  image: "images/uncle-ramesh-cover.jpg"
-  alt: "Uncle Ramesh Cover"
+  alt: Uncle Ramesh Cover
   hidden: true
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+  image: images/uncle-ramesh-cover.jpg
+date: 2026-01-23
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens applauds Ambassador Theriot's diplomatic wisdom,
+  celebrates APAD for putting country over politics, and explains why river cruises
+  prove Guyana is becoming a REAL tourism destination.
+tags:
+- US-Ambassador
+- APAD
+- tourism
+- development
+- opposition
+title: 'Uncle Ramesh: Ambassador Theriot GETS IT, APAD Speaking FACTS, and River Cruises?
+  This is PROGRESS!'
+tone: commentary
 ---
 
 *From Queens, New York — where we read the same news but see the bigger picture* 🇬🇾🇺🇸

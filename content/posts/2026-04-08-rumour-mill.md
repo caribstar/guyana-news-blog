@@ -1,14 +1,24 @@
 ---
-title: "The Rumour Mill — April 8, 2026"
+author: Bam-Bam Sally
+categories:
+- The Rumour Mill
+content_type: satire
+country: guyana
 date: 2026-04-08
-categories: ["The Rumour Mill"]
-tags: ["guyana", "rumours", "gossip", "satire", "entertainment"]
-author: "Bam-Bam Sally"
-description: "Bam-Bam Sally's Wednesday Rumour Mill: what people are whispering about in Stabroek Market, at the seawall, and in the WhatsApp groups that nobody admits to being in."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'Bam-Bam Sally''s Wednesday Rumour Mill: what people are whispering about
+  in Stabroek Market, at the seawall, and in the WhatsApp groups that nobody admits
+  to being in.'
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- rumours
+- gossip
+- satire
+- entertainment
+title: The Rumour Mill — April 8, 2026
+tone: commentary
 ---
 
 *⚠️ DISCLAIMER: The Rumour Mill is entirely fictional satire. All characters, situations, and "rumours" presented here are invented for entertainment purposes only. Any resemblance to real persons, living or dead, is coincidental. This content is produced in compliance with Guyana's Cybercrime Act. No real individuals are identified or targeted.*

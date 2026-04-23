@@ -1,14 +1,22 @@
 ---
-title: "Miss Violet: I Shall Speak Plainly About De Reparations Figure, De Burning, De Children's Helpline, and What Is Expected of Us Now"
-date: 2026-04-17T10:30:00-04:00
+authors:
+- Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-17 10:30:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Miss Violet"]
-tags: ["Barbados", "Bridgetown", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bridgetown
+- dueling blogs
+title: 'Miss Violet: I Shall Speak Plainly About De Reparations Figure, De Burning,
+  De Children''s Helpline, and What Is Expected of Us Now'
+tone: satire
 ---
 
 Good morning to every soul reading this. I am Miss Violet. I have taught in the schools of Barbados for forty-one years. I retired from teaching but I did not retire from noticing, and I have observations I intend to share with you this Friday morning, whether you wish to hear them or not.

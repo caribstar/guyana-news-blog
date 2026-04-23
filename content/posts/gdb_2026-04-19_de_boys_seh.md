@@ -1,14 +1,22 @@
 ---
-title: "De Boys Seh: Exxon Partner Tekkin We Money Home Like Dem Ah Pay Rent Deh, An De President Tellin We Fuh Brace"
-date: 2026-04-19T12:30:00-04:00
+authors:
+- De Boys
+categories:
+- De Boys Seh
+content_type: satire
+country: guyana
+date: 2026-04-19 12:30:00-04:00
 draft: false
-categories: ["De Boys Seh"]
-authors: ["De Boys"]
-tags: ["De Boys Seh", "Guyana", "satire"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- De Boys Seh
+- Guyana
+- satire
+title: 'De Boys Seh: Exxon Partner Tekkin We Money Home Like Dem Ah Pay Rent Deh,
+  An De President Tellin We Fuh Brace'
+tone: commentary
 ---
 
 Dem boys seh this Sunday morning find we sittin on de bench outside Auntie Pearl rumshop in Sophia, sippin we coffee, wonderin how one country can produce so much oil and still have people lookin for change fuh buy cookup rice.

@@ -1,14 +1,25 @@
 ---
-title: "The Daily Brief — Monday, April 6, 2026"
-date: 2026-04-06T06:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["Suriname", "Corentyne", "Gas-to-Energy", "CARIFTA", "Karasabai", "fishermen", "border security", "Roderick Rainford"]
-author: "The Daily Brief"
-description: "Suriname charges up a storm, Karasabai gets an airstrip, fishermen still missing, and Guyana's athletes have a tough day in Grenada."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: The Daily Brief
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-06 06:00:00-04:00
+description: Suriname charges up a storm, Karasabai gets an airstrip, fishermen still
+  missing, and Guyana's athletes have a tough day in Grenada.
+product_family: gdb
+status: published
+tags:
+- Suriname
+- Corentyne
+- Gas-to-Energy
+- CARIFTA
+- Karasabai
+- fishermen
+- border security
+- Roderick Rainford
+title: The Daily Brief — Monday, April 6, 2026
+tone: commentary
 ---
 
 *Your 5-minute guide to what's happening in Guyana — plain talk, no spin.*

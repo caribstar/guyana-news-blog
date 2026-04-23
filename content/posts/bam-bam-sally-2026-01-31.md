@@ -1,13 +1,22 @@
 ---
-title: "📢 Bam-Bam Sally's Rumor Mill – Saturday, January 31, 2026"
+categories:
+- The Rumour Mill
+content_type: commentary
+country: guyana
 date: 2026-01-31
-categories: ["The Rumour Mill"]
-tags: ["Bam-Bam Sally", "rumors", "gossip", "satire", "weekly", "January 2026"]
-description: "If yuh ain't hear it from me, it ain't worth hearing! Bam-Bam Sally got de HOT tea to close out January 2026!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: If yuh ain't hear it from me, it ain't worth hearing! Bam-Bam Sally got
+  de HOT tea to close out January 2026!
+product_family: series
+status: published
+tags:
+- Bam-Bam Sally
+- rumors
+- gossip
+- satire
+- weekly
+- January 2026
+title: "\U0001F4E2 Bam-Bam Sally's Rumor Mill – Saturday, January 31, 2026"
+tone: commentary
 ---
 
 *⚠️ DISCLAIMER: De Rumor Mill is PURELY FICTIONAL entertainment. ALL characters, scenarios, and "rumors" are COMPLETELY MADE UP. No real persons, living or dead, are referenced or implied. This is satirical comedy about FICTIONAL situations. Any resemblance to actual events or persons is entirely coincidental. Please don't call we lawyer. We ain't got one. This publication complies with all applicable laws including the Cybercrime Act of Guyana. FOR ENTERTAINMENT ONLY.*

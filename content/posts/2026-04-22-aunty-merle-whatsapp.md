@@ -1,15 +1,24 @@
 ---
-title: "Jamaica's Real Early Warning System Is Your Cousin's WhatsApp Group at 3 A.M."
-date: 2026-04-22T09:00:00-04:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "WhatsApp", "disaster", "satire", "family"]
-author: "Yard Report"
-description: "A sardonic look at where Jamaicans actually go for weather updates, disaster alerts, and news that matters. Spoiler: it's not the Met Service."
-image: "https://picsum.photos/seed/whatsapp-phone/1280/720"
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-22 09:00:00-04:00
+description: 'A sardonic look at where Jamaicans actually go for weather updates,
+  disaster alerts, and news that matters. Spoiler: it''s not the Met Service.'
+fictional_character: true
+image: https://picsum.photos/seed/whatsapp-phone/1280/720
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- WhatsApp
+- disaster
+- satire
+- family
+title: Jamaica's Real Early Warning System Is Your Cousin's WhatsApp Group at 3 A.M.
+tone: satire
 ---
 
 *By Yard Report, Kingston.*

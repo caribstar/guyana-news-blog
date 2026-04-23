@@ -1,15 +1,13 @@
-{{/* Satire Banner — renders ONLY for Country Network categories */}}
-{{- $cn := slice "Guyana Brief" "Yard Brief" "Trini Brief" "Bajan Brief" "Ghana Brief" "Naija Brief" "Kenya Brief" "SA Brief" -}}
-{{- $isSatire := false -}}
-{{- with .Params.categories -}}
-  {{- range . -}}
-    {{- if in $cn . -}}{{- $isSatire = true -}}{{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- if $isSatire -}}
-<div class="satire-banner" role="note" aria-label="Satire content notice">
-  <span class="satire-banner-dot">●</span>
-  <span class="satire-banner-text">SATIRE &nbsp;&middot;&nbsp; FROM THE BRIEF NETWORK</span>
-  <span class="satire-banner-dot">●</span>
-</div>
+﻿{{- $type := .Params.content_type | default "news" -}}
+
+{{- if eq $type "satire" -}}
+  <div style="margin:14px 0 10px;padding:14px 16px;border-left:6px solid #c62828;background:#fff3f3;color:#7a1212;">
+    <strong style="display:block;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">SATIRE</strong>
+    <div>This article is fictional satire and is not presented as factual news reporting.</div>
+  </div>
+{{- else if eq $type "parody_column" -}}
+  <div style="margin:14px 0 10px;padding:14px 16px;border-left:6px solid #ff8f00;background:#fff4e5;color:#7a4b00;">
+    <strong style="display:block;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">PARODY COLUMN</strong>
+    <div>Uncle Ramesh is a fictional character. This column is satire, not factual reporting or political endorsement.</div>
+  </div>
 {{- end -}}

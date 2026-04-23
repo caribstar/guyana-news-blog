@@ -1,13 +1,24 @@
 ---
-title: "Caribbean Daily Brief — Friday, March 27, 2026"
+author: GDB Desk
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-03-27
-categories: ["Caribbean Brief"]
-tags: ["Jamaica", "Trinidad", "Barbados", "CARICOM", "energy", "cricket", "hurricane"]
-author: "GDB Desk"
-description: "Jamaica is rebuilding after Hurricane Melissa, T&T has a new state of emergency and a FIFA match-fixing probe, Barbados swept its third straight election, and British Airways just added more seats to the islands. The region is busy."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Jamaica is rebuilding after Hurricane Melissa, T&T has a new state of
+  emergency and a FIFA match-fixing probe, Barbados swept its third straight election,
+  and British Airways just added more seats to the islands. The region is busy.
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- Trinidad
+- Barbados
+- CARICOM
+- energy
+- cricket
+- hurricane
+title: Caribbean Daily Brief — Friday, March 27, 2026
+tone: commentary
 ---
 
 *A weekly sweep of what's moving across the Caribbean. Five minutes. No fluff.*

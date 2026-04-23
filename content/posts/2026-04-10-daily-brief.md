@@ -1,14 +1,24 @@
 ---
-title: "Daily Brief — Friday, April 10, 2026"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-04-10
-categories: ["Daily Brief"]
-tags: ["guyana", "politics", "economy", "oil", "crime", "infrastructure"]
-author: "GDB Staff"
-description: "Oil revenues surge past $159B in Q1, Ali eyes Gulf storage deals, police graduate 101 new recruits, and the digital traffic registry is coming whether you want it or not."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Oil revenues surge past $159B in Q1, Ali eyes Gulf storage deals, police
+  graduate 101 new recruits, and the digital traffic registry is coming whether you
+  want it or not.
+product_family: gdb
+status: published
+tags:
+- guyana
+- politics
+- economy
+- oil
+- crime
+- infrastructure
+title: Daily Brief — Friday, April 10, 2026
+tone: commentary
 ---
 
 Good morning, Guyana. It is Friday. The money is flowing, the roads are still chaotic, and the government has a new plan involving a database. Sit down.

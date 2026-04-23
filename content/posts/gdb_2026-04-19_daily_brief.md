@@ -1,14 +1,25 @@
 ---
-title: "Sunday Brief: Exxon Keeps $23.6 Billion While We Get the Leftovers, Ali Tells Us to 'Brace' for More Pain, and Apparently the Strait of Hormuz Is Now Our Problem"
-date: 2026-04-19T10:00:00-04:00
+authors:
+- The Daily Brief
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
+date: 2026-04-19 10:00:00-04:00
 draft: false
-categories: ["Daily Brief", "News"]
-authors: ["The Daily Brief"]
-tags: ["Guyana", "Daily Brief", "Exxon", "Ali", "oil", "economy"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Daily Brief
+- Exxon
+- Ali
+- oil
+- economy
+title: 'Sunday Brief: Exxon Keeps $23.6 Billion While We Get the Leftovers, Ali Tells
+  Us to ''Brace'' for More Pain, and Apparently the Strait of Hormuz Is Now Our Problem'
+tone: commentary
 ---
 
 Good Sunday morning, Guyana. The papers this weekend read like a collective exhale, and not the good kind. The kind where you realize you have been holding your breath for four years and the air finally comes out sounding like a tire deflating on the East Bank Highway. Pour your coffee. Let us walk through it.

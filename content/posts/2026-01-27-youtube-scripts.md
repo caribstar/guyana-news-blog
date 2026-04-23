@@ -1,11 +1,14 @@
 ---
-title: "YOUTUBE SCRIPTS - January 27, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-01-27
-categories: ["YouTube Scripts"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+title: YOUTUBE SCRIPTS - January 27, 2026
+tone: commentary
 ---
+
 # YOUTUBE SCRIPTS - January 27, 2026
 # Budget 2026 Aftermath
 

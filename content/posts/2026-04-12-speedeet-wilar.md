@@ -1,14 +1,24 @@
 ---
-title: "Speedeet & Wilar: De Talent Show Disaster"
-date: 2026-04-12T09:00:00-04:00
-categories: ["Speedeet & Wilar"]
-tags: ["Speedeet", "Wilar", "talent show", "school", "Guyana", "children", "Pike Street"]
-author: "GDB Staff"
-description: "Speedeet signs them both up for the school talent show without telling Wilar. Wilar has one week to learn to juggle. This cannot end well."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- Speedeet & Wilar
+content_type: news
+country: guyana
+date: 2026-04-12 09:00:00-04:00
+description: Speedeet signs them both up for the school talent show without telling
+  Wilar. Wilar has one week to learn to juggle. This cannot end well.
+product_family: series
+status: published
+tags:
+- Speedeet
+- Wilar
+- talent show
+- school
+- Guyana
+- children
+- Pike Street
+title: 'Speedeet & Wilar: De Talent Show Disaster'
+tone: commentary
 ---
 
 *A Speedeet & Wilar Story*

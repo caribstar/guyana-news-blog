@@ -1,14 +1,25 @@
 ---
-title: "Miss Violet's Corner — Barbados, Monday April 6, 2026"
-date: 2026-04-06T06:30:00-04:00
-categories: ["Bajan Brief"]
-tags: ["Barbados", "Mottley", "BLP", "election", "Easter", "youth", "cricket"]
-author: "Miss Violet"
-description: "Miss Violet, retired teacher from St Philip, is very proud of PM Mottley and unimpressed by people who did not vote."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+author: Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-06 06:30:00-04:00
+description: Miss Violet, retired teacher from St Philip, is very proud of PM Mottley
+  and unimpressed by people who did not vote.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Mottley
+- BLP
+- election
+- Easter
+- youth
+- cricket
+title: Miss Violet's Corner — Barbados, Monday April 6, 2026
+tone: satire
 ---
 
 *Miss Violet writes from St Philip, Barbados, where she taught primary school for 34 years, knows everybody's business, and has voted BLP since she was old enough to hold a pencil.*

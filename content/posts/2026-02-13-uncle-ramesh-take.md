@@ -1,13 +1,23 @@
 ---
-title: "Uncle Ramesh Take – Friday, February 13, 2026"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+- Opinion
+- Response
+content_type: parody_column
+country: guyana
 date: 2026-02-13
-categories: ["Uncle Ramesh", "Opinion", "Response"]
-tags: ["Guyana", "Pro-Government", "Diaspora", "Stabroek News", "Budget 2026"]
-author: "Uncle Ramesh"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Pro-Government
+- Diaspora
+- Stabroek News
+- Budget 2026
+title: Uncle Ramesh Take – Friday, February 13, 2026
+tone: commentary
 ---
 
 *A Pro-Government Perspective from Queens, NY* 🗽🇬🇾

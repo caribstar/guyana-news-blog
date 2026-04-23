@@ -1,14 +1,26 @@
 ---
-title: "Uncle Ramesh: De Brief Forget To Mention All De GOOD Tings Happening!"
-date: 2026-03-29T06:30:00-04:00
-categories: ["Uncle Ramesh"]
-tags: ["Uncle Ramesh", "Georgetown", "flooding", "GPL", "Gas-to-Energy", "ExxonMobil", "Fenty Beauty", "Guyana development"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh reads de Sunday Brief and has some thoughts about what dem left out. As usual."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-03-29 06:30:00-04:00
+description: Uncle Ramesh reads de Sunday Brief and has some thoughts about what dem
+  left out. As usual.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Uncle Ramesh
+- Georgetown
+- flooding
+- GPL
+- Gas-to-Energy
+- ExxonMobil
+- Fenty Beauty
+- Guyana development
+title: 'Uncle Ramesh: De Brief Forget To Mention All De GOOD Tings Happening!'
+tone: commentary
 ---
 
 *Uncle Ramesh Doodnauth, 67, retired civil servant, Brooklyn, NY. Calls home every Sunday.*

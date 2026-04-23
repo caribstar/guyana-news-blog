@@ -1,14 +1,23 @@
 ---
-title: "Daily Brief — Tuesday, March 31, 2026"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-03-31
-categories: ["Daily Brief"]
-tags: ["guyana", "oil", "flooding", "crime", "economy", "infrastructure"]
-author: "GDB Staff"
-description: "Oil hits 918K bpd, Georgetown floods, GUYOIL raises fuel prices, a teen is stabbed in Lacytown, and Uncle Sam wants his tax treaty. Your Tuesday briefing."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Oil hits 918K bpd, Georgetown floods, GUYOIL raises fuel prices, a teen
+  is stabbed in Lacytown, and Uncle Sam wants his tax treaty. Your Tuesday briefing.
+product_family: gdb
+status: published
+tags:
+- guyana
+- oil
+- flooding
+- crime
+- economy
+- infrastructure
+title: Daily Brief — Tuesday, March 31, 2026
+tone: commentary
 ---
 
 Good morning. It's March 31st, the last day of the first quarter of 2026, and Guyana is out here producing nearly a million barrels of oil per day while simultaneously underwater. We contain multitudes.

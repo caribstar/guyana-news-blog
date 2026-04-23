@@ -1,13 +1,27 @@
 ---
-title: "☕ The Daily Brief – Tuesday, February 17, 2026"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-17
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "news", "satire", "politics", "Mohamed", "Stabroek News", "Energy Conference", "Hakeem Olajuwon"]
-summary: "Opposition Leader arrested for being 35 minutes late to court. An NCN cameraman brought a gun to the same court. Hakeem Olajuwon wants to sell you a condo for US$150K. Stabroek News mourning continues. Ali wants a 6-week health campaign. And the US just blew up another boat in the Caribbean."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Opposition Leader arrested for being 35 minutes late to court. An NCN cameraman
+  brought a gun to the same court. Hakeem Olajuwon wants to sell you a condo for US$150K.
+  Stabroek News mourning continues. Ali wants a 6-week health campaign. And the US
+  just blew up another boat in the Caribbean.
+tags:
+- Guyana
+- news
+- satire
+- politics
+- Mohamed
+- Stabroek News
+- Energy Conference
+- Hakeem Olajuwon
+title: ☕ The Daily Brief – Tuesday, February 17, 2026
+tone: commentary
 ---
 
 *Your satirical morning roundup from all four papers. Reading the news so you can laugh, cry, and argue at the same time.*

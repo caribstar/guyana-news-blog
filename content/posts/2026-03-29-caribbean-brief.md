@@ -1,13 +1,30 @@
 ---
-title: "Caribbean Brief: T&T Gets a US Persons-of-Interest List, Barbados Port Wins an Award & The Dominican Republic Declares Tourism War on Mexico"
-date: 2026-03-29T07:00:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["Trinidad and Tobago", "Barbados", "Jamaica", "Dominican Republic", "Haiti", "St Vincent", "CARICOM", "OAS", "Caribbean energy", "Iran", "Trump", "cricket"]
-author: "GDB Staff"
-description: "The US handed T&T a list of drug and gun suspects, Barbados digitised its port and won an award for it, the DR is apparently at war with Mexico over tourists, and the OAS is having an existential moment. Caribbean Sunday."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-03-29 07:00:00-04:00
+description: The US handed T&T a list of drug and gun suspects, Barbados digitised
+  its port and won an award for it, the DR is apparently at war with Mexico over tourists,
+  and the OAS is having an existential moment. Caribbean Sunday.
+product_family: gdb
+status: published
+tags:
+- Trinidad and Tobago
+- Barbados
+- Jamaica
+- Dominican Republic
+- Haiti
+- St Vincent
+- CARICOM
+- OAS
+- Caribbean energy
+- Iran
+- Trump
+- cricket
+title: 'Caribbean Brief: T&T Gets a US Persons-of-Interest List, Barbados Port Wins
+  an Award & The Dominican Republic Declares Tourism War on Mexico'
+tone: commentary
 ---
 
 *Sunday, March 29, 2026 | Caribbean Daily Brief*

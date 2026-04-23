@@ -1,14 +1,24 @@
 ---
-title: "Trini Brief – Auntie Cheryl: Tuesday, April 14, 2026"
-date: 2026-04-14T07:30:00-04:00
-categories: ["Trini Brief"]
-tags: ["CARICOM", "Kamla", "dance", "crime", "fuel", "Metamorphosis"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl from Chaguanas is very proud of the PM, concerned about the murder rate, and has already bought tickets to Metamorphosis. Tuesday's dispatch."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-14 07:30:00-04:00
+description: Auntie Cheryl from Chaguanas is very proud of the PM, concerned about
+  the murder rate, and has already bought tickets to Metamorphosis. Tuesday's dispatch.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- CARICOM
+- Kamla
+- dance
+- crime
+- fuel
+- Metamorphosis
+title: 'Trini Brief – Auntie Cheryl: Tuesday, April 14, 2026'
+tone: satire
 ---
 
 Good morning darlings! Auntie Cheryl here from Chaguanas, where I had THREE cups of cocoa tea this morning because the news is a LOT and I needed the preparation.

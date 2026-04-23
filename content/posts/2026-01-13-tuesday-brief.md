@@ -1,13 +1,20 @@
 ---
-title: "Tuesday's Guyana Brief - Census Drops After 4 Years, Democracy Still Missing"
+categories:
+- News
+content_type: commentary
+country: guyana
 date: 2026-01-13
 draft: false
-categories: ["News"]
-tags: ["Guyana", "Satire", "Parliament Drama", "Oil Production", "Census"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Satire
+- Parliament Drama
+- Oil Production
+- Census
+title: Tuesday's Guyana Brief - Census Drops After 4 Years, Democracy Still Missing
+tone: commentary
 ---
 
 Good morning, Guyana! ☕

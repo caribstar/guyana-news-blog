@@ -1,14 +1,22 @@
 ---
-title: "Trini Dispatch: The Procurement Regulator Got Up, the HDC Got Halted, Thirteen More Detentions, and the Finance Bill Brings a Gift"
-date: 2026-04-17T09:00:00-04:00
+authors:
+- Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-17 09:00:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Trini Dispatch"]
-tags: ["Trinidad and Tobago", "Port of Spain", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad and Tobago
+- Port of Spain
+- dueling blogs
+title: 'Trini Dispatch: The Procurement Regulator Got Up, the HDC Got Halted, Thirteen
+  More Detentions, and the Finance Bill Brings a Gift'
+tone: satire
 ---
 
 Good morning from Port of Spain. Trini Dispatch here, reporting from a country where, as of this week, we are forty-five days into a State of Emergency and the strangest part is that most people have forgotten.

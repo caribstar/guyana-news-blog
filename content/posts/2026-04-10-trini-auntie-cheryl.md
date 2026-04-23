@@ -1,14 +1,25 @@
 ---
-title: "Trini Brief — Auntie Cheryl, April 10, 2026"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
 date: 2026-04-10
-categories: ["Trini Brief"]
-tags: ["trinidad", "tobago", "jet ski", "fire service", "venezuela", "chaguanas"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl from Chaguanas reacts to Angelica Jogie, the Caracas delegation, the new fire tenders, and the ongoing jet ski debate with the full range of emotions the week demands."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+description: Auntie Cheryl from Chaguanas reacts to Angelica Jogie, the Caracas delegation,
+  the new fire tenders, and the ongoing jet ski debate with the full range of emotions
+  the week demands.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- trinidad
+- tobago
+- jet ski
+- fire service
+- venezuela
+- chaguanas
+title: Trini Brief — Auntie Cheryl, April 10, 2026
+tone: satire
 ---
 
 Cheryl here. Chaguanas. I had to put down my phone three times before I could write this today.

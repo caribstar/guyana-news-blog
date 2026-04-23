@@ -1,14 +1,22 @@
 ---
-title: "Back-a-Truck: De Saturday Scenes from Bourda, Stabroek, and De East Coast — Including De Man Who Tried to Sell Me a 'Gold' Watch"
-date: 2026-04-18T07:30:00-04:00
+authors:
+- Back-a-Truck
+categories:
+- Back-a-Truck
+content_type: satire
+country: guyana
+date: 2026-04-18 07:30:00-04:00
 draft: false
-categories: ["Back-a-Truck"]
-authors: ["Back-a-Truck"]
-tags: ["Saturday", "street scenes", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Saturday
+- street scenes
+- Guyana
+title: 'Back-a-Truck: De Saturday Scenes from Bourda, Stabroek, and De East Coast
+  — Including De Man Who Tried to Sell Me a ''Gold'' Watch'
+tone: commentary
 ---
 
 Back-a-Truck here, reporting from the actual back of an actual truck parked on Regent Street because that is where the stories live. Saturday morning in Guyana is its own entire genre of human experience, and today I have been taking notes.

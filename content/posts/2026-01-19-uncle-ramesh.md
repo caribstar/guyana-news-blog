@@ -1,13 +1,22 @@
 ---
-title: "🇬🇾 Uncle Ramesh Responds: Jordan Finally Talking Truth, Border Security Strong, and Mash Coming!"
+categories:
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-19
-categories: ["Uncle Ramesh"]
-tags: ["Exxon", "Oil Contract", "Venezuela", "Infrastructure", "Government Progress"]
-description: "Uncle Ramesh sets the record straight on who really signed that oil contract, praises border vigilance, and gets ready for Republic Day."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh sets the record straight on who really signed that oil contract,
+  praises border vigilance, and gets ready for Republic Day.
+product_family: gdb
+status: published
+tags:
+- Exxon
+- Oil Contract
+- Venezuela
+- Infrastructure
+- Government Progress
+title: "\U0001F1EC\U0001F1FE Uncle Ramesh Responds: Jordan Finally Talking Truth,
+  Border Security Strong, and Mash Coming!"
+tone: commentary
 ---
 
 *Uncle Ramesh's pro-government perspective from Queens, NY. He reads the same news and sees something completely different!*

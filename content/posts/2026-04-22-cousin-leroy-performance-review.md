@@ -1,15 +1,25 @@
 ---
-title: "Cousin Leroy Explains Jamaica to His Coworkers at the Annual Performance Review"
-date: 2026-04-22T10:00:00-04:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "diaspora", "Bronx", "satire", "Cousin Leroy"]
-author: "Cousin Leroy"
-description: "Cousin Leroy, a management consultant in the Bronx who has not visited Jamaica since 2019, is asked at his annual performance review whether he has any 'cultural perspective' to share about recent Caribbean news. Everyone regrets this."
-image: "https://picsum.photos/seed/office-desk/1280/720"
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-22 10:00:00-04:00
+description: Cousin Leroy, a management consultant in the Bronx who has not visited
+  Jamaica since 2019, is asked at his annual performance review whether he has any
+  'cultural perspective' to share about recent Caribbean news. Everyone regrets this.
+fictional_character: true
+image: https://picsum.photos/seed/office-desk/1280/720
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- diaspora
+- Bronx
+- satire
+- Cousin Leroy
+title: Cousin Leroy Explains Jamaica to His Coworkers at the Annual Performance Review
+tone: satire
 ---
 
 *By Cousin Leroy, the Bronx.*

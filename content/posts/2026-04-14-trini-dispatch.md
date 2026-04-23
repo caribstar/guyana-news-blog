@@ -1,14 +1,27 @@
 ---
-title: "Trini Brief – Trini Dispatch: Tuesday, April 14, 2026"
-date: 2026-04-14T07:00:00-04:00
-categories: ["Trini Brief"]
-tags: ["CARICOM", "Kamla", "Trinidad", "secretary general", "Barnett", "Iran blockade", "fuel", "crime"]
-author: "Trini Dispatch"
-description: "Trinidad skipped the CARICOM emergency meeting it demanded, crime is 45% up, and the Prime Minister is still in a one-woman war with the entire Caribbean. Tuesday's dispatch."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-14 07:00:00-04:00
+description: Trinidad skipped the CARICOM emergency meeting it demanded, crime is
+  45% up, and the Prime Minister is still in a one-woman war with the entire Caribbean.
+  Tuesday's dispatch.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- CARICOM
+- Kamla
+- Trinidad
+- secretary general
+- Barnett
+- Iran blockade
+- fuel
+- crime
+title: 'Trini Brief – Trini Dispatch: Tuesday, April 14, 2026'
+tone: satire
 ---
 
 Good morning from Port of Spain, where the Prime Minister is fighting CARICOM, the crime statistics are fighting everyone, and the fuel situation is a global problem that is somehow arriving at our doorstep at the usual island speed.

@@ -1,15 +1,25 @@
 ---
-title: "Uncle Ramesh: De Report-A-Hole FACTS (With Receipts!)"
-date: 2026-01-16T07:00:00-04:00
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+- Response
+content_type: parody_column
+country: guyana
+date: 2026-01-16 07:00:00-04:00
+description: Uncle Ramesh brings DATA, CHARTS, and REALITY to the pothole app debate.
+  Comedy Crew about to get fact-checked!
 draft: false
-categories: ["Uncle Ramesh", "Response"]
-tags: ["uncle-ramesh", "commentary", "government-apps", "factual", "infrastructure"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh brings DATA, CHARTS, and REALITY to the pothole app debate. Comedy Crew about to get fact-checked!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- uncle-ramesh
+- commentary
+- government-apps
+- factual
+- infrastructure
+title: 'Uncle Ramesh: De Report-A-Hole FACTS (With Receipts!)'
+tone: commentary
 ---
 
 ## LISTEN HERE NAH! 📊

@@ -1,13 +1,23 @@
 ---
-title: "Monday's Guyana Brief: Azruddin Shows Up Late to His Own Extradition, the Haags Bosch Office Hits $19.6 Billion, and Single Mothers Get Eviction Notices"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-16
 draft: false
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "News", "Satire", "Mohameds", "Budget 2026", "Haags Bosch"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Guyana
+- News
+- Satire
+- Mohameds
+- Budget 2026
+- Haags Bosch
+title: 'Monday''s Guyana Brief: Azruddin Shows Up Late to His Own Extradition, the
+  Haags Bosch Office Hits $19.6 Billion, and Single Mothers Get Eviction Notices'
+tone: commentary
 ---
 
 Good morning, Guyana! ☕

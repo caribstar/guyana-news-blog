@@ -27,7 +27,6 @@
     </div>
     {{- end }}
   </header>
-
   {{/* TTB SUBSCRIBE TOP — minimal ribbon above article */}}
   {{ partial "ttb-subscribe-top.html" . }}
 
@@ -45,7 +44,6 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
-
   {{/* TTB SUBSCRIBE BOTTOM — full CTA at end of article */}}
   {{ partial "ttb-subscribe-bottom.html" . }}
 
@@ -68,7 +66,6 @@
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
-
 {{/* TTB SUBSCRIBE MODAL — scroll-triggered at 70% read */}}
 {{ partial "ttb-subscribe-modal.html" . }}
 

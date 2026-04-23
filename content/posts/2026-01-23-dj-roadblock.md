@@ -1,17 +1,25 @@
 ---
-title: "DJ Roadblock: Weekend Traffic Report & Road Vibes"
-date: 2026-01-23
-categories: ["DJ Roadblock", "Traffic"]
-tags: ["traffic", "weekend", "roads", "Georgetown"]
-summary: "DJ Roadblock brings you the Friday evening traffic situation and weekend road conditions across Guyana."
+categories:
+- DJ Roadblock
+- Traffic
+content_type: commentary
+country: guyana
 cover:
-  image: "images/dj-roadblock-cover.jpg"
-  alt: "DJ Roadblock Cover"
+  alt: DJ Roadblock Cover
   hidden: true
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+  image: images/dj-roadblock-cover.jpg
+date: 2026-01-23
+product_family: series
+status: published
+summary: DJ Roadblock brings you the Friday evening traffic situation and weekend
+  road conditions across Guyana.
+tags:
+- traffic
+- weekend
+- roads
+- Georgetown
+title: 'DJ Roadblock: Weekend Traffic Report & Road Vibes'
+tone: commentary
 ---
 
 *MASSIVE FRIDAYS with DJ Roadblock! Your traffic and vibes connection!* 🎧🚗

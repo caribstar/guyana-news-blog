@@ -1,13 +1,20 @@
 ---
-title: "DJ Roadblock Traffic Report: January 16, 2026"
+author: DJ Roadblock
+categories:
+- Traffic Report
+content_type: satire
+country: guyana
 date: 2026-01-16
-categories: ["Traffic Report"]
-tags: ["DJ Roadblock", "traffic", "Georgetown", "weekly"]
-author: "DJ Roadblock"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- DJ Roadblock
+- traffic
+- Georgetown
+- weekly
+title: 'DJ Roadblock Traffic Report: January 16, 2026'
+tone: commentary
 ---
 
 **🎙️ WAAAAAH GWAAN GEORGETOWN! Is ya boy DJ Roadblock comin' at you LIVE from de dashboard of me lil Raum, stuck behind a minibus dat ain't move in 20 minutes!**

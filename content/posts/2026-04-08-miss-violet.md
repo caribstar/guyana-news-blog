@@ -1,13 +1,24 @@
 ---
-title: "Miss Violet's Barbados Bulletin – April 8, 2026"
+author: Miss Violet
+categories:
+- Caribbean Brief
+- Barbados
+content_type: satire
 date: 2026-04-08
-categories: ["Caribbean Brief", "Barbados"]
-tags: ["Barbados", "Miss Violet", "civics", "Caribbean", "World Bank", "Air Canada"]
-author: "Miss Violet"
-description: "Miss Violet, retired civics teacher and Barbados institution, responds to the World Bank report, the Air Canada announcement, and the state of the Caribbean."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Miss Violet, retired civics teacher and Barbados institution, responds
+  to the World Bank report, the Air Canada announcement, and the state of the Caribbean.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Barbados
+- Miss Violet
+- civics
+- Caribbean
+- World Bank
+- Air Canada
+title: Miss Violet's Barbados Bulletin – April 8, 2026
+tone: commentary
 ---
 
 Good morning, children. Miss Violet here. Pull up a chair. There is a great deal to cover and I will not be rushing.

@@ -1,14 +1,23 @@
 ---
-title: "Guyana Daily Brief — Thursday, April 16, 2026"
-date: 2026-04-16T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["building collapse", "CANU", "airfares", "oil refinery", "CARICOM", "Guyana news"]
-author: "GDB Staff"
-description: "A building falls down, CANU counts its money, airfares about to get worse, and Sir Ronald Sanders is done being polite about CARICOM."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-16 07:00:00-04:00
+description: A building falls down, CANU counts its money, airfares about to get worse,
+  and Sir Ronald Sanders is done being polite about CARICOM.
+product_family: gdb
+status: published
+tags:
+- building collapse
+- CANU
+- airfares
+- oil refinery
+- CARICOM
+- Guyana news
+title: Guyana Daily Brief — Thursday, April 16, 2026
+tone: commentary
 ---
 
 Good morning from Georgetown. It is Thursday, which is the day the week gets tired but refuses to admit it.

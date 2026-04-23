@@ -1,13 +1,21 @@
 ---
-title: "🎯 Uncle Ramesh's Bounty Board - January 2026"
+categories:
+- Bounty Board
+content_type: commentary
+country: guyana
 date: 2026-01-19
-categories: ["Bounty Board"]
-tags: ["satire", "bounty", "mysteries", "uncle-ramesh", "monthly"]
-description: "Uncle Ramesh offering rewards fuh solving de nation's greatest mysteries. Terms and Whose Friend Yuh Is may apply."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Uncle Ramesh offering rewards fuh solving de nation's greatest mysteries.
+  Terms and Whose Friend Yuh Is may apply.
+product_family: series
+status: published
+tags:
+- satire
+- bounty
+- mysteries
+- uncle-ramesh
+- monthly
+title: "\U0001F3AF Uncle Ramesh's Bounty Board - January 2026"
+tone: commentary
 ---
 
 *Disclaimer: Uncle Ramesh is a proud supporter of de government. Dese bounties are satirical and offered in de spirit of "asking questions dat even supporters does wonder about." All rewards are subject to availability, mood, and whether Uncle Ramesh remember he promise dem.*

@@ -1,14 +1,24 @@
 ---
-title: "Auntie Cheryl From Chaguanas — Saturday, April 11, 2026"
-date: 2026-04-11T08:15:00-04:00
-categories: ["Trini Brief"]
-tags: ["Trinidad", "NGC", "CARICOM", "Tobago", "Auntie Cheryl"]
-author: "Auntie Cheryl"
-description: "Auntie Cheryl is thrilled about NGC's record profits, concerned about the Tobago vandals, and has a lot of feelings about the CARICOM situation that she would like to share."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-11 08:15:00-04:00
+description: Auntie Cheryl is thrilled about NGC's record profits, concerned about
+  the Tobago vandals, and has a lot of feelings about the CARICOM situation that she
+  would like to share.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad
+- NGC
+- CARICOM
+- Tobago
+- Auntie Cheryl
+title: Auntie Cheryl From Chaguanas — Saturday, April 11, 2026
+tone: satire
 ---
 
 Good morning! Auntie Cheryl calling from Chaguanas, just finished my puja and ready to talk news!

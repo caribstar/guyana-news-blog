@@ -1,13 +1,23 @@
 ---
-title: "Uncle Ramesh: Solar Success, Security Solutions, and Stop Crying Over Cricket!"
+categories:
+- Response
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-01-17
-categories: ["Response", "Uncle Ramesh", "Opinion"]
-tags: ["Uncle Ramesh", "Pro-Government", "Diaspora Voice", "Commentary"]
-summary: "Uncle Ramesh responds to the Daily Brief's negativity with FACTS about solar investment, the government's swift response to security issues, and a reminder that our women cricketers are STILL defending champions!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh responds to the Daily Brief's negativity with FACTS about solar
+  investment, the government's swift response to security issues, and a reminder that
+  our women cricketers are STILL defending champions!
+tags:
+- Uncle Ramesh
+- Pro-Government
+- Diaspora Voice
+- Commentary
+title: 'Uncle Ramesh: Solar Success, Security Solutions, and Stop Crying Over Cricket!'
+tone: commentary
 ---
 
 *Uncle Ramesh's Response from Queens, NY — Saturday, January 17, 2026*

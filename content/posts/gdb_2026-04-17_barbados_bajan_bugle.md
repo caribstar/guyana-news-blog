@@ -1,14 +1,22 @@
 ---
-title: "Bajan Bugle: Reparations Finally Have a Number, Canon Massiah Rests, De Burning Is Back, and De Children Is Calling De Helpline"
-date: 2026-04-17T10:00:00-04:00
+authors:
+- Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-17 10:00:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Bajan Bugle"]
-tags: ["Barbados", "Bridgetown", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bridgetown
+- dueling blogs
+title: 'Bajan Bugle: Reparations Finally Have a Number, Canon Massiah Rests, De Burning
+  Is Back, and De Children Is Calling De Helpline'
+tone: satire
 ---
 
 Good morning from Bridgetown. Bajan Bugle here, looking at the week's happenings with the raised eyebrow of someone who has seen this particular sequence of events approximately forty-seven times.

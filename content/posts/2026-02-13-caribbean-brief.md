@@ -1,12 +1,24 @@
 ---
-title: "🌴 Caribbean Brief – Friday, February 13, 2026"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-13
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Barbados", "Jamaica", "Trinidad", "T20 World Cup", "Mottley", "regional"]
-summary: "Mottley's historic third sweep. Caribbean takes centre stage in Panama. US tightening visa screws on Caribbean nationals. Italy wins at cricket. And Trinidad's energy billions."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Mottley's historic third sweep. Caribbean takes centre stage in Panama. US
+  tightening visa screws on Caribbean nationals. Italy wins at cricket. And Trinidad's
+  energy billions.
+tags:
+- Caribbean
+- Barbados
+- Jamaica
+- Trinidad
+- T20 World Cup
+- Mottley
+- regional
+title: "\U0001F334 Caribbean Brief – Friday, February 13, 2026"
+tone: commentary
 ---
 
 *Your satirical Caribbean roundup. Because drama doesn't stop at Guyana's borders.*

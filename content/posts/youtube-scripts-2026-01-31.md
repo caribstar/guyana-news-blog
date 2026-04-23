@@ -1,12 +1,20 @@
 ---
-title: "🎬 YouTube Scripts – Saturday, January 31, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-01-31
-categories: ["YouTube Scripts"]
-tags: ["YouTube", "scripts", "HeyGen", "video", "January 2026"]
-description: "60-second and 4-minute YouTube scripts for The Guyana Daily Brief — Saturday, January 31, 2026"
-tone: "commentary"
-status: "published"
-product_family: "series"
+description: 60-second and 4-minute YouTube scripts for The Guyana Daily Brief — Saturday,
+  January 31, 2026
+product_family: series
+status: published
+tags:
+- YouTube
+- scripts
+- HeyGen
+- video
+- January 2026
+title: "\U0001F3AC YouTube Scripts – Saturday, January 31, 2026"
+tone: commentary
 ---
 
 ---

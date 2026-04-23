@@ -1,14 +1,25 @@
 ---
-title: "De Boys Seh: Whose Streets Are These Exactly?"
-date: 2026-03-29T09:00:00-04:00
-categories: ["De Boys Seh"]
-tags: ["De Boys Seh", "Georgetown streets", "flooding", "Mayor", "government", "Karpowership", "Fenty Beauty", "Sunday"]
-author: "GDB Staff"
-description: "De boys at de corner discuss de government taking over Georgetown streets, de flooding, why de powerships still here, and Rihanna makeup landing in Guyana."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- De Boys Seh
+content_type: news
+country: guyana
+date: 2026-03-29 09:00:00-04:00
+description: De boys at de corner discuss de government taking over Georgetown streets,
+  de flooding, why de powerships still here, and Rihanna makeup landing in Guyana.
+product_family: series
+status: published
+tags:
+- De Boys Seh
+- Georgetown streets
+- flooding
+- Mayor
+- government
+- Karpowership
+- Fenty Beauty
+- Sunday
+title: 'De Boys Seh: Whose Streets Are These Exactly?'
+tone: commentary
 ---
 
 *De Boys Seh is a weekly community roundtable. De boys gather. De boys talk. What could go wrong.*

@@ -1,14 +1,23 @@
 ---
-title: "📈 Weekly Progress Report: January 8-15, 2026"
+categories:
+- Progress Report
+- Government Achievements
+content_type: commentary
+country: guyana
 date: 2026-01-15
 draft: false
-categories: ["Progress Report", "Government Achievements"]
-tags: ["PPP-C", "progress", "achievements", "infrastructure", "factual"]
-summary: "A factual summary of PPP/C government accomplishments for the week of January 8-15, 2026. No commentary, just documented achievements and initiatives."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: A factual summary of PPP/C government accomplishments for the week of January
+  8-15, 2026. No commentary, just documented achievements and initiatives.
+tags:
+- PPP-C
+- progress
+- achievements
+- infrastructure
+- factual
+title: "\U0001F4C8 Weekly Progress Report: January 8-15, 2026"
+tone: commentary
 ---
 
 *This is a weekly factual report documenting PPP/C government achievements, initiatives, and progress. No political commentary—just verifiable accomplishments.*

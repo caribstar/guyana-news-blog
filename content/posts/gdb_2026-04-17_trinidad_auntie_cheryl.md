@@ -1,14 +1,22 @@
 ---
-title: "Auntie Cheryl: Pension Tax Gone! De Procurement Watchman Doing He Wuk! And Lord Forgive Me, But De SoE Working Too!"
-date: 2026-04-17T09:30:00-04:00
+authors:
+- Auntie Cheryl
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-17 09:30:00-04:00
 draft: false
-categories: ["Trini Brief"]
-authors: ["Auntie Cheryl"]
-tags: ["Trinidad and Tobago", "Chaguanas", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Trinidad and Tobago
+- Chaguanas
+- dueling blogs
+title: 'Auntie Cheryl: Pension Tax Gone! De Procurement Watchman Doing He Wuk! And
+  Lord Forgive Me, But De SoE Working Too!'
+tone: satire
 ---
 
 Oh Godddd it's me Auntie Cheryl from Chaguanas coming to tell allyuh THE NEWS because I cannot hold it in another minute, my phone have 14 missed calls and 200 WhatsApp messages and people in de family is cryin' happy cryin' sad and cryin' confused ALL AT DE SAME TIME and I will explain EVERYTHING.

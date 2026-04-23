@@ -1,13 +1,22 @@
 ---
-title: "YouTube Scripts — Tuesday February 3, 2026 Daily Brief"
+categories:
+- YouTube
+- Scripts
+content_type: commentary
 date: 2026-02-03
 draft: false
-categories: ["YouTube", "Scripts"]
-tags: ["YouTube", "HeyGen", "Scripts", "Guyana", "News"]
-summary: "60-second and 4-minute HeyGen-ready scripts for Tuesday's Daily Brief covering budget debates, Speaker media lockout, and Ali in Belize."
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+summary: 60-second and 4-minute HeyGen-ready scripts for Tuesday's Daily Brief covering
+  budget debates, Speaker media lockout, and Ali in Belize.
+tags:
+- YouTube
+- HeyGen
+- Scripts
+- Guyana
+- News
+title: YouTube Scripts — Tuesday February 3, 2026 Daily Brief
+tone: commentary
 ---
 
 # 🎬 SCRIPT 1: 60-SECOND VERSION (HeyGen Quick Brief)

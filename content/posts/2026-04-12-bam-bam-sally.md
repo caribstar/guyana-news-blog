@@ -1,14 +1,24 @@
 ---
-title: "Bam-Bam Sally — Sunday, April 12, 2026"
-date: 2026-04-12T11:00:00-04:00
-categories: ["Bam-Bam Sally"]
-tags: ["Bam-Bam Sally", "Guyana", "gossip", "Easter", "Georgetown", "commentary"]
-author: "GDB Staff"
-description: "Bam-Bam Sally is back from the seawall, full of cook-up and opinions, and she has PLENTY to say about the week's events, the national cleanup, and certain people who think she doesn't notice things."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: GDB Staff
+categories:
+- Bam-Bam Sally
+content_type: news
+country: guyana
+date: 2026-04-12 11:00:00-04:00
+description: Bam-Bam Sally is back from the seawall, full of cook-up and opinions,
+  and she has PLENTY to say about the week's events, the national cleanup, and certain
+  people who think she doesn't notice things.
+product_family: series
+status: published
+tags:
+- Bam-Bam Sally
+- Guyana
+- gossip
+- Easter
+- Georgetown
+- commentary
+title: Bam-Bam Sally — Sunday, April 12, 2026
+tone: commentary
 ---
 
 *🔊 BAM-BAM SALLY REPORTING FOR DUTY*

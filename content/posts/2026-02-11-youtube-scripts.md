@@ -1,13 +1,20 @@
 ---
-title: "YouTube Scripts: Wednesday February 11, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-02-11
-categories: ["YouTube Scripts"]
-tags: ["youtube", "heygen", "video", "scripts"]
-summary: "60-second and 4-minute HeyGen scripts covering corruption index, blacklisted contractors, Gas-to-Energy, and Barbados election."
 draft: true
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+summary: 60-second and 4-minute HeyGen scripts covering corruption index, blacklisted
+  contractors, Gas-to-Energy, and Barbados election.
+tags:
+- youtube
+- heygen
+- video
+- scripts
+title: 'YouTube Scripts: Wednesday February 11, 2026'
+tone: commentary
 ---
 
 ## 🎬 60-SECOND SCRIPT (HeyGen Quick Brief)

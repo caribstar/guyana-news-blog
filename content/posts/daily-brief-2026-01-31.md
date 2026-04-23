@@ -1,13 +1,22 @@
 ---
-title: "☕ The Guyana Daily Brief – Saturday, January 31, 2026"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-01-31
-categories: ["Daily Brief"]
-tags: ["news", "Guyana", "daily brief", "satire", "January 2026"]
-description: "Budget 2026 aftermath, Guyana-UK climate deals, ExxonMobil eyes Venezuela border waters, Bangladesh opening embassy in GT, fatal Demerara River Bridge crash, and more from all four papers!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Budget 2026 aftermath, Guyana-UK climate deals, ExxonMobil eyes Venezuela
+  border waters, Bangladesh opening embassy in GT, fatal Demerara River Bridge crash,
+  and more from all four papers!
+product_family: gdb
+status: published
+tags:
+- news
+- Guyana
+- daily brief
+- satire
+- January 2026
+title: ☕ The Guyana Daily Brief – Saturday, January 31, 2026
+tone: commentary
 ---
 
 *Your daily satirical roundup of Guyanese news. We read the papers so you don't have to — but yuh still should!*

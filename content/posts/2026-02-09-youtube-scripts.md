@@ -1,13 +1,18 @@
 ---
-title: "YouTube Scripts: Monday February 9, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-02-09
-categories: ["YouTube Scripts"]
-tags: ["youtube", "heygen", "video-scripts"]
-summary: "60-second and 4-minute video scripts for Monday's Daily Brief coverage."
 draft: true
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+summary: 60-second and 4-minute video scripts for Monday's Daily Brief coverage.
+tags:
+- youtube
+- heygen
+- video-scripts
+title: 'YouTube Scripts: Monday February 9, 2026'
+tone: commentary
 ---
 
 ## 60-SECOND HEYGEN SCRIPT

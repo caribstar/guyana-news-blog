@@ -1,14 +1,22 @@
 ---
-title: "Ramesh Sees It Differently - CANU Quarter, Diamond Safety, Morocco Open Skies, and the Acrobatic Troupe of Progress"
-date: 2026-04-17T06:30:00-04:00
+authors:
+- Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-04-17 06:30:00-04:00
 draft: false
-categories: ["Uncle Ramesh"]
-authors: ["Uncle Ramesh"]
-tags: ["uncle ramesh", "commentary", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- uncle ramesh
+- commentary
+- Guyana
+title: Ramesh Sees It Differently - CANU Quarter, Diamond Safety, Morocco Open Skies,
+  and the Acrobatic Troupe of Progress
+tone: commentary
 ---
 
 Good morning to all my loyal readers. Uncle Ramesh here, with the news as it actually stands, not as the doomsayers will have you believe.

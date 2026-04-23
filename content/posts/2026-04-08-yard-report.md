@@ -1,13 +1,23 @@
 ---
-title: "The Yard Report – April 8, 2026"
+author: Yard Report
+categories:
+- Caribbean Brief
+- Jamaica
+content_type: satire
 date: 2026-04-08
-categories: ["Caribbean Brief", "Jamaica"]
-tags: ["Jamaica", "economy", "education", "crime", "World Bank"]
-author: "Yard Report"
-description: "Kingston's sardonic take on Jamaica's minus-one-percent growth, students exposed to sex in school shelters, and a JDF soldier charged with murder."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Kingston's sardonic take on Jamaica's minus-one-percent growth, students
+  exposed to sex in school shelters, and a JDF soldier charged with murder.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- economy
+- education
+- crime
+- World Bank
+title: The Yard Report – April 8, 2026
+tone: commentary
 ---
 
 Good morning from Kingston, where the World Bank has confirmed what everybody in this yard already knew: Jamaica's economy went backward this year. Minus one percent. The Bank says we will grow 3.2 percent in 2027, which is the economic equivalent of telling someone who tripped on a kerb that they'll probably walk fine next year.

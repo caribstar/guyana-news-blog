@@ -1,13 +1,22 @@
 ---
-title: "Back-A-Truck — March 19, 2026"
+categories:
+- Back-A-Truck
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["Back-A-Truck"]
-tags: ["back-a-truck", "classifieds", "humor", "satire", "fiction", "guyana"]
-description: "Guyana's most fictional classifieds. Items for sale, wanted, and otherwise negotiable."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Guyana's most fictional classifieds. Items for sale, wanted, and otherwise
+  negotiable.
+product_family: series
+status: published
+tags:
+- back-a-truck
+- classifieds
+- humor
+- satire
+- fiction
+- guyana
+title: Back-A-Truck — March 19, 2026
+tone: commentary
 ---
 
 *Back-A-Truck: Guyana's fictional marketplace. All listings fictional. All prices negotiable. No returns.*

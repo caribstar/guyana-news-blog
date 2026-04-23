@@ -1,13 +1,24 @@
 ---
-title: "Caribbean Daily Brief – April 8, 2026"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
 date: 2026-04-08
-categories: ["Caribbean Brief"]
-tags: ["Jamaica", "Trinidad", "Barbados", "World Bank", "CARICOM", "Carifta", "Caribbean"]
-author: "GDB Staff"
-description: "Your Wednesday Caribbean roundup: World Bank says slow down, Jamaica goes backward, T&T chases Venezuela gas, Barbados grows quietly, and Carifta children run fast."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: 'Your Wednesday Caribbean roundup: World Bank says slow down, Jamaica
+  goes backward, T&T chases Venezuela gas, Barbados grows quietly, and Carifta children
+  run fast.'
+product_family: gdb
+status: published
+tags:
+- Jamaica
+- Trinidad
+- Barbados
+- World Bank
+- CARICOM
+- Carifta
+- Caribbean
+title: Caribbean Daily Brief – April 8, 2026
+tone: commentary
 ---
 
 Good Wednesday, Caribbean. The World Bank has issued its regional economic update and the news is, as the Bank likes to say, "mixed." Translation: some of you are fine, some of you are not, and Guyana is in a different report entirely.

@@ -1,13 +1,26 @@
 ---
-title: "Caribbean Brief – Thursday, April 2, 2026"
-date: 2026-04-02T08:30:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["caribbean", "trinidad", "jamaica", "haiti", "carifta", "energy", "world cup", "st vincent", "news"]
-author: "GDB Staff"
-description: "Thursday's Caribbean roundup — Jamaica enters World Cup playoff as favourites, T&T PM heads to Caribbean Energy Week, Haiti gang operations continue, US removes radar from Tobago, and St. Vincent gets $3M from Taiwan."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-04-02 08:30:00-04:00
+description: Thursday's Caribbean roundup — Jamaica enters World Cup playoff as favourites,
+  T&T PM heads to Caribbean Energy Week, Haiti gang operations continue, US removes
+  radar from Tobago, and St. Vincent gets $3M from Taiwan.
+product_family: gdb
+status: published
+tags:
+- caribbean
+- trinidad
+- jamaica
+- haiti
+- carifta
+- energy
+- world cup
+- st vincent
+- news
+title: Caribbean Brief – Thursday, April 2, 2026
+tone: commentary
 ---
 
 *The Guyana Daily Brief surveys the wider Caribbean. The region never sleeps.*

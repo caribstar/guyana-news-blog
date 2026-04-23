@@ -1,14 +1,24 @@
 ---
-title: "De Boys Seh: We Want To Know About De Wheelbarrow"
+author: Speedeet & Wilar
+categories:
+- De Boys Seh
+- Weekly Feature
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["De Boys Seh", "Weekly Feature"]
-tags: ["De Boys Seh", "Speedeet", "Wilar", "Kids", "News Commentary"]
-author: "Speedeet & Wilar"
-description: "Speedeet and Wilar have questions about the week's news. Mostly about the wheelbarrow."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet and Wilar have questions about the week's news. Mostly about
+  the wheelbarrow.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- De Boys Seh
+- Speedeet
+- Wilar
+- Kids
+- News Commentary
+title: 'De Boys Seh: We Want To Know About De Wheelbarrow'
+tone: commentary
 ---
 
 *De Boys Seh is Speedeet and Wilar's take on the week's events. They are twelve years old. They have thoughts.*

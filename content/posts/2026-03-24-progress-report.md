@@ -1,14 +1,23 @@
 ---
-title: "Progress Report — March 24, 2026: Roads, Grants, and the Promise Tracker"
+author: Progress Report
+categories:
+- Progress Report
+- Weekly Feature
+content_type: news
+country: guyana
 date: 2026-03-24
-categories: ["Progress Report", "Weekly Feature"]
-tags: ["Progress Report", "Infrastructure", "Government Promises", "Cash Grant", "Roads"]
-author: "Progress Report"
-description: "The weekly tracker: what got done, what's still pending, and what was promised at some point that we're still waiting on."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'The weekly tracker: what got done, what''s still pending, and what was
+  promised at some point that we''re still waiting on.'
+product_family: series
+status: published
+tags:
+- Progress Report
+- Infrastructure
+- Government Promises
+- Cash Grant
+- Roads
+title: 'Progress Report — March 24, 2026: Roads, Grants, and the Promise Tracker'
+tone: commentary
 ---
 
 📋 **THE PROGRESS REPORT**  

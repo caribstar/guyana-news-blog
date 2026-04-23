@@ -1,13 +1,23 @@
 ---
-title: "☕ Monday Brief: Former Finance Minister Admits Exxon Exploited Us, Venezuela Border Watch, and Pay-To-Party Culture"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-01-19
-categories: ["Daily Brief"]
-tags: ["Exxon", "Oil Contract", "Venezuela", "Opposition Leader", "Infrastructure", "Crime"]
-description: "Winston Jordan finally admits what everyone knew, PM Phillips says troops are ready for anything Venezuelan, and birthday parties now cost admission."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Winston Jordan finally admits what everyone knew, PM Phillips says troops
+  are ready for anything Venezuelan, and birthday parties now cost admission.
+product_family: gdb
+status: published
+tags:
+- Exxon
+- Oil Contract
+- Venezuela
+- Opposition Leader
+- Infrastructure
+- Crime
+title: '☕ Monday Brief: Former Finance Minister Admits Exxon Exploited Us, Venezuela
+  Border Watch, and Pay-To-Party Culture'
+tone: commentary
 ---
 
 *Your 5-minute satirical summary of Guyana's Monday papers. We read the news so you can laugh at it!*

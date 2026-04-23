@@ -1,13 +1,26 @@
 ---
-title: "Caribbean Brief – Friday, April 3, 2026"
-date: 2026-04-03T09:00:00-04:00
-categories: ["Caribbean Brief"]
-tags: ["caribbean", "trump", "tariffs", "CARICOM", "carifta", "jamaica", "trinidad", "good friday", "caribbean brief"]
-author: "GDB Staff"
-description: "Friday Caribbean roundup — Trump's 10% tariff hits the region hard (38% for Guyana), CARICOM scrambles to respond, Jamaica gets US$50M climate fund, T&T heads into election mode, and CARIFTA opens tomorrow."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-04-03 09:00:00-04:00
+description: Friday Caribbean roundup — Trump's 10% tariff hits the region hard (38%
+  for Guyana), CARICOM scrambles to respond, Jamaica gets US$50M climate fund, T&T
+  heads into election mode, and CARIFTA opens tomorrow.
+product_family: gdb
+status: published
+tags:
+- caribbean
+- trump
+- tariffs
+- CARICOM
+- carifta
+- jamaica
+- trinidad
+- good friday
+- caribbean brief
+title: Caribbean Brief – Friday, April 3, 2026
+tone: commentary
 ---
 
 *The Guyana Daily Brief looks across the Caribbean on this Good Friday. The region has a lot to reflect on.*

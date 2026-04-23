@@ -1,13 +1,20 @@
 ---
-title: "De Boys Seh — March 19, 2026"
+categories:
+- De Boys Seh
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["De Boys Seh"]
-tags: ["gossip", "fiction", "satire", "de-boys-seh"]
-description: "What de boys on the fictional corner saying this week. All names fictional. All scenarios fictional."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: What de boys on the fictional corner saying this week. All names fictional.
+  All scenarios fictional.
+product_family: series
+status: published
+tags:
+- gossip
+- fiction
+- satire
+- de-boys-seh
+title: De Boys Seh — March 19, 2026
+tone: commentary
 ---
 
 *All characters are fictional. All scenarios are fictional. This is satire.*

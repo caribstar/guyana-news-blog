@@ -1,13 +1,21 @@
 ---
-title: "DJ Roadblock's Friday Wind-Down — March 19, 2026"
+categories:
+- DJ Roadblock
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["DJ Roadblock"]
-tags: ["dj-roadblock", "satire", "humor", "guyana", "fiction"]
-description: "DJ Roadblock recaps the week from the booth. Oil at $100, the Mohameds lose again, and de roads still not fix."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: DJ Roadblock recaps the week from the booth. Oil at $100, the Mohameds
+  lose again, and de roads still not fix.
+product_family: series
+status: published
+tags:
+- dj-roadblock
+- satire
+- humor
+- guyana
+- fiction
+title: DJ Roadblock's Friday Wind-Down — March 19, 2026
+tone: commentary
 ---
 
 *DJ Roadblock broadcasting live from de booth. All gossip fictional. All vibes very real.*

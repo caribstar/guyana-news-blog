@@ -1,14 +1,26 @@
 ---
-title: "DJ Roadblock – Friday, April 3, 2026"
-date: 2026-04-03T08:00:00-04:00
-categories: ["DJ Roadblock"]
-tags: ["dj roadblock", "guyana", "music", "vibes", "good friday", "tariffs", "carifta", "weekend"]
-author: "DJ Roadblock"
-description: "DJ Roadblock spins the weekend playlist, processes the 38% tariff through soca, and sends off the CARIFTA team with maximum energy."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+author: DJ Roadblock
+categories:
+- DJ Roadblock
+content_type: satire
+country: guyana
+date: 2026-04-03 08:00:00-04:00
+description: DJ Roadblock spins the weekend playlist, processes the 38% tariff through
+  soca, and sends off the CARIFTA team with maximum energy.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- dj roadblock
+- guyana
+- music
+- vibes
+- good friday
+- tariffs
+- carifta
+- weekend
+title: DJ Roadblock – Friday, April 3, 2026
+tone: commentary
 ---
 
 *DJ Roadblock on the ones and twos. Good Friday edition. The vibes are complicated but the music still sweet.*

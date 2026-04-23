@@ -1,14 +1,24 @@
 ---
-title: "Jamaica Brief — Cousin Leroy, April 10, 2026"
+author: Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
 date: 2026-04-10
-categories: ["Yard Brief"]
-tags: ["jamaica", "diaspora", "crime", "sport", "bronx"]
-author: "Cousin Leroy"
-description: "Leroy in the Bronx has thoughts about Shanoya, the soldier situation, gas station robberies, and why Jamaica keep making him proud and worried at the same time."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+description: Leroy in the Bronx has thoughts about Shanoya, the soldier situation,
+  gas station robberies, and why Jamaica keep making him proud and worried at the
+  same time.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- jamaica
+- diaspora
+- crime
+- sport
+- bronx
+title: Jamaica Brief — Cousin Leroy, April 10, 2026
+tone: satire
 ---
 
 Aye yo it's Leroy. Calling in from the Bronx. Cousin Merle just text me the news and I had to sit down.

@@ -1,14 +1,25 @@
 ---
-title: "DJ Roadblock — Friday, April 10, 2026"
+author: DJ Roadblock
+categories:
+- Traffic Report
+content_type: satire
+country: guyana
 date: 2026-04-10
-categories: ["Traffic Report"]
-tags: ["guyana", "traffic", "roads", "georgetown", "transport", "humor"]
-author: "DJ Roadblock"
-description: "Your Friday traffic situation with DJ Roadblock: East Bank lockdown, the Camp Street crawl, Sheriff Street surprises, and why the Kitty roundabout is still an unsolved philosophical problem."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: 'Your Friday traffic situation with DJ Roadblock: East Bank lockdown,
+  the Camp Street crawl, Sheriff Street surprises, and why the Kitty roundabout is
+  still an unsolved philosophical problem.'
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- traffic
+- roads
+- georgetown
+- transport
+- humor
+title: DJ Roadblock — Friday, April 10, 2026
+tone: commentary
 ---
 
 *🚗 DJ ROADBLOCK — Friday April 10, 2026 🚗*

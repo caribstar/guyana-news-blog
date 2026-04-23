@@ -1,12 +1,17 @@
 ---
-title: "YouTube Scripts - Friday February 6, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-02-06
 draft: true
-categories: ["YouTube Scripts"]
-tags: ["YouTube", "HeyGen", "Scripts"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- YouTube
+- HeyGen
+- Scripts
+title: YouTube Scripts - Friday February 6, 2026
+tone: commentary
 ---
 
 ## 60-SECOND SCRIPT (~150 words)

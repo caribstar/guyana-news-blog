@@ -1,12 +1,22 @@
 ---
-title: "Caribbean Brief: Mottley's Three-Peat, US Visa Crackdowns, and Airlines in Chaos"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-01-28
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Barbados Election", "Mia Mottley", "US Visa", "Caribbean Airlines", "Venezuela"]
-summary: "Barbados heads to polls February 11, Caribbean faces stricter US visa rules, and airlines are cutting routes left and right."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Barbados heads to polls February 11, Caribbean faces stricter US visa rules,
+  and airlines are cutting routes left and right.
+tags:
+- Barbados Election
+- Mia Mottley
+- US Visa
+- Caribbean Airlines
+- Venezuela
+title: 'Caribbean Brief: Mottley''s Three-Peat, US Visa Crackdowns, and Airlines in
+  Chaos'
+tone: commentary
 ---
 
 *Your 5-minute satirical summary of Caribbean news. We read the regional papers so you don't have to!* 🌴

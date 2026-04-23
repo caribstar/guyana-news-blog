@@ -1,14 +1,22 @@
 ---
-title: "Cousin Leroy: Yo Dem REALLY Charge Jaii Frais??? And Somebody Stole De HURRICANE RELIEF?? From CANADA?? Yo WHAT"
-date: 2026-04-18T09:00:00-04:00
+authors:
+- Cousin Leroy
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-18 09:00:00-04:00
 draft: false
-categories: ["Yard Brief"]
-authors: ["Cousin Leroy"]
-tags: ["Jamaica", "Bronx", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Bronx
+- dueling blogs
+title: 'Cousin Leroy: Yo Dem REALLY Charge Jaii Frais??? And Somebody Stole De HURRICANE
+  RELIEF?? From CANADA?? Yo WHAT'
+tone: satire
 ---
 
 Yooooo wah gwaan fam. Leroy here calling from the BX on my 15-minute break at Logan, I am literally eating a bodega sandwich as I type this, and I have to put DOWN the sandwich because I JUST SAW THE JAMAICA NEWS.

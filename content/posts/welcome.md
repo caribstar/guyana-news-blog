@@ -1,15 +1,18 @@
 ---
-title: "Welcome to Funny Take on Guyana Daily News!"
-date: 2025-01-09T08:00:00-04:00
+categories:
+- Announcements
+content_type: commentary
+date: 2025-01-09 08:00:00-04:00
 draft: false
-tags: ["introduction", "guyana"]
-categories: ["Announcements"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- introduction
+- guyana
+title: Welcome to Funny Take on Guyana Daily News!
+tone: commentary
 ---
 
 # Welcome! ‚
 
 Your daily dose of Guyanese news with comedy!
-

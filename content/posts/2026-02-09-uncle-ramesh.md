@@ -1,13 +1,29 @@
 ---
-title: "Uncle Ramesh Take: Two Guyanese Boys Own de World Cup, But de Brief Want Talk About Auditor General"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-02-09
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["guyana", "politics", "pro-government", "budget-2026", "cricket", "t20-world-cup", "hetmyer", "shepherd", "linden", "gas-to-energy"]
-summary: "Uncle Ramesh from Queens celebrates Hetmyer and Shepherd's World Cup heroics, praises the Bayroc Stadium opening, and wonders why the Brief is obsessed with Christopher Ram."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh from Queens celebrates Hetmyer and Shepherd's World Cup heroics,
+  praises the Bayroc Stadium opening, and wonders why the Brief is obsessed with Christopher
+  Ram.
+tags:
+- guyana
+- politics
+- pro-government
+- budget-2026
+- cricket
+- t20-world-cup
+- hetmyer
+- shepherd
+- linden
+- gas-to-energy
+title: 'Uncle Ramesh Take: Two Guyanese Boys Own de World Cup, But de Brief Want Talk
+  About Auditor General'
+tone: commentary
 ---
 
 🇬🇾 *Uncle Ramesh is a proud member of the Guyanese diaspora who reads all four newspapers every morning and has strong opinions about everything. He is not affiliated with any political party, but he does believe in giving credit where credit is due.*

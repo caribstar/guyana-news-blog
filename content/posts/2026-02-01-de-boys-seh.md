@@ -1,13 +1,24 @@
 ---
-title: "De Boys Seh: Development Bank Loans, Mash Prep, and Why Big People Love de Word 'Ambitious'"
+categories:
+- Speedeet & Wilar
+- De Boys Seh
+content_type: commentary
+country: guyana
 date: 2026-02-01
-categories: ["Speedeet & Wilar", "De Boys Seh"]
-tags: ["youth", "commentary", "Guyanese-culture", "friendship", "Budget-2026", "Mashramani"]
-summary: "Speedeet and Wilar try to understand interest-free loans, wonder who is paying for Mash costumes, and discover that big people use de word 'ambitious' for everything."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: Speedeet and Wilar try to understand interest-free loans, wonder who is paying
+  for Mash costumes, and discover that big people use de word 'ambitious' for everything.
+tags:
+- youth
+- commentary
+- Guyanese-culture
+- friendship
+- Budget-2026
+- Mashramani
+title: 'De Boys Seh: Development Bank Loans, Mash Prep, and Why Big People Love de
+  Word ''Ambitious'''
+tone: commentary
 ---
 
 *Every Sunday, Speedeet and Wilar give we dem take on wha happening in Guyana from a 12-year-old perspective. Two boys from Pike Street, Kitty — no politics, just real talk!* 🇬🇾

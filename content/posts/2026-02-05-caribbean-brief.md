@@ -1,12 +1,26 @@
 ---
-title: "Caribbean Daily Brief — Barbados Election Next Week, Jamaica Gets IMF Emergency Cash, T&T PM Slams CARICOM, and US Visa Crackdown Continues"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-05
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Barbados", "Jamaica", "Trinidad", "Haiti", "Regional", "Tourism"]
-description: "Barbados goes to the polls February 11th, Jamaica secures $415M IMF emergency assistance, Trinidad PM doubles down on CARICOM criticism, CARICOM rebukes Haiti leadership, US tightens visa scrutiny across the region, and Caribbean tourism takes a hit."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+description: Barbados goes to the polls February 11th, Jamaica secures $415M IMF emergency
+  assistance, Trinidad PM doubles down on CARICOM criticism, CARICOM rebukes Haiti
+  leadership, US tightens visa scrutiny across the region, and Caribbean tourism takes
+  a hit.
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- Barbados
+- Jamaica
+- Trinidad
+- Haiti
+- Regional
+- Tourism
+title: Caribbean Daily Brief — Barbados Election Next Week, Jamaica Gets IMF Emergency
+  Cash, T&T PM Slams CARICOM, and US Visa Crackdown Continues
+tone: commentary
 ---
 
 *Your weekly satirical roundup of Caribbean news beyond Guyana's borders. Because the region is more than just one country.* 🌴

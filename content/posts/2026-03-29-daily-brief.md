@@ -1,14 +1,31 @@
 ---
-title: "Sunday Brief: Georgetown Flood, Karpowership Extension & The Streets That Used To Be Ours"
-date: 2026-03-29T06:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["Georgetown", "flooding", "GPL", "Karpowership", "Gas-to-Energy", "Mayor and City Council", "Ministry of Public Works", "Mohameds", "CCJ", "Jagan Memorial Cycle Race", "ExxonMobil", "Fenty Beauty"]
-author: "GDB Staff"
-description: "Georgetown flooded again, the powerships are staying longer than expected, the government and the Mayor are fighting over who owns the streets, and Rihanna's makeup is now available in Guyana. Sunday, bai."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-03-29 06:00:00-04:00
+description: Georgetown flooded again, the powerships are staying longer than expected,
+  the government and the Mayor are fighting over who owns the streets, and Rihanna's
+  makeup is now available in Guyana. Sunday, bai.
+product_family: gdb
+status: published
+tags:
+- Georgetown
+- flooding
+- GPL
+- Karpowership
+- Gas-to-Energy
+- Mayor and City Council
+- Ministry of Public Works
+- Mohameds
+- CCJ
+- Jagan Memorial Cycle Race
+- ExxonMobil
+- Fenty Beauty
+title: 'Sunday Brief: Georgetown Flood, Karpowership Extension & The Streets That
+  Used To Be Ours'
+tone: commentary
 ---
 
 *Sunday, March 29, 2026 | Guyana Daily Brief*

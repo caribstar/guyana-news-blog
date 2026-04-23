@@ -1,11 +1,20 @@
 ---
-title: "Caribbean Brief: Barbados Votes Tomorrow, T&T PM Talks Energy, and Jamaica Mourns 'Cat' Coore"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-10
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Barbados Elections", "Trinidad", "Jamaica", "T20 World Cup", "Caribbean"]
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Barbados Elections
+- Trinidad
+- Jamaica
+- T20 World Cup
+- Caribbean
+title: 'Caribbean Brief: Barbados Votes Tomorrow, T&T PM Talks Energy, and Jamaica
+  Mourns ''Cat'' Coore'
+tone: commentary
 ---
 
 *Your daily Caribbean roundup — what's happening across the region.*

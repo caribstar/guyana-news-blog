@@ -1,13 +1,23 @@
 ---
-title: "Uncle Ramesh's Corner — Wednesday, March 19, 2026"
+categories:
+- Uncle Ramesh
+- Opinion
+content_type: commentary
+country: guyana
 date: 2026-03-19
-categories: ["Uncle Ramesh", "Opinion"]
-tags: ["pro-government", "Chronicle", "oil", "cash grant", "training", "Uruguay"]
-description: "Uncle Ramesh reads only the Chronicle, sees only the bright side, and adds what the Brief missed."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh reads only the Chronicle, sees only the bright side, and
+  adds what the Brief missed.
+product_family: gdb
+status: published
+tags:
+- pro-government
+- Chronicle
+- oil
+- cash grant
+- training
+- Uruguay
+title: Uncle Ramesh's Corner — Wednesday, March 19, 2026
+tone: commentary
 ---
 
 *Uncle Ramesh reads only the Guyana Chronicle. He is a patriot. He has opinions.*

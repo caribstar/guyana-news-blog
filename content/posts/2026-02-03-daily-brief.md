@@ -1,14 +1,27 @@
 ---
-title: "Tuesday's Guyana Brief — Budget Debate Opens With Animal Noises, Speaker Locks Out Press, and President Flies to Belize to Tell Them How Great Guyana Is"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-03
 draft: false
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "News", "Satire", "Budget 2026", "Parliament", "Press Freedom"]
-summary: "The 2026 budget debate opened with heckling and bizarre animal noises, Speaker Nadir brought back COVID rules to limit journalists to five, Ali told Belize to follow Guyana's lead on food security, WIN and APNU both trashed the budget for different reasons, and a beloved Rupununi tour guide was murdered over cattle rustling."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: The 2026 budget debate opened with heckling and bizarre animal noises, Speaker
+  Nadir brought back COVID rules to limit journalists to five, Ali told Belize to
+  follow Guyana's lead on food security, WIN and APNU both trashed the budget for
+  different reasons, and a beloved Rupununi tour guide was murdered over cattle rustling.
+tags:
+- Guyana
+- News
+- Satire
+- Budget 2026
+- Parliament
+- Press Freedom
+title: Tuesday's Guyana Brief — Budget Debate Opens With Animal Noises, Speaker Locks
+  Out Press, and President Flies to Belize to Tell Them How Great Guyana Is
+tone: commentary
 ---
 
 Good morning, Guyana! ☕

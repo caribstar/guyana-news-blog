@@ -1,14 +1,25 @@
 ---
-title: "Trini Brief — Trini Dispatch, April 10, 2026"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
 date: 2026-04-10
-categories: ["Trini Brief"]
-tags: ["trinidad", "tobago", "jet ski", "politics", "venezuela", "crime"]
-author: "Trini Dispatch"
-description: "A seven-year-old is dead at Pigeon Point, the government is sending a delegation to Caracas, PM Persad-Bissessar distributed fire tenders in Penal, and the PNM Tobago council internal election has been rescheduled. Standard."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+description: A seven-year-old is dead at Pigeon Point, the government is sending a
+  delegation to Caracas, PM Persad-Bissessar distributed fire tenders in Penal, and
+  the PNM Tobago council internal election has been rescheduled. Standard.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- trinidad
+- tobago
+- jet ski
+- politics
+- venezuela
+- crime
+title: Trini Brief — Trini Dispatch, April 10, 2026
+tone: satire
 ---
 
 Port of Spain. Friday. Let us begin with the thing that matters most.

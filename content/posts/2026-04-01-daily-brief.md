@@ -1,14 +1,25 @@
 ---
-title: "Daily Brief – Wednesday, April 1, 2026"
-date: 2026-04-01T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["guyana", "news", "daily brief", "politics", "flooding", "oil", "identity card", "mining"]
-author: "GDB Staff"
-description: "Your Wednesday morning roundup of Guyana's top stories — flooding warnings, digital IDs, oil drama, and the AFC demanding government fork over $9 billion."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-01 07:00:00-04:00
+description: Your Wednesday morning roundup of Guyana's top stories — flooding warnings,
+  digital IDs, oil drama, and the AFC demanding government fork over $9 billion.
+product_family: gdb
+status: published
+tags:
+- guyana
+- news
+- daily brief
+- politics
+- flooding
+- oil
+- identity card
+- mining
+title: Daily Brief – Wednesday, April 1, 2026
+tone: commentary
 ---
 
 *Wednesday, April 1, 2026 — Your morning cup of chaos, served hot.*

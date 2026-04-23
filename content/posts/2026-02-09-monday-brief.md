@@ -1,13 +1,30 @@
 ---
-title: "Monday Brief: Auditor General Goes Silent While Billions Vanish, 77 Cubans Screened for Trafficking, and Hetmyer Breaks a World Cup Record"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-09
-categories: ["Daily Brief", "News"]
-tags: ["guyana", "politics", "oil", "budget-2026", "cricket", "t20-world-cup", "auditor-general", "cuba", "human-trafficking", "drones"]
-summary: "Christopher Ram questions whether the Auditor General is actually auditing anything, 77 Cubans are screened for suspected human trafficking, more than 20 homes bulldozed in Circuitville, and Hetmyer smashes the fastest WI fifty in T20 World Cup history."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Christopher Ram questions whether the Auditor General is actually auditing
+  anything, 77 Cubans are screened for suspected human trafficking, more than 20 homes
+  bulldozed in Circuitville, and Hetmyer smashes the fastest WI fifty in T20 World
+  Cup history.
+tags:
+- guyana
+- politics
+- oil
+- budget-2026
+- cricket
+- t20-world-cup
+- auditor-general
+- cuba
+- human-trafficking
+- drones
+title: 'Monday Brief: Auditor General Goes Silent While Billions Vanish, 77 Cubans
+  Screened for Trafficking, and Hetmyer Breaks a World Cup Record'
+tone: commentary
 ---
 
 ☀️ **Good Morning, Guyana!** It's Monday, February 9, 2026. The T20 World Cup is in full swing, the Budget debate just wrapped with more fireworks than Diwali, and Christopher Ram is asking questions that nobody in government wants to answer. Grab your coffee. This one's spicy.

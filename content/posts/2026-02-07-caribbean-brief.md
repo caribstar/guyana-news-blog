@@ -1,12 +1,24 @@
 ---
-title: "🌴 Caribbean Brief: Trinidad Carnival EXPLODES, Barbados Election in 4 Days, Jamaica IMF Rescue, and Windies Open T20 Campaign"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-07
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Trinidad Carnival", "Barbados Election", "Jamaica IMF", "T20 World Cup", "CARICOM", "Haiti"]
-summary: "Trinidad Carnival kicks off TODAY, Barbados heads to polls February 11, Jamaica takes $415M IMF emergency loan, West Indies open T20 World Cup vs Scotland, and US tightens visa screws on Caribbean nationals."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Trinidad Carnival kicks off TODAY, Barbados heads to polls February 11, Jamaica
+  takes $415M IMF emergency loan, West Indies open T20 World Cup vs Scotland, and
+  US tightens visa screws on Caribbean nationals.
+tags:
+- Trinidad Carnival
+- Barbados Election
+- Jamaica IMF
+- T20 World Cup
+- CARICOM
+- Haiti
+title: "\U0001F334 Caribbean Brief: Trinidad Carnival EXPLODES, Barbados Election
+  in 4 Days, Jamaica IMF Rescue, and Windies Open T20 Campaign"
+tone: commentary
 ---
 
 *Your Saturday roundup of what's happening across the Caribbean. Same satirical voice, wider lens.*

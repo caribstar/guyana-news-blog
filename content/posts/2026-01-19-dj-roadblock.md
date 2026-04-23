@@ -1,13 +1,22 @@
 ---
-title: "🚗 DJ Roadblock Traffic Report: January 19, 2026"
+categories:
+- Traffic Report
+content_type: commentary
+country: guyana
 date: 2026-01-19
-categories: ["Traffic Report"]
-tags: ["DJ Roadblock", "traffic", "Georgetown", "weekly", "roads", "potholes"]
-description: "Yuh weekly guide to navigating de madness on Guyana roads. West Ruimveldt crying, Regent Street swimming, and de cones multiplying!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Yuh weekly guide to navigating de madness on Guyana roads. West Ruimveldt
+  crying, Regent Street swimming, and de cones multiplying!
+product_family: series
+status: published
+tags:
+- DJ Roadblock
+- traffic
+- Georgetown
+- weekly
+- roads
+- potholes
+title: "\U0001F697 DJ Roadblock Traffic Report: January 19, 2026"
+tone: commentary
 ---
 
 *Disclaimer: DJ Roadblock's Traffic Report is satirical commentary on Guyana's road infrastructure and general traffic situations. No specific individuals are referenced or targeted. This is entertainment about SYSTEMS and SITUATIONS, not people.*

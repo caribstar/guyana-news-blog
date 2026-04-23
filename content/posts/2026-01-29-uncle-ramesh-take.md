@@ -1,13 +1,21 @@
 ---
-title: "Uncle Ramesh Take – Wednesday, January 29, 2026"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+- Commentary
+content_type: parody_column
+country: guyana
 date: 2026-01-29
-categories: ["Uncle Ramesh", "Commentary"]
-tags: ["Guyana", "Pro-Government", "Diaspora", "Budget 2026"]
-author: "Uncle Ramesh"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Guyana
+- Pro-Government
+- Diaspora
+- Budget 2026
+title: Uncle Ramesh Take – Wednesday, January 29, 2026
+tone: commentary
 ---
 
 *A Pro-Government Perspective from Queens, NY* 🗽🇬🇾

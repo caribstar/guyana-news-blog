@@ -1,14 +1,22 @@
 ---
-title: "😊 [PRO-GOV] Uncle Ramesh: When De Numbers Tell De REAL Story"
+categories:
+- Opinion
+- Uncle Ramesh
+content_type: commentary
+country: guyana
 date: 2026-01-13
 draft: false
-categories: ["Opinion", "Uncle Ramesh"]
-tags: ["satire", "uncle-ramesh", "crime", "pro-government"]
-summary: "Uncle Ramesh explains why 25% crime reduction is actually amazing, and why spending $123M on safety makes sense. Progress is progress!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Uncle Ramesh explains why 25% crime reduction is actually amazing, and why
+  spending $123M on safety makes sense. Progress is progress!
+tags:
+- satire
+- uncle-ramesh
+- crime
+- pro-government
+title: "\U0001F60A [PRO-GOV] Uncle Ramesh: When De Numbers Tell De REAL Story"
+tone: commentary
 ---
 
 *Uncle Ramesh reading the crime statistics with a satisfied nod*
@@ -163,6 +171,3 @@ Is everything perfect? No! But Uncle Ramesh ask: **Show me de perfect country!**
 ***Reading the Other Side:** De critics will focus on murders being up and say all de progress ain't real. Read de Monday Brief for dat doom and gloom perspective.
 
 Uncle Ramesh is a fictional character representing pro-government perspectives. His views are satirical commentary. But dem crime reduction numbers? Dem REAL. Check de statistics!*
-
-
-

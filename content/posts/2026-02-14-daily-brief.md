@@ -1,13 +1,19 @@
 ---
-title: "Daily Brief – February 14, 2026"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-02-14
 draft: false
-categories: ["Daily Brief"]
-tags: ["Stabroek News", "Guyana Chronicle", "Kaieteur News", "Guyana Times"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Stabroek News
+- Guyana Chronicle
+- Kaieteur News
+- Guyana Times
+title: Daily Brief – February 14, 2026
+tone: commentary
 ---
 
 **Happy Valentine's Day, Guyana. Love is in the air. And so is the smell of flooding, budget drama, and the slow death of print journalism. Romantic.**

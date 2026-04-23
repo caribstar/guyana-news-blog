@@ -1,14 +1,28 @@
 ---
-title: "Daily Brief - Monday, April 20, 2026"
-date: 2026-04-20T07:00:00-04:00
-categories: ["Daily Brief"]
-tags: ["guyana", "crime", "ecd", "exxon", "pork", "passport", "scotiabank", "caribbean airlines", "mahdia", "venezuela"]
-author: "GDB Staff"
-description: "Your Monday morning rundown — three crime stories before breakfast, Exxon's pipeline math gets weirder, the passport portal is almost ready (almost), and the country imports a US firm to teach us how to slaughter a pig properly."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
+date: 2026-04-20 07:00:00-04:00
+description: Your Monday morning rundown — three crime stories before breakfast, Exxon's
+  pipeline math gets weirder, the passport portal is almost ready (almost), and the
+  country imports a US firm to teach us how to slaughter a pig properly.
+product_family: gdb
+status: published
+tags:
+- guyana
+- crime
+- ecd
+- exxon
+- pork
+- passport
+- scotiabank
+- caribbean airlines
+- mahdia
+- venezuela
+title: Daily Brief - Monday, April 20, 2026
+tone: commentary
 ---
 
 Good morning, Guyana. The weekend ended quietly the way a tin roof ends quietly — by the time you noticed the noise, it was already over. Coffee in hand. Let's begin.

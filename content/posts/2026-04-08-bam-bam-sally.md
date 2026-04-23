@@ -1,14 +1,24 @@
 ---
-title: "Bam-Bam Sally and de Rumour Mill — April 8, 2026"
+author: Bam-Bam Sally
+categories:
+- Bam-Bam Sally
+content_type: satire
+country: guyana
 date: 2026-04-08
-categories: ["Bam-Bam Sally"]
-tags: ["guyana", "satire", "gossip", "fiction", "entertainment", "humour"]
-author: "Bam-Bam Sally"
-description: "Bam-Bam Sally with de Wednesday Rumour Mill — entirely fictional gossip about nobody in particular doing nothing specific somewhere unspecified. As always."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Bam-Bam Sally with de Wednesday Rumour Mill — entirely fictional gossip
+  about nobody in particular doing nothing specific somewhere unspecified. As always.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- satire
+- gossip
+- fiction
+- entertainment
+- humour
+title: Bam-Bam Sally and de Rumour Mill — April 8, 2026
+tone: commentary
 ---
 
 *⚠️ FULL DISCLAIMER: Bam-Bam Sally and de Rumour Mill is 100% fictional satire. Every character, situation, name, and rumour in this column is invented for entertainment purposes only. No real persons are identified, targeted, or described. This content complies fully with Guyana's Cybercrime Act. If you think this is about you, it is not, because none of it is about anyone.*

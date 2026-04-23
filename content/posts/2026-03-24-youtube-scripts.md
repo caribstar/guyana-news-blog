@@ -1,13 +1,22 @@
 ---
-title: "YouTube Scripts – March 24, 2026: Wheelbarrows, Oil, and the CCJ"
+author: Daily Brief
+categories:
+- YouTube Scripts
+- Video Content
+content_type: news
 date: 2026-03-24
-categories: ["YouTube Scripts", "Video Content"]
-tags: ["HeyGen", "Scripts", "Mohameds", "Exxon", "Cash Grant"]
-author: "Daily Brief"
-description: "Two HeyGen-ready YouTube scripts for Tuesday March 24, 2026 — 60-second quick brief and 4-minute full episode."
-tone: "commentary"
-status: "published"
-product_family: "series"
+description: Two HeyGen-ready YouTube scripts for Tuesday March 24, 2026 — 60-second
+  quick brief and 4-minute full episode.
+product_family: series
+status: published
+tags:
+- HeyGen
+- Scripts
+- Mohameds
+- Exxon
+- Cash Grant
+title: 'YouTube Scripts – March 24, 2026: Wheelbarrows, Oil, and the CCJ'
+tone: commentary
 ---
 
 # YOUTUBE SCRIPTS — TUESDAY, MARCH 24, 2026

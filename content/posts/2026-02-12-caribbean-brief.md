@@ -1,14 +1,21 @@
 ---
-title: "Caribbean Brief: Barbados Votes, Trinidad Talks Energy, Cuba Still Running On Fumes"
-date: 2026-02-12T08:00:00-04:00
+author: The Guyana Daily Brief
+categories:
+- Caribbean Brief
+content_type: news
+date: 2026-02-12 08:00:00-04:00
+description: Barbados goes to the polls in snap elections, Trinidad positions itself
+  as energy gold standard, and Cuba's fuel crisis means airlines can't even refuel
+  on the island.
 draft: false
-tags: ["caribbean-brief", "regional"]
-categories: ["Caribbean Brief"]
-author: "The Guyana Daily Brief"
-description: "Barbados goes to the polls in snap elections, Trinidad positions itself as energy gold standard, and Cuba's fuel crisis means airlines can't even refuel on the island."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- caribbean-brief
+- regional
+title: 'Caribbean Brief: Barbados Votes, Trinidad Talks Energy, Cuba Still Running
+  On Fumes'
+tone: commentary
 ---
 
 ## Barbados: Election Day

@@ -1,14 +1,22 @@
 ---
-title: "Yard Report: Dem Charge Jaii Frais, MSMEs in Triple Threat, Second Sibling Gone in Spanish Town, and a Canadian Man Steals De Hurricane Relief"
-date: 2026-04-18T08:30:00-04:00
+authors:
+- Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-18 08:30:00-04:00
 draft: false
-categories: ["Yard Brief"]
-authors: ["Yard Report"]
-tags: ["Jamaica", "Kingston", "dueling blogs"]
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Kingston
+- dueling blogs
+title: 'Yard Report: Dem Charge Jaii Frais, MSMEs in Triple Threat, Second Sibling
+  Gone in Spanish Town, and a Canadian Man Steals De Hurricane Relief'
+tone: satire
 ---
 
 Morning, Jamrock. Yard Report here on a Saturday morning, working through coffee and trying to reconcile the week's news with the limited supply of patience I woke up with.

@@ -1,14 +1,24 @@
 ---
-title: "Yard Report: The Pension Office Says 'Late July 2026,' Howard Lau Says 'Not My Bill,' and the Reggae Girlz Say 'Guyana, Hold My Coffee'"
-date: 2026-04-19T11:00:00-04:00
+authors:
+- Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-19 11:00:00-04:00
 draft: false
-categories: ["Yard Brief"]
-authors: ["Yard Report"]
-tags: ["Jamaica", "Yard Report", "pensions", "UHWI", "Reggae Girlz"]
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- Yard Report
+- pensions
+- UHWI
+- Reggae Girlz
+title: 'Yard Report: The Pension Office Says ''Late July 2026,'' Howard Lau Says ''Not
+  My Bill,'' and the Reggae Girlz Say ''Guyana, Hold My Coffee'''
+tone: satire
 ---
 
 Kingston morning. Another Sunday of the Gleaner delivering exactly the news we knew was coming but hoped would not. Let us walk through it.

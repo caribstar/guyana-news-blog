@@ -1,14 +1,24 @@
 ---
-title: "Guyana Daily Brief – Wednesday, April 8, 2026"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-04-08
-categories: ["Daily Brief"]
-tags: ["oil", "gas", "police", "Wales", "Suriname", "crime", "St Kitts"]
-author: "GDB Staff"
-description: "Guyana pockets US$761M in oil revenue, denies secret payout to gas contractor, and a cop on video says 'I'll kill you.' Wednesday, April 8."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Guyana pockets US$761M in oil revenue, denies secret payout to gas contractor,
+  and a cop on video says 'I'll kill you.' Wednesday, April 8.
+product_family: gdb
+status: published
+tags:
+- oil
+- gas
+- police
+- Wales
+- Suriname
+- crime
+- St Kitts
+title: Guyana Daily Brief – Wednesday, April 8, 2026
+tone: commentary
 ---
 
 Good morning, Guyana. Oil is flowing, money is missing, and a policeman is on video threatening to murder a man. Wednesday.

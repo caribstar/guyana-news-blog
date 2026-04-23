@@ -1,12 +1,15 @@
 ---
-title: "The Daily Brief"
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-01-24
-categories: ["Daily Brief"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+title: The Daily Brief
+tone: commentary
 ---
+
 # The Daily Brief
 ## Saturday, January 24, 2026
 

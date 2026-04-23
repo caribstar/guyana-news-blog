@@ -1,12 +1,21 @@
 ---
-title: "Caribbean Brief: Trinidad Carnival Monday Madness, Barbados Swears In a Government, and Cuba Can't Catch a Break"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-15
 draft: false
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Trinidad Carnival", "Barbados Elections", "Cuba", "Regional"]
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- Trinidad Carnival
+- Barbados Elections
+- Cuba
+- Regional
+title: 'Caribbean Brief: Trinidad Carnival Monday Madness, Barbados Swears In a Government,
+  and Cuba Can''t Catch a Break'
+tone: commentary
 ---
 
 Good morning, Caribbean! 🌴

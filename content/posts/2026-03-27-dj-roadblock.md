@@ -1,14 +1,24 @@
 ---
-title: "🚗 DJ Roadblock Traffic Report — Friday, March 27, 2026"
+author: DJ Roadblock
+categories:
+- Traffic Report
+content_type: satire
+country: guyana
 date: 2026-03-27
-categories: ["Traffic Report"]
-tags: ["traffic", "Georgetown", "roads", "DJ-Roadblock", "weekend"]
-author: "DJ Roadblock"
-description: "DJ Roadblock is LIVE from the dashboard on a Friday afternoon. The government just claimed 22 streets, the potholes are now somebody else's problem, and Camp Street is a philosophical question."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: DJ Roadblock is LIVE from the dashboard on a Friday afternoon. The government
+  just claimed 22 streets, the potholes are now somebody else's problem, and Camp
+  Street is a philosophical question.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- traffic
+- Georgetown
+- roads
+- DJ-Roadblock
+- weekend
+title: "\U0001F697 DJ Roadblock Traffic Report — Friday, March 27, 2026"
+tone: commentary
 ---
 
 *Disclaimer: DJ Roadblock's Traffic Report is satirical commentary on Guyana's road infrastructure and general traffic situations. No specific individuals are referenced or targeted. This is entertainment about SYSTEMS and SITUATIONS, not people.*

@@ -1,14 +1,22 @@
 ---
-title: "Ramesh Sees It Differently - On Scotiabank's Well-Earned Recognition, De AG's Legal Reform, and De Quiet Infrastructure of Progress"
-date: 2026-04-18T06:30:00-04:00
+authors:
+- Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-04-18 06:30:00-04:00
 draft: false
-categories: ["Uncle Ramesh"]
-authors: ["Uncle Ramesh"]
-tags: ["uncle ramesh", "commentary", "Guyana"]
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- uncle ramesh
+- commentary
+- Guyana
+title: Ramesh Sees It Differently - On Scotiabank's Well-Earned Recognition, De AG's
+  Legal Reform, and De Quiet Infrastructure of Progress
+tone: commentary
 ---
 
 Good morning to all my readers. Uncle Ramesh here on this Saturday, April 18, with the weekend commentary as I see it — which, as my regulars know, is often quite different from how the professional grievance-writers see it.

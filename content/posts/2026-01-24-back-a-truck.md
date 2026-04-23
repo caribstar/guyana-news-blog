@@ -1,13 +1,22 @@
 ---
-title: "📸 Back-a-Truck: Weekend Deals - January 24, 2026"
+categories:
+- Back-a-Truck
+content_type: commentary
+country: guyana
 date: 2026-01-24
-categories: ["Back-a-Truck"]
-tags: ["deals", "market", "shopping", "weekend", "Stabroek", "Bourda"]
-description: "Yuh weekend guide to de best deals in de markets! From Stabroek to Bourda, we got de prices and de vibes!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Yuh weekend guide to de best deals in de markets! From Stabroek to Bourda,
+  we got de prices and de vibes!
+product_family: series
+status: published
+tags:
+- deals
+- market
+- shopping
+- weekend
+- Stabroek
+- Bourda
+title: "\U0001F4F8 Back-a-Truck: Weekend Deals - January 24, 2026"
+tone: commentary
 ---
 
 ## 🚛 BACK-A-TRUCK WEEKEND EDITION!

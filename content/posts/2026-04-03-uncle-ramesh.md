@@ -1,14 +1,26 @@
 ---
-title: "Uncle Ramesh – Friday, April 3, 2026"
-date: 2026-04-03T07:30:00-04:00
-categories: ["Uncle Ramesh"]
-tags: ["uncle ramesh", "ppp", "government", "tariffs", "good friday", "carifta", "wales gas plant"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh has a lot to process on Good Friday. The 38% tariff is not ideal. The US$82M gas plant payment is also not ideal. But CARIFTA is tomorrow and Project FLOW is real progress."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
+date: 2026-04-03 07:30:00-04:00
+description: Uncle Ramesh has a lot to process on Good Friday. The 38% tariff is not
+  ideal. The US$82M gas plant payment is also not ideal. But CARIFTA is tomorrow and
+  Project FLOW is real progress.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- uncle ramesh
+- ppp
+- government
+- tariffs
+- good friday
+- carifta
+- wales gas plant
+title: Uncle Ramesh – Friday, April 3, 2026
+tone: commentary
 ---
 
 *By Uncle Ramesh, steadfast PPP/C supporter, proud Guyanese, and man who is having a complicated Good Friday.*

@@ -1,14 +1,24 @@
 ---
-title: "DJ Roadblock's Traffic & Infrastructure Report — March 24, 2026"
+author: DJ Roadblock
+categories:
+- DJ Roadblock
+- Weekly Feature
+content_type: satire
+country: guyana
 date: 2026-03-24
-categories: ["DJ Roadblock", "Weekly Feature"]
-tags: ["Traffic", "Roads", "Infrastructure", "Georgetown", "DJ Roadblock"]
-author: "DJ Roadblock"
-description: "DJ Roadblock with your weekly road conditions, infrastructure updates, and unsolicited opinions on electric motorcycles."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: DJ Roadblock with your weekly road conditions, infrastructure updates,
+  and unsolicited opinions on electric motorcycles.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- Traffic
+- Roads
+- Infrastructure
+- Georgetown
+- DJ Roadblock
+title: DJ Roadblock's Traffic & Infrastructure Report — March 24, 2026
+tone: commentary
 ---
 
 🎵 *[Air horn sound effect]* 🎵

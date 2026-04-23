@@ -1,14 +1,25 @@
 ---
-title: "Uncle Ramesh Sees It Differently – Thursday, April 9, 2026"
+author: Uncle Ramesh
+categories:
+- Uncle Ramesh
+content_type: parody_column
+country: guyana
 date: 2026-04-09
-categories: ["Uncle Ramesh"]
-tags: ["Guyana", "PPP", "government", "oil", "gas-to-energy", "cash grant", "Suriname"]
-author: "Uncle Ramesh"
-description: "Uncle Ramesh reviews the week's news and finds the government, as usual, doing everything right despite what the papers say."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Uncle Ramesh reviews the week's news and finds the government, as usual,
+  doing everything right despite what the papers say.
+fictional_character: true
+product_family: gdb
+status: published
+tags:
+- Guyana
+- PPP
+- government
+- oil
+- gas-to-energy
+- cash grant
+- Suriname
+title: Uncle Ramesh Sees It Differently – Thursday, April 9, 2026
+tone: commentary
 ---
 
 # Uncle Ramesh Sees It Differently

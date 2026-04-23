@@ -1,14 +1,23 @@
 ---
-title: "Trini Dispatch — Thursday, April 16, 2026"
-date: 2026-04-16T07:00:00-04:00
-categories: ["Trini Brief"]
-tags: ["CARICOM", "US travel advisory", "housing deal", "Carnival", "Trinidad"]
-author: "Trini Dispatch"
-description: "Kamla calls CARICOM dysfunctional. The US still doesn't want to visit. A $3.4 billion housing deal needs explaining."
-tone: "satire"
-status: "published"
-country: "trinidad"
-product_family: "country-network"
+author: Trini Dispatch
+categories:
+- Trini Brief
+content_type: satire
+country: trinidad
+date: 2026-04-16 07:00:00-04:00
+description: Kamla calls CARICOM dysfunctional. The US still doesn't want to visit.
+  A $3.4 billion housing deal needs explaining.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- CARICOM
+- US travel advisory
+- housing deal
+- Carnival
+- Trinidad
+title: Trini Dispatch — Thursday, April 16, 2026
+tone: satire
 ---
 
 Good morning from Port of Spain, where the post-Carnival atmosphere lingers and the political atmosphere continues to be precisely what it has always been.

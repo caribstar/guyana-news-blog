@@ -1,14 +1,23 @@
 ---
-title: "Miss Violet: On the Return of Cohobblopot, the Discipline Expected of Motorists, and the Moral Failure of Letting Children Wait for Counsellors"
-date: 2026-04-19T11:30:00-04:00
+authors:
+- Miss Violet
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-19 11:30:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Miss Violet"]
-tags: ["Barbados", "Miss Violet", "Cohobblopot", "education"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Miss Violet
+- Cohobblopot
+- education
+title: 'Miss Violet: On the Return of Cohobblopot, the Discipline Expected of Motorists,
+  and the Moral Failure of Letting Children Wait for Counsellors'
+tone: satire
 ---
 
 Good morning, Barbados. Miss Violet addresses you this Sunday morning from the parish of St. Michael, where I have already attended first service and am preparing myself for a proper Sunday lunch with the usual discipline that the occasion deserves.

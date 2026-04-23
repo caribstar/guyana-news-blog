@@ -1,13 +1,21 @@
 ---
-title: "🎯 Bounty Board: Community Notices - January 24, 2026"
+categories:
+- Bounty Board
+content_type: commentary
+country: guyana
 date: 2026-01-24
-categories: ["Bounty Board"]
-tags: ["community", "events", "notices", "jobs", "announcements"]
-description: "Community notices, events, and announcements from across Guyana. Jobs, events, lost & found, and more!"
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Community notices, events, and announcements from across Guyana. Jobs,
+  events, lost & found, and more!
+product_family: series
+status: published
+tags:
+- community
+- events
+- notices
+- jobs
+- announcements
+title: "\U0001F3AF Bounty Board: Community Notices - January 24, 2026"
+tone: commentary
 ---
 
 ## 📌 COMMUNITY NOTICES FOR THE WEEK

@@ -1,13 +1,23 @@
 ---
-title: "Caribbean Daily Brief: Jamaica's Pension Scandal Widens, Trinidad Finds 56 Bodies in a Cemetery (Not Buried), Barbados Gets Fitch Warning, and the Reggae Girlz-Golden Jaguars Match Is Tonight"
-date: 2026-04-19T10:00:00-04:00
+authors:
+- Caribbean Daily Brief
+categories:
+- Caribbean Daily Brief
+content_type: news
+date: 2026-04-19 10:00:00-04:00
 draft: false
-categories: ["Caribbean Daily Brief"]
-authors: ["Caribbean Daily Brief"]
-tags: ["Caribbean", "Jamaica", "Trinidad", "Barbados", "Daily Brief"]
-tone: "commentary"
-status: "published"
-product_family: "series"
+product_family: series
+status: published
+tags:
+- Caribbean
+- Jamaica
+- Trinidad
+- Barbados
+- Daily Brief
+title: 'Caribbean Daily Brief: Jamaica''s Pension Scandal Widens, Trinidad Finds 56
+  Bodies in a Cemetery (Not Buried), Barbados Gets Fitch Warning, and the Reggae Girlz-Golden
+  Jaguars Match Is Tonight'
+tone: commentary
 ---
 
 Sunday across the region. The kind of Sunday where three countries produce three completely different species of chaos and we pretend this is normal. Pour your rum punch. Here is what is happening.

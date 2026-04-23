@@ -1,12 +1,19 @@
 ---
-title: "YouTube Scripts — Sunday February 8, 2026"
+categories:
+- YouTube Scripts
+content_type: commentary
 date: 2026-02-08
-categories: ["YouTube Scripts"]
-tags: ["Speedeet","Wilar","HeyGen","Video"]
-description: "60-second and 4-minute YouTube scripts for Speedeet & Wilar — Sunday February 8, 2026"
-tone: "commentary"
-status: "published"
-product_family: "series"
+description: 60-second and 4-minute YouTube scripts for Speedeet & Wilar — Sunday
+  February 8, 2026
+product_family: series
+status: published
+tags:
+- Speedeet
+- Wilar
+- HeyGen
+- Video
+title: YouTube Scripts — Sunday February 8, 2026
+tone: commentary
 ---
 
 ## 🎬 60-SECOND SCRIPT

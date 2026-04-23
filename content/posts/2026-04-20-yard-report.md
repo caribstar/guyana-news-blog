@@ -1,14 +1,29 @@
 ---
-title: "Yard Report - Monday, April 20, 2026"
-date: 2026-04-20T08:00:00-04:00
-categories: ["Yard Brief"]
-tags: ["jamaica", "kingston", "holness", "narra", "roofs", "hurricane melissa", "casino", "nids", "yard report"]
-author: "Yard Report"
-description: "Kingston view: ROOFS Programme is going at the speed of a man who has no banking app, the casino regulations finally arrived sixteen years after the law that needed them, and the Prime Minister explains that the unbanked are the bottleneck — which, accurate, but interesting choice of framing."
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-20 08:00:00-04:00
+description: 'Kingston view: ROOFS Programme is going at the speed of a man who has
+  no banking app, the casino regulations finally arrived sixteen years after the law
+  that needed them, and the Prime Minister explains that the unbanked are the bottleneck
+  — which, accurate, but interesting choice of framing.'
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- jamaica
+- kingston
+- holness
+- narra
+- roofs
+- hurricane melissa
+- casino
+- nids
+- yard report
+title: Yard Report - Monday, April 20, 2026
+tone: satire
 ---
 
 Mawnin', Kingston.

@@ -1,13 +1,22 @@
 ---
-title: "🚗 DJ Roadblock – Friday, February 13, 2026"
+categories:
+- DJ Roadblock
+- Weekly Feature
+content_type: commentary
+country: guyana
 date: 2026-02-13
-categories: ["DJ Roadblock", "Weekly Feature"]
-tags: ["traffic", "infrastructure", "roads", "Guyana", "weekly"]
-summary: "DJ Roadblock's Friday traffic and infrastructure report. Today: flooding edition."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+product_family: series
+status: published
+summary: 'DJ Roadblock''s Friday traffic and infrastructure report. Today: flooding
+  edition.'
+tags:
+- traffic
+- infrastructure
+- roads
+- Guyana
+- weekly
+title: "\U0001F697 DJ Roadblock – Friday, February 13, 2026"
+tone: commentary
 ---
 
 *DJ Roadblock broadcasting LIVE from somewhere between a puddle and a pond on Vlissengen Road!*

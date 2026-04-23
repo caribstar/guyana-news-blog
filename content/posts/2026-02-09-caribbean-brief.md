@@ -1,12 +1,27 @@
 ---
-title: "Caribbean Brief: Barbados Election Heats Up, Trinidad PM Addresses Energy Week, Jamaica IMF Deal, and Cuba's Humanitarian Crisis Deepens"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-09
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["caribbean", "barbados", "trinidad", "jamaica", "cuba", "elections", "energy", "imf", "caricom"]
-summary: "Barbados heads to polls February 11 with schools closing for election day, Trinidad's PM addresses Caribbean Energy Week, Jamaica's IMF $415M deal progresses, and Cuba's crisis worsens as US tightens the screws."
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Barbados heads to polls February 11 with schools closing for election day,
+  Trinidad's PM addresses Caribbean Energy Week, Jamaica's IMF $415M deal progresses,
+  and Cuba's crisis worsens as US tightens the screws.
+tags:
+- caribbean
+- barbados
+- trinidad
+- jamaica
+- cuba
+- elections
+- energy
+- imf
+- caricom
+title: 'Caribbean Brief: Barbados Election Heats Up, Trinidad PM Addresses Energy
+  Week, Jamaica IMF Deal, and Cuba''s Humanitarian Crisis Deepens'
+tone: commentary
 ---
 
 🌴 **Good Morning, Caribbean!** Here's your regional roundup for Monday, February 9, 2026.

@@ -1,15 +1,27 @@
 ---
-title: "The Remittance Corridor Breaks First: Why Sending Money to Jamaica During Disaster Season Doesn't Work the Way You Think"
-date: 2026-04-22T08:00:00-04:00
-categories: ["Yard Brief"]
-tags: ["Jamaica", "remittances", "diaspora", "economics", "disaster", "essay"]
-author: "Yard Report"
-description: "An evergreen look at the Jamaica remittance economy through the lens of what breaks during disaster season — and what that says about the diaspora-to-island money pipeline the rest of the year."
-image: "https://picsum.photos/seed/money-transfer/1280/720"
-tone: "satire"
-status: "published"
-country: "jamaica"
-product_family: "country-network"
+author: Yard Report
+categories:
+- Yard Brief
+content_type: satire
+country: jamaica
+date: 2026-04-22 08:00:00-04:00
+description: An evergreen look at the Jamaica remittance economy through the lens
+  of what breaks during disaster season — and what that says about the diaspora-to-island
+  money pipeline the rest of the year.
+fictional_character: true
+image: https://picsum.photos/seed/money-transfer/1280/720
+product_family: country-network
+status: published
+tags:
+- Jamaica
+- remittances
+- diaspora
+- economics
+- disaster
+- essay
+title: 'The Remittance Corridor Breaks First: Why Sending Money to Jamaica During
+  Disaster Season Doesn''t Work the Way You Think'
+tone: satire
 ---
 
 *By Yard Report, Kingston.*

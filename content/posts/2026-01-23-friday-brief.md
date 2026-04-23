@@ -1,17 +1,30 @@
 ---
-title: "Friday Brief: US Ambassador Says Nadir Can Have His Opinion, APAD Warns Against Fugitive Opposition Leader, Tourism Minister Takes River Cruise"
-date: 2026-01-23
-categories: ["Daily Brief", "News"]
-tags: ["US-Ambassador", "APAD", "opposition-leader", "tourism", "One-Freedom", "fibre-optics"]
-summary: "US Ambassador Theriot diplomatically sidesteps the Speaker drama, APAD joins the chorus against electing Mohamed, Minister Rodrigues cruises the Demerara, and over 200 Guyanese now certified in fibre optics. Plus opposition visits Tabatinga school and finds four workers."
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 cover:
-  image: "images/daily-brief-cover.jpg"
-  alt: "Daily Brief Cover"
+  alt: Daily Brief Cover
   hidden: true
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+  image: images/daily-brief-cover.jpg
+date: 2026-01-23
+product_family: gdb
+status: published
+summary: US Ambassador Theriot diplomatically sidesteps the Speaker drama, APAD joins
+  the chorus against electing Mohamed, Minister Rodrigues cruises the Demerara, and
+  over 200 Guyanese now certified in fibre optics. Plus opposition visits Tabatinga
+  school and finds four workers.
+tags:
+- US-Ambassador
+- APAD
+- opposition-leader
+- tourism
+- One-Freedom
+- fibre-optics
+title: 'Friday Brief: US Ambassador Says Nadir Can Have His Opinion, APAD Warns Against
+  Fugitive Opposition Leader, Tourism Minister Takes River Cruise'
+tone: commentary
 ---
 
 *Your 5-minute Guyanese news circus — now with 100% more diplomatic non-answers* 🇬🇾

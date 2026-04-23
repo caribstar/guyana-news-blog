@@ -1,14 +1,23 @@
 ---
-title: "Bajan Bugle: Fitch Issues the Annual Warning, 40 Percent of Mental Health Calls Are from Our Children, and Cohobblopot Returns"
-date: 2026-04-19T11:00:00-04:00
+authors:
+- Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
+date: 2026-04-19 11:00:00-04:00
 draft: false
-categories: ["Bajan Brief"]
-authors: ["Bajan Bugle"]
-tags: ["Barbados", "Bajan Bugle", "Fitch", "Cohobblopot"]
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bajan Bugle
+- Fitch
+- Cohobblopot
+title: 'Bajan Bugle: Fitch Issues the Annual Warning, 40 Percent of Mental Health
+  Calls Are from Our Children, and Cohobblopot Returns'
+tone: satire
 ---
 
 Bridgetown morning. The Nation's Sunday is a mixed bag, as all Sundays in a small state tend to be. Three stories are worth sitting with. Let us sit with them.

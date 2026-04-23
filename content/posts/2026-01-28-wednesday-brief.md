@@ -1,13 +1,25 @@
 ---
-title: "Wednesday Brief: The Fugitive is Official, Budget Bonanza Continues, and Mia Mottley Goes for the Three-Peat"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-01-28
-categories: ["Daily Brief", "News"]
-tags: ["Azruddin Mohamed", "Opposition Leader", "Budget 2026", "Housing", "Tourism", "Barbados Election"]
-summary: "Azruddin Mohamed is now officially Guyana's Opposition Leader despite US indictments. Meanwhile, Budget 2026 promises keep rolling out and Barbados prepares for another Mottley landslide."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: Azruddin Mohamed is now officially Guyana's Opposition Leader despite US
+  indictments. Meanwhile, Budget 2026 promises keep rolling out and Barbados prepares
+  for another Mottley landslide.
+tags:
+- Azruddin Mohamed
+- Opposition Leader
+- Budget 2026
+- Housing
+- Tourism
+- Barbados Election
+title: 'Wednesday Brief: The Fugitive is Official, Budget Bonanza Continues, and Mia
+  Mottley Goes for the Three-Peat'
+tone: commentary
 ---
 
 *Your 5-minute satirical summary of Guyana's Wednesday papers. We read the news so you can laugh at it!* 🇬🇾

@@ -1,14 +1,24 @@
 ---
-title: "Guyana Daily Brief – Thursday, April 9, 2026"
+author: GDB Staff
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-04-09
-categories: ["Daily Brief"]
-tags: ["Guyana", "news", "politics", "oil", "gas grant", "Suriname"]
-author: "GDB Staff"
-description: "Your 5-minute briefing on everything happening in Guyana today — cash grants, river wars, and an American banker who flew in to see what all the fuss is about."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: Your 5-minute briefing on everything happening in Guyana today — cash
+  grants, river wars, and an American banker who flew in to see what all the fuss
+  is about.
+product_family: gdb
+status: published
+tags:
+- Guyana
+- news
+- politics
+- oil
+- gas grant
+- Suriname
+title: Guyana Daily Brief – Thursday, April 9, 2026
+tone: commentary
 ---
 
 # Guyana Daily Brief

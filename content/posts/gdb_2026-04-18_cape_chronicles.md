@@ -1,14 +1,25 @@
 ---
-title: "The Cape Chronicles: The Springboks Aren't Luck. Here's the System That Produces World Cup Champions."
-date: 2026-04-18T08:00:00+00:00
-categories: ["South Africa Brief", "Africa Brief"]
-tags: ["South Africa", "rugby", "Springboks", "sport", "mechanisms", "Stellenbosch"]
-author: "Cape Chronicles"
+author: Cape Chronicles
+categories:
+- South Africa Brief
+- Africa Brief
+content_type: satire
+country: south-africa
+date: 2026-04-18 08:00:00+00:00
 draft: false
-tone: "satire"
-status: "published"
-country: "south-africa"
-product_family: "series"
+fictional_character: true
+product_family: series
+status: published
+tags:
+- South Africa
+- rugby
+- Springboks
+- sport
+- mechanisms
+- Stellenbosch
+title: 'The Cape Chronicles: The Springboks Aren''t Luck. Here''s the System That
+  Produces World Cup Champions.'
+tone: satire
 ---
 
 # The Cape Chronicles: The Springboks Aren't Luck. Here's the System That Produces World Cup Champions.

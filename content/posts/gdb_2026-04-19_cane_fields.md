@@ -1,14 +1,26 @@
 ---
-title: "The Indo-Caribbean Brief: Why Indo-Guyanese Culture Doesn't Exist in India Anymore"
-date: 2026-04-19T08:00:00+00:00
-categories: ["Indo-Caribbean Brief", "Guyana Brief"]
-tags: ["Guyana", "diaspora", "Indo-Guyanese", "culture", "history", "Bhojpuri", "identity", "mechanisms"]
-author: "Cane Fields"
+author: Cane Fields
+categories:
+- Indo-Caribbean Brief
+- Guyana Brief
+content_type: news
+country: guyana
+date: 2026-04-19 08:00:00+00:00
 draft: false
-tone: "satire"
-status: "published"
-country: "guyana"
-product_family: "country-network"
+product_family: country-network
+status: published
+tags:
+- Guyana
+- diaspora
+- Indo-Guyanese
+- culture
+- history
+- Bhojpuri
+- identity
+- mechanisms
+title: 'The Indo-Caribbean Brief: Why Indo-Guyanese Culture Doesn''t Exist in India
+  Anymore'
+tone: satire
 ---
 
 # The Indo-Caribbean Brief: Why Indo-Guyanese Culture Doesn't Exist in India Anymore

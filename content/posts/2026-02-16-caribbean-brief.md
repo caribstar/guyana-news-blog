@@ -1,12 +1,21 @@
 ---
-title: "Caribbean Brief: Carnival Tuesday Approaches, Barbados Cabinet Sworn In, and Maduro Pleads Not Guilty in New York"
+categories:
+- Caribbean Brief
+- Regional News
+content_type: news
 date: 2026-02-16
 draft: false
-categories: ["Caribbean Brief", "Regional News"]
-tags: ["Caribbean", "Trinidad Carnival", "Barbados", "Venezuela", "Regional"]
-tone: "commentary"
-status: "published"
-product_family: "gdb"
+product_family: gdb
+status: published
+tags:
+- Caribbean
+- Trinidad Carnival
+- Barbados
+- Venezuela
+- Regional
+title: 'Caribbean Brief: Carnival Tuesday Approaches, Barbados Cabinet Sworn In, and
+  Maduro Pleads Not Guilty in New York'
+tone: commentary
 ---
 
 Good morning, Caribbean! 🌴

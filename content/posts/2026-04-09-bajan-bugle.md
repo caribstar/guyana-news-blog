@@ -1,14 +1,26 @@
 ---
-title: "The Bajan Bugle – Thursday, April 9, 2026"
+author: Bajan Bugle
+categories:
+- Bajan Brief
+content_type: satire
+country: barbados
 date: 2026-04-09
-categories: ["Bajan Brief"]
-tags: ["Barbados", "Bridgetown", "news", "Caribbean", "cricket", "history", "Fish Festival"]
-author: "Bajan Bugle"
-description: "Bridgetown dispatches — Barbados knows its history less and less, the Fish Festival needs reform, and Barbados Pride is about to remind Jamaica who runs regional cricket."
-tone: "satire"
-status: "published"
-country: "barbados"
-product_family: "country-network"
+description: Bridgetown dispatches — Barbados knows its history less and less, the
+  Fish Festival needs reform, and Barbados Pride is about to remind Jamaica who runs
+  regional cricket.
+fictional_character: true
+product_family: country-network
+status: published
+tags:
+- Barbados
+- Bridgetown
+- news
+- Caribbean
+- cricket
+- history
+- Fish Festival
+title: The Bajan Bugle – Thursday, April 9, 2026
+tone: satire
 ---
 
 # The Bajan Bugle

@@ -1,14 +1,29 @@
 ---
-title: "Friday's Guyana Brief - Venezuela Still Scary, MP Falls in Parliament, 53,000 Weed Plants Burned, and the Budget Debate Rolls On Like a Runaway Canter"
+categories:
+- Daily Brief
+- News
+content_type: news
+country: guyana
 date: 2026-02-06
 draft: false
-categories: ["Daily Brief", "News"]
-tags: ["Guyana", "News", "Satire", "Venezuela", "Budget Debate", "GDF", "Cannabis", "Parliament"]
-summary: "President Ali tells the army 'don't blink' on Venezuela, an MP fractures her ankle falling in Parliament, police burn 53,000 cannabis plants in Linden, Kaieteur calls the budget 'matchless propaganda,' and Dem Boys Seh more road just means more traffic. Your 5-minute Friday news circus."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+product_family: gdb
+status: published
+summary: President Ali tells the army 'don't blink' on Venezuela, an MP fractures
+  her ankle falling in Parliament, police burn 53,000 cannabis plants in Linden, Kaieteur
+  calls the budget 'matchless propaganda,' and Dem Boys Seh more road just means more
+  traffic. Your 5-minute Friday news circus.
+tags:
+- Guyana
+- News
+- Satire
+- Venezuela
+- Budget Debate
+- GDF
+- Cannabis
+- Parliament
+title: Friday's Guyana Brief - Venezuela Still Scary, MP Falls in Parliament, 53,000
+  Weed Plants Burned, and the Budget Debate Rolls On Like a Runaway Canter
+tone: commentary
 ---
 
 Good morning, Guyana! ☕

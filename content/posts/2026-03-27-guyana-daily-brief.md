@@ -1,14 +1,24 @@
 ---
-title: "Guyana Daily Brief — Friday, March 27, 2026"
+author: GDB Desk
+categories:
+- Daily Brief
+content_type: news
+country: guyana
 date: 2026-03-27
-categories: ["Daily Brief"]
-tags: ["politics", "oil", "Georgetown", "labour", "crime", "security"]
-author: "GDB Desk"
-description: "Government grabs 22 Georgetown streets, Exxon builds an 8th oil ship without approval, and Kristi Noem visits State House. Plus: a rubber duck, a stolen $7M, and Uncle Ramesh has thoughts."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "gdb"
+description: 'Government grabs 22 Georgetown streets, Exxon builds an 8th oil ship
+  without approval, and Kristi Noem visits State House. Plus: a rubber duck, a stolen
+  $7M, and Uncle Ramesh has thoughts.'
+product_family: gdb
+status: published
+tags:
+- politics
+- oil
+- Georgetown
+- labour
+- crime
+- security
+title: Guyana Daily Brief — Friday, March 27, 2026
+tone: commentary
 ---
 
 *Your five-minute briefing on everything happening in the Land of Many Waters. Served fresh, slightly spicy, and completely unsponsored.*

@@ -1,14 +1,23 @@
 ---
-title: "De Boys Seh — April 9, 2026"
+author: Speedeet and Wilar
+categories:
+- De Boys Seh
+content_type: satire
+country: guyana
 date: 2026-04-09
-categories: ["De Boys Seh"]
-tags: ["guyana", "kids", "humor", "commentary", "pike street"]
-author: "Speedeet and Wilar"
-description: "Speedeet and Wilar from Pike Street have thoughts about the cash grant, the street lights, the police recruits, and why 101 is a suspicious number."
-tone: "commentary"
-status: "published"
-country: "guyana"
-product_family: "series"
+description: Speedeet and Wilar from Pike Street have thoughts about the cash grant,
+  the street lights, the police recruits, and why 101 is a suspicious number.
+fictional_character: true
+product_family: series
+status: published
+tags:
+- guyana
+- kids
+- humor
+- commentary
+- pike street
+title: De Boys Seh — April 9, 2026
+tone: commentary
 ---
 
 *De Boys Seh is written from the perspective of Speedeet and Wilar — two 12-year-old boys from Pike Street, Kitty, Georgetown. Speedeet is Black, Wilar is East Indian. They are best friends and they have opinions about everything.*
