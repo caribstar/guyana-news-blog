@@ -21,7 +21,7 @@
 
   --badge-news: #111;
   --badge-satire: #C02020;
-  --badge-parody: #D9822B;
+  --badge-parody: #B8691F;
   --badge-commentary: #2C6E8F;
 
   /* country flag colors */
@@ -411,7 +411,7 @@ body.tw-site {
 .tw-badge-parody_column { background: var(--badge-parody); }
 .tw-badge-commentary { background: var(--badge-commentary); }
 .tw-badge-analysis { background: #5a5a5a; }
-.tw-badge-kids_story { background: #d4a017; }
+.tw-badge-kids_story { background: #A67B00; }
 
 /* ==========================================================
    DUEL STRIP
@@ -580,10 +580,9 @@ body.tw-site {
   font-family: 'Fraunces', serif;
   font-weight: 300;
   color: rgba(255,255,255,0.85);
-  margin: 0 0 22px;
-  max-width: 580px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 22px;
+  max-width: 520px;
+  text-align: center;
 }
 .tw-cta .tw-cta-btn {
   display: inline-block;
@@ -639,7 +638,7 @@ body.tw-site {
   font-weight: 500;
   font-size: clamp(2rem, 4vw, 2.8rem);
   line-height: 1.12;
-  color: var(--navy);
+  color: #5EBFD9;
   margin: 0 0 14px;
   letter-spacing: -0.015em;
 }
