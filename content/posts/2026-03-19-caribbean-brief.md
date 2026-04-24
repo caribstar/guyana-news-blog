@@ -2,7 +2,7 @@
 categories:
 - Caribbean Brief
 - Regional News
-content_type: news
+content_type: commentary
 date: 2026-03-19
 description: Gas prices up in Jamaica, Trinidad extends its State of Emergency, Barbados
   delivers a budget and dusts off the flyover plans, and the whole region watches

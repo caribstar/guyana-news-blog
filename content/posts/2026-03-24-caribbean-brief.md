@@ -3,7 +3,7 @@ author: Caribbean Brief
 categories:
 - Caribbean Brief
 - Regional News
-content_type: news
+content_type: commentary
 date: 2026-03-24
 description: 'Tuesday''s regional roundup: Jamaica''s budget fight, Trinidad''s US
   persons-of-interest list, Sandals drops $200M, and Caribbean AIDS deaths fall 60%.'

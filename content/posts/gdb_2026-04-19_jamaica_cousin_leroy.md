@@ -3,7 +3,7 @@ authors:
 - Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-19 11:30:00-04:00
 draft: false

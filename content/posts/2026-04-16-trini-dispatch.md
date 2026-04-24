@@ -2,7 +2,7 @@
 author: Trini Dispatch
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-16 07:00:00-04:00
 description: Kamla calls CARICOM dysfunctional. The US still doesn't want to visit.

@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-03-30 06:00:00-04:00
 description: 'Guyana told the Caribbean to climate-proof their infrastructure, then

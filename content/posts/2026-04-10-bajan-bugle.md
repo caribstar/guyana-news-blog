@@ -2,7 +2,7 @@
 author: Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-10
 description: CARIFTA swim team returns, PAHO warns of dengue surge across the Caribbean,

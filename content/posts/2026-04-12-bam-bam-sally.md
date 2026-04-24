@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Bam-Bam Sally
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-12 11:00:00-04:00
 description: Bam-Bam Sally is back from the seawall, full of cook-up and opinions,

@@ -2,7 +2,7 @@
 categories:
 - Daily Brief
 - Guyana News
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-01-21
 product_family: gdb

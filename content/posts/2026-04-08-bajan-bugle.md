@@ -3,7 +3,7 @@ author: Bajan Bugle
 categories:
 - Caribbean Brief
 - Barbados
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: Barbados grows 2.7 percent while Jamaica shrinks. Air Canada non-stop
   coming. World Bank issues its annual assessment of regional mediocrity.

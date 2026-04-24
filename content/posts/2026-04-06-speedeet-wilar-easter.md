@@ -2,7 +2,7 @@
 author: Speedeet and Wilar
 categories:
 - Speedeet & Wilar
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-06
 description: Is Easter Monday on de seawall. Speedeet and Wilar build a kite from

@@ -2,7 +2,7 @@
 categories:
 - Caribbean Brief
 - Regional News
-content_type: news
+content_type: commentary
 date: 2026-01-27
 product_family: gdb
 status: published

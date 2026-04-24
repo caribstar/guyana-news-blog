@@ -2,7 +2,7 @@
 author: GDB Desk
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-03-27
 description: Jamaica is rebuilding after Hurricane Melissa, T&T has a new state of
   emergency and a FIFA match-fixing probe, Barbados swept its third straight election,

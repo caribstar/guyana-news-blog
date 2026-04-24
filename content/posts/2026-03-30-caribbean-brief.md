@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-03-30 07:00:00-04:00
 description: Jamaica tables its Hurricane Melissa budget, the US quietly removes military
   radar from Tobago, Guyana faces Belize in football, and Antigua is hosting the Commonwealth

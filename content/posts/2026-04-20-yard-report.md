@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-20 08:00:00-04:00
 description: 'Kingston view: ROOFS Programme is going at the speed of a man who has

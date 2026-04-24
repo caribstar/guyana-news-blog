@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-16 07:30:00-04:00
 description: Auntie Cheryl is fully supportive of Kamla's comments about CARICOM and

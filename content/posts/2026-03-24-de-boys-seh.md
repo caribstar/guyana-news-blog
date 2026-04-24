@@ -3,7 +3,7 @@ author: Speedeet & Wilar
 categories:
 - De Boys Seh
 - Weekly Feature
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: Speedeet and Wilar have questions about the week's news. Mostly about

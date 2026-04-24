@@ -3,7 +3,7 @@ authors:
 - Back-a-Truck
 categories:
 - Back-a-Truck
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-18 07:30:00-04:00
 draft: false

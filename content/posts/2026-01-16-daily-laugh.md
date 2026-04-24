@@ -3,7 +3,7 @@ author: De Comedy Crew
 categories:
 - Daily Laugh
 - Humor
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-01-16 06:00:00-04:00
 description: 'Government launches pothole app. Uncle Ramesh becomes their #1 user.

@@ -2,7 +2,7 @@
 author: Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-09
 description: Bridgetown dispatches — Barbados knows its history less and less, the

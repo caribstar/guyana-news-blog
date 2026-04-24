@@ -1,23 +1,8 @@
-﻿{{- $type := .Params.content_type | default "news" -}}
-
-{{- if eq $type "satire" -}}
-  <div style="background:#c62828;color:#fff;padding:6px 10px;font-weight:700;font-size:12px;display:inline-block;margin-bottom:10px;letter-spacing:.06em;text-transform:uppercase;">
-    SATIRE
-  </div>
-{{- else if eq $type "parody_column" -}}
-  <div style="background:#ff8f00;color:#111;padding:6px 10px;font-weight:700;font-size:12px;display:inline-block;margin-bottom:10px;letter-spacing:.06em;text-transform:uppercase;">
-    PARODY COLUMN
-  </div>
-{{- else if eq $type "analysis" -}}
-  <div style="background:#1f3c88;color:#fff;padding:6px 10px;font-weight:700;font-size:12px;display:inline-block;margin-bottom:10px;letter-spacing:.06em;text-transform:uppercase;">
-    ANALYSIS
-  </div>
-{{- else if eq $type "commentary" -}}
-  <div style="background:#555;color:#fff;padding:6px 10px;font-weight:700;font-size:12px;display:inline-block;margin-bottom:10px;letter-spacing:.06em;text-transform:uppercase;">
-    COMMENTARY
-  </div>
-{{- else -}}
-  <div style="background:#111;color:#fff;padding:6px 10px;font-weight:700;font-size:12px;display:inline-block;margin-bottom:10px;letter-spacing:.06em;text-transform:uppercase;">
-    NEWS
-  </div>
-{{- end -}}
+{{- $ct := .Params.content_type | default "commentary" -}}
+{{- $label := "" -}}
+{{- if eq $ct "news" -}}{{- $label = "NEWS" -}}{{- end -}}
+{{- if eq $ct "satire" -}}{{- $label = "SATIRE" -}}{{- end -}}
+{{- if eq $ct "parody_column" -}}{{- $label = "PARODY" -}}{{- end -}}
+{{- if eq $ct "commentary" -}}{{- $label = "COMMENTARY" -}}{{- end -}}
+{{- if eq $ct "analysis" -}}{{- $label = "ANALYSIS" -}}{{- end -}}
+<span class="tw-badge tw-badge-{{ $ct }}">{{ $label }}</span>

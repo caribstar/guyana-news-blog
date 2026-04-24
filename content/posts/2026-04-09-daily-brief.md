@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-09
 description: Your 5-minute briefing on everything happening in Guyana today — cash

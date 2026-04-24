@@ -2,7 +2,7 @@
 author: Wanjiru Kamau
 categories:
 - Kenya Brief
-content_type: satire
+content_type: parody_column
 country: kenya
 date: 2026-04-22 14:00:00-05:00
 draft: false

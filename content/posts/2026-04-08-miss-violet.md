@@ -3,7 +3,7 @@ author: Miss Violet
 categories:
 - Caribbean Brief
 - Barbados
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: Miss Violet, retired civics teacher and Barbados institution, responds
   to the World Bank report, the Air Canada announcement, and the state of the Caribbean.

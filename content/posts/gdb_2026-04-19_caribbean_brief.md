@@ -3,7 +3,7 @@ authors:
 - Caribbean Daily Brief
 categories:
 - Caribbean Daily Brief
-content_type: news
+content_type: commentary
 date: 2026-04-19 10:00:00-04:00
 draft: false
 product_family: series

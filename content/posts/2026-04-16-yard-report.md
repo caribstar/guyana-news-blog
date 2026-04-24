@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-16 07:00:00-05:00
 description: Six months after Melissa, Westmoreland still dark. UHWI owes $40 billion

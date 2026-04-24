@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Kids
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-03-19
 description: Speedeet has a theory about vinegar and baking soda. Wilar has a bad

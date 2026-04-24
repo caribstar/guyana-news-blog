@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-16 07:30:00-04:00
 description: Miss Violet is proud of the Prime Minister, concerned about the quarry,

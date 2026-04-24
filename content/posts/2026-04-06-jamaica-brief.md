@@ -2,7 +2,7 @@
 author: The Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-06 06:00:00-05:00
 description: Jamaica's weekly news with the bark left on. JACDEN scandal, fuel prices

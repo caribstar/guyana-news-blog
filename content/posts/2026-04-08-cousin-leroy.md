@@ -3,7 +3,7 @@ author: Cousin Leroy
 categories:
 - Caribbean Brief
 - Jamaica
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: Cousin Leroy in the Bronx shares his extremely confident take on Jamaica
   news. Economy, shelters, and why he still thinks JA is the greatest.

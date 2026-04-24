@@ -2,7 +2,7 @@
 author: Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-14 07:00:00-04:00
 description: Barbados is sending fewer farm workers to Canada, there is a gastrointestinal

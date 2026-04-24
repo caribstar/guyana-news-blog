@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-14 07:30:00-04:00
 description: Auntie Cheryl from Chaguanas is very proud of the PM, concerned about

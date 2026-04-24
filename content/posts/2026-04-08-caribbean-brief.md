@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-04-08
 description: 'Your Wednesday Caribbean roundup: World Bank says slow down, Jamaica
   goes backward, T&T chases Venezuela gas, Barbados grows quietly, and Carifta children

@@ -3,7 +3,7 @@ author: DJ Roadblock
 categories:
 - DJ Roadblock
 - Weekly Feature
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: DJ Roadblock with your weekly road conditions, infrastructure updates,

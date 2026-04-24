@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-20 08:15:00-04:00
 description: Cousin Leroy reading the news from his apartment in the Bronx, where

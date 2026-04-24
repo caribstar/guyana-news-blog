@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Patriots Portfolio
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-03 08:30:00-04:00
 description: This week's Patriots Portfolio — what the 38% Trump tariff means for

@@ -3,7 +3,7 @@ author: Bam-Bam Sally
 categories:
 - Bam-Bam Sally
 - Entertainment
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: Bam-Bam Sally's longer lifestyle and gossip column. All fictional. All

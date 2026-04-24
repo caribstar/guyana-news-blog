@@ -2,7 +2,7 @@
 categories:
 - Caribbean Brief
 - Regional News
-content_type: news
+content_type: commentary
 date: 2026-02-05
 description: Barbados goes to the polls February 11th, Jamaica secures $415M IMF emergency
   assistance, Trinidad PM doubles down on CARICOM criticism, CARICOM rebukes Haiti

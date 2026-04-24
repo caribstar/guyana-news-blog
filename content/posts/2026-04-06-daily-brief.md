@@ -2,7 +2,7 @@
 author: The Daily Brief
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-06 06:00:00-04:00
 description: Suriname charges up a storm, Karasabai gets an airstrip, fishermen still

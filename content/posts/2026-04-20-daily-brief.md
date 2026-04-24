@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-20 07:00:00-04:00
 description: Your Monday morning rundown — three crime stories before breakfast, Exxon's

@@ -2,7 +2,7 @@
 categories:
 - Daily Brief
 - Satire
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-03-19
 description: Oil hits triple digits, the Court of Appeal delivers another blow to

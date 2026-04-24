@@ -2,7 +2,7 @@
 author: The Guyana Daily Brief
 categories:
 - YouTube Scripts
-content_type: news
+content_type: commentary
 date: 2026-02-12 09:00:00-04:00
 description: 60-second and 4-minute HeyGen avatar scripts covering today's top stories.
 draft: false

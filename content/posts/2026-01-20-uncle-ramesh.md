@@ -1,7 +1,7 @@
 ---
 categories:
 - Uncle Ramesh
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-20
 product_family: gdb

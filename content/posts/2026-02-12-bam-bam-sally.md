@@ -3,7 +3,7 @@ author: Bam-Bam Sally
 categories:
 - The Rumour Mill
 - Bam-Bam Sally
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-02-12 10:00:00-04:00
 description: 'Bam-Bam Sally reports from the street corners: somebody cleaning out

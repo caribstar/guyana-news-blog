@@ -2,7 +2,7 @@
 author: DJ Roadblock
 categories:
 - DJ Roadblock
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-03 08:00:00-04:00
 description: DJ Roadblock spins the weekend playlist, processes the 38% tariff through

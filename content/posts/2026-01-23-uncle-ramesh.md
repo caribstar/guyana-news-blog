@@ -2,7 +2,7 @@
 categories:
 - Uncle Ramesh
 - Opinion
-content_type: commentary
+content_type: parody_column
 country: guyana
 cover:
   alt: Uncle Ramesh Cover

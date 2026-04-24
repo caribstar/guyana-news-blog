@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-09
 description: Miss Violet in Brooklyn reads about Barbados and has high standards for

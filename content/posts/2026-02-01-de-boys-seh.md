@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - De Boys Seh
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-01
 product_family: series

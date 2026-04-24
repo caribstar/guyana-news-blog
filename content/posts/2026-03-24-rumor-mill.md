@@ -3,7 +3,7 @@ author: Bam-Bam Sally
 categories:
 - The Rumour Mill
 - Entertainment
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: Bam-Bam Sally with the week's whispers, rumours, and neighbourhood chatter.

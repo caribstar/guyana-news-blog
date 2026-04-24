@@ -2,7 +2,7 @@
 categories:
 - DJ Roadblock
 - Traffic
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-30
 description: DJ Roadblock with your Friday traffic update - Stanleytown bridge delays,

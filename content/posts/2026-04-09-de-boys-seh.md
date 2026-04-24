@@ -2,7 +2,7 @@
 author: Speedeet and Wilar
 categories:
 - De Boys Seh
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-09
 description: Speedeet and Wilar from Pike Street have thoughts about the cash grant,

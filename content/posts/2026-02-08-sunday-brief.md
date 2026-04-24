@@ -1,7 +1,7 @@
 ---
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-02-08
 description: ExxonMobil completes its FPSO collection like Pokémon cards, Dr. Singh

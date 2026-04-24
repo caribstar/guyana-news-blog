@@ -2,7 +2,7 @@
 author: Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-12 08:20:00-04:00
 description: Barbados hosted a regional prison reform workshop, gastrointestinal cases

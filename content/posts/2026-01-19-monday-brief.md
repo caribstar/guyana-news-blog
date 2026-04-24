@@ -1,7 +1,7 @@
 ---
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-01-19
 description: Winston Jordan finally admits what everyone knew, PM Phillips says troops

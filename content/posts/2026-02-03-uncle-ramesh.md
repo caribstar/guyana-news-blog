@@ -3,7 +3,7 @@ categories:
 - Uncle Ramesh
 - Opinion
 - Response
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-03
 draft: false

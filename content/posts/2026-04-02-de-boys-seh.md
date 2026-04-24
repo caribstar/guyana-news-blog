@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - De Boys Seh
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-02 08:00:00-04:00
 description: De boys had a lot to say this Thursday. Tint meters, missing Nicaraguans,

@@ -2,7 +2,7 @@
 author: Violet Ifill
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-20 21:29:00-05:00
 draft: false

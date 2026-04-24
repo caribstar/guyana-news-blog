@@ -1,7 +1,7 @@
 ---
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-01-21
 product_family: gdb
 series: Caribbean Daily Brief

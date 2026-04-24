@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-11 08:15:00-04:00
 description: Auntie Cheryl is thrilled about NGC's record profits, concerned about

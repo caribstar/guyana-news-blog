@@ -2,7 +2,7 @@
 categories:
 - Patriots Portfolio
 - Economy
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-13
 product_family: series

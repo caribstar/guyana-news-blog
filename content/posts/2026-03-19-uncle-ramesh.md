@@ -2,7 +2,7 @@
 categories:
 - Uncle Ramesh
 - Opinion
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-03-19
 description: Uncle Ramesh reads only the Chronicle, sees only the bright side, and

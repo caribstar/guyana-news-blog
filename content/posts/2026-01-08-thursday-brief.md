@@ -1,3 +1,3 @@
 ---
-content_type: news
+content_type: commentary
 ---

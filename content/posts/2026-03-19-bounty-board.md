@@ -1,7 +1,7 @@
 ---
 categories:
 - Bounty Board
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-03-19
 description: Georgetown's most fictional wanted board. Rewards offered. Results not

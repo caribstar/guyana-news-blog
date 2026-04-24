@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-20 08:45:00-04:00
 description: 'Auntie Cheryl from Chaguanas weighs in: the pension news is wonderful,

@@ -3,7 +3,7 @@ authors:
 - Trini Dispatch
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-19 11:00:00-04:00
 draft: false

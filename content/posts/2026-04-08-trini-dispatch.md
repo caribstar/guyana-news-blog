@@ -3,7 +3,7 @@ author: Trini Dispatch
 categories:
 - Caribbean Brief
 - Trinidad
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: PM Kamla sending a delegation to Venezuela to get T&T's gas back. Patrice
   Roberts ordered to pay. CARICOM drama continues. Dry sardonic Port of Spain perspective.

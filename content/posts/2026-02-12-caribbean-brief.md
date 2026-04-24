@@ -2,7 +2,7 @@
 author: The Guyana Daily Brief
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-02-12 08:00:00-04:00
 description: Barbados goes to the polls in snap elections, Trinidad positions itself
   as energy gold standard, and Cuba's fuel crisis means airlines can't even refuel

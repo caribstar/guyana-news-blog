@@ -2,7 +2,7 @@
 categories:
 - Progress Report
 - News
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-11
 product_family: gdb

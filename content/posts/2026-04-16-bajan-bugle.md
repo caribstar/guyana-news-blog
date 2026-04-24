@@ -2,7 +2,7 @@
 author: Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-16 07:00:00-04:00
 description: Mottley wants Barbados to host the global Borrowers' Platform secretariat.

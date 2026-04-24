@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-16 07:30:00-05:00
 description: Leroy has been following the Westmoreland situation from the Bronx and

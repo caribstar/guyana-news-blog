@@ -1,7 +1,7 @@
 ---
 categories:
 - The Rumour Mill
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-24
 description: De hottest fictional gossip from de streets! All names fake, all scenarios

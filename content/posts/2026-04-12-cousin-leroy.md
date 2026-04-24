@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-12 08:05:00-05:00
 description: Cousin Leroy is watching Road March from the Bronx on his phone, upset

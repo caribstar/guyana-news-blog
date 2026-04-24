@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Speedeet & Wilar
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-12 09:00:00-04:00
 description: Speedeet signs them both up for the school talent show without telling

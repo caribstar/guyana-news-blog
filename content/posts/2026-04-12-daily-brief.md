@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-12 07:00:00-04:00
 description: GDF closes in on ASL crash site after 24 hours of brutal terrain, Kaieteur

@@ -2,7 +2,7 @@
 author: The Daily Brief
 categories:
 - Caribbean Daily Brief
-content_type: news
+content_type: commentary
 date: 2026-04-06 07:00:00-04:00
 description: The Caribbean is still paying 10% to sell things to the country it buys
   everything from, a regional statesman passes, and Grenada hosts CARIFTA.

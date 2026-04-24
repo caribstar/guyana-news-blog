@@ -2,7 +2,7 @@
 categories:
 - Uncle Ramesh
 - Opinion
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-25
 description: Uncle Ramesh from Queens responds to the Saturday Brief with his pro-government

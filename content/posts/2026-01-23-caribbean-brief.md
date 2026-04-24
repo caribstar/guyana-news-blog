@@ -2,7 +2,7 @@
 categories:
 - Caribbean Brief
 - Regional News
-content_type: news
+content_type: commentary
 cover:
   alt: Caribbean Brief Cover
   hidden: true

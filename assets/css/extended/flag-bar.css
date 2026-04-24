@@ -170,4 +170,14 @@
 
 /* Indo-Caribbean flag stripes (B1 palette) */
 .tw-ic { background: linear-gradient(to bottom, #ff9933 0 25%, #ffffff 25% 50%, #138808 50% 75%, #0066b3 75% 100%); }
-.tw-flag-inner { justify-content: center; }
+
+.tw-flag-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 10px 18px;
+}

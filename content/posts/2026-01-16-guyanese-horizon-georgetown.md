@@ -3,7 +3,7 @@ author: Editorial Team
 categories:
 - Guyana Rising
 - The Guyanese Horizon
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-01-16 09:00:00-04:00
 draft: false

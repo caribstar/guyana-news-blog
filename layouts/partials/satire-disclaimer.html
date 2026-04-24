@@ -1,0 +1,6 @@
+{{- $ct := .Params.content_type | default "commentary" -}}
+{{- if or (eq $ct "satire") (eq $ct "parody_column") -}}
+<div class="tw-satire-disclaimer">
+  This is satire. Characters and scenarios are fictional. Any resemblance to real persons, statements, or events is used for commentary and entertainment purposes.
+</div>
+{{- end -}}

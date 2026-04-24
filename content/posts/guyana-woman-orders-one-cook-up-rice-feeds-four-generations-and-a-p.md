@@ -2,7 +2,7 @@
 author: Seetal Sukraj
 categories:
 - Guyana Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-20 12:08:00-04:00
 draft: false

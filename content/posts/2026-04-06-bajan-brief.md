@@ -2,7 +2,7 @@
 author: The Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-06 06:00:00-04:00
 description: Mottley wins 30-0 again. Voter turnout hits a historic low. Kensington

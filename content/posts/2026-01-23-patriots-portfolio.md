@@ -2,7 +2,7 @@
 categories:
 - Patriots Portfolio
 - Satire
-content_type: commentary
+content_type: parody_column
 country: guyana
 cover:
   alt: Patriots Portfolio Cover

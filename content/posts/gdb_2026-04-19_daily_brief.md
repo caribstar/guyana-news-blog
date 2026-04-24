@@ -4,7 +4,7 @@ authors:
 categories:
 - Daily Brief
 - News
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-19 10:00:00-04:00
 draft: false

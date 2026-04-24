@@ -1,7 +1,7 @@
 ---
 categories:
 - Traffic Report
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-19
 description: Yuh weekly guide to navigating de madness on Guyana roads. West Ruimveldt

@@ -3,7 +3,7 @@ author: Daily Brief
 categories:
 - YouTube Scripts
 - Video Content
-content_type: news
+content_type: commentary
 date: 2026-03-24
 description: Two HeyGen-ready YouTube scripts for Tuesday March 24, 2026 — 60-second
   quick brief and 4-minute full episode.

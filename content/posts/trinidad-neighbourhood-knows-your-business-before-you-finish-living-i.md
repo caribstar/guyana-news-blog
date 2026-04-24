@@ -2,7 +2,7 @@
 author: Natasha Sookraj
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-20 12:08:00-05:00
 draft: false

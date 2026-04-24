@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-11 07:00:00-04:00
 description: Plane down in Region 8, US$761M oil quarter, Ali tells T&T to lock themselves

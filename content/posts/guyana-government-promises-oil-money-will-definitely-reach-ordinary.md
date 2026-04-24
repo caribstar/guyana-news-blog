@@ -2,7 +2,7 @@
 author: Ajay Messiah
 categories:
 - Guyana Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-22 14:00:00-04:00
 draft: false

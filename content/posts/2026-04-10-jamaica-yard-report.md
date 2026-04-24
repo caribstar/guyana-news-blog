@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-10
 description: JDF soldier charged with girlfriend's murder, bartender shot in St. Elizabeth,

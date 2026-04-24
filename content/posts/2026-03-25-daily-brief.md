@@ -3,7 +3,7 @@ author: Daily Brief
 categories:
 - Daily Brief
 - News
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-03-25
 description: A fired US official arrives as a Special Envoy, Exxon wants two more

@@ -2,7 +2,7 @@
 author: Ngozi Okafor
 categories:
 - Naija Brief
-content_type: satire
+content_type: parody_column
 country: nigeria
 date: 2026-04-22 10:53:00-05:00
 draft: false

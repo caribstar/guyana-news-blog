@@ -1,7 +1,7 @@
 ---
 categories:
 - De Boys Seh
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-08
 description: De boys at the rum shop react to Exxon owning all four FPSOs, Dr. Singh's

@@ -2,7 +2,7 @@
 categories:
 - Daily Brief
 - Satire
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-01-25
 description: Parliament meets Monday to elect Opposition Leader as rights groups sound

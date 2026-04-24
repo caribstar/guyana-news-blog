@@ -2,7 +2,7 @@
 author: GDB Regional Desk
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-04-06 10:00:00-04:00
 description: CARICOM rallies for Cuba, Jamaica Carnival is one week out, a Russian
   tanker slips through the blockade, the region pivots away from US trade, and Guyana's

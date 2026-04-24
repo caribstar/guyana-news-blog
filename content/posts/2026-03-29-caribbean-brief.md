@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-03-29 07:00:00-04:00
 description: The US handed T&T a list of drug and gun suspects, Barbados digitised
   its port and won an award for it, the DR is apparently at war with Mexico over tourists,

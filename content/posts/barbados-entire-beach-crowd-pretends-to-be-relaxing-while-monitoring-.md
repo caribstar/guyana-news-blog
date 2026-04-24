@@ -2,7 +2,7 @@
 author: R. Worrell
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-22 07:46:00-05:00
 draft: false

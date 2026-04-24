@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-04-03 09:00:00-04:00
 description: Friday Caribbean roundup — Trump's 10% tariff hits the region hard (38%
   for Guyana), CARICOM scrambles to respond, Jamaica gets US$50M climate fund, T&T

@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-11 08:00:00-05:00
 description: Spanish Town mourns a teenager lost in a house fire, 71 dead on the roads

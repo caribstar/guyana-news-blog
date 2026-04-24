@@ -1,7 +1,7 @@
 ---
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-02-08
 description: The US is blowing up boats in the Caribbean, Jamaica needs emergency
   cash after Hurricane Melissa, Trinidad says everything is normal (it's not), and

@@ -3,7 +3,7 @@ author: Yard Report
 categories:
 - Caribbean Brief
 - Jamaica
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: Kingston's sardonic take on Jamaica's minus-one-percent growth, students
   exposed to sex in school shelters, and a JDF soldier charged with murder.

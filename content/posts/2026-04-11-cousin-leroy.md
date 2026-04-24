@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-11 08:05:00-05:00
 description: Cousin Leroy, calling in from the Bronx, has thoughts on Bunny Shaw's

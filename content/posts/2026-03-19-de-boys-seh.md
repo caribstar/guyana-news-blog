@@ -1,7 +1,7 @@
 ---
 categories:
 - De Boys Seh
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-03-19
 description: What de boys on the fictional corner saying this week. All names fictional.

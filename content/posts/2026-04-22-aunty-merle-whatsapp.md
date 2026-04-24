@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-22 09:00:00-04:00
 description: 'A sardonic look at where Jamaicans actually go for weather updates,

@@ -2,7 +2,7 @@
 categories:
 - Caribbean Brief
 - News
-content_type: news
+content_type: commentary
 date: 2026-02-06
 draft: false
 product_family: gdb

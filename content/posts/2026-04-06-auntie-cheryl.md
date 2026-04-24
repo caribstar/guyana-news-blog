@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-06 06:30:00-04:00
 description: Auntie Cheryl, calling from Chaguanas, is overjoyed about Kamla and has

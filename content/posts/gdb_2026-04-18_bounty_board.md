@@ -3,7 +3,7 @@ authors:
 - Bounty Board
 categories:
 - Bounty Board
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-18 08:00:00-04:00
 draft: false

@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-11 08:25:00-04:00
 description: Miss Violet has strong feelings about the drought watch, the Labour Department's

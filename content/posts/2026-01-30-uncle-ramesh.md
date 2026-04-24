@@ -2,7 +2,7 @@
 categories:
 - Uncle Ramesh
 - Commentary
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-30
 description: Uncle Ramesh from Queens explains why GRA firing corrupt officers is

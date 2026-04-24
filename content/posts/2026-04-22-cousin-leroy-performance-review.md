@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-22 10:00:00-04:00
 description: Cousin Leroy, a management consultant in the Bronx who has not visited

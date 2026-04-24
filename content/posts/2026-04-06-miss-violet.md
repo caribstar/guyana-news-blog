@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-06 06:30:00-04:00
 description: Miss Violet, retired teacher from St Philip, is very proud of PM Mottley

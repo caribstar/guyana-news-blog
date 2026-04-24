@@ -2,7 +2,7 @@
 author: The Trini Dispatch
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-06 06:00:00-04:00
 description: T&T just elected Kamla. The dust is settling, the promises are flying,

@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-04-02 08:30:00-04:00
 description: Thursday's Caribbean roundup — Jamaica enters World Cup playoff as favourites,
   T&T PM heads to Caribbean Energy Week, Haiti gang operations continue, US removes

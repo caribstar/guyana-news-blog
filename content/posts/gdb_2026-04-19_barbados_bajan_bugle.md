@@ -3,7 +3,7 @@ authors:
 - Bajan Bugle
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-19 11:00:00-04:00
 draft: false

@@ -2,7 +2,7 @@
 author: Simone Grant
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-22 10:53:00-05:00
 draft: false

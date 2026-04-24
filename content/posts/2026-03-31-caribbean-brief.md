@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-03-31
 description: The region watches the Middle East crisis escalate, Jamaica enters World
   Cup play-offs, Haiti's gangs take losses, and Rihanna's products land in Georgetown

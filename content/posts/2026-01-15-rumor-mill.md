@@ -2,7 +2,7 @@
 author: Bam-Bam Sally
 categories:
 - The Rumour Mill
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-01-15
 description: Eh-eh! Leh we see wha whispers floatin' 'round Guyana dis week. Now wid

@@ -2,7 +2,7 @@
 categories:
 - Progress Report
 - The Rumour Mill
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-03-19
 description: Tracking the nation's promises, projects, and entirely fictional rumours.

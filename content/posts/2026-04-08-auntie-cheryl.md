@@ -3,7 +3,7 @@ author: Auntie Cheryl
 categories:
 - Caribbean Brief
 - Trinidad
-content_type: satire
+content_type: parody_column
 date: 2026-04-08
 description: Auntie Cheryl from Chaguanas is VERY excited about Kamla going to get
   T&T's gas, T&T's athletes at Carifta, and Tobago festival season.

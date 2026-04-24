@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-04-01 09:00:00-04:00
 description: Your Wednesday Caribbean roundup — Trinidad's nurse crisis, Haiti's austerity
   squeeze, Jamaica's budget debate, Venezuela's threats, and Carnival Corporation

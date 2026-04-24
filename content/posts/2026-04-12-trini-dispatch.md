@@ -2,7 +2,7 @@
 author: Trini Dispatch
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-12 08:10:00-04:00
 description: Persad-Bissessar's CARICOM war goes global, the Ghany murder investigation

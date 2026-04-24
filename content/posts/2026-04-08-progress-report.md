@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Progress Report
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-08
 description: 'This week: US$761M in Q1 oil revenue, the Wales GTE project director

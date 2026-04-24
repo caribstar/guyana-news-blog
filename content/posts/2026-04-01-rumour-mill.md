@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - The Rumour Mill
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-01 08:30:00-04:00
 description: Unverified, unconfirmed, and entirely too entertaining to ignore. The

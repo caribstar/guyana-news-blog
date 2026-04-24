@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-20 09:15:00-04:00
 description: Miss Violet would like a word with the nation. The water investment is

@@ -2,7 +2,7 @@
 author: Miss Violet
 categories:
 - Bajan Brief
-content_type: satire
+content_type: parody_column
 country: barbados
 date: 2026-04-14 07:30:00-04:00
 description: Miss Violet has opinions about the gastrointestinal situation, the farm

@@ -1,7 +1,7 @@
 ---
 categories:
 - Uncle Ramesh
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-02-08
 description: Uncle Ramesh reads the Sunday papers and explains why the opposition

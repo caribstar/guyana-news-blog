@@ -3,7 +3,7 @@ author: Speedeet & Wilar
 categories:
 - Speedeet & Wilar
 - Weekly Feature
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: Speedeet's kite goes on an adventure of its own — straight over the fence

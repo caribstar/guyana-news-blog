@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-10
 description: Auntie Cheryl from Chaguanas reacts to Angelica Jogie, the Caracas delegation,

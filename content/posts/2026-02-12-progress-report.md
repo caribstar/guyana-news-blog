@@ -2,7 +2,7 @@
 author: The Guyana Daily Brief
 categories:
 - Progress Report
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-02-12 11:00:00-04:00
 description: Tracking infrastructure projects, institutional developments, and economic

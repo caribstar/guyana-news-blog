@@ -3,7 +3,7 @@ author: Progress Report
 categories:
 - Progress Report
 - Weekly Feature
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-03-24
 description: 'The weekly tracker: what got done, what''s still pending, and what was

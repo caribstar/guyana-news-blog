@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-06 06:30:00-05:00
 description: Cousin Leroy, calling from the Bronx, is very proud of January's crime

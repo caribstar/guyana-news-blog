@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-14 07:00:00-04:00
 description: Carnival ended with gunshots, a boy got shot by a cop on a rooftop, the

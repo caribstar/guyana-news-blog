@@ -3,7 +3,7 @@ authors:
 - DJ Roadblock
 categories:
 - DJ Roadblock
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-17 07:00:00-04:00
 draft: false

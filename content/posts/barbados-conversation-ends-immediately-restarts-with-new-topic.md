@@ -2,7 +2,7 @@
 author: Andre Clarke
 categories:
 - Bajan Brief
-content_type: news
+content_type: parody_column
 country: barbados
 date: 2026-04-20 15:15:00-05:00
 draft: false

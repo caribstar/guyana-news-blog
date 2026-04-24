@@ -2,7 +2,7 @@
 author: Trini Dispatch
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-11 08:10:00-04:00
 description: The PM wants the CARICOM Secretary-General gone, Tobago's water infrastructure

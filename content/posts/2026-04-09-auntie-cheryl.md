@@ -2,7 +2,7 @@
 author: Auntie Cheryl
 categories:
 - Trini Brief
-content_type: satire
+content_type: parody_column
 country: trinidad
 date: 2026-04-09
 description: Auntie Cheryl in Chaguanas reads the news and is pleased about most of

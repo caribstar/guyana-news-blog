@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-22 07:00:00-04:00
 description: Residents stranded across multiple routes as Aenon Town floods for the

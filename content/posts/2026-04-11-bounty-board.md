@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Bounty Board
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-11
 description: 'This week''s Bounty Board: fictional wanted notices for Guyana''s most

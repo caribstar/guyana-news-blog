@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-01 07:00:00-04:00
 description: Your Wednesday morning roundup of Guyana's top stories — flooding warnings,

@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-14 07:30:00-04:00
 description: Cousin Leroy flew in for carnival, somehow did not know about the Big

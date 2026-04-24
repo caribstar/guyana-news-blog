@@ -2,7 +2,7 @@
 author: Cousin Leroy
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-10
 description: Leroy in the Bronx has thoughts about Shanoya, the soldier situation,

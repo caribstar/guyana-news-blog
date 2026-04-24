@@ -2,7 +2,7 @@
 author: Speedeet and Wilar
 categories:
 - Speedeet & Wilar
-content_type: satire
+content_type: parody_column
 country: guyana
 date: 2026-04-06
 description: Speedeet and Wilar try to fly a kite on Easter Monday on the seawall.

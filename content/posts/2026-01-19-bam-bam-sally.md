@@ -1,7 +1,7 @@
 ---
 categories:
 - The Rumour Mill
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-19
 description: If yuh ain't hear it from me, it ain't worth hearing! Bam-Bam Sally got

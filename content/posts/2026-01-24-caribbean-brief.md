@@ -1,7 +1,7 @@
 ---
 categories:
 - Caribbean Brief
-content_type: news
+content_type: commentary
 date: 2026-01-24
 description: US-Caribbean visa tensions, Jamaica's IMF loan, Trinidad-US partnership,
   Venezuela oil law changes, and regional cricket updates

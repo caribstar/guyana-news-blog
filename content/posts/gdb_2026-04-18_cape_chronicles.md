@@ -3,7 +3,7 @@ author: Cape Chronicles
 categories:
 - South Africa Brief
 - Africa Brief
-content_type: satire
+content_type: parody_column
 country: south-africa
 date: 2026-04-18 08:00:00+00:00
 draft: false

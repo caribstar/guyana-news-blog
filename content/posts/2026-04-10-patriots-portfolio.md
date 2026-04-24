@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Patriots Portfolio
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-04-10
 description: 'This week''s Patriots Portfolio: Q1 oil revenue at US$761M, the SME

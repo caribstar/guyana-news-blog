@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: news
+content_type: commentary
 country: guyana
 date: 2026-04-03 07:00:00-04:00
 description: Your Good Friday morning roundup — Guyana hit with a 38% Trump tariff,

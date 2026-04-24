@@ -2,7 +2,7 @@
 author: The Daily Brief
 categories:
 - Caribbean Daily Brief
-content_type: news
+content_type: commentary
 date: 2026-04-07 07:00:00-04:00
 description: CARIFTA wraps in Grenada with Jamaica dominant. Trinidad declares another
   state of emergency. Barbados voter turnout hits historic low. The Caribbean in 5

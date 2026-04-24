@@ -4,7 +4,7 @@ authors:
 categories:
 - Kenya Brief
 - Africa Brief
-content_type: satire
+content_type: parody_column
 country: kenya
 date: 2026-04-18 12:00:00-04:00
 draft: false

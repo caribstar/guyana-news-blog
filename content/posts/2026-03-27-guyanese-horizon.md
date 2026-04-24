@@ -2,7 +2,7 @@
 author: GDB Desk
 categories:
 - The Guyanese Horizon
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-03-27
 description: The Guyanese Horizon — March 2026. Georgetown is changing faster than

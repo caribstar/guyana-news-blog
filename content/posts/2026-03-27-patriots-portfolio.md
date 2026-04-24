@@ -2,7 +2,7 @@
 author: GDB Desk
 categories:
 - Patriots Portfolio
-content_type: news
+content_type: parody_column
 country: guyana
 date: 2026-03-27
 description: 'This week: Exxon starts building Oil Ship No. 8 without government approval,

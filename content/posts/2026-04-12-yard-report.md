@@ -2,7 +2,7 @@
 author: Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-12 08:00:00-05:00
 description: Road March Sunday in Kingston, Negril still has no ambulance, a Jamaican

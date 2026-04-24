@@ -2,7 +2,7 @@
 categories:
 - Progress Report
 - Accountability
-content_type: commentary
+content_type: parody_column
 country: guyana
 date: 2026-01-21
 product_family: series

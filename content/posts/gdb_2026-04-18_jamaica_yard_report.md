@@ -3,7 +3,7 @@ authors:
 - Yard Report
 categories:
 - Yard Brief
-content_type: satire
+content_type: parody_column
 country: jamaica
 date: 2026-04-18 08:30:00-04:00
 draft: false
