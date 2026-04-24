@@ -771,3 +771,75 @@ body.tw-site {
 }
 .tw-hero-lead .tw-card-headline { -webkit-line-clamp: 4; }
 .tw-hero-lead .tw-card { min-height: 480px; }
+
+/* ==========================================================
+   CARTOONS
+   ========================================================== */
+.tw-cartoon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.tw-cartoon-card {
+  background: #fff;
+  border: 1px solid #ece8db;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(13,95,122,0.06);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.tw-cartoon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(13,95,122,0.12);
+}
+.tw-cartoon-img {
+  aspect-ratio: 4/3;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--sand);
+}
+.tw-cartoon-meta { padding: 18px 20px 20px; }
+.tw-cartoon-date {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.tw-cartoon-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--navy);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+.tw-cartoon-card:hover .tw-cartoon-title { color: var(--action); }
+.tw-cartoon-byline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.tw-cartoon-single {
+  max-width: 960px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+.tw-cartoon-single-head { margin-bottom: 24px; }
+.tw-cartoon-figure {
+  margin: 0 0 28px;
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 12px;
+  border-radius: 4px;
+}
+.tw-cartoon-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}

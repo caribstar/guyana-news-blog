@@ -1,0 +1,32 @@
+{{- define "main" -}}
+<article class="tw-cartoon-single">
+  <header class="tw-cartoon-single-head">
+    <div class="tw-article-meta">
+      <span class="tw-badge tw-badge-parody_column">Parody</span>
+      <span class="tw-article-source">Editorial Cartoon</span>
+    </div>
+    <h1 class="tw-article-title">{{ .Title }}</h1>
+    <div class="tw-article-byline">
+      <strong>{{ .Params.author | default "Mr. Moredan Satire" }}</strong>
+      <span class="sep">&middot;</span>
+      <time>{{ dateFormat "January 2, 2006" .Date }}</time>
+    </div>
+  </header>
+
+  <figure class="tw-cartoon-figure">
+    <img src="{{ .Params.image }}" alt="{{ .Title }} — editorial cartoon by {{ .Params.author }}" />
+  </figure>
+
+  {{ partial "satire-disclaimer.html" . }}
+
+  <div class="tw-article-body">{{ .Content }}</div>
+
+  <footer class="tw-article-footer">
+    {{ with .Params.tags }}
+    <div class="tw-article-tags">
+      {{ range . }}<a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" class="tw-tag">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+  </footer>
+</article>
+{{- end -}}

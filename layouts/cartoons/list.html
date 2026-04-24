@@ -1,0 +1,29 @@
+{{- define "main" -}}
+<div class="tw-home-shell">
+  <section class="tw-home-hero">
+    <div class="eyebrow">Editorial Cartoons</div>
+    <p class="pitch">Policy. Politics. The public mood. Drawn honest.</p>
+  </section>
+
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Cartoons</h2>
+      <span class="meta">By Mr. Moredan Satire</span>
+    </div>
+    <div class="tw-cartoon-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="tw-cartoon-card">
+        <a href="{{ .RelPermalink }}">
+          <div class="tw-cartoon-img" style="background-image:url('{{ .Params.image }}');"></div>
+          <div class="tw-cartoon-meta">
+            <div class="tw-cartoon-date">{{ dateFormat "January 2, 2006" .Date }}</div>
+            <h3 class="tw-cartoon-title">{{ .Title }}</h3>
+            <p class="tw-cartoon-byline">— {{ .Params.author }}</p>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{- end -}}

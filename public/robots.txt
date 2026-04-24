@@ -1,5 +1,3 @@
-﻿User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://guyanadailybrief.com/sitemap.xml
+User-agent: *
+Disallow:
+Sitemap: https://tradewindsbrief.com/sitemap.xml
