@@ -59,7 +59,7 @@
   {{/* ==================== MAIN GRID + SIDEBAR ==================== */}}
   {{ $rest := after 4 $allNonSW }}
   {{ $upperFeed := first 8 $rest }}
-  {{ $lowerFeed := after 8 $rest }}
+  {{ $lowerFeed := first 9 (after 8 $rest) }}
 
   <section class="onion-main">
     <div class="onion-feed-grid2">
@@ -76,6 +76,22 @@
     </div>
 
     <aside class="onion-sidebar">
+      {{/* ==================== LATEST CARTOON (clickable to /cartoons/) ==================== */}}
+      {{ $latestCartoon := index (where site.RegularPages "Section" "cartoons") 0 }}
+      {{ if $latestCartoon }}
+      <div class="side-block side-cartoon">
+        <h4 class="side-title">Latest Cartoon</h4>
+        <a href="/cartoons/" class="side-cartoon-link" aria-label="See all cartoons">
+          <img src="{{ $latestCartoon.Params.image }}" alt="{{ $latestCartoon.Title }}" class="side-cartoon-img" loading="lazy">
+        </a>
+      </div>
+      {{ end }}
+      {{/* ==================== SPORTS DESK BUTTON ==================== */}}
+      <div class="side-block side-sports-btn">
+        <a href="/sports/" class="side-sports-link" aria-label="Go to Sports section">
+          <img src="/images/ui/sports-button.png" alt="Sports" class="side-sports-img" loading="lazy">
+        </a>
+      </div>
       <div class="side-block">
         <h4 class="side-title">Trending</h4>
         <ol class="side-list">
@@ -92,7 +108,7 @@
         <h4 class="side-title">Live: Georgetown</h4>
         <div id="gy-live">
           <p>USD/GYD: <span id="gy-fx">&mdash;</span></p>
-          <p>Weather: <span id="gy-wx">&mdash;</span></p>
+          <p>Weather: <span id="gy-wx">&#8212;</span></p>
         </div>
       </div>
       <div class="side-block side-promo">
@@ -113,7 +129,7 @@
     </div>
     <div class="tw-speedeet-feature">
       <a href="{{ $speedeetLead.RelPermalink }}" class="tw-sf-link">
-        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default (printf "https://picsum.photos/seed/%s/1200/800" $speedeetLead.File.ContentBaseName) }}');"></div>
+        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default "/images/franchise/speedeet-wilar-front-cover.jpg" }}');"></div>
         <div class="tw-sf-body">
           <div class="tw-sf-eyebrow">Latest Story</div>
           <h3 class="tw-sf-title">{{ $speedeetLead.Title }}</h3>
@@ -142,7 +158,7 @@
     <div class="tw-country-row">
       {{ range $caribbean }}
         {{ $country := . }}
-        {{ $cp := where $all "Params.categories" "intersect" $country.cats }}
+        {{ $cp := where site.RegularPages "Params.categories" "intersect" $country.cats }}
         {{ with (index $cp 0) }}
           {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
         {{ end }}
@@ -165,7 +181,7 @@
     <div class="tw-country-row">
       {{ range $africa }}
         {{ $country := . }}
-        {{ $cp := where $all "Params.categories" "intersect" $country.cats }}
+        {{ $cp := where site.RegularPages "Params.categories" "intersect" $country.cats }}
         {{ with (index $cp 0) }}
           {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
         {{ end }}
@@ -204,7 +220,7 @@
 <script>
 (function(){
   fetch('https://api.exchangerate.host/latest?base=USD&symbols=GYD').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.GYD){document.getElementById("gy-fx").textContent="1 USD = "+d.rates.GYD.toFixed(2)+" GYD";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=6.80&longitude=-58.17&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById("gy-wx").textContent=d.current.temperature_2m+"&deg;C, Georgetown";}}).catch(()=>{});
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=6.80&longitude=-58.17&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('gy-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Georgetown';}}).catch(()=>{});
 })();
 </script>
 {{- end -}}

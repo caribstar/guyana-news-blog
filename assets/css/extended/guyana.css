@@ -65,3 +65,15 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
   .gy-wrap .hero-img{height:300px!important;}
   .gy-wrap .hero-headline{font-size:28px!important;}
 }
+
+.gy-wrap .side-cartoon{padding:20px!important;}
+.gy-wrap .side-cartoon .side-cartoon-link{display:block!important;line-height:0!important;border:1px solid #111!important;overflow:hidden!important;transition:transform 0.15s ease!important;}
+.gy-wrap .side-cartoon .side-cartoon-link:hover{transform:scale(1.01)!important;}
+.gy-wrap .side-cartoon .side-cartoon-img{width:100%!important;height:auto!important;display:block!important;}
+
+.gy-wrap .side-sports-btn{padding:0!important;background:transparent!important;border-top:none!important;}
+.gy-wrap .side-sports-btn .side-sports-link{display:block!important;line-height:0!important;transition:transform 0.15s ease!important;}
+.gy-wrap .side-sports-btn .side-sports-link:hover{transform:scale(1.02)!important;}
+.gy-wrap .side-sports-btn .side-sports-img{width:100%!important;height:auto!important;display:block!important;}
+.gy-wrap .tw-cta p{margin:0 auto 22px!important;max-width:520px!important;text-align:center!important;}
+.gy-wrap .tw-cta{text-align:center!important;}
