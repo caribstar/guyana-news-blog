@@ -1,0 +1,773 @@
+/* ==========================================================
+   TRADEWINDS BRIEF — SITE CANON CSS
+   Based on africa-hub design language
+   Fraunces (display) + Inter (UI/body)
+   Palette: navy #0D5F7A, gold #C9A96E, cream #FAF7F0
+   ========================================================== */
+
+:root {
+  --navy: #0D5F7A;
+  --navy-deep: #063D52;
+  --gold: #C9A96E;
+  --gold-bright: #D9B97E;
+  --gold-deep: #B89557;
+  --cream: #FAF7F0;
+  --sand: #F2EEE5;
+  --ink: #1a1a1a;
+  --ink-soft: #444;
+  --rule: #d8d3c4;
+  --action: #C02020;
+  --action-hover: #9A1818;
+
+  --badge-news: #111;
+  --badge-satire: #C02020;
+  --badge-parody: #D9822B;
+  --badge-commentary: #2C6E8F;
+
+  /* country flag colors */
+  --gy-green: #009E49; --gy-yellow: #FCD116; --gy-red: #CE1126;
+  --jm-black: #000; --jm-yellow: #FED100; --jm-green: #009B3A;
+  --tt-red: #DA1A32; --tt-white: #fff; --tt-black: #000;
+  --bb-blue: #00267F; --bb-gold: #FFC72C;
+  --gh-red: #CE1126; --gh-gold: #FCD116; --gh-green: #006B3F;
+  --ke-black: #000; --ke-red: #BB0000; --ke-green: #006600;
+  --ng-green: #008751;
+  --za-green: #007A4D; --za-gold: #FFB612; --za-red: #DE3831; --za-blue: #002395;
+}
+
+body.tw-site {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tw-site a { color: inherit; text-decoration: none; }
+.tw-site * { box-sizing: border-box; }
+
+/* ==========================================================
+   UTILITY STRIP (top black bar)
+   ========================================================== */
+.tw-utility {
+  background: #111;
+  color: #d9d4c7;
+  font-size: 12px;
+  border-bottom: 1px solid #000;
+}
+.tw-utility-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: 0.02em;
+}
+.tw-utility-date { font-weight: 600; }
+.tw-utility-sep { opacity: 0.4; }
+.tw-utility-tag { opacity: 0.85; font-style: italic; }
+.tw-utility-spacer { flex: 1; }
+.tw-utility-link {
+  color: var(--gold-bright);
+  font-weight: 600;
+  transition: color 0.15s;
+}
+.tw-utility-link:hover { color: #fff; }
+
+/* ==========================================================
+   MASTHEAD
+   ========================================================== */
+.tw-masthead {
+  background: var(--cream);
+  border-bottom: 3px double var(--navy);
+}
+.tw-masthead-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 20px 24px;
+  text-align: center;
+}
+.tw-brand-link { display: inline-block; }
+.tw-brand-logo {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .tw-brand-logo { max-height: 64px; }
+}
+.tw-tagline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  margin: 12px 0 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========================================================
+   MAIN NAV
+   ========================================================== */
+.tw-mainnav {
+  background: var(--cream);
+  border-bottom: 1px solid var(--rule);
+}
+.tw-mainnav-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.tw-mainnav-inner a {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+.tw-mainnav-inner a:hover {
+  border-bottom-color: var(--gold-deep);
+  color: var(--navy);
+}
+
+/* ==========================================================
+   HOMEPAGE SHELL
+   ========================================================== */
+.tw-main { background: var(--cream); }
+.tw-home-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Compact hero banner (not the full africa-hub banner) */
+.tw-home-hero {
+  background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+  color: #fff;
+  padding: 22px 24px;
+  margin: 24px 0 36px;
+  text-align: center;
+  border-bottom: 3px solid var(--gold);
+  border-radius: 2px;
+}
+.tw-home-hero .eyebrow {
+  font-size: 0.74rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+}
+.tw-home-hero .pitch {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.92);
+  margin: 6px 0 0;
+}
+
+/* ==========================================================
+   SECTION HEADERS (africa-hub pattern)
+   ========================================================== */
+.tw-section {
+  margin-bottom: 56px;
+}
+.tw-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1.5px solid var(--navy);
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.tw-section-head h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--navy);
+  font-size: 1.55rem;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.tw-section-head .meta {
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+.tw-section-head .more {
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+  font-weight: 700;
+  border-bottom: 1px solid var(--navy);
+  padding-bottom: 1px;
+}
+.tw-section-head .more:hover { color: var(--action); border-bottom-color: var(--action); }
+
+/* ==========================================================
+   HERO GRID (homepage above-the-fold)
+   ========================================================== */
+.tw-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(360px, 0.9fr);
+  gap: 20px;
+  margin-bottom: 56px;
+}
+.tw-hero-lead { }
+.tw-hero-stack { display: none; }
+.tw-whatmatters {
+  background: #fff;
+  border: 1px solid #ece8db;
+  border-radius: 4px;
+  padding: 18px 20px 20px;
+  box-shadow: 0 1px 4px rgba(13,95,122,0.06);
+  border-top: 3px solid var(--navy);
+  min-width: 280px;
+}
+.tw-whatmatters h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+.tw-whatmatters ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: wm;
+}
+.tw-whatmatters li {
+  counter-increment: wm;
+  padding: 9px 0 10px 26px;
+  border-bottom: 1px dotted var(--rule);
+  position: relative;
+}
+.tw-whatmatters li:last-child { border-bottom: 0; }
+.tw-whatmatters li::before {
+  content: counter(wm);
+  position: absolute;
+  left: 0;
+  top: 9px;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  color: var(--gold-deep);
+}
+.tw-whatmatters a {
+  font-family: 'Fraunces', serif;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  color: var(--navy);
+  font-weight: 500;
+}
+.tw-whatmatters a:hover { color: var(--action); }
+
+/* ==========================================================
+   CARDS — africa-hub country-card pattern
+   ========================================================== */
+.tw-card {
+  background: #fff;
+  border: 1px solid #ece8db;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(13,95,122,0.06);
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+}
+.tw-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(13,95,122,0.08);
+}
+.tw-card-link { display: flex; flex-direction: column; flex: 1; }
+.tw-card-flag-bar { height: 6px; }
+.tw-card.gy .tw-card-flag-bar { background: linear-gradient(90deg, var(--gy-green) 0%, var(--gy-yellow) 50%, var(--gy-red) 100%); }
+.tw-card.jm .tw-card-flag-bar { background: linear-gradient(90deg, var(--jm-black) 0%, var(--jm-yellow) 50%, var(--jm-green) 100%); }
+.tw-card.tt .tw-card-flag-bar { background: linear-gradient(90deg, var(--tt-red) 0%, var(--tt-white) 50%, var(--tt-black) 100%); }
+.tw-card.bb .tw-card-flag-bar { background: linear-gradient(90deg, var(--bb-blue) 0%, var(--bb-gold) 50%, var(--bb-blue) 100%); }
+.tw-card.gh .tw-card-flag-bar { background: linear-gradient(90deg, var(--gh-red) 0%, var(--gh-gold) 50%, var(--gh-green) 100%); }
+.tw-card.ke .tw-card-flag-bar { background: linear-gradient(90deg, var(--ke-black) 0%, var(--ke-red) 33%, var(--ke-green) 66%, var(--ke-black) 100%); }
+.tw-card.ng .tw-card-flag-bar { background: linear-gradient(90deg, var(--ng-green) 0%, #fff 50%, var(--ng-green) 100%); }
+.tw-card.za .tw-card-flag-bar { background: linear-gradient(90deg, var(--za-green) 0%, var(--za-gold) 33%, var(--za-red) 66%, var(--za-blue) 100%); }
+.tw-card.neutral .tw-card-flag-bar { background: linear-gradient(90deg, var(--gold-deep), var(--gold-bright)); }
+
+.tw-card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--sand);
+}
+.tw-card-body {
+  padding: 18px 20px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.tw-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.tw-card-section {
+  font-size: 0.70rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  font-weight: 700;
+}
+.tw-card-source {
+  font-size: 0.70rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+.tw-card-headline {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--navy);
+  font-size: 1.1rem;
+  line-height: 1.28;
+  margin: 0 0 10px;
+}
+.tw-card:hover .tw-card-headline { color: var(--action); }
+.tw-hero-lead .tw-card-headline { font-size: 1.8rem; line-height: 1.15; font-weight: 600; }
+.tw-card-facts, .tw-card-why {
+  font-family: 'Fraunces', serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 4px 0 0;
+}
+.tw-card-facts strong, .tw-card-why strong {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 6px;
+}
+.tw-card-why strong { color: var(--gold-deep); }
+.tw-card-dek {
+  font-family: 'Fraunces', serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 4px 0 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tw-card-byline {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-top: auto;
+  padding-top: 10px;
+}
+.tw-card-byline strong { color: var(--ink); font-weight: 600; }
+
+/* ==========================================================
+   BADGES
+   ========================================================== */
+.tw-badge {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 3px 8px;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.tw-badge-news { background: var(--badge-news); }
+.tw-badge-satire { background: var(--badge-satire); }
+.tw-badge-parody_column { background: var(--badge-parody); }
+.tw-badge-commentary { background: var(--badge-commentary); }
+.tw-badge-analysis { background: #5a5a5a; }
+
+/* ==========================================================
+   DUEL STRIP
+   ========================================================== */
+.tw-duel-pairs { display: flex; flex-direction: column; gap: 16px; }
+.tw-duel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #ece8db;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(13,95,122,0.06);
+}
+.tw-duel-news, .tw-duel-take {
+  padding: 22px 24px;
+}
+.tw-duel-news {
+  background: #fff;
+  border-right: 1px solid var(--rule);
+}
+.tw-duel-take {
+  background: #fdf6ed;
+  border-left: 3px solid var(--badge-parody);
+}
+.tw-duel-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.tw-duel-news h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 1.1rem;
+  line-height: 1.25;
+  margin: 8px 0 10px;
+}
+.tw-duel-take .tw-duel-character {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--badge-parody);
+  font-size: 1.25rem;
+  margin: 8px 0 8px;
+}
+.tw-duel-body {
+  font-family: 'Fraunces', serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.tw-duel-source {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-top: 12px;
+}
+
+/* ==========================================================
+   COUNTRY BLOCK ROWS
+   ========================================================== */
+.tw-country-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* ==========================================================
+   SPORTS + LATEST FEED
+   ========================================================== */
+.tw-feed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* ==========================================================
+   SPEEDEET FEATURE (IP block)
+   ========================================================== */
+.tw-speedeet-feature {
+  background: linear-gradient(135deg, #fff9ec 0%, #fdf1d8 100%);
+  border: 1px solid #ece8db;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(13,95,122,0.06);
+}
+.tw-sf-link { display: grid; grid-template-columns: 3fr 2fr; }
+.tw-sf-img {
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--sand);
+}
+.tw-sf-body {
+  padding: 36px 36px 36px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tw-sf-eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.tw-sf-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.15;
+  color: var(--navy);
+  margin: 0 0 12px;
+}
+.tw-sf-dek {
+  font-family: 'Fraunces', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 0 0 22px;
+}
+.tw-sf-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.tw-sf-cta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: 3px;
+}
+.tw-sf-cta-read { background: var(--navy); color: #fff; }
+.tw-sf-cta-read:hover { background: var(--navy-deep); }
+.tw-sf-cta-buy { background: var(--action); color: #fff; }
+.tw-sf-cta-buy:hover { background: var(--action-hover); }
+
+/* ==========================================================
+   NEWSLETTER CTA (africa-hub)
+   ========================================================== */
+.tw-cta {
+  background: var(--navy);
+  color: #fff;
+  padding: 48px 32px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 48px 0;
+  border-left: 4px solid var(--gold);
+}
+.tw-cta h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.tw-cta p {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 22px;
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tw-cta .tw-cta-btn {
+  display: inline-block;
+  background: var(--action);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 14px rgba(192,32,32,0.35);
+}
+.tw-cta .tw-cta-btn:hover { background: var(--action-hover); }
+
+/* ==========================================================
+   FOOTER DISCLAIMER
+   ========================================================== */
+.tw-footer-disclaimer {
+  max-width: 1120px;
+  margin: 24px auto 0;
+  padding: 16px 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  border-top: 1px solid var(--rule);
+  line-height: 1.5;
+}
+
+/* ==========================================================
+   ARTICLE PAGE
+   ========================================================== */
+.tw-article {
+  max-width: 760px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+.tw-article-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.tw-article-source {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
+}
+.tw-article-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.12;
+  color: var(--navy);
+  margin: 0 0 14px;
+  letter-spacing: -0.015em;
+}
+.tw-article-dek {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin: 0 0 20px;
+}
+.tw-article-byline {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--ink-soft);
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--rule);
+  letter-spacing: 0.02em;
+}
+.tw-article-byline strong { color: var(--ink); font-weight: 600; }
+.tw-article-byline .sep { margin: 0 8px; opacity: 0.4; }
+.tw-satire-disclaimer {
+  margin: 22px 0;
+  padding: 14px 18px;
+  border-left: 4px solid var(--badge-satire);
+  background: #fbecea;
+  color: #6a1c14;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+.tw-facts-block, .tw-why-block {
+  background: #fff;
+  border: 1px solid #ece8db;
+  padding: 18px 22px;
+  margin: 24px 0;
+  border-left: 4px solid var(--navy);
+  border-radius: 2px;
+}
+.tw-why-block { border-left-color: var(--gold-deep); }
+.tw-facts-block h3, .tw-why-block h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin: 0 0 6px;
+}
+.tw-why-block h3 { color: var(--gold-deep); }
+.tw-facts-block p, .tw-why-block p {
+  font-family: 'Fraunces', serif;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0;
+  color: var(--ink);
+}
+.tw-article-body {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 28px 0;
+}
+.tw-article-body p { margin: 18px 0; }
+.tw-article-body h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--navy);
+  font-size: 1.7rem;
+  margin: 36px 0 14px;
+}
+.tw-article-body h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--navy);
+  font-size: 1.35rem;
+  margin: 28px 0 12px;
+}
+.tw-article-body a { color: var(--navy); border-bottom: 1px solid var(--navy); }
+.tw-article-body a:hover { color: var(--action); border-bottom-color: var(--action); }
+.tw-article-footer {
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  margin-top: 36px;
+}
+.tw-article-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tw-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 5px 10px;
+  background: #fff;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  text-transform: lowercase;
+  border-radius: 2px;
+}
+.tw-tag:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+@media (max-width: 1000px) {
+  .tw-hero-grid { grid-template-columns: 1fr; }
+  .tw-feed-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tw-country-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tw-duel { grid-template-columns: 1fr; }
+  .tw-duel-news { border-right: 0; border-bottom: 1px solid var(--rule); }
+  .tw-sf-link { grid-template-columns: 1fr; }
+  .tw-sf-body { padding: 26px 24px; }
+}
+@media (max-width: 600px) {
+  .tw-feed-grid { grid-template-columns: 1fr; }
+  .tw-utility-inner { font-size: 11px; gap: 6px; padding: 6px 14px; }
+  .tw-utility-tag { display: none; }
+  .tw-mainnav-inner { gap: 18px; padding: 12px 14px; }
+  .tw-section-head h2 { font-size: 1.3rem; }
+  .tw-masthead-inner { padding: 22px 14px 18px; }
+}
+
+/* Session 2 polish: prevent narrow stretched cards + runaway headlines */
+.tw-card { min-height: 380px; }
+.tw-card-headline {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tw-hero-lead .tw-card-headline { -webkit-line-clamp: 4; }
+.tw-hero-lead .tw-card { min-height: 480px; }

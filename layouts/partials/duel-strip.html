@@ -1,0 +1,34 @@
+{{ $duels := .Site.Data.duels | default (slice) }}
+{{ if not $duels }}
+  {{ $duels = slice
+    (dict "newsHeadline" "Government announces oil revenue disbursement plan" "newsBody" "Finance Ministry confirms $350M allocation for infrastructure. Opposition requests audit trail." "newsSource" "Demerara Waves"
+          "takeCharacter" "Uncle Ramesh" "takeBody" "Dem opposition always looking gift horse in de mouth! De money coming to you own pocket, why you questioning de delivery method?")
+    (dict "newsHeadline" "CARICOM tariff talks resume in Kingston" "newsBody" "Six member states push for harmonized regional trade policy. Three remain undecided." "newsSource" "Reuters Caribbean"
+          "takeCharacter" "Bro Winston" "takeBody" "Same drum, different beat. We been having dis conversation since Federation. When we go realize de real chain is de one we forging ourselves?")
+  }}
+{{ end }}
+{{ if $duels }}
+<section class="tw-section">
+  <div class="tw-section-head">
+    <h2>Reality Check</h2>
+    <span class="meta">The News &amp; The Take</span>
+  </div>
+  <div class="tw-duel-pairs">
+    {{ range $duels }}
+    <div class="tw-duel">
+      <div class="tw-duel-news">
+        <div class="tw-duel-label"><span class="tw-badge tw-badge-news">News</span></div>
+        <h3>{{ .newsHeadline }}</h3>
+        <p class="tw-duel-body">{{ .newsBody }}</p>
+        {{ with .newsSource }}<p class="tw-duel-source">Source: {{ . }}</p>{{ end }}
+      </div>
+      <div class="tw-duel-take">
+        <div class="tw-duel-label"><span class="tw-badge tw-badge-parody_column">Parody</span></div>
+        <div class="tw-duel-character">{{ .takeCharacter }}</div>
+        <p class="tw-duel-body">{{ .takeBody }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
