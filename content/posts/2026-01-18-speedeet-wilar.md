@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Youth Stories
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-01-18
 draft: false
@@ -28,7 +28,7 @@ But then Speedeet's phone buzzed.
 
 Wilar shrugged. "Match almost done anyway. We winning."
 
-They found Nani at the bus stop, clutching her patient card — the worn folder that survived twenty years of clinic visits.
+They found Nani at the bus stop, clutching her patient card â€” the worn folder that survived twenty years of clinic visits.
 
 "You boys coming? Good. Plenty confusion these days."
 
@@ -80,7 +80,7 @@ Speedeet whispered to Wilar: "Progress messy, eh?"
 
 ---
 
-At 1:15, Nani finally saw the doctor — a young woman staring at a computer screen.
+At 1:15, Nani finally saw the doctor â€” a young woman staring at a computer screen.
 
 "Mrs. Persaud? Let me pull up your file..."
 
@@ -110,7 +110,7 @@ Wilar was philosophical. "System probably going be good. Eventually."
 
 "Eventually don't help Nani today," Speedeet said.
 
-They passed construction on Main Street — another hotel going up.
+They passed construction on Main Street â€” another hotel going up.
 
 "Progress everywhere," Wilar observed.
 

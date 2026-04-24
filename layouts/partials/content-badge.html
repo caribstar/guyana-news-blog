@@ -5,4 +5,5 @@
 {{- if eq $ct "parody_column" -}}{{- $label = "PARODY" -}}{{- end -}}
 {{- if eq $ct "commentary" -}}{{- $label = "COMMENTARY" -}}{{- end -}}
 {{- if eq $ct "analysis" -}}{{- $label = "ANALYSIS" -}}{{- end -}}
-<span class="tw-badge tw-badge-{{ $ct }}">{{ $label }}</span>
+{{- if eq $ct "kids_story" -}}{{- $label = "KIDS STORY &mdash; SPEEDEET AND WILAR" -}}{{- end -}}
+<span class="tw-badge tw-badge-{{ $ct }}">{{ $label | safeHTML }}</span>

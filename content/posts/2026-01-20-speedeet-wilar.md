@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Youth Stories
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-01-20
 product_family: series

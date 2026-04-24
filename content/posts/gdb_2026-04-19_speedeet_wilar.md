@@ -3,7 +3,7 @@ authors:
 - Speedeet & Wilar
 categories:
 - Speedeet & Wilar
-content_type: parody_column
+content_type: "kids_story"
 country: guyana
 date: 2026-04-19 12:00:00-04:00
 draft: false
@@ -29,7 +29,7 @@ It was a Sunday morning in Bel Air, and the sun was already hot by the time Spee
 
 "Go. But come back by twelve for church lunch."
 
-Speedeet was out the door before the screen could slam. Wilar was waiting on the corner by the coconut tree with his cricket bat — the good one, the Mongoose bat his uncle brought from England — and a brand-new tennis ball that he had been saving since Christmas.
+Speedeet was out the door before the screen could slam. Wilar was waiting on the corner by the coconut tree with his cricket bat â€” the good one, the Mongoose bat his uncle brought from England â€” and a brand-new tennis ball that he had been saving since Christmas.
 
 "We playing at the school yard?" asked Speedeet.
 
@@ -49,11 +49,11 @@ Mrs. Patterson's empty lot was a decent wicket. Grass cut short. One wall on the
 
 Wilar laughed. "Okay, Captain. Bowl."
 
-Speedeet took the ball. He walked back to his mark — he had paced it out last Sunday, exactly nine steps — and turned. He ran in with the dramatic high-knee action that he had been practicing in his bedroom mirror. The ball came out, pitched just short of a length, and Wilar played a perfect cover drive.
+Speedeet took the ball. He walked back to his mark â€” he had paced it out last Sunday, exactly nine steps â€” and turned. He ran in with the dramatic high-knee action that he had been practicing in his bedroom mirror. The ball came out, pitched just short of a length, and Wilar played a perfect cover drive.
 
-The ball sailed, gracefully, beautifully, with excellent technique —
+The ball sailed, gracefully, beautifully, with excellent technique â€”
 
-— directly over Mrs. Patterson's wall.
+â€” directly over Mrs. Patterson's wall.
 
 Both boys stood very still.
 
@@ -151,4 +151,4 @@ And he did.
 
 *To be continued next Sunday, when Speedeet and Wilar return to Mrs. Patterson's garden for orchid lesson number two, and Wilar discovers he has a natural talent for it that he did not expect.*
 
-*— Speedeet & Wilar, Sundays in Bel Air*
+*â€” Speedeet & Wilar, Sundays in Bel Air*

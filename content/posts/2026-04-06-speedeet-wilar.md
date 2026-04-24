@@ -2,7 +2,7 @@
 author: Speedeet and Wilar
 categories:
 - Speedeet & Wilar
-content_type: parody_column
+content_type: "kids_story"
 country: guyana
 date: 2026-04-06
 description: Speedeet and Wilar try to fly a kite on Easter Monday on the seawall.
@@ -17,7 +17,7 @@ tags:
 - easter
 - kite
 - creolese
-title: Speedeet & Wilar — The Easter Kite
+title: Speedeet & Wilar â€” The Easter Kite
 tone: commentary
 ---
 
@@ -27,7 +27,7 @@ tone: commentary
 
 De kite string cut at exactly de wrong moment.
 
-Speedeet had been holding it for forty-five minutes. His hand was cramping. De kite — a big diamond-shape one he and Wilar had built from bamboo and plastic bag material de night before — was flying good. Real good. Better than either of dem had expected.
+Speedeet had been holding it for forty-five minutes. His hand was cramping. De kite â€” a big diamond-shape one he and Wilar had built from bamboo and plastic bag material de night before â€” was flying good. Real good. Better than either of dem had expected.
 
 Den de string cut.
 
@@ -113,7 +113,7 @@ He tied it to his wrist anyway. Because Wilar had paid for de bag with his pocke
 
 De wind had other plans.
 
-De string cut — old string, too much tension — and de kite was free in approximately one second.
+De string cut â€” old string, too much tension â€” and de kite was free in approximately one second.
 
 ---
 

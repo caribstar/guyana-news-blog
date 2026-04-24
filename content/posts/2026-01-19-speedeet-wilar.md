@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Youth Stories
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-01-19
 description: Speedeet cousin from Rupununi come to visit and bring story about the
@@ -42,7 +42,7 @@ tone: commentary
 
 **Wilar:** Wait wait wait. FREE? De government giving way FREE electricity?
 
-**Speedeet:** Well, de panels free. De sun free. So yeah — FREE!
+**Speedeet:** Well, de panels free. De sun free. So yeah â€” FREE!
 
 **Wilar:** *(suspicious)* Nuttin free in Guyana. Must be ah catch.
 
@@ -58,7 +58,7 @@ Later dat day, at Wilar house...
 
 **Derek:** Ma'am, de whole village got dem. Nobody get strike yet.
 
-**Grandmother:** YET! You hear what de boy say? YET! Is only a matter of time! And another ting — how de government know if you using TOO MUCH electricity? Dem panel probably got CAMERA inside! Watching you!
+**Grandmother:** YET! You hear what de boy say? YET! Is only a matter of time! And another ting â€” how de government know if you using TOO MUCH electricity? Dem panel probably got CAMERA inside! Watching you!
 
 **Speedeet:** *(whispering to Wilar)* Camera inside de solar panel?
 
@@ -74,13 +74,13 @@ After lunch, de boys escape to de backyard...
 
 **Wilar:** Bai, me grandmother believe de microwave does talk to de CIA. Don't study she.
 
-**Speedeet:** So tell we for real — how de ting work?
+**Speedeet:** So tell we for real â€” how de ting work?
 
 **Derek:** Is simple simple. De panel catch sun energy, store am in ah battery, and you could run light, charge phone, even small TV. At night, de battery give you power.
 
 **Wilar:** And de government just... give it?
 
-**Derek:** Yeah, man! Is part of de whole development ting. Dem building airstrip in Karasabai too. Me uncle getting job on dat project — fifty people from de village!
+**Derek:** Yeah, man! Is part of de whole development ting. Dem building airstrip in Karasabai too. Me uncle getting job on dat project â€” fifty people from de village!
 
 **Speedeet:** Airstrip? Plane going land in Karasabai?
 
@@ -108,7 +108,7 @@ After lunch, de boys escape to de backyard...
 
 **Wilar:** Why not?!
 
-**Derek:** Because — look, de panels designed for ONE house. You cyaan just stack dem like Lego and become electricity baron. Plus, GPL ain't buying power from twelve-year-olds.
+**Derek:** Because â€” look, de panels designed for ONE house. You cyaan just stack dem like Lego and become electricity baron. Plus, GPL ain't buying power from twelve-year-olds.
 
 **Speedeet:** *(disappointed)* So we cyaan get rich off de sun?
 
@@ -134,7 +134,7 @@ Later dat evening...
 
 **Grandmother:** *(still calling)* AND WHY DE NEIGHBOUR DOG KEEP BARKING AT WE ROOF? HE DOES SEE DE CAMERA!
 
-All three boys collapse laughing while de evening sun sets — free, powerful, and completely unconcerned with Granny's theories.
+All three boys collapse laughing while de evening sun sets â€” free, powerful, and completely unconcerned with Granny's theories.
 
 ---
 
@@ -166,4 +166,4 @@ All three boys collapse laughing while de evening sun sets — free, powerful, a
 
 ---
 
-*Speedeet & Wilar appears every Sunday on The Guyana Brief. Featuring authentic Guyanese Creolese because that's how we does talk!* 🇬🇾
+*Speedeet & Wilar appears every Sunday on The Guyana Brief. Featuring authentic Guyanese Creolese because that's how we does talk!* ðŸ‡¬ðŸ‡¾

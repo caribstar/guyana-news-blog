@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Fiction
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-01-27
 product_family: series
@@ -21,7 +21,7 @@ title: 'Speedeet & Wilar: De Chinese Restaurant Adventure'
 tone: commentary
 ---
 
-## 🍜 DE CHINESE RESTAURANT ADVENTURE
+## ðŸœ DE CHINESE RESTAURANT ADVENTURE
 
 *A Speedeet & Wilar Story from Pike Street, Kitty*
 
@@ -29,7 +29,7 @@ tone: commentary
 
 "Speedeet! SPEEDEET!"
 
-Wilar come running down Pike Street like somebody chasing he with a cutlass. But he face wasn't scared — he face was EXCITED.
+Wilar come running down Pike Street like somebody chasing he with a cutlass. But he face wasn't scared â€” he face was EXCITED.
 
 "Wha happen?" Speedeet look up from de marble game he was winning against Little Sanjay.
 
@@ -47,7 +47,7 @@ Little Sanjay marble roll away forgotten. Speedeet was already on he feet.
 
 ---
 
-## 🚶 DE WALK TO ALEXANDER STREET
+## ðŸš¶ DE WALK TO ALEXANDER STREET
 
 De two boys walk fast-fast down de road. Wilar uncle, Mr. Doodnauth, was waiting by de restaurant door looking important.
 
@@ -57,7 +57,7 @@ De two boys walk fast-fast down de road. Wilar uncle, Mr. Doodnauth, was waiting
 
 Speedeet just nod. He fingers already twitching.
 
-Mr. Chen appear at de door — a small man with a big smile and a apron that look like it see more battles than de Guyana Defence Force.
+Mr. Chen appear at de door â€” a small man with a big smile and a apron that look like it see more battles than de Guyana Defence Force.
 
 "Ah! Doodnauth! Come, come! Bring de boys!"
 
@@ -65,7 +65,7 @@ And just so, dey was IN.
 
 ---
 
-## 🍗 DE KITCHEN
+## ðŸ— DE KITCHEN
 
 Speedeet thought he know what a kitchen look like. He mother kitchen had a stove, a pot, and sometimes a lizard on de wall.
 
@@ -83,7 +83,7 @@ Wilar nod so hard he glasses nearly fly off.
 
 ---
 
-## 🥡 DE TASTING
+## ðŸ¥¡ DE TASTING
 
 Mr. Chen start pulling out dish after dish.
 
@@ -107,7 +107,7 @@ Something... unfamiliar.
 
 ---
 
-## 👀 DE DISCOVERY
+## ðŸ‘€ DE DISCOVERY
 
 Speedeet was shoveling rice into he mouth when he fork hit something strange.
 
@@ -141,7 +141,7 @@ Well, not really. De eyes was closed. But it FELT like it was staring.
 
 ---
 
-## 🤔 DE DECISION
+## ðŸ¤” DE DECISION
 
 Mr. Doodnauth and Mr. Chen was deep in conversation by de freezer, not paying attention.
 
@@ -165,13 +165,13 @@ Speedeet look at de head again. De little comb was actually kinda crispy looking
 
 He think about all de times he tell Wilar to be brave. All de times he say "Nothing ventured, nothing gained." All de times he climb de mango tree first.
 
-How he could call heself SPEEDEET — de bravest boy on Pike Street — if he scared of a little chicken head?
+How he could call heself SPEEDEET â€” de bravest boy on Pike Street â€” if he scared of a little chicken head?
 
 Besides, de comb was looking kinda interesting. Soft. Reddish. Like a little rubbery crown.
 
 ---
 
-## 😋 DE MOMENT OF TRUTH
+## ðŸ˜‹ DE MOMENT OF TRUTH
 
 Speedeet take a deep breath.
 
@@ -195,7 +195,7 @@ Speedeet was chewing. Slow. Thoughtful. Like a food critic on TV.
 
 He eyes get wide.
 
-De comb wasn't crispy like he expected. It was SOFT. Chewy. Like nothing he ever taste before. It had dis unusual texture dat bounce around in he mouth — rubbery but in a GOOD way. He chew on it delightfully, exploring every bit of de strange new sensation.
+De comb wasn't crispy like he expected. It was SOFT. Chewy. Like nothing he ever taste before. It had dis unusual texture dat bounce around in he mouth â€” rubbery but in a GOOD way. He chew on it delightfully, exploring every bit of de strange new sensation.
 
 "It... it actually NICE," he say, genuinely surprised.
 
@@ -211,7 +211,7 @@ Speedeet grin and take another big scoop of de fried rice.
 
 ---
 
-## 🏃 DE AFTERMATH
+## ðŸƒ DE AFTERMATH
 
 When dey finally leave de restaurant, Speedeet belly was FULL and he mind was BLOWN.
 
@@ -247,7 +247,7 @@ Speedeet grin. "Dat's why dey call me SPEEDEET, bai. First to try everything. Sc
 
 ---
 
-## 🍚 DE LESSON
+## ðŸš DE LESSON
 
 Dat night, Speedeet lay in he bed thinking about de day.
 
@@ -283,6 +283,6 @@ And he enjoy every bite.
 
 ---
 
-*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is the brave one who jumps first. Wilar is the careful one who thinks twice. Together, they get into — and out of — all kinds of trouble. Their stories are written in authentic Guyanese Creolese.*
+*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is the brave one who jumps first. Wilar is the careful one who thinks twice. Together, they get into â€” and out of â€” all kinds of trouble. Their stories are written in authentic Guyanese Creolese.*
 
-📚 *Want more adventures? The Speedeet & Wilar book series is available on Amazon!*
+ðŸ“š *Want more adventures? The Speedeet & Wilar book series is available on Amazon!*

@@ -2,7 +2,7 @@
 author: Albert Massay
 categories:
 - Speedeet & Wilar
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-03-29 08:00:00-04:00
 description: Georgetown flooding again, and Speedeet see it as an opportunity. Wilar
@@ -41,7 +41,7 @@ Wilar didn't look up from he book. "I see flooding."
 
 "Dat is de same ting right now, Speedeet."
 
-But Speedeet was already pulling on he old sneakers — de ones he mudda always say he should throw away. De ones he keep specifically for situations like dis.
+But Speedeet was already pulling on he old sneakers â€” de ones he mudda always say he should throw away. De ones he keep specifically for situations like dis.
 
 Wilar watch him.
 
@@ -63,7 +63,7 @@ He put down de book.
 
 ---
 
-By de time dem reach Sanjay, three more children from de street had appeared. Nobody plan it. Rain does do dat — pull people outside de same way sunshine does.
+By de time dem reach Sanjay, three more children from de street had appeared. Nobody plan it. Rain does do dat â€” pull people outside de same way sunshine does.
 
 Keisha was already organizing.
 
@@ -77,7 +77,7 @@ Speedeet nod like dis was a perfectly reasonable prize.
 
 Dem race.
 
-Speedeet was fast — faster than everybody on Pike Street, everybody knew dat. But wet road and old sneakers was a different calculation. He hit a slick patch near Miss Doreen gate and his feet went one way and he went another.
+Speedeet was fast â€” faster than everybody on Pike Street, everybody knew dat. But wet road and old sneakers was a different calculation. He hit a slick patch near Miss Doreen gate and his feet went one way and he went another.
 
 He land in de water.
 

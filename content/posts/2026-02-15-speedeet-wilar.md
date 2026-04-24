@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Kids
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-02-15
 draft: false
@@ -85,7 +85,7 @@ Wilar open de exercise book and write de name big across de top. Speedeet grab a
 
 "Second headline: OLD MAN DOODNAUTH GATE STILL LEANING AFTER SEVENTH REPAIR ATTEMPT."
 
-"Third headline: LOCAL BOY WILAR ACCUSED OF EATING LAST TENNIS ROLL — DENIES EVERYTHING."
+"Third headline: LOCAL BOY WILAR ACCUSED OF EATING LAST TENNIS ROLL â€” DENIES EVERYTHING."
 
 "HEY! I ain't eat no tennis roll!"
 
@@ -101,4 +101,4 @@ Even the boring parts.
 
 ---
 
-*Speedeet & Wilar is a weekly feature. De boys does get into something every Sunday.* 🇬🇾
+*Speedeet & Wilar is a weekly feature. De boys does get into something every Sunday.* ðŸ‡¬ðŸ‡¾

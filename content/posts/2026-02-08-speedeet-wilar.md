@@ -1,11 +1,11 @@
 ---
 categories:
 - Speedeet & Wilar
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-02-08
 description: Speedeet and Wilar visit the waterfront and learn about the giant ships
-  pumping Guyana's oil — and ask the questions that matter.
+  pumping Guyana's oil â€” and ask the questions that matter.
 product_family: series
 status: published
 tags:
@@ -57,11 +57,11 @@ Wilar whistled. He didn't actually know how much $2.3 billion was, but he knew i
 
 They sat on the seawall, legs dangling, watching a fishing boat chug upriver. The fisherman waved. They waved back.
 
-"Speedeet," Wilar said, in the careful voice he used when he was thinking hard. "If somebody come to YOUR yard, dig up YOUR mango tree, sell de mangoes, and then buy a truck with de mango money — whose truck is it?"
+"Speedeet," Wilar said, in the careful voice he used when he was thinking hard. "If somebody come to YOUR yard, dig up YOUR mango tree, sell de mangoes, and then buy a truck with de mango money â€” whose truck is it?"
 
 Speedeet looked at his friend. "Dat is a very good question."
 
-"And if dey tell you, 'Don't worry, you getting some of de mango money back — AFTER I pay fuh de truck, de gas, de driver, de insurance, and me lunch' — how much mango money you actually getting?"
+"And if dey tell you, 'Don't worry, you getting some of de mango money back â€” AFTER I pay fuh de truck, de gas, de driver, de insurance, and me lunch' â€” how much mango money you actually getting?"
 
 "Less than you think."
 
@@ -69,7 +69,7 @@ Speedeet looked at his friend. "Dat is a very good question."
 
 They sat in silence for a while. A pelican dove into the water and came up with a fish. The pelican, Wilar noted, did not have to share the fish with anyone.
 
-"But here's de thing," Speedeet said eventually. "Dem ships also creating jobs. Guyanese people working in de oil industry. Engineers, technicians, supply chain people. De money flowing into de economy in different ways — not just de direct oil revenue."
+"But here's de thing," Speedeet said eventually. "Dem ships also creating jobs. Guyanese people working in de oil industry. Engineers, technicians, supply chain people. De money flowing into de economy in different ways â€” not just de direct oil revenue."
 
 "So it's complicated."
 
@@ -85,7 +85,7 @@ Wilar pulled a folded piece of newspaper from his back pocket. He always carried
 
 They hopped off the seawall and picked up their bikes. The sun was getting hot and Speedeet's mother had promised cook-up rice for lunch, which was not the kind of promise you tested by being late.
 
-As they pedalled back through Kitty, passing the familiar landmarks of Pike Street — the rum shop, the parlour, Miss Devi's house with the big mango tree, the gutter that always overflow when rain fall — Wilar had one more thought.
+As they pedalled back through Kitty, passing the familiar landmarks of Pike Street â€” the rum shop, the parlour, Miss Devi's house with the big mango tree, the gutter that always overflow when rain fall â€” Wilar had one more thought.
 
 "Speedeet."
 
@@ -109,9 +109,9 @@ Speedeet pedalled faster, the wind in his face, the future wide open like the At
 
 **What is an FPSO?** A Floating Production, Storage, and Offloading vessel is a giant ship that processes and stores oil pumped from beneath the ocean floor. Guyana has four FPSOs operating in the Stabroek Block, about 200 km offshore.
 
-**What is ringfencing?** When an oil company operates multiple projects, ringfencing means each project's costs can only be recovered from THAT project's profits. Without it, costs from one project can reduce profits from another — meaning less money for the country.
+**What is ringfencing?** When an oil company operates multiple projects, ringfencing means each project's costs can only be recovered from THAT project's profits. Without it, costs from one project can reduce profits from another â€” meaning less money for the country.
 
-**What is renewable energy?** Energy from sources that naturally replenish — like sunlight, wind, and water. Guyana is investing in hydropower and solar to reduce dependence on oil and imported fuel.
+**What is renewable energy?** Energy from sources that naturally replenish â€” like sunlight, wind, and water. Guyana is investing in hydropower and solar to reduce dependence on oil and imported fuel.
 
 ---
 

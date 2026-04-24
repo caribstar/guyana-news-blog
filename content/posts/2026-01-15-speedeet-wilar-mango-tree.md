@@ -2,7 +2,7 @@
 categories:
 - Speedeet & Wilar
 - Youth Stories
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-01-15
 draft: false
@@ -28,7 +28,7 @@ tone: commentary
 
 **Speedeet:** De JULIE mango, man! De one wid de big big mango hanging over de fence. Dat mango deh deh looking at me every day when me pass, just BEGGING somebody fuh pick it.
 
-**Wilar:** Speedeet, dah is Mr. Chan property. Yuh cyaan just—
+**Wilar:** Speedeet, dah is Mr. Chan property. Yuh cyaan justâ€”
 
 **Speedeet:** Who seh anything about JUST going and pick it? Me got a PLAN.
 
@@ -172,7 +172,7 @@ tone: commentary
 
 **Wilar:** *(shaking he head)* Yuh impossible, yuh know dat?
 
-**Speedeet:** Dah is why we best friends! Tomorrow me got another plan—
+**Speedeet:** Dah is why we best friends! Tomorrow me got another planâ€”
 
 **Wilar:** NO! No more plans! Me mother seh me cyaan get in no more trouble dis week!
 
@@ -196,7 +196,7 @@ De mangoes? Delicious. Worth it? According to Speedeet, ABSOLUTELY. According to
 
 **Next Week:** "Speedeet & Wilar: De Cricket Match Catastrophe"
 
-*Speedeet & Wilar are fictional characters celebrating Guyanese youth culture and friendship. Their adventures deh fuh entertain and reflect de innocent mischief of childhood in Guyana.* 🇬🇾
+*Speedeet & Wilar are fictional characters celebrating Guyanese youth culture and friendship. Their adventures deh fuh entertain and reflect de innocent mischief of childhood in Guyana.* ðŸ‡¬ðŸ‡¾
 
 ---
 

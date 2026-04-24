@@ -1,5 +1,5 @@
 /* ==========================================================
-   TRADEWINDS BRIEF — SITE CANON CSS
+   TRADEWINDS BRIEF â€” SITE CANON CSS
    Based on africa-hub design language
    Fraunces (display) + Inter (UI/body)
    Palette: navy #0D5F7A, gold #C9A96E, cream #FAF7F0
@@ -284,7 +284,7 @@ body.tw-site {
 .tw-whatmatters a:hover { color: var(--action); }
 
 /* ==========================================================
-   CARDS — africa-hub country-card pattern
+   CARDS â€” africa-hub country-card pattern
    ========================================================== */
 .tw-card {
   background: #fff;
@@ -411,6 +411,7 @@ body.tw-site {
 .tw-badge-parody_column { background: var(--badge-parody); }
 .tw-badge-commentary { background: var(--badge-commentary); }
 .tw-badge-analysis { background: #5a5a5a; }
+.tw-badge-kids_story { background: #d4a017; }
 
 /* ==========================================================
    DUEL STRIP

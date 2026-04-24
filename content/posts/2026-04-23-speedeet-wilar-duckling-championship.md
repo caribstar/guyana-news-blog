@@ -4,9 +4,9 @@ date: 2026-04-23
 author: "Speedeet & Wilar"
 categories: ["Speedeet & Wilar"]
 tags: ["speedeet", "wilar", "pike-street", "kids-story", "guyana", "ducks"]
-content_type: "commentary"
+content_type: "kids_story"
 image: "/images/franchise/speedeet-wilar-ducks.jpg"
-description: "Wilar aunty duck hatching twelve eggs (was thirteen, one disappear — duck business). Speedeet and Wilar turn de backyard into a full championship before de ducklings got de chance to open dem eye good."
+description: "Wilar aunty duck hatching twelve eggs (was thirteen, one disappear â€” duck business). Speedeet and Wilar turn de backyard into a full championship before de ducklings got de chance to open dem eye good."
 country: "guyana"
 ---
 

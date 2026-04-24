@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Speedeet & Wilar
-content_type: commentary
+content_type: "kids_story"
 country: guyana
 date: 2026-04-12 09:00:00-04:00
 description: Speedeet signs them both up for the school talent show without telling
@@ -25,7 +25,7 @@ tone: commentary
 
 ---
 
-Wilar found out about the talent show the same way he found out about most of Speedeet's plans — after it was too late to stop them.
+Wilar found out about the talent show the same way he found out about most of Speedeet's plans â€” after it was too late to stop them.
 
 "I signed us up," Speedeet said, appearing at the gate on a Tuesday morning with the expression of someone delivering excellent news.
 
@@ -61,7 +61,7 @@ Wilar looked at the fruit. He looked at Speedeet. He picked up his book again. "
 
 Day one was bad.
 
-Speedeet threw all three pieces of fruit in the air at the same time, which is not juggling — it is just throwing things. The mango hit the fence. One orange rolled under the step. The other orange hit Wilar on the shoe.
+Speedeet threw all three pieces of fruit in the air at the same time, which is not juggling â€” it is just throwing things. The mango hit the fence. One orange rolled under the step. The other orange hit Wilar on the shoe.
 
 "That's not juggling," Wilar said without looking up from his book.
 
@@ -111,7 +111,7 @@ Speedeet thought about this. "I DO have a good announcer voice."
 
 ---
 
-The night of the talent show, the school hall was packed — parents, siblings, teachers, the principal in the front row with her arms folded the way she always sat when she was hoping nothing would go wrong.
+The night of the talent show, the school hall was packed â€” parents, siblings, teachers, the principal in the front row with her arms folded the way she always sat when she was hoping nothing would go wrong.
 
 Three acts went before them. A girl sang a song very beautifully. Two boys did a comedy skit that was funnier in rehearsal. A younger girl recited a poem and forgot the last verse but nobody minded.
 
@@ -119,7 +119,7 @@ Then it was their turn.
 
 Speedeet walked to the microphone with enormous confidence.
 
-"Good evening," he said, in his best announcer voice — which was, in fact, quite good. "Tonight, you will witness something extraordinary. Something that required days of preparation, sacrifice, and the destruction of at least two oranges. Ladies and gentlemen, I present to you: THE AMAZING WILAR."
+"Good evening," he said, in his best announcer voice â€” which was, in fact, quite good. "Tonight, you will witness something extraordinary. Something that required days of preparation, sacrifice, and the destruction of at least two oranges. Ladies and gentlemen, I present to you: THE AMAZING WILAR."
 
 Wilar walked out from the side with three oranges and stood in the centre of the stage.
 
@@ -127,7 +127,7 @@ He threw the first orange up. Then the second. Then the third.
 
 And he juggled.
 
-Not for a long time — maybe twelve seconds. But clean, smooth, all three oranges in the air in a proper pattern, the way it was supposed to look.
+Not for a long time â€” maybe twelve seconds. But clean, smooth, all three oranges in the air in a proper pattern, the way it was supposed to look.
 
 The audience applauded. The principal unfolded her arms.
 

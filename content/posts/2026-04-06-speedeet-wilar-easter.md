@@ -2,7 +2,7 @@
 author: Speedeet and Wilar
 categories:
 - Speedeet & Wilar
-content_type: parody_column
+content_type: "kids_story"
 country: guyana
 date: 2026-04-06
 description: Is Easter Monday on de seawall. Speedeet and Wilar build a kite from
@@ -19,11 +19,11 @@ tags:
 - kite
 - creolese
 - kitty
-title: Speedeet & Wilar — De Kite and de Corentyne River
+title: Speedeet & Wilar â€” De Kite and de Corentyne River
 tone: commentary
 ---
 
-*Speedeet and Wilar — two boys from Pike Street, Kitty, Georgetown. Every Sunday.*
+*Speedeet and Wilar â€” two boys from Pike Street, Kitty, Georgetown. Every Sunday.*
 
 ---
 
@@ -45,7 +45,7 @@ Wilar get quiet because dat was true and also not relevant but hard to argue wit
 
 ---
 
-De seawall on Easter Monday was de most serious kite-flying event in de whole Guyanese calendar and everybody on Pike Street knew it. By ten o'clock de wall was full — families spreading out along de concrete, coolers and snacks and children running, and above dem a whole sky of kites. Store-bought ones with proper tails and painted designs. Home-made ones like Speedeet and Wilar's, identifiable by their irregular shape and de general air of hope over engineering.
+De seawall on Easter Monday was de most serious kite-flying event in de whole Guyanese calendar and everybody on Pike Street knew it. By ten o'clock de wall was full â€” families spreading out along de concrete, coolers and snacks and children running, and above dem a whole sky of kites. Store-bought ones with proper tails and painted designs. Home-made ones like Speedeet and Wilar's, identifiable by their irregular shape and de general air of hope over engineering.
 
 Dey find a good spot near de middle section, away from de family with de very large cooler who looked like dey planned to be there all day and required significant personal space.
 
@@ -61,7 +61,7 @@ Dey find a good spot near de middle section, away from de family with de very la
 
 *"Speedeet."*
 
-Dey look at each other. Wilar had paid for de plastic bag material — forty dollars at de Chinese shop. Speedeet had borrowed de bamboo from his granny yard without fully asking. Dey was equally invested.
+Dey look at each other. Wilar had paid for de plastic bag material â€” forty dollars at de Chinese shop. Speedeet had borrowed de bamboo from his granny yard without fully asking. Dey was equally invested.
 
 *"We go do it together,"* Wilar say. *"I hold de kite up, you run backward with de string."*
 
@@ -75,7 +75,7 @@ Dey look at each other. Wilar had paid for de plastic bag material — forty dol
 
 ---
 
-De first attempt: Speedeet run backward carefully. He hit somebody. Not hard — just a brush against a woman who was walking with a roti in her hand. De roti survive. De woman give dem de look. Every Guyanese child know de look. It carry more information than most conversations.
+De first attempt: Speedeet run backward carefully. He hit somebody. Not hard â€” just a brush against a woman who was walking with a roti in her hand. De roti survive. De woman give dem de look. Every Guyanese child know de look. It carry more information than most conversations.
 
 *"Sorry, Auntie,"* dem say together.
 
@@ -85,7 +85,7 @@ De kite, meanwhile, had gone up approximately three feet and then turn sideways 
 
 De second attempt work.
 
-Wilar hold de kite up high. Speedeet back up into a clear space, let out string, felt de pull as de wind catch it, and de kite climb. Six feet. Ten. Twenty. De plastic bag material crinkle and pull, de bamboo frame hold, and de kite was actually flying — actually up there above de other kites, catching a higher wind.
+Wilar hold de kite up high. Speedeet back up into a clear space, let out string, felt de pull as de wind catch it, and de kite climb. Six feet. Ten. Twenty. De plastic bag material crinkle and pull, de bamboo frame hold, and de kite was actually flying â€” actually up there above de other kites, catching a higher wind.
 
 *"Don't let go,"* Wilar say. He was watching from below, shading his eyes.
 
@@ -143,7 +143,7 @@ Dey stand there for a while. De woman with de roti walk past again going de othe
 
 ---
 
-Dey went back to de Chinese shop. Wilar bought new string — proper string, from de big roll, not whatever was in Speedeet granny shed. De woman at de counter look at dem like she remember dem from earlier, which she probably did.
+Dey went back to de Chinese shop. Wilar bought new string â€” proper string, from de big roll, not whatever was in Speedeet granny shed. De woman at de counter look at dem like she remember dem from earlier, which she probably did.
 
 Dey went back to de seawall.
 
