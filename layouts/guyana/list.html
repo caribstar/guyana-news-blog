@@ -1,211 +1,169 @@
 {{- define "main" -}}
-{{ $catFilter := .Params.categories_filter | default (slice "Daily Brief") }}
+{{ $all := where site.RegularPages "Type" "posts" }}
+{{ $all = sort $all "Date" "desc" }}
 
-{{/* Build the pool of matched posts */}}
-{{ $matched := slice }}
-{{ range (where site.RegularPages "Params.categories" "intersect" $catFilter) }}
-  {{ $matched = $matched | append . }}
+{{ $commentary := where $all "Params.content_type" "commentary" }}
+{{ $commentaryFiltered := slice }}
+{{ range $commentary }}
+  {{ $isSW := false }}
+  {{ range .Params.categories }}{{ if eq . "Speedeet & Wilar" }}{{ $isSW = true }}{{ end }}{{ end }}
+  {{ if not $isSW }}{{ $commentaryFiltered = $commentaryFiltered | append . }}{{ end }}
 {{ end }}
-{{ $matched = $matched | uniq }}
-{{ $matched = sort $matched "Date" "desc" }}
+{{ $commentary = $commentaryFiltered }}
+{{ $sports := where $all "Params.content_vertical" "sports" }}
+{{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 
-{{/* Hero-row control: strongest story slot 1, Sports slot 2, Speedeet slot 3 */}}
-{{ $sports := where $matched "Params.content_vertical" "sports" }}
-{{ $speedeet := where $matched "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
+{{ $hero := "" }}
+{{ if gt (len $commentary) 0 }}{{ $hero = index $commentary 0 }}{{ else if gt (len $all) 0 }}{{ $hero = index $all 0 }}{{ end }}
+{{ $secondary := "" }}
+{{ if gt (len $commentary) 1 }}{{ $secondary = index $commentary 1 }}{{ end }}
+{{ $sportsLead := "" }}{{ if gt (len $sports) 0 }}{{ $sportsLead = index $sports 0 }}{{ end }}
+{{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
-{{ $heroSlot1 := "" }}{{ if gt (len $matched) 0 }}{{ $heroSlot1 = index $matched 0 }}{{ end }}
-{{ $heroSlot2 := "" }}{{ if gt (len $sports) 0 }}{{ $heroSlot2 = index $sports 0 }}{{ end }}
-{{ $heroSlot3 := "" }}{{ if gt (len $speedeet) 0 }}{{ $heroSlot3 = index $speedeet 0 }}{{ end }}
+{{ $used := slice }}
+{{ if $hero }}{{ $used = $used | append $hero.RelPermalink }}{{ end }}
+{{ if $secondary }}{{ $used = $used | append $secondary.RelPermalink }}{{ end }}
+{{ if $sportsLead }}{{ $used = $used | append $sportsLead.RelPermalink }}{{ end }}
+{{ if $speedeetLead }}{{ $used = $used | append $speedeetLead.RelPermalink }}{{ end }}
 
-{{/* IDs of used items so we don't duplicate them below */}}
-{{ $usedIDs := slice }}
-{{ if $heroSlot1 }}{{ $usedIDs = $usedIDs | append $heroSlot1.RelPermalink }}{{ end }}
-{{ if $heroSlot2 }}{{ $usedIDs = $usedIDs | append $heroSlot2.RelPermalink }}{{ end }}
-{{ if $heroSlot3 }}{{ $usedIDs = $usedIDs | append $heroSlot3.RelPermalink }}{{ end }}
+<div class="tw-home-shell">
 
-<div class="onion-wrap gy-wrap">
-
-  {{/* === FEATURED TRIO (hero row, controlled) === */}}
-  <section class="onion-featured gy-hero-trio">
-    {{ with $heroSlot1 }}
-    <article class="feat-card feat-hero">
-      <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-        <span class="feat-cat">{{ .Params.section | default "News" | title }}</span>
-        <h2 class="feat-headline">{{ .Title }}</h2>
-        <p class="feat-meta">{{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-      </a>
-    </article>
-    {{ end }}
-    {{ with $heroSlot2 }}
-    <article class="feat-card feat-sports">
-      <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-        <span class="feat-cat feat-cat-sports">Sports</span>
-        <h2 class="feat-headline">{{ .Title }}</h2>
-        <p class="feat-meta">{{ .Params.author | default "GDB Sports" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-      </a>
-    </article>
-    {{ end }}
-    {{ with $heroSlot3 }}
-    <article class="feat-card feat-speedeet">
-      <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-        <span class="feat-cat feat-cat-speedeet">Speedeet &amp; Wilar</span>
-        <h2 class="feat-headline">{{ .Title }}</h2>
-        <p class="feat-meta">{{ .Params.author | default "Seetal Sukraj" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-      </a>
-    </article>
-    {{ end }}
+  <section class="tw-home-hero">
+    <div class="eyebrow">Week of {{ now.Format "January 2, 2006" }}</div>
+    <p class="pitch">Context for the Caribbean &amp; African diaspora.</p>
   </section>
 
-  {{/* === DEDICATED SPORTS BLOCK === */}}
-  {{ $sportsBlock := slice }}
-  {{ range $sports }}
-    {{ if not (in $usedIDs .RelPermalink) }}
-      {{ $sportsBlock = $sportsBlock | append . }}
-    {{ end }}
-  {{ end }}
-  {{ $sportsBlock = first 3 $sportsBlock }}
-  {{ if $sportsBlock }}
-  <section class="onion-more gy-sports-block">
-    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-sports"></span>Sports</h3>
-    <div class="onion-feed-grid3">
-      {{ range $sportsBlock }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">Sports</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "GDB Sports" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
+  {{/* HERO GRID */}}
+  <div class="tw-hero-grid">
+    <div class="tw-hero-lead">
+      {{ with $hero }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
     </div>
-  </section>
-  {{ end }}
-
-  {{/* === DEDICATED SPEEDEET & WILAR BLOCK === */}}
-  {{ $speedeetBlock := slice }}
-  {{ range $speedeet }}
-    {{ if not (in $usedIDs .RelPermalink) }}
-      {{ $speedeetBlock = $speedeetBlock | append . }}
-    {{ end }}
-  {{ end }}
-  {{ $speedeetBlock = first 3 $speedeetBlock }}
-  {{ if $speedeetBlock }}
-  <section class="onion-more gy-speedeet-block">
-    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-speedeet"></span>Speedeet &amp; Wilar</h3>
-    <div class="onion-feed-grid3">
-      {{ range $speedeetBlock }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">Speedeet &amp; Wilar</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "Seetal Sukraj" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
+    <div class="tw-hero-stack">
+      {{ with $secondary }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+      {{ with (or $sportsLead $speedeetLead) }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
     </div>
-  </section>
-  {{ end }}
-
-  {{/* === MAIN FEED + SIDEBAR (all remaining, minus already-used) === */}}
-  {{ $feed := slice }}
-  {{ range $matched }}
-    {{ if not (in $usedIDs .RelPermalink) }}
-      {{ $feed = $feed | append . }}
-    {{ end }}
-  {{ end }}
-  {{ $upperFeed := first 8 $feed }}
-  {{ $lowerFeed := after 8 $feed }}
-
-  <section class="onion-main">
-    <div class="onion-feed-grid2">
-      {{ range $upperFeed }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
-    </div>
-
-    <aside class="onion-sidebar">
-      <div class="side-block">
-        <h4 class="side-title">Top Stories</h4>
-        <ol class="side-list">
-          {{ range first 5 $matched }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
-        </ol>
-      </div>
-      <div class="side-block side-live">
-        <h4 class="side-title">Live: Georgetown</h4>
-        <div id="gy-live">
-          <p>USD/GYD: <span id="gy-fx">&mdash;</span></p>
-          <p>Weather: <span id="gy-wx">&mdash;</span></p>
-        </div>
-      </div>
-      <div class="side-block side-promo">
-        <p class="promo-text">Tradewinds Brief &middot; Guyana &middot; Satire with sauce and pepper.</p>
-      </div>
+    <aside class="tw-whatmatters">
+      <h3>What Matters Now</h3>
+      <ol>
+        {{ $matters := slice }}
+{{ range $all }}
+  {{ $isSW := false }}
+  {{ range .Params.categories }}{{ if eq . "Speedeet & Wilar" }}{{ $isSW = true }}{{ end }}{{ end }}
+  {{ if not $isSW }}{{ $matters = $matters | append . }}{{ end }}
+{{ end }}
+{{ range first 8 $matters }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      </ol>
     </aside>
+  </div>
+
+  {{/* DUEL STRIP */}}
+  {{ partial "duel-strip.html" . }}
+
+  {{/* CARIBBEAN COVERAGE */}}
+  {{ $caribbean := slice
+    (dict "slug" "guyana" "name" "Guyana" "flag" "gy" "section" "Georgetown Brief" "cats" (slice "Daily Brief" "Uncle Ramesh" "Bro Winston" "The Rumour Mill" "DJ Roadblock" "Patriots Portfolio" "Bam-Bam Sally" "De Boys Seh" "Back-a-Truck" "Bounty Board" "The Guyanese Horizon" "Progress Report" "Guyana Brief"))
+    (dict "slug" "jamaica" "name" "Jamaica" "flag" "jm" "section" "Yard Report" "cats" (slice "Yard Brief"))
+    (dict "slug" "trinidad" "name" "Trinidad" "flag" "tt" "section" "Trini Dispatch" "cats" (slice "Trini Brief"))
+    (dict "slug" "barbados" "name" "Barbados" "flag" "bb" "section" "Bajan Bugle" "cats" (slice "Bajan Brief"))
+  }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Caribbean</h2>
+      <span class="meta">Four countries, weekly</span>
+    </div>
+    <div class="tw-country-row">
+      {{ range $caribbean }}
+        {{ $country := . }}
+        {{ $cp := where $all "Params.categories" "intersect" .cats }}
+        {{ with (index $cp 0) }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
+        {{ end }}
+      {{ end }}
+    </div>
   </section>
 
-  {{/* === FRANCHISES (picture-first) === */}}
-  {{ $franchiseCats := slice "The Rumour Mill" "Progress Report" "Patriots Portfolio" "DJ Roadblock" "Bam-Bam Sally" "Back-a-Truck" "Bounty Board" "The Guyanese Horizon" "De Boys Seh" }}
-  {{ $franchises := slice }}
-  {{ range $cat := $franchiseCats }}
-    {{ $latest := first 1 (where $matched "Params.categories" "intersect" (slice $cat)) }}
-    {{ if $latest }}{{ $franchises = $franchises | append (index $latest 0) }}{{ end }}
-  {{ end }}
-
-  {{ if $franchises }}
-  <section class="onion-more gy-franchises">
-    <h3 class="more-title gy-section-title"><span class="gy-section-marker gy-marker-franchise"></span>Guyana Franchises <span class="gy-section-sub">The Recurring Features</span></h3>
-    <div class="onion-feed-grid3">
-      {{ range $franchises }}
-      <article class="tile tile-franchise">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">{{ index .Params.categories 0 }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">{{ .Summary | truncate 120 }}</p>
-        </a>
-      </article>
+  {{/* AFRICA COVERAGE */}}
+  {{ $africa := slice
+    (dict "slug" "ghana" "name" "Ghana" "flag" "gh" "section" "Accra Almanac" "cats" (slice "Ghana Brief" "Accra Almanac"))
+    (dict "slug" "kenya" "name" "Kenya" "flag" "ke" "section" "Nairobi Dispatch" "cats" (slice "Kenya Brief" "Nairobi Dispatch"))
+    (dict "slug" "nigeria" "name" "Nigeria" "flag" "ng" "section" "Naija Lookbook" "cats" (slice "Nigeria Brief" "Naija Brief" "Naija Lookbook"))
+    (dict "slug" "south-africa" "name" "South Africa" "flag" "za" "section" "Cape Chronicles" "cats" (slice "South Africa Brief" "SA Brief" "Cape Chronicles"))
+  }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Africa</h2>
+      <span class="meta">Ghana &middot; Kenya &middot; Nigeria &middot; South Africa</span>
+    </div>
+    <div class="tw-country-row">
+      {{ range $africa }}
+        {{ $country := . }}
+        {{ $cp := where $all "Params.categories" "intersect" .cats }}
+        {{ with (index $cp 0) }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
+        {{ end }}
       {{ end }}
+    </div>
+  </section>
+
+  {{/* SPORTS */}}
+  {{ if $sports }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Sports</h2>
+      <a href="/sports/" class="more">All sports</a>
+    </div>
+    <div class="tw-feed-grid">
+      {{ range first 4 $sports }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
     </div>
   </section>
   {{ end }}
 
-  {{/* === LOWER FEED === */}}
-  {{ if $lowerFeed }}
-  <section class="onion-more">
-    <h3 class="more-title">More Stories</h3>
-    <div class="onion-feed-grid3">
-      {{ range $lowerFeed }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
+  {{/* SPEEDEET & WILAR ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â IP feature */}}
+  {{ if $speedeetLead }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Speedeet &amp; Wilar</h2>
+      <span class="meta">Caribbean stories for curious kids</span>
+    </div>
+    <div class="tw-speedeet-feature">
+      <a href="{{ $speedeetLead.RelPermalink }}" class="tw-sf-link">
+        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default (printf "https://picsum.photos/seed/%s/1200/800" $speedeetLead.File.ContentBaseName) }}');"></div>
+        <div class="tw-sf-body">
+          <div class="tw-sf-eyebrow">Latest Story</div>
+          <h3 class="tw-sf-title">{{ $speedeetLead.Title }}</h3>
+          <p class="tw-sf-dek">{{ $speedeetLead.Params.description | default ($speedeetLead.Summary | plainify | truncate 160) }}</p>
+          <div class="tw-sf-ctas">
+            <span class="tw-sf-cta tw-sf-cta-read">Read the story</span>
+            <span class="tw-sf-cta tw-sf-cta-buy">Get the book</span>
+          </div>
+        </div>
+      </a>
     </div>
   </section>
   {{ end }}
+
+  {{/* LATEST FEED */}}
+  {{ $feed := slice }}
+  {{ range $all }}{{ if not (in $used .RelPermalink) }}{{ $feed = $feed | append . }}{{ end }}{{ end }}
+  {{ $feed = first 8 $feed }}
+  {{ if $feed }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Latest</h2>
+      <span class="meta">Most recent briefings</span>
+    </div>
+    <div class="tw-feed-grid">
+      {{ range $feed }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* NEWSLETTER CTA */}}
+  <div class="tw-cta">
+    <h3>Get The Tradewinds Brief in your inbox.</h3>
+    <p>Daily coverage of Guyana and the Caribbean. Weekly reporting on Ghana, Kenya, Nigeria, and South Africa. Free.</p>
+    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="tw-cta-btn" target="_blank" rel="noopener">Subscribe Free</a>
+  </div>
 
 </div>
-
-<script>
-(function(){
-  fetch('https://api.exchangerate.host/latest?base=USD&symbols=GYD').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.GYD){document.getElementById("gy-fx").textContent="1 USD = "+d.rates.GYD.toFixed(2)+" GYD";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=6.80&longitude=-58.17&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById("gy-wx").textContent=d.current.temperature_2m+"&deg;C, Georgetown";}}).catch(()=>{});
-})();
-</script>
 {{- end -}}
