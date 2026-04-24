@@ -72,7 +72,7 @@
         <h4 class="side-title">Live: Port of Spain</h4>
         <div id="tt-live">
           <p>USD/TTD: <span id="tt-fx">&mdash;</span></p>
-          <p>Weather: <span id="tt-wx">&mdash;</span></p>
+          <p>Weather: <span id="tt-wx">&#8212;</span></p>
         </div>
       </div>
       <div class="side-block side-promo">
@@ -104,7 +104,7 @@
 <script>
 (function(){
   fetch('https://api.exchangerate.host/latest?base=USD&symbols=TTD').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.TTD){document.getElementById("tt-fx").textContent="1 USD = "+d.rates.TTD.toFixed(2)+" TTD";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=10.66&longitude=-61.52&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById("tt-wx").textContent=d.current.temperature_2m+"&deg;C, Port of Spain";}}).catch(()=>{});
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=10.66&longitude=-61.52&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('tt-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Port of Spain';}}).catch(()=>{});
 })();
 </script>
 {{- end -}}

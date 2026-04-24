@@ -72,7 +72,7 @@
         <h4 class="side-title">Live: Lagos</h4>
         <div id="ng-live">
           <p>USD/NGN: <span id="ng-fx">&mdash;</span></p>
-          <p>Weather: <span id="ng-wx">&mdash;</span></p>
+          <p>Weather: <span id="ng-wx">&#8212;</span></p>
         </div>
       </div>
       <div class="side-block side-promo">
@@ -104,7 +104,7 @@
 <script>
 (function(){
   fetch('https://api.exchangerate.host/latest?base=USD&symbols=NGN').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.NGN){document.getElementById("ng-fx").textContent="1 USD = "+d.rates.NGN.toFixed(2)+" NGN";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=6.45&longitude=3.4&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById("ng-wx").textContent=d.current.temperature_2m+"&deg;C, Lagos";}}).catch(()=>{});
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=6.45&longitude=3.4&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('ng-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Lagos';}}).catch(()=>{});
 })();
 </script>
 {{- end -}}

@@ -72,7 +72,7 @@
         <h4 class="side-title">Live: Kingston</h4>
         <div id="jm-live">
           <p>USD/JMD: <span id="jm-fx">—</span></p>
-          <p>Weather: <span id="jm-wx">—</span></p>
+          <p>Weather: <span id="jm-wx">&#8212;</span></p>
         </div>
       </div>
       <div class="side-block side-promo">
@@ -104,7 +104,7 @@
 <script>
 (function(){
   fetch('https://api.exchangerate.host/latest?base=USD&symbols=JMD').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.JMD){document.getElementById('jm-fx').textContent='1 USD = '+d.rates.JMD.toFixed(2)+' JMD';}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=17.97&longitude=-76.79&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById('jm-wx').textContent=d.current.temperature_2m+'°C, Kingston';}}).catch(()=>{});
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=17.97&longitude=-76.79&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('jm-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Kingston';}}).catch(()=>{});
 })();
 </script>
 {{- end -}}

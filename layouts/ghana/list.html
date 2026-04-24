@@ -72,7 +72,7 @@
         <h4 class="side-title">Live: Accra</h4>
         <div id="gh-live">
           <p>USD/GHS: <span id="gh-fx">&mdash;</span></p>
-          <p>Weather: <span id="gh-wx">&mdash;</span></p>
+          <p>Weather: <span id="gh-wx">&#8212;</span></p>
         </div>
       </div>
       <div class="side-block side-promo">
@@ -104,7 +104,7 @@
 <script>
 (function(){
   fetch('https://api.exchangerate.host/latest?base=USD&symbols=GHS').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.GHS){document.getElementById("gh-fx").textContent="1 USD = "+d.rates.GHS.toFixed(2)+" GHS";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=5.6&longitude=-0.19&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){document.getElementById("gh-wx").textContent=d.current.temperature_2m+"&deg;C, Accra";}}).catch(()=>{});
+  fetch('https://api.open-meteo.com/v1/forecast?latitude=5.6&longitude=-0.19&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('gh-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Accra';}}).catch(()=>{});
 })();
 </script>
 {{- end -}}
