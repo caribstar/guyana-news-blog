@@ -1,6 +1,5 @@
 ---
 title: "Sports"
-layout: "topic-hub"
 tagline: "Cricket, football, track, and everything the region plays to win."
 filter_tags: ["sports"]
 post_limit: 30
