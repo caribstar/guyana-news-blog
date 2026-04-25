@@ -30,7 +30,7 @@
   {{ $hero := index $allNonSW 0 }}
   <section class="onion-hero">
     <a href="{{ $hero.RelPermalink }}" class="hero-link">
-      <div class="hero-img" style="background-image:url('{{ $hero.Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" $hero.File.ContentBaseName) }}');"></div>
+      <div class="hero-img" style="background-image:url('{{ $hero.Params.image | default "/images/country-heroes/guyana.jpg" }}');"></div>
       <div class="hero-text">
         <span class="hero-cat">{{ $hero.Params.section | default (index $hero.Params.categories 0) | title }}</span>
         <h1 class="hero-headline">{{ $hero.Title }}</h1>

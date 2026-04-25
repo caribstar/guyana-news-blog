@@ -19,7 +19,7 @@
   {{ $hero := index $matched 0 }}
   <section class="onion-hero ic-hero">
     <a href="{{ $hero.RelPermalink }}" class="hero-link">
-      <div class="hero-img" style="background-image:url('{{ $hero.Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" $hero.File.ContentBaseName) }}');"></div>
+      <div class="hero-img" style="background-image:url('{{ $hero.Params.image | default "/images/country-heroes/indo-caribbean.jpg" }}');"></div>
       <div class="hero-text">
         <span class="hero-cat">Monthly Feature</span>
         <h2 class="hero-headline">{{ $hero.Title }}</h2>
