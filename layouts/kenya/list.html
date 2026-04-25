@@ -1,110 +1,143 @@
 {{- define "main" -}}
-{{ $matched := slice }}
-{{ range (where site.RegularPages "Params.categories" "intersect" (slice "Kenya Brief")) }}
-  {{ $matched = $matched | append . }}
-{{ end }}
-{{ $matched = sort $matched "Date" "desc" }}
-{{ $total := len $matched }}
+{{/* DUST MODE: Kenya hub. To go live, see flagship block at bottom of file. */}}
 
-<div class="onion-wrap ke-wrap">
+<style>
+.tw-dust-kenya {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  background: linear-gradient(135deg, #1a3a4a 0%, #2a5266 100%);
+  color: #fdf8ed;
+  text-align: center;
+}
+.tw-dust-kenya .tw-dust-inner { max-width: 640px; }
+.tw-dust-kenya .tw-dust-eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #c97a2a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.tw-dust-kenya h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 700;
+  margin: 0 0 1rem;
+  color: #fdf8ed;
+  line-height: 1.15;
+}
+.tw-dust-kenya .tw-dust-tagline {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0 0 2rem;
+  color: #e8dcc4;
+}
+.tw-dust-kenya .tw-dust-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tw-dust-kenya .tw-dust-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.15s ease;
+}
+.tw-dust-kenya .tw-dust-btn:hover { transform: translateY(-1px); }
+.tw-dust-kenya .tw-dust-btn-primary { background: #c97a2a; color: #fdf8ed; }
+.tw-dust-kenya .tw-dust-btn-secondary {
+  background: transparent;
+  color: #fdf8ed;
+  border: 1px solid #fdf8ed;
+}
+</style>
 
-  {{ if ge $total 1 }}
-  {{ $hero := index $matched 0 }}
-  <section class="onion-hero">
-    <a href="{{ $hero.RelPermalink }}" class="hero-link">
-      <div class="hero-img" style="background-image:url('{{ $hero.Params.image }}');"></div>
-      <div class="hero-text">
-        <span class="hero-cat">{{ $hero.Params.section | default "News" | title }}</span>
-        <h1 class="hero-headline">{{ $hero.Title }}</h1>
-        <p class="hero-meta">By {{ $hero.Params.author | default "Wanjiru Kamau" }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
-      </div>
-    </a>
-  </section>
-  {{ end }}
-
-  {{ if ge $total 4 }}
-  <section class="onion-featured">
-    {{ range first 3 (after 1 $matched) }}
-    <article class="feat-card">
-      <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image }}');"></div>
-        <span class="feat-cat">{{ .Params.section | default "News" | title }}</span>
-        <h2 class="feat-headline">{{ .Title }}</h2>
-        <p class="feat-meta">{{ .Params.author | default "Brian Otieno" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-      </a>
-    </article>
-    {{ end }}
-  </section>
-  {{ end }}
-
-  {{ $rest := after 4 $matched }}
-  {{ $upperFeed := first 8 $rest }}
-  {{ $lowerFeed := after 8 $rest }}
-
-  <section class="onion-main">
-    <div class="onion-feed-grid2">
-      {{ range $upperFeed }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "M. Njoroge" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
+<section class="tw-dust-kenya">
+  <div class="tw-dust-inner">
+    <div class="tw-dust-eyebrow">Tradewinds Brief</div>
+    <h1>Kenya Hub</h1>
+    <p class="tw-dust-tagline">Pardon our dust. We're building something worth the wait.</p>
+    <div class="tw-dust-actions">
+      <a href="/" class="tw-dust-btn tw-dust-btn-primary">Back to Home</a>
+      <a href="/guyana/" class="tw-dust-btn tw-dust-btn-secondary">Visit Guyana Hub</a>
     </div>
+  </div>
+</section>
 
-    <aside class="onion-sidebar">
-      <div class="side-block">
-        <h4 class="side-title">Trending</h4>
-        <ol class="side-list">
-          {{ range first 5 $matched }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
-        </ol>
-      </div>
-      <div class="side-block">
-        <h4 class="side-title">Most Read</h4>
-        <ol class="side-list">
-          {{ range first 5 (after 2 $matched) }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
-        </ol>
-      </div>
-      <div class="side-block side-live">
-        <h4 class="side-title">Live: Nairobi</h4>
-        <div id="ke-live">
-          <p>USD/KES: <span id="ke-fx">&mdash;</span></p>
-          <p>Weather: <span id="ke-wx">&#8212;</span></p>
-        </div>
-      </div>
-      <div class="side-block side-promo">
-        <p class="promo-text">Tradewinds Brief &middot; Nairobi Dispatch &middot; Satire that hits different.</p>
-      </div>
-    </aside>
-  </section>
+{{/*
+FLAGSHIP BLOCK BELOW. Currently disabled.
 
-  {{ if $lowerFeed }}
-  <section class="onion-more">
-    <h3 class="more-title">More Stories</h3>
-    <div class="onion-feed-grid3">
-      {{ range $lowerFeed }}
-      <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default "News" | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "M. Njoroge" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
-        </a>
-      </article>
-      {{ end }}
-    </div>
-  </section>
+TO GO LIVE:
+  1. Delete the style and section blocks above
+  2. Remove the outer comment markers wrapping the block below
+  3. Drop 17 images in /static/images/kenya/
+  4. Update heroImage path and gallery filenames if needed
+
+{{ $heroImage := "/images/country-heroes/kenya.jpg" }}
+{{ $gallery := slice
+  "/images/kenya/img-01.jpg"
+  "/images/kenya/img-02.jpg"
+  "/images/kenya/img-03.jpg"
+  "/images/kenya/img-04.jpg"
+  "/images/kenya/img-05.jpg"
+  "/images/kenya/img-06.jpg"
+  "/images/kenya/img-07.jpg"
+  "/images/kenya/img-08.jpg"
+  "/images/kenya/img-09.jpg"
+  "/images/kenya/img-10.jpg"
+  "/images/kenya/img-11.jpg"
+  "/images/kenya/img-12.jpg"
+  "/images/kenya/img-13.jpg"
+  "/images/kenya/img-14.jpg"
+  "/images/kenya/img-15.jpg"
+  "/images/kenya/img-16.jpg"
+  "/images/kenya/img-17.jpg"
+}}
+{{ $countryName := "Kenya" }}
+{{ $countrySlug := "kenya" }}
+{{ $sectionPosts := where site.RegularPages "Section" $countrySlug }}
+{{ $featured := first 3 $sectionPosts }}
+{{ $remaining := after 3 $sectionPosts }}
+{{ $upper := first 8 $remaining }}
+{{ $lower := after 8 $remaining | first 5 }}
+
+<section class="tw-hero" style="background-image:url('{{ $heroImage }}');">
+  <div class="tw-hero-overlay">
+    <h1>{{ $countryName }}</h1>
+    <p>News, satire, and dueling perspectives from {{ $countryName }}.</p>
+  </div>
+</section>
+
+<section class="tw-featured-trio">
+  {{ range $idx, $post := $featured }}
+    {{ $img := index $gallery (add $idx 1) }}
+    {{ partial "news-card.html" (dict "post" $post "image" $img "size" "large") }}
   {{ end }}
+</section>
 
-</div>
+<section class="tw-feed-upper">
+  {{ range $idx, $post := $upper }}
+    {{ $img := index $gallery (add $idx 4) }}
+    {{ partial "news-card.html" (dict "post" $post "image" $img "size" "medium") }}
+  {{ end }}
+</section>
 
-<script>
-(function(){
-  fetch('https://api.exchangerate.host/latest?base=USD&symbols=KES').then(r=>r.json()).then(d=>{if(d&&d.rates&&d.rates.KES){document.getElementById("ke-fx").textContent="1 USD = "+d.rates.KES.toFixed(2)+" KES";}}).catch(()=>{});
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=-1.29&longitude=36.82&current=temperature_2m&temperature_unit=celsius').then(r=>r.json()).then(d=>{if(d&&d.current){var c=d.current.temperature_2m;var f=(c*9/5+32).toFixed(1);document.getElementById('ke-wx').innerHTML=c.toFixed(1)+'&#176;C / '+f+'&#176;F, Nairobi';}}).catch(()=>{});
-})();
-</script>
+<section class="tw-feed-lower">
+  {{ range $idx, $post := $lower }}
+    {{ $rawIdx := add $idx 12 }}
+    {{ $wrappedIdx := mod $rawIdx 17 }}
+    {{ $img := index $gallery $wrappedIdx }}
+    {{ partial "news-card.html" (dict "post" $post "image" $img "size" "small") }}
+  {{ end }}
+</section>
+
+END FLAGSHIP BLOCK
+*/}}
+
 {{- end -}}

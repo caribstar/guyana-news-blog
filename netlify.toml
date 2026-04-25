@@ -1,17 +1,28 @@
-# NETLIFY CONFIG — DUST MODE
-# Site is temporarily showing only the "Pardon our dust" landing page.
-# To restore: copy _archive_backups/netlify.toml.PRE-DUST to netlify.toml
-
 [build]
-  publish = "dust-public"
-  command = "echo 'Site in dust mode - no build needed'"
+  publish = "public"
+  command = "hugo --minify --gc -e development"
 
 [build.environment]
-  HUGO_VERSION = "0.154.3"
+  HUGO_VERSION = "0.142.0"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
-    Cache-Control = "public, max-age=300"
+
