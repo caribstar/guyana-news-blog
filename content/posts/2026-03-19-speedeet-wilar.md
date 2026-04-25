@@ -27,11 +27,11 @@ It started, as most things did, with Speedeet having an idea.
 
 "Wilar." He appeared at the gate with a plastic bag and an expression that Wilar had learned to treat as a warning. "You know how vinegar and baking soda does make dat explosion thing?"
 
-Wilar looked up from his book. "It's not an explosion. It's a chemical reaction. Carbon dioxide gas is released when an acid meets a base, creatingâ€”"
+Wilar looked up from his book. "It's not an explosion. It's a chemical reaction. Carbon dioxide gas is released when an acid meets a base, creating—"
 
 "Right, right." Speedeet wave through the gate. "De explosion thing. Come."
 
-They set up in the backyard â€” Speedeet's backyard, because Wilar's mother had already banned three of Speedeet's previous experiments from her property, and the ban still had several months to run.
+They set up in the backyard — Speedeet's backyard, because Wilar's mother had already banned three of Speedeet's previous experiments from her property, and the ban still had several months to run.
 
 The supplies were laid out on an old crate: one bottle of white vinegar, one box of baking soda, a funnel, several empty bottles of varying sizes, and a piece of cardboard that Speedeet had drawn a rocket on.
 
@@ -57,7 +57,7 @@ The first attempt involved a small bottle, a modest amount of vinegar and baking
 
 "I don't think bigger is the correct variable to adjust," Wilar said. But he was already writing down the results of attempt one, because once an experiment had begun, Wilar's scientific nature would not allow him to stop documenting it.
 
-The second attempt involved a larger bottle and considerably more baking soda. The cork went upward this time â€” genuinely upward â€” approximately two feet, then struck Speedeet directly on the forehead.
+The second attempt involved a larger bottle and considerably more baking soda. The cork went upward this time — genuinely upward — approximately two feet, then struck Speedeet directly on the forehead.
 
 Speedeet sat down.
 
@@ -87,7 +87,7 @@ They sat in the backyard for a while. A lizard crossed the top of the fence with
 
 They argued about this for ten minutes. The lizard came back, looked at them, and left again.
 
-Eventually Speedeet stood up, brushed off his shorts, and studied the cardboard rocket with fresh eyes. He had drawn it with a red marker and given it a face â€” two eyes and a grim, determined mouth.
+Eventually Speedeet stood up, brushed off his shorts, and studied the cardboard rocket with fresh eyes. He had drawn it with a red marker and given it a face — two eyes and a grim, determined mouth.
 
 "What we gon call it?" he asked.
 
@@ -107,7 +107,7 @@ Speedeet nodded slowly. "Pike Street One." He picked up the marker and wrote it 
 
 "Different cork," Speedeet said firmly.
 
-They packed up the supplies. The foam was already drying in the grass. Somewhere above the rooftops, a real plane crossed the sky â€” smooth and silver and going exactly where it intended.
+They packed up the supplies. The foam was already drying in the grass. Somewhere above the rooftops, a real plane crossed the sky — smooth and silver and going exactly where it intended.
 
 Speedeet watched it until it disappeared.
 
@@ -123,7 +123,7 @@ Wilar thought about this longer than necessary.
 
 "Don't get used to it," Speedeet said. "Less go. I hungry."
 
-â€” De End â€”
+— De End —
 
 ---
 

@@ -85,7 +85,7 @@ Wilar open de exercise book and write de name big across de top. Speedeet grab a
 
 "Second headline: OLD MAN DOODNAUTH GATE STILL LEANING AFTER SEVENTH REPAIR ATTEMPT."
 
-"Third headline: LOCAL BOY WILAR ACCUSED OF EATING LAST TENNIS ROLL â€” DENIES EVERYTHING."
+"Third headline: LOCAL BOY WILAR ACCUSED OF EATING LAST TENNIS ROLL — DENIES EVERYTHING."
 
 "HEY! I ain't eat no tennis roll!"
 

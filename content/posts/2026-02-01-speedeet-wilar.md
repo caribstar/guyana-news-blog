@@ -20,7 +20,7 @@ title: 'Speedeet & Wilar: De Mash Costume Crisis'
 tone: commentary
 ---
 
-*Every Sunday, Speedeet and Wilar from Pike Street, Kitty bring you a slice of life from two 12-year-old best friends. No politics â€” just vibes, laughs, and Guyanese culture!* ðŸ‡¬ðŸ‡¾
+*Every Sunday, Speedeet and Wilar from Pike Street, Kitty bring you a slice of life from two 12-year-old best friends. No politics — just vibes, laughs, and Guyanese culture!* ðŸ‡¬ðŸ‡¾
 
 ---
 
@@ -36,7 +36,7 @@ tone: commentary
 
 **Speedeet:** Newspaper?! Bai, me nah walking down de road wearing de Kaieteur News!
 
-**Wilar:** *(laughing)* Imagine â€” yuh walking in de parade and people reading yuh costume. "Hold on, lemme see what on he back... oh, de obituary section!"
+**Wilar:** *(laughing)* Imagine — yuh walking in de parade and people reading yuh costume. "Hold on, lemme see what on he back... oh, de obituary section!"
 
 **Speedeet:** Me done. Me nah doing newspaper.
 
@@ -48,7 +48,7 @@ tone: commentary
 
 **Speedeet:** Yeah, but dem costume cost like fifty thousand dollars. We got fifty CENTS between us.
 
-**Wilar:** Dat is why we improvise. Listen â€” Miss Sharma next door got a whole clothesline full of bright colour clothes. She got feathers from she pillow that burst last week. And me grandmother got glitter from Christmas that she hiding in a tin.
+**Wilar:** Dat is why we improvise. Listen — Miss Sharma next door got a whole clothesline full of bright colour clothes. She got feathers from she pillow that burst last week. And me grandmother got glitter from Christmas that she hiding in a tin.
 
 **Speedeet:** *(suspicious)* Yuh want we to TIEF Miss Sharma feathers?
 
@@ -56,7 +56,7 @@ tone: commentary
 
 **Speedeet:** Miss Sharma don't lend NOTHING nice nice. Last time me ask she fuh a mango from she tree, she chase me with a broom.
 
-**Wilar:** Dat is because yuh didn't ASK â€” yuh was already in de tree when she come outside!
+**Wilar:** Dat is because yuh didn't ASK — yuh was already in de tree when she come outside!
 
 **Speedeet:** Details, details.
 
@@ -64,7 +64,7 @@ tone: commentary
 
 ## ðŸŽ¨ De Construction
 
-**Wilar:** Aight, so here de full plan. We take old t-shirts, cut dem up, sew on feathers from de burst pillow â€”
+**Wilar:** Aight, so here de full plan. We take old t-shirts, cut dem up, sew on feathers from de burst pillow —
 
 **Speedeet:** Who sewing? YOU cyaan sew. ME cyaan sew.
 
@@ -100,7 +100,7 @@ tone: commentary
 
 **Speedeet:** DAT IS NOT WHAT ME WAS GOING FOR!
 
-**Wilar:** Hold on, hold on â€” lemme adjust de feathers. *(pulls one)* 
+**Wilar:** Hold on, hold on — lemme adjust de feathers. *(pulls one)* 
 
 **Speedeet:** OW! Dat was me HAIR!
 
@@ -142,4 +142,4 @@ tone: commentary
 
 **Next week:** Speedeet and Wilar discover that Budget 2026 means new things for their school, but they're more concerned about whether the new cafeteria will finally have good food.
 
-*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is Black, Wilar is East Indian. Dem commentary is just fuh laughs â€” no politics, just life through young Guyanese eyes!* ðŸ‡¬ðŸ‡¾
+*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is Black, Wilar is East Indian. Dem commentary is just fuh laughs — no politics, just life through young Guyanese eyes!* ðŸ‡¬ðŸ‡¾

@@ -1,0 +1,11 @@
+{{- define "main" -}}
+<div class="tw-static-page">
+  <header class="tw-static-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="tw-static-dek">{{ . }}</p>{{ end }}
+  </header>
+  <div class="tw-static-body">
+    {{ .Content }}
+  </div>
+</div>
+{{- end -}}

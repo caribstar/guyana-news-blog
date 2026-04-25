@@ -21,6 +21,29 @@
 {{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 {{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
+{{/* Shared 17-image library — used as fallback when posts have no image: param.
+     Each tile loop uses an offset + $idx so images stay unique across visible page. */}}
+{{ $gallery := slice
+  "/images/guyana/kaieteur-falls.jpg"
+  "/images/guyana/demerara-bridge-aerial.jpg"
+  "/images/guyana/cuffy-1763-monument.jpg"
+  "/images/guyana/stabroek-market.jpg"
+  "/images/guyana/georgetown-seawall.jpg"
+  "/images/guyana/promenade-bandstand.jpg"
+  "/images/guyana/georgetown-city-hall.jpg"
+  "/images/guyana/georgetown-lighthouse.jpg"
+  "/images/guyana/iwokrama-river.jpg"
+  "/images/guyana/rupununi-savannah.jpg"
+  "/images/guyana/shell-beach.jpg"
+  "/images/guyana/linden-bauxite.jpg"
+  "/images/guyana/gold-mining-aerial.jpg"
+  "/images/guyana/mashramani-parade.jpg"
+  "/images/guyana/new-amsterdam-street.jpg"
+  "/images/guyana/essequibo-ferry.jpg"
+  "/images/guyana/providence-stadium.jpg"
+}}
+{{ $galN := len $gallery }}
+
 {{ $total := len $allNonSW }}
 
 <div class="onion-wrap gy-wrap">
@@ -40,16 +63,16 @@
   </section>
   {{ end }}
 
-  {{/* ==================== FEATURED TRIO ==================== */}}
+  {{/* ==================== FEATURED TRIO (gallery slots 1-3) ==================== */}}
   {{ if ge $total 4 }}
   <section class="onion-featured">
-    {{ range first 3 (after 1 $allNonSW) }}
+    {{ range $idx, $page := first 3 (after 1 $allNonSW) }}
     <article class="feat-card">
-      <a href="{{ .RelPermalink }}">
-        <div class="feat-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-        <span class="feat-cat">{{ .Params.section | default (index .Params.categories 0) | title }}</span>
-        <h2 class="feat-headline">{{ .Title }}</h2>
-        <p class="feat-meta">{{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+      <a href="{{ $page.RelPermalink }}">
+        <div class="feat-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 1 $idx) $galN)) }}');"></div>
+        <span class="feat-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+        <h2 class="feat-headline">{{ $page.Title }}</h2>
+        <p class="feat-meta">{{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
       </a>
     </article>
     {{ end }}
@@ -63,13 +86,14 @@
 
   <section class="onion-main">
     <div class="onion-feed-grid2">
-      {{ range $upperFeed }}
+      {{/* Upper feed: gallery slots 4-11 */}}
+      {{ range $idx, $page := $upperFeed }}
       <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default (index .Params.categories 0) | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+        <a href="{{ $page.RelPermalink }}" class="tile-link">
+          <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 4 $idx) $galN)) }}');"></div>
+          <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+          <h3 class="tile-headline">{{ $page.Title }}</h3>
+          <p class="tile-meta">By {{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
       </article>
       {{ end }}
@@ -189,18 +213,18 @@
     </div>
   </section>
 
-  {{/* ==================== MORE STORIES (lower feed) ==================== */}}
+  {{/* ==================== MORE STORIES (lower feed: gallery slots 12-16, then wrap 0-3) ==================== */}}
   {{ if $lowerFeed }}
   <section class="onion-more">
     <h3 class="more-title">More Stories</h3>
     <div class="onion-feed-grid3">
-      {{ range $lowerFeed }}
+      {{ range $idx, $page := $lowerFeed }}
       <article class="tile">
-        <a href="{{ .RelPermalink }}" class="tile-link">
-          <div class="tile-img" style="background-image:url('{{ .Params.image | default (printf "https://picsum.photos/seed/%s/1280/720" .File.ContentBaseName) }}');"></div>
-          <span class="tile-cat">{{ .Params.section | default (index .Params.categories 0) | title }}</span>
-          <h3 class="tile-headline">{{ .Title }}</h3>
-          <p class="tile-meta">By {{ .Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" .Date }}</p>
+        <a href="{{ $page.RelPermalink }}" class="tile-link">
+          <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 12 $idx) $galN)) }}');"></div>
+          <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+          <h3 class="tile-headline">{{ $page.Title }}</h3>
+          <p class="tile-meta">By {{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
       </article>
       {{ end }}

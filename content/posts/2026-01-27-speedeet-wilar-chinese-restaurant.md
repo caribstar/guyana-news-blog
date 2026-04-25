@@ -29,7 +29,7 @@ tone: commentary
 
 "Speedeet! SPEEDEET!"
 
-Wilar come running down Pike Street like somebody chasing he with a cutlass. But he face wasn't scared â€” he face was EXCITED.
+Wilar come running down Pike Street like somebody chasing he with a cutlass. But he face wasn't scared — he face was EXCITED.
 
 "Wha happen?" Speedeet look up from de marble game he was winning against Little Sanjay.
 
@@ -57,7 +57,7 @@ De two boys walk fast-fast down de road. Wilar uncle, Mr. Doodnauth, was waiting
 
 Speedeet just nod. He fingers already twitching.
 
-Mr. Chen appear at de door â€” a small man with a big smile and a apron that look like it see more battles than de Guyana Defence Force.
+Mr. Chen appear at de door — a small man with a big smile and a apron that look like it see more battles than de Guyana Defence Force.
 
 "Ah! Doodnauth! Come, come! Bring de boys!"
 
@@ -165,7 +165,7 @@ Speedeet look at de head again. De little comb was actually kinda crispy looking
 
 He think about all de times he tell Wilar to be brave. All de times he say "Nothing ventured, nothing gained." All de times he climb de mango tree first.
 
-How he could call heself SPEEDEET â€” de bravest boy on Pike Street â€” if he scared of a little chicken head?
+How he could call heself SPEEDEET — de bravest boy on Pike Street — if he scared of a little chicken head?
 
 Besides, de comb was looking kinda interesting. Soft. Reddish. Like a little rubbery crown.
 
@@ -195,7 +195,7 @@ Speedeet was chewing. Slow. Thoughtful. Like a food critic on TV.
 
 He eyes get wide.
 
-De comb wasn't crispy like he expected. It was SOFT. Chewy. Like nothing he ever taste before. It had dis unusual texture dat bounce around in he mouth â€” rubbery but in a GOOD way. He chew on it delightfully, exploring every bit of de strange new sensation.
+De comb wasn't crispy like he expected. It was SOFT. Chewy. Like nothing he ever taste before. It had dis unusual texture dat bounce around in he mouth — rubbery but in a GOOD way. He chew on it delightfully, exploring every bit of de strange new sensation.
 
 "It... it actually NICE," he say, genuinely surprised.
 
@@ -283,6 +283,6 @@ And he enjoy every bite.
 
 ---
 
-*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is the brave one who jumps first. Wilar is the careful one who thinks twice. Together, they get into â€” and out of â€” all kinds of trouble. Their stories are written in authentic Guyanese Creolese.*
+*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is the brave one who jumps first. Wilar is the careful one who thinks twice. Together, they get into — and out of — all kinds of trouble. Their stories are written in authentic Guyanese Creolese.*
 
 ðŸ“š *Want more adventures? The Speedeet & Wilar book series is available on Amazon!*

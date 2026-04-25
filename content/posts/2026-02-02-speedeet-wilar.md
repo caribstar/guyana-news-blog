@@ -30,11 +30,11 @@ tone: commentary
 
 Everybody on Pike Street know three tings:
 
-One â€” Speedeet mouth does move faster than he brain.
+One — Speedeet mouth does move faster than he brain.
 
-Two â€” Wilar brain does move faster than he courage.
+Two — Wilar brain does move faster than he courage.
 
-Three â€” Miss Doreen julie mango tree produce de SWEETEST mango in all of Kitty. Maybe all of Georgetown. Maybe all of GUYANA.
+Three — Miss Doreen julie mango tree produce de SWEETEST mango in all of Kitty. Maybe all of Georgetown. Maybe all of GUYANA.
 
 And Miss Doreen know it too. Dat is why she does sit on she front porch from morning till night, rocking chair going *squeak squeak squeak*, watching dat tree like a security guard watching a jewelry store.
 
@@ -64,7 +64,7 @@ And Miss Doreen know it too. Dat is why she does sit on she front porch from mor
 
 ## De Plan
 
-**Speedeet:** Okay, here is de planâ€”
+**Speedeet:** Okay, here is de plan—
 
 **Wilar:** No.
 
@@ -84,7 +84,7 @@ And Miss Doreen know it too. Dat is why she does sit on she front porch from mor
 
 **Wilar:** And?
 
-**Speedeet:** And de mango tree right by de back fence. All we gotta do is climb de fence, pick TWO mango â€” just TWO, she nah gon miss TWO â€” and climb back over. In and out. Sixty seconds.
+**Speedeet:** And de mango tree right by de back fence. All we gotta do is climb de fence, pick TWO mango — just TWO, she nah gon miss TWO — and climb back over. In and out. Sixty seconds.
 
 **Wilar:** Sixty seconds?
 
@@ -94,7 +94,7 @@ And Miss Doreen know it too. Dat is why she does sit on she front porch from mor
 
 **Speedeet:** She NAH gon wake up! De woman sleep like she DEAD every afternoon!
 
-**Wilar:** But WHAT IFâ€”
+**Wilar:** But WHAT IF—
 
 **Speedeet:** Den we RUN! Wha she gon do? She is SEVENTY-FIVE! She cyaan catch WE!
 
@@ -134,9 +134,9 @@ They peep through de fence. Miss Doreen rocking chair empty. Curtains closed. Fa
 
 **Speedeet:** *(whispering)* GREEN LIGHT! GO GO GO!
 
-**Wilar:** Stop saying dat like is a movieâ€”
+**Wilar:** Stop saying dat like is a movie—
 
-But Speedeet already climbing de fence. He get one foot on top, swing he other leg over, andâ€”
+But Speedeet already climbing de fence. He get one foot on top, swing he other leg over, and—
 
 **RIIIIIP.**
 
@@ -144,7 +144,7 @@ He shorts catch on a nail.
 
 **Speedeet:** *(frozen, hanging on de fence wid he shorts ripping)* Wilar. WILAR. Me shorts CATCHING.
 
-**Wilar:** *(trying not to laugh)* Hold still, lemmeâ€”
+**Wilar:** *(trying not to laugh)* Hold still, lemme—
 
 **Speedeet:** ME CYAAN HOLD STILL! De nail going in me SKIN!
 
@@ -164,9 +164,9 @@ De shorts tear free. Speedeet tumble over de fence and land in Miss Doreen flowe
 
 **Wilar:** Yuh ALREADY dead! Dem was she PRIZE hibiscus! She did WIN de church flower competition wid dem!
 
-**Speedeet:** *(panicking)* Okay okay okay â€” we get de mango FAST and we gone before she notice!
+**Speedeet:** *(panicking)* Okay okay okay — we get de mango FAST and we gone before she notice!
 
-Speedeet scramble to he feet and dash to de mango tree. De julies hanging heavy on de branches â€” yellow, perfect, smelling like HEAVEN.
+Speedeet scramble to he feet and dash to de mango tree. De julies hanging heavy on de branches — yellow, perfect, smelling like HEAVEN.
 
 **Speedeet:** *(reaching up)* Come to papa...
 
@@ -218,11 +218,11 @@ There was NOWHERE to hide. NOTHING to say. No explanation on EARTH dat could fix
 
 **Miss Doreen:** *(adjusting she glasses)* SPEEDEET?! IS YOU?!
 
-**Speedeet:** *(dropping de branch)* Good afternoon Miss Doreen! Lovely day! Me was just... um... CHECKING on yuh tree! It look like a branch was WEAK and me was trying toâ€”
+**Speedeet:** *(dropping de branch)* Good afternoon Miss Doreen! Lovely day! Me was just... um... CHECKING on yuh tree! It look like a branch was WEAK and me was trying to—
 
 **Miss Doreen:** *(picking up she broom)* YUH TIEFING ME MANGO!!!
 
-**Speedeet:** TIEFING is a strong word, Miss Doreen! Me prefer "SAMPLING"â€”
+**Speedeet:** TIEFING is a strong word, Miss Doreen! Me prefer "SAMPLING"—
 
 **Miss Doreen:** *(advancing wid de broom)* ME GUH SAMPLE DIS BROOM ON YUH BACKSIDE!!!
 
@@ -242,7 +242,7 @@ De conversation went like dis:
 
 **Speedeet Mudda:** *(de look on she face could melt IRON)*
 
-**Speedeet:** *(hiding behind de couch)* Me can explainâ€”
+**Speedeet:** *(hiding behind de couch)* Me can explain—
 
 **Speedeet Mudda:** If de next words out yuh mouth is anything but "sorry," me guh show you SORRY.
 
@@ -282,7 +282,7 @@ Two julie mango. Cut up nice. Wid a sprinkle of salt and pepper.
 
 **Speedeet:** *(eating de mango, feeling like de biggest fool in Georgetown)* ...it woulda been easier to just ask, right?
 
-**Miss Doreen:** *(laughing)* MUCH easier. But you is yuh fadda son â€” he did tief de same mango when he was twelve too. It must be in de BLOOD.
+**Miss Doreen:** *(laughing)* MUCH easier. But you is yuh fadda son — he did tief de same mango when he was twelve too. It must be in de BLOOD.
 
 **Speedeet:** *(nearly choking)* ME FADDA?!
 
@@ -324,4 +324,4 @@ Monday morning, Speedeet and Wilar walking to school.
 
 **Next Week:** *Speedeet & Wilar: De Blackout Adventure*
 
-*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty. Speedeet is Black and Wilar is East Indian â€” because in Guyana, friendship don't see colour, it only see who willing to get in trouble wid you.* ðŸ‡¬ðŸ‡¾
+*Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty. Speedeet is Black and Wilar is East Indian — because in Guyana, friendship don't see colour, it only see who willing to get in trouble wid you.* ðŸ‡¬ðŸ‡¾

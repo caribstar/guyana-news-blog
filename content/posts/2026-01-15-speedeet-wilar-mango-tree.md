@@ -28,7 +28,7 @@ tone: commentary
 
 **Speedeet:** De JULIE mango, man! De one wid de big big mango hanging over de fence. Dat mango deh deh looking at me every day when me pass, just BEGGING somebody fuh pick it.
 
-**Wilar:** Speedeet, dah is Mr. Chan property. Yuh cyaan justâ€”
+**Wilar:** Speedeet, dah is Mr. Chan property. Yuh cyaan just—
 
 **Speedeet:** Who seh anything about JUST going and pick it? Me got a PLAN.
 
@@ -172,7 +172,7 @@ tone: commentary
 
 **Wilar:** *(shaking he head)* Yuh impossible, yuh know dat?
 
-**Speedeet:** Dah is why we best friends! Tomorrow me got another planâ€”
+**Speedeet:** Dah is why we best friends! Tomorrow me got another plan—
 
 **Wilar:** NO! No more plans! Me mother seh me cyaan get in no more trouble dis week!
 

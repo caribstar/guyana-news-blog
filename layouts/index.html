@@ -114,7 +114,7 @@
     </div>
     <div class="tw-speedeet-feature">
       <a href="{{ $speedeetLead.RelPermalink }}" class="tw-sf-link">
-        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default (printf "https://picsum.photos/seed/%s/1200/800" $speedeetLead.File.ContentBaseName) }}');"></div>
+        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default "/images/franchise/speedeet-wilar-front-cover.jpg" }}');"></div>
         <div class="tw-sf-body">
           <div class="tw-sf-eyebrow">Latest Story</div>
           <h3 class="tw-sf-title">{{ $speedeetLead.Title }}</h3>

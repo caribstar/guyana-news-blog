@@ -6,7 +6,7 @@ categories:
 content_type: "kids_story"
 country: guyana
 date: 2026-03-24
-description: Speedeet's kite goes on an adventure of its own â€” straight over the fence
+description: Speedeet's kite goes on an adventure of its own — straight over the fence
   into Miss Doreen's yard. A Pike Street afternoon goes sideways in the best possible
   way.
 fictional_character: true
@@ -22,7 +22,7 @@ title: 'Speedeet & Wilar: De Day De Kite Get Away'
 tone: commentary
 ---
 
-*Speedeet and Wilar are two twelve-year-old best friends from Pike Street, Kitty, Georgetown. Their stories are pure adventure â€” no politics, no current events, just the business of being twelve years old in Guyana.*
+*Speedeet and Wilar are two twelve-year-old best friends from Pike Street, Kitty, Georgetown. Their stories are pure adventure — no politics, no current events, just the business of being twelve years old in Guyana.*
 
 ---
 
@@ -30,7 +30,7 @@ tone: commentary
 
 De kite was Speedeet idea.
 
-Not de buying part â€” he didn't have enough money for dat â€” but de BUILDING part. He had been saving newspaper and bamboo strips for two weeks, watching YouTube videos on he uncle phone when he uncle wasn't looking, calculating angles.
+Not de buying part — he didn't have enough money for dat — but de BUILDING part. He had been saving newspaper and bamboo strips for two weeks, watching YouTube videos on he uncle phone when he uncle wasn't looking, calculating angles.
 
 "A kite," Wilar had said, pushing up he glasses. "You want to build a kite."
 
@@ -72,7 +72,7 @@ They stretched the newspaper over the frame. They tied the string. They made the
 
 By eleven o'clock, it was done.
 
-It was, objectively, a beautiful kite. Red and yellow newspaper, bamboo frame, long plastic tail. Speedeet had even drawn a face on it â€” two big circles for eyes and a wide grin.
+It was, objectively, a beautiful kite. Red and yellow newspaper, bamboo frame, long plastic tail. Speedeet had even drawn a face on it — two big circles for eyes and a wide grin.
 
 "It looks like you," Wilar observed.
 
@@ -116,7 +116,7 @@ Suzie looked at Wilar. Wilar adjusted his glasses. "I supervised the structural 
 
 Getting the kite up was harder than expected.
 
-The first three attempts ended with the kite doing a dramatic dive toward the ground while Speedeet ran backwards as fast as he could. The fourth attempt got it maybe four feet in the air before the wind stopped cooperating. The fifth attempt â€” with Marcus holding the kite up and releasing it on Speedeet signal â€” got it genuinely airborne.
+The first three attempts ended with the kite doing a dramatic dive toward the ground while Speedeet ran backwards as fast as he could. The fourth attempt got it maybe four feet in the air before the wind stopped cooperating. The fifth attempt — with Marcus holding the kite up and releasing it on Speedeet signal — got it genuinely airborne.
 
 "IT'S FLYING! IT'S ACTUALLY FLYING!"
 
@@ -126,7 +126,7 @@ Pike Street stopped to look. Miss Doreen came to her window. Mr. Persaud next do
 
 "Let out more string!" Marcus called.
 
-Speedeet let out string. The kite climbed higher. He could feel it pulling â€” actually pulling, like something alive at the end of the line.
+Speedeet let out string. The kite climbed higher. He could feel it pulling — actually pulling, like something alive at the end of the line.
 
 "How much string you have?" Wilar asked.
 
@@ -138,7 +138,7 @@ Speedeet let out string. The kite climbed higher. He could feel it pulling â€
 
 Wilar looked at the amount of string. Looked at how high the kite already was. "That might not be enough."
 
-"It's fine. It'sâ€”"
+"It's fine. It's—"
 
 The wind gusted.
 
@@ -166,7 +166,7 @@ The door opened. Miss Doreen looked at him over her reading glasses.
 
 "I know," she said.
 
-"My kiteâ€”"
+"My kite—"
 
 "I saw it come down. It's in the rose bush." She looked at him steadily. "The large one. Near the back."
 
@@ -200,7 +200,7 @@ Speedeet held the damaged kite carefully. "I'm sorry, Miss Doreen."
 
 ---
 
-Speedeet sat at Miss Doreen kitchen table â€” a place he had never been before in twelve years of living across the road â€” and repaired the kite while Miss Doreen made lemonade without asking if he wanted any and put it in front of him.
+Speedeet sat at Miss Doreen kitchen table — a place he had never been before in twelve years of living across the road — and repaired the kite while Miss Doreen made lemonade without asking if he wanted any and put it in front of him.
 
 The kitchen smelled like something baking. The walls had photographs. A man in some of them, younger than she was now, holding a kite. Very high.
 
