@@ -2,7 +2,7 @@
 author: Editorial Team
 categories:
 - Guyana Rising
-- Patriots' Portfolio
+- Patriots Portfolio
 content_type: parody_column
 country: guyana
 date: 2026-01-16 10:00:00-04:00

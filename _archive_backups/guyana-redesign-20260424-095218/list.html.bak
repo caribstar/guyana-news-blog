@@ -1,0 +1,169 @@
+{{- define "main" -}}
+{{ $all := where site.RegularPages "Type" "posts" }}
+{{ $all = sort $all "Date" "desc" }}
+
+{{ $commentary := where $all "Params.content_type" "commentary" }}
+{{ $commentaryFiltered := slice }}
+{{ range $commentary }}
+  {{ $isSW := false }}
+  {{ range .Params.categories }}{{ if eq . "Speedeet & Wilar" }}{{ $isSW = true }}{{ end }}{{ end }}
+  {{ if not $isSW }}{{ $commentaryFiltered = $commentaryFiltered | append . }}{{ end }}
+{{ end }}
+{{ $commentary = $commentaryFiltered }}
+{{ $sports := where $all "Params.content_vertical" "sports" }}
+{{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
+
+{{ $hero := "" }}
+{{ if gt (len $commentary) 0 }}{{ $hero = index $commentary 0 }}{{ else if gt (len $all) 0 }}{{ $hero = index $all 0 }}{{ end }}
+{{ $secondary := "" }}
+{{ if gt (len $commentary) 1 }}{{ $secondary = index $commentary 1 }}{{ end }}
+{{ $sportsLead := "" }}{{ if gt (len $sports) 0 }}{{ $sportsLead = index $sports 0 }}{{ end }}
+{{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
+
+{{ $used := slice }}
+{{ if $hero }}{{ $used = $used | append $hero.RelPermalink }}{{ end }}
+{{ if $secondary }}{{ $used = $used | append $secondary.RelPermalink }}{{ end }}
+{{ if $sportsLead }}{{ $used = $used | append $sportsLead.RelPermalink }}{{ end }}
+{{ if $speedeetLead }}{{ $used = $used | append $speedeetLead.RelPermalink }}{{ end }}
+
+<div class="tw-home-shell">
+
+  <section class="tw-home-hero">
+    <div class="eyebrow">Week of {{ now.Format "January 2, 2006" }}</div>
+    <p class="pitch">Context for the Caribbean &amp; African diaspora.</p>
+  </section>
+
+  {{/* HERO GRID */}}
+  <div class="tw-hero-grid">
+    <div class="tw-hero-lead">
+      {{ with $hero }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    </div>
+    <div class="tw-hero-stack">
+      {{ with $secondary }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+      {{ with (or $sportsLead $speedeetLead) }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    </div>
+    <aside class="tw-whatmatters">
+      <h3>What Matters Now</h3>
+      <ol>
+        {{ $matters := slice }}
+{{ range $all }}
+  {{ $isSW := false }}
+  {{ range .Params.categories }}{{ if eq . "Speedeet & Wilar" }}{{ $isSW = true }}{{ end }}{{ end }}
+  {{ if not $isSW }}{{ $matters = $matters | append . }}{{ end }}
+{{ end }}
+{{ range first 8 $matters }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      </ol>
+    </aside>
+  </div>
+
+  {{/* DUEL STRIP */}}
+  {{ partial "duel-strip.html" . }}
+
+  {{/* CARIBBEAN COVERAGE */}}
+  {{ $caribbean := slice
+    (dict "slug" "guyana" "name" "Guyana" "flag" "gy" "section" "Georgetown Brief" "cats" (slice "Daily Brief" "Uncle Ramesh" "Bro Winston" "The Rumour Mill" "DJ Roadblock" "Patriots Portfolio" "Bam-Bam Sally" "De Boys Seh" "Back-a-Truck" "Bounty Board" "The Guyanese Horizon" "Progress Report" "Guyana Brief"))
+    (dict "slug" "jamaica" "name" "Jamaica" "flag" "jm" "section" "Yard Report" "cats" (slice "Yard Brief"))
+    (dict "slug" "trinidad" "name" "Trinidad" "flag" "tt" "section" "Trini Dispatch" "cats" (slice "Trini Brief"))
+    (dict "slug" "barbados" "name" "Barbados" "flag" "bb" "section" "Bajan Bugle" "cats" (slice "Bajan Brief"))
+  }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Caribbean</h2>
+      <span class="meta">Four countries, weekly</span>
+    </div>
+    <div class="tw-country-row">
+      {{ range $caribbean }}
+        {{ $country := . }}
+        {{ $cp := where $all "Params.categories" "intersect" .cats }}
+        {{ with (index $cp 0) }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* AFRICA COVERAGE */}}
+  {{ $africa := slice
+    (dict "slug" "ghana" "name" "Ghana" "flag" "gh" "section" "Accra Almanac" "cats" (slice "Ghana Brief" "Accra Almanac"))
+    (dict "slug" "kenya" "name" "Kenya" "flag" "ke" "section" "Nairobi Dispatch" "cats" (slice "Kenya Brief" "Nairobi Dispatch"))
+    (dict "slug" "nigeria" "name" "Nigeria" "flag" "ng" "section" "Naija Lookbook" "cats" (slice "Nigeria Brief" "Naija Brief" "Naija Lookbook"))
+    (dict "slug" "south-africa" "name" "South Africa" "flag" "za" "section" "Cape Chronicles" "cats" (slice "South Africa Brief" "SA Brief" "Cape Chronicles"))
+  }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Africa</h2>
+      <span class="meta">Ghana &middot; Kenya &middot; Nigeria &middot; South Africa</span>
+    </div>
+    <div class="tw-country-row">
+      {{ range $africa }}
+        {{ $country := . }}
+        {{ $cp := where $all "Params.categories" "intersect" .cats }}
+        {{ with (index $cp 0) }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* SPORTS */}}
+  {{ if $sports }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Sports</h2>
+      <a href="/sports/" class="more">All sports</a>
+    </div>
+    <div class="tw-feed-grid">
+      {{ range first 4 $sports }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* SPEEDEET & WILAR ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â IP feature */}}
+  {{ if $speedeetLead }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Speedeet &amp; Wilar</h2>
+      <span class="meta">Caribbean stories for curious kids</span>
+    </div>
+    <div class="tw-speedeet-feature">
+      <a href="{{ $speedeetLead.RelPermalink }}" class="tw-sf-link">
+        <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default (printf "https://picsum.photos/seed/%s/1200/800" $speedeetLead.File.ContentBaseName) }}');"></div>
+        <div class="tw-sf-body">
+          <div class="tw-sf-eyebrow">Latest Story</div>
+          <h3 class="tw-sf-title">{{ $speedeetLead.Title }}</h3>
+          <p class="tw-sf-dek">{{ $speedeetLead.Params.description | default ($speedeetLead.Summary | plainify | truncate 160) }}</p>
+          <div class="tw-sf-ctas">
+            <span class="tw-sf-cta tw-sf-cta-read">Read the story</span>
+            <span class="tw-sf-cta tw-sf-cta-buy">Get the book</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* LATEST FEED */}}
+  {{ $feed := slice }}
+  {{ range $all }}{{ if not (in $used .RelPermalink) }}{{ $feed = $feed | append . }}{{ end }}{{ end }}
+  {{ $feed = first 8 $feed }}
+  {{ if $feed }}
+  <section class="tw-section">
+    <div class="tw-section-head">
+      <h2>Latest</h2>
+      <span class="meta">Most recent briefings</span>
+    </div>
+    <div class="tw-feed-grid">
+      {{ range $feed }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* NEWSLETTER CTA */}}
+  <div class="tw-cta">
+    <h3>Get The Tradewinds Brief in your inbox.</h3>
+    <p>Daily coverage of Guyana and the Caribbean. Weekly reporting on Ghana, Kenya, Nigeria, and South Africa. Free.</p>
+    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="tw-cta-btn" target="_blank" rel="noopener">Subscribe Free</a>
+  </div>
+
+</div>
+{{- end -}}
