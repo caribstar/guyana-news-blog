@@ -19,15 +19,6 @@
 {{ if $sportsLead }}{{ $used = $used | append $sportsLead.RelPermalink }}{{ end }}
 {{ if $speedeetLead }}{{ $used = $used | append $speedeetLead.RelPermalink }}{{ end }}
 
-{{/* TRACK Today's Clash picks (newest Daily Brief + newest Uncle Ramesh) */}}
-{{ $clashDB := index (where $all "Params.categories" "intersect" (slice "Daily Brief")) 0 }}
-{{ $clashRamesh := index (where $all "Params.categories" "intersect" (slice "Uncle Ramesh")) 0 }}
-{{ if $clashDB }}{{ $used = $used | append $clashDB.RelPermalink }}{{ end }}
-{{ if $clashRamesh }}{{ $used = $used | append $clashRamesh.RelPermalink }}{{ end }}
-
-{{/* Make $used available via Scratch so range blocks can mutate the parent */}}
-{{ .Scratch.Set "used" $used }}
-
 <div class="tw-home-shell">
 
   <section class="tw-home-hero">
@@ -50,10 +41,7 @@
     <aside class="tw-whatmatters">
       <h3>What Matters Now</h3>
       <ol>
-        {{ $usedNow := .Scratch.Get "used" }}
-        {{ $wmn := slice }}
-        {{ range $all }}{{ if not (in $usedNow .RelPermalink) }}{{ $wmn = $wmn | append . }}{{ end }}{{ end }}
-        {{ range first 8 $wmn }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+        {{ range first 8 $all }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
       </ol>
     </aside>
   </div>
@@ -77,12 +65,8 @@
       {{ range $caribbean }}
         {{ $country := . }}
         {{ $cp := where $all "Params.categories" "intersect" $country.cats }}
-        {{ $usedNow := $.Scratch.Get "used" }}
-        {{ $cpFiltered := slice }}
-        {{ range $cp }}{{ if not (in $usedNow .RelPermalink) }}{{ $cpFiltered = $cpFiltered | append . }}{{ end }}{{ end }}
-        {{ with (index $cpFiltered 0) }}
+        {{ with (index $cp 0) }}
           {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
-          {{ $.Scratch.Set "used" (append .RelPermalink ($.Scratch.Get "used")) }}
         {{ end }}
       {{ end }}
     </div>
@@ -104,12 +88,8 @@
       {{ range $africa }}
         {{ $country := . }}
         {{ $cp := where $all "Params.categories" "intersect" $country.cats }}
-        {{ $usedNow := $.Scratch.Get "used" }}
-        {{ $cpFiltered := slice }}
-        {{ range $cp }}{{ if not (in $usedNow .RelPermalink) }}{{ $cpFiltered = $cpFiltered | append . }}{{ end }}{{ end }}
-        {{ with (index $cpFiltered 0) }}
+        {{ with (index $cp 0) }}
           {{ partial "news-card.html" (dict "page" . "flagClass" $country.flag "section" $country.section) }}
-          {{ $.Scratch.Set "used" (append .RelPermalink ($.Scratch.Get "used")) }}
         {{ end }}
       {{ end }}
     </div>
@@ -123,13 +103,7 @@
       <a href="/sports/" class="more">All sports</a>
     </div>
     <div class="tw-feed-grid">
-      {{ $usedNow := $.Scratch.Get "used" }}
-      {{ $sportsFiltered := slice }}
-      {{ range $sports }}{{ if not (in $usedNow .RelPermalink) }}{{ $sportsFiltered = $sportsFiltered | append . }}{{ end }}{{ end }}
-      {{ range first 4 $sportsFiltered }}
-        {{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}
-        {{ $.Scratch.Set "used" (append .RelPermalink ($.Scratch.Get "used")) }}
-      {{ end }}
+      {{ range first 4 $sports }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
     </div>
   </section>
   {{ end }}
@@ -159,9 +133,8 @@
   {{ end }}
 
   {{/* LATEST FEED */}}
-  {{ $usedFinal := .Scratch.Get "used" }}
   {{ $feed := slice }}
-  {{ range $all }}{{ if not (in $usedFinal .RelPermalink) }}{{ $feed = $feed | append . }}{{ end }}{{ end }}
+  {{ range $all }}{{ if not (in $used .RelPermalink) }}{{ $feed = $feed | append . }}{{ end }}{{ end }}
   {{ $feed = first 8 $feed }}
   {{ if $feed }}
   <section class="tw-section">
