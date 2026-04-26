@@ -257,3 +257,18 @@
 .dark .ttb-more-link { color: #d4a437 !important; }
 .dark .ttb-block-sub, .dark .ttb-block-sub li { border-color: #2a3a40; }
 .dark .ttb-section-empty { background: #16252b; color: #cfd4d6; }
+/* ---------- DARK MODE CONTRAST FIX (Sports + empty-state blocks) ---------- */
+html.dark .ttb-ext-section .ttb-section-head h2,
+body.dark .ttb-ext-section .ttb-section-head h2 {
+  color: #d4a437 !important;
+}
+html.dark .ttb-section-empty,
+body.dark .ttb-section-empty {
+  background: #16252b !important;
+  color: #e8e2d0 !important;
+  border-color: #d4a437 !important;
+}
+html.dark .ttb-section-empty p,
+body.dark .ttb-section-empty p {
+  color: #e8e2d0 !important;
+}
