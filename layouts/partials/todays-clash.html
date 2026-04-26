@@ -10,18 +10,18 @@
 {{ $pairs := slice }}
 {{ $jmA := index (where $all "Params.categories" "intersect" (slice "Yard Report")) 0 }}
 {{ $jmB := index (where $all "Params.categories" "intersect" (slice "Cousin Leroy")) 0 }}
-{{ if and $jmA $jmB }}{{ $pairs = $pairs | append (dict "country" "Jamaica" "flag" "jm" "left" $jmA "right" $jmB "leftLabel" "Sardonic" "rightLabel" "Diaspora") }}{{ end }}
+{{ if and $jmA $jmB }}{{ $pairs = $pairs | append (dict "country" "Jamaica" "flag" "🇯🇲" "left" $jmA "right" $jmB "leftLabel" "Sardonic" "rightLabel" "Diaspora") }}{{ end }}
 {{ $ttA := index (where $all "Params.categories" "intersect" (slice "Trini Dispatch")) 0 }}
 {{ $ttB := index (where $all "Params.categories" "intersect" (slice "Auntie Cheryl")) 0 }}
-{{ if and $ttA $ttB }}{{ $pairs = $pairs | append (dict "country" "Trinidad" "flag" "tt" "left" $ttA "right" $ttB "leftLabel" "Dry Sardonic" "rightLabel" "Euphoric") }}{{ end }}
+{{ if and $ttA $ttB }}{{ $pairs = $pairs | append (dict "country" "Trinidad" "flag" "🇹🇹" "left" $ttA "right" $ttB "leftLabel" "Dry Sardonic" "rightLabel" "Euphoric") }}{{ end }}
 {{ $bbA := index (where $all "Params.categories" "intersect" (slice "Bajan Bugle")) 0 }}
 {{ $bbB := index (where $all "Params.categories" "intersect" (slice "Miss Violet")) 0 }}
-{{ if and $bbA $bbB }}{{ $pairs = $pairs | append (dict "country" "Barbados" "flag" "bb" "left" $bbA "right" $bbB "leftLabel" "Raised Eyebrow" "rightLabel" "Civic Teacher") }}{{ end }}
+{{ if and $bbA $bbB }}{{ $pairs = $pairs | append (dict "country" "Barbados" "flag" "🇧🇧" "left" $bbA "right" $bbB "leftLabel" "Raised Eyebrow" "rightLabel" "Civic Teacher") }}{{ end }}
 
 {{ if or (and $db $ramesh) $pairs }}
 <section class="tw-section tw-todays-clash">
   <div class="tw-section-head tw-clash-head">
-    <h2>Ã°Å¸â€Â¥ Today's Clash</h2>
+    <h2><span class="tw-clash-fire">🔥</span> Today's Clash</h2>
     <span class="meta">Two perspectives. One country.</span>
   </div>
 
@@ -35,7 +35,7 @@
     </a>
     <div class="tw-clash-divider">
       <span class="tw-clash-vs">VS</span>
-      <span class="tw-clash-country">Ã°Å¸â€¡Â¬Ã°Å¸â€¡Â¾ Guyana</span>
+      <span class="tw-clash-country">🇬🇾 Guyana</span>
     </div>
     <a href="{{ $ramesh.RelPermalink }}" class="tw-clash-side tw-clash-loyalist">
       <div class="tw-clash-side-tag">Loyalist</div>
@@ -50,18 +50,15 @@
   <div class="tw-clash-carib-head">Caribbean Clashes</div>
   <div class="tw-clash-carib-grid">
     {{ range $pairs }}
-    <div class="tw-clash-mini">
-      <div class="tw-clash-mini-header">
-        <span class="tw-flag tw-flag-{{ .flag }}"></span>
-        <span class="tw-clash-mini-country">{{ .country }}</span>
-      </div>
-      <a href="{{ .left.RelPermalink }}" class="tw-clash-mini-side">
-        <div class="tw-clash-mini-label">{{ .leftLabel }}</div>
-        <h4>{{ .left.Title | truncate 70 }}</h4>
+    <div class="tw-clash-carib-pair">
+      <div class="tw-clash-carib-country">{{ .flag }} {{ .country }}</div>
+      <a href="{{ .left.RelPermalink }}" class="tw-clash-carib-card tw-clash-carib-left">
+        <div class="tw-clash-carib-tag">{{ .leftLabel }}</div>
+        <h4>{{ .left.Title }}</h4>
       </a>
-      <a href="{{ .right.RelPermalink }}" class="tw-clash-mini-side">
-        <div class="tw-clash-mini-label">{{ .rightLabel }}</div>
-        <h4>{{ .right.Title | truncate 70 }}</h4>
+      <a href="{{ .right.RelPermalink }}" class="tw-clash-carib-card tw-clash-carib-right">
+        <div class="tw-clash-carib-tag">{{ .rightLabel }}</div>
+        <h4>{{ .right.Title }}</h4>
       </a>
     </div>
     {{ end }}
