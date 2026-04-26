@@ -1,0 +1,42 @@
+{{- /* layouts/sports/list.html: cartoon banner + story list */ -}}
+{{ define "main" }}
+<main class="main tw-main">
+  <article class="tw-section-page">
+    <header class="tw-section-header">
+      <h1 class="tw-section-title">Sports</h1>
+      {{ with .Content }}<div class="tw-section-intro">{{ . }}</div>{{ end }}
+    </header>
+
+    {{ $cartoon := where .Pages "Params.content_type" "cartoon" | first 1 }}
+    {{ with (index $cartoon 0) }}
+      <section class="tw-sports-cartoon-banner">
+        <a href="{{ .RelPermalink }}" class="tw-sports-cartoon-link">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="tw-sports-cartoon-img">
+        </a>
+        <p class="tw-sports-cartoon-caption">☜️ <strong>The Sports Cartoon</strong> — <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      </section>
+    {{ end }}
+
+    <section class="tw-sports-feed">
+      <h2 class="tw-sports-feed-heading">Latest Sports Stories</h2>
+      <div class="tw-feed-grid">
+        {{ range where .Pages "Params.content_type" "!=" "cartoon" }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}
+        {{ end }}
+      </div>
+    </section>
+  </article>
+</main>
+
+<style>
+.tw-sports-cartoon-banner{margin:1.5rem auto 2rem;max-width:1200px;padding:0 1.25rem}
+.tw-sports-cartoon-link{display:block;border-radius:8px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.tw-sports-cartoon-img{width:100%;height:auto;display:block}
+.tw-sports-cartoon-caption{margin:.75rem 0 0;font-size:.9rem;color:#666;text-align:center}
+.tw-sports-cartoon-caption a{color:#2d4a5c;text-decoration:none}
+.tw-sports-cartoon-caption a:hover{text-decoration:underline}
+.tw-sports-feed{max-width:1200px;margin:0 auto;padding:0 1.25rem 3rem}
+.tw-sports-feed-heading{font-family:fraunces,Georgia,serif;font-size:1.5rem;margin:0 0 1.25rem;padding-bottom:.5rem;border-bottom:2px solid #2d4a5c}
+.tw-feed-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem}
+</style>
+{{ end }}

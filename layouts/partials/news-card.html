@@ -2,10 +2,28 @@
 {{ $p := .page | default . }}
 {{ $flagClass := .flagClass | default "neutral" }}
 {{ $section := .section | default "" }}
+{{- /* Country-pool fallback image */ -}}
+{{ $country := $p.Params.country | default "" | lower }}
+{{ $poolPath := printf "static/images/country-pool/%s" $country }}
+{{ $poolImage := "" }}
+{{ if and $country (not $p.Params.image) }}
+  {{ $pool := readDir $poolPath }}
+  {{ $images := slice }}
+  {{ range $pool }}
+    {{ $ext := path.Ext .Name | lower }}
+    {{ if and (not .IsDir) (or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".webp")) }}
+      {{ $images = append .Name $images }}
+    {{ end }}
+  {{ end }}
+  {{ with $images }}
+    {{ $idx := mod (len $p.File.ContentBaseName) (len .) }}
+    {{ $poolImage = printf "/images/country-pool/%s/%s" $country (index . $idx) }}
+  {{ end }}
+{{ end }}
 <article class="tw-card {{ $flagClass }}">
   <a href="{{ $p.RelPermalink }}" class="tw-card-link">
     <div class="tw-card-flag-bar"></div>
-    <div class="tw-card-img" style="background-image:url('{{ $p.Params.image | default (printf "https://picsum.photos/seed/%s/800/450" $p.File.ContentBaseName) }}');"></div>
+    <div class="tw-card-img" style="background-image:url('{{ $p.Params.image | default $poolImage | default (printf "https://picsum.photos/seed/%s/800/450" $p.File.ContentBaseName) }}');"></div>
     <div class="tw-card-body">
       <div class="tw-card-meta">
         {{ partial "content-badge.html" $p }}
