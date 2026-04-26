@@ -23,7 +23,7 @@
       <div class="hero-text">
         <span class="hero-cat">Monthly Feature</span>
         <h2 class="hero-headline">{{ $hero.Title }}</h2>
-        <p class="hero-meta">By {{ $hero.Params.author | default "Ajay Messiah" }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
+        <p class="hero-meta">By {{ partial "byline-name.html" $hero }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
       </div>
     </a>
   </section>

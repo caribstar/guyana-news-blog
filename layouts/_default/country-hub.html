@@ -180,7 +180,7 @@
         <a href="/categories/{{ urlize $rcat }}/" class="tw-onion-more-section">{{ $rcat | upper }}</a>
         <h3 class="tw-onion-more-headline"><a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a></h3>
         <p class="tw-onion-more-meta">
-          {{ with .Params.author }}{{ . }} &bull; {{ end }}{{ .Date.Format "Jan 2" }}
+          {{ partial "byline-name.html" . }} &bull; {{ .Date.Format "Jan 2" }}
         </p>
       </article>
       {{ end }}

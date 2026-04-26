@@ -57,7 +57,7 @@
       {{ if eq $variant "featured" }}
         <p class="ttb-card-excerpt">{{ $post.Summary | plainify | truncate 160 }}</p>
       {{ end }}
-      <p class="ttb-card-meta">{{ $post.Date.Format "Jan 2, 2006" }}{{ with $post.Params.author }} &bull; {{ . }}{{ end }}</p>
+      <p class="ttb-card-meta">{{ $post.Date.Format "Jan 2, 2006" }} &bull; {{ partial "byline-name.html" $post }}</p>
     </div>
   </a>
 </article>

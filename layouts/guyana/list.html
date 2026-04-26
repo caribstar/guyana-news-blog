@@ -57,7 +57,7 @@
       <div class="hero-text">
         <span class="hero-cat">{{ $hero.Params.section | default (index $hero.Params.categories 0) | title }}</span>
         <h1 class="hero-headline">{{ $hero.Title }}</h1>
-        <p class="hero-meta">By {{ $hero.Params.author | default "GDB Staff" }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
+        <p class="hero-meta">By {{ partial "byline-name.html" $hero }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
       </div>
     </a>
   </section>
@@ -72,7 +72,7 @@
         <div class="feat-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 1 $idx) $galN)) }}');"></div>
         <span class="feat-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
         <h2 class="feat-headline">{{ $page.Title }}</h2>
-        <p class="feat-meta">{{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
+        <p class="feat-meta">{{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
       </a>
     </article>
     {{ end }}
@@ -93,7 +93,7 @@
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 4 $idx) $galN)) }}');"></div>
           <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
           <h3 class="tile-headline">{{ $page.Title }}</h3>
-          <p class="tile-meta">By {{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
+          <p class="tile-meta">By {{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
       </article>
       {{ end }}
@@ -224,7 +224,7 @@
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 12 $idx) $galN)) }}');"></div>
           <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
           <h3 class="tile-headline">{{ $page.Title }}</h3>
-          <p class="tile-meta">By {{ $page.Params.author | default "GDB Staff" }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
+          <p class="tile-meta">By {{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
       </article>
       {{ end }}

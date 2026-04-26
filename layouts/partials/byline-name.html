@@ -1,0 +1,23 @@
+{{/* byline-name.html — returns canonical author display name.
+     Usage: {{ partial "byline-name.html" . }}  (pass the page)
+     Aliases generic/desk bylines to "TWB Editorial".
+     Keeps character voices and human-name reporters as-is.
+     Empty/missing author also resolves to "TWB Editorial". */}}
+{{- $a := .Params.author | default "" -}}
+{{- $alias := slice
+    "Daily Brief"
+    "The Daily Brief"
+    "The Guyana Daily Brief"
+    "Caribbean Brief"
+    "GDB Staff"
+    "GDB Desk"
+    "GDB Regional Desk"
+    "Editorial Team"
+    "The People"
+    "De Comedy Crew"
+-}}
+{{- if or (eq $a "") (in $alias $a) -}}
+TWB Editorial
+{{- else -}}
+{{ $a }}
+{{- end -}}

@@ -1,6 +1,6 @@
 {{/* byline.html — small avatar + name. Pass the page as . */}}
 {{ $p := . }}
-{{ $authorName := $p.Params.author | default "GDB Staff" }}
+{{ $authorName := partial "byline-name.html" $p }}
 {{ $authorKey := $authorName | urlize }}
 {{ $profile := index site.Data.authors $authorKey }}
 {{ $avatar := "" }}

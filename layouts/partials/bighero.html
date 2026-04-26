@@ -55,7 +55,7 @@
       <span class="ttb-bighero-eyebrow">{{ $tagText }}</span>
       <h1 class="ttb-bighero-title">{{ $lead.Title | plainify }}</h1>
       <p class="ttb-bighero-excerpt">{{ $lead.Summary | plainify | truncate 200 }}</p>
-      <p class="ttb-bighero-meta">{{ with $lead.Params.author }}{{ . }} &bull; {{ end }}{{ $lead.Date.Format "Monday, January 2, 2006" }}</p>
+      <p class="ttb-bighero-meta">{{ partial "byline-name.html" $lead }} &bull; {{ $lead.Date.Format "Monday, January 2, 2006" }}</p>
     </a>
   </article>
 
@@ -66,7 +66,7 @@
         <li>
           <a href="{{ .RelPermalink }}">
             {{ .Title | plainify }}
-            <span class="side-meta">{{ with .Params.author }}{{ . }} &bull; {{ end }}{{ .Date.Format "Jan 2" }}</span>
+            <span class="side-meta">{{ partial "byline-name.html" . }} &bull; {{ .Date.Format "Jan 2" }}</span>
           </a>
         </li>
       {{ end }}

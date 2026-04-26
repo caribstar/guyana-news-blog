@@ -5,7 +5,7 @@
         <div class="article-meta" style="display: flex; gap: 20px; color: #666; margin-bottom: 20px;">
             <span>{{ .Date.Format "January 2, 2006" }}</span>
             <span>{{ .ReadingTime }} min read</span>
-            {{- if .Params.author }}<span>{{ .Params.author }}</span>{{- end }}
+            <span>{{ partial "byline-name.html" . }}</span>
         </div>
         
         {{- if .Params.cover.image }}
