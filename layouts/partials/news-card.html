@@ -6,7 +6,7 @@
 {{ $country := $p.Params.country | default "" | lower }}
 {{ $poolPath := printf "static/images/country-pool/%s" $country }}
 {{ $poolImage := "" }}
-{{ if and $country (not $p.Params.image) }}
+{{ if and and $country (not $p.Params.image) (fileExists $poolPath) }}
   {{ $pool := readDir $poolPath }}
   {{ $images := slice }}
   {{ range $pool }}
