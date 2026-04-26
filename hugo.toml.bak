@@ -1,0 +1,184 @@
+baseURL = "https://tradewindsbrief.com/"
+languageCode = "en-us"
+title = "The Tradewinds Brief"
+theme = "PaperMod"
+
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+ignoreLogs = ["deprecated"]
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[minify]
+  disableXML = false
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "CARIBSTAR"
+  description = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+  defaultDescription = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Free, daily."
+  images = ["/images/brand/og-default.png"]
+  favicon = "/favicon.ico"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+[params.label]
+  icon = "/images/brand/logo-horizontal.png"
+  iconHeight = 72
+  text = ""
+
+[params.homeInfoParams]
+  Title = "The Tradewinds Brief"
+  Content = "Diaspora-first reporting on Guyana, the Caribbean, and Africa. Daily."
+
+[params.cover]
+  image = "/images/brand/og-default.png"
+  alt = "The Tradewinds Brief"
+  relative = false
+  hidden = false
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/images/brand/favicon-16.png"
+  favicon32x32 = "/images/brand/favicon-32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  identifier = "nav-trending"
+  name = "Trending"
+  url = "/trending/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "nav-politics"
+  name = "Politics"
+  url = "/politics/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "nav-entertainment"
+  name = "Entertainment"
+  url = "/categories/entertainment/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "nav-sports"
+  name = "Sports"
+  url = "/sports/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "nav-shop"
+  name = "Shop"
+  url = "/shop/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "nav-regions"
+  name = "Regions"
+  weight = 6
+
+[[menu.main]]
+  identifier = "nav-caribbean"
+  parent = "nav-regions"
+  name = "Caribbean"
+  url = "/caribbean/"
+  weight = 51
+
+[[menu.main]]
+  identifier = "nav-africa"
+  parent = "nav-regions"
+  name = "Africa"
+  url = "/africa/"
+  weight = 52
+
+[[menu.main]]
+  identifier = "nav-more"
+  name = "More"
+  weight = 7
+
+[[menu.main]]
+  identifier = "nav-the-trade"
+  parent = "nav-more"
+  name = "The Trade"
+  url = "/the-trade/"
+  weight = 61
+
+[[menu.main]]
+  identifier = "nav-newsletter"
+  parent = "nav-more"
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 63
+
+[[menu.main]]
+  identifier = "nav-books"
+  parent = "nav-more"
+  name = "Books"
+  url = "/books/"
+  weight = 64
+
+[[menu.main]]
+  identifier = "nav-about"
+  parent = "nav-more"
+  name = "About"
+  url = "/about/"
+  weight = 65
+
+[[menu.main]]
+  identifier = "nav-contact"
+  parent = "nav-more"
+  name = "Contact"
+  url = "/contact/"
+  weight = 66
+
+[[menu.main]]
+  identifier = "nav-search"
+  parent = "nav-more"
+  name = "Search"
+  url = "/search/"
+  weight = 68
+
+[[menu.footer]]
+  identifier = "nav-privacy"
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+
+[[menu.footer]]
+  identifier = "nav-legal"
+  name = "Legal"
+  url = "/legal/"
+  weight = 2

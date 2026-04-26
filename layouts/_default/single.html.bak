@@ -1,0 +1,38 @@
+{{- define "main" -}}
+<article class="tw-article">
+  <header>
+    <div class="tw-article-meta">
+      {{ partial "content-badge.html" . }}
+      {{ with .Params.source }}<span class="tw-article-source">Source: {{ . }}</span>{{ end }}
+    </div>
+    <h1 class="tw-article-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="tw-article-dek">{{ . }}</p>{{ end }}
+    <div class="tw-article-byline">
+      <strong>{{ .Params.author | default "GDB Staff" }}</strong>
+      <span class="sep">&middot;</span>
+      <time>{{ dateFormat "January 2, 2006" .Date }}</time>
+      {{ with .Params.country }}<span class="sep">&middot;</span>{{ . | title }}{{ end }}
+    </div>
+  </header>
+
+  {{ partial "satire-disclaimer.html" . }}
+
+  {{ with .Params.facts }}
+  <section class="tw-facts-block"><h3>The Facts</h3><p>{{ . }}</p></section>
+  {{ end }}
+
+  {{ with .Params.why_it_matters }}
+  <section class="tw-why-block"><h3>Why It Matters</h3><p>{{ . }}</p></section>
+  {{ end }}
+
+  <div class="tw-article-body">{{ .Content }}</div>
+
+  <footer class="tw-article-footer">
+    {{ with .Params.tags }}
+    <div class="tw-article-tags">
+      {{ range . }}<a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" class="tw-tag">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+  </footer>
+</article>
+{{- end -}}

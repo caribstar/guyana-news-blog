@@ -1,0 +1,23 @@
+{{/* byline.html — small avatar + name. Pass the page as . */}}
+{{ $p := . }}
+{{ $authorName := $p.Params.author | default "GDB Staff" }}
+{{ $authorKey := $authorName | urlize }}
+{{ $profile := index site.Data.authors $authorKey }}
+{{ $avatar := "" }}
+{{ if $profile }}{{ $avatar = $profile.avatar }}{{ end }}
+<span class="tw-byline">
+  {{ if $avatar }}
+  <a href="{{ "/authors/" | relLangURL }}{{ $authorKey }}/" class="tw-byline-avatar-link" aria-label="More from {{ $authorName }}">
+    <img src="{{ $avatar }}" alt="{{ $authorName }}" class="tw-byline-avatar" loading="lazy" width="32" height="32">
+  </a>
+  {{ end }}
+  <span class="tw-byline-text">
+    {{ if $profile }}
+    <a href="{{ "/authors/" | relLangURL }}{{ $authorKey }}/" class="tw-byline-name">{{ $authorName }}</a>
+    {{ else }}
+    <strong>{{ $authorName }}</strong>
+    {{ end }}
+    <span class="tw-byline-sep">&middot;</span>
+    <time class="tw-byline-date">{{ dateFormat "Jan 2" $p.Date }}</time>
+  </span>
+</span>

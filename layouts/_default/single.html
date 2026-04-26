@@ -7,11 +7,9 @@
     </div>
     <h1 class="tw-article-title">{{ .Title }}</h1>
     {{ with .Params.description }}<p class="tw-article-dek">{{ . }}</p>{{ end }}
-    <div class="tw-article-byline">
-      <strong>{{ .Params.author | default "GDB Staff" }}</strong>
-      <span class="sep">&middot;</span>
-      <time>{{ dateFormat "January 2, 2006" .Date }}</time>
-      {{ with .Params.country }}<span class="sep">&middot;</span>{{ . | title }}{{ end }}
+    <div class="tw-article-byline tw-article-byline-large">
+      {{ partial "byline.html" . }}
+      {{ with .Params.country }}<span class="tw-byline-sep">&middot;</span><span class="tw-byline-country">{{ . | title }}</span>{{ end }}
     </div>
   </header>
 

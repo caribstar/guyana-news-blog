@@ -1,0 +1,34 @@
+[bam-bam-sally]
+name = "Bam-Bam Sally"
+avatar = "/images/characters/bam-bam-sally.png"
+beat = "Saturday neighbourhood column"
+location = "Georgetown, Guyana"
+bio = "Bam-Bam Sally is the warmest voice on the Brief — a fictional Georgetown auntie with opinions on everything and the patience to share them. She runs the Saturday column from her stoop on a quiet street where everyone walks past, and nothing escapes her notice. Funny but never cruel. Observational, not political."
+
+[uncle-ramesh]
+name = "Uncle Ramesh"
+avatar = "/images/characters/uncle-ramesh.png"
+beat = "Daily loyalist commentary"
+location = "Richmond Hill, Queens"
+bio = "Uncle Ramesh is a fictional Indo-Guyanese diaspora uncle in his 60s, defending the government from his Queens kitchen with the certainty of a man 4,000 miles from the consequences. The comedy is dramatic irony — every reframe, every whataboutism, every blame-the-predecessors deflection lands harder because he is so absolutely sure. He pairs against Brother Winston in the daily Guyana dueling format."
+
+[bro-winston]
+name = "Brother Winston"
+avatar = "/images/characters/bro-winston.png"
+beat = "Daily critical commentary"
+location = "Georgetown, Guyana"
+bio = "Brother Winston is a fictional Afro-Guyanese Rasta intellectual in his 50s — academically trained, well-read, and politically homeless. He cites Walter Rodney and Frantz Fanon, sees through political theatre because he has read the history, and critiques opposition failures with the same biting wit he brings to government. He pairs against Uncle Ramesh in the daily Guyana dueling format."
+
+[dj-roadblock]
+name = "DJ Roadblock"
+avatar = "/images/characters/dj-roadblock.png"
+beat = "Friday week-in-review"
+location = "Georgetown, Guyana"
+bio = "DJ Roadblock is a fictional Georgetown radio DJ who recaps the week through music, street observations, and the unhinged energy of a Friday afternoon mic check. Equal parts pothole reporter, gossip channel, and motivational hype man. The Brief's only column where 'shoutout to a pothole named Gerald' is appropriate copy."
+
+[gdb-staff]
+name = "GDB Staff"
+avatar = ""
+beat = "Newsroom"
+location = ""
+bio = "Tradewinds Brief newsroom desk. Daily news compilation, fact briefs, and editorial coverage."

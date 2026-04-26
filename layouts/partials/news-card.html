@@ -18,7 +18,7 @@
       {{ if and (not $p.Params.facts) (not $p.Params.why_it_matters) }}
       <p class="tw-card-dek">{{ $p.Params.description | default ($p.Summary | plainify | truncate 140) }}</p>
       {{ end }}
-      <p class="tw-card-byline"><strong>{{ $p.Params.author | default "GDB Staff" }}</strong> &middot; {{ dateFormat "Jan 2" $p.Date }}</p>
+      <p class="tw-card-byline">{{ partial "byline.html" $p }}</p>
     </div>
   </a>
 </article>

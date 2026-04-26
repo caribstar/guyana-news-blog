@@ -1,0 +1,24 @@
+{{/* news-card: africa-hub pattern. Optional .flagClass (gy/jm/tt/bb/gh/ke/ng/za/neutral) */}}
+{{ $p := .page | default . }}
+{{ $flagClass := .flagClass | default "neutral" }}
+{{ $section := .section | default "" }}
+<article class="tw-card {{ $flagClass }}">
+  <a href="{{ $p.RelPermalink }}" class="tw-card-link">
+    <div class="tw-card-flag-bar"></div>
+    <div class="tw-card-img" style="background-image:url('{{ $p.Params.image | default (printf "https://picsum.photos/seed/%s/800/450" $p.File.ContentBaseName) }}');"></div>
+    <div class="tw-card-body">
+      <div class="tw-card-meta">
+        {{ partial "content-badge.html" $p }}
+        {{ if $section }}<span class="tw-card-section">{{ $section }}</span>{{ end }}
+        {{ with $p.Params.source }}<span class="tw-card-source">{{ . }}</span>{{ end }}
+      </div>
+      <h3 class="tw-card-headline">{{ $p.Title }}</h3>
+      {{ with $p.Params.facts }}<p class="tw-card-facts"><strong>The Facts:</strong> {{ . | truncate 110 }}</p>{{ end }}
+      {{ with $p.Params.why_it_matters }}<p class="tw-card-why"><strong>Why It Matters:</strong> {{ . | truncate 160 }}</p>{{ end }}
+      {{ if and (not $p.Params.facts) (not $p.Params.why_it_matters) }}
+      <p class="tw-card-dek">{{ $p.Params.description | default ($p.Summary | plainify | truncate 140) }}</p>
+      {{ end }}
+      <p class="tw-card-byline"><strong>{{ $p.Params.author | default "GDB Staff" }}</strong> &middot; {{ dateFormat "Jan 2" $p.Date }}</p>
+    </div>
+  </a>
+</article>
