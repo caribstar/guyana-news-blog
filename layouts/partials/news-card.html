@@ -6,18 +6,20 @@
 {{ $country := $p.Params.country | default "" | lower }}
 {{ $poolPath := printf "static/images/country-pool/%s" $country }}
 {{ $poolImage := "" }}
-{{ if and and $country (not $p.Params.image) (fileExists $poolPath) }}
-  {{ $pool := readDir $poolPath }}
-  {{ $images := slice }}
-  {{ range $pool }}
-    {{ $ext := path.Ext .Name | lower }}
-    {{ if and (not .IsDir) (or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".webp")) }}
-      {{ $images = append .Name $images }}
+{{ if and $country (not $p.Params.image) }}
+  {{ if fileExists $poolPath }}
+    {{ $pool := readDir $poolPath }}
+    {{ $images := slice }}
+    {{ range $pool }}
+      {{ $ext := path.Ext .Name | lower }}
+      {{ if and (not .IsDir) (or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".webp")) }}
+        {{ $images = append .Name $images }}
+      {{ end }}
     {{ end }}
-  {{ end }}
-  {{ with $images }}
-    {{ $idx := mod (len $p.File.ContentBaseName) (len .) }}
-    {{ $poolImage = printf "/images/country-pool/%s/%s" $country (index . $idx) }}
+    {{ with $images }}
+      {{ $idx := mod (len $p.File.ContentBaseName) (len .) }}
+      {{ $poolImage = printf "/images/country-pool/%s/%s" $country (index . $idx) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 <article class="tw-card {{ $flagClass }}">
