@@ -2,11 +2,11 @@
 {{ $all := where site.RegularPages "Type" "posts" }}
 {{ $all = sort $all "Date" "desc" }}
 
-{{ /* Guyana pair: Daily Brief + Uncle Ramesh */ }}
+{{/* Guyana pair */}}
 {{ $db := index (where $all "Params.categories" "intersect" (slice "Daily Brief")) 0 }}
 {{ $ramesh := index (where $all "Params.categories" "intersect" (slice "Uncle Ramesh")) 0 }}
 
-{{ /* Caribbean pairs */ }}
+{{/* Caribbean pairs */}}
 {{ $pairs := slice }}
 {{ $jmA := index (where $all "Params.categories" "intersect" (slice "Yard Report")) 0 }}
 {{ $jmB := index (where $all "Params.categories" "intersect" (slice "Cousin Leroy")) 0 }}
@@ -21,7 +21,7 @@
 {{ if or (and $db $ramesh) $pairs }}
 <section class="tw-section tw-todays-clash">
   <div class="tw-section-head tw-clash-head">
-    <h2>🔥 Today's Clash</h2>
+    <h2>ðŸ”¥ Today's Clash</h2>
     <span class="meta">Two perspectives. One country.</span>
   </div>
 
@@ -35,7 +35,7 @@
     </a>
     <div class="tw-clash-divider">
       <span class="tw-clash-vs">VS</span>
-      <span class="tw-clash-country">🇬🇾 Guyana</span>
+      <span class="tw-clash-country">ðŸ‡¬ðŸ‡¾ Guyana</span>
     </div>
     <a href="{{ $ramesh.RelPermalink }}" class="tw-clash-side tw-clash-loyalist">
       <div class="tw-clash-side-tag">Loyalist</div>
