@@ -2,8 +2,28 @@
 {{ $p := .page | default . }}
 {{ $flagClass := .flagClass | default "neutral" }}
 {{ $section := .section | default "" }}
-{{- /* Country-pool fallback image */ -}}
+
+{{- /* Resolve country: front-matter wins, else derive from category */ -}}
 {{ $country := $p.Params.country | default "" | lower }}
+{{ if not $country }}
+  {{ $cats := $p.Params.categories | default (slice) }}
+  {{ range $cats }}
+    {{ $c := . | lower }}
+    {{ if in $c "yard" }}{{ $country = "jamaica" }}{{ end }}
+    {{ if in $c "jamaica" }}{{ $country = "jamaica" }}{{ end }}
+    {{ if in $c "trini" }}{{ $country = "trinidad" }}{{ end }}
+    {{ if in $c "trinidad" }}{{ $country = "trinidad" }}{{ end }}
+    {{ if in $c "bajan" }}{{ $country = "barbados" }}{{ end }}
+    {{ if in $c "barbados" }}{{ $country = "barbados" }}{{ end }}
+    {{ if in $c "ghana" }}{{ $country = "ghana" }}{{ end }}
+    {{ if in $c "kenya" }}{{ $country = "kenya" }}{{ end }}
+    {{ if in $c "nigeria" }}{{ $country = "nigeria" }}{{ end }}
+    {{ if in $c "south africa" }}{{ $country = "south-africa" }}{{ end }}
+  {{ end }}
+  {{ if not $country }}{{ $country = "guyana" }}{{ end }}
+{{ end }}
+
+{{- /* Country-pool image selection (deterministic per post) */ -}}
 {{ $poolPath := printf "static/images/country-pool/%s" $country }}
 {{ $poolImage := "" }}
 {{ if and $country (not $p.Params.image) }}
@@ -13,7 +33,7 @@
     {{ range $pool }}
       {{ $ext := path.Ext .Name | lower }}
       {{ if and (not .IsDir) (or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".webp")) }}
-        {{ $images = append .Name $images }}
+        {{ $images = $images | append .Name }}
       {{ end }}
     {{ end }}
     {{ with $images }}
@@ -22,10 +42,22 @@
     {{ end }}
   {{ end }}
 {{ end }}
+
+{{- /* Local default fallback per country, then generic */ -}}
+{{ $localDefault := "/images/defaults/posts.jpg" }}
+{{ if $country }}
+  {{ $countryDefault := printf "static/images/defaults/%s.jpg" $country }}
+  {{ if fileExists $countryDefault }}
+    {{ $localDefault = printf "/images/defaults/%s.jpg" $country }}
+  {{ end }}
+{{ end }}
+
+{{ $finalImage := $p.Params.image | default $poolImage | default $localDefault }}
+
 <article class="tw-card {{ $flagClass }}">
   <a href="{{ $p.RelPermalink }}" class="tw-card-link">
     <div class="tw-card-flag-bar"></div>
-    <div class="tw-card-img" style="background-image:url('{{ $p.Params.image | default $poolImage | default (printf "https://picsum.photos/seed/%s/800/450" $p.File.ContentBaseName) }}');"></div>
+    <div class="tw-card-img" style="background-image:url('{{ $finalImage }}');"></div>
     <div class="tw-card-body">
       <div class="tw-card-meta">
         {{ partial "content-badge.html" $p }}
