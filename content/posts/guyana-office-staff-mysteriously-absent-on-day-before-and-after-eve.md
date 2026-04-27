@@ -1,5 +1,5 @@
 ---
-author: Christopher Matthias
+author: Christopher Mathis
 categories:
 - Guyana Brief
 content_type: commentary
@@ -19,6 +19,6 @@ title: Office Staff Mysteriously Absent On Day Before And After Every Public Hol
 tone: satire
 ---
 
-GEORGETOWN — A human resources audit conducted Tuesday at a downtown firm revealed that attendance on the days immediately preceding and following every public holiday in the past 14 months was at 11%, with submitted medical certificates showing a statistically improbable concentration of 24-hour flu cases.
+GEORGETOWN â€” A human resources audit conducted Tuesday at a downtown firm revealed that attendance on the days immediately preceding and following every public holiday in the past 14 months was at 11%, with submitted medical certificates showing a statistically improbable concentration of 24-hour flu cases.
 
 The situation continues to develop.

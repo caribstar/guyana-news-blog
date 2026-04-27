@@ -1,5 +1,5 @@
 ---
-author: Christopher Matthias
+author: Christopher Mathis
 categories:
 - Guyana Brief
 content_type: commentary
@@ -22,6 +22,6 @@ title: Rum Shop Parliament Reaches Unanimous Verdict On National Budget, Governm
 tone: satire
 ---
 
-MCDOOM — An informal council of seven regulars at a small rum shop on the East Bank Demerara reached a unanimous position Friday evening on the allocation priorities of the 2026 national budget, a policy framework which remains unconsulted by the Ministry of Finance despite what observers described as 'considerable merit.'
+MCDOOM â€” An informal council of seven regulars at a small rum shop on the East Bank Demerara reached a unanimous position Friday evening on the allocation priorities of the 2026 national budget, a policy framework which remains unconsulted by the Ministry of Finance despite what observers described as 'considerable merit.'
 
 The situation continues to develop.

@@ -1,6 +1,6 @@
 ---
 homepage_hide: true
-author: Christopher Matthias
+author: Christopher Mathis
 categories:
 - Guyana Brief
 content_type: commentary
@@ -20,6 +20,6 @@ title: Man Says He Reaching Fete, Still Ironing Pants Three Hours In
 tone: satire
 ---
 
-SUBRYANVILLE — Informing the group chat at 7:40 p.m. that he was 'reaching in twenty,' 28-year-old Terron Gonsalves was, at 10:43 p.m., still in his bedroom attempting to iron a crease into a pair of black jeans, having not yet selected a shirt or located one of his shoes.
+SUBRYANVILLE â€” Informing the group chat at 7:40 p.m. that he was 'reaching in twenty,' 28-year-old Terron Gonsalves was, at 10:43 p.m., still in his bedroom attempting to iron a crease into a pair of black jeans, having not yet selected a shirt or located one of his shoes.
 
 The situation continues to develop.

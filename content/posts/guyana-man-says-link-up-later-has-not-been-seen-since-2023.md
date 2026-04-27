@@ -1,6 +1,6 @@
 ---
 homepage_hide: true
-author: Christopher Matthias
+author: Christopher Mathis
 categories:
 - Guyana Brief
 content_type: commentary
@@ -20,6 +20,6 @@ title: Man Says 'Link Up Later,' Has Not Been Seen Since 2023
 tone: satire
 ---
 
-KITTY — Concluding a conversation with a cousin on the 14th of March, 2023, with the phrase 'yeah bai, we go link up,' 31-year-old Dellon Fraser has reportedly not been seen, heard from, or spotted in any public place in the subsequent 37 months, with the cousin continuing to wait.
+KITTY â€” Concluding a conversation with a cousin on the 14th of March, 2023, with the phrase 'yeah bai, we go link up,' 31-year-old Dellon Fraser has reportedly not been seen, heard from, or spotted in any public place in the subsequent 37 months, with the cousin continuing to wait.
 
 The situation continues to develop.
