@@ -1,5 +1,5 @@
 ---
-author: Ajay Messiah
+author: Christopher Matthias
 categories:
 - Guyana Brief
 content_type: commentary
