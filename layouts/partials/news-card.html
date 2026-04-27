@@ -23,6 +23,27 @@
   {{ if not $country }}{{ $country = "guyana" }}{{ end }}
 {{ end }}
 
+{{- /* Derive lane: SATIRE / COMMENTARY / FEATURES / KIDS */ -}}
+{{ $lane := "features" }}
+{{ $ct := $p.Params.content_type | default "" | lower }}
+{{ if or (eq $ct "satire") (eq $ct "parody_column") (eq $ct "news") }}{{ $lane = "satire" }}{{ end }}
+{{ if or (eq $ct "commentary") (eq $ct "analysis") }}{{ $lane = "commentary" }}{{ end }}
+{{ if eq $ct "kids_story" }}{{ $lane = "kids" }}{{ end }}
+
+{{- /* Category-based lane override for posts without explicit content_type */ -}}
+{{ $cats := $p.Params.categories | default (slice) }}
+{{ range $cats }}
+  {{ $c := . | lower }}
+  {{ if in $c "speedeet" }}{{ $lane = "kids" }}{{ end }}
+  {{ if in $c "bro winston" }}{{ $lane = "commentary" }}{{ end }}
+  {{ if in $c "brother winston" }}{{ $lane = "commentary" }}{{ end }}
+  {{ if in $c "patriots portfolio" }}{{ $lane = "commentary" }}{{ end }}
+  {{ if in $c "guyanese horizon" }}{{ $lane = "commentary" }}{{ end }}
+  {{ if in $c "progress report" }}{{ $lane = "features" }}{{ end }}
+  {{ if in $c "rumour mill" }}{{ $lane = "features" }}{{ end }}
+  {{ if in $c "rumor mill" }}{{ $lane = "features" }}{{ end }}
+{{ end }}
+
 {{- /* Country-pool image selection (deterministic per post) */ -}}
 {{ $poolPath := printf "static/images/country-pool/%s" $country }}
 {{ $poolImage := "" }}
@@ -54,7 +75,7 @@
 
 {{ $finalImage := $p.Params.image | default $poolImage | default $localDefault }}
 
-<article class="tw-card {{ $flagClass }}">
+<article class="tw-card {{ $flagClass }} tw-lane-{{ $lane }}">
   <a href="{{ $p.RelPermalink }}" class="tw-card-link">
     <div class="tw-card-flag-bar"></div>
     <div class="tw-card-img" style="background-image:url('{{ $finalImage }}');"></div>

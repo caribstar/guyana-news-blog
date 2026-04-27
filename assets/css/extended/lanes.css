@@ -1,0 +1,61 @@
+/* ================================================================
+   LANES — content-type visual separation (P1-6)
+   SATIRE 🟥 / COMMENTARY 🟦 / FEATURES 🟨 / KIDS 🟩
+   Both stripe (left border) + colored badge pill
+   ================================================================ */
+
+:root {
+  --lane-satire: #d23a3a;      /* red */
+  --lane-commentary: #2860b8;  /* blue */
+  --lane-features: #e0a91b;    /* yellow / amber */
+  --lane-kids: #2a9d4a;        /* green */
+}
+
+/* ----- Left border stripe on cards ----- */
+.tw-card.tw-lane-satire {
+  border-left: 4px solid var(--lane-satire);
+}
+.tw-card.tw-lane-commentary {
+  border-left: 4px solid var(--lane-commentary);
+}
+.tw-card.tw-lane-features {
+  border-left: 4px solid var(--lane-features);
+}
+.tw-card.tw-lane-kids {
+  border-left: 4px solid var(--lane-kids);
+}
+
+/* ----- Colored badge pills ----- */
+/* Override existing tw-badge-* with lane-driven colors */
+.tw-lane-satire .tw-badge {
+  background: var(--lane-satire);
+  color: #fff;
+  border: none;
+}
+.tw-lane-commentary .tw-badge {
+  background: var(--lane-commentary);
+  color: #fff;
+  border: none;
+}
+.tw-lane-features .tw-badge {
+  background: var(--lane-features);
+  color: #1a1a1a;  /* dark text on yellow for contrast */
+  border: none;
+}
+.tw-lane-kids .tw-badge {
+  background: var(--lane-kids);
+  color: #fff;
+  border: none;
+}
+
+/* ----- Badge baseline shape (in case badges.css doesn't set it) ----- */
+.tw-card .tw-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
