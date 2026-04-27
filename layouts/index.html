@@ -1,5 +1,5 @@
 {{- define "main" -}}
-{{ $all := where site.RegularPages "Type" "posts" }}
+{{ $all := where (where site.RegularPages "Type" "posts") "Params.homepage_hide" "!=" true }}
 {{ $all = sort $all "Date" "desc" }}
 
 {{ $commentary := where $all "Params.content_type" "commentary" }}
