@@ -1,4 +1,5 @@
 ---
+featured_week: true
 author: Naija Lookbook
 categories:
 - Nigeria Brief

@@ -1,4 +1,5 @@
 ---
+featured_week: true
 author: Yard Report
 categories:
 - Yard Brief

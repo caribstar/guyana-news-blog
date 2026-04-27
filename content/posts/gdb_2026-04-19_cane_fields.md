@@ -1,4 +1,5 @@
 ---
+featured_week: true
 author: Cane Fields
 categories:
 - Indo-Caribbean Brief
