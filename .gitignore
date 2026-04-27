@@ -3,3 +3,27 @@
 .hugo_build.lock
 
 *.bak
+
+# --- Defensive: stale build output dirs (cleaned 2026-04-27) ---
+/docs/
+/dust-public/
+/about/
+/categories/
+/tags/
+/posts/
+/legal/
+/magazine/
+/roundup/
+/search/
+/success/
+/success1/
+/dueling/
+/404.html
+/index.html
+/newsletter-preview.html
+
+# --- Editor / OS junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
