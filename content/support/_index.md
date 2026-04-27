@@ -1,42 +1,26 @@
----
-title: "Support The Brief"
-description: "Help keep The Tradewinds Brief independent, ad-free, and reader-supported."
-type: "page"
-layout: "single"
-date: 2026-04-26
-hideMeta: true
-ShowToc: false
+﻿---
+title: "Support Tradewinds Brief"
+description: "Reader-supported. No ads. No tracking."
+url: "/support/"
+homepage_hide: true
 ---
 
-The Tradewinds Brief is reader-supported.
+Tradewinds Brief is reader-supported.
 
-We do not run ads. We do not run tracking. We do not accept paid placement of editorial content. We are not affiliated with any political party, government, or commercial interest in any country we cover.
+No ads. No tracking. No paywall. No sponsors with strings attached.
 
-That model only works if the people who read us regularly help keep it running.
+If the work is worth something to you, this is how to say so.
 
-## Why It Matters
+[Buy Me a Coffee →](https://buymeacoffee.com/tradewindsbrief)
 
-Independent satirical journalism in the Caribbean and African media landscape is rare, and getting rarer. Most outlets that cover this region either depend on advertising revenue (which shapes what they will and will not say) or on grants tied to specific agendas. We chose a different path on purpose.
-
-Reader support keeps the lights on, pays for hosting and infrastructure, and protects the editorial independence that makes this site worth reading in the first place.
-
-## How To Support
-
-We are finalizing our donation infrastructure now. Direct support options will be available shortly on this page.
-
-In the meantime, the most valuable thing you can do is share the work. Send a piece you liked to someone who would appreciate it. Subscribe to the newsletter. Tell a friend.
-
-If you want to be notified when reader support options go live, drop us a line at [editorial@tradewindsbrief.com](mailto:editorial@tradewindsbrief.com) with the subject line "Support."
-
-## What Your Support Pays For
-
-- Server hosting and domain costs
-- Editorial production time
-- Original illustration and design
-- Long-term independence from advertisers and political funders
-
-What it does not pay for: surveillance pixels, tracking scripts, paid placement, or any form of editorial influence. That is the whole point.
+A one-time contribution. No subscription. No follow-up emails asking for more. Pay once if it's worth it; don't if it isn't.
 
 ---
 
-[About](/about/) &middot; [Contact](/contact/) &middot; [Privacy](/privacy/) &middot; [Legal](/legal/)
+## Why we run on donations
+
+Ads change what gets covered. Sponsors change what gets said. We picked the model that doesn't.
+
+If readers fund the work, the work answers to readers.
+
+That's it. Thanks for reading.
