@@ -56,122 +56,130 @@
 
   {{ $allPosts := where site.RegularPages "Type" "posts" }}
 
-  {{ $today := now }}
-  {{ $todayStr := $today.Format "2006-01-02" }}
+  {{/* Cutoff = 28 days ago. Use a date string compare to filter. */}}
+  {{ $cutoff := (now.AddDate 0 0 -28).Format "2006-01-02" }}
+  {{ $todayStr := now.Format "2006-01-02" }}
+
+  {{/* Build set of unique date strings from posts in window, plus today */}}
+  {{ $datesInWindow := slice }}
+  {{ range $allPosts }}
+    {{ $d := .Date.Format "2006-01-02" }}
+    {{ if and (ge $d $cutoff) (le $d $todayStr) }}
+      {{ if not (in $datesInWindow $d) }}
+        {{ $datesInWindow = $datesInWindow | append $d }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Also include today even if no posts yet */}}
+  {{ if not (in $datesInWindow $todayStr) }}
+    {{ $datesInWindow = $datesInWindow | append $todayStr }}
+  {{ end }}
+  {{/* Include cutoff boundary too so range is fully covered visually */}}
+  {{ if not (in $datesInWindow $cutoff) }}
+    {{ $datesInWindow = $datesInWindow | append $cutoff }}
+  {{ end }}
+
+  {{/* Sort dates descending by string compare (works for ISO format) */}}
+  {{ $sortedDates := sort $datesInWindow "value" "desc" }}
 
   {{ $totalSlots := 0 }}
   {{ $totalOk := 0 }}
 
-  {{/* Build 28 days descending from today using seq + int cast */}}
-  {{ $days := slice }}
-  {{ range $i := seq 0 27 }}
-    {{ $offset := int $i }}
-    {{ $negOffset := mul $offset -1 }}
-    {{ $dayDate := $today.AddDate 0 0 $negOffset }}
-    {{ $days = $days | append (dict "date" $dayDate "offset" $offset) }}
-  {{ end }}
+  <section class="cad-week">
+    <div class="cad-week-head">
+      Last 28 days &mdash; {{ $cutoff }} to {{ $todayStr }}
+    </div>
 
-  {{/* Group days into weeks of 7 */}}
-  {{ $weeks := slice }}
-  {{ $currentWeek := slice }}
-  {{ range $idx, $d := $days }}
-    {{ $currentWeek = $currentWeek | append $d }}
-    {{ $idxInt := int $idx }}
-    {{ if eq (mod (add $idxInt 1) 7) 0 }}
-      {{ $weeks = $weeks | append (slice $currentWeek) }}
-      {{ $currentWeek = slice }}
-    {{ end }}
-  {{ end }}
-  {{ if gt (len $currentWeek) 0 }}
-    {{ $weeks = $weeks | append (slice $currentWeek) }}
-  {{ end }}
+    {{ range $sortedDates }}
+      {{ $dStr := . }}
 
-  {{ range $weekIdx, $week := $weeks }}
-    {{ $firstDay := index $week 0 }}
-    {{ $lastDay := index $week (sub (len $week) 1) }}
-    <section class="cad-week">
-      <div class="cad-week-head">
-        Week of {{ $lastDay.date.Format "Mon Jan 2" }} &mdash; {{ $firstDay.date.Format "Mon Jan 2" }}
-      </div>
+      {{/* Find one post on this date to extract Date object for day-of-week formatting */}}
+      {{ $sampleDate := now }}
+      {{ $found := false }}
+      {{ range $allPosts }}
+        {{ if and (not $found) (eq (.Date.Format "2006-01-02") $dStr) }}
+          {{ $sampleDate = .Date }}
+          {{ $found = true }}
+        {{ end }}
+      {{ end }}
+      {{/* If no post for this date, parse it via time function */}}
+      {{ if not $found }}
+        {{ $sampleDate = time $dStr }}
+      {{ end }}
 
-      {{ range $week }}
-        {{ $d := .date }}
-        {{ $dStr := $d.Format "2006-01-02" }}
-        {{ $dowName := $d.Format "Mon" }}
-        {{ $isFuture := gt $dStr $todayStr }}
+      {{ $dowName := $sampleDate.Format "Mon" }}
+      {{ $dowFull := $sampleDate.Format "Monday" }}
+      {{ $displayDate := $sampleDate.Format "Jan 2" }}
 
-        {{ $expected := $daily }}
-        {{ if eq $dowName "Sun" }}{{ $expected = $expected | append $sundayExtras }}{{ end }}
-        {{ if eq $dowName "Wed" }}{{ $expected = $expected | append $wedExtras }}{{ end }}
-        {{ if eq $dowName "Thu" }}{{ $expected = $expected | append $thuExtras }}{{ end }}
-        {{ if eq $dowName "Fri" }}{{ $expected = $expected | append $friExtras }}{{ end }}
-        {{ if eq $dowName "Sat" }}{{ $expected = $expected | append $satExtras }}{{ end }}
+      {{ $expected := $daily }}
+      {{ if eq $dowName "Sun" }}{{ $expected = $expected | append $sundayExtras }}{{ end }}
+      {{ if eq $dowName "Wed" }}{{ $expected = $expected | append $wedExtras }}{{ end }}
+      {{ if eq $dowName "Thu" }}{{ $expected = $expected | append $thuExtras }}{{ end }}
+      {{ if eq $dowName "Fri" }}{{ $expected = $expected | append $friExtras }}{{ end }}
+      {{ if eq $dowName "Sat" }}{{ $expected = $expected | append $satExtras }}{{ end }}
 
-        <div class="cad-day">
-          <div class="cad-day-label">
-            {{ $d.Format "Jan 2" }}
-            <span class="dow">{{ $d.Format "Monday" }}</span>
-          </div>
-          <div class="cad-slots">
-            {{ if $isFuture }}
-              <span style="color:#888;font-size:12px;">— upcoming —</span>
-            {{ else }}
-              {{ range $expected }}
-                {{ $slot := . }}
-                {{ $found := false }}
-                {{ range $allPosts }}
-                  {{ $pDate := .Date.Format "2006-01-02" }}
-                  {{ if eq $pDate $dStr }}
-                    {{ $pCats := .Params.categories | default (slice) }}
-                    {{ range $slot.cats }}
-                      {{ $needed := . }}
-                      {{ range $pCats }}
-                        {{ if eq . $needed }}{{ $found = true }}{{ end }}
-                      {{ end }}
-                    {{ end }}
+      <div class="cad-day">
+        <div class="cad-day-label">
+          {{ $displayDate }}
+          <span class="dow">{{ $dowFull }}</span>
+        </div>
+        <div class="cad-slots">
+          {{ range $expected }}
+            {{ $slot := . }}
+            {{ $slotFound := false }}
+            {{ range $allPosts }}
+              {{ $pDate := .Date.Format "2006-01-02" }}
+              {{ if eq $pDate $dStr }}
+                {{ $pCats := .Params.categories | default (slice) }}
+                {{ range $slot.cats }}
+                  {{ $needed := . }}
+                  {{ range $pCats }}
+                    {{ if eq . $needed }}{{ $slotFound = true }}{{ end }}
                   {{ end }}
-                {{ end }}
-                {{ $totalSlots = add $totalSlots 1 }}
-                {{ if $found }}
-                  {{ $totalOk = add $totalOk 1 }}
-                  <span class="cad-slot ok">✅ {{ $slot.label }}</span>
-                {{ else }}
-                  <span class="cad-slot miss">❌ {{ $slot.label }}</span>
-                {{ end }}
-              {{ end }}
-
-              {{ range $caribExtras }}
-                {{ $slot := . }}
-                {{ $found := false }}
-                {{ range $allPosts }}
-                  {{ $pDate := .Date.Format "2006-01-02" }}
-                  {{ if eq $pDate $dStr }}
-                    {{ $pAuthor := .Params.author | default "" }}
-                    {{ $pAuthors := .Params.authors | default (slice) }}
-                    {{ if eq $pAuthor $slot.label }}{{ $found = true }}{{ end }}
-                    {{ range $pAuthors }}
-                      {{ if eq . $slot.label }}{{ $found = true }}{{ end }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-                {{ $totalSlots = add $totalSlots 1 }}
-                {{ if $found }}
-                  {{ $totalOk = add $totalOk 1 }}
-                  <span class="cad-slot ok">✅ {{ $slot.label }}</span>
-                {{ else }}
-                  <span class="cad-slot miss">❌ {{ $slot.label }}</span>
                 {{ end }}
               {{ end }}
             {{ end }}
-          </div>
+            {{ $totalSlots = add $totalSlots 1 }}
+            {{ if $slotFound }}
+              {{ $totalOk = add $totalOk 1 }}
+              <span class="cad-slot ok">✅ {{ $slot.label }}</span>
+            {{ else }}
+              <span class="cad-slot miss">❌ {{ $slot.label }}</span>
+            {{ end }}
+          {{ end }}
+
+          {{ range $caribExtras }}
+            {{ $slot := . }}
+            {{ $slotFound := false }}
+            {{ range $allPosts }}
+              {{ $pDate := .Date.Format "2006-01-02" }}
+              {{ if eq $pDate $dStr }}
+                {{ $pAuthor := .Params.author | default "" }}
+                {{ $pAuthors := .Params.authors | default (slice) }}
+                {{ if eq $pAuthor $slot.label }}{{ $slotFound = true }}{{ end }}
+                {{ range $pAuthors }}
+                  {{ if eq . $slot.label }}{{ $slotFound = true }}{{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ $totalSlots = add $totalSlots 1 }}
+            {{ if $slotFound }}
+              {{ $totalOk = add $totalOk 1 }}
+              <span class="cad-slot ok">✅ {{ $slot.label }}</span>
+            {{ else }}
+              <span class="cad-slot miss">❌ {{ $slot.label }}</span>
+            {{ end }}
+          {{ end }}
         </div>
-      {{ end }}
-    </section>
-  {{ end }}
+      </div>
+    {{ end }}
+  </section>
 
   <div class="cad-summary">
     <strong>28-day fill rate:</strong> {{ $totalOk }} of {{ $totalSlots }} expected slots filled
     {{ if gt $totalSlots 0 }}({{ math.Round (mul (div (float $totalOk) (float $totalSlots)) 100) }}%){{ end }}.
+    <br><small style="color:#666;">Note: Only days with at least one post are shown above. Days fully missing from the 28-day window are not displayed.</small>
   </div>
 </div>
 {{ end }}
