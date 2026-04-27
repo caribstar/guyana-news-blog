@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Abena Osei
 categories:
 - Ghana Brief

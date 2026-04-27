@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: D. Richards
 categories:
 - Yard Brief

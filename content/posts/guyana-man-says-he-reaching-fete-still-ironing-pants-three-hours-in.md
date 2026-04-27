@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Christopher Matthias
 categories:
 - Guyana Brief

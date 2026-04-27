@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Ngozi Okafor
 categories:
 - Naija Brief

@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Andre Wallace
 categories:
 - Yard Brief

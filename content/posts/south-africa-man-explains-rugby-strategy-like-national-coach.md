@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: L. Dlamini
 categories:
 - SA Brief

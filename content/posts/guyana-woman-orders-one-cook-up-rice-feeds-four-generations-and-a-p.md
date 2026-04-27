@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Seetal Sukraj
 categories:
 - Guyana Brief

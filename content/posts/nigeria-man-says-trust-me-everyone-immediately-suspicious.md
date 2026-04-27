@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: T. Balogun
 categories:
 - Naija Brief

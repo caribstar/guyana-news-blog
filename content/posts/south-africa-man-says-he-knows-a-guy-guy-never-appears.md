@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Pieter van der Merwe
 categories:
 - SA Brief

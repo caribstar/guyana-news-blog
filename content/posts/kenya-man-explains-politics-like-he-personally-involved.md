@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Brian Otieno
 categories:
 - Kenya Brief

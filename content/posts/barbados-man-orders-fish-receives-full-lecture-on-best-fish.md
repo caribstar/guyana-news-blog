@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: R. Worrell
 categories:
 - Bajan Brief

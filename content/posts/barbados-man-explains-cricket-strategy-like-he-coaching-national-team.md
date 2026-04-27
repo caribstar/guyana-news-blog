@@ -1,4 +1,5 @@
 ---
+homepage_hide: true
 author: Violet Ifill
 categories:
 - Bajan Brief
