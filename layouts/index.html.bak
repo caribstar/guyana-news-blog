@@ -30,6 +30,11 @@
 
 <div class="tw-home-shell">
 
+  <section class="tw-home-hero">
+    <div class="eyebrow">Week of {{ now.Format "January 2, 2006" }}</div>
+    <p class="pitch">Context for the Caribbean &amp; African diaspora.</p>
+  </section>
+
   {{/* TODAY'S CLASH (P0-1) */}}
   {{ partial "todays-clash.html" . }}
 
@@ -132,7 +137,7 @@
   </section>
   {{ end }}
 
-  {{/* SPEEDEET & WILAR Ã¢â‚¬â€ IP feature */}}
+  {{/* SPEEDEET & WILAR â€” IP feature */}}
   {{ if $speedeetLead }}
   <section class="tw-section">
     <div class="tw-section-head">

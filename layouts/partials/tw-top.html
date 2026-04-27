@@ -1,3 +1,4 @@
+{{/* Tradewinds top utility bar + masthead + main nav (data-driven from site.Menus.main) */}}
 <div class="tw-utility">
   <div class="tw-utility-inner">
     <span class="tw-utility-date">{{ now.Format "Monday, January 2, 2006" }}</span>
@@ -7,7 +8,6 @@
     <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="tw-utility-link" target="_blank" rel="noopener">Subscribe</a>
   </div>
 </div>
-
 <header class="tw-masthead">
   <div class="tw-masthead-inner">
     <a href="/" class="tw-brand-link">
@@ -16,15 +16,46 @@
     <p class="tw-tagline">We don't report the news. We explain what it means &mdash; and show you how it's being spun.</p>
   </div>
 </header>
-
 <nav class="tw-mainnav" aria-label="Main navigation">
   <ul class="tw-mainnav-inner">
-    <li><a href="/">Home</a></li>
-    <li><a href="/trending/">Trending</a></li>
-    <li><a href="/sports/">Sports</a></li>
-    <li><a href="/categories/speedeet--wilar/">Speedeet &amp; Wilar</a></li>
-    <li><a href="/cartoons/">Cartoons</a></li>
-    <li><a href="/shop/">Shop</a></li>
-    <li><a href="/support/">Support</a></li>
+    {{ range sort site.Menus.main "Weight" }}
+      {{ if not .Parent }}
+        {{ $hasChildren := .HasChildren }}
+        {{ $isMega := eq .Identifier "nav-regions" }}
+        <li class="tw-nav-item{{ if $hasChildren }} tw-nav-has-children{{ end }}{{ if $isMega }} tw-nav-mega{{ end }}">
+          {{ if $hasChildren }}
+            <a href="{{ with .URL }}{{ . }}{{ else }}#{{ end }}" class="tw-nav-toplink" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="tw-nav-caret" aria-hidden="true">▾</span></a>
+            {{ if $isMega }}
+              <div class="tw-nav-mega-panel" role="menu">
+                {{ range sort .Children "Weight" }}
+                  <div class="tw-nav-mega-col">
+                    {{ if .URL }}
+                      <a href="{{ .URL }}" class="tw-nav-mega-head">{{ .Name }}</a>
+                    {{ else }}
+                      <span class="tw-nav-mega-head">{{ .Name }}</span>
+                    {{ end }}
+                    {{ if .HasChildren }}
+                      <ul class="tw-nav-mega-list">
+                        {{ range sort .Children "Weight" }}
+                          <li><a href="{{ .URL }}" role="menuitem">{{ .Name }}</a></li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+            {{ else }}
+              <ul class="tw-nav-dropdown" role="menu">
+                {{ range sort .Children "Weight" }}
+                  <li><a href="{{ .URL }}" role="menuitem">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          {{ else }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    {{ end }}
   </ul>
 </nav>

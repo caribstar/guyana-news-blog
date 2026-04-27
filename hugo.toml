@@ -76,116 +76,173 @@ ignoreLogs = ["deprecated"]
   minMatchCharLength = 0
   keys = ["title", "permalink", "summary", "content"]
 
-[[menu.main]]
-  identifier = "nav-trending"
-  name = "Trending"
-  url = "/trending/"
-  weight = 1
 
-[[menu.main]]
-  identifier = "nav-politics"
-  name = "Politics"
-  url = "/politics/"
-  weight = 2
-
-[[menu.main]]
-  identifier = "nav-entertainment"
-  name = "Entertainment"
-  url = "/categories/entertainment/"
-  weight = 3
+# ============================================================
+# MAIN NAVIGATION â€” Tradewinds Brief
+# Top nav order: Sports Â· Speedeet & Wilar Â· Cartoons Â· Shop Â· Support Â· Regions â–¾ Â· More â–¾
+# ============================================================
 
 [[menu.main]]
   identifier = "nav-sports"
   name = "Sports"
   url = "/sports/"
-  weight = 4
+  weight = 1
+
+[[menu.main]]
+  identifier = "nav-speedeet"
+  name = "Speedeet & Wilar"
+  url = "/categories/speedeet--wilar/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "nav-cartoons"
+  name = "Cartoons"
+  url = "/cartoons/"
+  weight = 3
 
 [[menu.main]]
   identifier = "nav-shop"
   name = "Shop"
   url = "/shop/"
-  weight = 5
+  weight = 4
 
 [[menu.main]]
   identifier = "nav-support"
   name = "Support"
   url = "/support/"
-  weight = 6
+  weight = 5
+
+# ----- Regions â–¾ (mega-menu, two columns) -----
 
 [[menu.main]]
   identifier = "nav-regions"
   name = "Regions"
-  weight = 7
+  weight = 6
 
-[[menu.main]]
-  identifier = "nav-caribbean"
-  parent = "nav-regions"
-  name = "Caribbean"
-  url = "/caribbean/"
-  weight = 51
+  # Caribbean column (header is clickable â†’ /caribbean/)
+  [[menu.main]]
+    identifier = "nav-caribbean"
+    parent = "nav-regions"
+    name = "Caribbean"
+    url = "/caribbean/"
+    weight = 1
 
-[[menu.main]]
-  identifier = "nav-africa"
-  parent = "nav-regions"
-  name = "Africa"
-  url = "/africa/"
-  weight = 52
+    [[menu.main]]
+      identifier = "nav-guyana"
+      parent = "nav-caribbean"
+      name = "Guyana"
+      url = "/guyana/"
+      weight = 1
+
+    [[menu.main]]
+      identifier = "nav-jamaica"
+      parent = "nav-caribbean"
+      name = "Jamaica"
+      url = "/jamaica/"
+      weight = 2
+
+    [[menu.main]]
+      identifier = "nav-trinidad"
+      parent = "nav-caribbean"
+      name = "Trinidad"
+      url = "/trinidad/"
+      weight = 3
+
+    [[menu.main]]
+      identifier = "nav-barbados"
+      parent = "nav-caribbean"
+      name = "Barbados"
+      url = "/barbados/"
+      weight = 4
+
+    [[menu.main]]
+      identifier = "nav-indo-caribbean"
+      parent = "nav-caribbean"
+      name = "Indo-Caribbean"
+      url = "/indo-caribbean/"
+      weight = 5
+
+  # Africa column (header is clickable â†’ /africa/)
+  [[menu.main]]
+    identifier = "nav-africa"
+    parent = "nav-regions"
+    name = "Africa"
+    url = "/africa/"
+    weight = 2
+
+    [[menu.main]]
+      identifier = "nav-ghana"
+      parent = "nav-africa"
+      name = "Ghana"
+      url = "/ghana/"
+      weight = 1
+
+    [[menu.main]]
+      identifier = "nav-kenya"
+      parent = "nav-africa"
+      name = "Kenya"
+      url = "/kenya/"
+      weight = 2
+
+    [[menu.main]]
+      identifier = "nav-nigeria"
+      parent = "nav-africa"
+      name = "Nigeria"
+      url = "/nigeria/"
+      weight = 3
+
+    [[menu.main]]
+      identifier = "nav-south-africa"
+      parent = "nav-africa"
+      name = "South Africa"
+      url = "/south-africa/"
+      weight = 4
+
+# ----- More â–¾ (standard dropdown) -----
 
 [[menu.main]]
   identifier = "nav-more"
   name = "More"
-  weight = 8
+  weight = 7
 
-[[menu.main]]
-  identifier = "nav-the-trade"
-  parent = "nav-more"
-  name = "The Trade"
-  url = "/the-trade/"
-  weight = 61
+  [[menu.main]]
+    identifier = "nav-politics"
+    parent = "nav-more"
+    name = "Politics"
+    url = "/politics/"
+    weight = 1
 
-[[menu.main]]
-  identifier = "nav-newsletter"
-  parent = "nav-more"
-  name = "Newsletter"
-  url = "/newsletter/"
-  weight = 63
+  [[menu.main]]
+    identifier = "nav-entertainment"
+    parent = "nav-more"
+    name = "Entertainment"
+    url = "/categories/entertainment/"
+    weight = 2
 
-[[menu.main]]
-  identifier = "nav-books"
-  parent = "nav-more"
-  name = "Books"
-  url = "/books/"
-  weight = 64
+  [[menu.main]]
+    identifier = "nav-about"
+    parent = "nav-more"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
-[[menu.main]]
-  identifier = "nav-about"
-  parent = "nav-more"
-  name = "About"
-  url = "/about/"
-  weight = 65
+  [[menu.main]]
+    identifier = "nav-contact"
+    parent = "nav-more"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
-[[menu.main]]
-  identifier = "nav-contact"
-  parent = "nav-more"
-  name = "Contact"
-  url = "/contact/"
-  weight = 66
-
-[[menu.main]]
-  identifier = "nav-search"
-  parent = "nav-more"
-  name = "Search"
-  url = "/search/"
-  weight = 68
+# ============================================================
+# FOOTER NAVIGATION (unchanged)
+# ============================================================
 
 [[menu.footer]]
   identifier = "nav-privacy"
   name = "Privacy Policy"
   url = "/privacy/"
-  weight = 1
 
 [[menu.footer]]
   identifier = "nav-legal"
   name = "Legal"
   url = "/legal/"
-  weight = 2

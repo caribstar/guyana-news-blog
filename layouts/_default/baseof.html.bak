@@ -21,11 +21,11 @@
 {{- end -}}
 " id="top">
 
-    {{/* TRADEWINDS: unified top â€” utility strip + masthead + main nav (site-wide) */}}
+    {{/* TRADEWINDS: unified top — utility strip + masthead + main nav (site-wide) */}}
     {{ partial "tw-top.html" . }}
 
-    {{/* Flag bar sits under the new top â€” only hide if page explicitly opts out */}}
-    {{ if and .IsHome (not (.Param "hideFlagBar")) }}
+    {{/* Flag bar sits under the new top — only hide if page explicitly opts out */}}
+    {{ if not (.Param "hideFlagBar") }}
     {{ partial "flag-bar.html" . }}
     {{ end }}
 
