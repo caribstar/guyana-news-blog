@@ -13,13 +13,24 @@
   .cad-slot { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: 500; }
   .cad-slot.ok { background: #d4f0d4; color: #0a4a0a; }
   .cad-slot.miss { background: #f8d4d4; color: #8a0a0a; }
+  .cad-slot.africa.ok { background: #d4e8f0; color: #0a3a4a; }
+  .cad-slot.africa.miss { background: #f0e0d4; color: #6a3a0a; }
   .cad-summary { background: #fdf6e3; border-left: 4px solid #d4a437; padding: 12px 16px; margin-bottom: 24px; font-size: 14px; }
   .cad-summary strong { color: #0a3d4a; }
+  .cad-legend { display: flex; gap: 16px; margin-bottom: 16px; font-size: 12px; color: #666; flex-wrap: wrap; }
+  .cad-legend span.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
 </style>
 
 <div class="cad-wrap">
   <h1>Cadence Dashboard</h1>
   <p class="cad-meta">Last 4 weeks &middot; Generated at build time &middot; {{ now.Format "Mon Jan 2, 2006 15:04 MST" }}</p>
+
+  <div class="cad-legend">
+    <div><span class="swatch" style="background:#d4f0d4"></span>Caribbean/Guyana filled</div>
+    <div><span class="swatch" style="background:#f8d4d4"></span>Caribbean/Guyana missing</div>
+    <div><span class="swatch" style="background:#d4e8f0"></span>Africa filled</div>
+    <div><span class="swatch" style="background:#f0e0d4"></span>Africa missing</div>
+  </div>
 
   {{ $daily := slice
     (dict "label" "Brief" "cats" (slice "Daily Brief"))
@@ -54,13 +65,17 @@
     (dict "label" "Miss Violet" "cats" (slice "Bajan Brief"))
   }}
 
+  {{/* Africa weekly schedule: Mon=Ghana, Tue=Kenya, Wed=Nigeria, Thu=South Africa */}}
+  {{ $africaMon := dict "label" "Accra Almanac" "cats" (slice "Ghana Brief" "ghana-brief") }}
+  {{ $africaTue := dict "label" "Nairobi Dispatch" "cats" (slice "Kenya Brief" "kenya-brief") }}
+  {{ $africaWed := dict "label" "Naija Lookbook" "cats" (slice "Nigeria Brief" "nigeria-brief" "Naija Brief" "naija-brief") }}
+  {{ $africaThu := dict "label" "Cape Chronicles" "cats" (slice "South Africa Brief" "south-africa-brief" "SA Brief" "sa-brief") }}
+
   {{ $allPosts := where site.RegularPages "Type" "posts" }}
 
-  {{/* Cutoff = 28 days ago. Use a date string compare to filter. */}}
   {{ $cutoff := (now.AddDate 0 0 -28).Format "2006-01-02" }}
   {{ $todayStr := now.Format "2006-01-02" }}
 
-  {{/* Build set of unique date strings from posts in window, plus today */}}
   {{ $datesInWindow := slice }}
   {{ range $allPosts }}
     {{ $d := .Date.Format "2006-01-02" }}
@@ -71,20 +86,19 @@
     {{ end }}
   {{ end }}
 
-  {{/* Also include today even if no posts yet */}}
   {{ if not (in $datesInWindow $todayStr) }}
     {{ $datesInWindow = $datesInWindow | append $todayStr }}
   {{ end }}
-  {{/* Include cutoff boundary too so range is fully covered visually */}}
   {{ if not (in $datesInWindow $cutoff) }}
     {{ $datesInWindow = $datesInWindow | append $cutoff }}
   {{ end }}
 
-  {{/* Sort dates descending by string compare (works for ISO format) */}}
   {{ $sortedDates := sort $datesInWindow "value" "desc" }}
 
   {{ $totalSlots := 0 }}
   {{ $totalOk := 0 }}
+  {{ $africaSlots := 0 }}
+  {{ $africaOk := 0 }}
 
   <section class="cad-week">
     <div class="cad-week-head">
@@ -94,7 +108,6 @@
     {{ range $sortedDates }}
       {{ $dStr := . }}
 
-      {{/* Find one post on this date to extract Date object for day-of-week formatting */}}
       {{ $sampleDate := now }}
       {{ $found := false }}
       {{ range $allPosts }}
@@ -103,7 +116,6 @@
           {{ $found = true }}
         {{ end }}
       {{ end }}
-      {{/* If no post for this date, parse it via time function */}}
       {{ if not $found }}
         {{ $sampleDate = time $dStr }}
       {{ end }}
@@ -118,6 +130,13 @@
       {{ if eq $dowName "Thu" }}{{ $expected = $expected | append $thuExtras }}{{ end }}
       {{ if eq $dowName "Fri" }}{{ $expected = $expected | append $friExtras }}{{ end }}
       {{ if eq $dowName "Sat" }}{{ $expected = $expected | append $satExtras }}{{ end }}
+
+      {{/* Africa expected slot for this day */}}
+      {{ $africaExpected := slice }}
+      {{ if eq $dowName "Mon" }}{{ $africaExpected = $africaExpected | append $africaMon }}{{ end }}
+      {{ if eq $dowName "Tue" }}{{ $africaExpected = $africaExpected | append $africaTue }}{{ end }}
+      {{ if eq $dowName "Wed" }}{{ $africaExpected = $africaExpected | append $africaWed }}{{ end }}
+      {{ if eq $dowName "Thu" }}{{ $africaExpected = $africaExpected | append $africaThu }}{{ end }}
 
       <div class="cad-day">
         <div class="cad-day-label">
@@ -171,15 +190,43 @@
               <span class="cad-slot miss">❌ {{ $slot.label }}</span>
             {{ end }}
           {{ end }}
+
+          {{/* Africa column tracking - matches by category */}}
+          {{ range $africaExpected }}
+            {{ $slot := . }}
+            {{ $slotFound := false }}
+            {{ range $allPosts }}
+              {{ $pDate := .Date.Format "2006-01-02" }}
+              {{ if eq $pDate $dStr }}
+                {{ $pCats := .Params.categories | default (slice) }}
+                {{ range $slot.cats }}
+                  {{ $needed := . }}
+                  {{ range $pCats }}
+                    {{ if eq . $needed }}{{ $slotFound = true }}{{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ $africaSlots = add $africaSlots 1 }}
+            {{ if $slotFound }}
+              {{ $africaOk = add $africaOk 1 }}
+              <span class="cad-slot africa ok">🌍 {{ $slot.label }}</span>
+            {{ else }}
+              <span class="cad-slot africa miss">🌍 {{ $slot.label }} missing</span>
+            {{ end }}
+          {{ end }}
         </div>
       </div>
     {{ end }}
   </section>
 
   <div class="cad-summary">
-    <strong>28-day fill rate:</strong> {{ $totalOk }} of {{ $totalSlots }} expected slots filled
+    <strong>28-day Caribbean/Guyana fill rate:</strong> {{ $totalOk }} of {{ $totalSlots }} expected slots filled
     {{ if gt $totalSlots 0 }}({{ math.Round (mul (div (float $totalOk) (float $totalSlots)) 100) }}%){{ end }}.
-    <br><small style="color:#666;">Note: Only days with at least one post are shown above. Days fully missing from the 28-day window are not displayed.</small>
+    <br>
+    <strong>28-day Africa fill rate:</strong> {{ $africaOk }} of {{ $africaSlots }} expected columns filled
+    {{ if gt $africaSlots 0 }}({{ math.Round (mul (div (float $africaOk) (float $africaSlots)) 100) }}%){{ end }}.
+    <br><small style="color:#666;">Africa schedule: Mon Accra Almanac · Tue Nairobi Dispatch · Wed Naija Lookbook · Thu Cape Chronicles. Only days with at least one post are shown above.</small>
   </div>
 </div>
 {{ end }}
