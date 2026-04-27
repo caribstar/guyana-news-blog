@@ -107,9 +107,16 @@ ignoreLogs = ["deprecated"]
   weight = 5
 
 [[menu.main]]
+[[menu.main]]
+  identifier = "nav-support"
+  name = "Support"
+  url = "/support/"
+  weight = 6
+
+[[menu.main]]
   identifier = "nav-regions"
   name = "Regions"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   identifier = "nav-caribbean"
@@ -128,7 +135,7 @@ ignoreLogs = ["deprecated"]
 [[menu.main]]
   identifier = "nav-more"
   name = "More"
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   identifier = "nav-the-trade"
