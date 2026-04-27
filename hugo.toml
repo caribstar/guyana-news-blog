@@ -107,7 +107,6 @@ ignoreLogs = ["deprecated"]
   weight = 5
 
 [[menu.main]]
-[[menu.main]]
   identifier = "nav-support"
   name = "Support"
   url = "/support/"
