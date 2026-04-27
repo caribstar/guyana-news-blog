@@ -5,7 +5,7 @@
     <span class="tw-utility-sep">|</span>
     <span class="tw-utility-tag">Caribbean + Africa, for the diaspora</span>
     <span class="tw-utility-spacer"></span>
-    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="tw-utility-link" target="_blank" rel="noopener">Subscribe</a>
+    <a href="https://buttondown.com/tradewindsbrief" class="tw-utility-link" target="_blank" rel="noopener">Subscribe</a>
   </div>
 </div>
 <header class="tw-masthead">
@@ -24,7 +24,7 @@
         {{ $isMega := eq .Identifier "nav-regions" }}
         <li class="tw-nav-item{{ if $hasChildren }} tw-nav-has-children{{ end }}{{ if $isMega }} tw-nav-mega{{ end }}">
           {{ if $hasChildren }}
-            <a href="{{ with .URL }}{{ . }}{{ else }}#{{ end }}" class="tw-nav-toplink" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="tw-nav-caret" aria-hidden="true">▾</span></a>
+            <a href="{{ with .URL }}{{ . }}{{ else }}#{{ end }}" class="tw-nav-toplink" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="tw-nav-caret" aria-hidden="true">â–¾</span></a>
             {{ if $isMega }}
               <div class="tw-nav-mega-panel" role="menu">
                 {{ range sort .Children "Weight" }}
