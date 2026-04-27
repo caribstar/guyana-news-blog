@@ -21,8 +21,6 @@
   <h1>Cadence Dashboard</h1>
   <p class="cad-meta">Last 4 weeks &middot; Generated at build time &middot; {{ now.Format "Mon Jan 2, 2006 15:04 MST" }}</p>
 
-  {{/* Define expected slots per day-of-week (0=Sun, 1=Mon, ..., 6=Sat) */}}
-  {{/* Each slot: dict "label" "X" "cats" (slice "Category Name" ...) */}}
   {{ $daily := slice
     (dict "label" "Brief" "cats" (slice "Daily Brief"))
     (dict "label" "Ramesh" "cats" (slice "Uncle Ramesh"))
@@ -56,31 +54,30 @@
     (dict "label" "Miss Violet" "cats" (slice "Bajan Brief"))
   }}
 
-  {{/* Pre-collect all posts with dates for fast lookup */}}
   {{ $allPosts := where site.RegularPages "Type" "posts" }}
 
-  {{/* Build last 4 weeks (28 days) ending today */}}
   {{ $today := now }}
   {{ $todayStr := $today.Format "2006-01-02" }}
 
-  {{/* Track totals */}}
   {{ $totalSlots := 0 }}
   {{ $totalOk := 0 }}
 
-  {{/* Group by ISO week. We iterate 28 days back, building a slice of day-records. */}}
+  {{/* Build 28 days descending from today using seq + int cast */}}
   {{ $days := slice }}
-  {{ range seq 0 27 }}
-    {{ $offset := . }}
-    {{ $dayDate := $today.AddDate 0 0 (mul -1 $offset) }}
+  {{ range $i := seq 0 27 }}
+    {{ $offset := int $i }}
+    {{ $negOffset := mul $offset -1 }}
+    {{ $dayDate := $today.AddDate 0 0 $negOffset }}
     {{ $days = $days | append (dict "date" $dayDate "offset" $offset) }}
   {{ end }}
 
-  {{/* Group days into weeks of 7 (newest first) */}}
+  {{/* Group days into weeks of 7 */}}
   {{ $weeks := slice }}
   {{ $currentWeek := slice }}
   {{ range $idx, $d := $days }}
     {{ $currentWeek = $currentWeek | append $d }}
-    {{ if eq (mod (add $idx 1) 7) 0 }}
+    {{ $idxInt := int $idx }}
+    {{ if eq (mod (add $idxInt 1) 7) 0 }}
       {{ $weeks = $weeks | append (slice $currentWeek) }}
       {{ $currentWeek = slice }}
     {{ end }}
@@ -100,12 +97,9 @@
       {{ range $week }}
         {{ $d := .date }}
         {{ $dStr := $d.Format "2006-01-02" }}
-        {{ $dow := int ($d.Format "0") }}
-        {{/* $dow: Sun=0..Sat=6 from Hugo's "0" but actually Hugo Format uses Go layouts. Use Weekday. */}}
         {{ $dowName := $d.Format "Mon" }}
         {{ $isFuture := gt $dStr $todayStr }}
 
-        {{/* Build expected slots for this day of week */}}
         {{ $expected := $daily }}
         {{ if eq $dowName "Sun" }}{{ $expected = $expected | append $sundayExtras }}{{ end }}
         {{ if eq $dowName "Wed" }}{{ $expected = $expected | append $wedExtras }}{{ end }}
@@ -146,7 +140,6 @@
                 {{ end }}
               {{ end }}
 
-              {{/* Caribbean dueling pairs - daily expected */}}
               {{ range $caribExtras }}
                 {{ $slot := . }}
                 {{ $found := false }}
