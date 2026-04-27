@@ -1,0 +1,184 @@
+{{ define "main" }}
+<style>
+  .cad-wrap { max-width: 1240px; margin: 40px auto; padding: 0 20px; font-family: 'Inter', sans-serif; }
+  .cad-wrap h1 { font-family: 'Fraunces', serif; color: #0a3d4a; margin: 0 0 8px; }
+  .cad-meta { color: #666; font-size: 13px; margin-bottom: 30px; }
+  .cad-week { margin-bottom: 32px; border: 1px solid #e5e5e0; border-radius: 4px; overflow: hidden; }
+  .cad-week-head { background: #0a3d4a; color: #fff; padding: 10px 16px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; }
+  .cad-day { display: grid; grid-template-columns: 140px 1fr; border-top: 1px solid #e5e5e0; }
+  .cad-day:first-child { border-top: 0; }
+  .cad-day-label { background: #faf8f0; padding: 12px 16px; font-weight: 600; font-size: 13px; color: #0a3d4a; border-right: 1px solid #e5e5e0; }
+  .cad-day-label .dow { display: block; font-size: 11px; color: #888; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; margin-top: 2px; }
+  .cad-slots { padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .cad-slot { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: 500; }
+  .cad-slot.ok { background: #d4f0d4; color: #0a4a0a; }
+  .cad-slot.miss { background: #f8d4d4; color: #8a0a0a; }
+  .cad-summary { background: #fdf6e3; border-left: 4px solid #d4a437; padding: 12px 16px; margin-bottom: 24px; font-size: 14px; }
+  .cad-summary strong { color: #0a3d4a; }
+</style>
+
+<div class="cad-wrap">
+  <h1>Cadence Dashboard</h1>
+  <p class="cad-meta">Last 4 weeks &middot; Generated at build time &middot; {{ now.Format "Mon Jan 2, 2006 15:04 MST" }}</p>
+
+  {{/* Define expected slots per day-of-week (0=Sun, 1=Mon, ..., 6=Sat) */}}
+  {{/* Each slot: dict "label" "X" "cats" (slice "Category Name" ...) */}}
+  {{ $daily := slice
+    (dict "label" "Brief" "cats" (slice "Daily Brief"))
+    (dict "label" "Ramesh" "cats" (slice "Uncle Ramesh"))
+  }}
+  {{ $sundayExtras := slice
+    (dict "label" "S&W" "cats" (slice "Speedeet & Wilar"))
+    (dict "label" "De Boys Seh" "cats" (slice "De Boys Seh"))
+  }}
+  {{ $wedExtras := slice
+    (dict "label" "Progress" "cats" (slice "Progress Report"))
+    (dict "label" "Rumour Mill" "cats" (slice "The Rumour Mill" "Rumour Mill" "The Rumor Mill"))
+  }}
+  {{ $thuExtras := slice
+    (dict "label" "De Boys Seh" "cats" (slice "De Boys Seh"))
+  }}
+  {{ $friExtras := slice
+    (dict "label" "DJ Roadblock" "cats" (slice "DJ Roadblock"))
+    (dict "label" "Patriots Portfolio" "cats" (slice "Patriots Portfolio"))
+  }}
+  {{ $satExtras := slice
+    (dict "label" "Bam-Bam Sally" "cats" (slice "Bam-Bam Sally"))
+    (dict "label" "Back-a-Truck" "cats" (slice "Back-a-Truck"))
+    (dict "label" "Bounty Board" "cats" (slice "Bounty Board"))
+  }}
+  {{ $caribExtras := slice
+    (dict "label" "Yard Report" "cats" (slice "Yard Brief"))
+    (dict "label" "Cousin Leroy" "cats" (slice "Yard Brief"))
+    (dict "label" "Trini Dispatch" "cats" (slice "Trini Brief"))
+    (dict "label" "Auntie Cheryl" "cats" (slice "Trini Brief"))
+    (dict "label" "Bajan Bugle" "cats" (slice "Bajan Brief"))
+    (dict "label" "Miss Violet" "cats" (slice "Bajan Brief"))
+  }}
+
+  {{/* Pre-collect all posts with dates for fast lookup */}}
+  {{ $allPosts := where site.RegularPages "Type" "posts" }}
+
+  {{/* Build last 4 weeks (28 days) ending today */}}
+  {{ $today := now }}
+  {{ $todayStr := $today.Format "2006-01-02" }}
+
+  {{/* Track totals */}}
+  {{ $totalSlots := 0 }}
+  {{ $totalOk := 0 }}
+
+  {{/* Group by ISO week. We iterate 28 days back, building a slice of day-records. */}}
+  {{ $days := slice }}
+  {{ range seq 0 27 }}
+    {{ $offset := . }}
+    {{ $dayDate := $today.AddDate 0 0 (mul -1 $offset) }}
+    {{ $days = $days | append (dict "date" $dayDate "offset" $offset) }}
+  {{ end }}
+
+  {{/* Group days into weeks of 7 (newest first) */}}
+  {{ $weeks := slice }}
+  {{ $currentWeek := slice }}
+  {{ range $idx, $d := $days }}
+    {{ $currentWeek = $currentWeek | append $d }}
+    {{ if eq (mod (add $idx 1) 7) 0 }}
+      {{ $weeks = $weeks | append (slice $currentWeek) }}
+      {{ $currentWeek = slice }}
+    {{ end }}
+  {{ end }}
+  {{ if gt (len $currentWeek) 0 }}
+    {{ $weeks = $weeks | append (slice $currentWeek) }}
+  {{ end }}
+
+  {{ range $weekIdx, $week := $weeks }}
+    {{ $firstDay := index $week 0 }}
+    {{ $lastDay := index $week (sub (len $week) 1) }}
+    <section class="cad-week">
+      <div class="cad-week-head">
+        Week of {{ $lastDay.date.Format "Mon Jan 2" }} &mdash; {{ $firstDay.date.Format "Mon Jan 2" }}
+      </div>
+
+      {{ range $week }}
+        {{ $d := .date }}
+        {{ $dStr := $d.Format "2006-01-02" }}
+        {{ $dow := int ($d.Format "0") }}
+        {{/* $dow: Sun=0..Sat=6 from Hugo's "0" but actually Hugo Format uses Go layouts. Use Weekday. */}}
+        {{ $dowName := $d.Format "Mon" }}
+        {{ $isFuture := gt $dStr $todayStr }}
+
+        {{/* Build expected slots for this day of week */}}
+        {{ $expected := $daily }}
+        {{ if eq $dowName "Sun" }}{{ $expected = $expected | append $sundayExtras }}{{ end }}
+        {{ if eq $dowName "Wed" }}{{ $expected = $expected | append $wedExtras }}{{ end }}
+        {{ if eq $dowName "Thu" }}{{ $expected = $expected | append $thuExtras }}{{ end }}
+        {{ if eq $dowName "Fri" }}{{ $expected = $expected | append $friExtras }}{{ end }}
+        {{ if eq $dowName "Sat" }}{{ $expected = $expected | append $satExtras }}{{ end }}
+
+        <div class="cad-day">
+          <div class="cad-day-label">
+            {{ $d.Format "Jan 2" }}
+            <span class="dow">{{ $d.Format "Monday" }}</span>
+          </div>
+          <div class="cad-slots">
+            {{ if $isFuture }}
+              <span style="color:#888;font-size:12px;">— upcoming —</span>
+            {{ else }}
+              {{ range $expected }}
+                {{ $slot := . }}
+                {{ $found := false }}
+                {{ range $allPosts }}
+                  {{ $pDate := .Date.Format "2006-01-02" }}
+                  {{ if eq $pDate $dStr }}
+                    {{ $pCats := .Params.categories | default (slice) }}
+                    {{ range $slot.cats }}
+                      {{ $needed := . }}
+                      {{ range $pCats }}
+                        {{ if eq . $needed }}{{ $found = true }}{{ end }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                {{ $totalSlots = add $totalSlots 1 }}
+                {{ if $found }}
+                  {{ $totalOk = add $totalOk 1 }}
+                  <span class="cad-slot ok">✅ {{ $slot.label }}</span>
+                {{ else }}
+                  <span class="cad-slot miss">❌ {{ $slot.label }}</span>
+                {{ end }}
+              {{ end }}
+
+              {{/* Caribbean dueling pairs - daily expected */}}
+              {{ range $caribExtras }}
+                {{ $slot := . }}
+                {{ $found := false }}
+                {{ range $allPosts }}
+                  {{ $pDate := .Date.Format "2006-01-02" }}
+                  {{ if eq $pDate $dStr }}
+                    {{ $pAuthor := .Params.author | default "" }}
+                    {{ $pAuthors := .Params.authors | default (slice) }}
+                    {{ if eq $pAuthor $slot.label }}{{ $found = true }}{{ end }}
+                    {{ range $pAuthors }}
+                      {{ if eq . $slot.label }}{{ $found = true }}{{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                {{ $totalSlots = add $totalSlots 1 }}
+                {{ if $found }}
+                  {{ $totalOk = add $totalOk 1 }}
+                  <span class="cad-slot ok">✅ {{ $slot.label }}</span>
+                {{ else }}
+                  <span class="cad-slot miss">❌ {{ $slot.label }}</span>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  <div class="cad-summary">
+    <strong>28-day fill rate:</strong> {{ $totalOk }} of {{ $totalSlots }} expected slots filled
+    {{ if gt $totalSlots 0 }}({{ math.Round (mul (div (float $totalOk) (float $totalSlots)) 100) }}%){{ end }}.
+  </div>
+</div>
+{{ end }}
