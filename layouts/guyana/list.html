@@ -21,7 +21,7 @@
 {{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 {{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
-{{/* Shared 17-image library — used as fallback when posts have no image: param.
+{{/* Shared 17-image library â€” used as fallback when posts have no image: param.
      Each tile loop uses an offset + $idx so images stay unique across visible page. */}}
 {{ $gallery := slice
   "/images/guyana/kaieteur-falls.jpg"
@@ -236,7 +236,7 @@
   <div class="tw-cta">
     <h3>Get The Tradewinds Brief in your inbox.</h3>
     <p>Daily coverage of Guyana and the Caribbean. Weekly reporting on Ghana, Kenya, Nigeria, and South Africa. Free.</p>
-    <a href="https://eomail5.com/form/e54b3630-f34b-11f0-ad13-e315e41b6788" class="tw-cta-btn" target="_blank" rel="noopener">Subscribe Free</a>
+    <a href="https://buttondown.com/tradewindsbrief" class="tw-cta-btn" target="_blank" rel="noopener">Subscribe Free</a>
   </div>
 
 </div>
