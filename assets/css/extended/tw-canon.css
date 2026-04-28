@@ -406,12 +406,12 @@ body.tw-site {
   text-transform: uppercase;
   line-height: 1.4;
 }
-.tw-badge-news { background: var(--badge-news); }
-.tw-badge-satire { background: var(--badge-satire); }
-.tw-badge-parody_column { background: var(--badge-parody); }
-.tw-badge-commentary { background: var(--badge-commentary); }
-.tw-badge-analysis { background: #5a5a5a; }
-.tw-badge-kids_story { background: #A67B00; }
+.tw-badge-news { background: #009E49 !important; color: #fff !important; }
+.tw-badge-satire { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-parody_column { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-commentary { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-analysis { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-kids_story { background: #0066CC !important; color: #fff !important; }
 
 /* ==========================================================
    DUEL STRIP

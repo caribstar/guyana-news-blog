@@ -1,4 +1,4 @@
-/* Content type badges */
+﻿/* Content type badges */
 .tw-badge {
   display: inline-block;
   font-size: 11px;
@@ -11,12 +11,12 @@
   line-height: 1;
   vertical-align: middle;
 }
-.tw-badge-news { background: #111; }
-.tw-badge-satire { background: #c0392b; }
-.tw-badge-parody_column { background: #B8691F; }
-.tw-badge-commentary { background: #2c6e8f; }
-.tw-badge-analysis { background: #5a5a5a; }
-.tw-badge-kids_story { background: #A67B00; }
+.tw-badge-news { background: #009E49 !important; color: #fff !important; }
+.tw-badge-satire { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-parody_column { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-commentary { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-analysis { background: #CE1126 !important; color: #fff !important; }
+.tw-badge-kids_story { background: #0066CC !important; color: #fff !important; }
 
 /* Satire disclaimer */
 .tw-satire-disclaimer {
@@ -39,3 +39,5 @@
   text-align: center;
   line-height: 1.5;
 }
+/* Taxonomy fallback: yellow/dark-gold for everything else */
+.tw-badge-feature, .tw-badge-kids, .tw-badge { color: #fff !important; }
