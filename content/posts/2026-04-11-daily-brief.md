@@ -1,4 +1,5 @@
 ---
+cluster_id: oil-revenue-2026-04-11
 author: GDB Staff
 categories:
 - Daily Brief
@@ -16,17 +17,19 @@ tags:
 - EXIM Bank
 - Suriname bridge
 - Guyana news
-title: The Guyana Daily Brief — Saturday, April 11, 2026
+title: The Guyana Daily Brief â€” Saturday, April 11, 2026
 tone: commentary
 ---
+cluster_id: oil-revenue-2026-04-11
 
 Good morning from Georgetown. Here's what you missed while you were sleeping off Easter.
 
 ---
+cluster_id: oil-revenue-2026-04-11
 
-**PLANE DOWN IN REGION 8 — PILOT STILL MISSING**
+**PLANE DOWN IN REGION 8 â€” PILOT STILL MISSING**
 
-An Air Services Limited Cessna 208 went down Friday morning somewhere between Mahdia and Imbaimadai in dense, mountainous jungle. The pilot — Nicaraguan national Captain Ryder Castello, 20 years of experience, employed with ASL for ten of them — departed at 8:10 a.m. and was due at 8:40. He never called in. The crash site has been located on the side of a mountain, the hard part is getting to it. The GDF dispatched special forces and medical personnel via Bell helicopter, but the terrain requires climbing one mountain and descending the other side. Weather at the time: heavy rainfall, reduced visibility. Everybody is racing against the clock.
+An Air Services Limited Cessna 208 went down Friday morning somewhere between Mahdia and Imbaimadai in dense, mountainous jungle. The pilot â€” Nicaraguan national Captain Ryder Castello, 20 years of experience, employed with ASL for ten of them â€” departed at 8:10 a.m. and was due at 8:40. He never called in. The crash site has been located on the side of a mountain, the hard part is getting to it. The GDF dispatched special forces and medical personnel via Bell helicopter, but the terrain requires climbing one mountain and descending the other side. Weather at the time: heavy rainfall, reduced visibility. Everybody is racing against the clock.
 
 **OIL MONEY FLOWING LIKE THE DEMERARA**
 
@@ -34,15 +37,15 @@ Guyana pulled in over US$761 million in oil revenue in Q1 of 2026, the highest q
 
 **ALI WANTS 72 HOURS IN A ROOM WITH T&T**
 
-President Ali flew to Port of Spain Friday and gave the T&T Chamber of Industry and Commerce the kind of speech that makes bureaucrats sweat. He called for both governments and private sectors to lock themselves in a room for 72 hours and fix every single barrier stopping Guyana and T&T from becoming the joint economic powerhouse they keep promising to be. Can't bring two containers of limes into Trinidad, he pointed out. Can't be talking gas partnerships in that environment. Shortly after the speech, Ali met PM Kamla Persad-Bissessar at Parliament, and both leaders agreed on a full trade-and-development agenda — food security, energy, tech exchange, human capital, security, and a joint working group. Persad-Bissessar will visit Guyana on an official trip soon.
+President Ali flew to Port of Spain Friday and gave the T&T Chamber of Industry and Commerce the kind of speech that makes bureaucrats sweat. He called for both governments and private sectors to lock themselves in a room for 72 hours and fix every single barrier stopping Guyana and T&T from becoming the joint economic powerhouse they keep promising to be. Can't bring two containers of limes into Trinidad, he pointed out. Can't be talking gas partnerships in that environment. Shortly after the speech, Ali met PM Kamla Persad-Bissessar at Parliament, and both leaders agreed on a full trade-and-development agenda â€” food security, energy, tech exchange, human capital, security, and a joint working group. Persad-Bissessar will visit Guyana on an official trip soon.
 
 **EXIM BANK WANTS TO BUILD BERBICE DEEP-WATER PORT**
 
-US EXIM Bank Chairman John Jovanovic visited Guyana this week and left a letter of interest for the Berbice deep-water port project on President Ali's table. The port, projected at US$285 million, would transform the Berbice corridor into Guyana's next major economic hub. Jovanovic also sat through a status update on the Wales Gas-to-Energy project, which has now missed yet another deadline — expected to come online end of 2026, possibly.
+US EXIM Bank Chairman John Jovanovic visited Guyana this week and left a letter of interest for the Berbice deep-water port project on President Ali's table. The port, projected at US$285 million, would transform the Berbice corridor into Guyana's next major economic hub. Jovanovic also sat through a status update on the Wales Gas-to-Energy project, which has now missed yet another deadline â€” expected to come online end of 2026, possibly.
 
-**DROP THE SURINAME BRIDGE — SOME ARE SAYING**
+**DROP THE SURINAME BRIDGE â€” SOME ARE SAYING**
 
-Kaieteur News editorialists are calling on the government to scrap the Corentyne Bridge talks with Suriname entirely unless Paramaribo drops its tariffs on Guyanese cargo ships — no negotiation, no phases, just drop them. The Georgetown Chamber, the Guyana Manufacturing and Services Association, and most of the private sector have taken similar positions. President Ali has been leaning on "reciprocity" as a framing. Columnists are leaning on something stronger.
+Kaieteur News editorialists are calling on the government to scrap the Corentyne Bridge talks with Suriname entirely unless Paramaribo drops its tariffs on Guyanese cargo ships â€” no negotiation, no phases, just drop them. The Georgetown Chamber, the Guyana Manufacturing and Services Association, and most of the private sector have taken similar positions. President Ali has been leaning on "reciprocity" as a framing. Columnists are leaning on something stronger.
 
 **TABLE TENNIS: THE MEN'S TEAM WENT OUT QUIETLY**
 
@@ -61,5 +64,6 @@ The GCB's annual Under-19 Inter-County 50-over Championship begins tomorrow and 
 The Easter Cup horse race at Port Mourant has been rescheduled to April 26 after Easter Sunday got rained out. The feature race distance has been adjusted to 1,750 metres, the purse is $4 million, and the winner takes home $2 million. Dress accordingly.
 
 ---
+cluster_id: oil-revenue-2026-04-11
 
 *The Guyana Daily Brief is satirical news commentary. For real news, try Kaieteur, Demerara Waves, Guyana Times, or Guyana Chronicle.*

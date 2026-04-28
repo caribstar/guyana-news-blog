@@ -1,4 +1,5 @@
 {{- define "main" -}}
+<div class="{{ if .Params.cluster_id }}tw-article-with-cluster{{ end }}">
 <article class="tw-article">
   <header>
     <div class="tw-article-meta">
@@ -32,5 +33,18 @@
     </div>
     {{ end }}
   </footer>
+
+  {{/* End-of-article cluster block (mobile + fallback) */}}
+  <div class="tw-cluster-block">
+    {{ partial "cluster-voices.html" (dict "page" . "mode" "block") }}
+  </div>
 </article>
+
+{{/* Desktop sidebar cluster (sticky, visible >=1100px) */}}
+{{ if .Params.cluster_id }}
+<div class="tw-cluster-sidebar">
+  {{ partial "cluster-voices.html" (dict "page" . "mode" "sidebar") }}
+</div>
+{{ end }}
+</div>
 {{- end -}}

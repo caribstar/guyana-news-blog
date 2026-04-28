@@ -1,0 +1,110 @@
+/* cluster-voices.css - story-cluster `Other voices` block + desktop sidebar */
+
+.tw-cluster {
+  margin: 32px 0;
+  padding: 20px;
+  background: #fafaf5;
+  border: 1px solid #e8e4d8;
+  border-radius: 4px;
+}
+
+.tw-cluster-head {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e4d8;
+}
+
+.tw-cluster-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  font-weight: 600;
+}
+
+.tw-cluster-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.tw-cluster-item {
+  background: #fff;
+  border-left-width: 6px;
+  border-left-style: solid;
+  /* lane color comes from .tw-lane-* via the universal :is() selector */
+  padding: 14px 16px;
+  border-radius: 2px;
+  transition: transform 0.12s ease;
+}
+
+.tw-cluster-item:hover { transform: translateX(2px); }
+
+.tw-cluster-link { text-decoration: none; color: inherit; display: block; }
+
+.tw-cluster-voice-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-bottom: 6px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: #1a3a5c;
+  color: #fff;
+}
+
+.tw-cluster-item.tw-lane-news .tw-cluster-voice-label    { background: var(--lane-news); }
+.tw-cluster-item.tw-lane-satire .tw-cluster-voice-label  { background: var(--lane-satire); }
+.tw-cluster-item.tw-lane-kids .tw-cluster-voice-label    { background: var(--lane-kids); }
+.tw-cluster-item.tw-lane-features .tw-cluster-voice-label{ background: var(--lane-features); color: #1a1a1a; }
+
+.tw-cluster-headline {
+  font-size: 1.05rem;
+  margin: 4px 0 6px;
+  line-height: 1.3;
+  color: #1a3a5c;
+}
+
+.tw-cluster-dek {
+  font-size: 0.92rem;
+  color: #555;
+  margin: 0 0 6px;
+  line-height: 1.45;
+}
+
+.tw-cluster-byline {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Border on the cluster items uses the universal :is() rule extended below */
+:is(.tw-cluster-item).tw-lane-news     { border-left-color: var(--lane-news) !important; }
+:is(.tw-cluster-item).tw-lane-satire   { border-left-color: var(--lane-satire) !important; }
+:is(.tw-cluster-item).tw-lane-kids     { border-left-color: var(--lane-kids) !important; }
+:is(.tw-cluster-item).tw-lane-features { border-left-color: var(--lane-features) !important; }
+
+/* Sidebar variant: shown on desktop only, sticks alongside article */
+.tw-cluster-sidebar {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .tw-article-with-cluster {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 32px;
+    align-items: start;
+  }
+  .tw-cluster-sidebar {
+    display: block;
+    position: sticky;
+    top: 90px;
+    margin: 0;
+  }
+  /* Hide the in-article block when the sidebar is showing to avoid duplicate render */
+  .tw-article-with-cluster .tw-cluster-block { display: none; }
+}

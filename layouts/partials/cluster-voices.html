@@ -1,0 +1,38 @@
+{{- /* cluster-voices.html
+       Renders sibling posts that share this page's cluster_id.
+       Each voice card carries lane styling + a labeled badge so the
+       reader sees: News -> Govt View -> Opposition View clearly.
+       Param: `mode` -- `block` (default, end-of-article) or `sidebar` (desktop rail). */ -}}
+{{- $mode := .mode | default "block" -}}
+{{- $page := .page -}}
+{{- $cid := $page.Params.cluster_id -}}
+{{- if $cid -}}
+  {{- $siblings := where (where site.RegularPages "Params.cluster_id" $cid) "Permalink" "!=" $page.Permalink -}}
+  {{- if $siblings -}}
+    <aside class="tw-cluster tw-cluster-{{ $mode }}">
+      <div class="tw-cluster-head">
+        <span class="tw-cluster-label">Other voices on this story</span>
+      </div>
+      <ul class="tw-cluster-list">
+        {{- range $siblings -}}
+          {{- $lane := partial "lane-class.html" . -}}
+          {{- $voiceLabel := "" -}}
+          {{- if eq $lane "news" }}{{ $voiceLabel = "REPORTING" }}{{ end -}}
+          {{- if eq $lane "satire" }}{{ $voiceLabel = "COMMENTARY" }}{{ end -}}
+          {{- if eq $lane "kids" }}{{ $voiceLabel = "KIDS" }}{{ end -}}
+          {{- if eq $lane "features" }}{{ $voiceLabel = "FEATURE" }}{{ end -}}
+          <li class="tw-cluster-item tw-lane-{{ $lane }}">
+            <a href="{{ .RelPermalink }}" class="tw-cluster-link">
+              <span class="tw-cluster-voice-label">{{ $voiceLabel }}</span>
+              <h4 class="tw-cluster-headline">{{ .Title }}</h4>
+              {{- with .Params.description -}}
+                <p class="tw-cluster-dek">{{ . | truncate 110 }}</p>
+              {{- end -}}
+              <span class="tw-cluster-byline">{{ partial "byline-name.html" . }}</span>
+            </a>
+          </li>
+        {{- end -}}
+      </ul>
+    </aside>
+  {{- end -}}
+{{- end -}}

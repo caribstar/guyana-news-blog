@@ -1,10 +1,11 @@
-{{- /* lane-class.html â€” returns ONLY the lane name (news|satire|kids|features) */ -}}
+{{- /* lane-class.html Ã¢â‚¬â€ returns ONLY the lane name (news|satire|kids|features) */ -}}
 {{- $p := . -}}
 {{- $ct := lower ($p.Params.content_type | default "") -}}
 {{- $lane := "features" -}}
 
 {{- if or (eq $ct "satire") (eq $ct "parody_column") (eq $ct "column") -}}{{ $lane = "satire" }}{{- end -}}
 {{- if or (eq $ct "news") (eq $ct "reporting") (eq $ct "feature") -}}{{ $lane = "news" }}{{- end -}}
+{{- if eq $ct "commentary" -}}{{ $lane = "news" }}{{- end -}}
 {{- if eq $ct "kids_story" -}}{{ $lane = "kids" }}{{- end -}}
 
 {{- $cats := slice -}}
