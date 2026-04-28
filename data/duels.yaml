@@ -1,0 +1,40 @@
+# Reality Check duels - data-driven duel-strip entries
+# Edit this file to update the homepage Reality Check section.
+# Format: each list item is one news/take pair.
+
+- newsHeadline: "Government announces oil revenue disbursement plan"
+  newsBody: "Finance Ministry confirms $350M allocation for infrastructure. Opposition requests audit trail."
+  newsSource: "Demerara Waves"
+  takeCharacter: "Uncle Ramesh"
+  takeBody: "Dem opposition always looking gift horse in de mouth! De money coming to you own pocket, why you questioning de delivery method?"
+
+- newsHeadline: "CARICOM tariff talks resume in Kingston"
+  newsBody: "Six member states push for harmonized regional trade policy. Three remain undecided."
+  newsSource: "Reuters Caribbean"
+  takeCharacter: "Bro Winston"
+  takeBody: "Same drum, different beat. We been having dis conversation since Federation. When we go realize de real chain is de one we forging ourselves?"
+
+- newsHeadline: "Wales gas project director linked to Venezuelan corruption network"
+  newsBody: "Project Director of the Wales GTE project has documented ties to frozen Andorra accounts and the Maduro regime asset-stripping operation. He is currently overseeing Guyana's most critical energy infrastructure build."
+  newsSource: "Stabroek News"
+  takeCharacter: "Bro Winston"
+  takeBody: "Vetting is for other countries, evidently. Six year into oil and we still cyaant background-check de man running de gas plant. Something not addin' up."
+
+- newsHeadline: "Hours-long power outage hits East Coast as Rupununi enters month two of dark"
+  newsBody: "GPL reports another grid failure on the East Coast Demerara corridor. The Rupununi region has now been without consistent supply for over six weeks. No timeline issued."
+  newsSource: "Kaieteur News"
+  takeCharacter: "Uncle Ramesh"
+  takeBody: "De grid undergoing transformation, beta. You cyaant build de future without some inconvenience. De Rupununi situation is being addressed at de highest level. De highest level always addressing it."
+
+- newsHeadline: "Mandela Avenue traffic collapses on first day of NGSA week"
+  newsBody: "School run combined with Soesdyke-Linden roadworks produced gridlock from 6:30 AM. Some parents reported journeys exceeding two hours."
+  newsSource: "News Source Guyana"
+  takeCharacter: "DJ Roadblock"
+  takeBody: "It is Tuesday, de schools coming back, and Mandela in chaos before NGSA even start. Every parent on de East Coast remember today is exam week approximately fifteen minutes too late."
+
+- newsHeadline: "Lindsayca executives continue weekly Houston-Georgetown private jet flights"
+  newsBody: "Hawker jet operations confirmed at US$70,000 per week, financed under the gas-to-energy contractor budget. Citizens experiencing blackouts invited to comment."
+  newsSource: "Demerara Waves"
+  takeCharacter: "Bam-Bam Sally"
+  takeBody: "Sally see de jet manifest. Sally always see de jet manifest. De question is not who flying, de question is who paying. And de answer, doux-doux, is in your light bill."
+

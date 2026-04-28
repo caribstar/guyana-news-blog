@@ -17,13 +17,13 @@
     {{ range $duels }}
     <div class="tw-duel">
       <div class="tw-duel-news">
-        <div class="tw-duel-label"><span class="tw-badge tw-badge-news">News</span></div>
+        <div class="tw-duel-label"><span class="tw-badge tw-badge-news">REPORTING</span></div>
         <h3>{{ .newsHeadline }}</h3>
         <p class="tw-duel-body">{{ .newsBody }}</p>
         {{ with .newsSource }}<p class="tw-duel-source">Source: {{ . }}</p>{{ end }}
       </div>
       <div class="tw-duel-take">
-        <div class="tw-duel-label"><span class="tw-badge tw-badge-parody_column">Parody</span></div>
+        <div class="tw-duel-label"><span class="tw-badge tw-badge-satire">SATIRE</span></div>
         <div class="tw-duel-character">{{ .takeCharacter }}</div>
         <p class="tw-duel-body">{{ .takeBody }}</p>
       </div>
