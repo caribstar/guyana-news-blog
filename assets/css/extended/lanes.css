@@ -1,14 +1,15 @@
-/* ================================================================
-   LANES — content-type visual separation (P1-6)
-   SATIRE 🟥 / COMMENTARY 🟦 / FEATURES 🟨 / KIDS 🟩
+﻿/* ================================================================
+   LANES â€” content-type visual separation (P1-6)
+   SATIRE ðŸŸ¥ / COMMENTARY ðŸŸ¦ / FEATURES ðŸŸ¨ / KIDS ðŸŸ©
    Both stripe (left border) + colored badge pill
    ================================================================ */
 
 :root {
-  --lane-satire: #d23a3a;      /* red */
-  --lane-commentary: #2860b8;  /* blue */
-  --lane-features: #e0a91b;    /* yellow / amber */
-  --lane-kids: #2a9d4a;        /* green */
+  --lane-news: #009E49;        /* green - reporting (Daily Brief, Progress Report, etc.) */
+  --lane-satire: #CE1126;      /* red */
+  --lane-commentary: #CE1126;  /* blue */
+  --lane-features: #D4A017;    /* yellow / amber */
+  --lane-kids: #0066CC;        /* green */
 }
 
 /* ----- Left border stripe on cards ----- */
@@ -23,6 +24,9 @@
 }
 .tw-card.tw-lane-kids {
   border-left: 4px solid var(--lane-kids);
+}
+.tw-card.tw-lane-news {
+  border-left: 4px solid var(--lane-news);
 }
 
 /* ----- Colored badge pills ----- */
@@ -44,6 +48,11 @@
 }
 .tw-lane-kids .tw-badge {
   background: var(--lane-kids);
+  color: #fff;
+  border: none;
+}
+.tw-lane-news .tw-badge {
+  background: var(--lane-news);
   color: #fff;
   border: none;
 }
