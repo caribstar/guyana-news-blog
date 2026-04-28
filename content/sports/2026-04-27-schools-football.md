@@ -1,13 +1,12 @@
 ---
 title: "School Football Final Prompts Nationwide Spike in Tactical Analysis From People Who 'Always Supported From Early'"
-date: 2026-04-27T09:30:00-04:00
-draft: false
-categories: ["Sports"]
-tags: ["Football", "Massy U18", "Schools Football", "Chase's Academic Foundation", "Santa Rosa Secondary", "Guyana", "Carl Roberts", "satire"]
+date: 2026-04-27
 author: "Carl Roberts"
+categories: ["Sports"]
+tags: ["satire", "sports", "football", "guyana", "schools football", "massy u18"]
+content_type: "column"
 description: "Ahead of the Massy U18 Schools Football final between Chase's Academic Foundation and Santa Rosa Secondary, Guyana has entered a state of heightened national engagement, marked by a sudden and widespread increase in deeply confident football analysis."
-summary: "Across the country, individuals who have not attended a single match this season have begun offering detailed breakdowns of team formations, player tendencies, and 'what the coach really needs to do' — often within earshot of people who have, in fact, attended every game."
-homepage_hide: false
+country: "guyana"
 ---
 
 **GEORGETOWN** — Ahead of the **Massy U18 Schools Football final** between **Chase's Academic Foundation** and **Santa Rosa Secondary**, Guyana has entered a state of heightened national engagement, marked by a sudden and widespread increase in deeply confident football analysis.

@@ -1,20 +1,20 @@
 ---
 title: "Guyana Hosts Global Cricket Tournament, Entire Country Briefly Converts to 'Event Logistics Experts'"
-date: 2026-04-27T09:00:00-04:00
-draft: false
-categories: ["Sports"]
-tags: ["Cricket", "Global Super League", "Guyana", "Providence Stadium", "Carl Roberts", "satire"]
+date: 2026-04-27
 author: "Carl Roberts"
+categories: ["Sports"]
+tags: ["satire", "sports", "cricket", "guyana", "providence stadium", "global super league"]
+content_type: "column"
+image: "/images/cartoons/global-super-league-arrival.png"
 description: "With the ExxonMobil Guyana Global Super League set to bowl off this July, the country has entered its most coordinated national effort since everybody suddenly remembering where their passport is."
-summary: "From taxi drivers to aunties who 'know a man at the stadium,' Guyanese citizens have rapidly transformed into fully qualified event logistics consultants, offering unsolicited but confident advice on everything from traffic routing to international player accommodation."
-homepage_hide: false
+country: "guyana"
 ---
+
+![Welcome to Guyana — Global Cricket, Local Experts. Cartoon: Mr. Moredan Satire.](/images/cartoons/global-super-league-arrival.png)
 
 **PROVIDENCE** — With the **ExxonMobil Guyana Global Super League** set to bowl off this July, the country has entered what observers are calling its most coordinated national effort since "everybody suddenly remembering where their passport is."
 
 From taxi drivers to aunties who "know a man at the stadium," Guyanese citizens have rapidly transformed into fully qualified event logistics consultants, offering unsolicited but confident advice on everything from traffic routing to international player accommodation.
-
-![Welcome to Guyana — Global Cricket, Local Experts](/images/cartoons/global-super-league-arrival.png)
 
 "Is simple," said one resident outside Bourda Market, adjusting his stance as if about to explain field placement to the West Indies captain. "You just stagger the arrivals, block off three roads, and tell people come early. I don't know why they making it complicated."
 

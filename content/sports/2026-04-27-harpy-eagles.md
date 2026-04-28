@@ -1,13 +1,12 @@
 ---
 title: "Harpy Eagles Continue Winning, Region Begins Quietly Reclassifying Results as 'Learning Experiences'"
-date: 2026-04-27T09:15:00-04:00
-draft: false
-categories: ["Sports"]
-tags: ["Cricket", "Harpy Eagles", "West Indies Championship", "Guyana", "Carl Roberts", "satire"]
+date: 2026-04-27
 author: "Carl Roberts"
+categories: ["Sports"]
+tags: ["satire", "sports", "cricket", "guyana", "harpy eagles", "west indies championship"]
+content_type: "column"
 description: "As the West Indies Championship enters its decisive phase, Guyana's Harpy Eagles have continued their steady march toward another title — and rival teams have adopted what analysts describe as 'creative emotional coping strategies.'"
-summary: "Following another controlled performance, opposing sides have begun reframing results less as defeats and more as 'important developmental milestones.'"
-homepage_hide: false
+country: "guyana"
 ---
 
 **GEORGETOWN** — As the **West Indies Championship** enters its decisive phase, Guyana's **Harpy Eagles** have continued their steady march toward another title, prompting rival teams across the region to adopt what analysts describe as *"creative emotional coping strategies."*
