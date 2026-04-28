@@ -74,6 +74,9 @@ Kaieteur's editorial today opens with a sentence that should be carved into the 
 
 It then lists what was promised. **Better jobs. Better roads. Better education. Better health care. A future where the country finally earns what it deserves.**
 
+![$20 Billion Road Programme Officially Launched — Better Roads Ahead* (*in the next administration)](/images/cartoons/road-programme-launch.png)
+*Cartoon: The Brief, with apologies to anyone driving Georgetown to Linden today.*
+
 The editorial then enters its second paragraph and the verbs change.
 
 After five plus years of production, what has materialised: a sovereign wealth fund that exists, a cash grant programme that distributed once, road works that have entered their fourteenth year between Georgetown and Linden, and a hospital expansion that has been imminent since 2022.
