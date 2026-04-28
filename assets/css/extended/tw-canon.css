@@ -1353,3 +1353,26 @@ a.tw-nav-mega-head:hover {
 .tw-clash-skeptic .tw-clash-side-tag {
   color: #CE1126 !important;
 }
+
+/* === Speedeet & Wilar blue border fix (April 28, 2026) ===
+   S&W per locked taxonomy = blue (#0066CC).
+   Currently rendering green because no per-section override exists.
+   This applies blue left-border accent to all S&W card variants
+   on /categories/speedeet--wilar/ and any S&W feature on the homepage. */
+
+.tw-card[data-cat="speedeet-wilar"],
+.tile[data-cat="speedeet-wilar"],
+.feat-card[data-cat="speedeet-wilar"],
+.gy-speedeet-feature,
+.tw-speedeet-feature,
+article[class*="speedeet"] {
+  border-left: 6px solid #0066CC !important;
+  padding-left: 16px !important;
+}
+
+/* Category page hero band (the dark bar with "Speedeet & Wilar" header) */
+.tw-cat-hero[data-cat="speedeet-wilar"],
+body.taxonomy-speedeet--wilar .tw-cat-hero,
+body.taxonomy-speedeet-wilar .tw-cat-hero {
+  border-left: 8px solid #0066CC !important;
+}
