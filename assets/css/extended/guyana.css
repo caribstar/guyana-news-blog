@@ -85,7 +85,7 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
   padding:48px 32px!important;
   border-radius:4px!important;
   margin:48px 0!important;
-  border-left:4px solid #C9A96E!important;
+
   text-align:center!important;
   display:block!important;
 }
@@ -127,12 +127,12 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
    Default: red (satire).
    Override: green (straight news), blue (S&W), dark-gold (sports/progress/other). */
 
-/* DEFAULT — RED for satire */
+/* DEFAULT â€” RED for satire */
 .gy-wrap .hero-cat,
 .gy-wrap .feat-cat,
 .gy-wrap .tile-cat{color:#CE1126!important;}
 
-/* GREEN — straight news */
+/* GREEN â€” straight news */
 .gy-wrap .hero-cat[data-cat="daily-brief"],
 .gy-wrap .feat-cat[data-cat="daily-brief"],
 .gy-wrap .tile-cat[data-cat="daily-brief"],
@@ -167,7 +167,7 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
 .gy-wrap .feat-cat[data-cat="indo-caribbean-brief"],
 .gy-wrap .tile-cat[data-cat="indo-caribbean-brief"]{color:#009E49!important;}
 
-/* BLUE — Speedeet & Wilar */
+/* BLUE â€” Speedeet & Wilar */
 .gy-wrap .hero-cat[data-cat="speedeet-wilar"],
 .gy-wrap .feat-cat[data-cat="speedeet-wilar"],
 .gy-wrap .tile-cat[data-cat="speedeet-wilar"],
@@ -175,7 +175,7 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
 .gy-wrap .feat-cat[data-cat="speedeet-amp-wilar"],
 .gy-wrap .tile-cat[data-cat="speedeet-amp-wilar"]{color:#0066CC!important;}
 
-/* DARK GOLD — sports, progress, the guyanese horizon */
+/* DARK GOLD â€” sports, progress, the guyanese horizon */
 .gy-wrap .hero-cat[data-cat="sports"],
 .gy-wrap .feat-cat[data-cat="sports"],
 .gy-wrap .tile-cat[data-cat="sports"],

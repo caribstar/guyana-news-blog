@@ -1,70 +1,25 @@
-﻿/* ================================================================
-   LANES â€” content-type visual separation (P1-6)
-   SATIRE ðŸŸ¥ / COMMENTARY ðŸŸ¦ / FEATURES ðŸŸ¨ / KIDS ðŸŸ©
-   Both stripe (left border) + colored badge pill
-   ================================================================ */
+/* lanes.css â€” UNIVERSAL LANE BORDERS â€” single source of truth.
+   Any card-shaped wrapper that gets a tw-lane-* class will render the border.
+   Do NOT add per-section border overrides anywhere else. */
 
 :root {
-  --lane-news: #009E49;        /* green - reporting (Daily Brief, Progress Report, etc.) */
-  --lane-satire: #CE1126;      /* red */
-  --lane-commentary: #CE1126;  /* blue */
-  --lane-features: #D4A017;    /* yellow / amber */
-  --lane-kids: #0066CC;        /* green */
+  --lane-news:       #009E49;
+  --lane-satire:     #CE1126;
+  --lane-commentary: #CE1126;
+  --lane-features:   #D4A017;
+  --lane-kids:       #0066CC;
 }
 
-/* ----- Left border stripe on cards ----- */
-.tw-card.tw-lane-satire {
-  border-left: 6px solid var(--lane-satire) !important;
-}
-.tw-card.tw-lane-commentary {
-  border-left: 6px solid var(--lane-commentary) !important;
-}
-.tw-card.tw-lane-features {
-  border-left: 6px solid var(--lane-features) !important;
-}
-.tw-card.tw-lane-kids {
-  border-left: 6px solid var(--lane-kids) !important;
-}
-.tw-card.tw-lane-news {
+:is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-news {
   border-left: 6px solid var(--lane-news) !important;
 }
-
-/* ----- Colored badge pills ----- */
-/* Override existing tw-badge-* with lane-driven colors */
-.tw-lane-satire .tw-badge {
-  background: var(--lane-satire);
-  color: #fff;
-  border: none;
+:is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-satire,
+:is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-commentary {
+  border-left: 6px solid var(--lane-satire) !important;
 }
-.tw-lane-commentary .tw-badge {
-  background: var(--lane-commentary);
-  color: #fff;
-  border: none;
+:is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-features {
+  border-left: 6px solid var(--lane-features) !important;
 }
-.tw-lane-features .tw-badge {
-  background: var(--lane-features);
-  color: #1a1a1a;  /* dark text on yellow for contrast */
-  border: none;
-}
-.tw-lane-kids .tw-badge {
-  background: var(--lane-kids);
-  color: #fff;
-  border: none;
-}
-.tw-lane-news .tw-badge {
-  background: var(--lane-news);
-  color: #fff;
-  border: none;
-}
-
-/* ----- Badge baseline shape (in case badges.css doesn't set it) ----- */
-.tw-card .tw-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  line-height: 1.4;
+:is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-kids {
+  border-left: 6px solid var(--lane-kids) !important;
 }

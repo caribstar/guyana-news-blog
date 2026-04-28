@@ -1,4 +1,4 @@
-﻿{{- define "main" -}}
+{{- define "main" -}}
 {{ $catFilter := .Params.categories_filter | default (slice "Daily Brief") }}
 
 {{/* Pool: all posts in any of the Guyana categories */}}
@@ -21,7 +21,7 @@
 {{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 {{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
-{{/* Shared 17-image library Ã¢â‚¬â€ used as fallback when posts have no image: param.
+{{/* Shared 17-image library ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â used as fallback when posts have no image: param.
      Each tile loop uses an offset + $idx so images stay unique across visible page. */}}
 {{ $gallery := slice
   "/images/guyana/kaieteur-falls.jpg"
@@ -67,7 +67,7 @@
   {{ if ge $total 4 }}
   <section class="onion-featured">
     {{ range $idx, $page := first 3 (after 1 $allNonSW) }}
-    <article class="feat-card">
+    <article class="feat-card tw-lane-{{ partial "lane-class.html" $page }}">
       <a href="{{ $page.RelPermalink }}">
         <div class="feat-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 1 $idx) $galN)) }}');"></div>
         <span class="feat-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
@@ -88,7 +88,7 @@
     <div class="onion-feed-grid2">
       {{/* Upper feed: gallery slots 4-11 */}}
       {{ range $idx, $page := $upperFeed }}
-      <article class="tile">
+      <article class="tile tw-lane-{{ partial "lane-class.html" $page }}">
         <a href="{{ $page.RelPermalink }}" class="tile-link">
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 4 $idx) $galN)) }}');"></div>
           <span class="tile-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
@@ -146,12 +146,12 @@
 
   {{/* ==================== SPEEDEET & WILAR ==================== */}}
   {{ if $speedeetLead }}
-  <section class="tw-section gy-speedeet-feature">
+  <section class="tw-section gy-speedeet-feature tw-lane-kids">
     <div class="tw-section-head">
       <h2>Speedeet &amp; Wilar</h2>
       <span class="meta">Caribbean stories for curious kids</span>
     </div>
-    <div class="tw-speedeet-feature">
+    <div class="tw-speedeet-feature tw-lane-kids">
       <a href="{{ $speedeetLead.RelPermalink }}" class="tw-sf-link">
         <div class="tw-sf-img" style="background-image:url('{{ $speedeetLead.Params.image | default "/images/franchise/speedeet-wilar-front-cover.jpg" }}');"></div>
         <div class="tw-sf-body">
@@ -219,7 +219,7 @@
     <h3 class="more-title">More Stories</h3>
     <div class="onion-feed-grid3">
       {{ range $idx, $page := $lowerFeed }}
-      <article class="tile">
+      <article class="tile tw-lane-{{ partial "lane-class.html" $page }}">
         <a href="{{ $page.RelPermalink }}" class="tile-link">
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 12 $idx) $galN)) }}');"></div>
           <span class="tile-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>

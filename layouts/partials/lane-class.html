@@ -1,0 +1,37 @@
+{{- /* lane-class.html â€” returns ONLY the lane name (news|satire|kids|features) */ -}}
+{{- $p := . -}}
+{{- $ct := lower ($p.Params.content_type | default "") -}}
+{{- $lane := "features" -}}
+
+{{- if or (eq $ct "satire") (eq $ct "parody_column") (eq $ct "column") -}}{{ $lane = "satire" }}{{- end -}}
+{{- if or (eq $ct "news") (eq $ct "reporting") (eq $ct "feature") -}}{{ $lane = "news" }}{{- end -}}
+{{- if eq $ct "kids_story" -}}{{ $lane = "kids" }}{{- end -}}
+
+{{- $cats := slice -}}
+{{- with $p.Params.categories -}}{{ range . }}{{ $cats = $cats | append (lower .) }}{{ end }}{{- end -}}
+{{- with $p.Params.section -}}{{ $cats = $cats | append (lower .) }}{{- end -}}
+{{- range $c := $cats -}}
+  {{- if in $c "speedeet" -}}{{ $lane = "kids" }}{{- end -}}
+  {{- if in $c "bro winston" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "brother winston" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "patriots portfolio" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "rumour mill" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "rumor mill" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "uncle ramesh" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "bam-bam sally" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "bam bam sally" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "dj roadblock" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "back-a-truck" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "back a truck" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "bounty board" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "de boys seh" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "yard report" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "cousin leroy" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "trini dispatch" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "auntie cheryl" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "bajan bugle" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "miss violet" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "cartoons" -}}{{ $lane = "satire" }}{{- end -}}
+  {{- if in $c "sports" -}}{{ $lane = "features" }}{{- end -}}
+{{- end -}}
+{{- $lane -}}
