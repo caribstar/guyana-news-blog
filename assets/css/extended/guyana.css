@@ -122,3 +122,67 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
 .gy-wrap .tw-cta .tw-cta-btn:hover{
   background:#a01717!important;
 }
+
+/* === CATEGORY COLOR TAXONOMY ===
+   Default: red (satire).
+   Override: green (straight news), blue (S&W), dark-gold (sports/progress/other). */
+
+/* DEFAULT — RED for satire */
+.gy-wrap .hero-cat,
+.gy-wrap .feat-cat,
+.gy-wrap .tile-cat{color:#CE1126!important;}
+
+/* GREEN — straight news */
+.gy-wrap .hero-cat[data-cat="daily-brief"],
+.gy-wrap .feat-cat[data-cat="daily-brief"],
+.gy-wrap .tile-cat[data-cat="daily-brief"],
+.gy-wrap .hero-cat[data-cat="yard-brief"],
+.gy-wrap .feat-cat[data-cat="yard-brief"],
+.gy-wrap .tile-cat[data-cat="yard-brief"],
+.gy-wrap .hero-cat[data-cat="trini-brief"],
+.gy-wrap .feat-cat[data-cat="trini-brief"],
+.gy-wrap .tile-cat[data-cat="trini-brief"],
+.gy-wrap .hero-cat[data-cat="bajan-brief"],
+.gy-wrap .feat-cat[data-cat="bajan-brief"],
+.gy-wrap .tile-cat[data-cat="bajan-brief"],
+.gy-wrap .hero-cat[data-cat="ghana-brief"],
+.gy-wrap .feat-cat[data-cat="ghana-brief"],
+.gy-wrap .tile-cat[data-cat="ghana-brief"],
+.gy-wrap .hero-cat[data-cat="kenya-brief"],
+.gy-wrap .feat-cat[data-cat="kenya-brief"],
+.gy-wrap .tile-cat[data-cat="kenya-brief"],
+.gy-wrap .hero-cat[data-cat="naija-brief"],
+.gy-wrap .feat-cat[data-cat="naija-brief"],
+.gy-wrap .tile-cat[data-cat="naija-brief"],
+.gy-wrap .hero-cat[data-cat="sa-brief"],
+.gy-wrap .feat-cat[data-cat="sa-brief"],
+.gy-wrap .tile-cat[data-cat="sa-brief"],
+.gy-wrap .hero-cat[data-cat="nigeria-brief"],
+.gy-wrap .feat-cat[data-cat="nigeria-brief"],
+.gy-wrap .tile-cat[data-cat="nigeria-brief"],
+.gy-wrap .hero-cat[data-cat="south-africa-brief"],
+.gy-wrap .feat-cat[data-cat="south-africa-brief"],
+.gy-wrap .tile-cat[data-cat="south-africa-brief"],
+.gy-wrap .hero-cat[data-cat="indo-caribbean-brief"],
+.gy-wrap .feat-cat[data-cat="indo-caribbean-brief"],
+.gy-wrap .tile-cat[data-cat="indo-caribbean-brief"]{color:#009E49!important;}
+
+/* BLUE — Speedeet & Wilar */
+.gy-wrap .hero-cat[data-cat="speedeet-wilar"],
+.gy-wrap .feat-cat[data-cat="speedeet-wilar"],
+.gy-wrap .tile-cat[data-cat="speedeet-wilar"],
+.gy-wrap .hero-cat[data-cat="speedeet-amp-wilar"],
+.gy-wrap .feat-cat[data-cat="speedeet-amp-wilar"],
+.gy-wrap .tile-cat[data-cat="speedeet-amp-wilar"]{color:#0066CC!important;}
+
+/* DARK GOLD — sports, progress, the guyanese horizon */
+.gy-wrap .hero-cat[data-cat="sports"],
+.gy-wrap .feat-cat[data-cat="sports"],
+.gy-wrap .tile-cat[data-cat="sports"],
+.gy-wrap .hero-cat[data-cat="progress-report"],
+.gy-wrap .feat-cat[data-cat="progress-report"],
+.gy-wrap .tile-cat[data-cat="progress-report"],
+.gy-wrap .hero-cat[data-cat="the-guyanese-horizon"],
+.gy-wrap .feat-cat[data-cat="the-guyanese-horizon"],
+.gy-wrap .tile-cat[data-cat="the-guyanese-horizon"]{color:#D4A017!important;}
+

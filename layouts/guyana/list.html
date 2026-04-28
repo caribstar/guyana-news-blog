@@ -1,4 +1,4 @@
-{{- define "main" -}}
+﻿{{- define "main" -}}
 {{ $catFilter := .Params.categories_filter | default (slice "Daily Brief") }}
 
 {{/* Pool: all posts in any of the Guyana categories */}}
@@ -21,7 +21,7 @@
 {{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 {{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
-{{/* Shared 17-image library â€” used as fallback when posts have no image: param.
+{{/* Shared 17-image library Ã¢â‚¬â€ used as fallback when posts have no image: param.
      Each tile loop uses an offset + $idx so images stay unique across visible page. */}}
 {{ $gallery := slice
   "/images/guyana/kaieteur-falls.jpg"
@@ -55,7 +55,7 @@
     <a href="{{ $hero.RelPermalink }}" class="hero-link">
       <div class="hero-img" style="background-image:url('{{ $hero.Params.image | default "/images/country-heroes/guyana.jpg" }}');"></div>
       <div class="hero-text">
-        <span class="hero-cat">{{ $hero.Params.section | default (index $hero.Params.categories 0) | title }}</span>
+        <span class="hero-cat" data-cat="{{ $hero.Params.section | default (index $hero.Params.categories 0) | urlize }}">{{ $hero.Params.section | default (index $hero.Params.categories 0) | title }}</span>
         <h1 class="hero-headline">{{ $hero.Title }}</h1>
         <p class="hero-meta">By {{ partial "byline-name.html" $hero }} &middot; <time>{{ dateFormat "January 2, 2006" $hero.Date }}</time></p>
       </div>
@@ -70,7 +70,7 @@
     <article class="feat-card">
       <a href="{{ $page.RelPermalink }}">
         <div class="feat-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 1 $idx) $galN)) }}');"></div>
-        <span class="feat-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+        <span class="feat-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
         <h2 class="feat-headline">{{ $page.Title }}</h2>
         <p class="feat-meta">{{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
       </a>
@@ -91,7 +91,7 @@
       <article class="tile">
         <a href="{{ $page.RelPermalink }}" class="tile-link">
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 4 $idx) $galN)) }}');"></div>
-          <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+          <span class="tile-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
           <h3 class="tile-headline">{{ $page.Title }}</h3>
           <p class="tile-meta">By {{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
@@ -222,7 +222,7 @@
       <article class="tile">
         <a href="{{ $page.RelPermalink }}" class="tile-link">
           <div class="tile-img" style="background-image:url('{{ $page.Params.image | default (index $gallery (mod (add 12 $idx) $galN)) }}');"></div>
-          <span class="tile-cat">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
+          <span class="tile-cat" data-cat="{{ $page.Params.section | default (index $page.Params.categories 0) | urlize }}">{{ $page.Params.section | default (index $page.Params.categories 0) | title }}</span>
           <h3 class="tile-headline">{{ $page.Title }}</h3>
           <p class="tile-meta">By {{ partial "byline-name.html" $page }} &middot; {{ dateFormat "Jan 2" $page.Date }}</p>
         </a>
