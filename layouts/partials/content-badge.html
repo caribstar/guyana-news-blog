@@ -1,11 +1,12 @@
-{{- $ct := .Params.content_type | default "commentary" -}}
+{{- $ct := .Params.content_type | default "feature" -}}
 {{- $label := "" -}}
-{{- if eq $ct "news" -}}{{- $label = "SATIRE" -}}{{- end -}}
-{{- if eq $ct "satire" -}}{{- $label = "SATIRE" -}}{{- end -}}
-{{- if eq $ct "parody_column" -}}{{- $label = "SATIRE" -}}{{- end -}}
+{{- if eq $ct "news" -}}{{- $label = "REPORTING" -}}{{- end -}}
+{{- if eq $ct "reporting" -}}{{- $label = "REPORTING" -}}{{- end -}}
 {{- if eq $ct "commentary" -}}{{- $label = "COMMENTARY" -}}{{- end -}}
+{{- if eq $ct "parody_column" -}}{{- $label = "COMMENTARY" -}}{{- end -}}
 {{- if eq $ct "analysis" -}}{{- $label = "COMMENTARY" -}}{{- end -}}
-{{- if eq $ct "feature" -}}{{- $label = "FEATURE" -}}{{- end -}}
+{{- if eq $ct "satire" -}}{{- $label = "SATIRE" -}}{{- end -}}
 {{- if eq $ct "kids_story" -}}{{- $label = "KIDS" -}}{{- end -}}
+{{- if eq $ct "feature" -}}{{- $label = "FEATURE" -}}{{- end -}}
 {{- if eq $label "" -}}{{- $label = "FEATURE" -}}{{- end -}}
 <span class="tw-badge tw-badge-{{ $ct }}">{{ $label | safeHTML }}</span>

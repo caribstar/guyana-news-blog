@@ -1,4 +1,10 @@
-﻿/* Content type badges */
+/* Content type badges - three-lane canon
+   REPORTING (news/reporting) = green
+   COMMENTARY (commentary/parody_column/analysis) = solid red
+   SATIRE = red with diagonal stripe pattern
+   KIDS = blue
+   FEATURE = gold (fallback) */
+
 .tw-badge {
   display: inline-block;
   font-size: 11px;
@@ -11,14 +17,46 @@
   line-height: 1;
   vertical-align: middle;
 }
-.tw-badge-news { background: #009E49 !important; color: #fff !important; }
-.tw-badge-satire { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-parody_column { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-commentary { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-analysis { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-kids_story { background: #0066CC !important; color: #fff !important; }
 
-/* Satire disclaimer */
+.tw-badge-news,
+.tw-badge-reporting {
+  background: #009E49 !important;
+  color: #fff !important;
+}
+
+.tw-badge-commentary,
+.tw-badge-parody_column,
+.tw-badge-analysis {
+  background: #CE1126 !important;
+  color: #fff !important;
+}
+
+/* SATIRE: solid red base + diagonal stripe overlay
+   Visually unified with COMMENTARY (same red) but distinct at a glance. */
+.tw-badge-satire {
+  background-color: #CE1126 !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(255, 255, 255, 0.18) 4px,
+    rgba(255, 255, 255, 0.18) 6px
+  ) !important;
+  color: #fff !important;
+}
+
+.tw-badge-kids_story,
+.tw-badge-kids {
+  background: #0066CC !important;
+  color: #fff !important;
+}
+
+.tw-badge-feature {
+  background: #D4A017 !important;
+  color: #1a1a1a !important;
+}
+
+/* Satire disclaimer (article-level) */
 .tw-satire-disclaimer {
   margin: 18px 0;
   padding: 12px 16px;
@@ -39,5 +77,3 @@
   text-align: center;
   line-height: 1.5;
 }
-/* Taxonomy fallback: yellow/dark-gold for everything else */
-.tw-badge-feature, .tw-badge-kids, .tw-badge { color: #fff !important; }

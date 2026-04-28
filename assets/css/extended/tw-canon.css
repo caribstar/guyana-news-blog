@@ -1,5 +1,5 @@
 /* ==========================================================
-   TRADEWINDS BRIEF Ã¢â‚¬â€ SITE CANON CSS
+   TRADEWINDS BRIEF ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â SITE CANON CSS
    Based on africa-hub design language
    Fraunces (display) + Inter (UI/body)
    Palette: navy #0D5F7A, gold #C9A96E, cream #FAF7F0
@@ -284,7 +284,7 @@ body.tw-site {
 .tw-whatmatters a:hover { color: var(--action); }
 
 /* ==========================================================
-   CARDS Ã¢â‚¬â€ africa-hub country-card pattern
+   CARDS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â africa-hub country-card pattern
    ========================================================== */
 .tw-card {
   background: #fff;
@@ -394,25 +394,6 @@ body.tw-site {
 /* ==========================================================
    BADGES
    ========================================================== */
-.tw-badge {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  padding: 3px 8px;
-  border-radius: 2px;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 1.4;
-}
-.tw-badge-news { background: #009E49 !important; color: #fff !important; }
-.tw-badge-satire { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-parody_column { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-commentary { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-analysis { background: #CE1126 !important; color: #fff !important; }
-.tw-badge-kids_story { background: #0066CC !important; color: #fff !important; }
-
 /* ==========================================================
    DUEL STRIP
    ========================================================== */
@@ -977,7 +958,7 @@ body.tw-site {
 .tw-static-body strong { color: #1a3a4a; }
 .tw-static-body a { color: #1a3a4a; text-decoration: underline; }
 /* ============================================================
-   TODAY'S CLASH — homepage hero dueling format (P0-1)
+   TODAY'S CLASH â€” homepage hero dueling format (P0-1)
    ============================================================ */
 .tw-todays-clash { margin: 1.5rem 0 2.5rem; }
 .tw-clash-head h2 {
@@ -1150,7 +1131,7 @@ body.tw-site {
   .tw-clash-reporting { border-left: none; border-top: 6px solid #c0392b; }
   .tw-clash-defender { border-right: none; border-bottom: 6px solid #2c7a3d; }
 }/* ==========================================================
-   MAIN NAV — DROPDOWNS + MEGA-MENU
+   MAIN NAV â€” DROPDOWNS + MEGA-MENU
    ========================================================== */
 
 .tw-mainnav-inner {
@@ -1179,7 +1160,7 @@ body.tw-site {
   transform: rotate(180deg);
 }
 
-/* ----- Standard dropdown (More ▾) ----- */
+/* ----- Standard dropdown (More â–¾) ----- */
 
 .tw-nav-dropdown {
   position: absolute;
@@ -1227,7 +1208,7 @@ body.tw-site {
   color: var(--navy) !important;
 }
 
-/* ----- Mega-menu (Regions ▾) ----- */
+/* ----- Mega-menu (Regions â–¾) ----- */
 
 .tw-nav-mega-panel {
   position: absolute;
