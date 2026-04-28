@@ -1,4 +1,4 @@
-{{/* news-card: africa-hub pattern. Optional .flagClass (gy/jm/tt/bb/gh/ke/ng/za/neutral) */}}
+﻿{{/* news-card: africa-hub pattern. Optional .flagClass (gy/jm/tt/bb/gh/ke/ng/za/neutral) */}}
 {{ $p := .page | default . }}
 {{ $flagClass := .flagClass | default "neutral" }}
 {{ $section := .section | default "" }}
@@ -26,7 +26,8 @@
 {{- /* Derive lane: SATIRE / COMMENTARY / FEATURES / KIDS */ -}}
 {{ $lane := "features" }}
 {{ $ct := $p.Params.content_type | default "" | lower }}
-{{ if or (eq $ct "satire") (eq $ct "parody_column") (eq $ct "news") }}{{ $lane = "satire" }}{{ end }}
+{{ if or (eq $ct "satire") (eq $ct "parody_column") (eq $ct "column") }}{{ $lane = "satire" }}{{ end }}
+{{ if or (eq $ct "news") (eq $ct "reporting") (eq $ct "feature") }}{{ $lane = "news" }}{{ end }}
 {{ if or (eq $ct "commentary") (eq $ct "analysis") }}{{ $lane = "commentary" }}{{ end }}
 {{ if eq $ct "kids_story" }}{{ $lane = "kids" }}{{ end }}
 
@@ -35,13 +36,39 @@
 {{ range $cats }}
   {{ $c := . | lower }}
   {{ if in $c "speedeet" }}{{ $lane = "kids" }}{{ end }}
-  {{ if in $c "bro winston" }}{{ $lane = "commentary" }}{{ end }}
-  {{ if in $c "brother winston" }}{{ $lane = "commentary" }}{{ end }}
-  {{ if in $c "patriots portfolio" }}{{ $lane = "commentary" }}{{ end }}
-  {{ if in $c "guyanese horizon" }}{{ $lane = "commentary" }}{{ end }}
-  {{ if in $c "progress report" }}{{ $lane = "features" }}{{ end }}
-  {{ if in $c "rumour mill" }}{{ $lane = "features" }}{{ end }}
-  {{ if in $c "rumor mill" }}{{ $lane = "features" }}{{ end }}
+  {{ if in $c "bro winston" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "brother winston" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "patriots portfolio" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "guyanese horizon" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "progress report" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "rumour mill" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "rumor mill" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "uncle ramesh" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "bam-bam sally" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "bam bam sally" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "dj roadblock" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "back-a-truck" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "back a truck" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "bounty board" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "de boys seh" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "yard report" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "cousin leroy" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "trini dispatch" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "auntie cheryl" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "bajan bugle" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "miss violet" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "cartoons" }}{{ $lane = "satire" }}{{ end }}
+  {{ if in $c "daily brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "yard brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "trini brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "bajan brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "ghana brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "naija brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "kenya brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "sa brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "guyana brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "indo-caribbean brief" }}{{ $lane = "news" }}{{ end }}
+  {{ if in $c "sports" }}{{ $lane = "features" }}{{ end }}
 {{ end }}
 
 {{- /* Country-pool image selection (deterministic per post) */ -}}
