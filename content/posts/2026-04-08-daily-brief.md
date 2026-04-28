@@ -38,7 +38,7 @@ Prime Minister Mark Phillips has staked his credibility on GTE producing power b
 ---
 **GAS CONTRACTOR DIRECTOR LINKED TO VENEZUELA CORRUPTION**
 
-The Project Director of the Wales gas site, one RubÃƒÂ©n Figuera, has a history involving frozen bank accounts in Andorra and an intimate relationship with the Maduro regime's asset-stripping operation. He is currently running Guyana's most critical energy infrastructure. Vetting, apparently, is for other countries.
+The Project Director of the Wales gas site, one Rubén Figuera, has a history involving frozen bank accounts in Andorra and an intimate relationship with the Maduro regime's asset-stripping operation. He is currently running Guyana's most critical energy infrastructure. Vetting, apparently, is for other countries.
 
 Meanwhile, Lindsayca executives continue to fly Houston-to-Georgetown on a private Hawker jet at US$70,000 per week. Citizens experiencing blackouts are invited to wave at the plane.
 

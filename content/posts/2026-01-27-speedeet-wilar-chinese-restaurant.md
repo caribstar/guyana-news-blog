@@ -21,7 +21,7 @@ title: 'Speedeet & Wilar: De Chinese Restaurant Adventure'
 tone: commentary
 ---
 
-## ðŸœ DE CHINESE RESTAURANT ADVENTURE
+## 🍜 DE CHINESE RESTAURANT ADVENTURE
 
 *A Speedeet & Wilar Story from Pike Street, Kitty*
 
@@ -47,7 +47,7 @@ Little Sanjay marble roll away forgotten. Speedeet was already on he feet.
 
 ---
 
-## ðŸš¶ DE WALK TO ALEXANDER STREET
+## 🚶 DE WALK TO ALEXANDER STREET
 
 De two boys walk fast-fast down de road. Wilar uncle, Mr. Doodnauth, was waiting by de restaurant door looking important.
 
@@ -65,7 +65,7 @@ And just so, dey was IN.
 
 ---
 
-## ðŸ— DE KITCHEN
+## 🔪 DE KITCHEN
 
 Speedeet thought he know what a kitchen look like. He mother kitchen had a stove, a pot, and sometimes a lizard on de wall.
 
@@ -83,7 +83,7 @@ Wilar nod so hard he glasses nearly fly off.
 
 ---
 
-## ðŸ¥¡ DE TASTING
+## 🥡 DE TASTING
 
 Mr. Chen start pulling out dish after dish.
 
@@ -107,7 +107,7 @@ Something... unfamiliar.
 
 ---
 
-## ðŸ‘€ DE DISCOVERY
+## 👀 DE DISCOVERY
 
 Speedeet was shoveling rice into he mouth when he fork hit something strange.
 
@@ -141,7 +141,7 @@ Well, not really. De eyes was closed. But it FELT like it was staring.
 
 ---
 
-## ðŸ¤” DE DECISION
+## 🤔 DE DECISION
 
 Mr. Doodnauth and Mr. Chen was deep in conversation by de freezer, not paying attention.
 
@@ -171,7 +171,7 @@ Besides, de comb was looking kinda interesting. Soft. Reddish. Like a little rub
 
 ---
 
-## ðŸ˜‹ DE MOMENT OF TRUTH
+## 😋 DE MOMENT OF TRUTH
 
 Speedeet take a deep breath.
 
@@ -211,7 +211,7 @@ Speedeet grin and take another big scoop of de fried rice.
 
 ---
 
-## ðŸƒ DE AFTERMATH
+## 🍜 DE AFTERMATH
 
 When dey finally leave de restaurant, Speedeet belly was FULL and he mind was BLOWN.
 
@@ -247,7 +247,7 @@ Speedeet grin. "Dat's why dey call me SPEEDEET, bai. First to try everything. Sc
 
 ---
 
-## ðŸš DE LESSON
+## 🍚 DE LESSON
 
 Dat night, Speedeet lay in he bed thinking about de day.
 
@@ -285,4 +285,4 @@ And he enjoy every bite.
 
 *Speedeet & Wilar are two 12-year-old best friends from Pike Street, Kitty, Georgetown. Speedeet is the brave one who jumps first. Wilar is the careful one who thinks twice. Together, they get into — and out of — all kinds of trouble. Their stories are written in authentic Guyanese Creolese.*
 
-ðŸ“š *Want more adventures? The Speedeet & Wilar book series is available on Amazon!*
+📚 *Want more adventures? The Speedeet & Wilar book series is available on Amazon!*
