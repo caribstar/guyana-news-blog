@@ -1,4 +1,4 @@
-/* lanes.css â€” UNIVERSAL LANE BORDERS â€” single source of truth.
+/* lanes.css - UNIVERSAL LANE BORDERS - single source of truth.
    Any card-shaped wrapper that gets a tw-lane-* class will render the border.
    Do NOT add per-section border overrides anywhere else. */
 
@@ -23,3 +23,7 @@
 :is(.tw-card, .tile, .feat-card, .tw-clash-side, .post-entry, .gy-speedeet-feature, .tw-speedeet-feature).tw-lane-kids {
   border-left: 6px solid var(--lane-kids) !important;
 }
+
+/* Reality Check duel-strip: hardcoded news vs take, semantic borders */
+.tw-duel-news { border-left: 6px solid var(--lane-news) !important; }
+.tw-duel-take { border-left: 6px solid var(--lane-satire) !important; }
