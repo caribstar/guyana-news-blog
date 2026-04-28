@@ -77,3 +77,48 @@ main.main:has(.gy-wrap){max-width:1280px!important;width:100%!important;padding:
 .gy-wrap .side-sports-btn .side-sports-img{width:100%!important;height:auto!important;display:block!important;}
 .gy-wrap .tw-cta p{margin:0 auto 22px!important;max-width:520px!important;text-align:center!important;}
 .gy-wrap .tw-cta{text-align:center!important;}
+
+/* === GUYANA: tw-cta hard override (fix glowing empty box bug) === */
+.gy-wrap .tw-cta{
+  background:#0D5F7A!important;
+  color:#fff!important;
+  padding:48px 32px!important;
+  border-radius:4px!important;
+  margin:48px 0!important;
+  border-left:4px solid #C9A96E!important;
+  text-align:center!important;
+  display:block!important;
+}
+.gy-wrap .tw-cta h3{
+  font-family:'Fraunces',Georgia,serif!important;
+  font-weight:400!important;
+  color:#fff!important;
+  font-size:1.6rem!important;
+  margin:0 0 12px!important;
+  letter-spacing:-0.01em!important;
+}
+.gy-wrap .tw-cta p{
+  font-family:'Fraunces',serif!important;
+  font-weight:300!important;
+  color:rgba(255,255,255,0.85)!important;
+  margin:0 auto 22px!important;
+  max-width:520px!important;
+  text-align:center!important;
+  font-size:1rem!important;
+}
+.gy-wrap .tw-cta .tw-cta-btn{
+  display:inline-block!important;
+  background:#C02020!important;
+  color:#fff!important;
+  padding:14px 32px!important;
+  border-radius:4px!important;
+  font-weight:700!important;
+  font-size:0.95rem!important;
+  letter-spacing:0.02em!important;
+  box-shadow:0 4px 14px rgba(192,32,32,0.35)!important;
+  text-decoration:none!important;
+  font-family:'Inter',sans-serif!important;
+}
+.gy-wrap .tw-cta .tw-cta-btn:hover{
+  background:#a01717!important;
+}
