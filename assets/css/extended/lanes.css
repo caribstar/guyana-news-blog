@@ -14,19 +14,19 @@
 
 /* ----- Left border stripe on cards ----- */
 .tw-card.tw-lane-satire {
-  border-left: 4px solid var(--lane-satire);
+  border-left: 6px solid var(--lane-satire) !important;
 }
 .tw-card.tw-lane-commentary {
-  border-left: 4px solid var(--lane-commentary);
+  border-left: 6px solid var(--lane-commentary) !important;
 }
 .tw-card.tw-lane-features {
-  border-left: 4px solid var(--lane-features);
+  border-left: 6px solid var(--lane-features) !important;
 }
 .tw-card.tw-lane-kids {
-  border-left: 4px solid var(--lane-kids);
+  border-left: 6px solid var(--lane-kids) !important;
 }
 .tw-card.tw-lane-news {
-  border-left: 4px solid var(--lane-news);
+  border-left: 6px solid var(--lane-news) !important;
 }
 
 /* ----- Colored badge pills ----- */

@@ -1376,3 +1376,27 @@ body.taxonomy-speedeet--wilar .tw-cat-hero,
 body.taxonomy-speedeet-wilar .tw-cat-hero {
   border-left: 8px solid #0066CC !important;
 }
+
+/* === Today's Clash color taxonomy (April 28, 2026 - reapplied) ===
+   Per locked three-voice canon:
+   - Reporting (Daily Brief) = green left border
+   - Defender (Uncle Ramesh) = red left border
+   - Skeptic (Bro Winston, when used) = red left border (citizen satire) */
+.tw-clash-reporting {
+  border-left: 6px solid #009E49 !important;
+}
+.tw-clash-reporting .tw-clash-side-tag {
+  color: #009E49 !important;
+}
+.tw-clash-defender {
+  border-left: 6px solid #CE1126 !important;
+}
+.tw-clash-defender .tw-clash-side-tag {
+  color: #CE1126 !important;
+}
+.tw-clash-skeptic {
+  border-left: 6px solid #CE1126 !important;
+}
+.tw-clash-skeptic .tw-clash-side-tag {
+  color: #CE1126 !important;
+}
