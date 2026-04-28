@@ -1,4 +1,4 @@
-{{- /* Today's Clash: Guyana hero (Daily Brief vs Uncle Ramesh) + Caribbean clashes */ -}}
+﻿{{- /* Today's Clash: Guyana hero (Daily Brief vs Uncle Ramesh) + Caribbean clashes */ -}}
 {{ $all := where site.RegularPages "Type" "posts" }}
 {{ $all = sort $all "Date" "desc" }}
 
@@ -10,35 +10,35 @@
 {{ $pairs := slice }}
 {{ $jmA := index (where $all "Params.categories" "intersect" (slice "Yard Report")) 0 }}
 {{ $jmB := index (where $all "Params.categories" "intersect" (slice "Cousin Leroy")) 0 }}
-{{ if and $jmA $jmB }}{{ $pairs = $pairs | append (dict "country" "Jamaica" "flag" "🇯🇲" "left" $jmA "right" $jmB "leftLabel" "Sardonic" "rightLabel" "Diaspora") }}{{ end }}
+{{ if and $jmA $jmB }}{{ $pairs = $pairs | append (dict "country" "Jamaica" "flag" "ðŸ‡¯ðŸ‡²" "left" $jmA "right" $jmB "leftLabel" "Sardonic" "rightLabel" "Diaspora") }}{{ end }}
 {{ $ttA := index (where $all "Params.categories" "intersect" (slice "Trini Dispatch")) 0 }}
 {{ $ttB := index (where $all "Params.categories" "intersect" (slice "Auntie Cheryl")) 0 }}
-{{ if and $ttA $ttB }}{{ $pairs = $pairs | append (dict "country" "Trinidad" "flag" "🇹🇹" "left" $ttA "right" $ttB "leftLabel" "Dry Sardonic" "rightLabel" "Euphoric") }}{{ end }}
+{{ if and $ttA $ttB }}{{ $pairs = $pairs | append (dict "country" "Trinidad" "flag" "ðŸ‡¹ðŸ‡¹" "left" $ttA "right" $ttB "leftLabel" "Dry Sardonic" "rightLabel" "Euphoric") }}{{ end }}
 {{ $bbA := index (where $all "Params.categories" "intersect" (slice "Bajan Bugle")) 0 }}
 {{ $bbB := index (where $all "Params.categories" "intersect" (slice "Miss Violet")) 0 }}
-{{ if and $bbA $bbB }}{{ $pairs = $pairs | append (dict "country" "Barbados" "flag" "🇧🇧" "left" $bbA "right" $bbB "leftLabel" "Raised Eyebrow" "rightLabel" "Civic Teacher") }}{{ end }}
+{{ if and $bbA $bbB }}{{ $pairs = $pairs | append (dict "country" "Barbados" "flag" "ðŸ‡§ðŸ‡§" "left" $bbA "right" $bbB "leftLabel" "Raised Eyebrow" "rightLabel" "Civic Teacher") }}{{ end }}
 
 {{ if or (and $db $ramesh) $pairs }}
 <section class="tw-section tw-todays-clash">
   <div class="tw-section-head tw-clash-head">
-    <h2><span class="tw-clash-fire">🔥</span> Today's Clash</h2>
+    <h2><span class="tw-clash-fire">ðŸ”¥</span> Today's Clash</h2>
     <span class="meta">Two perspectives. One country.</span>
   </div>
 
   {{ if and $db $ramesh }}
   <div class="tw-clash-hero">
-    <a href="{{ $db.RelPermalink }}" class="tw-clash-side tw-clash-critical">
-      <div class="tw-clash-side-tag">Critical</div>
+    <a href="{{ $db.RelPermalink }}" class="tw-clash-side tw-clash-reporting">
+      <div class="tw-clash-side-tag">Reporting</div>
       <div class="tw-clash-byline">The Daily Brief</div>
       <h3 class="tw-clash-headline">{{ $db.Title }}</h3>
       <p class="tw-clash-dek">{{ $db.Params.description | default ($db.Summary | plainify | truncate 140) }}</p>
     </a>
     <div class="tw-clash-divider">
       <span class="tw-clash-vs">VS</span>
-      <span class="tw-clash-country">🇬🇾 Guyana</span>
+      <span class="tw-clash-country">ðŸ‡¬ðŸ‡¾ Guyana</span>
     </div>
-    <a href="{{ $ramesh.RelPermalink }}" class="tw-clash-side tw-clash-loyalist">
-      <div class="tw-clash-side-tag">Loyalist</div>
+    <a href="{{ $ramesh.RelPermalink }}" class="tw-clash-side tw-clash-defender">
+      <div class="tw-clash-side-tag">Defender</div>
       <div class="tw-clash-byline">Uncle Ramesh</div>
       <h3 class="tw-clash-headline">{{ $ramesh.Title }}</h3>
       <p class="tw-clash-dek">{{ $ramesh.Params.description | default ($ramesh.Summary | plainify | truncate 140) }}</p>

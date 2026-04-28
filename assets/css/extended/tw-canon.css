@@ -1009,10 +1009,10 @@ body.tw-site {
   min-height: 200px;
 }
 .tw-clash-side:hover { background: #fafafa; }
-.tw-clash-critical { border-left: 6px solid #c0392b; background: #fdf6f5; }
-.tw-clash-critical:hover { background: #fcecea; }
-.tw-clash-loyalist { border-right: 6px solid #2c7a3d; background: #f6fbf7; }
-.tw-clash-loyalist:hover { background: #ecf5ee; }
+.tw-clash-reporting { border-left: 6px solid #c0392b; background: #fdf6f5; }
+.tw-clash-reporting:hover { background: #fcecea; }
+.tw-clash-defender { border-right: 6px solid #2c7a3d; background: #f6fbf7; }
+.tw-clash-defender:hover { background: #ecf5ee; }
 
 .tw-clash-side-tag {
   font-size: .7rem;
@@ -1021,8 +1021,8 @@ body.tw-site {
   letter-spacing: .12em;
   margin-bottom: .35rem;
 }
-.tw-clash-critical .tw-clash-side-tag { color: #c0392b; }
-.tw-clash-loyalist .tw-clash-side-tag { color: #2c7a3d; }
+.tw-clash-reporting .tw-clash-side-tag { color: #c0392b; }
+.tw-clash-defender .tw-clash-side-tag { color: #2c7a3d; }
 
 .tw-clash-byline {
   font-family: fraunces, Georgia, serif;
@@ -1147,8 +1147,8 @@ body.tw-site {
   }
   .tw-clash-vs { font-size: 1.2rem; }
   .tw-clash-country { margin-top: 0; }
-  .tw-clash-critical { border-left: none; border-top: 6px solid #c0392b; }
-  .tw-clash-loyalist { border-right: none; border-bottom: 6px solid #2c7a3d; }
+  .tw-clash-reporting { border-left: none; border-top: 6px solid #c0392b; }
+  .tw-clash-defender { border-right: none; border-bottom: 6px solid #2c7a3d; }
 }/* ==========================================================
    MAIN NAV — DROPDOWNS + MEGA-MENU
    ========================================================== */
@@ -1327,4 +1327,29 @@ a.tw-nav-mega-head:hover {
   }
 
   .tw-nav-caret { display: none; }
+}
+
+/* === Today's Clash color taxonomy override (April 28, 2026) ===
+   Per locked three-voice canon:
+   - Reporting (Daily Brief) = green left border, cool/neutral
+   - Defender (Uncle Ramesh) = red left border, satirical voice
+   - Skeptic (Bro Winston, when used) = also red, citizen satire */
+
+.tw-clash-reporting {
+  border-left: 6px solid #009E49 !important;
+}
+.tw-clash-reporting .tw-clash-side-tag {
+  color: #009E49 !important;
+}
+.tw-clash-defender {
+  border-left: 6px solid #CE1126 !important;
+}
+.tw-clash-defender .tw-clash-side-tag {
+  color: #CE1126 !important;
+}
+.tw-clash-skeptic {
+  border-left: 6px solid #CE1126 !important;
+}
+.tw-clash-skeptic .tw-clash-side-tag {
+  color: #CE1126 !important;
 }
