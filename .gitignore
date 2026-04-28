@@ -27,3 +27,7 @@
 Thumbs.db
 *.swp
 *~
+
+# Deploy helper scripts created by the script-to-file pattern (self-deleting in normal flow, but ignored in case)
+_*.ps1
+
