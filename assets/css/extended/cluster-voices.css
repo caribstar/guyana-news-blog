@@ -1,4 +1,4 @@
-/* cluster-voices.css - story-cluster `Other voices` block + desktop sidebar */
+/* cluster-voices.css - story-cluster `Other voices` block + desktop sticky sidebar */
 
 .tw-cluster {
   margin: 32px 0;
@@ -34,7 +34,6 @@
   background: #fff;
   border-left-width: 6px;
   border-left-style: solid;
-  /* lane color comes from .tw-lane-* via the universal :is() selector */
   padding: 14px 16px;
   border-radius: 2px;
   transition: transform 0.12s ease;
@@ -81,16 +80,13 @@
   font-style: italic;
 }
 
-/* Border on the cluster items uses the universal :is() rule extended below */
 :is(.tw-cluster-item).tw-lane-news     { border-left-color: var(--lane-news) !important; }
 :is(.tw-cluster-item).tw-lane-satire   { border-left-color: var(--lane-satire) !important; }
 :is(.tw-cluster-item).tw-lane-kids     { border-left-color: var(--lane-kids) !important; }
 :is(.tw-cluster-item).tw-lane-features { border-left-color: var(--lane-features) !important; }
 
-/* Sidebar variant: shown on desktop only, sticks alongside article */
-.tw-cluster-sidebar {
-  display: none;
-}
+/* Default: cluster appears inline below the article. Desktop reflows it to sidebar. */
+.tw-cluster-wrap { margin-top: 24px; }
 
 @media (min-width: 1100px) {
   .tw-article-with-cluster {
@@ -99,12 +95,12 @@
     gap: 32px;
     align-items: start;
   }
-  .tw-cluster-sidebar {
-    display: block;
+  .tw-article-with-cluster .tw-cluster-wrap {
     position: sticky;
     top: 90px;
+    margin-top: 0;
+  }
+  .tw-article-with-cluster .tw-cluster {
     margin: 0;
   }
-  /* Hide the in-article block when the sidebar is showing to avoid duplicate render */
-  .tw-article-with-cluster .tw-cluster-block { display: none; }
 }

@@ -33,17 +33,12 @@
     </div>
     {{ end }}
   </footer>
-
-  {{/* End-of-article cluster block (mobile + fallback) */}}
-  <div class="tw-cluster-block">
-    {{ partial "cluster-voices.html" (dict "page" . "mode" "block") }}
-  </div>
 </article>
 
-{{/* Desktop sidebar cluster (sticky, visible >=1100px) */}}
+{{/* Single cluster render. CSS positions it inline (mobile) or sidebar (desktop). */}}
 {{ if .Params.cluster_id }}
-<div class="tw-cluster-sidebar">
-  {{ partial "cluster-voices.html" (dict "page" . "mode" "sidebar") }}
+<div class="tw-cluster-wrap">
+  {{ partial "cluster-voices.html" (dict "page" . "mode" "block") }}
 </div>
 {{ end }}
 </div>
