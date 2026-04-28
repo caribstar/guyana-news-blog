@@ -1,0 +1,109 @@
+/* Three-tier visual hierarchy: Hero / Primary / Feed
+   Hero = 2x weight, dominant top-of-page anchor
+   Primary = 4-up grid (current density)
+   Feed = compact list (current density)
+   SATIRE stripe upgrade: increased contrast for 0.5s readability */
+
+/* === HERO === */
+.tw-hero-card {
+  display: block;
+  margin: 32px 0 48px;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  border-left: 8px solid #009E49;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+.tw-hero-card.tw-lane-satire { border-left-color: #CE1126; }
+.tw-hero-card.tw-lane-news { border-left-color: #009E49; }
+.tw-hero-card.tw-lane-features { border-left-color: #D4A017; }
+.tw-hero-card.tw-lane-kids { border-left-color: #0066CC; }
+
+.tw-hero-link {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 0;
+  text-decoration: none;
+  color: inherit;
+}
+.tw-hero-img {
+  min-height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+.tw-hero-body {
+  padding: 40px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tw-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.tw-hero-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+}
+.tw-hero-headline {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: #0D5F7A;
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+.tw-hero-dek {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #444;
+  margin: 0 0 20px;
+}
+.tw-hero-byline {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .tw-hero-link { grid-template-columns: 1fr; }
+  .tw-hero-img { min-height: 220px; }
+  .tw-hero-body { padding: 24px 20px; }
+  .tw-hero-headline { font-size: 26px; }
+  .tw-hero-dek { font-size: 15px; }
+}
+
+/* === PRIMARY GRID 4-up === */
+.tw-primary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin: 0 0 40px;
+}
+@media (max-width: 1100px) {
+  .tw-primary-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .tw-primary-grid { grid-template-columns: 1fr; }
+}
+
+/* === SATIRE stripe upgrade === */
+/* Was 18% white opacity at 4px/6px stripe spacing - too subtle.
+   New: 28% opacity at 4px/7px - unmissable at thumbnail size. */
+.tw-badge-satire {
+  background-color: #CE1126 !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(255, 255, 255, 0.28) 4px,
+    rgba(255, 255, 255, 0.28) 7px
+  ) !important;
+  color: #fff !important;
+}

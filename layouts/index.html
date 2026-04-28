@@ -6,10 +6,21 @@
 {{ $sports := where $all "Params.content_vertical" "sports" }}
 {{ $speedeet := where $all "Params.categories" "intersect" (slice "Speedeet & Wilar") }}
 
+{{/* HERO SELECTION: featured: true wins, else newest Daily Brief, else newest commentary, else newest */}}
+{{ $featured := where $all "Params.featured" true }}
+{{ $dailyBriefs := where $all "Params.categories" "intersect" (slice "Daily Brief") }}
 {{ $hero := "" }}
-{{ if gt (len $commentary) 0 }}{{ $hero = index $commentary 0 }}{{ else if gt (len $all) 0 }}{{ $hero = index $all 0 }}{{ end }}
+{{ if gt (len $featured) 0 }}
+  {{ $hero = index $featured 0 }}
+{{ else if gt (len $dailyBriefs) 0 }}
+  {{ $hero = index $dailyBriefs 0 }}
+{{ else if gt (len $commentary) 0 }}
+  {{ $hero = index $commentary 0 }}
+{{ else if gt (len $all) 0 }}
+  {{ $hero = index $all 0 }}
+{{ end }}
 {{ $secondary := "" }}
-{{ if gt (len $commentary) 1 }}{{ $secondary = index $commentary 1 }}{{ end }}
+{{ if gt (len $commentary) 0 }}{{ $secondary = index $commentary 0 }}{{ end }}
 {{ $sportsLead := "" }}{{ if gt (len $sports) 0 }}{{ $sportsLead = index $sports 0 }}{{ end }}
 {{ $speedeetLead := "" }}{{ if gt (len $speedeet) 0 }}{{ $speedeetLead = index $speedeet 0 }}{{ end }}
 
@@ -33,14 +44,34 @@
   {{/* TODAY'S CLASH (P0-1) */}}
   {{ partial "todays-clash.html" . }}
 
-  {{/* HERO GRID */}}
+  {{/* TIER 1: HERO (dominant 2x weight) */}}
+  {{ with $hero }}
+    {{ partial "hero-card.html" (dict "page" .) }}
+  {{ end }}
+
+  {{/* TIER 2: PRIMARY GRID (4 stories, medium weight) + WHAT MATTERS NOW sidebar */}}
   <div class="tw-hero-grid">
-    <div class="tw-hero-lead">
-      {{ with $hero }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
-    </div>
-    <div class="tw-hero-stack">
-      {{ with $secondary }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
-      {{ with (or $sportsLead $speedeetLead) }}{{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}{{ end }}
+    <div class="tw-primary-stack">
+      <div class="tw-primary-grid">
+        {{ $primaryPicks := slice }}
+        {{ if $secondary }}{{ $primaryPicks = $primaryPicks | append $secondary }}{{ end }}
+        {{ if $sportsLead }}{{ $primaryPicks = $primaryPicks | append $sportsLead }}{{ end }}
+        {{ if $speedeetLead }}{{ $primaryPicks = $primaryPicks | append $speedeetLead }}{{ end }}
+        {{ $usedForPrimary := .Scratch.Get "used" }}
+        {{ range $all }}
+          {{ if and (not (in $usedForPrimary .RelPermalink)) (lt (len $primaryPicks) 4) }}
+            {{ $alreadyPicked := false }}
+            {{ range $primaryPicks }}{{ if eq .RelPermalink $.RelPermalink }}{{ $alreadyPicked = true }}{{ end }}{{ end }}
+            {{ if not $alreadyPicked }}
+              {{ $primaryPicks = $primaryPicks | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ range first 4 $primaryPicks }}
+          {{ partial "news-card.html" (dict "page" . "flagClass" "neutral") }}
+          {{ $.Scratch.Set "used" (append .RelPermalink ($.Scratch.Get "used")) }}
+        {{ end }}
+      </div>
     </div>
     <aside class="tw-whatmatters">
       <h3>What Matters Now</h3>
@@ -132,7 +163,7 @@
   </section>
   {{ end }}
 
-  {{/* SPEEDEET & WILAR ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â IP feature */}}
+  {{/* SPEEDEET & WILAR ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â IP feature */}}
   {{ if $speedeetLead }}
   <section class="tw-section">
     <div class="tw-section-head">

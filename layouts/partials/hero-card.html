@@ -1,0 +1,69 @@
+{{/* hero-card: dominant 2x weight, image-led, used for top-of-homepage lead story */}}
+{{ $p := .page | default . }}
+
+{{- /* Resolve country (same logic as news-card) */ -}}
+{{ $country := $p.Params.country | default "" | lower }}
+{{ if not $country }}
+  {{ $cats := $p.Params.categories | default (slice) }}
+  {{ range $cats }}
+    {{ $c := . | lower }}
+    {{ if in $c "yard" }}{{ $country = "jamaica" }}{{ end }}
+    {{ if in $c "trini" }}{{ $country = "trinidad" }}{{ end }}
+    {{ if in $c "bajan" }}{{ $country = "barbados" }}{{ end }}
+    {{ if in $c "ghana" }}{{ $country = "ghana" }}{{ end }}
+    {{ if in $c "kenya" }}{{ $country = "kenya" }}{{ end }}
+    {{ if in $c "nigeria" }}{{ $country = "nigeria" }}{{ end }}
+    {{ if in $c "south africa" }}{{ $country = "south-africa" }}{{ end }}
+  {{ end }}
+  {{ if not $country }}{{ $country = "guyana" }}{{ end }}
+{{ end }}
+
+{{- /* Lane resolution via partial */ -}}
+{{ $lane := partial "lane-class.html" $p }}
+
+{{- /* Image resolution */ -}}
+{{ $poolPath := printf "static/images/country-pool/%s" $country }}
+{{ $poolImage := "" }}
+{{ if and $country (not $p.Params.image) }}
+  {{ if fileExists $poolPath }}
+    {{ $pool := readDir $poolPath }}
+    {{ $images := slice }}
+    {{ range $pool }}
+      {{ $ext := path.Ext .Name | lower }}
+      {{ if and (not .IsDir) (or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".webp")) }}
+        {{ $images = $images | append .Name }}
+      {{ end }}
+    {{ end }}
+    {{ with $images }}
+      {{ $idx := mod (len $p.File.ContentBaseName) (len .) }}
+      {{ $poolImage = printf "/images/country-pool/%s/%s" $country (index . $idx) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $localDefault := "/images/defaults/posts.jpg" }}
+{{ if $country }}
+  {{ $countryDefault := printf "static/images/defaults/%s.jpg" $country }}
+  {{ if fileExists $countryDefault }}
+    {{ $localDefault = printf "/images/defaults/%s.jpg" $country }}
+  {{ end }}
+{{ end }}
+{{ $finalImage := $p.Params.image | default $poolImage | default $localDefault }}
+
+<article class="tw-hero-card {{ $lane }}">
+  <a href="{{ $p.RelPermalink }}" class="tw-hero-link">
+    <div class="tw-hero-img" style="background-image:url('{{ $finalImage }}');"></div>
+    <div class="tw-hero-body">
+      <div class="tw-hero-meta">
+        {{ partial "content-badge.html" $p }}
+        <span class="tw-hero-eyebrow">Today's Lead</span>
+      </div>
+      <h2 class="tw-hero-headline">{{ $p.Title }}</h2>
+      {{ with $p.Params.description }}
+        <p class="tw-hero-dek">{{ . | truncate 200 }}</p>
+      {{ else }}
+        <p class="tw-hero-dek">{{ $p.Summary | plainify | truncate 200 }}</p>
+      {{ end }}
+      <p class="tw-hero-byline">{{ partial "byline.html" $p }}</p>
+    </div>
+  </a>
+</article>
