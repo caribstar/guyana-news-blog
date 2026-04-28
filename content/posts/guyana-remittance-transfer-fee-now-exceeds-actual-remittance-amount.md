@@ -20,6 +20,6 @@ title: Remittance Transfer Fee Now Exceeds Actual Remittance Amount
 tone: satire
 ---
 
-GEORGETOWN â€” An analysis of Western Union and MoneyGram transfers for the March quarter revealed that for remittances under USD $50, the combined sending fees, exchange rate margin, and receiving-end charges now routinely exceed the principal amount, a development senders described as 'mathematically concerning.'
+GEORGETOWN — An analysis of Western Union and MoneyGram transfers for the March quarter revealed that for remittances under USD $50, the combined sending fees, exchange rate margin, and receiving-end charges now routinely exceed the principal amount, a development senders described as 'mathematically concerning.'
 
 The situation continues to develop.

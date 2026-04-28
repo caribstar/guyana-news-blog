@@ -22,6 +22,6 @@ title: Government Promises Oil Money Will Definitely Reach Ordinary Citizens Thi
 tone: satire
 ---
 
-GEORGETOWN â€” At a press briefing held Tuesday at the Ministry of Finance, officials reassured the public that revenues from the country's petroleum operations would, unlike the previous six reassurances issued on the same subject, now begin to meaningfully benefit ordinary citizens in the near future.
+GEORGETOWN — At a press briefing held Tuesday at the Ministry of Finance, officials reassured the public that revenues from the country's petroleum operations would, unlike the previous six reassurances issued on the same subject, now begin to meaningfully benefit ordinary citizens in the near future.
 
 The situation continues to develop.
