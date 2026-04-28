@@ -2,7 +2,7 @@
 author: DJ Roadblock
 categories:
 - Traffic Report
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-04-10
 description: 'Your Friday traffic situation with DJ Roadblock: East Bank lockdown,

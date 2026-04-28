@@ -1,5 +1,6 @@
 ---
 title: "Trini Dispatch — Trini Brief, Monday April 27, 2026"
+content_type: parody_column
 date: 2026-04-27T07:45:00-04:00
 draft: false
 categories: ["Trini Brief"]

@@ -2,7 +2,7 @@
 author: DJ Roadblock
 categories:
 - Traffic Report
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-27
 description: DJ Roadblock is LIVE from the dashboard on a Friday afternoon. The government

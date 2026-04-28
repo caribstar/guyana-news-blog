@@ -1,7 +1,7 @@
 ---
 categories:
 - Patriots Portfolio
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-19
 description: Your weekly satirical investment guide to the Guyanese national situation.

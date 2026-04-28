@@ -1,7 +1,7 @@
 ---
 categories:
 - Back-A-Truck
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-19
 description: Guyana's most fictional classifieds. Items for sale, wanted, and otherwise

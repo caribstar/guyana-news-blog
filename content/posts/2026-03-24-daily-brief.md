@@ -3,7 +3,7 @@ author: Daily Brief
 categories:
 - Daily Brief
 - News
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-03-24
 description: The Mohameds went to the CCJ, Exxon wants more oil, and somewhere in

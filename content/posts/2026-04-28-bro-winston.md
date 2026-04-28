@@ -5,7 +5,7 @@ draft: false
 categories: ["Bro Winston"]
 tags: ["satire", "guyana", "exxon", "psa", "tax waivers", "fpso", "bro winston"]
 author: "Bro Winston"
-content_type: "satire"
+content_type: parody_column
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "Bro Winston, sittin' on de step wid de paper, walkin' calmly through three things he read in Kaieteur dis morning that don't quite line up — de US$525M tax waiver, de Cabinet helicopter tour, and de question nobody answered for six years."
 country: "guyana"

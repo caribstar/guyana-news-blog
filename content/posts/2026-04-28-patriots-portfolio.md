@@ -5,7 +5,7 @@ draft: false
 categories: ["Patriots Portfolio"]
 tags: ["satire", "guyana", "investment", "real estate", "exxon", "psa", "patriots portfolio"]
 author: "Patriots Portfolio"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "Patriots Portfolio on the Tuesday investment landscape — the Wales gas pipe as a pure-faith asset class, three hotel stocks worth watching, and why every Guyanese with US$2,000 should be buying land in Region 9 before the road from Linden to Lethem actually finishes."
 country: "guyana"

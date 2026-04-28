@@ -1,7 +1,7 @@
 ---
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-02-14
 draft: false

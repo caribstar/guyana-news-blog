@@ -3,7 +3,7 @@ homepage_hide: true
 author: Brian Otieno
 categories:
 - Kenya Brief
-content_type: parody_column
+content_type: satire
 country: kenya
 date: 2026-04-20 12:08:00-05:00
 draft: false

@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-04-02 07:00:00-04:00
 description: Your Thursday morning roundup — tint crackdown begins, Nicaraguan engineers

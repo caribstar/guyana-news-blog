@@ -2,7 +2,7 @@
 author: Kwame Mensah
 categories:
 - Ghana Brief
-content_type: parody_column
+content_type: satire
 country: ghana
 date: 2026-04-21 09:57:00-05:00
 draft: false

@@ -5,7 +5,7 @@ draft: false
 categories: ["Progress Report"]
 tags: ["guyana", "infrastructure", "construction", "buxton", "pouderoyen", "agriculture", "progress report"]
 author: "Progress Report"
-content_type: "reporting"
+content_type: news
 label: "🟦 REPORTING"
 description: "Tuesday tally of what was announced, tendered, or completed in the Guyana infrastructure and program landscape this week."
 country: "guyana"

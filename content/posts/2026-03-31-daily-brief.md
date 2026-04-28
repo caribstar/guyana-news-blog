@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-03-31
 description: Oil hits 918K bpd, Georgetown floods, GUYOIL raises fuel prices, a teen

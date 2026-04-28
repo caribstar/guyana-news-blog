@@ -3,7 +3,7 @@ author: Back-A-Truck
 categories:
 - Back-a-Truck
 - Weekly Feature
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-24
 description: Your weekly guide to what's moving, what's worth buying, and what the

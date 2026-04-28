@@ -5,7 +5,7 @@ draft: false
 categories: ["Bam-Bam Sally"]
 tags: ["satire", "guyana", "gossip", "society", "diaspora", "fpso", "wendys", "bam-bam sally"]
 author: "Bam-Bam Sally"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "Bam-Bam Sally on the ministerial helicopter manifest, the Four Points by Sheraton opening, the Wendy's launch attendance, and the diaspora auntie who is currently on WhatsApp demanding a receipt for clothes she sent down in 2024."
 country: "guyana"

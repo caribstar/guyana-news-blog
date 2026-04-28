@@ -2,7 +2,7 @@
 categories:
 - DJ Roadblock
 - Weekly Feature
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-02-13
 product_family: series

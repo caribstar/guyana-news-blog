@@ -5,7 +5,7 @@ draft: false
 categories: ["The Rumour Mill"]
 tags: ["satire", "guyana", "rumour mill", "unconfirmed", "speculation", "the rumour mill"]
 author: "The Rumour Mill"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "The Rumour Mill on the Tuesday whispers — Cabinet reshuffle speculation, the hotel deal with three contradictory stories, the 4AM convoy to Lethem, and the eternal disclaimer that nothing here is confirmed and the Rumour Mill takes no responsibility."
 country: "guyana"

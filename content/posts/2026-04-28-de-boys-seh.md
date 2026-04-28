@@ -5,7 +5,7 @@ draft: false
 categories: ["De Boys Seh"]
 tags: ["satire", "guyana", "rumshop", "wales gas project", "exxon", "tax waiver", "de boys seh"]
 author: "De Boys Seh"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "De Boys, gathered at de same rumshop where dey gather every Tuesday, deliver de week's verdict on US$525M Exxon tax waivers, the Gas-to-Energy contractor's FBI history, and the Glenn Lall '87.5% grab' debate."
 country: "guyana"

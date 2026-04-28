@@ -2,7 +2,7 @@
 categories:
 - Back-a-Truck
 - Weekly Feature
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-02-07
 product_family: series

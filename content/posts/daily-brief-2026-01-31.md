@@ -1,7 +1,7 @@
 ---
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-01-31
 description: Budget 2026 aftermath, Guyana-UK climate deals, ExxonMobil eyes Venezuela

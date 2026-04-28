@@ -1,7 +1,7 @@
 ---
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-01-24
 description: Opposition Leader drama continues, Budget 2026 incoming, Barama drops

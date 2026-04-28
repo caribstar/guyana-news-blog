@@ -3,7 +3,7 @@ author: Bounty Board
 categories:
 - Bounty Board
 - Weekly Feature
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-24
 description: This week's community notices, events, and things worth knowing about

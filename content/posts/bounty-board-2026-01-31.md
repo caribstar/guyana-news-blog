@@ -1,7 +1,7 @@
 ---
 categories:
 - Bounty Board
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-31
 description: Community notices, events, and happenings across Guyana! Your one-stop

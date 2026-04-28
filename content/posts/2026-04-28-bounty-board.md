@@ -5,7 +5,7 @@ draft: false
 categories: ["Bounty Board"]
 tags: ["satire", "guyana", "classifieds", "ngsa", "real estate", "wanted ads", "bounty board"]
 author: "Bounty Board"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "Bounty Board on the Tuesday classifieds — the goat wanted for graduation, the rental property with a 'situation,' the NGSA tutor scheme with non-monetary payment, and the eternal 'somebody lookin' for a husband' notice that runs every week regardless of stated requirements."
 country: "guyana"

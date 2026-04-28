@@ -2,7 +2,7 @@
 author: T. Balogun
 categories:
 - Naija Brief
-content_type: parody_column
+content_type: satire
 country: nigeria
 date: 2026-04-22 07:46:00-05:00
 draft: false

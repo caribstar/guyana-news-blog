@@ -5,7 +5,7 @@ draft: false
 categories: ["DJ Roadblock"]
 tags: ["satire", "guyana", "traffic", "mandela", "ngsa", "school run", "georgetown", "dj roadblock"]
 author: "DJ Roadblock"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "DJ Roadblock on Mandela Avenue at 7:42 AM, the Soesdyke-Linden situation, and why every parent on the East Coast remembered today is the week of NGSA exams approximately fifteen minutes too late."
 country: "guyana"

@@ -3,7 +3,7 @@ cluster_id: oil-revenue-2026-04-08
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-04-08
 description: Guyana pockets US$761M in oil revenue, denies secret payout to gas contractor,

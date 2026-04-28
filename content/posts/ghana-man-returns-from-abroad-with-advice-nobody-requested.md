@@ -3,7 +3,7 @@ homepage_hide: true
 author: Abena Osei
 categories:
 - Ghana Brief
-content_type: parody_column
+content_type: satire
 country: ghana
 date: 2026-04-21 16:11:00-05:00
 draft: false

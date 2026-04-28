@@ -2,7 +2,7 @@
 author: The Daily Brief
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-04-07 06:00:00-04:00
 description: 'Lindsayca''s executives fly private while Guyana sits in the dark. CARIFTA

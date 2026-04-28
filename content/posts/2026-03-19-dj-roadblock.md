@@ -1,7 +1,7 @@
 ---
 categories:
 - DJ Roadblock
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-19
 description: DJ Roadblock recaps the week from the booth. Oil at $100, the Mohameds

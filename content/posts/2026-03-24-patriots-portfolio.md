@@ -3,7 +3,7 @@ author: Patriots Portfolio
 categories:
 - Patriots Portfolio
 - Economy
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-24
 description: 'This week in Guyana''s business and economic landscape: Exxon''s production

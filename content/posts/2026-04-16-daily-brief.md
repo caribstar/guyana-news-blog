@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-04-16 07:00:00-04:00
 description: A building falls down, CANU counts its money, airfares about to get worse,

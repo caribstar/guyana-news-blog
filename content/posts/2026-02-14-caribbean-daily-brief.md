@@ -1,7 +1,7 @@
 ---
 categories:
 - Caribbean Daily Brief
-content_type: commentary
+content_type: news
 date: 2026-02-14
 draft: false
 product_family: series

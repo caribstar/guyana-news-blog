@@ -1,5 +1,6 @@
 ---
 title: "Auntie Cheryl Tellin' Yuh — Trinidad Looking GOOD This Week, Doux-Doux! Monday April 27, 2026"
+content_type: parody_column
 date: 2026-04-27T08:45:00-04:00
 draft: false
 categories: ["Trini Brief"]

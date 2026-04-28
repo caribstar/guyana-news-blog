@@ -1,7 +1,7 @@
 ---
 categories:
 - Back-a-Truck
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-24
 description: Yuh weekend guide to de best deals in de markets! From Stabroek to Bourda,

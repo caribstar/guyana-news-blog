@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - The Rumour Mill
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-04-12 11:05:00-04:00
 description: De Rumour Mill is grinding this Easter Sunday — whispers about the Wales

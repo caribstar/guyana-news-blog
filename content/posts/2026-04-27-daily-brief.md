@@ -1,5 +1,6 @@
 ---
 title: "Monday's Daily Brief — Wales Gas Project Welcomes the FBI to the Party, Hours-Long Blackout, and the Five-Year Oil Reality Check"
+content_type: news
 date: 2026-04-27T07:00:00-04:00
 draft: false
 categories: ["Daily Brief"]

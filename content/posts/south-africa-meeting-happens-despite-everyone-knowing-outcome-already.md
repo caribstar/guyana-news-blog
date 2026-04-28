@@ -2,7 +2,7 @@
 author: Pieter van der Merwe
 categories:
 - SA Brief
-content_type: parody_column
+content_type: satire
 country: south-africa
 date: 2026-04-20 21:29:00-05:00
 draft: false

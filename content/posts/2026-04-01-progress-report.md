@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Progress Report
-content_type: parody_column
+content_type: news
 country: guyana
 date: 2026-04-01 08:00:00-04:00
 description: A frank assessment of where things stand — what's moving, what's stalled,

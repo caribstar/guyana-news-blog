@@ -3,7 +3,7 @@ homepage_hide: true
 author: Femi Adekunle
 categories:
 - Naija Brief
-content_type: parody_column
+content_type: satire
 country: nigeria
 date: 2026-04-21 00:36:00-05:00
 draft: false

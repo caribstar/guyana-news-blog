@@ -1,7 +1,7 @@
 ---
 categories:
 - Back-a-Truck
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-31
 description: De people's marketplace! Fictional buy, sell, trade, and barter from

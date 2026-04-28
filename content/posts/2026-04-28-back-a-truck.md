@@ -5,7 +5,7 @@ draft: false
 categories: ["Back-a-Truck"]
 tags: ["satire", "guyana", "street scenes", "bourda", "stabroek market", "georgetown", "back-a-truck"]
 author: "Back-a-Truck"
-content_type: "satire"
+content_type: satire
 label: "🟥 SATIRE / CHARACTER VOICE"
 description: "Back-a-Truck on the Tuesday market scene — the displaced vendor situation, the NGSA-week pencil economy, the Mobil station that everybody now glance at sideways, and the man at Stabroek Market with three different cell phones all ringing simultaneously."
 country: "guyana"

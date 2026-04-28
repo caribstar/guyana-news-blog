@@ -2,7 +2,7 @@
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-03-29 06:00:00-04:00
 description: Georgetown flooded again, the powerships are staying longer than expected,

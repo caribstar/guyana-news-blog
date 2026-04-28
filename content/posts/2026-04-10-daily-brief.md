@@ -3,7 +3,7 @@ cluster_id: oil-revenue-2026-04-10
 author: GDB Staff
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-04-10
 description: Oil revenues surge past $159B in Q1, Ali eyes Gulf storage deals, police

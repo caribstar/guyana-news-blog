@@ -2,7 +2,7 @@
 author: GDB Desk
 categories:
 - Daily Brief
-content_type: commentary
+content_type: news
 country: guyana
 date: 2026-03-27
 description: 'Government grabs 22 Georgetown streets, Exxon builds an 8th oil ship

@@ -2,7 +2,7 @@
 author: Uncle Ramesh
 categories:
 - Bounty Board
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-17
 description: Uncle Ramesh offering rewards fuh solving de nation's greatest mysteries.

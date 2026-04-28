@@ -2,7 +2,7 @@
 categories:
 - Progress Report
 - Government Achievements
-content_type: parody_column
+content_type: news
 country: guyana
 date: 2026-01-15
 draft: false

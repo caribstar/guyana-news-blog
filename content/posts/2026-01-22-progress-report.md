@@ -2,7 +2,7 @@
 categories:
 - Progress Report
 - Infrastructure
-content_type: parody_column
+content_type: news
 country: guyana
 date: 2026-01-22
 product_family: series

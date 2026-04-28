@@ -2,7 +2,7 @@
 author: Uncle Ramesh
 categories:
 - Patriots Portfolio
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-17
 fictional_character: true

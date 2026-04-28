@@ -2,7 +2,7 @@
 author: DJ Roadblock
 categories:
 - Traffic Report
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-16
 fictional_character: true

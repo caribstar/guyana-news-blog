@@ -2,7 +2,7 @@
 author: J. Boateng
 categories:
 - Ghana Brief
-content_type: parody_column
+content_type: satire
 country: ghana
 date: 2026-04-21 03:43:00-05:00
 draft: false

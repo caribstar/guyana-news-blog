@@ -1,7 +1,7 @@
 ---
 categories:
 - Caribbean Brief
-content_type: commentary
+content_type: news
 date: 2026-01-31
 description: IMF approves US$415M emergency aid for Jamaica, Caribbean Airlines closes
   Barbados hub, Venezuela aftermath reshaping regional travel, West Indies cricket,

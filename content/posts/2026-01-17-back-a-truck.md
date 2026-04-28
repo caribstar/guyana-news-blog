@@ -2,7 +2,7 @@
 author: The People
 categories:
 - Back-a-Truck
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-17
 description: Absurd tings spotted around Guyana dis week. You can't make dis up!

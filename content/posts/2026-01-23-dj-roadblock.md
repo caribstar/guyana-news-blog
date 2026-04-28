@@ -2,7 +2,7 @@
 categories:
 - DJ Roadblock
 - Traffic
-content_type: parody_column
+content_type: satire
 country: guyana
 cover:
   alt: DJ Roadblock Cover

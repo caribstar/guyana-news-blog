@@ -2,7 +2,7 @@
 categories:
 - Patriots Portfolio
 - Business
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-01-30
 description: Your weekly guide to understanding Guyana's economic developments and

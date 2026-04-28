@@ -1,5 +1,6 @@
 ---
 title: "Miss Violet's Bulletin — Monday April 27, 2026"
+content_type: parody_column
 date: 2026-04-27T08:50:00-04:00
 draft: false
 categories: ["Bajan Brief"]

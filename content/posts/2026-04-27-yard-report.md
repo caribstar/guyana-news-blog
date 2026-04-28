@@ -1,5 +1,6 @@
 ---
 title: "The Yard Report — Jamaica Brief, Monday April 27, 2026"
+content_type: parody_column
 date: 2026-04-27T07:30:00-05:00
 draft: false
 categories: ["Jamaica Brief"]

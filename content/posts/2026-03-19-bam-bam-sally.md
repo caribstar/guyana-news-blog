@@ -1,7 +1,7 @@
 ---
 categories:
 - Bam-Bam Sally
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-03-19
 description: Bam-Bam Sally has opinions on this week's events. She always does. All

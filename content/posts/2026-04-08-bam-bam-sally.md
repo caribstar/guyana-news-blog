@@ -2,7 +2,7 @@
 author: Bam-Bam Sally
 categories:
 - Bam-Bam Sally
-content_type: parody_column
+content_type: satire
 country: guyana
 date: 2026-04-08
 description: Bam-Bam Sally with de Wednesday Rumour Mill — entirely fictional gossip
